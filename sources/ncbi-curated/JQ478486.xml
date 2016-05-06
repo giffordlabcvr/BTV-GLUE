@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ478486</GBSeq_locus>
+  <GBSeq_length>663</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>25-DEC-2012</GBSeq_update-date>
+  <GBSeq_create-date>25-DEC-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 16 isolate G53/IND/2011 outer capsid protein VP2 gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JQ478486</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ478486.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ478486.1|</GBSeqid>
+    <GBSeqid>gi|381562189</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..663</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Minakshi,P.</GBAuthor>
+        <GBAuthor>Ranjan,K.</GBAuthor>
+        <GBAuthor>Dadawala,A.I.</GBAuthor>
+        <GBAuthor>Chandel,B.S.</GBAuthor>
+        <GBAuthor>Prasad,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Partial nucleotide sequence analysis of VP2 gene of Bluetongue virus 16 from India</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..663</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Minakshi,P.</GBAuthor>
+        <GBAuthor>Ranjan,K.</GBAuthor>
+        <GBAuthor>Dadawala,A.I.</GBAuthor>
+        <GBAuthor>Chandel,B.S.</GBAuthor>
+        <GBAuthor>Prasad,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (25-JAN-2012) Animal Biotechnology, College of Veterinary &amp; Animal Sciences, Hisar, Haryana 125004, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..663</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>663</GBInterval_to>
+          <GBInterval_accession>JQ478486.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>G53/IND/2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>aborted blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>goat breed Mehsana</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45029</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Sardarkrushinagar, Dantiwada, Gujarat</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>10-Feb-2011</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;663</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>663</GBInterval_to>
+          <GBInterval_accession>JQ478486.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>neutralizing protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>outer capsid protein VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFG29500.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:381562190</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>QDRLYVLLMNAASDTNNGRVWWSNPYPCLRGALIASESKLGDVYHKLRAWYEWSVRPEYKPRDLEREQEKYIVGRVNLFDLEGEPATKVFHWEYELINKVYHITNHTGNHCDLYPDDVEITAKFDEERYGEMIQTIINEGWKHGDFKMFKILKEEGNPLLYDLEKDIRLDSRSQVIFPPYFNKWTHAPMFNAKVKPCEVELAQRKNEDPYVKRTVKPIRAD</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>caagatcgtttatatgtgttgctaatgaatgcggcgtcggacacaaataatggtagagtatggtggtcaaacccttatccatgtttacggggcgcgttgatcgcgtctgaatccaagcttggtgacgtgtaccataaattacgggcgtggtatgagtggagcgtaagacctgaatataaaccgcgagatttagagcgagaacaagaaaaatacatcgttgggcgcgttaacctctttgacttagaaggagagcccgcaacgaaggtgtttcactgggagtacgaattgattaataaggtgtatcatataacgaatcatacggggaatcattgtgatttgtatcctgacgatgtagagatcacggctaagtttgatgaggagagatacggagagatgattcaaacgataattaacgaaggatggaagcacggtgactttaaaatgtttaagattctgaaggaggagggtaaccccttactatatgatctagagaaggacattaggttagatagtagatcacaagttatatttccaccatatttcaacaaatggacgcacgctccaatgtttaatgcaaaagtgaaaccatgcgaagtcgagttagcgcaacgaaagaatgaagacccttacgtaaagcgaacggttaagcctatacgtgcggat</GBSeq_sequence>
+</GBSeq>

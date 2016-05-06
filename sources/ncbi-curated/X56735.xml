@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>X56735</GBSeq_locus>
+  <GBSeq_length>1769</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>11-APR-2003</GBSeq_update-date>
+  <GBSeq_create-date>29-JUL-1992</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus gene for non-structural protein NS1, genomic RNA</GBSeq_definition>
+  <GBSeq_primary-accession>X56735</GBSeq_primary-accession>
+  <GBSeq_accession-version>X56735.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|X56735.1|</GBSeqid>
+    <GBSeqid>gi|58757</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_secondary-accessions>
+    <GBSecondary-accn>S52021</GBSecondary-accn>
+  </GBSeq_secondary-accessions>
+  <GBSeq_keywords>
+    <GBKeyword>non-structural protein NS1</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Cowley,J.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Nucleotide sequence of the genome segment encoding nonstructural protein NS1 of bluetongue virus serotype 20 from Australia</GBReference_title>
+      <GBReference_journal>Virus Genes 6 (4), 387-392 (1992)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/BF01703087</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>1335630</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Cowley,J.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete nucleotide sequence of the genome segment encoding nonstructural protein NS1 of Bluetongue Virus serotype 20 from Australia</GBReference_title>
+      <GBReference_journal>Nucleic Acids Res. In press</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Cowley,J.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (22-NOV-1990) J.A. Cowley, C S I R O, DIV OF TROPICAL ANIMAL PRODUCTION, PRIVATE BAG NO 3, INDOOROOPILLY 4068, AUSTRALIA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Apr 14, 2003 this sequence version replaced gi:262747.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1769</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1769</GBInterval_to>
+          <GBInterval_accession>X56735.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>20</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>CSIRO 19</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>clone_lib</GBQualifier_name>
+          <GBQualifier_value>pUC18 SmaI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>35..1693</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>35</GBInterval_from>
+          <GBInterval_to>1693</GBInterval_to>
+          <GBInterval_accession>X56735.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>non-structural protein NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAA40059.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:58758</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR002630</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/Swiss-Prot:P32931</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLSNGMCAKQNFERAMIAATDAEEPIKAFRLIELAKEAMYDRETVWLQCFKSFSQPYEEDIEGKIKRCGAQLLEDYRKSGMMEEAIKQSALINSERVRLDDSLSAIPYIYVPIKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGVRGQHHQIKREVERQINTCPYTGYKGGIFQVMYLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYLEEIRYVQQLFGKVPSGEFPLHQMMLMRRDFPTRDRNIVEARVKRSGDENWQSWLLPMVLVREGLDQQEKWEWLLEYMDRKHICQLCYLKHSKQIQTCSVIDVRASELIGCSPFRTVKIEEHVGNEPVFKTKLIRDQQIGRIGDHYYTTSCYTGAEALVTTAIHIHRWIRGCGIWNDEGWQEGVFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTVPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFTAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaagttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaacattagtggagattatgctaatgccacgagaacttttttggctatatcacctcaatggacttgcagtcacttaaaaagaaattgcttatccaatgggatgtgtgcgaaacagaattttgagagagcaatgattgcagcgacggatgcggaggaaccaataaaagcattccggctgatagaattggcaaaagaggcgatgtatgatcgagagaccgtttggctgcagtgttttaaaagcttctctcagccgtatgaggaggatatcgaaggcaagataaaacgatgcggtgcacagctacttgaagactaccgcaaaagtggaatgatggaggaggctattaagcaatctgctttgattaactcggagagggttagattagacgattcgctttcggccattccctatatttatgttcccataaaagaaggtcaaattgtgaacccaacgttcatctccaggtatcgccagatcgcgtactatttctacaatccagatgcagctgacgattggatagatccaaatttatttggggttagaggacagcatcatcaaattaagcgagaagttgagaggcagatcaacacttgcccttatactggatacaaaggaggaattttccaagtgatgtatttaccaattcaactaataaacttcctaaggatggatgattttgcaaaacatttcaataggtatgcttcgatggccatacagcaatatctaagagttggatatttagaagagattaggtatgtgcaacaattattcgggaaggttccatctggcgaattcccactgcatcagatgatgttaatgagacgtgatttcccaacgcgcgaccgtaacatcgtggaagcgcgtgtgaaaaggtcgggtgacgaaaattggcaaagctggttattaccaatggtcctggtgcgagaagggctagatcagcaggagaagtgggaatggcttctagagtatatggatagaaaacacatatgccagctctgctatttgaaacattcaaagcagatacagacgtgtagcgtaatagatgttcgcgcttcagagttgatcggttgctcacccttcagaactgtaaagatcgaggagcacgtaggtaatgaaccagtctttaaaactaagctaattcgtgatcagcaaatcggcagaattggggatcattattacacaacgagctgctataccggagctgaagcgttggttacaactgctatccatatacaccgatggatcagagggtgtggtatctggaatgatgaaggatggcaggagggagtgtttatgctgggacgtgtgctattaaggtgggagcttacgaaggcgcagcgcagcgcactgcttaggctcttctgttttgtctgttatggatatgctccccgcgcggatggaacggtacctgattggaacaatttaggcagtttcttagatatcatcctgaaaggaccggagctcagcgaagatgaggatgaaagagcttatgctacaatgtttgaaatggttcggtgtattatcaccttgtgttatgctgagaaagttcactttgctggattcaccgccccggcatgtgaaagtggggaagtaatcaatctcgctgctcgcatgtcacagatgtggatggaatattagttgtcagtttttgagtttatcttatttgctcattctattttctctcttagcactctactagaactttacaacttac</GBSeq_sequence>
+</GBSeq>

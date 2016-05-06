@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JF343006</GBSeq_locus>
+  <GBSeq_length>2859</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>12-JUL-2011</GBSeq_update-date>
+  <GBSeq_create-date>23-MAY-2011</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 15 VP2 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>JF343006</GBSeq_primary-accession>
+  <GBSeq_accession-version>JF343006.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JF343006.1|</GBSeqid>
+    <GBSeqid>gi|333408595</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 15</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 15</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2859</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Eschbaumer,M.</GBAuthor>
+        <GBAuthor>Wackerlin,R.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Beer,M.</GBAuthor>
+        <GBAuthor>Hoffmann,B.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Contamination in bluetongue virus challenge experiments</GBReference_title>
+      <GBReference_journal>Vaccine 29 (26), 4299-4301 (2011)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vaccine.2011.04.049</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>21557978</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..2859</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Eschbaumer,M.</GBAuthor>
+        <GBAuthor>Wackerlin,R.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Beer,M.</GBAuthor>
+        <GBAuthor>Hoffmann,B.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-FEB-2011) Institute of Diagnostic Virology, Friedrich-Loeffler-Institut, Suedufer 10, Greifswald 17493, Germany</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2859</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2859</GBInterval_to>
+          <GBInterval_accession>JF343006.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 15</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>15</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35331</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>found in a BTV-1 sample isolated from a sheep with clinical signs of bluetongue in France; suspected to be BTV-15 strain ISR2006/11 and a result of contamination in the laboratory</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..2859</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2859</GBInterval_to>
+          <GBInterval_accession>JF343006.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>outer capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEF32120.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:333408596</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MEDFPVSVIERNSTIAPAIIKRYPIIVDLRNMVALSGGKNDVTNIPRVRNIGVRQEGIRVGLKYRPDTETNVIFPKNLDVLIRAYDHKHRLTRDKRPTDHDADSISDGDVTVWVTNRTNEFYDIQPIYHTLEDEVCKVKFTSLLGSVSTDSNYAESMSYHYIGVERDKCDHSKWHRFFPMLLSDSINLGKEVGYILKETYKIKAIGEAREGQRQELRVDVPYTPGIGRNERISDMKLPVYKRFLEGYIRCQIEPNVPEKLTELKNQLDAICVAWYGGQVPIVADEICKITSRIGRLMWNTEEEPVDETMRSRAFQESIRLMFRTENSEYNNIQAIGSGRTQRQKFYALLIIAATDSFRWRIWWNNPYPCLRGCLIACEMELGDVYKSLKSIYKWTLRSSYSSQREIDRQLNVFPYQKINLFDFSGTPGTEIIHWRIAHIPVPDEIDYEHGYLCPESGDYDIVMAVDDDLYSTFKHRVIDRGWEHQAMKLDELIPQENNIFKMEFEKDAHLDNRNHLVLPPYYNRVVYCPLYHATAKITPTEISHRQSDDPWCERTLYGFRGDHVMTHYTGLNHIMNRRKPLMGQTLSVAQSMGDYTKYILGDGWSANSCTGTAYSSRLPTMLFQDIFDAIIRHLPKDKLRDQADYFSESRRRVGDIIDWDTFIVYSIYACFERKNQVLREEDATQIVRGISTAGKEKRLKLIERSFPIYYRELMKIKNAKTWKDAYAFNFLPLLLCAGTNVQYVHRQWSYPVLVSMEKGPRIIPAMVGRDLADGNLGDWHAYIKYYMGQHMEDQEVEEDSLEILKISLEHYMSHSYISNVKDVAVRMTKEIVLDLYFASGCNGVSEMMTFLLPIIHPRKGLVMFCIADDQVQPQVQCETALRRFPYTREYIHDVIVIQVGRPGELKQVWKRGSTKVKVCRRNFLRYDHKVILSRLCGLVYGNYELMTKLTNI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>58..2856</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>58</GBInterval_from>
+          <GBInterval_to>2856</GBInterval_to>
+          <GBInterval_accession>JF343006.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP2; Region: Orbi_VP2; pfam00898</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:250211</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggaggatttccctgtgagcgtaatcgaacgtaattcaaccatcgcaccagcgattataaagagatatcctatcatagtcgatctcaggaatatggtcgctttatcgggagggaagaatgatgttaccaacataccacgagtgcgaaacataggtgtcagacaagaagggatacgtgttggactgaaatatcgcccagatactgaaacgaacgttatctttcctaaaaatttagacgttctgatacgagcatacgatcataaacatcgattgacgagggataagagaccgactgaccatgatgcggactctatttcagacggcgacgttacggtgtgggtaacgaatcgaacgaatgaattctatgatatacaaccaatttatcacacgttggaggacgaagtctgcaaagtaaaattcacctcgttactagggagcgtttcgaccgattcaaattatgcggagagtatgtcttatcattatatcggtgtcgagcgcgacaagtgcgatcattcaaagtggcatagattctttcccatgcttttatcggattcgatcaatttaggcaaggaagtaggttacatattgaaagaaacgtataaaattaaggctataggagaggctcgggagggacagagacaggagttgcgagtggatgtgccatatacccctggcataggcagaaacgagaggatcagcgacatgaagttgcccgtatataagcgtttcctcgaaggctacatacgctgtcaaatcgagccaaacgtccctgagaagttaaccgagctgaagaatcagcttgatgcgatctgtgtggcgtggtatggtggacaggtgcccatagtcgctgatgaaatctgcaaaattacctcgcggatcggacgtctaatgtggaatacggaagaagagcccgttgatgagactatgagatcgagagcatttcaggaaagtattcgattgatgttccgcacggagaacagcgaatataataatatacaagcgataggcagtggcaggacgcagaggcagaagttttatgcacttctaataatcgcagcgaccgatagttttaggtggcgcatatggtggaataacccatacccgtgtttacgtggttgcctgatagcatgtgagatggagctaggtgacgtttataaaagtctaaaatcgatctataagtggaccttacgctcaagctattcctctcagcgtgaaatagatagacaacttaacgtatttccgtatcagaagatcaatttattcgatttttccgggacaccaggcactgaaataatacattggagaattgctcacatacccgtgccggatgaaatcgattatgaacatggatatttatgcccagaaagtggagattatgacattgtcatggccgttgatgatgatttatacagcacttttaaacatagagtaattgaccgggggtgggagcatcaggccatgaagctagatgaattgataccacaggagaataatatatttaaaatggaattcgaaaaagatgcgcaccttgacaatcgtaaccacttggttttgcctccgtattataacagagtagtatattgtcctttgtatcatgccacagcaaaaattacaccgacggaaatttcccatcgccaaagcgacgacccatggtgcgagcgaacgttgtatgggttcaggggcgatcatgtcatgacacattatactggactgaatcacattatgaatcgacggaagcctctcatgggtcaaacgttatcggtggcccaaagtatgggggattatactaaatatatattaggcgacggttggtcagctaacagttgcacagggaccgcgtattcatcgcgattaccaacaatgttgtttcaggatatctttgacgcgattattagacatcttccaaaagataaattgagggaccaagccgattatttctccgagtcgaggagacgtgtcggtgatatcattgattgggatacttttatcgtgtatagtatctacgcttgctttgaaaggaagaatcaggttctaagggaagaggatgcgacgcagattgtccggggaataagcacggcgggaaaagagaaaagacttaagttgattgaaagaagttttcccatttactatcgagaactgatgaagatcaagaatgcgaagacgtggaaggacgcttacgcctttaatttcttgccattactattgtgcgctggcacgaatgtgcaatacgtacatagacagtggtcctatccagtattggtttcgatggagaaggggccgcgtatcattcctgcgatggtgggaagggatttggcagatgggaatctaggcgattggcacgcatacattaagtactatatgggacagcatatggaggaccaagaggtggaggaggacagcttggagattctaaagatttcgcttgaacattatatgtctcacagttatatctctaacgttaaggacgtagcggtcaggatgacgaaggagattgttttagatttatacttcgcgtctgggtgcaacggagtaagtgaaatgatgacctttctattaccaattatacatccgcggaaaggtttggtgatgttctgtatagcggatgaccaagtgcagccgcaggttcaatgtgagacagcgcttcgtagatttccttatacgcgcgaatatatacatgatgttattgttatccaggtcgggaggccgggtgaacttaagcaagtttggaagcgcggtagcaccaaagtgaaagtatgccgacgaaactttttgaggtatgatcacaaagtcattctgtctaggttgtgtgggttagtttatggtaactatgaattgatgaccaagcttacaaatatatga</GBSeq_sequence>
+</GBSeq>

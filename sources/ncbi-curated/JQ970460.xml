@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ970460</GBSeq_locus>
+  <GBSeq_length>939</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>18-JUL-2012</GBSeq_update-date>
+  <GBSeq_create-date>18-JUL-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 16 isolate BTV16/Israel/2017/11 segment 9 VP6 protein gene, partial cds; and NS4 protein gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>JQ970460</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ970460.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ970460.1|</GBSeqid>
+    <GBSeqid>gi|395399759</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..939</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Golender,N.</GBAuthor>
+        <GBAuthor>Bumbarov,V.</GBAuthor>
+        <GBAuthor>Brenner,J.</GBAuthor>
+        <GBAuthor>Friedgut,O.</GBAuthor>
+        <GBAuthor>Panshin,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-APR-2012) Virology, Kimron Veterinary Institute, P.O.B. 12, Bet Dagan 50250, Israel</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..939</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>939</GBInterval_to>
+          <GBInterval_accession>JQ970460.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV16/Israel/2017/11</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>cattle</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45029</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Israel</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Nov-2011</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;939</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>939</GBInterval_to>
+          <GBInterval_accession>JQ970460.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP6 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFN58215.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:395399760</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>SEELKQRQIQINLVDWTESESEKENKAEPEEGDKAEELKDGEGTQSESSQKKESSKEVKDANVDRRIHTTVGPGSSAKGPGERTNENADRGDGEVRGGGGDADAGVGTTGANGGRWVVLTEEIARAIESKYGTKIDVYRDEVPAQIIEVERSLQKELGISREGVAEQTERLRDLRRKEKSGAHAKTAERGRRKQGKKPHGDAQKEGTEEDKTSEEPASIGITIEGVMSQKKLLSMIGGVERKMAPIGARESAVMLVSNSIKDVVRATAYFTAPTGDPHWKEVAREASKKKNILAYTSTGGDVKMEFLHLIDHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>119..352</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>119</GBInterval_from>
+          <GBInterval_to>352</GBInterval_to>
+          <GBInterval_accession>JQ970460.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS4 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFN58216.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:395399761</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MVRGRNRRAARRKRAAKRLKMQMWIDAYILQWDLDQAQKDLENARTRMLTEEMERLEEEVEMLMRELELLERMEEDG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tccgaggagttaaaacagagacagattcaaattaatttagttgattggacagagagcgagagcgaaaaagagaataaagcggaacccgaagagggagacaaagcagaggaattaaaggatggtgaggggacgcaatcggagagcagccagaagaaagagagcagcaaagaggttaaagatgcaaatgtggatagacgcatacatactacagtgggacctggatcaagcgcaaaaggacctggagaacgcacgaacgagaatgctgacagaggagatggagaggttagaggaggaggtggagatgctgatgcgggagttggaactactggagcgaatggaggaagatgggtagttctgacagaagagattgctcgcgcgatcgaatctaaatacggtacgaagattgatgtttacagagatgaggtcccagcacaaatcatcgaagtagagcgcagtctccagaaagagctggggatttcgcgtgagggagtggctgagcagacagagagattgagagatctgcgacgaaaagagaagagtggggcgcatgcaaagactgctgagagagggaggcgtaaacaaggaaagaagcctcatggtgatgcgcagaaagagggaaccgaagaagataagacgtctgaagaaccagcgagtatcgggatcactatagagggggttatgagtcagaaaaaactcttgagcatgatcggcggcgtagagagaaagatggctccaataggtgcgcgggagagtgcggttatgttagtctcaaacagtattaaagatgtggtgcgagctacagcgtatttcacagcgccaactggggatccacattggaaggaggtggctcgcgaagcttcaaaaaagaagaacatattggcttacacgagtacgggaggagatgtgaaaatggaattcctgcatttgatcgatcacctc</GBSeq_sequence>
+</GBSeq>

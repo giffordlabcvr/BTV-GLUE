@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JX399154</GBSeq_locus>
+  <GBSeq_length>1148</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>21-APR-2015</GBSeq_update-date>
+  <GBSeq_create-date>11-JUL-2013</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate K23/08 segment 7, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JX399154</GBSeq_primary-accession>
+  <GBSeq_accession-version>JX399154.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JX399154.1|</GBSeqid>
+    <GBSeqid>gi|496629154</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,Y.N.</GBAuthor>
+        <GBAuthor>Ganesh,K.</GBAuthor>
+        <GBAuthor>Nair,S.G.</GBAuthor>
+        <GBAuthor>Niranjan,V.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Deep sequencing as a method of typing bluetongue virus isolates</GBReference_title>
+      <GBReference_journal>J. Virol. Methods 193 (2), 314-319 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jviromet.2013.06.033</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23831448</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Reddy,N.Y.</GBAuthor>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Susmitha,B.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (17-JUL-2012) Veterinary Microbiology, College of Veterinary Science, Rajandrangar, Hyderbad, Andhra Pradesh 500030, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JX399148-JX399157 represent sequences from the 10 segments of Bluetongue virus isolate K23/08.; ##Assembly-Data-START## Assembly Method Bowtie v. 1 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1148</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1148</GBInterval_to>
+          <GBInterval_accession>JX399154.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV-1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>K23/08</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lab_host</GBQualifier_name>
+          <GBQualifier_value>BHK-21</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Tippanapalli village Wyra mandal Khammam Andhra Pradesh</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>26-Sep-2008</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>Susmitha B</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>12..1061</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>12</GBInterval_from>
+          <GBInterval_to>1061</GBInterval_to>
+          <GBInterval_accession>JX399154.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AGL45580.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:496629155</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETYQPGRWFMRAAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTLAGVTVSVGGVDMRAGRIIAWDGQAALQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aatcactagagatggacactatcgcagcaagagcgctcaccgtgatgcgggcatgtgccactttacaagaagcaagaatcgtgttagaagctaatgtaatggaaattttgggtattgcgattaataggtataatggattgacgcttcgtggggttacgatgcgcccgacatctttggctcaaagaaatgaaatgttttttatgtgtttggatatgatgttatcagcggctgggataaatgttggaccaatatcaccagattacacgcagcatatggcgacgattggagtgctagcaacgccagagatccctttcacaacagaggctgcgaatgagatcgcgcgtgtaacaggagaaacgtcgacgtggggaccggcgcgccaaccgtatgggttctttcttgaaacagaggaaacgtatcagcctggtcgctggtttatgcgagctgcgcaggccgtaactgccgtggtgtgtggcccggacatgatccaagtgtcactgaacgctggtgctagaggtgatgtgcaacaaatttttcagggccgtaatgatcctatgatgatatatttggtctggagaaggatagagaatttcgcgatggctcaagggaattcacaacaaacgctggccggtgtgacggttagcgtcggaggtgttgacatgagggcaggacgcataatcgcgtgggatgggcaggccgcactacaaattcacaaccctactcagcagaatgcaatggtgcagatacaagtggttttctatatatcaatggataaaactttgaatcaataccccgccttgactgcagagatattcaacgtctatagctttagagatcatacttggcatggattgagaaccgctatattaaatagaactactctgccaaatatgttaccacctatatttcctccaaatgaccgagatagcatattgactcttttgttgttgtcaactttagctgatgtatatactgtactacgaccggaattcgctatacatggtgtaaatccaatgccgggcccgctcacgcgagcgatcgcgcgcgccgcttatgtgtagcccactttgcacgggtgtgggttgcacaaacggtgtgtcggttgtgggaggtgtaacccattcatacgtckctragattacacttac</GBSeq_sequence>
+</GBSeq>

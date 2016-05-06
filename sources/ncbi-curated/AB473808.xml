@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB473808</GBSeq_locus>
+  <GBSeq_length>695</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>23-DEC-2008</GBSeq_update-date>
+  <GBSeq_create-date>20-DEC-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 21 NS3 gene for non-structural protein, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AB473808</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB473808.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB473808.1|</GBSeqid>
+    <GBSeqid>gi|218563414</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 21</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 21</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Inumaru,S.</GBAuthor>
+        <GBAuthor>Hosamani,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Bluetongue virus serotype 21 NS3</GBReference_title>
+      <GBReference_journal>Published Only in Database (2008)</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..695</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Inumaru,S.</GBAuthor>
+        <GBAuthor>Hosamani,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (18-DEC-2008) Contact:Shigeki Inumaru National Institute of Animal Health, Research Team for Advanced Biologicals; 3-1-5, Kannondai, Tsukuba, Ibaraki 305-0856, Japan URL :http://niah.naro.affrc.go.jp/index-j.html</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..695</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>695</GBInterval_to>
+          <GBInterval_accession>AB473808.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 21</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>TO4-3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>21</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45030</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>AB473808.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>AB473808.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>non-structural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAH03440.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:218563415</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSTEIPQWFKSLNPMLGVINLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgctatccgggctgatccaaaggttcgaggaagaaaaaatgaaacataatcaggagagagtcgaagagctaagtctggttcgtgtggatgatacaatttcgcaaccaccgagatatgctccgagtgccccaatgccgtcatcaatgccaaccgttgcccttgaaatattggataaagcgatgtcaaacactactggtgcaacgcaaacacagaaggcggagaaagctgcattcgcatcgtacgcagaagcgtttcgtgatgatgtgaggctaagacagatcaaacgtcatgttaatgaacagattctcccaaagctaaagagtgatctaggtggtttaaagaaaaagagagctatcatacacatgacgttgttggttgccgctgtagtagcattgttgacgtcagtatgcacgctttcaagtgatatgagtgtggcgtttaaacttaatggtacatcaacggaaataccgcagtggtttaagagtttaaatcctatgctcggagtgataaatctaggtgcgactttcataatgatggtttgtgcgaagagcgaaagagggttaaatcagcagattgacatgatcaagaaggaagttatgaagaagcaatcatacaatgatgcggtgaggatgagtttcactgagttctcgtcagtcccgctagatggtttcgaactaccattaacctaagatca</GBSeq_sequence>
+</GBSeq>

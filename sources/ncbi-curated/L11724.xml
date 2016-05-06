@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BTVVP7MCPB</GBSeq_locus>
+  <GBSeq_length>1152</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>17-JAN-1995</GBSeq_update-date>
+  <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus major core protein VP7 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>L11724</GBSeq_primary-accession>
+  <GBSeq_accession-version>L11724.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|L11724.1|BTVVP7MCPB</GBSeqid>
+    <GBSeqid>gi|469181</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>major core protein VP7</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 15</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 15</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1152</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wang,L.F.</GBAuthor>
+        <GBAuthor>Kattenbelt,J.A.</GBAuthor>
+        <GBAuthor>Gould,A.R.</GBAuthor>
+        <GBAuthor>Pritchard,L.I.</GBAuthor>
+        <GBAuthor>Crameri,G.S.</GBAuthor>
+        <GBAuthor>Eaton,B.T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Major core protein VP7 of Australian bluetongue virus serotype 15: sequence and antigenicity divergence from other BTV serotypes</GBReference_title>
+      <GBReference_journal>J. Gen. Virol. 75 (Pt 9), 2421-2425 (1994)</GBReference_journal>
+      <GBReference_pubmed>8077943</GBReference_pubmed>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Apr 8, 1994 this sequence version replaced gi:323199.; *natural host = Ovis ammon aries~ cell type = BHK or SVP.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1152</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1152</GBInterval_to>
+          <GBInterval_accession>L11724.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 15</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>Australian</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35331</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>primer_bind</GBFeature_key>
+      <GBFeature_location>complement(1..20)</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>1</GBInterval_to>
+          <GBInterval_iscomp value="true"/>
+          <GBInterval_accession>L11724.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>putative</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>primer_bind</GBFeature_key>
+      <GBFeature_location>complement(14..32)</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>32</GBInterval_from>
+          <GBInterval_to>14</GBInterval_to>
+          <GBInterval_iscomp value="true"/>
+          <GBInterval_accession>L11724.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>putative</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>L11724.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>putative</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>major core protein VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA60955.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:323200</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRSCVTLQDARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSQAQKNDMFFMCLDMMLSAAGINLGPISPDYQQHMGTIGVLATPEVPFTTECANEVARVAGETSTWGPARQAYGFFLESEEVFQPGRWFMRPAQAVTPVICGPDMIQVSMNAGARADIQQIFQGRNDPMMIYIIWRRIEIFANAQGNSVQTQAGVTVSIGGVNIRAGRITAWDGQAALNVHNPTAANAMIQIQVVFYVSMDKTLNQYPALASEIYNIYSFRDPTWHALRMAILNRTTLPGVLPPIFPPADRESVIVLLLLSTLADVYTVLKPEFIIHGVAPIVGQITRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>primer_bind</GBFeature_key>
+      <GBFeature_location>1139..&gt;1152</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1139</GBInterval_from>
+          <GBInterval_to>1152</GBInterval_to>
+          <GBInterval_accession>L11724.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>putative</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaatctatagagatggacacaatcgctgcacgagcgctcaccgttatgagatcttgcgtcacgctacaggatgcgagaatagtgttggaagcaaatgtgatggagattctaggtatagcgatcaatagatacaatggactcacattaagaggagttacaatgaggccaacatcccaggctcagaagaatgacatgttctttatgtgcttagatatgatgctgtcggcagcggggattaatctagggccaatatctccagactatcaacaacatatgggtacgatcggtgttttagcaacgcctgaggttccgtttactactgagtgtgccaatgaggttgcgcgagtggcaggtgagacgtcaacgtggggaccggcgcgccaggcttacggattcttcctagagagtgaagaagtgtttcagccagggagatggttcatgagacccgctcaggccgtaacgccagtaatctgtgggccagacatgatccaagtttcgatgaatgcgggtgcgagggcggatatacaacaaatttttcaaggacggaacgatccgatgatgatttacatcatctggagacggattgaaatcttcgcaaatgctcagggaaattcagttcagacacaggcaggagttacggtgagcatcgggggtgtgaatattagagcaggaaggattacagcttgggatggccaggcggcgctgaacgttcacaacccaacagcagcgaacgcaatgattcagattcaagtcgtgttctatgtctcgatggacaaaactttgaaccaatacccagcgttggcgtctgagatttataacatttacagttttagagatccgacttggcacgcgctgcgcatggcaattctgaatcgtacgactttacctggtgtgctacctcccatatttccccccgcggatcgagagagcgttatcgtgttgttgttgctgtctacgttggcggatgtttacactgtgttgaagccggagttcatcattcatggggtagctccaattgtggggcagataacaagggcgatcgcgcgcgcagcgtatgtctagcggcgcttgcacggggcgcactggccatacctgagtgtcggttgtgggaagtgtgacccatttatacctctgcgattatacttac</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB244088</GBSeq_locus>
+  <GBSeq_length>379</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>10-JAN-2009</GBSeq_update-date>
+  <GBSeq_create-date>23-AUG-2006</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus gene for core protein VP3, partial cds, strain: OKB1999</GBSeq_definition>
+  <GBSeq_primary-accession>AB244088</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB244088.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB244088.1|</GBSeqid>
+    <GBSeqid>gi|112982648</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Fukutomi,T.</GBAuthor>
+        <GBAuthor>Oouchi,M.</GBAuthor>
+        <GBAuthor>Sawada,K.</GBAuthor>
+        <GBAuthor>Hirai,N.</GBAuthor>
+        <GBAuthor>Hada,M.</GBAuthor>
+        <GBAuthor>Okuda,K.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Antigenic and genetic analyses of Bluetongue viruses spreaded in Okayama Prefecture</GBReference_title>
+      <GBReference_journal>J.Jpn.Vet.Med.Assoc 59, 535-539 (2006)</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..379</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Fukutomi,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (08-DEC-2005) Contact:Toyoko Fukutomi Okayama Prefecture Veterinary Diagunostic Laboratory; Mitsu 2770-1, Okayama city, Okayama prefecture 709-2123, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..379</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>379</GBInterval_to>
+          <GBInterval_accession>AB244088.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>OKB1999</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>bovine erythrocytes</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan: Okayama</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>1999</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;379</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>379</GBInterval_to>
+          <GBInterval_accession>AB244088.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>core protein VP3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAF03503.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:112982649</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>LMFPGQIILDLKIDPGERMDPAVRMVAGVVGHLLFTVGGRFTNLTQNMARQLDIALNDYLLYMYNTRVQVNYGPTGEPLDFHIGRNQYDCNVFRADFATGTGYNGWATIDVEYREPAPYVHAQRYI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cctgatgtttccaggacaaattatactcgatcttaagattgaccctggtgaaaggatggatccagcagtaagaatggtcgcgggcgttgtgggtcatctgcttttcacggtgggaggacgatttactaacctgactcagaacatggctcgtcaattagacatcgcgttgaacgattacctattatatatgtataacacacgtgtgcaggttaattatggccctacgggggagccgttggatttccatatcggcaggaatcaatatgattgcaacgtatttcgagcagatttcgcgacgggaacaggatataatggttgggcgacgattgatgttgagtatagagaacctgcgccctacgtacatgctcagcgttacata</GBSeq_sequence>
+</GBSeq>

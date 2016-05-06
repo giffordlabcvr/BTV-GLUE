@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EU880289</GBSeq_locus>
+  <GBSeq_length>244</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>10-SEP-2008</GBSeq_update-date>
+  <GBSeq_create-date>10-SEP-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate IND/2007/04/BT8 nonfunctional nonstructural protein NS1 gene, partial sequence</GBSeq_definition>
+  <GBSeq_primary-accession>EU880289</GBSeq_primary-accession>
+  <GBSeq_accession-version>EU880289.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EU880289.1|</GBSeqid>
+    <GBSeqid>gi|198076119</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..244</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Minakshi,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Molecular characterization of Indian BTV isolates based on NS1 gene</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..244</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Minakshi,P.</GBAuthor>
+        <GBAuthor>Gupta,O.N.</GBAuthor>
+        <GBAuthor>Singh,A.K.</GBAuthor>
+        <GBAuthor>Prasad,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (10-JUL-2008) Animal Biotechnology, CCS Haryana Agricultural University, COVS, Hisar, Haryana 125004, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..244</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>244</GBInterval_to>
+          <GBInterval_accession>EU880289.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>IND/2007/04/BT8</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>complement(&lt;1..218)</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>218</GBInterval_from>
+          <GBInterval_to>1</GBInterval_to>
+          <GBInterval_iscomp value="true"/>
+          <GBInterval_accession>EU880289.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonfunctional nonstructural protein NS1 due to mutation</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gccggtggccattcaccaatctgtacgcttttgccggctcctctgcatcagttgctgcaatcattgctctaacaaaattttgtttggcacacatcccattgaatagacaattcctctttaagtgactacaagtccattgtggtgaaatagccaaaaaagtcctcgtggcatttgcgtaatccccaccctatgttgtattttctcaaaaagcgctccatgtttggtggttgccaactagagaaca</GBSeq_sequence>
+</GBSeq>

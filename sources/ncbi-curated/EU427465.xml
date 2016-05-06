@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EU427465</GBSeq_locus>
+  <GBSeq_length>1799</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>08-MAR-2008</GBSeq_update-date>
+  <GBSeq_create-date>08-MAR-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 2 isolate Mahaboob Nagar nonfunctional outer capsid protein VP2 (VP2) gene, partial sequence</GBSeq_definition>
+  <GBSeq_primary-accession>EU427465</GBSeq_primary-accession>
+  <GBSeq_accession-version>EU427465.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EU427465.1|</GBSeqid>
+    <GBSeqid>gi|169245996</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 2</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1799</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Dasaiah,C.B.</GBAuthor>
+        <GBAuthor>Sreenivasulu,D.</GBAuthor>
+        <GBAuthor>Narasimha Reddy,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Comparison of VP2 gene sequences of Bluetongue virus serotype 2 isolates of Andhra Pradesh</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1799</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Dasaiah,C.B.</GBAuthor>
+        <GBAuthor>Sreenivasulu,D.</GBAuthor>
+        <GBAuthor>Narasimha Reddy,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-JAN-2008) Department of Microbiology, Sri Venkateswara Veterinary University, College of Veterinary Sciences, Tirupati, Andhra Pradesh 517502, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1799</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1799</GBInterval_to>
+          <GBInterval_accession>EU427465.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Mahaboob Nagar</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35328</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>L2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>passaged in BHK-21 cells</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;1799</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1799</GBInterval_to>
+          <GBInterval_accession>EU427465.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;1799</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1799</GBInterval_to>
+          <GBInterval_accession>EU427465.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonfunctional outer capsid protein VP2 due to mutation</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gtcgggatattatcacgcatcggaaggatcatgttggatcaggaggcggaacctgtggatgaaggcagtatttcacttagattccagcaggcgttagatgaaaaatttcgtttgaatgattcagaaaggaatataatattcgagcctaagtcgcatcgaaaagatgaagataggttttatgtcttattggttatagcagcgtctgacaccaacaactcaaggatctggtggtcaaacccgtacccatgtctaagaggagcgttaatcgctgcagagtcgaagctgggagatgtttattttacattacgttcatggtatgattggagtgttcgtagcaactacgcaccccgcgaaagagagcgtgaaacagagaagtatatatttagtagggttaatctttttgattatgatgcgggaccgtcaagcaaaataatacattgggagtaccagttgtataagaatgagtggaaggttacccttgaacgaggaaatgcttgtgatttgtacccagatagcgatgaggacgtgatagtcacgaaattcgatgagactaaatacacagagatggttggggagataatagatggcgggtggaatggagaagaattcaaaatgtataaattacttcagagtgacggtaatgttctaactattgattttgaaaaagacgccaagttaaacagcacatcagatgtatcctacctggattactataataagtggatcatagcgccaatgtttaattctaagctacggataactgagacggagattgctacgaataaaagtgatgatcctatgattaagagaagccttaaaccgatgactaatgacccagttgacttacagagatatactctggctcgttactacgatgtacggccagtaataatgggccgctcattggctagaaagcaaactcaatcaacgttcgatgcgaagatatcagaaattaaagattatgatgaggtcatcgcgcgattcggcgtattgcaaaagcccacgcatccgtgtatgactctgacgggaagatatgtgctggagagcatctccctgctcctgatcagcgttttgagataccacgcggatatggaggcggatccattggaagagttcacgcatcctcaaattgatttacagcataagtttaatggcagtccacttgttgacttgagtcaaacagtaatttacttaatcgattatctatacgaaagacgcagccgtgtgaggccggtattcgaagcgagatatatcttttttaaattgaggagcgcagtgggtagtgatcggctggatctgattaggtactactttcctgcttttgcgcaaaaaattgctgtagctcggaggccctctcaaatcaaagatctgatggttttaaatttattacccttattctttcttataggtgacaacatgatctataaacatagacagtggtctatcccattactactgtacgctgatcaggtgaaagtaatcccattggaagttggttcctcaaacaataggcagggattggtatcctacctagagtacatgtgtttctttccgtcgttgccggatagggagtctactgtcgacgaggcgatggttaaggtatccgccgaagtagttaattattacttgaagacgacgatttctgatggcggtgttaactttaatgttgtttcgactaaatcgatgttgcttgatacgtatctttcatcgatttgtggtgggatctcggacggggttgtgtggtatttgcctgtaactcatccgtataaatgcgtcgttgctatcgaagtgtgcgacga</GBSeq_sequence>
+</GBSeq>

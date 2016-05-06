@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JX272467</GBSeq_locus>
+  <GBSeq_length>1052</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-MAY-2013</GBSeq_update-date>
+  <GBSeq_create-date>31-MAY-2013</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 16 isolate 7766 segment 9, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JX272467</GBSeq_primary-accession>
+  <GBSeq_accession-version>JX272467.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JX272467.1|</GBSeqid>
+    <GBSeqid>gi|480327461</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1052</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Koekemoer,O.</GBAuthor>
+        <GBAuthor>DeCastro,M.</GBAuthor>
+        <GBAuthor>Michuki,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genome sequences of bluetongue virus prototype strains</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1052</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Koekemoer,O.</GBAuthor>
+        <GBAuthor>DeCastro,M.</GBAuthor>
+        <GBAuthor>Michuki,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (04-JUL-2012) Virology, Onderstepoort Veterinary Institute, 100 Old Soutpan rd, Onderstepoort, GAU 0110, South Africa</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Assembly Method CLC bio v. 5.1 Sequencing Technology 454; Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1052</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1052</GBInterval_to>
+          <GBInterval_accession>JX272467.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>7766</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45029</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>16..1008</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>16</GBInterval_from>
+          <GBInterval_to>1008</GBInterval_to>
+          <GBInterval_accession>JX272467.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AGJ83569.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:480327462</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MSAAILLAPGDVIMRSSEELKQRQIQINLVDWTESESGKKEEPKVEGENREQDNLNDGEGTQQKDGKKKEGGEEAQDANVDRRLHTTVGSGSSTKGSGERTDKDVDGGDGKTRGGGGNVDEGAGVAGASRGGWVVLTDEIARAIESKYGTKVDVYRDETSAQIIEIERSLQKELGITREGVAEQTEKLRDLRRKEKGEPRTKAVAKGDRKHGKNSRDSSSKKEGAGEEVQEETTKVGITIEGVMSQKKLLSMIGGVERKAAPIGARESAVMLVSNNIKDVARATAYFTSPTGDPKWKEVAREASKKKNILAYSSTGGDTKTEFLHLIDHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>31..1005</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>31</GBInterval_from>
+          <GBInterval_to>1005</GBInterval_to>
+          <GBInterval_accession>JX272467.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus helicase VP6; Region: Orbi_VP6; pfam01516</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:250678</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaatcgcatatgtcagctgcgatactacttgcacccggtgacgtgattatgcgttcatccgaggagttaaaacagagacaaattcagattaatttagttgattggactgaaagtgaaagtgggaagaaagaagaaccaaaagtagaaggagagaatagagaacaagacaatttgaacgatggtgaggggacacaacagaaggatggcaagaagaaagagggcggcgaagaagctcaagatgcaaatgtggatagacgcttacatactacagtgggatctggatcaagcacaaaaggatctggagaacgcacggacaaggatgttgacggaggagatggaaagactagaggaggaggtggaaatgttgatgagggagctggagttgctggagcgagcagaggaggatgggtagtgttaactgatgagatcgctcgcgcgattgaatctaaatacggtacgaaggttgatgtttacagggatgagacgtcagcgcagataatcgagatcgagcggagcttacaaaaagaactgggaatcacccgagaaggagtggcggaacaaacggaaaagctgagagatctgcgacgtaaagagaaaggtgagccacgaactaaggcggtggcgaaaggagatcggaaacatggaaagaatagccgagatagctcttcaaaaaaggagggtgctggagaggaggtgcaggaggaaaccaccaaagttggcataacgatcgaaggagtcatgagtcaaaagaaacttttaagtatgattggtggtgttgagaggaaggcggcaccgataggggcgcgagagagtgccgttatgttagtgtcaaataacattaaagatgtagcgcgtgcaacagcatactttacctcgcctacgggagacccaaaatggaaggaggtggcgcgcgaggcttcaaagaaaaagaacattttggcgtattcgagcacgggtggagatactaagacggagttccttcatttaattgatcacctctaaagggtccagggtaccttcttgacgtagtgcgattttacacttac</GBSeq_sequence>
+</GBSeq>

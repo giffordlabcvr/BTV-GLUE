@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KJ019214</GBSeq_locus>
+  <GBSeq_length>822</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>27-FEB-2014</GBSeq_update-date>
+  <GBSeq_create-date>13-JAN-2014</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 1 isolate BTV-1 SAD2013 segment 10, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KJ019214</GBSeq_primary-accession>
+  <GBSeq_accession-version>KJ019214.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KJ019214.1|</GBSeqid>
+    <GBSeqid>gi|572168501</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 1</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 1</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Lorusso,A.</GBAuthor>
+        <GBAuthor>Marcacci,M.</GBAuthor>
+        <GBAuthor>Ancora,M.</GBAuthor>
+        <GBAuthor>Mangone,I.</GBAuthor>
+        <GBAuthor>Leone,A.</GBAuthor>
+        <GBAuthor>Marini,V.</GBAuthor>
+        <GBAuthor>Camma,C.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete Genome Sequence of Bluetongue Virus Serotype 1 Circulating in Italy, Obtained through a Fast Next-Generation Sequencing Protocol</GBReference_title>
+      <GBReference_journal>Genome Announc 2 (1), E00093-14 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/genomeA.00093-14</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24526649</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Marcacci,M.</GBAuthor>
+        <GBAuthor>Ancora,M.</GBAuthor>
+        <GBAuthor>Mangone,I.</GBAuthor>
+        <GBAuthor>Camma',C.</GBAuthor>
+        <GBAuthor>Lorusso,A.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-JAN-2014) Virology Unit, Istituto Zooprofilattico Sperimentale Abruzzo e Molise, Campo Boario, Teramo, IT 64100, Italy</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers KJ019205-KJ019214 represent the complete genome of Bluetongue virus serotype 1.; ##Assembly-Data-START## Assembly Method MIRA v. version 4.0rc4 Sequencing Technology IonTorrent ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..822</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>822</GBInterval_to>
+          <GBInterval_accession>KJ019214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV-1 SAD2013</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>RNA purified from BSR cells infected with the supernatant of KC cells used for direct isolation from sheep blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35327</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Italy: Sardinia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>26-Oct-2013</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>20..709</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>709</GBInterval_to>
+          <GBInterval_accession>KJ019214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>glycoprotein; involved in cell exit</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AHF50163.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:572168502</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLIAAVVALLTSVCTLSSDMSVAFKLNGTSAEIPQWFKSLNPMLGVVNLGATFLMMVCAKSERSLNQQIDLIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagtgtcgctgccatgctatccgggctgatccaaaggttcgaggaagaaaaaatgaaacataatcaggaacgggttgaagagttgagtctggtccgtgtggatgacacgatttcccaaccgccgagatatgctccgagtgcgcccatgccatcgtcaatgcctactgttgcacttgaaatcttggacaaagcaatgtcaaatacaacgggtgcaacgcaaacacaaaaagcggagaaagctgcattcgcatcgtacgcagaagcgtttcgtgatgatgtgaggttgagacaaattaaacgacatgtaaatgaacaaattctgccaaaattgaaaagtgacctaggaggcttaaagaagaaaagagctataatacatatgacgctactgatagcggcggttgttgctctgttgacatcagtttgcacgttatcaagtgatatgagcgtggcatttaagctaaatggtacatcagctgagatacctcaatggtttaagagtttaaatccaatgttgggtgtggtgaatttgggggctaccttcctgatgatggtttgcgcaaaaagcgagagaagcttgaaccagcaaattgacttgattaagaaggaagtgatgaagaaacaatcgtataatgacgcggtgaggatgagttttacagaattttcatcagtcccgctagatggtttcgaattaccattaacctaaggtcagtaggtagagtggcgccccgaggtctgtgtcgtgtagagtggttgatctcacgatgcagactcctactgctgtctaacgggggagggtacgcggcgctacacacttac</GBSeq_sequence>
+</GBSeq>

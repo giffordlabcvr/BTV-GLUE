@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AF044384</GBSeq_locus>
+  <GBSeq_length>822</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>17-SEP-1998</GBSeq_update-date>
+  <GBSeq_create-date>23-SEP-1998</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus strain 10B90Z serotype 10 non-structural protein NS3 and non-structural protein NS3A genes, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AF044384</GBSeq_primary-accession>
+  <GBSeq_accession-version>AF044384.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AF044384.1|</GBSeqid>
+    <GBSeqid>gi|3643741</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Pierce,C.M.</GBAuthor>
+        <GBAuthor>Balasuriya,U.B.</GBAuthor>
+        <GBAuthor>MacLachlan,N.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Phylogenetic analysis of the S10 gene of field and laboratory strains of bluetongue virus from the United States</GBReference_title>
+      <GBReference_journal>Virus Res. 55 (1), 15-27 (1998)</GBReference_journal>
+      <GBReference_pubmed>9712508</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Pierce,C.M.</GBAuthor>
+        <GBAuthor>Balasuriya,U.B.R.</GBAuthor>
+        <GBAuthor>MacLachlan,N.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (26-JAN-1998) Vet. Med. Pathology, Microbiology, Immunology, University of California, Davis, 1112 Haring Hall, Davis, CA 95616, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..822</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>822</GBInterval_to>
+          <GBInterval_accession>AF044384.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>10B90Z</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>chromosome</GBQualifier_name>
+          <GBQualifier_value>S10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>field strain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>primer_bind</GBFeature_key>
+      <GBFeature_location>1..19</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>19</GBInterval_to>
+          <GBInterval_accession>AF044384.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>derived from the S10 Bluetongue virus 17 prototype strain sequence (Hwang et al., 1992, Virus Res., 23, 151-161)</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>20..709</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>709</GBInterval_to>
+          <GBInterval_accession>AF044384.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>non-structural protein NS3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAC42300.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:3643742</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPPWFKGLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>59..709</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>59</GBInterval_from>
+          <GBInterval_to>709</GBInterval_to>
+          <GBInterval_accession>AF044384.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>non-structural protein NS3A</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAC42301.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:3643743</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPPWFKGLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>primer_bind</GBFeature_key>
+      <GBFeature_location>complement(804..822)</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>822</GBInterval_from>
+          <GBInterval_to>804</GBInterval_to>
+          <GBInterval_iscomp value="true"/>
+          <GBInterval_accession>AF044384.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>derived from the S10 Bluetongue virus 17 prototype strain sequence (Hwang et al., 1992, Virus Res., 23, 151-161)</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagtgtcgctgccatgctatccgggctgatccaaaggttcgaagaagaaaagatgaaacataatcaagatagggttgaagagctgagtttagtgcgtgtggatgataccatttctcaaccaccaaggtatgctccgagtgcgccgatgccatcatctatgccaacggttgcccttgaaatactggacaaagcgatgtcaaacacaactggtgcaacgcaaacacaaaaggcggagaaggctgcattcgcatcgtacgcggaagcgtttcgtgatgatgtaagattaagacaaattaaacgccatgtaaatgaacagattttacccaaactgaaaagtgatttaagcggattgaagaagaagcgagcaatcatacacactactctactagtggctgctgtggttgcgttactgacatcagtttgcaccctttcaagtgatatgagtgtggccttcaagataaatgggaccaaaacagaagtgcctccatggtttaaaggccttaatccaatgttaggcgtcgtcaatttaggagcaacttttttgatgatggtttgcgcaaagagtgaaagagccttgaatcagcagatagatatgataaagaaagaagtgatgaaaaaacaatcatataacgacgcggtgaggatgagttttacagagttctcgtcaatcccgctggatggtttcgaaatgccgttaacctaaggacagtaggtagagtggcgccccaaggtttacgtcgtgcagggtggttgacctcgcggcgtaaattcccactgctgtataacgggggagggtacgcggcgctacacacttac</GBSeq_sequence>
+</GBSeq>

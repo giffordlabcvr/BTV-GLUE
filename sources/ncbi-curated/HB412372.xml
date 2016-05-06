@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HB412372</GBSeq_locus>
+  <GBSeq_length>41</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>29-JUN-2009</GBSeq_update-date>
+  <GBSeq_create-date>29-JUN-2009</GBSeq_create-date>
+  <GBSeq_definition>Sequence 3 from Patent WO2009068870</GBSeq_definition>
+  <GBSeq_primary-accession>HB412372</GBSeq_primary-accession>
+  <GBSeq_accession-version>HB412372.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|HB412372.1|</GBSeqid>
+    <GBSeqid>pat|WO|2009068870|3</GBSeqid>
+    <GBSeqid>gi|242319143</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Roy,P.</GBAuthor>
+        <GBAuthor>Boyce,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Method for producing vaccinal viral strain of a virus of the reoviridae family</GBReference_title>
+      <GBReference_journal>Patent: WO 2009068870-A1 3 04-JUN-2009; London School Of Hygiene &amp; Tropical Medicine (GB)</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..41</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>41</GBInterval_to>
+          <GBInterval_accession>HB412372.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>caaactgatgtcagcagcgctaccacagcagccactagtag</GBSeq_sequence>
+</GBSeq>

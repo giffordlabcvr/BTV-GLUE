@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AF174647</GBSeq_locus>
+  <GBSeq_length>1240</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>01-SEP-2000</GBSeq_update-date>
+  <GBSeq_create-date>01-SEP-2000</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus PSMCH1 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AF174647</GBSeq_primary-accession>
+  <GBSeq_accession-version>AF174647.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AF174647.1|</GBSeqid>
+    <GBSeqid>gi|9957025</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1240</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,G.</GBAuthor>
+        <GBAuthor>She,M.</GBAuthor>
+        <GBAuthor>Gao,P.</GBAuthor>
+        <GBAuthor>Zhang,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Cloning of the Related Gene Responsible for Smooth Muscle Cell Proliferation During the Pathogenesis of Atherosclerosis</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1240</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,G.</GBAuthor>
+        <GBAuthor>She,M.</GBAuthor>
+        <GBAuthor>Gao,P.</GBAuthor>
+        <GBAuthor>Zhang,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-AUG-1999) Department of Pathology, Institution of Basic Medical Sciences, Chinese Acadamy of Medical Sciences, 5 Dong Dan San Tiao, Beijing 100005, People's Republic of China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1240</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1240</GBInterval_to>
+          <GBInterval_accession>AF174647.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>7..1215</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>7</GBInterval_from>
+          <GBInterval_to>1215</GBInterval_to>
+          <GBInterval_accession>AF174647.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>PSMCH1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAG09179.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:9957026</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MCELDILHDSLYQFCPELHLKRLNSLTLACHALLDCKTLTLTELGRNLPTKARTKHNIKRIDRLLGNRHLHKERLAVYRWHASFICSGNTMPIVLVDWSDIREQKRLMVLRASVALHGRSVTLYEKAFPLSEQCSKKAHDQFLADLASILPSNTTPLIVSDAGFKVPWYKSVEKLGWYWLSRVRGKVQYADLGAENWKPISNLHDMSSSHSKTLGYKRLTKSNPISCQILLYKSRSKGRKNQRSTRTHCHHPSPKIYSASAKEPWVLATNLPVEIRTPKQLVNIYSKRMQIEETFRDLKSPAYGLGLRHSRTSSSERFDIMLLIALMLQLTCWLAGVHAQKQGWDKHFQANTVRNRNVLSTVRLGMEVLRHSGYTITREDLLVAATLLAQNLFTHGYALGKL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aacaagatgtgcgaactcgatattttacacgactctctttaccaattctgccccgaattacacttaaaacgactcaacagcttaacgttggcttgccacgcattacttgactgtaaaactctcactcttaccgaacttggccgtaacctgccaaccaaagcgagaacaaaacataacatcaaacgaatcgaccgattgttaggtaatcgtcacctccacaaagagcgactcgctgtataccgttggcatgctagctttatctgttcgggcaatacgatgcccattgtacttgttgactggtctgatattcgtgagcaaaaacgacttatggtattgcgagcttcagtcgcactacacggtcgttctgttactctttatgagaaagcgttcccgctttcagagcaatgttcaaagaaagctcatgaccaatttctagccgaccttgcgagcattctaccgagtaacaccacaccgctcattgtcagtgatgctggctttaaagtgccatggtataaatccgttgagaagctgggttggtactggttaagtcgagtaagaggaaaagtacaatatgcagacctaggagcggaaaactggaaacctatcagcaacttacatgatatgtcatctagtcactcaaagactttaggctataagaggctgactaaaagcaatccaatctcatgccaaattctattgtataaatctcgctctaaaggccgaaaaaatcagcgctcgacacggactcattgtcaccacccgtcacctaaaatctactcagcgtcggcaaaggagccatgggttctagcaactaacttacctgttgaaattcgaacacccaaacaacttgttaatatctattcgaagcgaatgcagattgaagaaaccttccgagacttgaaaagtcctgcctacggactaggcctacgccatagccgaacgagcagctcagagcgttttgatatcatgctgctaatcgccctgatgcttcaactaacatgttggcttgcgggcgttcatgctcagaaacaaggttgggacaagcacttccaggctaacacagtcagaaatcgaaacgtactctcaacagttcgcttaggcatggaagttttgcggcattctggctacacaataacaagggaagacttactcgtggctgcaaccctactagctcaaaatttattcacacatggttacgctttggggaaattatgaggggatctctcaggtgcaagctttt</GBSeq_sequence>
+</GBSeq>

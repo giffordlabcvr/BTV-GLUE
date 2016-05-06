@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>X17041</GBSeq_locus>
+  <GBSeq_length>1769</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>12-SEP-1993</GBSeq_update-date>
+  <GBSeq_create-date>27-DEC-1989</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus (serotype 17) RNA for nonstructural protein NS1</GBSeq_definition>
+  <GBSeq_primary-accession>X17041</GBSeq_primary-accession>
+  <GBSeq_accession-version>X17041.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|X17041.1|</GBSeqid>
+    <GBSeqid>gi|58747</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>nonstructural protein</GBKeyword>
+    <GBKeyword>NS1 protein</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Grubman,M.J.</GBAuthor>
+        <GBAuthor>Samal,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Nucleotide and deduced amino acid sequence of the nonstructural protein, NS1, of the US bluetongue virus serotype 17</GBReference_title>
+      <GBReference_journal>Nucleic Acids Res. 17 (24), 10498 (1989)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1093/nar/17.24.10498</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>2557592</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Grubman,M.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (26-OCT-1989) Grubman M. J., USDA, ARS, Plum Island Animal Disease Center, P.O. Box 848, Greenport, N.Y. 11944, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>See &lt;Y00422&gt; for Bluetongue virus (serotype 10) NS1 mRNA.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1769</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1769</GBInterval_to>
+          <GBInterval_accession>X17041.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>serotype 17</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>clone_lib</GBQualifier_name>
+          <GBQualifier_value>pUC18</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>35..1693</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>35</GBInterval_from>
+          <GBInterval_to>1693</GBInterval_to>
+          <GBInterval_accession>X17041.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>unnamed protein product; NS1 protein (AA 1-552)</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAA34899.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:58748</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR002630</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/Swiss-Prot:P14245</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQHFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGAQLLEDYRKSGMMDEAVKQSALVNSERIRLDDSLSAMPYIYVPINDGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYRGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEIRYVQQLFGRVPTGEFPLHQMMLMRRDLPTRDRSIVEARVRRSGDENWQSWLLPMIIIREGLDHQDRWEWFIDYMDRKHTCQLCYLKHSKQIPACSVIDVRASELTGCSPFKMVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGSGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGNFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACEGGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaagttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaatatcagtggggattacgcaaatgccacgagaacttttttggctatttcaccacagtggacttgcagtcacttaaaaaggaattgtctatttaatggaatgtgtgttaagcagcattttgagagagcgatgatcgcggcaactgatgcggaggagccggcgaaagcatacaaattggttgaattggcaaaggaagcaatgtatgatcgggaaacagtctggcttcaatgtttcaaaagcttttcccaaccgtacgaggaggatgtcgaagggaagatgaagcgatgcggagcgcaattgctcgaggattaccgcaaaagtgggatgatggatgaagccgtgaaacaatctgcgctggttaattcagaaagaattagattggatgattcactttccgcaatgccttacatctacgtgccaatcaatgatggtcaaattgttaatccgacatttatatcaagatatcgccaaattgcatattatttttacaacccagatgcagctgatgattggattgatccaaatctctttggcattcgtggacagcacaatcagattaaacgtgaggttgagagacaaattaacacatgcccttacactggatacagaggtagagtgtttcaagtaatgttcttgccgattcagctgatcaattttttgagaatggatgattttgcgaagcattttaacaggtacgcctcgatggcgatacaacaatatctgagagttggttatgctgaagagatcagatatgtacaacagctcttcggaagggtcccaacaggtgaatttccattacaccagatgatgctgatgagacgcgatctcccaacacgcgatcgcagtattgtggaggcgcgggtgaggagatcaggtgatgagaactggcaaagctggctattacctatgatcatcattcgtgaggggttggatcatcaggatcggtgggaatggtttattgattacatggataggaaacatacatgtcaactttgctacttgaaacactcaaaacagatcccagcctgtagtgtgattgatgtacgtgcatctgaattaactgggtgctcgccgttcaagatggtgaagatcgaagagcatgtaggaaatgattcagtgtttaaaacgaaattagttcgcgatgagcaaatcggcaggattggagatcattattatacaacaaattgttacactggagcggaggcattgattacaaccgcgattcacattcatcgctggattagggggtctggcatctggaacgatgaaggatggcaggagggtattttcatgcttggacgcgtgctgctgagatgggaattgacaaaggcgcaacgcagcgctttgctcaggctattctgttttgtatgttacggatatgcaccacgcgcagacggaacgataccggactggaataatcttggaaactttttggatatcattttgaaggggccagaacttagtgaagatgaggatgaaagagcttatgctacaatgtttgaaatggttcgatgcattataactctatgctatgcagaaaaggttcacttcgctgggttcgctgcgcctgcgtgtgaaggcggggaagtaattaatcttgctgcgcgcatgtctcagatgtggatggagtattagttactgatttttggttttttattcttcttttcatttctattttctcttagcactctactagaacttttcaacttac</GBSeq_sequence>
+</GBSeq>

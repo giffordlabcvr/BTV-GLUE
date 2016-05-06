@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JF443160</GBSeq_locus>
+  <GBSeq_length>1637</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>05-FEB-2012</GBSeq_update-date>
+  <GBSeq_create-date>05-FEB-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 9 isolate BBF segment 6, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JF443160</GBSeq_primary-accession>
+  <GBSeq_accession-version>JF443160.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JF443160.1|</GBSeqid>
+    <GBSeqid>gi|374277755</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 9</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 9</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1637</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,Y.V.</GBAuthor>
+        <GBAuthor>Meena,K.</GBAuthor>
+        <GBAuthor>Karunasree,N.</GBAuthor>
+        <GBAuthor>Susmitha,B.</GBAuthor>
+        <GBAuthor>Uma,M.</GBAuthor>
+        <GBAuthor>Prasad,P.U.</GBAuthor>
+        <GBAuthor>Chaitanya,P.</GBAuthor>
+        <GBAuthor>Reddy,Y.N.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genetic characterization of bluetongue virus serotype 9 isolates from India</GBReference_title>
+      <GBReference_journal>Virus Genes (2012) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/s11262-011-0707-4</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22258368</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1637</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rao,P.R.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (01-MAR-2011) Virology, Bharat Biotech Foundation, Genome valley, Turkapalli, Shameerpet mandal, Hyderabad, Andhra Pradesh 500078, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1637</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1637</GBInterval_to>
+          <GBInterval_accession>JF443160.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BBF</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>diseased sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45032</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lab_host</GBQualifier_name>
+          <GBQualifier_value>BHK-21</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Guntur Dist, Andhra Pradesh</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>10-Oct-2006</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>P. Pandu Ranga Rao</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>Asian</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>29..1609</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>29</GBInterval_from>
+          <GBInterval_to>1609</GBInterval_to>
+          <GBInterval_accession>JF443160.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>structural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEZ03691.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:374277756</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MGKIIKSLSRFGKKVGGALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVXGSVHXIITGESYGESVKQAVLLNVLGAGXEIPDPLSPGERGIQMKIKEIEEEQRNELVRLKHGKEITKKFGRELEEIYQFMNGEVREEAEQEEQYKVLXKAVDSYEKLLVAENEQMRTLARALQRETTERTEIESTMVKEYRQKIDALKAAIEVERDGTQEEAIQEIAGMTADVLEAASEEVPLVGSGMTTAIATGRAIEGAYKLKKVINALSGIDLSHLRTPKIEPTMVATTLEHRFDEIPDKELAVSILAKNNAIAANTREVQHIKEEILPKFKKIMDEEKELEGIDDKKIHPRVMMRFKVPRSQQPQIHIYSAPWDSDDVFFFHCVSHFHANESFFLGFDXGIDVVHFEDLAAHWHALGAAQEVKGRTLNEAYREFLNLAISNTYTSPMHARRMIRSKTVHPIYLGSMHYXITYXALKSNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGIKVLGDKIDVPLFLRNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagatccctatgatcgcggaagatgggcaaaatcatcaagtcactaagccgtttcggcaaaaaagttggaggtgcgttaacatctaacacggcgaaaaagatctacagcacaatagggaaagcggcggagaggttcgcagaaagcgaaataggatcagcagccatagatggattggttcrgggcagcgtacatyccatcataactggcgagtcttatggggagtccgttaaacaggcggtgttactcaatgttctgggtgccggtgrtgaaattcctgatccattgagcccaggtgagcgtggaattcaaatgaaaattaaggagattgaagaagaacaaagaaacgagttagtaaggttaaaacatggtaaagagattacaaaaaagtttgggcgggagttagaggagatatatcaattcatgaatggtgaagtgcgggaggaggcggaacaggaggaacaatacaaggtgttgygcaaagctgtggattcgtatgagaagctattagtagctgaaaacgagcaratgcggactctagcacgcgcattacagcgggaaacaacagagagaacggagatagagtcaacgatggtgaaggagtacagacaaaagattgatgccttgaaggcggctatcgaagttgagagagatggtacgcaggaagaagctattcaagaaattgcgggtatgaccgctgacgtattggaggcggcatcggaggaggtgcctttagttggttctggtatgactaccgcgattgcgactgggagagcaatcgaaggagcatataagctcaagaaagtaataaacgccttgagtggaatcgacctgtcacatctgcgaacgccgaagatcgaacctacgatggtcgcgacgacgttagagcataggtttgatgaaataccggataaagagttagcggtgagcatactagcaaagaataacgcgatagctgcgaatacgagggaggtccagcatattaaggaagaaattctaccaaaattcaaaaagataatggatgaggaaaaggaattggagggtatagatgacaagaaaatccatcctagagtaatgatgagatttaaggtaccgcggtcgcagcagccgcagatacatatttacagtgcgccatgggattcggatgacgtgttcttttttcactgcgtgtcgcatttccacgctaacgagtcgttctttctagggttcgattygggtatcgatgtcgttcatttcgaggatcttgctgcccactggcacgctttgggcgctgcacaagaagtgaaaggacgtaccctgaacgaggcgtatcgcgaatttcttaatctggcgattagcaatacgtatacatctccgatgcatgctagacgtatgataagatcaaaaacagtacatcccatttacttgggttcgatgcattatgrtataacgtatgragcattgaaatctaacgcacaaagaattgtatacgatgacgaattgcagatgcacatattgagaggcccattacattttcagcgacgtgcgatattgggtgcgcttaaatttggaattaaggttctgggtgacaaaattgatgtcccactcttcctacgaaacgcgtgacagcggtgatcccgggacttccacttac</GBSeq_sequence>
+</GBSeq>

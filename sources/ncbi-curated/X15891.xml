@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>X15891</GBSeq_locus>
+  <GBSeq_length>1769</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>12-SEP-1993</GBSeq_update-date>
+  <GBSeq_create-date>13-DEC-1989</GBSeq_create-date>
+  <GBSeq_definition>US bluetongue virus serotype 17 S6 RNA for nonstructural protein NS1</GBSeq_definition>
+  <GBSeq_primary-accession>X15891</GBSeq_primary-accession>
+  <GBSeq_accession-version>X15891.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|X15891.1|</GBSeqid>
+    <GBSeqid>gi|60706</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>nonstructural protein</GBKeyword>
+    <GBKeyword>NS1 protein</GBKeyword>
+    <GBKeyword>subgenome</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wang,L.F.</GBAuthor>
+        <GBAuthor>Doi,R.H.</GBAuthor>
+        <GBAuthor>Osburn,B.I.</GBAuthor>
+        <GBAuthor>Chuang,R.Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete sequence of the NS1 gene (S6 RNA) of US bluetongue virus serotype 17</GBReference_title>
+      <GBReference_journal>Nucleic Acids Res. 17 (19), 8002 (1989)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1093/nar/17.19.8002</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>2552422</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Chuang,R.Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (18-JUL-1989) Chuang R.Y., Department of Pharmacology, School of Medicine, University of California, Davis CA 95616, U S A</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>See &lt;Y00422&gt; for sequence of US BTV serotype 10 NS1 protein.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1769</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1769</GBInterval_to>
+          <GBInterval_accession>X15891.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>serotype 17</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>clone</GBQualifier_name>
+          <GBQualifier_value>BTV segment 6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>cell_line</GBQualifier_name>
+          <GBQualifier_value>BHK</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>35..1693</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>35</GBInterval_from>
+          <GBInterval_to>1693</GBInterval_to>
+          <GBInterval_accession>X15891.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>unnamed protein product; NS1 protein (AA 1-522)</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAA33900.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:60707</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR002630</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/Swiss-Prot:P14245</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQHFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGAQLLEDYRKSGMMNEAVKQSALVNSERIRLDDSLSAMPYIYVPINDGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYRGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEIRYVQQLFGRVPTGEFPLHQMMLMRRDLPTRDRSIVEARVRRSGDENWQSWLLPMIIIREGLDHQDRWEWFIDYMDRKHTCQLCYLKHSKQIPACSVIDVRASELTGCSPFKMVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGSGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGNFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACEGGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaagttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaatatcagtggggattacgcaaatgccacgagaacttttttggctatttcaccacagtggacttgcagtcacttaaaaaggaattgtctatttaatggaatgtgtgttaagcagcattttgagagagcgatgatcgcggcaactgatgcggaggagccggcgaaagcatacaaattggttgaattggcaaaggaagcaatgtatgatcgggaaacagtctggcttcaatgtttcaaaagcttttcccaaccgtacgaggaggatgtcgaagggaagatgaagcgatgcggagcgcaattgctcgaggattaccgcaaaagtgggatgatgaatgaagccgtgaaacaatctgcgctggttaattcagaaagaattagattggatgattcactttccgcaatgccttacatctacgtgccaatcaatgatggtcaaattgttaatccgacatttatatcaagatatcgccaaattgcatattatttttacaacccagatgcagctgatgattggattgatccaaatctctttggcattcgtggacagcacaatcagattaaacgtgaggttgagagacaaattaacacatgcccttacactggatacagaggtagagtgtttcaagtaatgttcttgccgattcagctgatcaattttttgagaatggatgattttgcgaagcattttaacaggtacgcctcgatggcgatacaacaatatctgagagttggttatgctgaagagatcagatatgtacaacagctcttcggaagggtcccaacaggtgaatttccattacaccagatgatgctgatgagacgcgatctcccaacacgcgatcgcagtattgtggaggcgcgggtgaggagatcaggtgatgagaactggcaaagctggctattacctatgatcatcattcgtgaggggttggatcatcaggatcggtgggaatggtttattgattacatggataggaaacatacatgtcaactttgctacttgaaacactcaaaacagatcccagcctgtagtgtgattgatgtacgtgcatctgaattaactgggtgctcgccgttcaagatggtgaagatcgaagagcatgtaggaaatgattcagtgtttaaaacgaaattagttcgcgatgagcaaatcggcaggattggagatcattattatacaacaaattgttacactggagcggaggcattgattacaaccgcgattcacattcatcgctggattagggggtctggcatctggaacgatgaaggatggcaggagggtattttcatgcttggacgcgtgctgctgagatgggaattgacaaaggcgcaacgcagcgctttgctcaggctattctgttttgtatgttacggatatgcaccacgcgcagacggaacgataccggactggaataatcttggaaactttttggatatcattttgaaggggccagaacttagtgaagatgaggatgaaagagcttatgctacaatgtttgaaatggttcgatgcattataactctatgctatgcagaaaaggttcacttcgctgggttcgctgcgcctgcgtgtgaaggcggggaagtaattaatcttgctgcgcgcatgtctcagatgtggatggagtattagttactgatttttggttttttattcttcttttcatttctattttctcttagcactctactagaacttttcaacttac</GBSeq_sequence>
+</GBSeq>

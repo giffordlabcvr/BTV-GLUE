@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BTVVP7S1</GBSeq_locus>
+  <GBSeq_length>1156</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>10-MAY-1991</GBSeq_update-date>
+  <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus major core protein VP7 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>M64997</GBSeq_primary-accession>
+  <GBSeq_accession-version>M64997.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|M64997.1|BTVVP7S1</GBSeqid>
+    <GBSeqid>gi|323201</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_secondary-accessions>
+    <GBSecondary-accn>M38172</GBSecondary-accn>
+  </GBSeq_secondary-accessions>
+  <GBSeq_keywords>
+    <GBKeyword>group-specific antigen</GBKeyword>
+    <GBKeyword>major core protein VP7</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 2</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1156</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Kowalik,T.F.</GBAuthor>
+        <GBAuthor>Li,J.K.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Bluetongue virus evolution: sequence analyses of the genomic S1 segments and major core protein VP7</GBReference_title>
+      <GBReference_journal>Virology 181 (2), 749-755 (1991)</GBReference_journal>
+      <GBReference_pubmed>1849684</GBReference_pubmed>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>Original source text: Bluetongue virus (sub-type serotype 2), cDNA to genomic RNA.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1156</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1156</GBInterval_to>
+          <GBInterval_accession>M64997.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35328</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..1156</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1156</GBInterval_to>
+          <GBInterval_accession>M64997.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>BTV-2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>5'UTR</GBFeature_key>
+      <GBFeature_location>1..17</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>17</GBInterval_to>
+          <GBInterval_accession>M64997.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>BTV-2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>segment S1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>M64997.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>BTV-2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>segment S1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>major core protein VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA42852.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:323202</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETFQPGRWFMRAAQAVAAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRIIAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>3'UTR</GBFeature_key>
+      <GBFeature_location>1068..1156</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1068</GBInterval_from>
+          <GBInterval_to>1156</GBInterval_to>
+          <GBInterval_accession>M64997.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>BTV-2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>segment S1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaatctatagagatggacactatcgctgcaagagcactcactgtgatgcgagcatgtgctacgcttcaagaagcaagaattgtgttggaagctaatgtgatggaaatactggggatagctatcaacaggtacaatggactaactctacgtggggtaacgatgcgcccgacctcgttagcgcaaagaaatgagatgttttttatgtgtcttgatatgatgttgtctgctgcgggaataaatgttggaccgatatcgccagattatactcaacatatggctacaattggtgtactagcaacgccggaaatcccttttacaacagaagcggcgaatgaaatagcacgcgtgactggggagacttcgacatgggggccggcgcgtcagccttatggttttttccttgaaactgaggagactttccaacctggaagatggttcatgcgcgccgctcaagcggtagctgcagtggtgtgcggtccggatatgattcaggtgtcactaaatgctggagcgagaggggatgtacaacagatatttcagggtcgtaatgatcccatgatgatatatttggtatggagaagaatcgaaaactttgcgatggcgcaaggtaattcacagcaaactcaagcaggtgtgaccgttagcgttggtggagttgacatgagagcgggacgcattatagcgtgggatggacaggccgcattgcatgtgcataaccctacacaacagaatgcgatggtgcagatacaggttgtgttctatatatctatggataaaactttaaaccagtacccagctttgactgccgaaatttttaatgtttacagcttcagggatcatacatggcatggattaagaacggcaatattaaacagaaccacactgcctaacatgctgccaccaatcttcccaccaaatgatcgtgatagtatcttaacccttctacttttatctacactcgctgatgtttacactgtgttaagaccagagtttgcgattcacggcgtaaatccgatgccagggccgctcacacgtgctattgcacgcgccgcctatgtgtagtccactttgcacgggtgtgggttacatatgcggtgtgtcggttgtgggaaatatgtgacccatttaaacgtctcttagattacacttac</GBSeq_sequence>
+</GBSeq>

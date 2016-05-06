@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KF769399</GBSeq_locus>
+  <GBSeq_length>1981</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>24-SEP-2014</GBSeq_update-date>
+  <GBSeq_create-date>22-JAN-2014</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 9 strain RSA segment 4, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KF769399</GBSeq_primary-accession>
+  <GBSeq_accession-version>KF769399.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KF769399.1|</GBSeqid>
+    <GBSeqid>gi|575010006</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 9</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 9</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Burkhardt,C.</GBAuthor>
+        <GBAuthor>Sung,P.Y.</GBAuthor>
+        <GBAuthor>Celma,C.C.</GBAuthor>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Structural constraints in the packaging of bluetongue virus genomic segments</GBReference_title>
+      <GBReference_journal>J. Gen. Virol. 95 (PT 10), 2240-2250 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1099/vir.0.066647-0</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24980574</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Burkhardt,C.</GBAuthor>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Bluetongue virus serotype 9 segment 4 (VP4)</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Burkhardt,C.</GBAuthor>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (28-OCT-2013) Department of Pathogen Molecular Biology, London School of Hygiene and Tropical Medicine, Keppel Street, London, London City WC1E 7HT, UK</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1981</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1981</GBInterval_to>
+          <GBInterval_accession>KF769399.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>RSA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45032</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France: Corsica Island</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>9..1943</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>9</GBInterval_from>
+          <GBInterval_to>1943</GBInterval_to>
+          <GBInterval_accession>KF769399.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>BTV-9 VP4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>viral protein 4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AHG55468.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:575010007</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MPEPHAVLYVTNELSHLVKSGYLPIWHLTGNESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKNVQLADIIKTVDVRVSREVVRSQDMKMFENEVGRRRIRMRKGFGDALRSYAFKVAIEFHGSEAETLNDANPRLHKVYGMPEIPPLYMEYAEVGDKFDDEPTDEKLVSMLDYIIYSAEEVHYVGCGDLRTLMLFKKRSPGRFKRVLWHVYDPIAPQCSDTNVIVHNVIVDSKKDVLKHMNFLKRVERLFVWDVSSDRNQMDDDEWELTRFAEDRLGEEIAYEMGGAFSSALIKHRIPAKRDEYHCISTYLLPQPGADTDMYELRNFMKLKGYSHVDRHMHPDAAVMKVVSRDVRRMVETFHGKDRGRFLKKRIFEHLHIMRKNGLFHESDEPRADLFYLTNRRNMGLEPSIYEVMKKSTIATVWVGRTPLYDYDDYSLPRSTVMLNGSYRDIRVLDGNGAILFLMWKYPDIIKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILEWSSQGKEQKIRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGTREGASIDSWLELLRHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaacatgcctgagccacacgcagtactttatgtcacaaacgagctctctcaccttgttaagagtggttatttacctatatggcatctgacaggaaacgaaagcttaaacgacttgtggctggagaatggaaagtacgcgacggatgtctatgcatatggagatgtgtcgaagtggacgataagacagcttcggggtcatggatttatttttattagcacacataagaatgttcaacttgcagacatcattaaaacagtcgatgttcgcgtatcacgtgaagttgttagaagccaagatatgaaaatgtttgaaaatgaagtaggtcggcgtcgaattaggatgcggaaaggttttggtgacgcactaagaagctatgccttcaaggtcgcaatcgagtttcatggatcagaggcggaaacgctaaacgacgcaaatccccgattacataaggtgtatgggatgccagaaatccctccgttgtacatggagtacgctgaagtgggagataaatttgatgatgaaccaactgatgaaaagttagtctctatgttggattacataatttatagtgcggaggaagtacattatgtaggatgcggcgatttacgcaccttgatgctgtttaagaaacgttcacctgggcggtttaagagagtgttgtggcatgtctatgacccgattgcaccgcagtgttcggatacgaacgtcatcgtacataatgttatagttgattccaaaaaagacgttttaaagcatatgaattttttaaaacgtgtcgagagattatttgtatgggatgtctcatcggaccgaaatcaaatggatgatgatgaatgggaattgacgagattcgcagaagataggttgggtgaggaaatagcgtatgagatgggcggagctttttctagcgctttaatcaaacataggataccagccaagagggatgaatatcactgtatatcgacttacttgctcccacaaccgggagcggatacggacatgtatgagttaagaaatttcatgaaactaaagggttattcacatgtagatcgccacatgcatcctgatgcagcagtgatgaaagttgtgtctcgtgatgtacgtagaatggtcgagacgtttcatggcaaggatcgtgggcgattccttaagaaaagaatttttgaacatttacacatcatgcgcaagaatggattgtttcatgagagcgacgagcctcgagcagatctattctacttaaccaataggcgcaatatgggcttggagcctagcatctatgaggtgatgaagaagtcaacaatagccacagtatgggtaggtcgcacacctttgtatgattatgacgattattctttaccaagatctactgtcatgctaaacgggtcgtatcgtgatataagagttttggatggtaatggcgcgatattgttcttaatgtggaagtacccggatataataaagaaggatttgacgtatgatcccgcgtgggcgatgaactttgccgtatcattgaaagagcccataccggacccgccagtaccggatatttcattgtgtagatttatcggattacgcgtcgagtcttctgtgttaagggttcggaaccccacgcttcatgagacagcggatgagcttaagcgaatgggactagacctctcaggacatctatacgtgacgttgatgtcaggcgcttatgtcacagatctgttttggtggtttaagatgatcttagagtggtcatcgcaggggaaggaacagaaaatacgtgacttgaagaggtcagcggctgaggttattgaatggaaggagcagatggcggaacgtccgtggcatgttagaaatgatttaattgctgcactaagggagtataaacgtaaaatgggaacgagagagggggcttcgattgactcgtggcttgagttactgcgtcacttatgatgcgtgactgctaggtgaggggggcatgtaaaacttac</GBSeq_sequence>
+</GBSeq>

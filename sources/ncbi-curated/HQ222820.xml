@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HQ222820</GBSeq_locus>
+  <GBSeq_length>2889</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>20-DEC-2010</GBSeq_update-date>
+  <GBSeq_create-date>20-DEC-2010</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate BTV2/06.1 VP2 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>HQ222820</GBSeq_primary-accession>
+  <GBSeq_accession-version>HQ222820.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HQ222820.1|</GBSeqid>
+    <GBSeqid>gi|315075602</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2889</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Viarouge,C.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Adam,M.</GBAuthor>
+        <GBAuthor>Desprat,A.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (06-SEP-2010) UMR VIRO 1161, ANSES, 23 avenue du Gal de Gaulle, Maisons-Alfort 94706, France</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2889</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2889</GBInterval_to>
+          <GBInterval_accession>HQ222820.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV2/06.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>bovine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France: Martinique Island</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2006</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..2889</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2889</GBInterval_to>
+          <GBInterval_accession>HQ222820.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>structural protein; cell attachment protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADT78576.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:315075603</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDELGIPIYGRNYPEHLLKGYEFLINTGIKYPSQGGRHDVSKIPEMFAYDIKDEGIRDALRYTPTRNDGVVLPRIVDISLRGYDIRKSVIEANKSNSFHTDIDWVQWMIKDSMDQQPLKISIDEEHSRVVHSLFNCQVKIDAKKADTLSYHVEAIENAEKECLHTRGQLCNHLVRMDLLHAAQEIAYVLKPTYQLVVHSERASTSDNFELGGQGVITLRRGHRIQMGDEAYTKLMERLVRLTVQGSVPRKIQNEIEQLEAIRTKWAAGRFDPVYINSQDLCRILSRIGRIMLDQEAEPVDEDSLSLRFQQALDEKFRLNDSERNKIFEFKTHRKDEDRFYVLLAIAASDTYNSRIWWSNPYPCLRGALIAAETKLGDVYFTLRSWYDWSVRSSYIPRERERETEKYIFSKVNLFDYEAGPSSKVIHWEYQLYERERAVTLERGNPCDLYPDEDDEIIITKFDDAKYSEMVGEIINGGWNEEEFKMFKLLQKKGNVLTIDFEKDAKLNNTSEVILPDYYGKWIIAPMFNSKMRIIETEIATNKSDDPMVKRTLKPMIDDPVELQRYTLARYYDIRPGLMGRSLMRTQTQSTFDAKTSELSDYEKVITRFGVIKKPTKPCVTLTGRYILEKYSLLLIGMLECHTEVERDPQEEFTHPKIDLQFKFNGNTLSDLNQTIVFIIDYLYEKRNYVRSVYEARYIISKIRSSVGAARMNILEFHFPTFARLVSNARRPVYVKDLMVVNLLPLLFITGDNIIYKHRQWSIPLLLYTDQVKVIPLEVGSSNNRQGLVSYLEYMYFFPSLADRASKVDESMIKVSREIVNYYMSTTISEGGVNFNVVSTKSLLFDLYLSSVCGGVSDGVVWYLPITHPYKCVVAIEVCDDKTPARLRCDRLRLRFPLSVRHLKGIVIIQINEEGGFEVYTEGIVTHRVCKKSLLKHVCDIVLLKFHGHVFGNDEMLTKLLNV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>46..2886</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>46</GBInterval_from>
+          <GBInterval_to>2886</GBInterval_to>
+          <GBInterval_accession>HQ222820.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP2; Region: Orbi_VP2; pfam00898</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:250211</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggatgagcttggcattcccatttatgggcgtaattatccagaacacctcttaaaaggatatgagtttttgattaatacaggtataaaatacccaagtcaaggtgggcgtcatgatgtttctaagatccctgaaatgtttgcttatgatattaaagatgaagggatccgggatgcactcaggtatacgccaacacgaaatgatggagtggttctgccaagaatcgtcgatatcagcctaagaggatatgatatacgaaaatcggttatagaagcgaataagagcaatagcttccatactgacatagattgggttcagtggatgattaaagatagcatggatcaacaaccgcttaaaatatctatcgatgaagaacacagtcgagttgtgcattctctgtttaattgtcaggtgaaaatcgatgcgaaaaaagcagataccttatcctatcatgttgaagcgattgaaaatgctgaaaaagaatgtttgcataccagaggtcagctatgcaatcatttagttaggatggatttgttacacgcagcgcaggaaatcgcttatgtattgaaaccaacgtaccaattagtggtgcattctgaaagggcatcgacttcagataactttgaacttggcggacagggggtgatcactttgagaagggggcataggatacaaatgggagatgaagcatacaccaaattgatggagcgtctagtacgactaacggtacagggaagcgtgcctagaaaaatacagaatgagatagagcagcttgaagcgattcgaacaaaatgggcagcgggcaggttcgatccagtttacattaactcgcaggatttatgtcgaatattgtcgcgcataggaagaatcatgctggatcaagaagcggaaccggttgatgaagatagcttatctttgcgatttcaacaggcgctagatgaaaaattccgtcttaatgattcagaaaggaacaagatattcgagttcaaaacgcatagaaaagatgaagatagattctacgttttattggctattgctgcctcggatacttacaattcgagaatttggtggtcgaatccatatccatgcttgcgcggcgcgttgattgctgcggaaacaaaattaggcgacgtctactttactttgcgatcttggtatgactggagtgttagatctagctacataccgcgcgagagggagcgggaaacagaaaagtatatatttagtaaggtaaacttattcgattacgaggccggcccatcaagcaaggttatacattgggagtatcaattatatgagcgagagcgggcggttactttagagagaggcaacccctgtgatttgtacccggatgaggatgacgaaatcattatcacaaaattcgatgatgctaagtattctgaaatggttggggagattataaacggcggatggaatgaagaagaattcaagatgtttaaattgcttcaaaagaaaggtaacgtcctcacaatcgatttcgaaaaagatgcgaagctaaataacacttcagaagtaatattacctgactattatggcaaatggataatcgcaccgatgtttaactccaagatgaggattatcgagacggagattgccactaataagagtgatgaccctatggttaaaagaacgctcaaaccgatgattgacgaccctgtcgagttacagagatacactttagctaggtattatgatattcgccctggattgatgggtcgctcactgatgagaacacaaacccagtcgacattcgatgcgaaaacgtcggaactatctgattatgaaaaagtgattacccggttcggcgtaatcaaaaaaccgacgaagccctgcgtaaccttaactggacgatatatcttagagaagtattcattacttctaattggcatgttggagtgtcacactgaggttgagagggatccgcaagaggaattcactcacccaaaaatcgatctgcagtttaagtttaacggtaatacgctatctgatttgaatcaaacgattgttttcataatagattatctgtatgaaaagcgcaactacgtacggtcggtatacgaagcgaggtacatcatatccaaaataaggtcatcagttggcgcggcgcgtatgaacattcttgaatttcattttccaacgtttgcacgcttggtttcgaacgcgcggagaccggtttatgtaaaggatctaatggtggtaaatttactgccattactatttataacaggtgataatataatatacaagcatagacagtggtcaataccgttattactatatacagaccaagtaaaagtgattcctttagaagtgggctcatcgaataacagacagggactcgtgtcttatttagaatatatgtacttctttccgtcattggccgatcgagcatcgaaagtggatgaatcgatgattaaggtgtcgagagaaatagttaattattatatgagtacaacgatatcagagggaggtgtgaatttcaacgtcgtttcaaccaaatcattgttgttcgatctctatctctcatctgtatgtggcggcgtgtcagatggtgtggtttggtatctgccaatcactcatccatataaatgcgtggtcgccattgaggtttgtgatgataaaacacccgcgcgtttacgttgtgacaggttgaggctgcgtttccctctaagcgtacgacacttaaaaggcattgtaataattcaaataaatgaagagggtggatttgaggtgtacaccgaaggaatagtaacgcatagagtttgtaagaagagcttacttaaacacgtatgtgacattgtcttgcttaagtttcatggtcacgtctttggaaatgatgaaatgttaacaaaattgctcaatgtatga</GBSeq_sequence>
+</GBSeq>

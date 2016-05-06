@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AY124372</GBSeq_locus>
+  <GBSeq_length>1097</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-AUG-2002</GBSeq_update-date>
+  <GBSeq_create-date>14-AUG-2002</GBSeq_create-date>
+  <GBSeq_definition>Corsican bluetongue virus serotype 2 nonstructural protein NS2 (S8) gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AY124372</GBSeq_primary-accession>
+  <GBSeq_accession-version>AY124372.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AY124372.1|</GBSeqid>
+    <GBSeqid>gi|22252935</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Corsican bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Corsican bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1097</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Hammoumi,S.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Corsican bluetongue virus serotype 2 (2000) gene (S8) for nonstructural protein NS2</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1097</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Hammoumi,S.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (19-JUN-2002) Virologie, Agence Francaise de Securite Sanitaire des Aliments, 22, rue Pierre Curie, Maisons-Alfort 94703, France</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1097</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1097</GBInterval_to>
+          <GBInterval_accession>AY124372.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Corsican bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:188762</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>2000</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..1065</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1065</GBInterval_to>
+          <GBInterval_accession>AY124372.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S8</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..1065</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1065</GBInterval_to>
+          <GBInterval_accession>AY124372.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S8</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein NS2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAM94162.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:22252936</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MEQSNRRFTKNIFVLDANAKTLCGAIAKLSSQPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIISLMLTPHGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPELPGVMRSNYDVRELRQKIKNERESAPRLQVRSVAPREESRWMDDDEAKVDEEAKEMIPGTSRLEKLREARSNVFREVEAGINWNLDEKDEEDRDEREDEEQVKTLSDDDEQGEDASDDEHPKTHITKEYIEKVAKQIKLKDERFMSLSNAMPQASGGFDRMIVTKKLKWQNVPLYCFDESSKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggagcaaagcaaccgtagatttactaaaaacatttttgttttggatgcaaatgctaaaacattatgcggagcaattgcaaagttgagttcgcaaccgtattgtcaaattaaaattggaagagtaatagcttttaaacctgtcaagaatccagaacctaaaggatacgtgctgaatgttccaggacctggcgcgtacagaattcaggatgggcaggatatcattagcctgatgttgacaccgcatggagttgaagcgacaacggaaagatgggaagagtggaagtttgagggtgttagtgtgacaccaatggctactagggtacaacataatggtgtgatggttgatgctgagattaagtattgcaaagggatgggaatcgtgcaaccatatatgcggaatgattttgatcgaaacgagatgcccgaattgccaggtgtgatgagatcaaattacgatgtccgcgaattgcggcagaaaattaaaaatgaacgagaatcagcgccacggcttcaagttcgaagcgtggcgccaagggaagagtcacgctggatggatgatgatgaagcaaaggtggacgaagaggctaaagagatgattccgggaactagcagattggagaagctgcgtgaagcgagaagcaatgtttttagggaggtggaagccggaattaattggaatctggatgaaaaagatgaagaagacagagatgaacgagaggatgaggaacaggtgaagaccctgagtgatgatgatgaacagggtgaggatgcgagtgatgacgaacatccaaagacccatataactaaggaatacattgaaaaggttgcaaagcagattaaattgaaggatgaacggttcatgagtttgtcaaacgccatgcctcaagcgagtggtgggtttgatcgtatgattgtcacaaagaagcttaagtggcagaatgtaccactatattgttttgatgaatcatcgaaaaggtatgagttgcagtgtgtgggtgcgtgtgagcgtgttgcttttgtctctaaagacatgagcttgatcatattgccggtcggcgtttaggcgcttgtgaccgcgtggttagggggggattt</GBSeq_sequence>
+</GBSeq>

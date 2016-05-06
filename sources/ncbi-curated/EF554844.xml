@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EF554844</GBSeq_locus>
+  <GBSeq_length>690</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>08-MAY-2009</GBSeq_update-date>
+  <GBSeq_create-date>30-APR-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate BTV_TR7 nonstructural protein NS3/NS3A gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>EF554844</GBSeq_primary-accession>
+  <GBSeq_accession-version>EF554844.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EF554844.1|</GBSeqid>
+    <GBSeqid>gi|156066923</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ozkul,A.</GBAuthor>
+        <GBAuthor>Erturk,A.</GBAuthor>
+        <GBAuthor>Caliskan,E.</GBAuthor>
+        <GBAuthor>Sarac,F.</GBAuthor>
+        <GBAuthor>Ceylan,C.</GBAuthor>
+        <GBAuthor>Mertens,P.</GBAuthor>
+        <GBAuthor>Kabakli,O.</GBAuthor>
+        <GBAuthor>Dincer,E.</GBAuthor>
+        <GBAuthor>Cizmeci,S.G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Segment 10 based molecular epidemiology of bluetongue virus (BTV) isolates from Turkey: 1999-2001</GBReference_title>
+      <GBReference_journal>Virus Res. 142 (1-2), 134-139 (2009)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.virusres.2009.02.007</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19428746</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ozkul,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (15-APR-2007) Virology Department, Ankara University, Faculty of Veterinary Medicine, Irfan Bastug Cad. Diskapi, Ankara 06110, Turkey</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>EF554844.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV_TR7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>sheep blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Turkey</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>grown in Vero-AFFSA cells</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>EF554844.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein NS3/NS3A</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABU43085.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:156066924</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSVVRVDDTISQPPRYAPSAPVPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSTEIPQWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgctatccgggctgatccaaaggttcgaggaagaaaaaatgaaacataatcaagagagagtcgaagagctaagtgtggttcgtgtggatgatacgatttcacaaccaccaagatatgctccgagtgccccagtgccttcatcgatgccaaccgttgcccttgaaatattggataaagcgatgtcaaacactactggtgctacgcaaacacagaaggcggagaaagctgcattcgcatcgtacgcagaagcgtttcgtgatgatgtgagactaagacagattaaacgtcatgttaatgaacagatcctcccaaagttaaagagtgatttgggtggtttaaagaaaaagagagctatcatacacatgacgttgttagttgccgctgttgttgcgttgttgacgtcggtatgcacgctttcaagtgatatgagcgtggcgtttaagcttaacggcacatcaacggaaataccgcagtggtttaagagtctaaatcccatgcttggagtagtaaatctgggtgcgactttcataatgatggtttgtgcgaagagtgagagagggctaaaccagcagattgacatgatcaagaaggaagttatgaagaaacaatcatataatgatgcggtgaggatgagcttcacagaattttcgtcggtcccgctagatggtttcgaactaccattaacctaa</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AJ586665</GBSeq_locus>
+  <GBSeq_length>1635</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-MAY-2004</GBSeq_update-date>
+  <GBSeq_create-date>31-MAY-2004</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 2 vp5 gene for outer capsid protein VP5, genomic RNA, isolate RSAvvvv/02</GBSeq_definition>
+  <GBSeq_primary-accession>AJ586665</GBSeq_primary-accession>
+  <GBSeq_accession-version>AJ586665.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|AJ586665.1|</GBSeqid>
+    <GBSeqid>gi|47826226</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>outer capsid protein VP5</GBKeyword>
+    <GBKeyword>vp5 gene</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 2</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Rao,S.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Sailleau,G.</GBAuthor>
+        <GBAuthor>Alimena,G.</GBAuthor>
+        <GBAuthor>Guercio,A.</GBAuthor>
+        <GBAuthor>Mertens,P.P.C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Bluetongue virus type 2: Analysis and phylogenetic comparison of full-length nucleotide sequences of genome segment 6 encoding outer capsid protein VP5</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1635</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (19-OCT-2003) Singh K.P., Division of Molecular Biology, Institute for Animal Health, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UNITED KINGDOM</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1635</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1635</GBInterval_to>
+          <GBInterval_accession>AJ586665.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2-vaccine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>RSAvvvv/02</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35328</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>IAH dsRNA reference collection number: RSAvvvv/02</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>26..1606</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>26</GBInterval_from>
+          <GBInterval_to>1606</GBInterval_to>
+          <GBInterval_accession>AJ586665.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>vp5</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>26..1606</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>26</GBInterval_from>
+          <GBInterval_to>1606</GBInterval_to>
+          <GBInterval_accession>AJ586665.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>vp5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>serotype-specific protein sequence</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>outer capsid protein VP5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAE52981.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:47826227</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GOA:Q6KDM2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR000145</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/TrEMBL:Q6KDM2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MGKVIRSLSRFGKKVGSALTSNAAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSILTGESYGESVKQAVLLNVLGSGEEIPDPLSPGEQGMQTKLKELEEEQRNELVRLKYNDKIKEKFGEELEQVYEFMNGAAKEEVGDEKQFDIFSKAVNSYNKILTEEDQQMRRLAIALQKEIGERTHVETAMVKEYRNKIDALKSAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPSVVSTILEYRAKDIPDNALAVSVLSKNRAIQENHKELMHIKDEILPRFKKAMDEEKEICGIEDKTIHPKVMMKFKIPRSQQPQIHIYTAPWDSDNVFFFHCISHHHANESFFIGFDLSIDLVHYEDLTAHWHALGAAQMAVGRTLTEAYKEFLNLAISSTYGTQMHTRRLIRSKTVHPIYLGSLHYDISFADLRGNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGCKILGDRLDVPLFLRNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagtgtacccttagcgaagatgggtaaagtcatacgatctctgagtagattcgggaagaaagtaggtagcgcactcacatcaaatgcggctaaaaagatttatagtacaataggcaaagcagctgaaagattcgcggaaagtgaaattggttcagcggcgattgatggcttagtgcagggtagcgtacattcaatattgacaggcgagtcttacggcgaatcggttaaacaggcagtcctactgaatgttctaggtagtggtgaggagattccggacccgttgagcccgggtgagcaaggtatgcaaactaagttaaaagagttagaagaggaacaaaggaatgagctagtgcgattgaagtataacgataaaattaaagaaaaatttggagaagagctggagcaggtgtatgagtttatgaacggtgcggcgaaggaagaagtcggagatgagaagcagtttgatatctttagtaaggcagttaattcatacaataagatattaaccgaagaagaccaacaaatgcgtcgacttgcgattgctctacagaaagagattggtgagaggacacatgtagaaacagctatggtaaaagaatatcggaataagatcgacgctcttaaaagtgcaatagagattgaaagagacggcatgcaggaagaggcgatacaagaaatagcggggatgactgctgatgtgttagaggcagcatctgaggaggtgcccctaatcggagcgggtatggcgacagccgtcgcaacgggaagagcgattgagggggcgtataagttgaagaaagtaattaatgcattaagcgggatagatctaacacatttgcgtacgccgaaaattgaaccgagtgtagtttctacgattttggagtatcgtgcaaaggacattccagacaatgcactcgcggtcagcgtgttgtcgaagaatcgtgcaattcaagaaaaccataaggagttaatgcatattaaagatgaaattttaccgcgttttaagaaggcaatggacgaggagaaagagatatgtggaattgaggataaaacaatacatcctaaagtgatgatgaaatttaagatcccgaggtcacagcaaccgcaaattcatatttatacggcgccatgggattctgataatgtattcttcttccattgtatttcacatcatcatgcgaatgaatcattttttataggattcgatctgagtatcgacttagttcactatgaggatttaacggctcattggcatgcattgggagcggctcagatggctgtaggacgtacgttaaccgaagcgtataaagaattcttaaatctggctatttctagtacatatggaacacaaatgcatactcgaaggttgattaggtcgaaaacggtgcatccgatttatttgggatctctccactatgacatctctttcgctgatctacgagggaacgctcaacgtatcgtatacgatgacgaattacagatgcacattttgcgcggtccgctacatttccagagacgagctatattaggcgcgttaaagtttgggtgcaagatacttggagatcggttggacgtgcccctcttcttacgaaatgcttgaacgcagcgatgggcagcacttacacttac</GBSeq_sequence>
+</GBSeq>

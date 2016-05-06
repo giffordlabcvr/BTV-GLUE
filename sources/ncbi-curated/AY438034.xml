@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AY438034</GBSeq_locus>
+  <GBSeq_length>690</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>16-AUG-2006</GBSeq_update-date>
+  <GBSeq_create-date>10-NOV-2003</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 9 NS3 protein and NS3A protein genes, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AY438034</GBSeq_primary-accession>
+  <GBSeq_accession-version>AY438034.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AY438034.1|</GBSeqid>
+    <GBSeqid>gi|38176246</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 9</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 9</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Orru,G.</GBAuthor>
+        <GBAuthor>Ferrando,M.L.</GBAuthor>
+        <GBAuthor>Meloni,M.</GBAuthor>
+        <GBAuthor>Liciardi,M.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>De Santis,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Rapid detection and quantitation of Bluetongue virus (BTV) using a Molecular Beacon fluorescent probe assay</GBReference_title>
+      <GBReference_journal>J. Virol. Methods 137 (1), 34-42 (2006)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jviromet.2006.05.028</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>16876884</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Balasuriya,U.B.</GBAuthor>
+        <GBAuthor>Nadler,S.A.</GBAuthor>
+        <GBAuthor>Wilson,W.C.</GBAuthor>
+        <GBAuthor>Smythe,A.B.</GBAuthor>
+        <GBAuthor>De Santis,P.</GBAuthor>
+        <GBAuthor>Zhang,N.</GBAuthor>
+        <GBAuthor>MacLachlan,N.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Global isolates of bluetongue virus segregate into region-specific topotypes based on phylogenetic analyses of their NS3 genes</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Balasuriya,U.B.</GBAuthor>
+        <GBAuthor>Nadler,S.A.</GBAuthor>
+        <GBAuthor>Wilson,W.C.</GBAuthor>
+        <GBAuthor>Smythe,A.B.</GBAuthor>
+        <GBAuthor>De Santis,P.</GBAuthor>
+        <GBAuthor>Zhang,N.</GBAuthor>
+        <GBAuthor>MacLachlan,N.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (14-OCT-2003) Pathology, Microbiology and Immunology, University of California, Davis, One Shields Avenue, Davis, CA 95616, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>AY438034.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45032</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>S10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Italy</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>AY438034.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein 3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS3 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAR13018.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:38176247</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>40..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>40</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>AY438034.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein 3A</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS3A protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAR13019.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:38176248</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgctatccgggctgatccaaaggttcgaagaagaaaagatgaaacacaatcaagatagagttgaggagctgagtttagtgcgtgtcgatgataccatttctcaaccaccgaggtatgctccgagtgcgccaatgccatcatctatgccgacggttgcccttgaaatattggacaaagcgatgtcaaacacaactggtgcaacgcaaacacagaaggcggagaaggctgcattcgcatcgtacgcagaagcgtttcgtgatgatgtgaggttgagacaaattaaacgccatgtaaatgagcagattctacccaaactgaaaagtgatctaagtggattgaaaaagaagcgagcaatcatacataccactctattggtagcagctgtggttgcgttgttaacatcagtttgtaccctatcaagtgatatgagtgtagctttcaagataaatgggaccaaaacggaagtgccttcgtggtttaaaagcctaaatccgatgcttggtgtagtcaatttgggagcaacttttctgatgatggtctgcgcaaaaagtgaaagagccttgaaccagcagattgatatgataaagaaagaagtgatgaagaaacaatcttacaatgatgcggtgaggatgagttttacagagttctcgtcaatcccgctggatggtttcgaaatgccattaacctga</GBSeq_sequence>
+</GBSeq>

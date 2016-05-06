@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FN557214</GBSeq_locus>
+  <GBSeq_length>1625</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>SYN</GBSeq_division>
+  <GBSeq_update-date>07-JAN-2010</GBSeq_update-date>
+  <GBSeq_create-date>07-JAN-2010</GBSeq_create-date>
+  <GBSeq_definition>Synthetic construct for Bluetongue virus vp5 gene and Newcastle disease virus intergenic region</GBSeq_definition>
+  <GBSeq_primary-accession>FN557214</GBSeq_primary-accession>
+  <GBSeq_accession-version>FN557214.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|FN557214.1|</GBSeqid>
+    <GBSeqid>gi|283466096</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>synthetic construct</GBSeq_source>
+  <GBSeq_organism>synthetic construct</GBSeq_organism>
+  <GBSeq_taxonomy>other sequences; artificial sequences</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Harmsen,M.M.</GBAuthor>
+        <GBAuthor>de Wit,A.</GBAuthor>
+        <GBAuthor>Kortekaas,J.</GBAuthor>
+        <GBAuthor>Moormann,R.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Immunogenicity in sheep of NDV-vectored BTV8 vaccines</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1625</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Harmsen,M.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-OCT-2009) Harmsen M.M., Animal Sciences Group (ID-Lelystad BV), Infection Biology, Edelhertweg 15, Lelystad, 8219 PH, NETHERLANDS</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1625</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1625</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>synthetic construct</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>other RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:32630</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>focus</GBQualifier_name>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..17</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>17</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Newcastle disease virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>other RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:11176</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>18..1598</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1598</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>other RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>BTV8 Net2006/04</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>8</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2006</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1599..1625</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1599</GBInterval_from>
+          <GBInterval_to>1625</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Newcastle disease virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>other RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:11176</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>18..1598</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1598</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>vp5</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1598</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1598</GBInterval_to>
+          <GBInterval_accession>FN557214.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>vp5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>11</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>viral protein 5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CBH20131.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:283466097</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSLMTGESYGESVKQAVLLNVMGSGEELPDPLSPGERGMQTKIRELEDEQRNELIRLKYNDKIKQKFGKELEEVYEFMNGVAKQEEDEEKHYDVLKKAVNSYDKILTEEEKQMRILATALQKEVKERTGTEAVMVKEYRNKIDALKEAIEVERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPTIVSTVLDHKFKDIPDEMLAVSVLSKNRAIEENHKEIIHLKNEILPRFKKAMDEEKEICGIEDKKIHPKVMMKFKIPRTQQPQIHIYSAPWDSDDVFFFHCISHHHANESFFIGFDLGIDLVHYEDLTAHWHALGAAQAAVGRSLNEVYKEFLNLAINNTYSSQMHARRMIRSKTVHPIYLGSLHYDISFSTLRSNAQRIVYDEELQMHILRGPLHFQRRAILGAIKHGVKILGTEVDIPLFLRNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gctcttcaagcgccaccatgggcaagatcatcaagtcactgagcaggtttgggaagaaagtgggcaatgctttgactagcaacacagctaagaagatctattctaccattggaaaagctgcagagaggtttgcagagtcagaaataggcagtgctgctattgatggtctggtgcagggttctgtccactccttgatgacaggggagtcttatggggaatcagttaaacaggctgtgctccttaatgtcatgggctctggagaggaactgcctgacccactttctcctggggaaagggggatgcagaccaaaattagggaactggaggatgagcagagaaatgaactgattaggctgaagtacaatgacaaaatcaagcagaagtttggcaaggagttggaggaggtgtatgagttcatgaatggggtggccaagcaggaagaagatgaggaaaaacactatgatgtgctcaagaaggcagtgaacagttatgacaagatcctgactgaagaggaaaagcaaatgaggatcctggctacagccctgcagaaggaggtgaaggaaagaactgggacagaggctgtgatggtgaaagagtatagaaataagattgatgccctgaaggaggctattgaggtggaaagagatggtatgcaggaagaagccatccaggagattgctggcatgacagcagatgtgctggaggctgctagtgaggaggtgcccctcattggtgctgggatggccacagctgttgccacaggcagagccattgagggtgcctataagctgaaaaaagtgatcaatgctttgagtggcattgatctcacacatctcagaactcccaaaattgaacctaccattgtgagcacagtgcttgatcacaaattcaaggacattcctgatgagatgctggcagtgtctgttctgtccaaaaacagagccattgaagagaaccacaaagagatcatccaccttaagaatgaaatcctcccaaggtttaagaaggcaatggatgaggagaaggagatctgtggtattgaggacaagaagatacatccaaaggttatgatgaagtttaaaattcctagaacccagcagcctcagattcacatctactctgcaccttgggattctgatgatgtgtttttcttccattgcatcagtcaccaccatgctaatgagtctttcttcattggatttgatctgggaattgatctggtccattatgaagacctcacagcacactggcatgcactgggggcagctcaggctgctgtgggtagatccctcaatgaagtgtacaaggagttcctgaacttggctatcaataatacttactccagtcaaatgcatgccaggaggatgattagatcaaaaacagtgcatccaatttatttgggtagtctccactatgacatctccttcagcacacttaggagtaatgcacagaggattgtgtatgatgaagagttgcagatgcacatcctgagagggcctttgcacttccagaggagagccattctgggggccattaagcatggagtgaagattctgggcactgaggtggatatccctctcttcctgaggaatgcttagtctagagtccccgcggctcttcctcag</GBSeq_sequence>
+</GBSeq>

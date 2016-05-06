@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ098095</GBSeq_locus>
+  <GBSeq_length>495</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>mRNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>23-JUN-2008</GBSeq_update-date>
+  <GBSeq_create-date>17-JUL-2005</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 4 NS1 mRNA, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ098095</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ098095.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ098095.1|</GBSeqid>
+    <GBSeqid>gi|70722640</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 4</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 4</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..495</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Jimenez-Clavero,M.A.</GBAuthor>
+        <GBAuthor>Aguero,M.</GBAuthor>
+        <GBAuthor>San Miguel,E.</GBAuthor>
+        <GBAuthor>Mayoral,T.</GBAuthor>
+        <GBAuthor>Lopez,M.C.</GBAuthor>
+        <GBAuthor>Ruano,M.J.</GBAuthor>
+        <GBAuthor>Romero,E.</GBAuthor>
+        <GBAuthor>Monaco,F.</GBAuthor>
+        <GBAuthor>Polci,A.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>Gomez-Tejedor,C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>High throughput detection of bluetongue virus by a new real-time fluorogenic reverse transcription-polymerase chain reaction: application on clinical samples from current Mediterranean outbreaks</GBReference_title>
+      <GBReference_journal>J. Vet. Diagn. Invest. 18 (1), 7-17 (2006)</GBReference_journal>
+      <GBReference_pubmed>16566253</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..495</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Aguero,M.</GBAuthor>
+        <GBAuthor>Jimenez-Clavero,M.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-JUN-2005) Enfermedades Emergentes, Laboratorio Central de Veterinaria, Ctra Algete km 8, Algete, Madrid 28110, Spain</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..495</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>495</GBInterval_to>
+          <GBInterval_accession>DQ098095.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>mRNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:94967</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>vaccine strain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;495</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>495</GBInterval_to>
+          <GBInterval_accession>DQ098095.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAZ06942.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:70722641</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VEGKMKRCGVQLLEDYRKSGMMDEAVKQSALVNSERVRLDDSLSAMPYIYVPIKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRRQHNQIKREVERQINTCPYTGYKGRVFQVMFLPIQLINFLKMDDFAKHFNRYASMAIQQYLRVGYAEEIRYVQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gtcgaagggaagatgaagcggtgcggggtgcaactgctcgaggattaccgcaagagtgggatgatggatgaggccgtgaagcaatccgcattggttaattcggaaagagttagattggatgattctctttctgcaatgccttacatctatgtgccaatcaaagaaggtcaaatcgtgaatccaacatttatatcaagatatcgccaaattgcatactatttctacaatccggatgcggctgatgattggatcgatccaaatctgtttggcattcgcaggcagcacaatcaaatcaaacgtgaggttgagagacaaattaacacatgcccctacactggatacaaaggcagagtgtttcaagtaatgttcttgccgattcagctgatcaattttttgaagatggacgattttgcgaagcattttaacaggtatgcttcaatggcgatacagcaatatctgagagttggttatgctgaagagatcagatatgtacaa</GBSeq_sequence>
+</GBSeq>

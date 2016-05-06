@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KM365234</GBSeq_locus>
+  <GBSeq_length>899</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-AUG-2015</GBSeq_update-date>
+  <GBSeq_create-date>31-AUG-2015</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate BTV/2019/13 VP3 protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KM365234</GBSeq_primary-accession>
+  <GBSeq_accession-version>KM365234.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KM365234.1|</GBSeqid>
+    <GBSeqid>gi|724784945</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..899</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Golender,N.</GBAuthor>
+        <GBAuthor>Bumbarov,V.</GBAuthor>
+        <GBAuthor>Khinich,Y.</GBAuthor>
+        <GBAuthor>Panshin,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (12-AUG-2014) Virology, Kimron Veterinary Institute, P.O.B. 12, Bet Dagan 50250, Israel</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..899</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>899</GBInterval_to>
+          <GBInterval_accession>KM365234.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>untyped</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV/2019/13</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>whole blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>ovine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Israel</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Nov-2013</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;899</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>899</GBInterval_to>
+          <GBInterval_accession>KM365234.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP3 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AIY27667.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:724784946</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>LSSDSGPLLSVFALQEIMQKVRQVQADYMTATREVDFTVPDVQKILDDIKALAAEQVYKIVKIPGISFRHIVMQSRDRVLRVDTYYEEMSQVGDVITEDEPEKFYSTIIKKVRFIRGKGSFILHDIPTRDHRGMEVAEPEVLGVEFKNVLPVLTAEHRAMIQNALDGSIIENGNVATRDVDVFIGACSEPIYRIYNRLQGYIEAVQLQELRNSIGWLERLGQRKRITYSQEVLTDFRRQDTIWVLALQLPVNPQVVWDVPRSSIANLIMNIATCLPTGEYIAPNPRISSITLTQRITTTG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ctgtcgagtgattcaggaccgctgctttccgtgttcgcattgcaagagataatgcagaaagtaagacaggtacaagctgattatatgactgcgacacgagaggttgacttcacagtaccggatgtacaaaagattctagatgacattaaagcgttagccgcagagcaggtgtataaaattgtcaaaattcctggtatttcgttcagacatatcgtgatgcagtcaagagatcgagtcttacgagtagatacctactatgaagagatgtcgcaggttggagatgttataacggaggatgagccagaaaaattctattcaaccataattaagaaggtacggttcatacgcggaaaaggatcttttatattgcatgatattccgactagagatcatcgtggtatggaagttgcagaaccagaagtgttgggagttgaatttaaaaatgtgttacctgtgttgaccgccgagcatcgcgcgatgattcagaacgcattggatggatcgataatcgaaaatggaaatgtagctacacgggatgtcgacgtattcataggtgcttgttctgagccgatatatcgcatatataataggttgcaagggtatattgaagcggtgcagttacaagagttaaggaactcaattggttggttagaaaggttaggacagaggaagaggattacgtattcacaagaagttcttactgactttagaagacaggacacgatttgggttttagctttacagctaccggttaatccgcaagtagtgtgggatgtgccacgcagttctattgccaatttaatcatgaatatagcaacgtgtttacctacaggagaatacattgcaccaaacccaaggatttcatcgattacgctgactcaaagaattacgacaacggg</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AY386682</GBSeq_locus>
+  <GBSeq_length>1050</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>mRNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>06-OCT-2003</GBSeq_update-date>
+  <GBSeq_create-date>06-OCT-2003</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus major core protein VP7 (S7) mRNA, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>AY386682</GBSeq_primary-accession>
+  <GBSeq_accession-version>AY386682.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AY386682.1|</GBSeqid>
+    <GBSeqid>gi|37222578</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1050</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Hua,Q.</GBAuthor>
+        <GBAuthor>Xu,Z.</GBAuthor>
+        <GBAuthor>Yang,Y.</GBAuthor>
+        <GBAuthor>Dong,J.</GBAuthor>
+        <GBAuthor>Yang,J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>High level expression of the major core VP7 of Bluetongue virus from Yunnan in Escherichia coli</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1050</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Hua,Q.</GBAuthor>
+        <GBAuthor>Xu,Z.</GBAuthor>
+        <GBAuthor>Yang,Y.</GBAuthor>
+        <GBAuthor>Dong,J.</GBAuthor>
+        <GBAuthor>Yang,J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (10-SEP-2003) Technology Center, Yunnan Entry-Exit Inspection and Quarantine Bureau, Lu Jiadi, Dia Chi Road, Kunming, Yunnan 650228, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>AY386682.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>mRNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>AY386682.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S7</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>AY386682.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>specific antigen</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>major core protein VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAQ90012.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:37222579</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETFQPGRWFMRAAQAVTAVVCGPDMIQVSLNGGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRIIAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggacactatcgctgcaagagcactcactgtgatgcgagcatgtgctacgcttcaagaggcaagaattgtgttggaagccaatgtgatggaaattttggggatagctatcaataggtacaatggactcactttacgaggagtgacgatgcgcccgacctcgttagcacaaagaaatgagatgttttttatgtgtttggatatgatgctgtctgctgctgggataaatgttggaccgatatcgccagactatactcaacatatggctacgattggtgtactagcaacaccggaaataccttttacaacggaagcggcgaatgaaatagctcgagtgactggggagacttcgacatgggggccagcgcgtcagccttatggtttcttccttgaaactgaggaaaccttccaaccagggaggtggttcatgcgcgccgctcaagcagtaactgcagtagtgtgcggtccggatatgattcaagtgtcacttaatggcggagcgagaggagatgtacaacagatatttcagggtcgtaatgatcccatgatgatatatttagtgtggaggagaatcgaaaactttgcgatggcgcaaggtaattcacagcaaactcaagcgggtgtgactgtcagtgttggtggagttgacatgagggcgggacgcattatagcatgggatggacaggccgcgctgcatgtgcataatccgacacaacagaatgcgatggtgcaaatacaggttgtgttctatatatctatggataaaactttaaaccagtaccccgctttaactgctgagattttcaatgtttacagcttcagggaccacacatggcatgggctaagaacggcgatattaaacagaaccacactgccaaacatgctgccaccaatcttcccaccaaatgatcgagatagcatcttaactcttctacttttatctacacttgctgatgtttacactgttttaaggccagagtttgcgattcacggtgtaaatccgatgccagggccgctcacacgtgctattgcacgcgccgcctatgtgtag</GBSeq_sequence>
+</GBSeq>

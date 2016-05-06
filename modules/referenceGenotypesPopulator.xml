@@ -1,0 +1,21 @@
+<textFilePopulator>
+	<columnDelimiterRegex>,</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>SourceName</header>
+		<fieldName>source.name</fieldName>
+	</textFileColumn>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>PrimAcc</header>
+		<fieldName>sequenceID</fieldName>
+	</textFileColumn>
+	<textFileColumn>
+		<header>genotype</header>
+		<fieldName>genotype</fieldName>
+	</textFileColumn>
+	<textFileColumn>
+		<header>subtype</header>
+		<fieldName>subtype</fieldName>
+	</textFileColumn>
+</textFilePopulator>

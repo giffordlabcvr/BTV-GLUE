@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KT317671</GBSeq_locus>
+  <GBSeq_length>1156</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-MAR-2016</GBSeq_update-date>
+  <GBSeq_create-date>03-JAN-2016</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 4 strain 4/O.Aries-tc/ZAF/11/Rus segment 7, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KT317671</GBSeq_primary-accession>
+  <GBSeq_accession-version>KT317671.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KT317671.1|</GBSeqid>
+    <GBSeqid>gi|970757755</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_project>PRJNA287219</GBSeq_project>
+  <GBSeq_source>Bluetongue virus 4</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 4</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1156</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Van den Bergh,C.</GBAuthor>
+        <GBAuthor>Venter,E.H.</GBAuthor>
+        <GBAuthor>Coetzee,P.</GBAuthor>
+        <GBAuthor>Le Grange,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>An investigation of bluetongue virus live-modified vaccine (MLV) and wild-type strain reassortment in experimentally infected cattle</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1156</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Van den Bergh,C.</GBAuthor>
+        <GBAuthor>Venter,E.H.</GBAuthor>
+        <GBAuthor>Coetzee,P.</GBAuthor>
+        <GBAuthor>Le Grange,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-JUL-2015) Department of Veterinary Tropical Diseases, University of Pretoria, Old Soutpan Road, Pretoria, Gauteng 0110, South Africa</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Assembly Method CLC Bio v. 5.5 Coverage 6661.29 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1156</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1156</GBInterval_to>
+          <GBInterval_accession>KT317671.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>4/O.Aries-tc/ZAF/11/Rus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>O. aries-tc/ZAF/2011/Rustenburg-NW-Province</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Ovis aries</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:94967</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa: North West, Rustenburg</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>14-Nov-2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Passage history: 1#BHK 2#Vero</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>KT317671.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>KT317671.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>core protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ALU65921.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:970757756</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINIGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETFQPGRWFMRAAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRIIAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>18..1064</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1064</GBInterval_to>
+          <GBInterval_accession>KT317671.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:144478</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaatctatagagatggacactatcgctgcaagagcactcactgtgatgcgagcatgtgctacgcttcaagaagcaagaattgtgttggaggctaacgtgatggagatactggggatagcaatcaacagatataatggattaactttacgaggggtgacgatgcgtccgacttcattggcgcagagaaatgagatgttttttatgtgtttagatatgatgctgtctgctgctgggataaacataggaccgatatctccagattatacccaacatatggctacaattggcgtactagcgacgccagagataccctttacaacggaagcggcgaatgagattgctcgcgtgacaggggagacttcgacgtggggaccagcgcgccagccctatggttttttccttgaaactgaagagactttccaacctggaagatggttcatgcgtgccgcacaagcagtaactgcggtagtgtgtggtccggatatgattcaagtgtcactgaatgctggagcaagaggagatgttcagcagatatttcagggtcgtaacgaccccatgatgatatatctagtttggagaagaattgaaaacttcgcgatggcgcaaggtaactcacagcaaactcaggcaggtgtgactgttagcgttggcggagtagatatgcgggcggggcgtatcatagcgtgggatggacaggccgctctacatgtacacaatccaacacaacagaatgcgatggttcagatacaagttgtgttttacatttctatggataagaccttaaatcaatatcctgccctgactgctgaaatctttaatgtttacagcttcagagatcacacatggcacgggttgaggacggctatactaaacagaactacactgccgaatatgctgccacctatctttccaccaaacgatcgggatagtatcttgactcttttgcttttgtctacgcttgctgatgtttatactgttttgagacctgagttcgcgattcatggcgtaaacccaatgcctgggccgctcacacgtgctattgcacgcgccgcctatgtgtagtccactttgcacgggtgtgggttacatatgcggtgtgtcggttgtgggatatatgtgacccattcaaacgtctcttagattacacttac</GBSeq_sequence>
+  <GBSeq_xrefs>
+    <GBXref>
+      <GBXref_dbname>BioProject</GBXref_dbname>
+      <GBXref_id>PRJNA287219</GBXref_id>
+    </GBXref>
+    <GBXref>
+      <GBXref_dbname>BioSample</GBXref_dbname>
+      <GBXref_id>SAMN03801519</GBXref_id>
+    </GBXref>
+  </GBSeq_xrefs>
+</GBSeq>

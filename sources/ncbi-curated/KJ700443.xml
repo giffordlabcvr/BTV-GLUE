@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KJ700443</GBSeq_locus>
+  <GBSeq_length>1050</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>08-OCT-2014</GBSeq_update-date>
+  <GBSeq_create-date>08-OCT-2014</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate SPA2003/1 VP7 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>KJ700443</GBSeq_primary-accession>
+  <GBSeq_accession-version>KJ700443.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KJ700443.1|</GBSeqid>
+    <GBSeqid>gi|693592603</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1050</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Mohd Jaafar,F.</GBAuthor>
+        <GBAuthor>Belhouchet,M.</GBAuthor>
+        <GBAuthor>Vitour,D.</GBAuthor>
+        <GBAuthor>Adam,M.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+        <GBAuthor>Attoui,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Immunisation with bacterial expressed VP2 and VP5 of bluetongue virus (BTV) protect alpha/beta interferon-receptor knock-out (IFNAR(-/-)) mice from homologous lethal challenge</GBReference_title>
+      <GBReference_journal>Vaccine 32 (32), 4059-4067 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vaccine.2014.05.056</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24886956</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1050</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Mohd Jaafar,F.</GBAuthor>
+        <GBAuthor>Mertens,P.P.C.</GBAuthor>
+        <GBAuthor>Attoui,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (14-APR-2014) Vector-Borne Viral Diseases, The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>KJ700443.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>SPA2003/1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Spain</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2003</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>KJ700443.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>T13 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AIS39803.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:693592604</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETFQPGRWFMRAAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRIIAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFVIHGVNQMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggacactatcgctgcaagagcactcactgtgatgcgagcatgtgctacgctccaagaagcaaggattgtattggaagctaacgtaatggagatactagggatagcaatcaacagatataatggattaactttacgaggagtgacgatgcgcccgacttcattggcgcagagaaatgagatgttttttatgtgtttagatatgatgctgtccgcggctgggattaatgttggaccgatatctccagattatacccaacatatggctacaattggtgtgctagcgacgccagagataccttttacaacggaagcggcgaatgaaattgctcgcgtgactggggagacttcgacgtggggaccagcgcgtcagccctatggttttttccttgaaactgaagagactttccaacctgggagatggttcatgcgcgccgctcaagcagtgactgcggtagtgtgtggtccagatatgattcaagtgtcactgaatgctggagcaagaggagatgtgcagcagatatttcagggtcgtaatgatcccatgatgatatatctagtttggaggagaattgaaaacttcgcgatggcgcagggtaactcacagcaaactcaagcaggcgtgactgttagcgttggcggagtagacatgcgggcggggcgtatcatagcgtgggatgggcaagctgctctacatgtgcataatcccacacaacagaatgcgatggtccaaatacaagttgtgttttatatttccatggataagaccttaaatcaataccctgccttgactgctgaaatctttaatgtttatagcttcagagatcacacatggcacgggttgaggacggctatactaaacagaaccacactgccgaatatgctgccacctatttttccaccaaatgaccgagatagtatcctgactcttttgcttttgtctacgcttgctgatgtttatactgttttgagacctgagttcgtaatccacggcgtaaaccaaatgcctgggccgctcacacgtgctattgcacgcgccgcctatgtgtag</GBSeq_sequence>
+</GBSeq>

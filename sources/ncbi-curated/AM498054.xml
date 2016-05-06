@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AM498054</GBSeq_locus>
+  <GBSeq_length>1981</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>07-MAR-2015</GBSeq_update-date>
+  <GBSeq_create-date>15-JUL-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 8 complete viral segment 4</GBSeq_definition>
+  <GBSeq_primary-accession>AM498054</GBSeq_primary-accession>
+  <GBSeq_accession-version>AM498054.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|AM498054.1|</GBSeqid>
+    <GBSeqid>gi|194304998</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>complete genome</GBKeyword>
+    <GBKeyword>complete viral segment</GBKeyword>
+    <GBKeyword>S4 gene</GBKeyword>
+    <GBKeyword>VP4 core protein</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 8</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 8</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Ross-smith,N.</GBAuthor>
+        <GBAuthor>Batten,C.A.</GBAuthor>
+        <GBAuthor>Shaw,A.E.</GBAuthor>
+        <GBAuthor>Anthony,S.J.</GBAuthor>
+        <GBAuthor>Samuel,A.R.</GBAuthor>
+        <GBAuthor>Darpel,K.E.</GBAuthor>
+        <GBAuthor>Veronesi,E.</GBAuthor>
+        <GBAuthor>Oura,C.A.</GBAuthor>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Potgieter,A.C.</GBAuthor>
+        <GBAuthor>Attoui,H.</GBAuthor>
+        <GBAuthor>van Rooij,E.</GBAuthor>
+        <GBAuthor>van Rijn,P.</GBAuthor>
+        <GBAuthor>De Clercq,K.</GBAuthor>
+        <GBAuthor>Vandenbussche,F.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Beer,M.</GBAuthor>
+        <GBAuthor>Hoffman,B.</GBAuthor>
+        <GBAuthor>Mellor,P.S.</GBAuthor>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Sequence analysis of bluetongue virus serotype 8 from the Netherlands 2006 and comparison to other European strains</GBReference_title>
+      <GBReference_journal>Virology 377 (2), 308-318 (2008)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.virol.2008.04.028</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>18570969</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-MAR-2007) Maan S., Department of Epidemiology, Institute for Animal Health, Pirbright Laboratory, Ash Road, Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>Related entries AM498051-AM498053 and AM498055-AM498060.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1981</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1981</GBInterval_to>
+          <GBInterval_accession>AM498054.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 8</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>BTV-8NT (NET2006/04)</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Ovis aries</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:197780</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Netherlands</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2006</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>9..1943</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>9</GBInterval_from>
+          <GBInterval_to>1943</GBInterval_to>
+          <GBInterval_accession>AM498054.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>9..1943</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>9</GBInterval_from>
+          <GBInterval_to>1943</GBInterval_to>
+          <GBInterval_accession>AM498054.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>S4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>function</GBQualifier_name>
+          <GBQualifier_value>protein within the sub-core, in addition this protein shows capping activities and methyltransferase type 1 and type 2 activities</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP4 core protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAM57245.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:194304999</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GOA:B4E551</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR007753</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/TrEMBL:B4E551</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MPEPHAVLYVTNELSHIVKSGFLPIWRLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKNIQLADIIKTVDVRIPREVVKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHKVYGMPEIPPLYMEYAEIGAKFDDEPTDEKLVSMLDYIVYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPESSDPNVIVHNVMVGSKKDILKHMNFLKRVERLFIWDVSSDRSQMDDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRHMHPDASVMKVVSRDVRKMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLEPSIYEVMKKSVIATAWVVRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGMREGASIDSWLELLRHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaacatgcctgagccacacgcagtactctatgtcacaaacgagctctctcatatcgtcaagagtggatttttgccaatatggagattaactggagacgagagtttaaacgatttatggcttgaaaatggaaaatatgcgacagatgtatatgcatacggagatgtatcaaaatggacgatacgacagctacgaggtcatgggttcattttcataagtacacacaagaatatacagctggcggatatcattaagacggtcgatgtccgcattcctcgggaagtcgtaaaaagtcaagatatgaaagcatttgaaaatgaaatcggtagacgcagaatccgtatgcgtaagggatttggtgatgcgttgaggaattatgcctttaagatggctattgaatttcacgggtcggaagcggagacgttgaacgatgcaaatcctcgattgcataaagtttatggaatgccagagataccaccgctatacatggaatatgcagagatcggagctaaatttgacgatgagccaactgatgaaaagttagtatcgatgcttgattatatcgtttacagcgcggaggaagtgcactatgttggatgcggtgacttacgtaccttgatgcagtttaaaaaacgttcaccaggacggtttagaagagtattatggcacgtatatgatccaatagcaccagaatcttcagatccaaacgttatagttcataatgtcatggtaggttcaaagaaagacattttaaaacatatgaactttctaaaacgtgttgaaagacttttcatatgggatgtgtcatcagatcgatcgcagatggatgatgatgaatgggaatcgaccaggttcgcagaggataggttgggtgaagagatagcgtatgagatgggcggcgcgttttccagtgcattgattaaacataggataccaaattcaagagacgagtatcactgcatttcgacttaccttctcccccagccgggggctgatgcggatatgtacgaattaagaaattttatgagattgaaaggttactcacatgtggatcgccacatgcatccagatgcttccgtaatgaaagttgtttcgcgtgatgtacgcaaaatggtcgaattgtatcatggtcgcgatcgtggcagatttctaaagaagaggctatttgagcaccttcatatcgtacgtaagaatgggttgttgcatgaaagtgatgaaccacgagcagatctgttttatttgaccaatcggtgcaacatgggattggaaccaagcatttatgaagtaatgaagaagtcggtgatcgctacggcctgggtagttcgcgctcctctatatgattatgatgattacgcgttaccccgatcaactgttatgctcaatggatcttaccgtgatatcagaattctagatggcaatggcgcaatcctatttctaatgtggaagtacccagatatcgtgaagaaagatttaacatatgatccagcgtgggcgatgaattttgctgtctcgttgaaggagccgatacccgatccccctgtgcccgatatttccctatgtagattcatcggactgcgcgttgagtcatctgtgttgagggtccgaaacccaacattacatgagacggctgatgaactaaaacggatggggttggatttgtctggtcatctatacgtcacattgatgtctggcgcttatgtcacagatttgttctggtggtttaagatgattctcgactggtctgcgcaaagcaaggaacaaaaattacgtgatttaaagaggtctgcagcggaggtaatcgaatggaaggagcagatggctgaacgtccatggcacgtgaggaatgatctaattgcagcgctgagggaatataaacggaaaatggggatgagagagggagcctcgatcgattcgtggctagaattactgcgtcacttataatgcgtgactgctaggtaaggggggcctttacaacttac</GBSeq_sequence>
+  <GBSeq_xrefs>
+    <GBXref>
+      <GBXref_dbname>BioSample</GBXref_dbname>
+      <GBXref_id>SAMEA3283074</GBXref_id>
+    </GBXref>
+  </GBSeq_xrefs>
+</GBSeq>

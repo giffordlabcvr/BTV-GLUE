@@ -1,0 +1,23 @@
+  create feature whole_genome "Whole genome"
+  
+    feature whole_genome set metatag INFORMATIONAL true
+
+    create feature segment-1  -p whole_genome "Segment 1"
+
+    create feature segment-2  -p whole_genome "Segment 2"
+
+    create feature segment-3  -p whole_genome "Segment 3"
+
+    create feature segment-4  -p whole_genome "Segment 4"
+
+    create feature segment-5  -p whole_genome "Segment 5"
+
+    create feature segment-6  -p whole_genome "Segment 6"
+
+    create feature segment-7  -p whole_genome "Segment 7"
+
+    create feature segment-8  -p whole_genome "Segment 8"
+
+    create feature segment-9  -p whole_genome "Segment 9"
+
+    create feature segment-10 -p whole_genome "Segment 10"

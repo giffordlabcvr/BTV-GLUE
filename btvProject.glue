@@ -1,0 +1,31 @@
+delete project btv
+
+create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.50
+
+run file glue/btvFieldDefinitions.glue
+ 
+project btv
+
+  run file glue/btvProjectSettings.glue
+  
+  # create modules from files
+  create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
+  create module --fileName modules/btvCompoundAligner.xml btvCompoundAligner
+  create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
+
+  # this module downloads all btv from NCBI
+  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  
+  # Import the reference sequences from files
+  #import source sources/ncbi-refseqs 
+
+  # build master reference, with features.
+  run file glue/btvFeatures.glue
+
+  # Import NCBI curated sequence set
+  import source sources/ncbi-curated 
+  
+  module btvGenbankXmlPopulator populate
+
+  validate
+  

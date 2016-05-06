@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>CS227863</GBSeq_locus>
+  <GBSeq_length>1050</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>17-JUL-2006</GBSeq_update-date>
+  <GBSeq_create-date>15-DEC-2005</GBSeq_create-date>
+  <GBSeq_definition>Sequence 22 from Patent WO2005113584</GBSeq_definition>
+  <GBSeq_primary-accession>CS227863</GBSeq_primary-accession>
+  <GBSeq_accession-version>CS227863.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|CS227863.1|</GBSeqid>
+    <GBSeqid>pat|WO|2005113584|22</GBSeqid>
+    <GBSeqid>gi|83695096</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 10</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 10</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Heidner,H.W.</GBAuthor>
+        <GBAuthor>Klimstra,W.B.</GBAuthor>
+        <GBAuthor>Ryman,K.D.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Methods and compositions comprising protein l immunoglobulin binding domains for cell-specific targeting</GBReference_title>
+      <GBReference_journal>Patent: WO 2005113584-A1 22 01-DEC-2005; The Board of Supervisors of Louisiana State University and Agricultural College (US); Board of Regents, The University of Texas System (US)</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>CS227863.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:10906</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..1050</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1050</GBInterval_to>
+          <GBInterval_accession>CS227863.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>unnamed protein product; VP7 gene</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAJ47376.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:83695097</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETFQPGRWFMRAAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRIIAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggacactatcgccgcaagagcactcactgtgatgcgagcatgtgctacgcttcaagaggcaagaattgtgttggaagccaatgtgatggaaattttggggatagctatcaataggtacaatggactcactttacgaggagtgacgatgcgcccgacctcgttagcacaaagaaatgagatgttttttatgtgtttggatatgatgctgtctgctgctgggataaatgttggaccgatatcgccagactatactcaacatatggctacgattggtgtactagcaacaccggaaataccttttacaacggaagcggcgaatgaaatagcacgagtgactggggagacttcgacatgggggccagcgcgtcagccttatggtttcttccttgaaactgaggaaaccttccaaccagggaggtggttcatgcgcgccgctcaagcagtaactgcagtagtgtgcggtccggatatgattcaagtgtcacttaatgctggagcgagaggagatgtacaacagatatttcagggtcgtaatgatcccatgatgatatatttagtgtggaggagaatcgaaaactttgcgatggcgcaaggtaattcacagcaaactcaagcgggtgtgactgtcagtgttggtggagttgacatgagggcgggacgcattatagcgtgggatggacaggccgcgctgcatgtgcataatccgacacaacagaatgcgatggtgcaaatacaggttgtgttctatatatctatggataaaactttaaaccagtaccccgctttgactgctgagattttcaatgtttacagcttcagggaccacacatggcatgggctaagaacggcgatattaaacagaaccacactgccaaacatgctgccaccaatcttcccaccaaatgatcgagatagcatcttaactcttctacttttatctacacttgctgatgtttacactgttttaaggccagagtttgcgattcacggcgtaaatccgatgccagggccgctcacacgtgctattgcgcgcgccgcctatgtgtag</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AJ277802</GBSeq_locus>
+  <GBSeq_length>1154</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-APR-2005</GBSeq_update-date>
+  <GBSeq_create-date>04-MAY-2000</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 23 VP7 gene for structural protein VP7, isolate Dehradoon, genomic RNA</GBSeq_definition>
+  <GBSeq_primary-accession>AJ277802</GBSeq_primary-accession>
+  <GBSeq_accession-version>AJ277802.2</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|AJ277802.2|</GBSeqid>
+    <GBSeqid>gi|38422765</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>structural protein VP7</GBKeyword>
+    <GBKeyword>VP7 gene</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 23</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 23</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Kataria,R.S.</GBAuthor>
+        <GBAuthor>Tiwari,A.K.</GBAuthor>
+        <GBAuthor>Butchaiah,G.</GBAuthor>
+        <GBAuthor>Bandyopadhyay,S.K.</GBAuthor>
+        <GBAuthor>Desai,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Kataria,R.S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-MAY-2000) Kataria R.S., National Biotechnology Centre, Indian Veterinary Research Institute, Izatnagar-243 122, U.P., INDIA</GBReference_journal>
+      <GBReference_remark>revised by [3]</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..1154</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Kataria,R.S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (17-NOV-2003) Kataria R.S., National Biotechnology Centre, Indian Veterinary Research Institute, Izatnagar-243 122, U.P., INDIA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Nov 18, 2003 this sequence version replaced gi:7710962.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1154</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1154</GBInterval_to>
+          <GBInterval_accession>AJ277802.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 23</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>23</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Dehradoon</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45031</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>AJ277802.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1067</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1067</GBInterval_to>
+          <GBInterval_accession>AJ277802.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>experiment</GBQualifier_name>
+          <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>structural protein VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAB90208.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:7710963</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GOA:Q9IV34</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>HSSP:1BVP</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR001803</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR008935</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR008980</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR023176</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR023178</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/TrEMBL:Q9IV34</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETYQPGRWFMRAAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTLAGVTVNVGGVDMRAGRIIAWDGQAALQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaatctatagagatggacactatcgcagcaagagcgctcaccgtgatgcgagcatgtgccactttacaagaagcaagaatcgtgttagaagctaatgtaatggaaattttaggtattgcaattaacagatataatggattaacccttcgtggagttacaatgcgcccgacatctttggctcaaagaaatgaaatgttttttatgtgtttggatatgatgttatcagcggctgggataaatgttggaccaatatcaccagattacacgcagcatatggcgacaattggagtgctagcaacgccagagattcctttcacaacagaagctgcgaatgagatcgcacgtgtaactggagagacgtcaacgtggggaccggcgcgtcaaccatatggtttctttcttgaaacagaggaaacgtatcagcctggtcgttggtttatgcgagctgcgcaggccgtaactgctgtggtgtgtggcccagacatgatccaagtgtcattgaatgctggtgctagaggtgatgtgcaacagatttttcagggccgtaatgatcctatgatgatatatttggtttggagaaggatagagaatttcgcgatggctcaagggaattcacagcaaacgctggccggcgtgacagttaacgtcggaggtgttgacatgagggcgggacgcataatcgcgtgggatgggcaagccgcactacaaattcacaaccctactcagcagaatgcaatggtgcagatacaagtggttttctatatctcgatggataagactttaaatcaataccccgccttgactgcagagatatttaacgtctatagctttagagatcatacttggcatggattgagaaccgctatattaaatagaactactttgccaaatatgttaccacctatatttcctccaaacgaccgagatagcatattgactcttttgttgttgtcaactttagcagatgtatataccgtactacgaccggagttcgctatacatggtgtaaatcctatgccggggccgctcacgcgtgcgatcgcgcgcgccgcttatgtgtagtccacttagcacgggtgtgggttacacatacggtgtgtcggttgtgggaggtgtaacccattcatacgtctcttagattacacttac</GBSeq_sequence>
+</GBSeq>

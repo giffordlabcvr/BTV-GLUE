@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ681264</GBSeq_locus>
+  <GBSeq_length>1049</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>16-APR-2012</GBSeq_update-date>
+  <GBSeq_create-date>16-APR-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate IND2003/02 segment 9 nonfunctional VP6 gene, complete sequence; and NS4 gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>JQ681264</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ681264.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ681264.1|</GBSeqid>
+    <GBSeqid>gi|383932057</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1049</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Guimera,M.</GBAuthor>
+        <GBAuthor>Pullinger,G.</GBAuthor>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete genome sequence of an isolate of bluetongue virus serotype 2, demonstrating circulation of a Western topotype in southern India</GBReference_title>
+      <GBReference_journal>J. Virol. 86 (9), 5404-5405 (2012)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/JVI.00420-12</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22492927</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1049</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Mertens,P.P.C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-FEB-2012) Vector-Borne Diseases Programme, Institute for Animal Health, Pirbright Laboratory, Ash Road Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JQ681257-JQ681265 and AJ783905 represent sequences from the 10 segments of Bluetongue virus isolate IND2003/02</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1049</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1049</GBInterval_to>
+          <GBInterval_accession>JQ681264.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>IND2003/02</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Tiruneveli, Tamil Nadu</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2003</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>Dr. Aruni Wilson</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>16..1005</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>16</GBInterval_from>
+          <GBInterval_to>1005</GBInterval_to>
+          <GBInterval_accession>JQ681264.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonfunctional VP6 due to mutation; helicase for unwinding and binding to ssRNA and dsRNA; NTPase</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>182..421</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>182</GBInterval_from>
+          <GBInterval_to>421</GBInterval_to>
+          <GBInterval_accession>JQ681264.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFH57189.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:383932058</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MVRGRNRRAARRKRAAKRLKMQMWIDAYILQWDLDQAQKDLENARTRMLTEEMERLEEEVEMLMRELELLERMEEDGWF</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaattgcataggtcagctgcgatgcttcttgcacccggtgacgtgatcaagcgttcatccgaggagttaaaacagagacagattcaaattaatttaattgattggatagagagcgagggcgaaaaagagagtaaagcggaacccaaagagggagacaaagcagaggaatcaaaggatggtcaggggacgcaatcggagagcagccagaagaaagagagcagcaaagaggctaaagatgcagatgtggatagacgcatacatactgcagtgggatctggatcaagcgcaaaaggacctggagaacgcgcgaacgagaatgttgacagaggagatggaaaggttggaggaggaggtggagatgctgatgcgggagttggaactattggagcgaatggaggaagatgggtggttctaacagaagagattgctcgcgcgatcgaatctaaatacggtacgaagattgatgtttacagagatgaggttccagcacaaatcatcgaagtagaacgcagtctccagaaagagctgggaatttcgcgtgagggagtggccgagcagacagagagattgagagatctgcgacgaaaagagaagagtggggcgcatgcaaaggctgctgagagagggagacgtaaacaagggaagaagcctcatggtgatgtgcagaaagagggtactgaggaagagaagacgtctgaagaaccagcgagtgtcgggatcaccatagagggggtcatgagtcagaagaaactcttgagcatgattggcggtgtagagagaaagatggctccaataggcgcgcgggagagtgcagttatgttagtttcaaacagtattaaagatgtggtgcgagctacagcgtatttcacagcgccaaccggagatccacattggaaggaggtggctcgcgaagcttcaaaaaagaagaacatattagcttacacgagtacgggaggagatgtgaaaacggagttcctgcatttgatcgatcacctctaaagggtccagggtaccttcttgacgtagggcgatttggcttttac</GBSeq_sequence>
+</GBSeq>

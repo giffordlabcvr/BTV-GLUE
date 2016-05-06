@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EU131025</GBSeq_locus>
+  <GBSeq_length>690</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>13-JUL-2012</GBSeq_update-date>
+  <GBSeq_create-date>30-NOV-2008</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate BTV18M nonstructural protein NS3/NS3A gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>EU131025</GBSeq_primary-accession>
+  <GBSeq_accession-version>EU131025.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EU131025.1|</GBSeqid>
+    <GBSeqid>gi|160213061</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Desai,G.S.</GBAuthor>
+        <GBAuthor>Hosamane,M.</GBAuthor>
+        <GBAuthor>Kataria,R.S.</GBAuthor>
+        <GBAuthor>Patil,S.S.</GBAuthor>
+        <GBAuthor>Prabhudas,K.</GBAuthor>
+        <GBAuthor>Singh,R.K.</GBAuthor>
+        <GBAuthor>Bhanuprakash,V.</GBAuthor>
+        <GBAuthor>Mondal,B.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Sequence analysis of the S10 gene of six Bluetongue Virus isolates from India</GBReference_title>
+      <GBReference_journal>Transbound Emerg Dis 56 (8), 329-336 (2009)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1111/j.1865-1682.2009.01089.x</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19744235</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Desai,G.S.</GBAuthor>
+        <GBAuthor>Hosamane,M.</GBAuthor>
+        <GBAuthor>Patil,S.S.</GBAuthor>
+        <GBAuthor>Prabhudas,K.</GBAuthor>
+        <GBAuthor>Singh,R.K.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Phylogenetic analysis of the NS3 gene of six bluetongue virus isolates from India</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..690</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Desai,G.S.</GBAuthor>
+        <GBAuthor>Hosamane,M.</GBAuthor>
+        <GBAuthor>Patil,S.S.</GBAuthor>
+        <GBAuthor>Prabhudas,K.</GBAuthor>
+        <GBAuthor>Singh,R.K.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-SEP-2007) High Security Animal Disease Laboratory, IVRI, Anand Nagar, Bhopal, M.P. 462021, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>EU131025.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>18</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV18M</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Madras</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..690</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>690</GBInterval_to>
+          <GBInterval_accession>EU131025.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>egress protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein NS3/NS3A</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABX10963.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:160213062</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSTEIPQWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgctatccgggctgatccaaaggttcgaggaagaaaaaatgaaacataatcaggagagagttgaagagctaagtctggttcgtgtggatgatacgatttcacaaccaccaagatatgctccgagtgccccaatgccatcatcaatgccaaccgttgcccttgaaatattggataaagcgatgtcaaacactactggtgctacgcaaacacagaaggcggagaaagctgcattcgcatcgtacgcagaagcgtttcgtgatgatgtgagactaagacagattaaacgtcatgttaatgaacagatccttccaaaattaaagagtgatttgggtggtttaaagaaaaagagagctatcatacacatgacgttgctagttgccgctgttgtagcgttgttgacgtcggtatgcacgctttcaagtgatatgagcgtggcgtttaagcttaatggtacatcgacggaaataccgcagtggtttaagagtctaaaccccatgcttggagtagtaaatctaggcgcaactttcataatgatggtttgtgcgaagagtgagagagggctaaaccagcagattgacatgatcaagaaggaagttatgaagaaacaatcatataatgatgcggtgaggatgagcttcacagagttctcgtcagtcccgctagatggtttcgaactaccattaacctaa</GBSeq_sequence>
+</GBSeq>

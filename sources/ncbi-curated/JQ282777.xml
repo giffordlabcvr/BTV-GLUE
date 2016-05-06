@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ282777</GBSeq_locus>
+  <GBSeq_length>822</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>08-APR-2012</GBSeq_update-date>
+  <GBSeq_create-date>08-APR-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate IND1992/01 segment 10, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JQ282777</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ282777.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ282777.1|</GBSeqid>
+    <GBSeqid>gi|383215085</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Prasad,G.</GBAuthor>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Full genome sequence of bluetongue virus serotype 1 from India</GBReference_title>
+      <GBReference_journal>J. Virol. 86 (8), 4717-4718 (2012)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/JVI.00188-12</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22457532</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..822</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Mertens,P.P.C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (13-DEC-2011) Vector-borne Viral Diseases Programme, Institute for Animal Health, Pirbright laboratory, Ash Road Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>INSD Accession Numbers JQ282770-JQ282777, AJ585111 and AJ586659 represent sequences from the 10 segments of Bluetongue virus</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..822</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>822</GBInterval_to>
+          <GBInterval_accession>JQ282777.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>IND1992/01</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Ovis aries</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Avikanagar, Rajasthan</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>03-Mar-1992</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>20..709</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>709</GBInterval_to>
+          <GBInterval_accession>JQ282777.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>unknown</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFG72995.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:383215086</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYVPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRYVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSTEIPQWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagtgtcgctgccatgctatccgggctgatccaaaggttcgaggaagaaaaaatgaaacataatcaggagagagtcgaagagctaagtctggttcgtgtggatgatacaatttcacaaccgccgagatatgttccgagtgctccaatgccatcatcaatgccaaccgttgcccttgaaatattggataaagcgatgtcaaacactactggtgctacgcaaacacagaaggcggagaaagctgcattcgcatcgtacgcggaagcgtttcgtgatgatgtgagactaagacagatcaaacgttatgttaatgaacagatcctcccaaagttaaagagtgatttaggtggtctaaagaaaaagagagctatcatacacatgacgttgttagtcgccgctgttgtagcgttgttgacgtcggtatgtacgctctcaagtgatatgagcgtggcatttaagcttaatggtacatcaacggaaataccgcagtggtttaagagtctaaatcctatgcttggagtagtaaatctaggagcgactttcataatgatggtttgtgcgaagagtgagagagggctaaaccagcagattgacatgatcaagaaggaagttatgaagaaacaatcatataatgatgcggtgaggatgagctttacagagttctcgtcagtcccgctagacggtttcgaactaccattaacctaagatcagtaggtagagtggcgccccgaggtttgcaccgcgtggagtggttgatccagcgatgcaaattcccactgctgtataacgggggagggtgcgcggcgctatacactcac</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>NC_006025</GBSeq_locus>
+  <GBSeq_length>1769</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>08-DEC-2008</GBSeq_update-date>
+  <GBSeq_create-date>13-JUL-2004</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus segment 5, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>NC_006025</GBSeq_primary-accession>
+  <GBSeq_accession-version>NC_006025.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>ref|NC_006025.1|</GBSeqid>
+    <GBSeqid>gnl|NCBI_GENOMES|17830</GBSeqid>
+    <GBSeqid>gi|50253395</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_project>PRJNA14938</GBSeq_project>
+  <GBSeq_keywords>
+    <GBKeyword>RefSeq</GBKeyword>
+    <GBKeyword>non-structural NS1</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Lee,J.</GBAuthor>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete sequence of the NS1 gene (M6 RNA) of US bluetongue virus serotype 10</GBReference_title>
+      <GBReference_journal>Nucleic Acids Res. 15 (17), 7207 (1987)</GBReference_journal>
+      <GBReference_pubmed>2821505</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (13-JUL-2004) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..1769</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (01-SEP-1987) P. Roy, University of Alabama at Birmingham, Department of Environmental Health, University Station, Birmingham, Alabama 35294, U.S.A</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>VALIDATED REFSEQ: This record has undergone validation or preliminary review. The reference sequence was derived from Y00422.; Data kindly reviewed (05-OCT-1987) by Marshall J.; COMPLETENESS: full length.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1769</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1769</GBInterval_to>
+          <GBInterval_accession>NC_006025.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>segment M6</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..1769</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1769</GBInterval_to>
+          <GBInterval_accession>NC_006025.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>locus_tag</GBQualifier_name>
+          <GBQualifier_value>BTVs5gp1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GeneID:2943158</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>35..1693</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>35</GBInterval_from>
+          <GBInterval_to>1693</GBInterval_to>
+          <GBInterval_accession>NC_006025.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>locus_tag</GBQualifier_name>
+          <GBQualifier_value>BTVs5gp1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>non-structural NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>hypothetical protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>YP_052970.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:50253396</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR002630</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/Swiss-Prot:P07131</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GeneID:2943158</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQHFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGAQLLEDYRKSGMMDEAVKQSALVNSERIRLDDSLSAMPYIYVPINDGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYRGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEIRYVQQLFGRVPTGEFPLHQMMLMRRDLPTRDRSIVEARVRRSGDESWQSWLLPMIIIREGLDHQDRWEWFIDYMDRKHTCQLCYLKHSKQIPTCSVIDVRASELTGCSPFKMVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHHWIRGSGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGNFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACEGGEVINLAAAMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaagttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaatatcagtggggattacgcaaatgccacgagaacttttttggctatttcaccacaatggacttgcagtcacttaaaaaggaattgtctatttaatggaatgtgtgtcaagcagcattttgagagagcgatgatcgcggcaactgatgcggaggagccggcgaaagcatacaaattggttgaattggcaaaggaagcaatgtatgatcgggaaacagtctggcttcaatgtttcaaaagcttttcccaaccatacgaggaggatgtcgaagggaagatgaagcgatgcggagcgcaattgcttgaggattaccgcaaaagtgggatgatggatgaagccgtgaaacaatctgcgctggttaattcagaaagaattagattggatgattcactttccgcgatgccttacatctacgtgccaatcaatgatggtcaaattgttaatccgacatttatatcaagatatcgccaaattgcatattatttttacaacccagatgcagctgatgattggattgatccaaatctctttggcattcgtggacagcacaatcagattaaacgtgaggttgagagacaaattaacacatgcccttacactggatacagaggtagagtgtttcaagtaatgtttttgccgattcagctaatcaattttttgagaatggatgattttgcgaagcattttaacaggtacgcctcgatggcgatacaacaatatctgagagttggttatgctgaagagatcagatatgtacaacagctcttcggaagggtcccaacaggtgaatttccattacaccagatgatgctgatgagacgcgatctcccaacgcgcgatcgcagtattgtggaggcgcgggtgaggagatcaggtgatgagagctggcaaagctggctactacctatgatcatcattcgtgaggggttggatcatcaggatcggtgggaatggtttattgattacatggataggaaacatacatgtcaactttgctacttgaaacattcaaaacagatcccaacctgtagtgtgattgatgtacgtgcatctgaattaactgggtgctcgccgttcaagatggtgaagatcgaagagcatgtaggaaatgattcagtgtttaaaacgaaattagttcgcgatgagcaaatcggcaggattggagatcattattatacaacaaattgttacactggagcggaggcgttgattacaaccgcgattcacattcatcactggattagggggtctggcatctggaacgatgaaggatggcaggagggtattttcatgcttggacgcgtgctgctgagatgggaattgacaaaggcgcaacgcagcgctttgctcaggctattctgttttgtatgttacggatatgcaccacgcgcagacggaacgataccggactggaataatcttggaaactttttggatatcattttgaaggggccagaacttagtgaagatgaggatgaaagagcttatgctacaatgtttgaaatggttcgatgcattatcactctatgctatgcagaaaaggttcacttcgctgggttcgctgcgcctgcgtgtgaaggcggggaagtaattaatcttgctgcggccatgtctcagatgtggatggagtattagttactgatttttagttttttattcttcttttcatttctattttctcttagcactctactagaacttttcaacttac</GBSeq_sequence>
+  <GBSeq_xrefs>
+    <GBXref>
+      <GBXref_dbname>BioProject</GBXref_dbname>
+      <GBXref_id>PRJNA14938</GBXref_id>
+    </GBXref>
+  </GBSeq_xrefs>
+</GBSeq>

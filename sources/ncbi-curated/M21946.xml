@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BTVVP22</GBSeq_locus>
+  <GBSeq_length>2943</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>16-AUG-1994</GBSeq_update-date>
+  <GBSeq_create-date>04-AUG-1993</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus serotype 2 neutralization protein (L2 VP2) gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>M21946</GBSeq_primary-accession>
+  <GBSeq_accession-version>M21946.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|M21946.1|BTVVP22</GBSeqid>
+    <GBSeqid>gi|530094</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>neutralization protein</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus 2</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2943</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yamaguchi,S.</GBAuthor>
+        <GBAuthor>Fukusho,A.</GBAuthor>
+        <GBAuthor>Roy,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete sequence of neutralization protein VP2 of the recent US isolate bluetongue virus serotype 2: its relationship with VP2 species of other US serotypes</GBReference_title>
+      <GBReference_journal>Virus Res. 11 (1), 49-58 (1988)</GBReference_journal>
+      <GBReference_pubmed>2845683</GBReference_pubmed>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Aug 17, 1994 this sequence version replaced gi:340703.; Original source text: Bluetongue virus 2 (individual_isolate US) RNA.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2943</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2943</GBInterval_to>
+          <GBInterval_accession>M21946.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>US</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35328</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>18..2906</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>2906</GBInterval_to>
+          <GBInterval_accession>M21946.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..2906</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>2906</GBInterval_to>
+          <GBInterval_accession>M21946.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>neutralization protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA42843.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:530095</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDELGIPIYGRNYPEHLLKGYEFLINTGVKYPSQGGRHDVSKIPEMFAYDIKDEGIRDALKYMPTRNDGVVLPRIVDISLKGYDIRKSVIEANKSNSFHTDTSWVQWMIKDSMDQQPLKISIDEEHSRVVHSLFNCQVKIDAKKADTLSYHLEAIEDAEKACLHTRGQLCNHLTRMDLLHAAQEIAYAIKPTYQLIVHSERASTSDNFELGRQDVITLRRGHRVQMGDEAYTKLMERLVRLTVQGNVPRKIQSEIEQLEAIRTRWATGRYDPAHINSQDLCRILSRIGRIMLDQEAEPVDEDSLSLRFQRALDEKFRLNDSERNKIFEHKSHKKDEDRFYVLLRIAASDTYNSRIWWSNPYPCLRGTLIAAETKLGDVYFTLRSWYDWSVRSSYIPRERERETEKYIFSKINLFDYEAGPSSKVIHWEYQLYKRERVVTLERGNPCDLYPDEDDEVIITKFDDAKYSEMVGEIIDGGWNDEEFKMYKLLQEKGNVLTIDFEKDTKLYNTSEVVLPDYYGKWIVAPMFNSKMRIIETEIATNKSDDPMIKRTLKPMTDDPVELQRYTLARYYDIRPGLMGRSLNRTQTQSTFDAKVSELPDYEKVVSRFGVIKKPTRPCVTLTGRYILEKYSLLLIDILKYHTEVEGNPQEEFTHPRIDPQFKFNGNTLSDLNQTVVFIVDYLHEKRNYVRSIYEARYIISRIRSSTGAARMSIIEFYFPTFARLISNAREPTYVKDLMALNFLPLLFIVGDNMIYKHRQWSIPLLLYTDRVKVIPLEVGSSNNRQGFVSYLEYMFFFPSLADRTSKVDESMIKVSKEMVNYYMKTTISEGGVNLNVVSTKSLLYDIYLSSVCGGVSDGVVWYLPITHPYKCVVAIEVCDDRVPARLRCDRLKLRFPLSAQHLKGIVVIQINEEGGFDVYTEGIVTHRVCKKSLLKHVCDIVLLKFHGHVFGNDEMLTKLLNV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaacaggatcgcgatggatgagcttggcattccaatttatggacgtaattacccagagcatttattaaaaggatatgagtttttgattaatactggtgtaaaatatccaagtcaaggtggacgtcatgatgtttccaagattcctgagatgtttgcttacgatatcaaagatgaggggatacgggacgcactcaaatatatgccaacacgaaatgatggggtggtcttgccaaggatcgttgacattagcttgaagggatatgacatacggaaatcagttattgaagcgaataagagtaacagcttccatactgacacaagctgggttcagtggatgattaaagatagtatggatcaacagccgcttaagatatcgattgatgaggaacatagccgggttgtacattccctatttaattgtcaggtgaagatcgatgcgaaaaaagcagataccttatcttaccatcttgaagcaattgaggacgcagagaaagcatgtttacatacgagaggtcaattatgtaatcatctgacgaggatggatctgttacatgcggcacaggaaattgcgtatgcaattaagccgacgtatcagttaatagtgcattcggagagagcgtcgacttcagataacttcgaattagggaggcaagatgtaatcactttaagaaggggacatagagtacaaatgggcgacgaagcgtatactaagctgatggaacgcttagtgaggttaacggtgcaaggaaatgtacccagaaagatacaaagtgagatagagcagcttgaagcgattcgaaccagatgggcaactggcagatacgacccagctcatatcaattcacaggatctgtgtcggatattgtcacgtataggcagaattatgttggatcaagaagcggaaccggttgatgaagatagcttatctttgcgatttcagcgagctctcgatgagaagttccgtcttaacgattctgagagaaataagatatttgagcacaaatcgcataagaaggatgaggataggttctacgttttgttgcgtatcgctgcttccgacacttacaattcgaggatttggtggtcaaatccgtacccatgcttgcgcggcacgttgattgcggcggagacaaaattaggcgatgtttactttactctacgatcctggtatgattggagtgttagaagtagctatataccgcgtgaaagggagcgggaaacggagaagtatatatttagtaagataaacctatttgattacgaagctggtccatcgagcaaggttatacattgggagtatcaattatataaacgagagcgggtggttaccctagagagaggcaatccctgtgacttgtatcctgatgaagatgatgaagtcattatcacgaaatttgatgacgctaaatactctgagatggtcggggaaattatagatggtggatggaatgatgaggaatttaaaatgtataagttacttcaggaaaaaggtaatgttctcacaattgacttcgaaaaggatacgaagctgtataatacttcagaggtggttttaccagactattatggtaagtggatagttgcgccgatgttcaactctaaaatgagaattattgaaacggagattgcaaccaacaaaagtgatgatcccatgattaaaagaacgctcaaaccgatgactgatgatcccgtcgagctacagagatatactttagccagatactatgatatccgtcctggactaatgggtcgttcgctaaataggacacagactcaatcaacatttgacgcgaaggtgtcagagttgcccgactatgaaaaggtggtgtcacggtttggtgtaatcaagaaaccgacaagaccttgcgtaactttaaccgggcgatacattctggagaaatattctttacttcttatagatatattgaagtatcatactgaggttgaagggaatccacaagaagaatttacccatccgaggattgatccacagtttaaattcaacggtaatacattatctgatctgaatcaaacggtcgtttttatagtggattatttgcatgaaaagcgtaactatgtacgatcgatatacgaggcgagatacattatatctaggataaggtcgtctaccggtgcggcgcgtatgagtatcatcgaattttatttcccaacatttgcgcgcttgatttcgaacgcgcgggaaccgacttatgtgaaagatctgatggcgttgaacttcttgccgttactattcatagtaggtgataatatgatatataaacataggcagtggtcgataccattattgctgtatacagaccgagtgaaggtgattccattggaggtgggctcatcgaacaatagacagggattcgtatcttatctagagtatatgttcttttttccatcgttagctgatcgaacatctaaggtggatgaatcgatgattaaggtgtcaaaagagatggttaattactatatgaaaacaacgatatcggaagggggcgtgaatttgaacgttgtttccaccaagtcattactatatgacatctatctctcatcagtgtgcggtggtgtgtcggatggtgtagtctggtatctaccgatcactcatccatataagtgtgtagtcgctatcgaggtgtgcgacgatagagtacccgcgcgtttacgttgtgatagattgaagttgcgttttcccttaagtgcacagcatttaaagggtatagtagtaattcaaataaatgaggagggcggatttgatgtgtatacagaagggatagtaacgcatagggtttgtaagaaaagtttacttaaacatgtatgcgacattgttctgctaaaatttcatgggcacgtctttgggaacgatgaaatgctaacaaagttactcaatgtatgacctgcgtgactgcaggtccgcgatctgttcaacttac</GBSeq_sequence>
+</GBSeq>

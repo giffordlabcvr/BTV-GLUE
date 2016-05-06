@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>GQ506495</GBSeq_locus>
+  <GBSeq_length>1125</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>13-JUN-2010</GBSeq_update-date>
+  <GBSeq_create-date>13-JUN-2010</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus strain P635 segment 8, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>GQ506495</GBSeq_primary-accession>
+  <GBSeq_accession-version>GQ506495.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|GQ506495.1|</GBSeqid>
+    <GBSeqid>gi|297655557</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1125</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>van Rijn,P.A.</GBAuthor>
+        <GBAuthor>van Gennip,R.G.</GBAuthor>
+        <GBAuthor>Sanders,A.</GBAuthor>
+        <GBAuthor>Wright,I.M.</GBAuthor>
+        <GBAuthor>Batten,C.</GBAuthor>
+        <GBAuthor>Hoffmann,B.</GBAuthor>
+        <GBAuthor>Eschbaumer,M.</GBAuthor>
+        <GBAuthor>Oura,C.A.</GBAuthor>
+        <GBAuthor>Potgieter,A.C.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Full genome characterisation of bluetongue virus serotype 6 from the Netherlands 2008 and comparison to other field and vaccine strains</GBReference_title>
+      <GBReference_journal>PLoS ONE 5 (4), E10323 (2010)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1371/journal.pone.0010323</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>20428242</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1125</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Potgieter,A.C.</GBAuthor>
+        <GBAuthor>van Rijn,P.</GBAuthor>
+        <GBAuthor>Wright,I.M.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-AUG-2009) Arbovirus Molecular Research Group, Vector Borne Disease Programme, Department of Epidemiology, Institute for Animal Health, Pirbright Laboratory, Ash Road, Pirbright, Woking, Surrey GU24 0NF, UK</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers GQ506488-GQ506497 represent the complete genome of Bluetongue virus strain P635</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1125</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1125</GBInterval_to>
+          <GBInterval_accession>GQ506495.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>P635</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV-6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Culicoides biting midges</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>8</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Underberg South African field strain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>20..1084</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>1084</GBInterval_to>
+          <GBInterval_accession>GQ506495.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>20..1084</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>1084</GBInterval_to>
+          <GBInterval_accession>GQ506495.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>single-stranded RNA-binding protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADI49520.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:297655558</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MEQKQRRFTKNIFVLDANAKTLCGAIAKLSSQPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIISLMLTPHGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPDLPGVMRSNYDVRELRQKIKNERESAPRLQVQSVAPREESRWMDDDEAKVDEEAKEMIPGTSRLEKLRETRNNVFKEVEAGINWNLDEKDEEDRDEREDEEQVKILSDDDEQGEDASDDEHPKTHITREYIEKVAKQIKLKDERFMSLSSAMPQASGGFDRMIVTKKLKWQNVPLYCFDESSKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaatccttgagtcatggagcaaaagcaacgtagatttactaaaaacattttcgttttggatgcaaatgctaaaacattatgcggagcgatcgcaaagttgagttcgcaaccgtattgtcagataaaaattggaagagtaatagcctttaaacctgtcaagaatccggagcccaagggatacgtgctgaatgttccaggacctggtgcatacagaattcaggatgggcaggacatcattagcctgatgttgacaccacatggagttgaagcgacaacggaaaggtgggaagagtggaagttcgagggtgtcagtgtaacgccaatggctactagggtacaacataatggtgtgatggttgacgctgaaattaagtattgcaaaggaatgggaattgtgcaaccatatatgcggaatgattttgatcggaacgagatgcccgatttaccaggtgtgatgaggtcaaactacgatgttcgtgaattgcggcaaaaaattaaaaatgaacgagaatcagcgccacggcttcaagttcaaagcgtggcgcctagagaagaatcacgctggatggatgacgatgaagcaaaagtggacgaagaggctaaagagatgattccgggaaccagcagattggagaagctgcgtgaaacgagaaacaatgtttttaaggaggtggaagctgggatcaattggaatctggatgaaaaagatgaagaggatagagatgaacgggaggatgaggagcaggtgaagatcctgagtgatgatgatgaacaaggtgaggatgcgagtgacgacgaacacccaaaaactcatataactagggaatacattgagaaggttgcaaagcagattaaattgaaggatgaacggttcatgagtctatcaagcgctatgcctcaagcgagcggtggatttgatcgtatgattgttacgaagaagcttaaatggcagaatgtgccactatactgttttgatgagtcatcgaaaaggtatgagttacagtgtgtgggtgcgtgtgagcgtgttgcttttgtctctaaggacatgagcttgatcatattgccggtcggcgtttaggcgcttgtgaccgcgtggttagggggggattttacacttac</GBSeq_sequence>
+</GBSeq>

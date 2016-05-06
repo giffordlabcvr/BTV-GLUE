@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KC853056</GBSeq_locus>
+  <GBSeq_length>1125</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>27-SEP-2013</GBSeq_update-date>
+  <GBSeq_create-date>19-AUG-2013</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus strain NIG1982/10* NS2 protein gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>KC853056</GBSeq_primary-accession>
+  <GBSeq_accession-version>KC853056.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KC853056.1|</GBSeqid>
+    <GBSeqid>gi|530789140</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1125</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Mertens,P.P.</GBAuthor>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Maan,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Full genome sequence of a Western reference strain of bluetongue virus serotype 16 from Nigeria</GBReference_title>
+      <GBReference_journal>Genome Announc 1 (5), e00684-13 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/genomeA.00684-13</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24051311</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1125</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maan,S.</GBAuthor>
+        <GBAuthor>Maan,N.S.</GBAuthor>
+        <GBAuthor>Belaganahalli,M.N.</GBAuthor>
+        <GBAuthor>Singh,K.P.</GBAuthor>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Mertens,P.P.C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (01-APR-2013) Vector-Borne Viral Diseases Programme, The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Assembly Method Lasergene v. Version 5.0 Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1125</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1125</GBInterval_to>
+          <GBInterval_accession>KC853056.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>NIG1982/10*</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV-16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Nigeria</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>1982</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>OVI, South Africa</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>20..1084</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>20</GBInterval_from>
+          <GBInterval_to>1084</GBInterval_to>
+          <GBInterval_accession>KC853056.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>single-stranded RNA-binding protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS2 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AGT51101.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:530789141</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MEQKQRRFTKNIFVLDANAKTLCGAIAKLSSLPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIVSLMLTPHGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPDLPGVMRSNYDVRELRQKIKNERESAPRLQVQSVAPREESRWMDDDEAKVDEEAKEMIPGTSRLEKLREARSNVFKEVEAGINWNLDEKDEEDRDEREDEEQARTLSDDDEQGEDASDDEHPKTHITKEYIEKVAKQIKLKDERFMSLSSAMPQASGGFDRMIVTKKLKWQNVPLYCFDESSKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaaatccagagtcatggagcaaaagcaacgtagatttactaaaaacatttttgttttggatgcaaatgctaaaacattatgcggagcgattgcaaagttaagttcgctaccatattgtcagattaaaattggaagagtgatagcttttaaacctgtcaagaatccggaacccaagggatacgtgctgaatgttccaggacctggtgcgtacagaattcaagatgggcaggatatcgttagcctgatgttgacaccacatggagttgaagcgacgacggaaaggtgggaagagtggaagtttgagggtgtcagtgtaacgccaatggctactagggtacaacataatggtgtgatggttgatgctgaaattaagtattgcaaaggaatgggaattgtgcaaccatatatgcggaatgatttcgatcggaacgagatgcccgatttaccaggtgtgatgaggtcaaattacgatgttcgtgaattgcggcaaaagatcaagaatgaacgggaatcagcgccacggcttcaggttcaaagcgtggcgccaagggaagaatcacgctggatggatgatgatgaagcaaaagtggacgaagaggctaaagagatgattccgggaaccagcagattggagaagctgcgtgaagcgagaagcaatgtttttaaggaggtagaagctgggatcaactggaatctagatgagaaagatgaggaggatagagatgaacgggaggatgaggagcaggcgaggaccctgagtgatgatgatgaacagggtgaggatgcgagtgacgacgaacacccaaaaactcatataactaaggaatacattgagaaggttgcaaagcagattaaattgaaggatgaacggttcatgagtttatcaagcgctatgcctcaagcgagcggtggatttgatcgtatgattgttacgaagaagcttaaatggcagaatgtgccactatactgttttgatgagtcatcgaaaaggtatgagttacagtgtgtgggtgcgtgtgagcgtgttgcttttgtctctaaggacatgagcttgatcatattgccggtcggcgtttaggcgcttgtgaccgcgtggttagggggggattttacacttac</GBSeq_sequence>
+</GBSeq>

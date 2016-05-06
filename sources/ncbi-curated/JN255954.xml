@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JN255954</GBSeq_locus>
+  <GBSeq_length>2772</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>12-OCT-2011</GBSeq_update-date>
+  <GBSeq_create-date>14-SEP-2011</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 9 strain BTV-9RSA(WT) segment 3, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JN255954</GBSeq_primary-accession>
+  <GBSeq_accession-version>JN255954.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JN255954.1|</GBSeqid>
+    <GBSeqid>gi|345846371</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 9</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 9</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2772</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Caporale,M.</GBAuthor>
+        <GBAuthor>Wash,R.</GBAuthor>
+        <GBAuthor>Pini,A.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>Franchi,P.</GBAuthor>
+        <GBAuthor>Golder,M.</GBAuthor>
+        <GBAuthor>Patterson-Kane,J.</GBAuthor>
+        <GBAuthor>Mertens,P.</GBAuthor>
+        <GBAuthor>Di Gialleonardo,L.</GBAuthor>
+        <GBAuthor>Armillotta,G.</GBAuthor>
+        <GBAuthor>Lelli,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Palmarini,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Determinants of bluetongue virus virulence in murine models of disease</GBReference_title>
+      <GBReference_journal>J. Virol. 85 (21), 11479-11489 (2011)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/JVI.05226-11</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>21865388</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..2772</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Caporale,M.</GBAuthor>
+        <GBAuthor>Wash,R.</GBAuthor>
+        <GBAuthor>Pini,A.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+        <GBAuthor>Franchi,P.</GBAuthor>
+        <GBAuthor>Golder,M.</GBAuthor>
+        <GBAuthor>Patterson-Kane,J.</GBAuthor>
+        <GBAuthor>Mertens,P.</GBAuthor>
+        <GBAuthor>Di Gialleonardo,L.</GBAuthor>
+        <GBAuthor>Armillotta,G.</GBAuthor>
+        <GBAuthor>Lelli,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Palmarini,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (13-JUL-2011) MRC Centre for Virus Research, University of Glasgow, 464 Bearsden Road, Glasgow G61 1QH, UK</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JN255952-JN255961 represent the complete genome of Bluetongue virus 9 strain BTV-9RSA(WT).</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2772</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2772</GBInterval_to>
+          <GBInterval_accession>JN255954.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>BTV-9RSA(WT)</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45032</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>identified_by</GBQualifier_name>
+          <GBQualifier_value>ARC Ondersterpoort Veterinary Institute</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>BTV9-RSA(WT) reference strain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..2723</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>2723</GBInterval_to>
+          <GBInterval_accession>JN255954.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEO19746.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:345846372</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MAAQNEQRPERIKTTPYLEGDVLSSDSGPLLSVFALQEIMQKVRQVQADYMTATREVDFTVPDVQKILDDIKALAAEQVYKIVKVPSISFRHIVMQSRDRVLRVDTYYEEMSQVGDVITEDEPEKFYSTIIKKVRFIRGKGSFILHDIPTRDHRGMEVAEPEVLGVEFKNVLPVLTAEHRAMIQNALDGSIIENGNVATRDVDVFIGACSEPIYRIYNRLQGYIEAVQLQELRNSIGWLERLGQRKRITYSQEVLTDFRRQDTIWVLALQLPVNPQVVWDVPRSSIANLIMNIATCLPTGEYIAPNPRISSITLTQRITTTGPFAILTGSTPTAQQLNDVRKIYLALMFPGQIILDLKIDPGERMDPAVRMVAGVVGHLLFTAGGRFTNLTQNMARQLDIALNDYLLYMYNTRVQVNYGPTGEPLDFQIGRNQYDCNVFRADFATGTGYNGWATIDVEYRDPAPYVHAQRYIRYCGIDSRELINPTTYGIGMTYHCYNEMLRMLVAAGKDSEAAYFRSMLPFHMVRFARINQIINEDLHSVFSLPDDMFNALLPDLIAGAHQNADPVVLDVSWISLWFAFNRSFEPTHRNEMLEIAPLIESVYASELSVMKVDMRHLSLMQRRFPDVLIQARPSHFWKAVLNDSPEAVKAVMNLSHSHNFINIRDMMRWVLLPSLQPSLKLVLEEEAWAAANDFEDLMLTDQVYMHRDMLPEPRLDDIERFRQEGFYYTNMLEAPPEIDRVVQYTYEIARLQANMGQFRAALRRIMDDDDWVRFGGVLRTVRVKFFDARPPDDILQGLPFSYDTNEKGGLSYATIKYATETTIFYLIYNVEFSNTPDSLVLINPTYTMTKVFINKRIVERVRVGQILAVLNRRFVAYKGKMRIMDITQSLKMGTKLAAPTV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>54..2720</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>54</GBInterval_from>
+          <GBInterval_to>2720</GBInterval_to>
+          <GBInterval_accession>JN255954.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus VP3 (T2) protein; Region: Orbi_VP3; pfam01700</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:145054</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaatttccgtagccatggctgctcagaatgagcaacgtccagaacgaataaaaacgacgccgtatttagaaggagatgtgctttcaagcgattcaggaccactactttctgtgtttgcgctgcaagagataatgcaaaaggtgaggcaagtgcaagctgattatatgacagcaacacgagaggttgatttcacggtaccggatgtacaaaagattcttgatgacattaaagcgttagctgcagagcaagtgtacaaaattgttaaagttcctagtatttcgtttagacatatcgtaatgcaatcaagagaccgagttttacgagtggacacctactatgaagagatgtcgcaggttggagatgttataacggaagatgagccggaaaaattctattcgactataatcaagaaggtacgattcatacgtggaaagggatcctttatattacacgatattccgaccagagatcatcgcggtatggaggtcgctgaaccagaagtgctaggagttgagttcaaaaatgtgttacccgtgctgactgccgagcatcgcgcgatgattcagaacgcattagatggatcgataatcgaaaatggaaacgtagccacacgagatgtcgacgtattcataggtgcttgttccgaaccaatctatcgcatatacaataggttgcaagggtatattgaggcggtgcaattacaagagctaaggaactcgatcgggtggttagaaaggttagggcagaggaaaagaattacgtattcacaagaggttttaactgatttcagaagacaggatacaatttgggttttagccttacaattaccagttaatccgcaagtagtgtgggatgtgcctcgcagctcgattgccaacttaatcatgaatatagcaacgtgcttacccacaggagaatacattgcgccaaacccgaggatttcatcaattacactgacccaaaggataacaacaacagggccatttgccattctgacaggatcaactccaactgcgcaacaacttaatgacgtcaggaaaatctatttggcactgatgttccctggacagattatacttgatttaaaaattgatcctggtgagaggatggatccggcggtaagaatggtcgctggcgttgtaggccatttgctctttacggcaggtgggagattcacgaatttgacacaaaatatggcgagacagcttgatatagctttaaatgattatttactttacatgtataacactagggttcaagttaattatggtccaactggtgaaccgttagatttccagattgggagaaatcagtatgactgtaatgttttcagagcggattttgcgacaggaacaggatataatggatgggccacaatagatgttgaatatagagatccggccccttatgtacacgcacaacgctacatacgctattgtggtattgattcgcgtgagttgattaatccaacaacatatggcattgggatgacttatcattgctataacgaaatgttacgaatgctagttgccgcagggaaagattctgaggcggcgtactttcgcagcatgctaccctttcatatggtaaggtttgctaggataaatcagattataaatgaagatttacactctgtgttttcgctaccagatgatatgttcaacgcgctattacctgacctaattgccggagcgcatcagaacgccgacccagtagtgctagatgtgagctggatatcgctgtggtttgcctttaacagatcgtttgaacctacgcataggaatgagatgctcgaaattgctccactgattgagtccgtttacgcatccgagttatccgtgatgaaagtagatatgcgacacttatcactgatgcagagaaggtttccagatgttctaatccaagcaagaccgtcccatttttggaaagcggttctaaatgacagtccggaggcggtaaaagcagtcatgaatttatcacattcgcataatttcatcaatataagagatatgatgcgctgggtactgctcccgtcactacagccatcgctaaagctcgtattagaggaggaagcatgggctgcggcaaatgatttcgaagatctgatgcttactgatcaagtttatatgcatcgagatatgttgccagagccgcggttagatgatattgagaggttcagacaggaaggcttctattacacaaatatgttggaagcgccaccagaaatagaccgtgtggttcaatatacttatgagattgcacgcttacaagcaaacatgggacaattccgagcggctttaagacgtattatggatgacgatgactgggtaaggttcggtggtgttttacgcactgtacgcgttaagttcttcgatgcgcgacccccagacgatattctgcaaggtctacctttcagctatgatacgaatgagaagggtggattatcatacgcgacgattaagtacgctactgagaccacaattttctatctgatatataacgttgaattctcgaatacacctgattctctggtgttgattaacccaacatatacaatgactaaagtttttattaataagagaatcgttgagcgagtgcgagttggacagattctggctgtgttgaacagaagatttgtagcgtataaaggaaaaatgagaattatggacatcacccaatcgctcaaaatgggcaccaagctggctgcgccaactgtgtagatgtgcgaccaatctatgcacttggtagcggcagcgggaacacacttac</GBSeq_sequence>
+</GBSeq>

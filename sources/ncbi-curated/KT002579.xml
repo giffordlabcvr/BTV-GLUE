@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KT002579</GBSeq_locus>
+  <GBSeq_length>2936</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>13-JAN-2016</GBSeq_update-date>
+  <GBSeq_create-date>13-JAN-2016</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus segment 2, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KT002579</GBSeq_primary-accession>
+  <GBSeq_accession-version>KT002579.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KT002579.1|</GBSeqid>
+    <GBSeqid>gi|972904011</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2936</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yang,H.</GBAuthor>
+        <GBAuthor>Lv,M.</GBAuthor>
+        <GBAuthor>Sun,M.</GBAuthor>
+        <GBAuthor>Lin,L.</GBAuthor>
+        <GBAuthor>Kou,M.</GBAuthor>
+        <GBAuthor>Gao,L.</GBAuthor>
+        <GBAuthor>Liao,D.</GBAuthor>
+        <GBAuthor>Xiong,H.</GBAuthor>
+        <GBAuthor>He,Y.</GBAuthor>
+        <GBAuthor>Li,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete genome sequence of the first bluetongue virus serotype 7 isolate from China: evidence for entry of African-lineage strains and reassortment between the introduced and native strains</GBReference_title>
+      <GBReference_journal>Arch. Virol. (2015) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/s00705-015-2624-7</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>26497176</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..2936</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yang,H.</GBAuthor>
+        <GBAuthor>Lv,M.</GBAuthor>
+        <GBAuthor>Sun,M.</GBAuthor>
+        <GBAuthor>Lin,L.</GBAuthor>
+        <GBAuthor>Kou,M.</GBAuthor>
+        <GBAuthor>Gao,L.</GBAuthor>
+        <GBAuthor>Liao,D.</GBAuthor>
+        <GBAuthor>He,Y.</GBAuthor>
+        <GBAuthor>Xiong,H.</GBAuthor>
+        <GBAuthor>Li,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (01-JUN-2015) Yunnan Tropical and Subtropical Animal Virus Diseases Laboratory, Yunnan Animal Science and Veterinary Institute, Jindian, Kunming, Yunnan 650224, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers KT002578-KT002587 represent the complete genome of Bluetongue virus isolate GDST008; ##Assembly-Data-START## Assembly Method Newbler v. 2.6 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2936</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2936</GBInterval_to>
+          <GBInterval_accession>KT002579.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV-7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>GDST008</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>cattle</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China: Shantou district of Gangdong province</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Sep-2014</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>passage history: ECE(1),C6/36(1),BHK21(2)</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>22..2901</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>22</GBInterval_from>
+          <GBInterval_to>2901</GBInterval_to>
+          <GBInterval_accession>KT002579.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>controls virus serotype; most variable protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>outer capsid protein VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ALW82955.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:972904012</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDEFAIPIVHGRAIPYDLVRSYDIVVDLDVRVDEEGDKHDTTKIPEAYMCDVPNIAMQDANSAILGRNDGYALPRILDVSIAAYDTRKGYWKYKGIEKMTNQTWLKWAIKDFMDVQPLKVDLADLEGKVRYDMFNCSARIDAKKAEAIYYGWAAQEVVSKGCNHAKSEIFQHVVRCELLNCSQESAYILKPTQKIEPLAEKNDLGERLGPGSNNLINMRRGDTFRMGTDQYNRMLQGWYRVKVKGQIPNMVREEMAELVKIKDRWKVAKNPREIKSLELCKLLSAIGRKMYNMYEEPKDEEAVSLRFQWNLDEIFKTDNREHVNIAVNKSGRTDDERFFALIMIAATDTNRGRIWWSNMFPCLRGALIASETQFGDVYKMLRVRFEWSVRNEYSPQADVARQNENYVYARVNLFDLVADPATSVIHWEYKLDEPLKTSYSVGHQCDEYPDEYELICSFDETKYSEMVQRIIEGGWDHKNFKHYKILKEASNVLTIDFEKDAKLNESSEMDLPYYFNKDIAAPMFRCVLKICETSISERHNPDPAVSRTMKPMKAKAADLLDYSLGSYYDTRSGVMGRTLTTTQKQSDMYKMTQDEDDYLSLMVGRGITEKFANPCPITTACQYALQKISVMIFSRVEHYFEEYLKDDEVEYLSPSLNFEWVEITSKVTDISQLIVLTFDVFFEGRRQVRTIDESRFILHQIRMRKGMDRLSYIRDLFPQLYRWWVFPEFTYGHAQKLNLLPLLFIIGDNFIYEHRQWSYPAILVSHKLRFVPVELGAYYNRFGLTSLLSYLVFHVGKSKYGLELDEAEKKVLQAVKDYYTVATISEGGVNTHSTMTKDPIYQVYLSTICGGLLDSLIYLMPITHPVKSIIMVIINDGRGSASDCVRRATRRLRYIQRHIRGSVVVSILRNGAINTYSEGIAKAMLCEKSVLKYNYKVVLVKVKGYVFGHDEMLTKLLNV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaggacctcgctagaatggatgaattcgcaattccaattgtgcatggcagagcgattccatatgatttagtgcgttcgtatgacattgtagtggatttagatgtgagagtagatgaagagggagacaaacatgatacgaccaagataccagaagcatatatgtgtgatgttccgaatatagcgatgcaggatgcgaactccgcaatactggggaggaatgatggttacgctttgcctcgtattttagatgtgtccatagcagcatatgatacgaggaagggatattggaaatataaaggcatagagaagatgacaaatcagacctggttgaagtgggcaatcaaggattttatggatgtgcagccactgaaggtggatctagctgatcttgaaggcaaagtgaggtatgatatgtttaattgttctgctcgaatagatgctaaaaaggccgaggcaatttattatggttgggctgctcaggaggtagtgagcaaaggttgtaaccatgcaaagagcgagatatttcagcatgttgtaagatgcgagctgttgaattgttcgcaggaaagcgcgtacattctaaagccgactcaaaaaatagaacccctcgctgagaagaatgatctgggtgagaggctcgggccgggctctaataatttaattaatatgcgacgtggggatacgtttaggatggggacagatcaatacaatcgcatgttgcagggatggtaccgggtgaaggtgaaaggtcaaattccaaatatggttagagaagagatggctgagctagtaaagataaaagatagatggaaagttgccaaaaaccccagagaaattaaatctcttgagctatgtaaattgctctccgcaataggtaggaaaatgtataatatgtatgaggagccaaaagatgaagaagcggtttcattaaggtttcagtggaatttggatgagattttcaaaactgataatagagagcacgttaacattgccgtcaataagagtgggagaacagatgatgagcgattctttgcgcttatcatgatagctgcaaccgatacgaatcgcggaaggatttggtggtcgaatatgtttccgtgcttacgaggtgctttaattgcgagcgaaactcaattcggcgatgtatataaaatgctaagggtgcggttcgaatggagtgtgcggaatgaatatagccctcaggccgacgttgcgagacagaatgagaattacgtgtacgcacgcgtcaacctatttgatctagtcgctgatccggcaacatctgtaatccactgggaatataaattggatgagcccttaaaaactagttactcagtaggccatcaatgtgatgaatatcctgatgaatacgaattgatttgctcctttgatgaaactaaatatagtgaaatggtccaacgcattatagagggtggatgggatcataaaaactttaagcattataagatattgaaagaggcttcaaatgtgctcacaatcgattttgagaaagatgcgaagttgaatgagagctcggagatggatctgccttactattttaacaaggacatagcggcgcctatgttcagatgtgtgttaaaaatatgcgagacgtcaatctcagagcgccacaatccagacccagcagtatcgcgtacgatgaaacccatgaaagcaaaggctgcggacctattggattactctctgggttcctactatgatacccgatcaggcgtgatgggcaggacgttaacaacgacgcagaagcagagtgacatgtataagatgactcaagatgaagatgactacctatcactgatggtgggacgaggtatcactgaaaagtttgcgaacccatgtcctattacgactgcttgccagtacgctctacaaaagatatcagttatgatcttttcgcgggttgaacattattttgaagaatatctcaaagatgacgaggtagaatatttgagcccatctctcaactttgagtgggttgaaataacatcaaaggtaacggatatctcgcaactgatagtactgacgttcgatgtattttttgaggggcgtaggcaggtgcgtactattgatgagtcccggtttattctccatcagataaggatgcgtaaaggtatggatcggctttcatatattagagatctgtttcctcaattatatagatggtgggtgtttccagagttcacatatggtcacgctcaaaagttgaatcttttacccttgttattcataattggcgataactttatttatgagcatcgccagtggtcatatccggcaattttggtgtcacacaaactaagattcgtacccgtagaactaggagcttattacaacagatttgggcttacgtctttactctcttacttagttttccacgtagggaagtcgaaatatgggttggagcttgacgaagcagagaagaaggtgctgcaggctgtgaaggactattatactgtggcgactatttcagagggaggggttaatacgcattcaaccatgaccaaagatccgatttaccaagtttatctatcaacgatatgtggcgggttactcgattcgcttatctatctgatgccgattacccaccctgttaagagtatcatcatggtaatcataaatgatgggagggggtcggcctctgactgcgtacggcgtgcgacacgtcgattgagatatattcaacgtcatatacgcggctcggttgtcgtctcgatcttgcggaacggcgcgattaatacatactcagaggggatcgccaaagccatgttatgcgaaaaaagtgttctgaagtacaattataaagtagtgctggttaaggtgaagggatatgtgtttggccatgacgaaatgctaaccaaactgctgaatgtataatccctttgacaaggggttggcggccttaaacttac</GBSeq_sequence>
+</GBSeq>

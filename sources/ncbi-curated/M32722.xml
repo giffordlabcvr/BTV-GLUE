@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BTVP3A</GBSeq_locus>
+  <GBSeq_length>2772</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-JUN-1990</GBSeq_update-date>
+  <GBSeq_create-date>02-AUG-1993</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus major core protein P3 (L3) gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>M32722</GBSeq_primary-accession>
+  <GBSeq_accession-version>M32722.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|M32722.1|BTVP3A</GBSeqid>
+    <GBSeqid>gi|323170</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>major core protein</GBKeyword>
+    <GBKeyword>major core protein P3</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2772</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Roy,P.</GBAuthor>
+        <GBAuthor>Purdy,M.A.</GBAuthor>
+        <GBAuthor>Petre,J.</GBAuthor>
+        <GBAuthor>Rao,C.D.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Cloning and nucleotide sequencing of bluetongue virus genomes</GBReference_title>
+      <GBReference_journal>Prog. Clin. Biol. Res. 178, 363-370 (1985)</GBReference_journal>
+      <GBReference_pubmed>2989873</GBReference_pubmed>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>Original source text: Bluetongue virus (US serotype 17), cDNA to viral RNA.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2772</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2772</GBInterval_to>
+          <GBInterval_accession>M32722.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..2723</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>2723</GBInterval_to>
+          <GBInterval_accession>M32722.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>major core protein P3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA42839.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:323171</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MAAQNEQRPERIKTTPYLEGDVLSSDSGPLLSVFALQEIMQKVRQVQADYMTATREVDFTVPDVQKILDDIKTLAAEQVYKIVKVPNISFRHIVMQSRDRVLRVDTYYEEMSQVGDVITEDEPEKFYSTIIKKVRFIRGKGSFILHDIPTRDHRGMEVAEPEVLGVEFKNVLPVLTAEHRAMIQNALDGSIIENGNVATRDVDVFIGACSEPIYRIYNRLQGYIEAVQLQELRNSIGWLERLGQRKRITYSQEVLTDFRRQDTIWVLALQLPVNPQVVWDVPRSSIANLIMNIATCLPTGEYIAPNPRISSITLTQRITTTGPFAILTGSTPTAQQLNDVRKIYLALMFPGQIILDLKIDPGERMDPAVRMVAGVVGHLLFTAGGRFTNLTQNMARQLDIALNDYLLYMYNTRVQVNYGPTGEPLDFQIGRNQYDCNVFRADFATGTGYNGWATIDVEYRDLAPYVHAQRYIRYCGIDSRELINPTTYGIGMTYHCYNEMLRMLVAAGKDSEAAYFRSMLPFHMVRFARINQIINEDLHSVFSLPDDMFNALLPDLIAGAHQNADPVVLDVSWISLWFAFNRSFEPTHRNEMLEIAPLIESVYASELSVMKVDMRHLSLMQRRFPDVLIQARPSHFWKAVLNDSPEAVKAVMNLSHSHNFINIRDMMRWVMLPSLQPSLKLVLEEEAWAAANDFEDLMLTDQVYMHRDMLPEPRLDDVERFRQEGFYYTNMLEAPPEIDRVVQYTYEIARLQANMGQFRAALRRIMDDDDWVRFGGVLRTVRVKFFDARPPDDILQGLPFSYDTNEKGGLSYATIKYATETTIFYLIYNVEFSNTPDSLVLINPAYTMTKVFINKRIVERVRVRQILAVLNRRFVAYKGKMRIMDITQSLKMGAKLAAPTV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaatttccgtagccatggctgctcagaatgagcaacgtccggaacgaataaagacgacgccgtatttagaaggggatgtgttatcaagcgactcagggccactgctttccgtgttcgcgttgcaagagataatgcaaaaggtgaggcaagtgcaagctgattatatgacagcaacacgagaggttgattttacagtaccggatgtacaaaagattcttgatgacattaaaacgttagctgcagaacaagtgtacaaaatcgtcaaagtacctaatatttcattcagacatatcgtaatgcagtcaagagatcgagttttacgagtggatacctactacgaagagatgtcacaggttggagatgttataacggaagatgaaccagaaaaattctattcaactataatcaagaaagtgcggtttatacgcggaaaaggatcctttatattacatgatattccgaccagagatcatcgcggcatggaggttgctgagccagaagtgttaggagtcgaattcaagaatgtactacctgtgttgacagccgagcatcgcgcaatgattcagaacgcattggatggatcgataattgagaacggaaacgtagctacacgagacgttgacgtattcataggcgcctgttcggaaccaatctatcgcatatacaatagactgcaagggtatattgaggcagtgcaattacaagagttaaggaattcaattgggtggttagagaggttagggcagaggaaaagaatcacgtattcgcaagaggttctgactgattttaggaggcaagacacaatttgggtcttagctttacagctaccggtcaatccacaggtagtgtgggatgtgccgcgcagctctatcgccaacttaatcatgaatatagcaacgtgcttacccacaggggaatacatcgcgccaaacccaagaatttcatcgattacgctgacccaaagaataacaacaacggggccatttgctattctaactggatcaaccccaactgcacagcaacttaatgatgttaggaagatctatttagcgctaatgtttcctggacagattatacttgatctaaaaatcgatcctggcgagaggatggatccggcagtaagaatggtcgctggcgttgtaggtcatttgctctttacagcgggtggaagattcacgaatttaacacaaaatatggcgagacagctcgatatagccctaaacgattatttactttatatgtataacaccagagttcaagtcaattatggtccaacgggtgagccgttagatttccagattggaaggaatcagtatgactgtaatgtttttagagcagatttcgcgacaggaacaggatacaacggatgggctacaattgatgttgagtatagagacctggccccttacgtgcatgcgcagcgctacatacgttattgtggtatcgattcgcgcgagttgattaatccgacaacatatggcattgggatgacttatcattgttacaatgagatgttacgaatgttagttgccgcagggaaagattctgaggcggcgtactttcgcagcatgctgccctttcacatggtaaggtttgctaggataaatcaaatcataaacgaagatttacactctgtgttctcgttgccggatgatatgttcaacgcattattacccgacctaattgctggggcgcatcagaacgccgacccagttgtgctagatgtgagttggatatcgctgtggttcgctttcaacaggtcgtttgaaccaacgcataggaatgagatgctcgaaatcgctccactgatcgagtccgtttatgcgtcggagctttctgtgatgaaggtagatatgcgacacttgtcattaatgcagagaagattcccagatgttttaatccaagcgaggccgtcccatttttggaaagcagttctgaatgacagcccggaggcggtgaaagcagttatgaacttatcgcattcgcataatttcatcaatataagggatatgatgcgttgggtaatgctcccatcactgcaaccatcgttaaagctcgtattagaagaggaggcatgggccgctgcaaacgatttcgaagatctgatgcttactgatcaagtttatatgcatcgagatatgttgccagaaccacggttggatgatgttgagaggttcagacaggaaggtttctattacacgaacatgttagaggccccaccagaaatagatcgtgtagttcagtatacttatgagattgcacgtttacaagcgaacatgggacaatttcgggcagctctaagacgcattatggatgatgatgactgggtgagatttggcggtgtcttacgcactgtacgcgttaaattctttgatgcgcgacccccagacgatattctacagggcttacctttcagctatgatacaaacgagaaaggtggattatcatatgcgacgattaagtatgctactgagaccacaattttttatctgatatataatgtcgaattctcgaacacgcctgattctttggtgttgattaatccagcatacacgatgactaaagttttcattaacaagagaattgttgagcgagtacgggttagacaaattttggccgtattgaacagaagattcgtggcatacaaaggaaaaatgagaattatggacatcactcaatcgctcaagatgggcgccaagctggctgcgccaactgtgtagatgcgcgaccaatctatgcacttgggtacggcagcggaaatacacttac</GBSeq_sequence>
+</GBSeq>

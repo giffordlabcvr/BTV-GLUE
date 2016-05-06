@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ017960</GBSeq_locus>
+  <GBSeq_length>1685</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>01-AUG-2006</GBSeq_update-date>
+  <GBSeq_create-date>01-MAY-2006</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus strain 8054/02 serotype 16 nonstructural protein 1 (NS1) gene, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ017960</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ017960.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ017960.1|</GBSeqid>
+    <GBSeqid>gi|67906873</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1685</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Monaco,F.</GBAuthor>
+        <GBAuthor>Camma,C.</GBAuthor>
+        <GBAuthor>Serini,S.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Differentiation between field and vaccine strain of bluetongue virus serotype 16</GBReference_title>
+      <GBReference_journal>Vet. Microbiol. 116 (1-3), 45-52 (2006)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vetmic.2006.03.024</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>16713688</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1685</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Camma,C.</GBAuthor>
+        <GBAuthor>Serini,S.</GBAuthor>
+        <GBAuthor>Monaco,F.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Bluetongue virus serotype 16 nonstructural protein 1 (NS1) gene</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..1685</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Camma,C.</GBAuthor>
+        <GBAuthor>Serini,S.</GBAuthor>
+        <GBAuthor>Monaco,F.</GBAuthor>
+        <GBAuthor>Savini,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (27-APR-2005) Virology and Biotechnology, IZS AM, via Campo Boario, Teramo, TE 64100, Italy</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1685</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1685</GBInterval_to>
+          <GBInterval_accession>DQ017960.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>8054/02</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>bovine blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Italy: Puglia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>field strain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>27..1685</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>27</GBInterval_from>
+          <GBInterval_to>1685</GBInterval_to>
+          <GBInterval_accession>DQ017960.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>27..1685</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>27</GBInterval_from>
+          <GBInterval_to>1685</GBInterval_to>
+          <GBInterval_accession>DQ017960.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAY82892.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:67906874</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQNFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGVQLLEDYRKSGMMDEAVKQSALVNSERVRLDDSLSAMPYIYVPIKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYKGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEIRYVQQLFGRVPTGEFPLHQMMLIRRDFPTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHPDRWEWLIDYMDRKHTCQLCYLKHSKQIPTCGVIDVRASELTGCSPFKTVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>agttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaacatcagtggggattacgcaaatgccacgaggacttttttggctatttcaccacaatggacctgcagtcatctaaagaggaattgtttattcaatgggatgtgtgttaaacaaaattttgagagagcaatgatcgcggcaaccgacgcggaggagccagcgaaagcgtataaattagttgagttggcaaaggaggcaatgtatgatcgggaaacagtttggctccaatgcttcaaaagcttttctcaaccatacgaagaggatgtcgaagggaagatgaagcggtgcggggtgcaactgctcgaggattaccgcaaaagtgggatgatggatgaggccgtgaagcagtctgcattggttaattcggaaagagttagattggatgattctctctctgcaatgccttacatctatgtgccgatcaaagaaggtcaaattgtgaatccaacatttatatcaagatatcgccaaattgcatactatttctacaatccggatgcggctgatgattggatcgatccaaacctatttggtattcgcggacagcataatcaaatcaaacgtgaggttgagaggcaaattaacacatgtccctacactggatacaaaggcagagtatttcaagtgatgttcttgccgattcagctgatcaatttcttaaggatggatgattttgcgaaacattttaataggtatgcttcgatggcgatacagcaatatttaagagttggttatgctgaagagatcaggtatgtgcaacagctttttggaagggttccaacgggtgaatttccattacatcagatgatgctgataagacgcgatttcccaacgcgcgatcgcagcattgtggaggcgcgggtgaggaggtcgggtgatgaaaactggcaaagctggctgctgcctatgattattgttcgtgaaggattggatcacccggatcggtgggaatggcttattgattacatggatagaaagcatacatgtcagctgtgctatttgaaacactcaaagcagatcccaacctgtggtgtgattgatgtacgcgcatcagaactaactgggtgctcgccgttcaagacagtgaaaattgaagaacatgtgggaaatgattcggtttttaagacaaaattggttcgcgatgaacaaattggcaggatcggagatcattattatacaacaaattgttacactggagcggaggccttgattacaactgcgattcacattcaccgctggattagaggctgtggcatctggaacgacgagggatggcaggagggtattttcatgctcggacgcgtgttgctgagatgggagctgacgaaggcacaacgcagcgctctgctcaggttattctgctttgtgtgctacggatatgcaccgcgtgcggatgggacgataccggattggaataaccttggaagctttttggatatcattttgaaagggccggagctcagcgaggatgaggacgagagggcttatgctacgatgtttgaaatggttcgatgcattatcaccctatgctatgcggaaaaggttcacttcgctgggttcgctgcacctgcctgtgagagtggggaagttatcaatctcgctgcgcgtatgtctcagatgtggatggagtattag</GBSeq_sequence>
+</GBSeq>

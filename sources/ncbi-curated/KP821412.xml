@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KP821412</GBSeq_locus>
+  <GBSeq_length>1773</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>16-AUG-2015</GBSeq_update-date>
+  <GBSeq_create-date>16-AUG-2015</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 4 isolate FRA2003-200 segment 5, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KP821412</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP821412.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP821412.1|</GBSeqid>
+    <GBSeqid>gi|914340621</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 4</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 4</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1773</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Hughes,J.</GBAuthor>
+        <GBAuthor>Wash,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Palmarini,M.</GBAuthor>
+        <GBAuthor>Biek,R.</GBAuthor>
+        <GBAuthor>Mertens,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Widespread Reassortment Shapes the Evolution and Epidemiology of Bluetongue Virus following European Invasion</GBReference_title>
+      <GBReference_journal>PLoS Pathog. 11 (8), E1005056 (2015)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1371/journal.ppat.1005056</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>26252219</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1773</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Nomikou,K.</GBAuthor>
+        <GBAuthor>Hughes,J.</GBAuthor>
+        <GBAuthor>Wash,R.</GBAuthor>
+        <GBAuthor>Kellam,P.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Palmarini,M.</GBAuthor>
+        <GBAuthor>Biek,R.</GBAuthor>
+        <GBAuthor>Mertens,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (19-FEB-2015) Arbovirus Molecular Research Group - Vector-Borne Viral Diseases Programme, The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Assembly Method DNASTAR Lasergene v. 11 Core Suite; Newbler - GS Reference Mapper v. 2.3 Sequencing Technology Sanger dideoxy sequencing; 454 ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1773</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1773</GBInterval_to>
+          <GBInterval_accession>KP821412.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>FRA2003-200</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:94967</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lab_host</GBQualifier_name>
+          <GBQualifier_value>mammalian cells</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France: Corsica</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Jun-2003</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>topotype w; 05 passages in E1BHK4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>35..1693</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>35</GBInterval_from>
+          <GBInterval_to>1693</GBInterval_to>
+          <GBInterval_accession>KP821412.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>TuP; forms tubules of unknown function within the cytoplasm of infected cells</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>NS1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AKV60989.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:914340622</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQNFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEENVEGKMKRCGVQLLEDYRKSGMMDEAVKQSALVNSERVRLDDSLSAMPYIYVPVKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGVRGQHNQIKREVERQINTCPYTGYKGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEVRYVQQLFGRVPTGEFPLHQMMLIRRDFPTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHADRWEWLIDYMDRKHTCQLCYLKHSKQIPTCGVIDVRASELTGCSPFKTVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILRGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaaagttctctagttggcaaccaccaaacatggagcgctttttgagaaaatacaacatcagtggggattatgcaaatgccacgagaacttttttggctatttcaccacaatggacttgcagtcatctaaaaaggaattgtctattcaatgggatgtgtgttaaacaaaattttgagagagcgatgatcgcggcaactgatgcggaggagccggcaaaggcatataaattagttgaattggcaaaggaggcaatgtatgatcgggaaacagtttggcttcaatgcttcaaaagcttttctcaaccatacgaagagaatgtcgaagggaagatgaagcggtgcggggtgcaactgctcgaggattaccgtaaaagtgggatgatggatgaggccgtgaagcaatccgcattggttaactcggaaagagttagattggatgattctctttcagcaatgccttatatctatgtaccagtcaaagagggtcaaattgtgaatccaacatttatatcaagatatcgccaaattgcatactatttctataatccggatgcggctgatgattggatcgatccaaatctgtttggcgttcgcggacagcacaatcaaatcaaacgtgaagttgagagacaaattaacacatgtccctacactggatacaaaggcagagtatttcaggtaatgtttttaccgattcagctgatcaatttcttgaggatggatgattttgcgaagcattttaataggtatgcttcgatggctatacaacaatatctgagagttggttacgctgaagaggtcaggtatgtgcagcagctttttggaagggttccaacaggtgaatttccattacatcagatgatgctgataagacgcgatttcccaacgcgcgatcgcagcatcgtggaagcgcgggtgaggagatcgggtgatgagaactggcagagctggctgttgcctatgattatcgttcgcgaaggactagatcacgcggatcggtgggaatggcttattgattacatggataggaagcatacatgtcagctgtgctacctgaagcactcgaagcagatcccaacctgtggtgtaattgacgtgcgcgcatcagaactaacggggtgctcaccattcaagacggtgaagatcgaagaacatgtgggaaatgattcggtttttaagacaaaattagttcgcgatgaacaaattggcagaatcggagatcactattatacaacaaattgttacactggagcggaagctttgattacaaccgcaatccacattcaccgctggattagagggtgtggcatctggaacgatgagggatggcaggaaggtattttcatgcttgggcgcgtactactgagatgggaactgacgaaggcgcagcgcagcgcgttgctcaggttgttctgcttcgtgtgttacggatatgcgccgcgtgcggatgggacgataccggattggaataaccttggaagttttttggatatcattctgagggggccggaactcagtgaggatgaagatgagagggcttatgctacgatgtttgaaatggttcgatgcattatcactctgtgctatgcggaaaaggttcacttcgctgggttcgcggcacctgcgtgtgagagcggggaagttatcaatcttgctgcgcgtatgtctcagatgtggatggaatattagttactgacttctgctttctgtttcttcattttttctatttctattttctcttagcactctactagaacttttcaacttac</GBSeq_sequence>
+</GBSeq>
