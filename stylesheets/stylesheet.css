@@ -57,11 +57,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-<<<<<<< HEAD
   background-image: linear-gradient(120deg, #4b6cb7, #182848); }
-=======
-  background-image: linear-gradient(120deg, #155799, #159957); }
->>>>>>> 89696a2ecb40b162181de2ed81eafa85ce3ce41b
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -116,11 +112,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-<<<<<<< HEAD
   color: #061161; }
-=======
-  color: #159957; }
->>>>>>> 89696a2ecb40b162181de2ed81eafa85ce3ce41b
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {

@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "SRLV-GLUE",
   "tagline": "A GLUE project for small ruminant Lentiviruses",
   "body": "### **SRLV-GLUE**\r\n\r\nThis is the project page for SRLV-GLUE, a [GLUE](http://giffordlabcvr.github.io/gluetools/) project for small ruminant Lentiviruses (SRLVs). SRLV-GLUE enables standardized analysis of SRLV sequences across the complete range of viral genotypes and subtypes. \r\n\r\n### **GLUE**\r\n\r\n[GLUE is a software package](http://giffordlabcvr.github.io/gluetools/) for developing nucleotide-level evolutionary hypotheses for virus and endogenous viral element (EVE) genomes. It enables the dissemination of these hypotheses on the web and the utilization of the hypotheses in wider software systems. \r\n\r\n### **Included in the SRLV-GLUE project**\r\n\r\n- Reference sequences for all SRLV genotypes\r\n- Genome length alignments of all SRLV genotypes\r\n- Sequences of 600 distinct isolates\r\n- Verified side data including isolate name, year and country of sampling \r\n- Phylogenetically based genotypes for all isolates\r\n- Reference-constrained alignments for all sequences\r\n\r\n### **Authors and Contributors**\r\n\r\nJosh Singer (josh.singer@glasgow.ac.uk)\r\n\r\nRobert J. Gifford (robert.gifford@glasgow.ac.uk).\r\n\r\nMaria Luisa-Carrozza\r\n\r\nAnna-Maria Niewiadomska\r\n",
-=======
-  "name": "BTV-GLUE",
-  "tagline": "A GLUE project for Bluetongue Virus",
-  "body": "### **BTV GLUE**\r\n\r\nThis is the project page for BTV-GLUE, a GLUE project for bluetongue virus (BTV). \r\n\r\n",
->>>>>>> 89696a2ecb40b162181de2ed81eafa85ce3ce41b
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
