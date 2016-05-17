@@ -250,12 +250,12 @@
 		
 		
 		<gbQualifier name="note">
-			<fieldPopulator fieldName="gb_genotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>genotype:?\s+([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>genotype:?\s+[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
@@ -265,24 +265,24 @@
 				<outputTemplate>true</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_genotype">
-				<matchPattern>subtype\s+([1-9])</matchPattern>
+			<fieldPopulator fieldName="gb_serotype">
+				<matchPattern>gb_topotype\s+([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
-				<matchPattern>subtype\s+[1-9]([a-zA-Z]+)</matchPattern>
+			<fieldPopulator fieldName="gb_topotype">
+				<matchPattern>gb_topotype\s+[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
 		<gbQualifier name="genotype">
-			<fieldPopulator fieldName="gb_genotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
@@ -291,14 +291,14 @@
 
 	<!-- this rule will genotype about 70 odd sequences, not sure if it is valid. 
 		Had a look at ViPR (www.viprbrc.org), they are also treating serotype as 
-		genotype / subtype -->
+		genotype / gb_topotype -->
 		<gbQualifier name="serotype">
-			<fieldPopulator fieldName="gb_genotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
@@ -306,48 +306,48 @@
 		</gbQualifier>
 	
 		<gbQualifier name="type">
-			<fieldPopulator fieldName="gb_genotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
-		<gbQualifier name="subtype">
-			<fieldPopulator fieldName="gb_genotype">
+		<gbQualifier name="gb_topotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])[a-z]+</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
 		<gbQualifier name="organism">
-			<fieldPopulator fieldName="gb_genotype">
-				<matchPattern>subtype\s+([1-9])</matchPattern>
+			<fieldPopulator fieldName="gb_serotype">
+				<matchPattern>gb_topotype\s+([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
-				<matchPattern>subtype\s+[1-9]([a-zA-Z]+)</matchPattern>
+			<fieldPopulator fieldName="gb_topotype">
+				<matchPattern>gb_topotype\s+[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
 		<gbQualifier name="strain">
-			<fieldPopulator fieldName="gb_genotype">
+			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_subtype">
+			<fieldPopulator fieldName="gb_topotype">
 				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
 				<outputTemplate>${g1?lower_case}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>

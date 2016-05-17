@@ -5,7 +5,6 @@ schema-project btv
     create field gb_accession_version VARCHAR
     create field gb_locus VARCHAR
     create field gb_length INTEGER
-    create field gb_recombinant BOOLEAN
     create field gb_lab_construct BOOLEAN
     create field gb_organism VARCHAR
     create field gb_isolate VARCHAR 300
@@ -17,16 +16,8 @@ schema-project btv
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
-    create field assembly_reference VARCHAR
-    create field enrichment_method VARCHAR
-    create field genotype VARCHAR
-    create field subtype VARCHAR
-	create field genotyping_method VARCHAR
-	create field genotyping_score VARCHAR
-    create field gb_genotype VARCHAR
-    create field gb_subtype VARCHAR
-    create field rega_genotype VARCHAR
-    create field rega_subtype VARCHAR
+    create field gb_serotype VARCHAR
+    create field gb_topotype VARCHAR
     exit
     
   table variation
