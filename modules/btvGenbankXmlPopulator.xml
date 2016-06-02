@@ -26,6 +26,9 @@
 	<gbCreateDate>
 		<fieldPopulator fieldName="gb_create_date"/>
 	</gbCreateDate>
+	
+	
+	
 	<gbOrganism>
 		<fieldPopulator fieldName="gb_organism">
 			<valueConverter>
@@ -58,7 +61,9 @@
 		
 		
 		<gbQualifier name="host">
-		
+
+
+	
 			<fieldPopulator fieldName="gb_host">
 
 				<valueConverter>
@@ -276,6 +281,8 @@
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
+
+
 		<gbQualifier name="genotype">
 			<fieldPopulator fieldName="gb_serotype">
 				<matchPattern>([1-9])</matchPattern>
@@ -288,6 +295,19 @@
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
+		
+
+		<gbQualifier name="segment">
+			<fieldPopulator fieldName="gb_segment">
+				<matchPattern>([1-9])</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+				<overwriteExistingNonNull>false</overwriteExistingNonNull>
+			</fieldPopulator>
+		</gbQualifier>
+		
+		
+		
+		
 
 	<!-- this rule will genotype about 70 odd sequences, not sure if it is valid. 
 		Had a look at ViPR (www.viprbrc.org), they are also treating serotype as 
