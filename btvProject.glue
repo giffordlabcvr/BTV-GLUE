@@ -2,10 +2,14 @@ delete project btv
 
 create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.50
 
+
+  
 run file glue/btvFieldDefinitions.glue
  
 project btv
 
+  console set log-level FINEST
+  
   run file glue/btvProjectSettings.glue
   
   # create modules from files
@@ -24,8 +28,13 @@ project btv
 
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
-  
+
+  # Populate certain fields using XML config  
   module btvGenbankXmlPopulator populate
+
+  # Populate certain fields using text file 
+  create module --fileName modules/textFilePopulator.xml textFilePopulator
+  module textFilePopulator populate -f tabular/BTV_all_segs.txt
 
   validate
   

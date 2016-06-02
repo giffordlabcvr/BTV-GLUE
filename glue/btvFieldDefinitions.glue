@@ -3,6 +3,7 @@ schema-project btv
     create field gb_gi_number VARCHAR
     create field gb_primary_accession VARCHAR
     create field gb_accession_version VARCHAR
+    create field excluded BOOLEAN 
     create field gb_locus VARCHAR
     create field gb_length INTEGER
     create field gb_lab_construct BOOLEAN
@@ -18,27 +19,11 @@ schema-project btv
     create field gb_update_date DATE
     create field gb_serotype VARCHAR
     create field gb_topotype VARCHAR
+    create field sample_type VARCHAR
+    create field place_sampled VARCHAR 300
+    create field tissue_sampled VARCHAR
+    create field passage_history VARCHAR
+    create field passage_cells VARCHAR     
     exit
-    
-  table variation
-    create field is_common_aa_polymorphism BOOLEAN 
-    create field pubmed_id VARCHAR 50
-    create field publication_date_year INTEGER
-    create field is_epitope BOOLEAN
-    create field epitope_iedb_id INTEGER
-    create field epitope_method VARCHAR 50
-    create field epitope_protein VARCHAR 50
-    create field epitope_stage VARCHAR 50
-    create field epitope_genotype VARCHAR 50
-    create field epitope_subtype VARCHAR 50
-    create field epitope_measurement VARCHAR 50
-    create field epitope_effector_tissue_type VARCHAR 50
-    create field epitope_effector_cell_type VARCHAR 50
-    create field epitope_effector_cell_culture_condition VARCHAR 50
-    create field epitope_full_hla VARCHAR 50
-    create field epitope_partial_hla VARCHAR 50
-    exit
-    
-    
     
   exit
