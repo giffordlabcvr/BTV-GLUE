@@ -1,10 +1,14 @@
 <genbankXmlPopulator>
+
+	<!-- #### Acession Number DATE -->
 	<gbPrimaryAccession>
 		<fieldPopulator fieldName="gb_primary_accession"/>
 	</gbPrimaryAccession>
 	<gbAccessionVersion>
 		<fieldPopulator fieldName="gb_accession_version"/>
 	</gbAccessionVersion>
+	
+	<!-- #### TOP LEVEL DATA -->	
 	<gbLocus>
 		<fieldPopulator fieldName="gb_locus"/>
 	</gbLocus>
@@ -27,8 +31,7 @@
 		<fieldPopulator fieldName="gb_create_date"/>
 	</gbCreateDate>
 	
-	
-	
+	<!-- #### ORGANISM -->			
 	<gbOrganism>
 		<fieldPopulator fieldName="gb_organism">
 			<valueConverter>
@@ -36,22 +39,24 @@
 				<outputTemplate>Bluetongue virus</outputTemplate>
 			</valueConverter>
 		</fieldPopulator>
-		<fieldPopulator fieldName="gb_recombinant">
-				<matchPattern>[Rr]ecombinant</matchPattern>
-				<outputTemplate>true</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-		</fieldPopulator>
 	</gbOrganism>
+
+	<!-- #### Exclude patent sequences etc-->	
 	<gbDivision>
 		<fieldPopulator fieldName="gb_lab_construct">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</fieldPopulator>
 	</gbDivision>
+	
+
+	<!-- #### EXTRACT FROM FEATURES: Isolate, country, host, segment & serotype -->		
 	<gbFeature key="source">
+	
 		<gbQualifier name="isolate">
 			<fieldPopulator fieldName="gb_isolate"/>
 		</gbQualifier>
+		
 		<gbQualifier name="country">
 			<fieldPopulator fieldName="gb_country">
 				<matchPattern>([A-Za-z ]+)(?::.*)?</matchPattern>
@@ -59,48 +64,15 @@
 			</fieldPopulator>
 		</gbQualifier>
 		
-		
 		<gbQualifier name="host">
-
-
-	
 			<fieldPopulator fieldName="gb_host">
 
-				<valueConverter>
-					<matchPattern>.*[Dd]og.*</matchPattern>
-					<outputTemplate>Canis familiaris</outputTemplate>
-				</valueConverter>
-				
-				<valueConverter>
-					<matchPattern>.*Canis lupus familiaris.*</matchPattern>
-					<outputTemplate>Canis familiaris</outputTemplate>
-				</valueConverter>
-
+				<!-- #### Dog -->			
 				<valueConverter>
 					<matchPattern>.*[Cc]anine.*</matchPattern>
 					<outputTemplate>Canis familiaris</outputTemplate>
 				</valueConverter>
-				
-				<valueConverter>
-					<matchPattern>.*Canis mesomelas (silver-backed jackal).*</matchPattern>
-					<outputTemplate>Canis mesomelas</outputTemplate>
-				</valueConverter>	
-												
-				<valueConverter>
-					<matchPattern>[Ff]ox</matchPattern>
-					<outputTemplate>Vulpes vulpes</outputTemplate>
-				</valueConverter>	
-								
-
-				<valueConverter>
-					<matchPattern>.*[Mm]ouse.*</matchPattern>
-					<outputTemplate>Mus musculus</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Mm]us [Mm]usculus.*</matchPattern>
-					<outputTemplate>Mus musculus</outputTemplate>
-				</valueConverter>
-				
+				<!-- #### Human -->							
 				<valueConverter>
 					<matchPattern>.*[Hh]omo [Ss]apiens.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
@@ -109,39 +81,7 @@
 					<matchPattern>.*[Hh]uman.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
-				
-				
- 				<valueConverter>
-					<matchPattern>.*[Hh]orse.*</matchPattern>
-					<outputTemplate>Equus caballus</outputTemplate>
-				</valueConverter>	
- 				<valueConverter>
-					<matchPattern>.*Equus caballus.*</matchPattern>
-					<outputTemplate>Equus caballus</outputTemplate>
-				</valueConverter>	
-																																	
- 				<valueConverter>
-					<matchPattern>.*[Pp]ig.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
- 				<valueConverter>
-					<matchPattern>.*[Pp]iglet.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
- 				<valueConverter>
-					<matchPattern>.*[Ss]wine.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
- 				<valueConverter>
-					<matchPattern>.*Sus scrofa domesticus*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
-				
- 				<valueConverter>
-					<matchPattern>.*[Pp]orcine.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
-				
+				<!-- #### Cow -->							
  				<valueConverter>
 					<matchPattern>.*[Cc]ow.*</matchPattern>
 					<outputTemplate>Bos taurus</outputTemplate>
@@ -166,7 +106,7 @@
 					<matchPattern>.*[Bb]ull</matchPattern>
 					<outputTemplate>Bos taurus</outputTemplate>
 				</valueConverter>		
-
+				<!-- #### Sheep -->							
  				<valueConverter>
 					<matchPattern>.*[Ss]heep.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
@@ -187,8 +127,7 @@
 					<matchPattern>.*[Dd]iseased sheep.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
 				</valueConverter>		
-			
-								
+				<!-- #### Goat -->							
  				<valueConverter>
 					<matchPattern>.*[Gg]oat.*</matchPattern>
 					<outputTemplate>Capra hircus</outputTemplate>
@@ -197,7 +136,7 @@
 					<matchPattern>.*[Cc]aprine.*</matchPattern>
 					<outputTemplate>Capra hircus</outputTemplate>
 				</valueConverter>		
-
+				<!-- #### Deer/Cervids -->							
  				<valueConverter>
 					<matchPattern>.*[Ww]hite-tailed deer.*</matchPattern>
 					<outputTemplate>Odocoileus virginianus</outputTemplate>
@@ -210,7 +149,6 @@
 					<matchPattern>.*[Mm]ule deer.*</matchPattern>
 					<outputTemplate>Odocoileus hemionus</outputTemplate>
 				</valueConverter>
-
  				<valueConverter>
 					<matchPattern>.*[Ee]land.*</matchPattern>
 					<outputTemplate>Taurotragus oryx</outputTemplate>
@@ -219,12 +157,12 @@
 					<matchPattern>.*[Ii]land.*</matchPattern>
 					<outputTemplate>Taurotragus oryx</outputTemplate>
 				</valueConverter>		
-
+				<!-- #### Llama/Alpaca -->							
  				<valueConverter>
 					<matchPattern>.*[Ll]lama.*</matchPattern>
 					<outputTemplate>Lama glama</outputTemplate>
 				</valueConverter>		
-				
+				<!-- #### Midges -->											
  				<valueConverter>
 					<matchPattern>.*[Cc]ulicoides spp.*</matchPattern>
 					<outputTemplate>Culicoides sp.</outputTemplate>
@@ -244,145 +182,36 @@
 				<valueConverter>
 					<matchPattern>.*C.obsoletus.*</matchPattern>
 					<outputTemplate>Culicoides obsoletus</outputTemplate>
-				</valueConverter>		
-				
-				
-			
-				
+				</valueConverter>						
 			</fieldPopulator>
-		</gbQualifier>
-		
-		
-		
-		<gbQualifier name="note">
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>genotype:?\s+([1-9])</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>genotype:?\s+[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_recombinant">
-				<matchPattern>[Rr]ecombinant</matchPattern>
-				<outputTemplate>true</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>gb_topotype\s+([1-9])</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>gb_topotype\s+[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-		</gbQualifier>
+		</gbQualifier>				
 
-
-		<gbQualifier name="genotype">
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>([1-9])</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-		</gbQualifier>
-		
-
+		<!-- #### SEGMENT -->			
 		<gbQualifier name="segment">
 			<fieldPopulator fieldName="gb_segment">
-				<matchPattern>([1-9])</matchPattern>
+				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
 		</gbQualifier>
 		
-		
-		
-		
-
-	<!-- this rule will genotype about 70 odd sequences, not sure if it is valid. 
-		Had a look at ViPR (www.viprbrc.org), they are also treating serotype as 
-		genotype / gb_topotype -->
+		<!-- #### SEROTYPE -->		
 		<gbQualifier name="serotype">
 			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>([1-9])</matchPattern>
+				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
 		</gbQualifier>
-	
 		<gbQualifier name="type">
 			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>([1-9])</matchPattern>
+				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
 		</gbQualifier>
-		<gbQualifier name="gb_topotype">
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>([1-9])[a-z]+</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-		</gbQualifier>
-		<gbQualifier name="organism">
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>gb_topotype\s+([1-9])</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>gb_topotype\s+[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-		</gbQualifier>
-		<gbQualifier name="strain">
-			<fieldPopulator fieldName="gb_serotype">
-				<matchPattern>([1-9])</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_topotype">
-				<matchPattern>[1-9]([a-zA-Z]+)</matchPattern>
-				<outputTemplate>${g1?lower_case}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>
-			<fieldPopulator fieldName="gb_recombinant">
-				<matchPattern>[Rr]ecombinant</matchPattern>
-				<outputTemplate>true</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>		
-			<fieldPopulator fieldName="gb_recombinant">
-				<matchPattern>RF</matchPattern>
-				<outputTemplate>true</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</fieldPopulator>		
-		</gbQualifier>
+
+		<!-- #### COLLECTION DATE -->
 		<gbQualifier name="collection_date">
 			<fieldPopulator fieldName="gb_collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
@@ -397,5 +226,8 @@
 				<outputTemplate>${g1}</outputTemplate>
 			</fieldPopulator>
 		</gbQualifier>
+
 	</gbFeature>
+	
+	
 </genbankXmlPopulator>

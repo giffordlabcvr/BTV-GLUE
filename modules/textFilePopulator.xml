@@ -18,6 +18,11 @@
 		<nullRegex>NULL</nullRegex>	
 	</textFileColumn>
 	<textFileColumn>
+		<fieldName>gb_collection_month</fieldName>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+		<nullRegex>NULL</nullRegex>	
+	</textFileColumn>
+	<textFileColumn>
 		<fieldName>gb_collection_month_day</fieldName>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 		<nullRegex>NULL</nullRegex>	
