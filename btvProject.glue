@@ -13,7 +13,7 @@ project btv
   run file glue/btvProjectSettings.glue
   
   # create modules from files
-  create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
+  # create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
   create module --fileName modules/btvCompoundAligner.xml btvCompoundAligner
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
 
