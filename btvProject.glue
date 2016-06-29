@@ -17,6 +17,11 @@ project btv
   create module --fileName modules/btvCompoundAligner.xml btvCompoundAligner
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
 
+  create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
+  create module --fileName modules/dataMissingImporter.xml dataMissingImporter
+  create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
+  create module --fileName modules/seqToDeleteImporter.xml seqToDeleteImporter
+
   # this module downloads all btv from NCBI
   create module --fileName modules/ncbiImporter.xml ncbiImporter
   
@@ -29,12 +34,18 @@ project btv
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
-  # Populate certain fields using XML config  
+  # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate
 
-  # Populate certain fields using text file 
-  # create module --fileName modules/textFilePopulator.xml textFilePopulator
- #  module textFilePopulator populate -f tabular/BTV_all_segs.txt
+  # populate 'excluded' field for certain sequences
+  module seqToDeleteImporter populate -f tabular/seq_to_delete.txt
+
+  # populate extra columns from tabular data
+  module extraColumnsAddedImporter populate -f tabular/extra_columns_added.txt
+
+  # populate extra columns from tabular data
+  module dataMissingImporter populate -f tabular/data_missing.txt
+
 
   validate
   

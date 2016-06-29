@@ -1,0 +1,8 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<fieldName>sequenceID</fieldName>
+		<header>sequence_id</header>
+	</textFileColumn>
+</textFilePopulator>
