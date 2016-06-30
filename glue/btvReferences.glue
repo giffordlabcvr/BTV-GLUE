@@ -1,0 +1,107 @@
+create reference REF_S1_MASTER ncbi-curated JX680457
+reference REF_S1_MASTER 
+  add feature-location S1_5UTR
+  feature-location S1_5UTR add segment 1 11
+  add feature-location VP1
+  feature-location VP1 add segment 12 3920
+  add feature-location S1_3UTR
+  feature-location S1_3UTR add segment 3921 3944
+  exit
+
+create reference REF_S2_MASTER ncbi-curated JX680458
+reference REF_S2_MASTER 
+  add feature-location S2_5UTR
+  feature-location S2_5UTR add segment 1 17
+  add feature-location VP2
+  feature-location VP2 add segment 18 2903
+  add feature-location S2_3UTR
+  feature-location S2_3UTR add segment 2904 2940
+  exit
+
+create reference REF_S3_MASTER ncbi-curated JX680459
+reference REF_S3_MASTER 
+  add feature-location S3_5UTR
+  feature-location S3_5UTR add segment 1 17
+  add feature-location VP3
+  feature-location VP3 add segment 18 2723
+  add feature-location S3_3UTR
+  feature-location S3_3UTR add segment 2724 2772
+  exit
+
+create reference REF_S4_MASTER ncbi-curated JX680460
+reference REF_S4_MASTER 
+  add feature-location S4_5UTR
+  feature-location S4_5UTR add segment 1 8
+  add feature-location VP4
+  feature-location VP4 add segment 9 1943
+  add feature-location S4_3UTR
+  feature-location S4_3UTR add segment 1944 1981
+  exit
+
+create reference REF_S5_MASTER ncbi-curated JX680461
+reference REF_S5_MASTER 
+  add feature-location S5_5UTR
+  feature-location S5_5UTR add segment 1 34
+  add feature-location NS1
+  feature-location NS1 add segment 35 1693
+  add feature-location S5_3UTR
+  feature-location S5_3UTR add segment 1694 1772
+  exit
+
+create reference REF_S6_MASTER ncbi-curated JX680462
+reference REF_S6_MASTER 
+  add feature-location S6_5UTR
+  feature-location S6_5UTR add segment 1 25
+  add feature-location VP5
+  feature-location VP5 add segment 26 1606
+  add feature-location S6_3UTR
+  feature-location S6_3UTR add segment 1607 1635
+  exit
+
+create reference REF_S7_MASTER ncbi-curated JX680463
+reference REF_S7_MASTER 
+  add feature-location S7_5UTR
+  feature-location S7_5UTR add segment 1 17
+  add feature-location VP7
+  feature-location VP7 add segment 18 1067
+  add feature-location S7_3UTR
+  feature-location S7_3UTR add segment 1068 1156
+  exit
+
+create reference REF_S8_MASTER ncbi-curated JX680464
+reference REF_S8_MASTER 
+  add feature-location S8_5UTR
+  feature-location S8_5UTR add segment 1 19
+  add feature-location NS2
+  feature-location NS2 add segment 20 1084
+  add feature-location S8_3UTR
+  feature-location S8_3UTR add segment 1085 1125
+  exit
+
+create reference REF_S9_MASTER ncbi-curated JX680465
+reference REF_S9_MASTER 
+  add feature-location S9_5UTR
+  feature-location S9_5UTR add segment 1 15
+  add feature-location VP6
+  feature-location VP6 add segment 16 1005
+  add feature-location VP6a
+  feature-location VP6a add segment 28 1005
+  add feature-location NS4
+  feature-location NS4 add segment 182 415
+  add feature-location S9_3UTR
+  feature-location S9_3UTR add segment 1006 1049
+  exit
+
+create reference REF_S10_MASTER ncbi-curated JX680466
+reference REF_S10_MASTER 
+  add feature-location S10_5UTR
+  feature-location S10_5UTR add segment 1 19
+  add feature-location NS3
+  feature-location NS3 add segment 20 709
+  add feature-location NS3a
+  feature-location NS3a add segment 59 709
+  add feature-location NS5
+  feature-location NS5 add segment 108 287
+  add feature-location S10_3UTR
+  feature-location S10_3UTR add segment 710 822
+  exit

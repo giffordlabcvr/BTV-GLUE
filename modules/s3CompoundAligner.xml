@@ -1,0 +1,13 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>VP3</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S3_5UTR</featureName>
+		</blastAligner>
+		<blastAligner>
+			<featureName>S3_3UTR</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

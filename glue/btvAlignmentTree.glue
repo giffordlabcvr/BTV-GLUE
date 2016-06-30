@@ -1,0 +1,40 @@
+create alignment AL_S1_MASTER -r REF_S1_MASTER
+alignment AL_S1_MASTER add member -w "excluded = null and gb_segment = '1'"
+
+create alignment AL_S2_MASTER -r REF_S2_MASTER
+alignment AL_S2_MASTER add member -w "excluded = null and gb_segment = '2'"
+
+create alignment AL_S3_MASTER -r REF_S3_MASTER
+alignment AL_S3_MASTER add member -w "excluded = null and gb_segment = '3'"
+
+create alignment AL_S4_MASTER -r REF_S4_MASTER
+alignment AL_S4_MASTER add member -w "excluded = null and gb_segment = '4'"
+
+create alignment AL_S5_MASTER -r REF_S5_MASTER
+alignment AL_S5_MASTER add member -w "excluded = null and gb_segment = '5'"
+
+create alignment AL_S6_MASTER -r REF_S6_MASTER
+alignment AL_S6_MASTER add member -w "excluded = null and gb_segment = '6'"
+
+create alignment AL_S7_MASTER -r REF_S7_MASTER
+alignment AL_S7_MASTER add member -w "excluded = null and gb_segment = '7'"
+
+create alignment AL_S8_MASTER -r REF_S8_MASTER
+alignment AL_S8_MASTER add member -w "excluded = null and gb_segment = '8'"
+
+create alignment AL_S9_MASTER -r REF_S9_MASTER
+alignment AL_S9_MASTER add member -w "excluded = null and gb_segment = '9'"
+
+create alignment AL_S10_MASTER -r REF_S10_MASTER
+alignment AL_S10_MASTER add member -w "excluded = null and gb_segment = '10'"
+
+compute alignment AL_S1_MASTER s1CompoundAligner
+compute alignment AL_S2_MASTER s2CompoundAligner
+compute alignment AL_S3_MASTER s3CompoundAligner
+compute alignment AL_S4_MASTER s4CompoundAligner
+compute alignment AL_S5_MASTER s5CompoundAligner
+compute alignment AL_S6_MASTER s6CompoundAligner
+compute alignment AL_S7_MASTER s7CompoundAligner
+compute alignment AL_S8_MASTER s8CompoundAligner
+compute alignment AL_S9_MASTER s9CompoundAligner
+compute alignment AL_S10_MASTER s10CompoundAligner

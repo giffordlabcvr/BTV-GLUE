@@ -14,7 +14,18 @@ project btv
   
   # create modules from files
   # create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-  create module --fileName modules/btvCompoundAligner.xml btvCompoundAligner
+
+  create module --fileName modules/s1CompoundAligner.xml s1CompoundAligner
+  create module --fileName modules/s2CompoundAligner.xml s2CompoundAligner
+  create module --fileName modules/s3CompoundAligner.xml s3CompoundAligner
+  create module --fileName modules/s4CompoundAligner.xml s4CompoundAligner
+  create module --fileName modules/s5CompoundAligner.xml s5CompoundAligner
+  create module --fileName modules/s6CompoundAligner.xml s6CompoundAligner
+  create module --fileName modules/s7CompoundAligner.xml s7CompoundAligner
+  create module --fileName modules/s8CompoundAligner.xml s8CompoundAligner
+  create module --fileName modules/s9CompoundAligner.xml s9CompoundAligner
+  create module --fileName modules/s10CompoundAligner.xml s10CompoundAligner
+
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
 
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
@@ -28,11 +39,14 @@ project btv
   # Import the reference sequences from files
   #import source sources/ncbi-refseqs 
 
-  # build master reference, with features.
+  # features.
   run file glue/btvFeatures.glue
 
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
+
+  # references
+  run file glue/btvReferences.glue
 
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate
@@ -46,6 +60,10 @@ project btv
   # populate extra columns from tabular data
   module dataMissingImporter populate -f tabular/data_missing.txt
 
-
+  # overwrite incorrect field values with corrected
+  module dataCorrectedImporter populate -f tabular/data_corrected.txt
+  
+  run file glue/btvAlignmentTree.glue
+  
   validate
   

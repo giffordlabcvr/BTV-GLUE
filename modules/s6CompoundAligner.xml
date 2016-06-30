@@ -1,0 +1,13 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>VP5</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S6_5UTR</featureName>
+		</blastAligner>
+		<blastAligner>
+			<featureName>S6_3UTR</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

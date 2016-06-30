@@ -1,23 +1,128 @@
-  create feature whole_genome "Whole genome"
-  
-    feature whole_genome set metatag INFORMATIONAL true
+create feature S1_whole_genome "Segment 1 whole genome"
+feature S1_whole_genome set metatag INFORMATIONAL true
+create feature S1_5UTR -p S1_whole_genome "Segment 1 5' untranslated region"
+create feature VP1 -p S1_whole_genome "VP1 coding sequence"
+feature VP1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S1_3UTR -p S1_whole_genome "Segment 1 3' untranslated region"
 
-    create feature segment-1  -p whole_genome "Segment 1"
 
-    create feature segment-2  -p whole_genome "Segment 2"
+create feature S2_whole_genome "Segment 2 whole genome"
+feature S2_whole_genome set metatag INFORMATIONAL true
+create feature S2_5UTR -p S2_whole_genome "Segment 2 5' untranslated region"
+create feature VP2 -p S2_whole_genome "VP2 coding sequence"
+feature VP2
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S2_3UTR -p S2_whole_genome "Segment 2 3' untranslated region"
 
-    create feature segment-3  -p whole_genome "Segment 3"
 
-    create feature segment-4  -p whole_genome "Segment 4"
+create feature S3_whole_genome "Segment 3 whole genome"
+feature S3_whole_genome set metatag INFORMATIONAL true
+create feature S3_5UTR -p S3_whole_genome "Segment 3 5' untranslated region"
+create feature VP3 -p S3_whole_genome "VP3 coding sequence"
+feature VP3
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S3_3UTR -p S3_whole_genome "Segment 3 3' untranslated region"
 
-    create feature segment-5  -p whole_genome "Segment 5"
 
-    create feature segment-6  -p whole_genome "Segment 6"
+create feature S4_whole_genome "Segment 4 whole genome"
+feature S4_whole_genome set metatag INFORMATIONAL true
+create feature S4_5UTR -p S4_whole_genome "Segment 4 5' untranslated region"
+create feature VP4 -p S4_whole_genome "VP4 coding sequence"
+feature VP4
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S4_3UTR -p S4_whole_genome "Segment 4 3' untranslated region"
 
-    create feature segment-7  -p whole_genome "Segment 7"
 
-    create feature segment-8  -p whole_genome "Segment 8"
+create feature S5_whole_genome "Segment 5 whole genome"
+feature S5_whole_genome set metatag INFORMATIONAL true
+create feature S5_5UTR -p S5_whole_genome "Segment 5 5' untranslated region"
+create feature NS1 -p S5_whole_genome "NS1 coding sequence"
+feature NS1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S5_3UTR -p S5_whole_genome "Segment 5 3' untranslated region"
 
-    create feature segment-9  -p whole_genome "Segment 9"
 
-    create feature segment-10 -p whole_genome "Segment 10"
+create feature S6_whole_genome "Segment 6 whole genome"
+feature S6_whole_genome set metatag INFORMATIONAL true
+create feature S6_5UTR -p S6_whole_genome "Segment 6 5' untranslated region"
+create feature VP5 -p S6_whole_genome "VP5 coding sequence"
+feature VP5
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S6_3UTR -p S6_whole_genome "Segment 6 3' untranslated region"
+
+
+create feature S7_whole_genome "Segment 7 whole genome"
+feature S7_whole_genome set metatag INFORMATIONAL true
+create feature S7_5UTR -p S7_whole_genome "Segment 7 5' untranslated region"
+create feature VP7 -p S7_whole_genome "VP7 coding sequence"
+feature VP7
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S7_3UTR -p S7_whole_genome "Segment 7 3' untranslated region"
+
+
+create feature S8_whole_genome "Segment 8 whole genome"
+feature S8_whole_genome set metatag INFORMATIONAL true
+create feature S8_5UTR -p S8_whole_genome "Segment 8 5' untranslated region"
+create feature NS2 -p S8_whole_genome "NS2 coding sequence"
+feature NS2
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S8_3UTR -p S8_whole_genome "Segment 8 3' untranslated region"
+
+
+create feature S9_whole_genome "Segment 9 whole genome"
+feature S9_whole_genome set metatag INFORMATIONAL true
+create feature S9_5UTR -p S9_whole_genome "Segment 9 5' untranslated region"
+create feature VP6 -p S9_whole_genome "VP6 coding sequence"
+feature VP6
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature VP6a -p S9_whole_genome "VP6a coding sequence"
+feature VP6a
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature NS4 -p S9_whole_genome "NS4 coding sequence"
+feature NS4
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S9_3UTR -p S9_whole_genome "Segment 9 3' untranslated region"
+
+
+create feature S10_whole_genome "Segment 10 whole genome"
+feature S10_whole_genome set metatag INFORMATIONAL true
+create feature S10_5UTR -p S10_whole_genome "Segment 10 5' untranslated region"
+create feature NS3 -p S10_whole_genome "NS3 coding sequence"
+feature NS3
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature NS3a -p S10_whole_genome "NS3a coding sequence"
+feature NS3a
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature NS5 -p S10_whole_genome "NS5 coding sequence"
+feature NS5
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature S10_3UTR -p S10_whole_genome "Segment 10 3' untranslated region"
