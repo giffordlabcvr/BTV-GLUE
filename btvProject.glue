@@ -2,8 +2,6 @@ delete project btv
 
 create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.50
 
-
-  
 run file glue/btvFieldDefinitions.glue
  
 project btv
@@ -36,14 +34,22 @@ project btv
   # this module downloads all btv from NCBI
   create module --fileName modules/ncbiImporter.xml ncbiImporter
   
-  # Import the reference sequences from files
-  #import source sources/ncbi-refseqs 
-
   # features.
   run file glue/btvFeatures.glue
 
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
+
+  # Import unpublished reference sequences
+  import source sources/kyriaki-nomikou-unpublished-refs
+  sequence kyriaki-nomikou-unpublished-refs S2_serotype_28
+    set field gb_segment 2
+    set field gb_serotype 28
+    exit
+  sequence kyriaki-nomikou-unpublished-refs S6_serotype_28
+    set field gb_segment 6
+    set field gb_serotype 28
+    exit
 
   # references
   run file glue/btvReferences.glue

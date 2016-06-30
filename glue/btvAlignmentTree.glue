@@ -2,7 +2,97 @@ create alignment AL_S1_MASTER -r REF_S1_MASTER
 alignment AL_S1_MASTER add member -w "excluded = null and gb_segment = '1'"
 
 create alignment AL_S2_MASTER -r REF_S2_MASTER
-alignment AL_S2_MASTER add member -w "excluded = null and gb_segment = '2'"
+alignment AL_S2_MASTER 
+  add member -w "excluded = null and gb_segment = '2'"
+
+  extract child AL_S2_serotype_1 -r REF_S2_serotype_1
+  demote member AL_S2_serotype_1 -w "sequence.gb_serotype = '1'"
+
+  extract child AL_S2_serotype_2 -r REF_S2_serotype_2
+  demote member AL_S2_serotype_2 -w "sequence.gb_serotype = '2'"
+
+  extract child AL_S2_serotype_3 -r REF_S2_serotype_3
+  demote member AL_S2_serotype_3 -w "sequence.gb_serotype = '3'"
+
+  extract child AL_S2_serotype_4 -r REF_S2_serotype_4
+  demote member AL_S2_serotype_4 -w "sequence.gb_serotype = '4'"
+
+  extract child AL_S2_serotype_5 -r REF_S2_serotype_5
+  demote member AL_S2_serotype_5 -w "sequence.gb_serotype = '5'"
+
+  extract child AL_S2_serotype_6 -r REF_S2_serotype_6
+  demote member AL_S2_serotype_6 -w "sequence.gb_serotype = '6'"
+
+  extract child AL_S2_serotype_7 -r REF_S2_serotype_7
+  demote member AL_S2_serotype_7 -w "sequence.gb_serotype = '7'"
+
+  extract child AL_S2_serotype_8 -r REF_S2_serotype_8
+  demote member AL_S2_serotype_8 -w "sequence.gb_serotype = '8'"
+
+  extract child AL_S2_serotype_9 -r REF_S2_serotype_9
+  demote member AL_S2_serotype_9 -w "sequence.gb_serotype = '9'"
+
+  extract child AL_S2_serotype_10 -r REF_S2_serotype_10
+  demote member AL_S2_serotype_10 -w "sequence.gb_serotype = '10'"
+
+  extract child AL_S2_serotype_11 -r REF_S2_serotype_11
+  demote member AL_S2_serotype_11 -w "sequence.gb_serotype = '11'"
+
+  extract child AL_S2_serotype_12 -r REF_S2_serotype_12
+  demote member AL_S2_serotype_12 -w "sequence.gb_serotype = '12'"
+
+  extract child AL_S2_serotype_13 -r REF_S2_serotype_13
+  demote member AL_S2_serotype_13 -w "sequence.gb_serotype = '13'"
+
+  extract child AL_S2_serotype_14 -r REF_S2_serotype_14
+  demote member AL_S2_serotype_14 -w "sequence.gb_serotype = '14'"
+
+  extract child AL_S2_serotype_15 -r REF_S2_serotype_15
+  demote member AL_S2_serotype_15 -w "sequence.gb_serotype = '15'"
+
+  extract child AL_S2_serotype_16 -r REF_S2_serotype_16
+  demote member AL_S2_serotype_16 -w "sequence.gb_serotype = '16'"
+
+  extract child AL_S2_serotype_17 -r REF_S2_serotype_17
+  demote member AL_S2_serotype_17 -w "sequence.gb_serotype = '17'"
+
+  extract child AL_S2_serotype_18 -r REF_S2_serotype_18
+  demote member AL_S2_serotype_18 -w "sequence.gb_serotype = '18'"
+
+  extract child AL_S2_serotype_19 -r REF_S2_serotype_19
+  demote member AL_S2_serotype_19 -w "sequence.gb_serotype = '19'"
+
+  extract child AL_S2_serotype_20 -r REF_S2_serotype_20
+  demote member AL_S2_serotype_20 -w "sequence.gb_serotype = '20'"
+
+  extract child AL_S2_serotype_21 -r REF_S2_serotype_21
+  demote member AL_S2_serotype_21 -w "sequence.gb_serotype = '21'"
+
+  extract child AL_S2_serotype_22 -r REF_S2_serotype_22
+  demote member AL_S2_serotype_22 -w "sequence.gb_serotype = '22'"
+
+  extract child AL_S2_serotype_23 -r REF_S2_serotype_23
+  demote member AL_S2_serotype_23 -w "sequence.gb_serotype = '23'"
+
+  extract child AL_S2_serotype_24 -r REF_S2_serotype_24
+  demote member AL_S2_serotype_24 -w "sequence.gb_serotype = '24'"
+
+  extract child AL_S2_serotype_25 -r REF_S2_serotype_25
+  demote member AL_S2_serotype_25 -w "sequence.gb_serotype = '25'"
+
+  extract child AL_S2_serotype_26 -r REF_S2_serotype_26
+  demote member AL_S2_serotype_26 -w "sequence.gb_serotype = '26'"
+
+  extract child AL_S2_serotype_27 -r REF_S2_serotype_27
+  demote member AL_S2_serotype_27 -w "sequence.gb_serotype = '27'"
+
+  extract child AL_S2_serotype_28 -r REF_S2_serotype_28
+  demote member AL_S2_serotype_28 -w "sequence.gb_serotype = '28'"
+
+  extract child AL_S2_serotype_29 -r REF_S2_serotype_29
+  demote member AL_S2_serotype_29 -w "sequence.gb_serotype = '29'"
+
+  exit
 
 create alignment AL_S3_MASTER -r REF_S3_MASTER
 alignment AL_S3_MASTER add member -w "excluded = null and gb_segment = '3'"
@@ -14,7 +104,97 @@ create alignment AL_S5_MASTER -r REF_S5_MASTER
 alignment AL_S5_MASTER add member -w "excluded = null and gb_segment = '5'"
 
 create alignment AL_S6_MASTER -r REF_S6_MASTER
-alignment AL_S6_MASTER add member -w "excluded = null and gb_segment = '6'"
+alignment AL_S2_MASTER 
+  add member -w "excluded = null and gb_segment = '6'"
+
+  extract child AL_S6_serotype_1 -r REF_S6_serotype_1
+  demote member AL_S6_serotype_1 -w "sequence.gb_serotype = '1'"
+
+  extract child AL_S6_serotype_2 -r REF_S6_serotype_2
+  demote member AL_S6_serotype_2 -w "sequence.gb_serotype = '2'"
+
+  extract child AL_S6_serotype_3 -r REF_S6_serotype_3
+  demote member AL_S6_serotype_3 -w "sequence.gb_serotype = '3'"
+
+  extract child AL_S6_serotype_4 -r REF_S6_serotype_4
+  demote member AL_S6_serotype_4 -w "sequence.gb_serotype = '4'"
+
+  extract child AL_S6_serotype_5 -r REF_S6_serotype_5
+  demote member AL_S6_serotype_5 -w "sequence.gb_serotype = '5'"
+
+  extract child AL_S6_serotype_6 -r REF_S6_serotype_6
+  demote member AL_S6_serotype_6 -w "sequence.gb_serotype = '6'"
+
+  extract child AL_S6_serotype_7 -r REF_S6_serotype_7
+  demote member AL_S6_serotype_7 -w "sequence.gb_serotype = '7'"
+
+  extract child AL_S6_serotype_8 -r REF_S6_serotype_8
+  demote member AL_S6_serotype_8 -w "sequence.gb_serotype = '8'"
+
+  extract child AL_S6_serotype_9 -r REF_S6_serotype_9
+  demote member AL_S6_serotype_9 -w "sequence.gb_serotype = '9'"
+
+  extract child AL_S6_serotype_10 -r REF_S6_serotype_10
+  demote member AL_S6_serotype_10 -w "sequence.gb_serotype = '10'"
+
+  extract child AL_S6_serotype_11 -r REF_S6_serotype_11
+  demote member AL_S6_serotype_11 -w "sequence.gb_serotype = '11'"
+
+  extract child AL_S6_serotype_12 -r REF_S6_serotype_12
+  demote member AL_S6_serotype_12 -w "sequence.gb_serotype = '12'"
+
+  extract child AL_S6_serotype_13 -r REF_S6_serotype_13
+  demote member AL_S6_serotype_13 -w "sequence.gb_serotype = '13'"
+
+  extract child AL_S6_serotype_14 -r REF_S6_serotype_14
+  demote member AL_S6_serotype_14 -w "sequence.gb_serotype = '14'"
+
+  extract child AL_S6_serotype_15 -r REF_S6_serotype_15
+  demote member AL_S6_serotype_15 -w "sequence.gb_serotype = '15'"
+
+  extract child AL_S6_serotype_16 -r REF_S6_serotype_16
+  demote member AL_S6_serotype_16 -w "sequence.gb_serotype = '16'"
+
+  extract child AL_S6_serotype_17 -r REF_S6_serotype_17
+  demote member AL_S6_serotype_17 -w "sequence.gb_serotype = '17'"
+
+  extract child AL_S6_serotype_18 -r REF_S6_serotype_18
+  demote member AL_S6_serotype_18 -w "sequence.gb_serotype = '18'"
+
+  extract child AL_S6_serotype_19 -r REF_S6_serotype_19
+  demote member AL_S6_serotype_19 -w "sequence.gb_serotype = '19'"
+
+  extract child AL_S6_serotype_20 -r REF_S6_serotype_20
+  demote member AL_S6_serotype_20 -w "sequence.gb_serotype = '20'"
+
+  extract child AL_S6_serotype_21 -r REF_S6_serotype_21
+  demote member AL_S6_serotype_21 -w "sequence.gb_serotype = '21'"
+
+  extract child AL_S6_serotype_22 -r REF_S6_serotype_22
+  demote member AL_S6_serotype_22 -w "sequence.gb_serotype = '22'"
+
+  extract child AL_S6_serotype_23 -r REF_S6_serotype_23
+  demote member AL_S6_serotype_23 -w "sequence.gb_serotype = '23'"
+
+  extract child AL_S6_serotype_24 -r REF_S6_serotype_24
+  demote member AL_S6_serotype_24 -w "sequence.gb_serotype = '24'"
+
+  extract child AL_S6_serotype_25 -r REF_S6_serotype_25
+  demote member AL_S6_serotype_25 -w "sequence.gb_serotype = '25'"
+
+  extract child AL_S6_serotype_26 -r REF_S6_serotype_26
+  demote member AL_S6_serotype_26 -w "sequence.gb_serotype = '26'"
+
+  extract child AL_S6_serotype_27 -r REF_S6_serotype_27
+  demote member AL_S6_serotype_27 -w "sequence.gb_serotype = '27'"
+
+  extract child AL_S6_serotype_28 -r REF_S6_serotype_28
+  demote member AL_S6_serotype_28 -w "sequence.gb_serotype = '28'"
+
+  extract child AL_S6_serotype_29 -r REF_S6_serotype_29
+  demote member AL_S6_serotype_29 -w "sequence.gb_serotype = '29'"
+
+  exit
 
 create alignment AL_S7_MASTER -r REF_S7_MASTER
 alignment AL_S7_MASTER add member -w "excluded = null and gb_segment = '7'"

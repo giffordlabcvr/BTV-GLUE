@@ -105,3 +105,64 @@ reference REF_S10_MASTER
   add feature-location S10_3UTR
   feature-location S10_3UTR add segment 710 822
   exit
+  
+  
+create reference REF_S2_serotype_1 ncbi-curated JX680458
+create reference REF_S2_serotype_2 ncbi-curated KP821030
+create reference REF_S2_serotype_3 ncbi-curated KP821039
+create reference REF_S2_serotype_4 ncbi-curated KP821066
+create reference REF_S2_serotype_5 ncbi-curated KP821101
+create reference REF_S2_serotype_6 ncbi-curated AJ585127
+create reference REF_S2_serotype_7 ncbi-curated AJ585128
+create reference REF_S2_serotype_8 ncbi-curated KP821076
+create reference REF_S2_serotype_9 ncbi-curated KP821088
+create reference REF_S2_serotype_10 ncbi-curated AJ585131 
+create reference REF_S2_serotype_11 ncbi-curated AJ585132
+create reference REF_S2_serotype_12 ncbi-curated KP821100
+create reference REF_S2_serotype_13 ncbi-curated AJ585134
+create reference REF_S2_serotype_14 ncbi-curated KP820983
+create reference REF_S2_serotype_15 ncbi-curated KP820984
+create reference REF_S2_serotype_16 ncbi-curated AJ585137 
+create reference REF_S2_serotype_17 ncbi-curated AJ585138
+create reference REF_S2_serotype_18 ncbi-curated AJ585139
+create reference REF_S2_serotype_19 ncbi-curated AJ585140
+create reference REF_S2_serotype_20 ncbi-curated AJ585141
+create reference REF_S2_serotype_21 ncbi-curated AJ585142
+create reference REF_S2_serotype_22 ncbi-curated AJ585143
+create reference REF_S2_serotype_23 ncbi-curated AJ585144
+create reference REF_S2_serotype_24 ncbi-curated AJ585145
+create reference REF_S2_serotype_25 ncbi-curated EU839840
+create reference REF_S2_serotype_26 ncbi-curated HM590642
+create reference REF_S2_serotype_27 ncbi-curated KM200718
+create reference REF_S2_serotype_28 kyriaki-nomikou-unpublished-refs S2_serotype_28
+create reference REF_S2_serotype_29 ncbi-curated KP196604
+
+create reference REF_S6_serotype_1 ncbi-curated JX680462
+create reference REF_S6_serotype_2 ncbi-curated KP821512
+create reference REF_S6_serotype_3 ncbi-curated KP821521
+create reference REF_S6_serotype_4 ncbi-curated KP821548
+create reference REF_S6_serotype_5 ncbi-curated KP821582
+create reference REF_S6_serotype_6 ncbi-curated AJ586703
+create reference REF_S6_serotype_7 ncbi-curated AJ586704
+create reference REF_S6_serotype_8 ncbi-curated KP821558
+create reference REF_S6_serotype_9 ncbi-curated KP821570
+create reference REF_S6_serotype_10 ncbi-curated AJ586709 
+create reference REF_S6_serotype_11 ncbi-curated AJ586710
+create reference REF_S6_serotype_12 ncbi-curated KP821583
+create reference REF_S6_serotype_13 ncbi-curated AJ586713
+create reference REF_S6_serotype_14 ncbi-curated KP821465
+create reference REF_S6_serotype_15 ncbi-curated KP821466
+create reference REF_S6_serotype_16 ncbi-curated AJ586719 
+create reference REF_S6_serotype_17 ncbi-curated AJ586720 
+create reference REF_S6_serotype_18 ncbi-curated AJ586721
+create reference REF_S6_serotype_19 ncbi-curated AJ586722
+create reference REF_S6_serotype_20 ncbi-curated AJ586723 
+create reference REF_S6_serotype_21 ncbi-curated AJ586724
+create reference REF_S6_serotype_22 ncbi-curated AJ586725
+create reference REF_S6_serotype_23 ncbi-curated AJ586727
+create reference REF_S6_serotype_24 ncbi-curated AJ586730
+create reference REF_S6_serotype_25 ncbi-curated EU839842
+create reference REF_S6_serotype_26 ncbi-curated JN255159
+create reference REF_S6_serotype_27 ncbi-curated LN713675
+create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished-refs S2_serotype_28	
+create reference REF_S6_serotype_29 ncbi-curated KP196608
