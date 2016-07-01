@@ -104,7 +104,7 @@ create alignment AL_S5_MASTER -r REF_S5_MASTER
 alignment AL_S5_MASTER add member -w "excluded = null and gb_segment = '5'"
 
 create alignment AL_S6_MASTER -r REF_S6_MASTER
-alignment AL_S2_MASTER 
+alignment AL_S6_MASTER 
   add member -w "excluded = null and gb_segment = '6'"
 
   extract child AL_S6_serotype_1 -r REF_S6_serotype_1
@@ -218,3 +218,128 @@ compute alignment AL_S7_MASTER s7CompoundAligner
 compute alignment AL_S8_MASTER s8CompoundAligner
 compute alignment AL_S9_MASTER s9CompoundAligner
 compute alignment AL_S10_MASTER s10CompoundAligner
+
+reference REF_S2_serotype_1 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_2 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_3 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_4 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_5 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_6 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_7 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_8 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_9 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_10 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_11 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_12 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_13 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_14 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_15 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_16 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_17 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_18 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_19 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_20 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_21 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_22 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_23 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_24 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_25 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_26 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_27 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_serotype_29 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+
+
+reference REF_S6_serotype_1 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_2 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_3 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_4 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_5 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_6 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_7 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_8 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_9 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_10 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_11 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_12 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_13 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_14 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_15 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_16 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_17 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_18 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_19 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_20 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_21 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_22 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_23 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_24 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_25 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_26 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_27 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_serotype_29 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+
+compute alignment AL_S2_serotype_1 s2CompoundAligner
+compute alignment AL_S2_serotype_2 s2CompoundAligner
+compute alignment AL_S2_serotype_3 s2CompoundAligner
+compute alignment AL_S2_serotype_4 s2CompoundAligner
+compute alignment AL_S2_serotype_5 s2CompoundAligner
+compute alignment AL_S2_serotype_6 s2CompoundAligner
+compute alignment AL_S2_serotype_7 s2CompoundAligner
+compute alignment AL_S2_serotype_8 s2CompoundAligner
+compute alignment AL_S2_serotype_9 s2CompoundAligner
+compute alignment AL_S2_serotype_10 s2CompoundAligner
+compute alignment AL_S2_serotype_11 s2CompoundAligner
+compute alignment AL_S2_serotype_12 s2CompoundAligner
+compute alignment AL_S2_serotype_13 s2CompoundAligner
+compute alignment AL_S2_serotype_14 s2CompoundAligner
+compute alignment AL_S2_serotype_15 s2CompoundAligner
+compute alignment AL_S2_serotype_16 s2CompoundAligner
+compute alignment AL_S2_serotype_17 s2CompoundAligner
+compute alignment AL_S2_serotype_18 s2CompoundAligner
+compute alignment AL_S2_serotype_19 s2CompoundAligner
+compute alignment AL_S2_serotype_20 s2CompoundAligner
+compute alignment AL_S2_serotype_21 s2CompoundAligner
+compute alignment AL_S2_serotype_22 s2CompoundAligner
+compute alignment AL_S2_serotype_23 s2CompoundAligner
+compute alignment AL_S2_serotype_24 s2CompoundAligner
+compute alignment AL_S2_serotype_25 s2CompoundAligner
+compute alignment AL_S2_serotype_26 s2CompoundAligner
+compute alignment AL_S2_serotype_27 s2CompoundAligner
+compute alignment AL_S2_serotype_28 s2CompoundAligner
+compute alignment AL_S2_serotype_29 s2CompoundAligner
+
+
+compute alignment AL_S6_serotype_1 s6CompoundAligner
+compute alignment AL_S6_serotype_2 s6CompoundAligner
+compute alignment AL_S6_serotype_3 s6CompoundAligner
+compute alignment AL_S6_serotype_4 s6CompoundAligner
+compute alignment AL_S6_serotype_5 s6CompoundAligner
+compute alignment AL_S6_serotype_6 s6CompoundAligner
+compute alignment AL_S6_serotype_7 s6CompoundAligner
+compute alignment AL_S6_serotype_8 s6CompoundAligner
+compute alignment AL_S6_serotype_9 s6CompoundAligner
+compute alignment AL_S6_serotype_10 s6CompoundAligner
+compute alignment AL_S6_serotype_11 s6CompoundAligner
+compute alignment AL_S6_serotype_12 s6CompoundAligner
+compute alignment AL_S6_serotype_13 s6CompoundAligner
+compute alignment AL_S6_serotype_14 s6CompoundAligner
+compute alignment AL_S6_serotype_15 s6CompoundAligner
+compute alignment AL_S6_serotype_16 s6CompoundAligner
+compute alignment AL_S6_serotype_17 s6CompoundAligner
+compute alignment AL_S6_serotype_18 s6CompoundAligner
+compute alignment AL_S6_serotype_19 s6CompoundAligner
+compute alignment AL_S6_serotype_20 s6CompoundAligner
+compute alignment AL_S6_serotype_21 s6CompoundAligner
+compute alignment AL_S6_serotype_22 s6CompoundAligner
+compute alignment AL_S6_serotype_23 s6CompoundAligner
+compute alignment AL_S6_serotype_24 s6CompoundAligner
+compute alignment AL_S6_serotype_25 s6CompoundAligner
+compute alignment AL_S6_serotype_26 s6CompoundAligner
+compute alignment AL_S6_serotype_27 s6CompoundAligner
+compute alignment AL_S6_serotype_28 s6CompoundAligner
+compute alignment AL_S6_serotype_29 s6CompoundAligner
+
+
+

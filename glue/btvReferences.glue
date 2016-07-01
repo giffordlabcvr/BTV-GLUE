@@ -1,5 +1,7 @@
 create reference REF_S1_MASTER ncbi-curated JX680457
 reference REF_S1_MASTER 
+  add feature-location S1_whole_genome
+  feature-location S1_whole_genome add segment 1 3944
   add feature-location S1_5UTR
   feature-location S1_5UTR add segment 1 11
   add feature-location VP1
@@ -10,6 +12,8 @@ reference REF_S1_MASTER
 
 create reference REF_S2_MASTER ncbi-curated JX680458
 reference REF_S2_MASTER 
+  add feature-location S2_whole_genome
+  feature-location S2_whole_genome add segment 1 2940
   add feature-location S2_5UTR
   feature-location S2_5UTR add segment 1 17
   add feature-location VP2
@@ -20,6 +24,8 @@ reference REF_S2_MASTER
 
 create reference REF_S3_MASTER ncbi-curated JX680459
 reference REF_S3_MASTER 
+  add feature-location S3_whole_genome
+  feature-location S3_whole_genome add segment 1 2772
   add feature-location S3_5UTR
   feature-location S3_5UTR add segment 1 17
   add feature-location VP3
@@ -30,6 +36,8 @@ reference REF_S3_MASTER
 
 create reference REF_S4_MASTER ncbi-curated JX680460
 reference REF_S4_MASTER 
+  add feature-location S4_whole_genome
+  feature-location S4_whole_genome add segment 1 1981
   add feature-location S4_5UTR
   feature-location S4_5UTR add segment 1 8
   add feature-location VP4
@@ -40,6 +48,8 @@ reference REF_S4_MASTER
 
 create reference REF_S5_MASTER ncbi-curated JX680461
 reference REF_S5_MASTER 
+  add feature-location S5_whole_genome
+  feature-location S5_whole_genome add segment 1 1772
   add feature-location S5_5UTR
   feature-location S5_5UTR add segment 1 34
   add feature-location NS1
@@ -50,6 +60,8 @@ reference REF_S5_MASTER
 
 create reference REF_S6_MASTER ncbi-curated JX680462
 reference REF_S6_MASTER 
+  add feature-location S6_whole_genome
+  feature-location S6_whole_genome add segment 1 1635
   add feature-location S6_5UTR
   feature-location S6_5UTR add segment 1 25
   add feature-location VP5
@@ -60,6 +72,8 @@ reference REF_S6_MASTER
 
 create reference REF_S7_MASTER ncbi-curated JX680463
 reference REF_S7_MASTER 
+  add feature-location S7_whole_genome
+  feature-location S7_whole_genome add segment 1 1156
   add feature-location S7_5UTR
   feature-location S7_5UTR add segment 1 17
   add feature-location VP7
@@ -70,6 +84,8 @@ reference REF_S7_MASTER
 
 create reference REF_S8_MASTER ncbi-curated JX680464
 reference REF_S8_MASTER 
+  add feature-location S8_whole_genome
+  feature-location S8_whole_genome add segment 1 1125
   add feature-location S8_5UTR
   feature-location S8_5UTR add segment 1 19
   add feature-location NS2
@@ -80,6 +96,8 @@ reference REF_S8_MASTER
 
 create reference REF_S9_MASTER ncbi-curated JX680465
 reference REF_S9_MASTER 
+  add feature-location S9_whole_genome
+  feature-location S9_whole_genome add segment 1 1049
   add feature-location S9_5UTR
   feature-location S9_5UTR add segment 1 15
   add feature-location VP6
@@ -94,6 +112,8 @@ reference REF_S9_MASTER
 
 create reference REF_S10_MASTER ncbi-curated JX680466
 reference REF_S10_MASTER 
+  add feature-location S10_whole_genome
+  feature-location S10_whole_genome add segment 1 822
   add feature-location S10_5UTR
   feature-location S10_5UTR add segment 1 19
   add feature-location NS3
@@ -164,5 +184,5 @@ create reference REF_S6_serotype_24 ncbi-curated AJ586730
 create reference REF_S6_serotype_25 ncbi-curated EU839842
 create reference REF_S6_serotype_26 ncbi-curated JN255159
 create reference REF_S6_serotype_27 ncbi-curated LN713675
-create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished-refs S2_serotype_28	
+create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished-refs S6_serotype_28	
 create reference REF_S6_serotype_29 ncbi-curated KP196608

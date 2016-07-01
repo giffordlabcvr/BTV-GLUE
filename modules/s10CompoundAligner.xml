@@ -4,10 +4,7 @@
 			<featureName>NS3</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>
-			<featureName>S10_5UTR</featureName>
-		</blastAligner>
-		<blastAligner>
-			<featureName>S10_3UTR</featureName>
+			<featureName>S10_whole_genome</featureName>
 		</blastAligner>
 	</aligners>
 </compoundAligner>

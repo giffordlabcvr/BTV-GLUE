@@ -4,10 +4,7 @@
 			<featureName>VP6</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner>
-			<featureName>S9_5UTR</featureName>
-		</blastAligner>
-		<blastAligner>
-			<featureName>S9_3UTR</featureName>
+			<featureName>S9_whole_genome</featureName>
 		</blastAligner>
 	</aligners>
 </compoundAligner>
