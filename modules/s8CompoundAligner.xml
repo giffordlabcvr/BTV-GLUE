@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NS2</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S8_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

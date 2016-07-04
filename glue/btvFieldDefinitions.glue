@@ -19,12 +19,14 @@ schema-project btv
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field gb_serotype VARCHAR
-    create field gb_topotype VARCHAR
     create field sample_type VARCHAR
     create field place_sampled VARCHAR 300
     create field tissue_sampled VARCHAR
     create field passage_history VARCHAR
-    create field passage_cells VARCHAR     
+    create field passage_cells VARCHAR 
+    create field pmid_reference VARCHAR    
+    create field alt_reference VARCHAR 200
+    create field alt_reference_url VARCHAR 200    
     exit
     
   exit

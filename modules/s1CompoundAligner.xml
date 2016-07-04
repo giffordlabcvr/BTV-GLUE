@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>VP1</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S1_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

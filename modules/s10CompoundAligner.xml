@@ -1,0 +1,10 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>NS3</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner>
+			<featureName>S10_whole_genome</featureName>
+		</blastAligner>
+	</aligners>
+</compoundAligner>

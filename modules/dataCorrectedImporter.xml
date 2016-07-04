@@ -1,0 +1,62 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<fieldName>sequenceID</fieldName>
+		<header>sequence_id</header>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_segment</fieldName>
+		<header>gb_segment_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_isolate</fieldName>
+		<header>gb_isolate_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_host</fieldName>
+		<header>gb_host_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_country</fieldName>
+		<header>gb_country_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_year</fieldName>
+		<header>gb_collection_year_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_month</fieldName>
+		<header>gb_collection_month_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_month_day</fieldName>
+		<header>gb_collection_month_day_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_serotype</fieldName>
+		<header>gb_serotype_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_serotype</fieldName>
+		<header>gb_serotype_corrected</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+	</textFileColumn>
+</textFilePopulator>

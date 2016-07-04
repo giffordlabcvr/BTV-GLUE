@@ -1,0 +1,40 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<fieldName>sequenceID</fieldName>
+		<header>sequence_id</header>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>sample_type</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>place_sampled</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>tissue_sampled</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>passage_history</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>passage_cells</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>pmid_reference</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>alt_reference</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>alt_reference_url</fieldName>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+</textFilePopulator>

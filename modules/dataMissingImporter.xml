@@ -1,0 +1,48 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<fieldName>sequenceID</fieldName>
+		<header>sequence_id</header>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_segment</fieldName>
+		<header>gb_segment_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_isolate</fieldName>
+		<header>gb_isolate_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_host</fieldName>
+		<header>gb_host_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_country</fieldName>
+		<header>gb_country_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_year</fieldName>
+		<header>gb_collection_year_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_month</fieldName>
+		<header>gb_collection_month_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_collection_month_day</fieldName>
+		<header>gb_collection_month_day_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_serotype</fieldName>
+		<header>gb_serotype_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</textFileColumn>
+</textFilePopulator>
