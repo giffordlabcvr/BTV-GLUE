@@ -1,6 +1,6 @@
 delete project btv
 
-create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.50
+create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.54
 
 
   
