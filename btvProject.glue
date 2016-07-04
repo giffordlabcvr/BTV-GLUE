@@ -30,6 +30,8 @@ project btv
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
   create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
   create module --fileName modules/seqToDeleteImporter.xml seqToDeleteImporter
+  create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
+  create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
 
   # this module downloads all btv from NCBI
   create module --fileName modules/ncbiImporter.xml ncbiImporter

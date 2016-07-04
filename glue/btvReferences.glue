@@ -155,7 +155,6 @@ create reference REF_S2_serotype_25 ncbi-curated EU839840
 create reference REF_S2_serotype_26 ncbi-curated HM590642
 create reference REF_S2_serotype_27 ncbi-curated KM200718
 create reference REF_S2_serotype_28 kyriaki-nomikou-unpublished-refs S2_serotype_28
-create reference REF_S2_serotype_29 ncbi-curated KP196604
 
 create reference REF_S6_serotype_1 ncbi-curated JX680462
 create reference REF_S6_serotype_2 ncbi-curated KP821512
@@ -185,4 +184,3 @@ create reference REF_S6_serotype_25 ncbi-curated EU839842
 create reference REF_S6_serotype_26 ncbi-curated JN255159
 create reference REF_S6_serotype_27 ncbi-curated LN713675
 create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished-refs S6_serotype_28	
-create reference REF_S6_serotype_29 ncbi-curated KP196608

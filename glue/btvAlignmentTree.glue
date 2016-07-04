@@ -89,9 +89,6 @@ alignment AL_S2_MASTER
   extract child AL_S2_serotype_28 -r REF_S2_serotype_28
   demote member AL_S2_serotype_28 -w "sequence.gb_serotype = '28'"
 
-  extract child AL_S2_serotype_29 -r REF_S2_serotype_29
-  demote member AL_S2_serotype_29 -w "sequence.gb_serotype = '29'"
-
   exit
 
 create alignment AL_S3_MASTER -r REF_S3_MASTER
@@ -191,9 +188,6 @@ alignment AL_S6_MASTER
   extract child AL_S6_serotype_28 -r REF_S6_serotype_28
   demote member AL_S6_serotype_28 -w "sequence.gb_serotype = '28'"
 
-  extract child AL_S6_serotype_29 -r REF_S6_serotype_29
-  demote member AL_S6_serotype_29 -w "sequence.gb_serotype = '29'"
-
   exit
 
 create alignment AL_S7_MASTER -r REF_S7_MASTER
@@ -247,7 +241,6 @@ reference REF_S2_serotype_25 inherit feature-location -r -s AL_S2_MASTER S2_whol
 reference REF_S2_serotype_26 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 reference REF_S2_serotype_27 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 reference REF_S2_serotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_29 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 
 
 reference REF_S6_serotype_1 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
@@ -278,7 +271,6 @@ reference REF_S6_serotype_25 inherit feature-location -r -s AL_S6_MASTER S6_whol
 reference REF_S6_serotype_26 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 reference REF_S6_serotype_27 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 reference REF_S6_serotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_29 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 
 compute alignment AL_S2_serotype_1 s2CompoundAligner
 compute alignment AL_S2_serotype_2 s2CompoundAligner
@@ -308,7 +300,6 @@ compute alignment AL_S2_serotype_25 s2CompoundAligner
 compute alignment AL_S2_serotype_26 s2CompoundAligner
 compute alignment AL_S2_serotype_27 s2CompoundAligner
 compute alignment AL_S2_serotype_28 s2CompoundAligner
-compute alignment AL_S2_serotype_29 s2CompoundAligner
 
 
 compute alignment AL_S6_serotype_1 s6CompoundAligner
@@ -339,7 +330,6 @@ compute alignment AL_S6_serotype_25 s6CompoundAligner
 compute alignment AL_S6_serotype_26 s6CompoundAligner
 compute alignment AL_S6_serotype_27 s6CompoundAligner
 compute alignment AL_S6_serotype_28 s6CompoundAligner
-compute alignment AL_S6_serotype_29 s6CompoundAligner
 
 
 
