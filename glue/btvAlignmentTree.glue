@@ -202,16 +202,29 @@ alignment AL_S9_MASTER add member -w "excluded = null and gb_segment = '9'"
 create alignment AL_S10_MASTER -r REF_S10_MASTER
 alignment AL_S10_MASTER add member -w "excluded = null and gb_segment = '10'"
 
-compute alignment AL_S1_MASTER s1CompoundAligner
-compute alignment AL_S2_MASTER s2CompoundAligner
-compute alignment AL_S3_MASTER s3CompoundAligner
-compute alignment AL_S4_MASTER s4CompoundAligner
-compute alignment AL_S5_MASTER s5CompoundAligner
-compute alignment AL_S6_MASTER s6CompoundAligner
-compute alignment AL_S7_MASTER s7CompoundAligner
-compute alignment AL_S8_MASTER s8CompoundAligner
-compute alignment AL_S9_MASTER s9CompoundAligner
-compute alignment AL_S10_MASTER s10CompoundAligner
+
+module blastFastaAlignmentImporter import AL_S1_UNCONSTRAINED -f alignments/manually-curated/BTV-seg1.fna
+module blastFastaAlignmentImporter import AL_S2_UNCONSTRAINED -f alignments/manually-curated/BTV-seg2.fna
+module blastFastaAlignmentImporter import AL_S3_UNCONSTRAINED -f alignments/manually-curated/BTV-seg3.fna
+module blastFastaAlignmentImporter import AL_S4_UNCONSTRAINED -f alignments/manually-curated/BTV-seg4.fna
+module blastFastaAlignmentImporter import AL_S5_UNCONSTRAINED -f alignments/manually-curated/BTV-seg5.fna
+module blastFastaAlignmentImporter import AL_S6_UNCONSTRAINED -f alignments/manually-curated/BTV-seg6.fna
+module blastFastaAlignmentImporter import AL_S7_UNCONSTRAINED -f alignments/manually-curated/BTV-seg7.fna
+module blastFastaAlignmentImporter import AL_S8_UNCONSTRAINED -f alignments/manually-curated/BTV-seg8.fna
+module blastFastaAlignmentImporter import AL_S9_UNCONSTRAINED -f alignments/manually-curated/BTV-seg9.fna
+module blastFastaAlignmentImporter import AL_S10_UNCONSTRAINED -f alignments/manually-curated/BTV-seg10.fna
+
+alignment AL_S1_MASTER derive segments AL_S1_UNCONSTRAINED --allMembers
+alignment AL_S2_MASTER derive segments AL_S2_UNCONSTRAINED --allMembers
+alignment AL_S3_MASTER derive segments AL_S3_UNCONSTRAINED --allMembers
+alignment AL_S4_MASTER derive segments AL_S4_UNCONSTRAINED --allMembers
+alignment AL_S5_MASTER derive segments AL_S5_UNCONSTRAINED --allMembers
+alignment AL_S6_MASTER derive segments AL_S6_UNCONSTRAINED --allMembers
+alignment AL_S7_MASTER derive segments AL_S7_UNCONSTRAINED --allMembers
+alignment AL_S8_MASTER derive segments AL_S8_UNCONSTRAINED --allMembers
+alignment AL_S9_MASTER derive segments AL_S9_UNCONSTRAINED --allMembers
+alignment AL_S10_MASTER derive segments AL_S10_UNCONSTRAINED --allMembers
+
 
 reference REF_S2_serotype_1 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 reference REF_S2_serotype_2 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
