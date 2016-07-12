@@ -29,4 +29,8 @@ schema-project btv
     create field alt_reference_url VARCHAR 200    
     exit
     
+  table alignment_member
+    create field reference_member BOOLEAN
+    exit
+    
   exit
