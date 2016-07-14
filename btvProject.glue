@@ -1,6 +1,6 @@
 delete project btv
 
-create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.58
+create project btv "A GLUE project for bluetongue virus (btv)" --minVersion 0.1.57
 
 run file glue/btvFieldDefinitions.glue
  
@@ -33,6 +33,9 @@ project btv
   create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
   create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+
+  create module --fileName modules/treeTransformerCountry.xml treeTransformerCountry
+
 
   # this module downloads all btv from NCBI
   create module --fileName modules/ncbiImporter.xml ncbiImporter

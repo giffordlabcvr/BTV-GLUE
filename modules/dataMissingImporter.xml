@@ -25,6 +25,16 @@
 		<header>gb_country_missing</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
+	<isoCountryTextFileColumn codeStyle="ALPHA_3">
+		<fieldName>gb_country_iso</fieldName>
+		<header>gb_country_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</isoCountryTextFileColumn>
+	<isoCountryTextFileColumn codeStyle="OFFICIAL">
+		<fieldName>gb_country_official</fieldName>
+		<header>gb_country_missing</header>
+		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
+	</isoCountryTextFileColumn>
 	<textFileColumn>
 		<fieldName>gb_collection_year</fieldName>
 		<header>gb_collection_year_missing</header>
