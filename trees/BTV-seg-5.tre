@@ -1,0 +1,458 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=364;
+	taxlabels
+	'AL_S5_MASTER.ncbi-curated.AM498055'
+	'AL_S5_MASTER.ncbi-curated.AM773683'
+	'AL_S5_MASTER.ncbi-curated.AM773684'
+	'AL_S5_MASTER.ncbi-curated.AM773685'
+	'AL_S5_MASTER.ncbi-curated.AM773686'
+	'AL_S5_MASTER.ncbi-curated.AM773687'
+	'AL_S5_MASTER.ncbi-curated.AM773688'
+	'AL_S5_MASTER.ncbi-curated.AM773689'
+	'AL_S5_MASTER.ncbi-curated.AM773690'
+	'AL_S5_MASTER.ncbi-curated.AM773691'
+	'AL_S5_MASTER.ncbi-curated.AM773692'
+	'AL_S5_MASTER.ncbi-curated.AM773693'
+	'AL_S5_MASTER.ncbi-curated.AM773694'
+	'AL_S5_MASTER.ncbi-curated.AM773695'
+	'AL_S5_MASTER.ncbi-curated.AM773696'
+	'AL_S5_MASTER.ncbi-curated.AM773705'
+	'AL_S5_MASTER.ncbi-curated.AM773706'
+	'AL_S5_MASTER.ncbi-curated.AM773707'
+	'AL_S5_MASTER.ncbi-curated.AM778437'
+	'AL_S5_MASTER.ncbi-curated.AM778438'
+	'AL_S5_MASTER.ncbi-curated.AM778439'
+	'AL_S5_MASTER.ncbi-curated.AM778440'
+	'AL_S5_MASTER.ncbi-curated.AM778441'
+	'AL_S5_MASTER.ncbi-curated.AM778442'
+	'AL_S5_MASTER.ncbi-curated.AM778443'
+	'AL_S5_MASTER.ncbi-curated.AM778444'
+	'AL_S5_MASTER.ncbi-curated.AM778445'
+	'AL_S5_MASTER.ncbi-curated.AY137387'
+	'AL_S5_MASTER.ncbi-curated.AY138895'
+	'AL_S5_MASTER.ncbi-curated.AY462225'
+	'AL_S5_MASTER.ncbi-curated.DQ017956'
+	'AL_S5_MASTER.ncbi-curated.DQ017957'
+	'AL_S5_MASTER.ncbi-curated.DQ017958'
+	'AL_S5_MASTER.ncbi-curated.DQ017959'
+	'AL_S5_MASTER.ncbi-curated.DQ017960'
+	'AL_S5_MASTER.ncbi-curated.DQ017961'
+	'AL_S5_MASTER.ncbi-curated.DQ017962'
+	'AL_S5_MASTER.ncbi-curated.EU839841'
+	'AL_S5_MASTER.ncbi-curated.FJ183378'
+	'AL_S5_MASTER.ncbi-curated.FJ713336'
+	'AL_S5_MASTER.ncbi-curated.FJ713337'
+	'AL_S5_MASTER.ncbi-curated.FJ713338'
+	'AL_S5_MASTER.ncbi-curated.FJ713339'
+	'AL_S5_MASTER.ncbi-curated.FJ713340'
+	'AL_S5_MASTER.ncbi-curated.FJ713341'
+	'AL_S5_MASTER.ncbi-curated.FJ713342'
+	'AL_S5_MASTER.ncbi-curated.FJ713343'
+	'AL_S5_MASTER.ncbi-curated.FJ713344'
+	'AL_S5_MASTER.ncbi-curated.FJ713345'
+	'AL_S5_MASTER.ncbi-curated.FJ713346'
+	'AL_S5_MASTER.ncbi-curated.FJ713347'
+	'AL_S5_MASTER.ncbi-curated.FJ713348'
+	'AL_S5_MASTER.ncbi-curated.FJ713349'
+	'AL_S5_MASTER.ncbi-curated.FJ713350'
+	'AL_S5_MASTER.ncbi-curated.FJ713351'
+	'AL_S5_MASTER.ncbi-curated.FJ713352'
+	'AL_S5_MASTER.ncbi-curated.FJ713353'
+	'AL_S5_MASTER.ncbi-curated.FJ713354'
+	'AL_S5_MASTER.ncbi-curated.FJ713355'
+	'AL_S5_MASTER.ncbi-curated.FJ969724'
+	'AL_S5_MASTER.ncbi-curated.GQ506455'
+	'AL_S5_MASTER.ncbi-curated.GQ506463'
+	'AL_S5_MASTER.ncbi-curated.GQ506476'
+	'AL_S5_MASTER.ncbi-curated.GQ506482'
+	'AL_S5_MASTER.ncbi-curated.GQ506492'
+	'AL_S5_MASTER.ncbi-curated.GQ506501'
+	'AL_S5_MASTER.ncbi-curated.GQ506510'
+	'AL_S5_MASTER.ncbi-curated.GQ506520'
+	'AL_S5_MASTER.ncbi-curated.GQ506530'
+	'AL_S5_MASTER.ncbi-curated.GQ506540'
+	'AL_S5_MASTER.ncbi-curated.GU390664'
+	'AL_S5_MASTER.ncbi-curated.JF443163'
+	'AL_S5_MASTER.ncbi-curated.JN255158'
+	'AL_S5_MASTER.ncbi-curated.JN255866'
+	'AL_S5_MASTER.ncbi-curated.JN255876'
+	'AL_S5_MASTER.ncbi-curated.JN255886'
+	'AL_S5_MASTER.ncbi-curated.JN255896'
+	'AL_S5_MASTER.ncbi-curated.JN255906'
+	'AL_S5_MASTER.ncbi-curated.JN255916'
+	'AL_S5_MASTER.ncbi-curated.JN255926'
+	'AL_S5_MASTER.ncbi-curated.JN255936'
+	'AL_S5_MASTER.ncbi-curated.JN255946'
+	'AL_S5_MASTER.ncbi-curated.JN255956'
+	'AL_S5_MASTER.ncbi-curated.JN255966'
+	'AL_S5_MASTER.ncbi-curated.JN671910'
+	'AL_S5_MASTER.ncbi-curated.JN848763'
+	'AL_S5_MASTER.ncbi-curated.JN881989'
+	'AL_S5_MASTER.ncbi-curated.JQ086225'
+	'AL_S5_MASTER.ncbi-curated.JQ086235'
+	'AL_S5_MASTER.ncbi-curated.JQ086245'
+	'AL_S5_MASTER.ncbi-curated.JQ086255'
+	'AL_S5_MASTER.ncbi-curated.JQ086265'
+	'AL_S5_MASTER.ncbi-curated.JQ086275'
+	'AL_S5_MASTER.ncbi-curated.JQ086285'
+	'AL_S5_MASTER.ncbi-curated.JQ086295'
+	'AL_S5_MASTER.ncbi-curated.JQ086305'
+	'AL_S5_MASTER.ncbi-curated.JQ240325'
+	'AL_S5_MASTER.ncbi-curated.JQ282773'
+	'AL_S5_MASTER.ncbi-curated.JQ681261'
+	'AL_S5_MASTER.ncbi-curated.JQ713560'
+	'AL_S5_MASTER.ncbi-curated.JQ740775'
+	'AL_S5_MASTER.ncbi-curated.JQ771817'
+	'AL_S5_MASTER.ncbi-curated.JQ771827'
+	'AL_S5_MASTER.ncbi-curated.JQ822252'
+	'AL_S5_MASTER.ncbi-curated.JQ904069'
+	'AL_S5_MASTER.ncbi-curated.JQ924824'
+	'AL_S5_MASTER.ncbi-curated.JQ972835'
+	'AL_S5_MASTER.ncbi-curated.JQ972845'
+	'AL_S5_MASTER.ncbi-curated.JQ972855'
+	'AL_S5_MASTER.ncbi-curated.JQ972865'
+	'AL_S5_MASTER.ncbi-curated.JX003691'
+	'AL_S5_MASTER.ncbi-curated.JX272373'
+	'AL_S5_MASTER.ncbi-curated.JX272383'
+	'AL_S5_MASTER.ncbi-curated.JX272393'
+	'AL_S5_MASTER.ncbi-curated.JX272403'
+	'AL_S5_MASTER.ncbi-curated.JX272413'
+	'AL_S5_MASTER.ncbi-curated.JX272423'
+	'AL_S5_MASTER.ncbi-curated.JX272433'
+	'AL_S5_MASTER.ncbi-curated.JX272443'
+	'AL_S5_MASTER.ncbi-curated.JX272453'
+	'AL_S5_MASTER.ncbi-curated.JX272463'
+	'AL_S5_MASTER.ncbi-curated.JX272473'
+	'AL_S5_MASTER.ncbi-curated.JX272483'
+	'AL_S5_MASTER.ncbi-curated.JX272493'
+	'AL_S5_MASTER.ncbi-curated.JX272503'
+	'AL_S5_MASTER.ncbi-curated.JX272513'
+	'AL_S5_MASTER.ncbi-curated.JX272523'
+	'AL_S5_MASTER.ncbi-curated.JX272533'
+	'AL_S5_MASTER.ncbi-curated.JX272543'
+	'AL_S5_MASTER.ncbi-curated.JX272553'
+	'AL_S5_MASTER.ncbi-curated.JX272563'
+	'AL_S5_MASTER.ncbi-curated.JX272573'
+	'AL_S5_MASTER.ncbi-curated.JX272583'
+	'AL_S5_MASTER.ncbi-curated.JX272593'
+	'AL_S5_MASTER.ncbi-curated.JX272603'
+	'AL_S5_MASTER.ncbi-curated.JX399152'
+	'AL_S5_MASTER.ncbi-curated.JX560417'
+	'AL_S5_MASTER.ncbi-curated.JX680451'
+	'AL_S5_MASTER.ncbi-curated.JX680461'
+	'AL_S5_MASTER.ncbi-curated.JX861492'
+	'AL_S5_MASTER.ncbi-curated.JX861502'
+	'AL_S5_MASTER.ncbi-curated.KC662616'
+	'AL_S5_MASTER.ncbi-curated.KC853054'
+	'AL_S5_MASTER.ncbi-curated.KC879619'
+	'AL_S5_MASTER.ncbi-curated.KC896844'
+	'AL_S5_MASTER.ncbi-curated.KC896845'
+	'AL_S5_MASTER.ncbi-curated.KC896846'
+	'AL_S5_MASTER.ncbi-curated.KC896847'
+	'AL_S5_MASTER.ncbi-curated.KC896848'
+	'AL_S5_MASTER.ncbi-curated.KC896849'
+	'AL_S5_MASTER.ncbi-curated.KC896850'
+	'AL_S5_MASTER.ncbi-curated.KC896851'
+	'AL_S5_MASTER.ncbi-curated.KF289015'
+	'AL_S5_MASTER.ncbi-curated.KF289016'
+	'AL_S5_MASTER.ncbi-curated.KF289017'
+	'AL_S5_MASTER.ncbi-curated.KF387525'
+	'AL_S5_MASTER.ncbi-curated.KF560421'
+	'AL_S5_MASTER.ncbi-curated.KF664107'
+	'AL_S5_MASTER.ncbi-curated.KF664117'
+	'AL_S5_MASTER.ncbi-curated.KF664127'
+	'AL_S5_MASTER.ncbi-curated.KF664137'
+	'AL_S5_MASTER.ncbi-curated.KF986493'
+	'AL_S5_MASTER.ncbi-curated.KF986502'
+	'AL_S5_MASTER.ncbi-curated.KF986514'
+	'AL_S5_MASTER.ncbi-curated.KJ019209'
+	'AL_S5_MASTER.ncbi-curated.KJ577098'
+	'AL_S5_MASTER.ncbi-curated.KJ577108'
+	'AL_S5_MASTER.ncbi-curated.KJ577118'
+	'AL_S5_MASTER.ncbi-curated.KJ577128'
+	'AL_S5_MASTER.ncbi-curated.KJ661733'
+	'AL_S5_MASTER.ncbi-curated.KJ736005'
+	'AL_S5_MASTER.ncbi-curated.KM053262'
+	'AL_S5_MASTER.ncbi-curated.KM053272'
+	'AL_S5_MASTER.ncbi-curated.KM099574'
+	'AL_S5_MASTER.ncbi-curated.KM099575'
+	'AL_S5_MASTER.ncbi-curated.KM099576'
+	'AL_S5_MASTER.ncbi-curated.KM099577'
+	'AL_S5_MASTER.ncbi-curated.KM099578'
+	'AL_S5_MASTER.ncbi-curated.KM099579'
+	'AL_S5_MASTER.ncbi-curated.KM099580'
+	'AL_S5_MASTER.ncbi-curated.KM099581'
+	'AL_S5_MASTER.ncbi-curated.KM099582'
+	'AL_S5_MASTER.ncbi-curated.KM099583'
+	'AL_S5_MASTER.ncbi-curated.KM099584'
+	'AL_S5_MASTER.ncbi-curated.KM099585'
+	'AL_S5_MASTER.ncbi-curated.KM099586'
+	'AL_S5_MASTER.ncbi-curated.KM099587'
+	'AL_S5_MASTER.ncbi-curated.KM099588'
+	'AL_S5_MASTER.ncbi-curated.KM099589'
+	'AL_S5_MASTER.ncbi-curated.KM099590'
+	'AL_S5_MASTER.ncbi-curated.KM233618'
+	'AL_S5_MASTER.ncbi-curated.KM485310'
+	'AL_S5_MASTER.ncbi-curated.KM580415'
+	'AL_S5_MASTER.ncbi-curated.KM580430'
+	'AL_S5_MASTER.ncbi-curated.KM580436'
+	'AL_S5_MASTER.ncbi-curated.KM580448'
+	'AL_S5_MASTER.ncbi-curated.KM580461'
+	'AL_S5_MASTER.ncbi-curated.KM580467'
+	'AL_S5_MASTER.ncbi-curated.KM580475'
+	'AL_S5_MASTER.ncbi-curated.KM580484'
+	'AL_S5_MASTER.ncbi-curated.KP196607'
+	'AL_S5_MASTER.ncbi-curated.KP268778'
+	'AL_S5_MASTER.ncbi-curated.KP268818'
+	'AL_S5_MASTER.ncbi-curated.KP696511'
+	'AL_S5_MASTER.ncbi-curated.KP696520'
+	'AL_S5_MASTER.ncbi-curated.KP696529'
+	'AL_S5_MASTER.ncbi-curated.KP696538'
+	'AL_S5_MASTER.ncbi-curated.KP696546'
+	'AL_S5_MASTER.ncbi-curated.KP696556'
+	'AL_S5_MASTER.ncbi-curated.KP696566'
+	'AL_S5_MASTER.ncbi-curated.KP696576'
+	'AL_S5_MASTER.ncbi-curated.KP696586'
+	'AL_S5_MASTER.ncbi-curated.KP696596'
+	'AL_S5_MASTER.ncbi-curated.KP696606'
+	'AL_S5_MASTER.ncbi-curated.KP696616'
+	'AL_S5_MASTER.ncbi-curated.KP696626'
+	'AL_S5_MASTER.ncbi-curated.KP696636'
+	'AL_S5_MASTER.ncbi-curated.KP696645'
+	'AL_S5_MASTER.ncbi-curated.KP696655'
+	'AL_S5_MASTER.ncbi-curated.KP696664'
+	'AL_S5_MASTER.ncbi-curated.KP696674'
+	'AL_S5_MASTER.ncbi-curated.KP696684'
+	'AL_S5_MASTER.ncbi-curated.KP696694'
+	'AL_S5_MASTER.ncbi-curated.KP821342'
+	'AL_S5_MASTER.ncbi-curated.KP821343'
+	'AL_S5_MASTER.ncbi-curated.KP821344'
+	'AL_S5_MASTER.ncbi-curated.KP821345'
+	'AL_S5_MASTER.ncbi-curated.KP821346'
+	'AL_S5_MASTER.ncbi-curated.KP821347'
+	'AL_S5_MASTER.ncbi-curated.KP821348'
+	'AL_S5_MASTER.ncbi-curated.KP821349'
+	'AL_S5_MASTER.ncbi-curated.KP821350'
+	'AL_S5_MASTER.ncbi-curated.KP821351'
+	'AL_S5_MASTER.ncbi-curated.KP821352'
+	'AL_S5_MASTER.ncbi-curated.KP821353'
+	'AL_S5_MASTER.ncbi-curated.KP821354'
+	'AL_S5_MASTER.ncbi-curated.KP821355'
+	'AL_S5_MASTER.ncbi-curated.KP821356'
+	'AL_S5_MASTER.ncbi-curated.KP821357'
+	'AL_S5_MASTER.ncbi-curated.KP821358'
+	'AL_S5_MASTER.ncbi-curated.KP821359'
+	'AL_S5_MASTER.ncbi-curated.KP821360'
+	'AL_S5_MASTER.ncbi-curated.KP821361'
+	'AL_S5_MASTER.ncbi-curated.KP821362'
+	'AL_S5_MASTER.ncbi-curated.KP821363'
+	'AL_S5_MASTER.ncbi-curated.KP821364'
+	'AL_S5_MASTER.ncbi-curated.KP821365'
+	'AL_S5_MASTER.ncbi-curated.KP821366'
+	'AL_S5_MASTER.ncbi-curated.KP821367'
+	'AL_S5_MASTER.ncbi-curated.KP821368'
+	'AL_S5_MASTER.ncbi-curated.KP821369'
+	'AL_S5_MASTER.ncbi-curated.KP821370'
+	'AL_S5_MASTER.ncbi-curated.KP821371'
+	'AL_S5_MASTER.ncbi-curated.KP821372'
+	'AL_S5_MASTER.ncbi-curated.KP821373'
+	'AL_S5_MASTER.ncbi-curated.KP821374'
+	'AL_S5_MASTER.ncbi-curated.KP821375'
+	'AL_S5_MASTER.ncbi-curated.KP821376'
+	'AL_S5_MASTER.ncbi-curated.KP821377'
+	'AL_S5_MASTER.ncbi-curated.KP821378'
+	'AL_S5_MASTER.ncbi-curated.KP821379'
+	'AL_S5_MASTER.ncbi-curated.KP821380'
+	'AL_S5_MASTER.ncbi-curated.KP821381'
+	'AL_S5_MASTER.ncbi-curated.KP821382'
+	'AL_S5_MASTER.ncbi-curated.KP821383'
+	'AL_S5_MASTER.ncbi-curated.KP821384'
+	'AL_S5_MASTER.ncbi-curated.KP821385'
+	'AL_S5_MASTER.ncbi-curated.KP821386'
+	'AL_S5_MASTER.ncbi-curated.KP821387'
+	'AL_S5_MASTER.ncbi-curated.KP821388'
+	'AL_S5_MASTER.ncbi-curated.KP821389'
+	'AL_S5_MASTER.ncbi-curated.KP821390'
+	'AL_S5_MASTER.ncbi-curated.KP821391'
+	'AL_S5_MASTER.ncbi-curated.KP821392'
+	'AL_S5_MASTER.ncbi-curated.KP821393'
+	'AL_S5_MASTER.ncbi-curated.KP821394'
+	'AL_S5_MASTER.ncbi-curated.KP821395'
+	'AL_S5_MASTER.ncbi-curated.KP821396'
+	'AL_S5_MASTER.ncbi-curated.KP821397'
+	'AL_S5_MASTER.ncbi-curated.KP821398'
+	'AL_S5_MASTER.ncbi-curated.KP821399'
+	'AL_S5_MASTER.ncbi-curated.KP821400'
+	'AL_S5_MASTER.ncbi-curated.KP821401'
+	'AL_S5_MASTER.ncbi-curated.KP821402'
+	'AL_S5_MASTER.ncbi-curated.KP821403'
+	'AL_S5_MASTER.ncbi-curated.KP821404'
+	'AL_S5_MASTER.ncbi-curated.KP821405'
+	'AL_S5_MASTER.ncbi-curated.KP821406'
+	'AL_S5_MASTER.ncbi-curated.KP821407'
+	'AL_S5_MASTER.ncbi-curated.KP821408'
+	'AL_S5_MASTER.ncbi-curated.KP821409'
+	'AL_S5_MASTER.ncbi-curated.KP821410'
+	'AL_S5_MASTER.ncbi-curated.KP821411'
+	'AL_S5_MASTER.ncbi-curated.KP821412'
+	'AL_S5_MASTER.ncbi-curated.KP821413'
+	'AL_S5_MASTER.ncbi-curated.KP821414'
+	'AL_S5_MASTER.ncbi-curated.KP821415'
+	'AL_S5_MASTER.ncbi-curated.KP821416'
+	'AL_S5_MASTER.ncbi-curated.KP821417'
+	'AL_S5_MASTER.ncbi-curated.KP821418'
+	'AL_S5_MASTER.ncbi-curated.KP821419'
+	'AL_S5_MASTER.ncbi-curated.KP821420'
+	'AL_S5_MASTER.ncbi-curated.KP821421'
+	'AL_S5_MASTER.ncbi-curated.KP821422'
+	'AL_S5_MASTER.ncbi-curated.KP821423'
+	'AL_S5_MASTER.ncbi-curated.KP821424'
+	'AL_S5_MASTER.ncbi-curated.KP821425'
+	'AL_S5_MASTER.ncbi-curated.KP821426'
+	'AL_S5_MASTER.ncbi-curated.KP821427'
+	'AL_S5_MASTER.ncbi-curated.KP821428'
+	'AL_S5_MASTER.ncbi-curated.KP821429'
+	'AL_S5_MASTER.ncbi-curated.KP821430'
+	'AL_S5_MASTER.ncbi-curated.KP821431'
+	'AL_S5_MASTER.ncbi-curated.KP821432'
+	'AL_S5_MASTER.ncbi-curated.KP821433'
+	'AL_S5_MASTER.ncbi-curated.KP821434'
+	'AL_S5_MASTER.ncbi-curated.KP821435'
+	'AL_S5_MASTER.ncbi-curated.KP821436'
+	'AL_S5_MASTER.ncbi-curated.KP821437'
+	'AL_S5_MASTER.ncbi-curated.KP821438'
+	'AL_S5_MASTER.ncbi-curated.KP821439'
+	'AL_S5_MASTER.ncbi-curated.KP821440'
+	'AL_S5_MASTER.ncbi-curated.KP821441'
+	'AL_S5_MASTER.ncbi-curated.KP821442'
+	'AL_S5_MASTER.ncbi-curated.KP821443'
+	'AL_S5_MASTER.ncbi-curated.KP821444'
+	'AL_S5_MASTER.ncbi-curated.KP821445'
+	'AL_S5_MASTER.ncbi-curated.KP821446'
+	'AL_S5_MASTER.ncbi-curated.KP821447'
+	'AL_S5_MASTER.ncbi-curated.KP821448'
+	'AL_S5_MASTER.ncbi-curated.KP821449'
+	'AL_S5_MASTER.ncbi-curated.KP821450'
+	'AL_S5_MASTER.ncbi-curated.KP821451'
+	'AL_S5_MASTER.ncbi-curated.KP821452'
+	'AL_S5_MASTER.ncbi-curated.KP821453'
+	'AL_S5_MASTER.ncbi-curated.KP821454'
+	'AL_S5_MASTER.ncbi-curated.KP821455'
+	'AL_S5_MASTER.ncbi-curated.KP821456'
+	'AL_S5_MASTER.ncbi-curated.KP821457'
+	'AL_S5_MASTER.ncbi-curated.KP821458'
+	'AL_S5_MASTER.ncbi-curated.KP821459'
+	'AL_S5_MASTER.ncbi-curated.KP821460'
+	'AL_S5_MASTER.ncbi-curated.KP821461'
+	'AL_S5_MASTER.ncbi-curated.KT002582'
+	'AL_S5_MASTER.ncbi-curated.KT317672'
+	'AL_S5_MASTER.ncbi-curated.KT317682'
+	'AL_S5_MASTER.ncbi-curated.KT317692'
+	'AL_S5_MASTER.ncbi-curated.KT317702'
+	'AL_S5_MASTER.ncbi-curated.KT885059'
+	'AL_S5_MASTER.ncbi-curated.KT885069'
+	'AL_S5_MASTER.ncbi-curated.KT885079'
+	'AL_S5_MASTER.ncbi-curated.KU234261'
+	'AL_S5_MASTER.ncbi-curated.KU569994'
+	'AL_S5_MASTER.ncbi-curated.KU760991'
+	'AL_S5_MASTER.ncbi-curated.KU761001'
+	'AL_S5_MASTER.ncbi-curated.LN713674'
+	'AL_S5_MASTER.ncbi-curated.M97680'
+	'AL_S5_MASTER.ncbi-curated.M97681'
+	'AL_S5_MASTER.ncbi-curated.M97762'
+	'AL_S5_MASTER.ncbi-curated.NC_006025'
+	'AL_S5_MASTER.ncbi-curated.X15891'
+	'AL_S5_MASTER.ncbi-curated.X17041'
+	'AL_S5_MASTER.ncbi-curated.X56735'
+	'AL_S5_MASTER.ncbi-curated.Y00422'
+;
+end;
+
+begin trees;
+	tree PAUP_1 = [&U] ('AL_S5_MASTER.ncbi-curated.AM498055':-1.18E-4,(((((((((((((((((((((((((((('AL_S5_MASTER.ncbi-curated.AM773683':-0.001088,'AL_S5_MASTER.ncbi-curated.KP821393':0.001686):8.76E-4,'AL_S5_MASTER.ncbi-curated.AM773684':-8.73E-4):4.5E-4,'AL_S5_MASTER.ncbi-curated.AM773685':-1.29E-4):6.05E-4,'AL_S5_MASTER.ncbi-curated.AY138895':9.31E-4):2.16E-4,'AL_S5_MASTER.ncbi-curated.DQ017960':-0.001184):6.38E-4,'AL_S5_MASTER.ncbi-curated.KF387525':5.0E-6):1.59E-4,((((('AL_S5_MASTER.ncbi-curated.AM773705':0.0,'AL_S5_MASTER.ncbi-curated.KP821392':0.0):5.11E-4,((('AL_S5_MASTER.ncbi-curated.FJ713337':0.0,'AL_S5_MASTER.ncbi-curated.JN255926':0.0):0.0,('AL_S5_MASTER.ncbi-curated.JQ681261':0.0,'AL_S5_MASTER.ncbi-curated.JQ904069':0.0):0.0):0.0,('AL_S5_MASTER.ncbi-curated.KP696596':0.0,'AL_S5_MASTER.ncbi-curated.KP696606':0.0):0.0):6.19E-4):4.6E-5,'AL_S5_MASTER.ncbi-curated.JN255936':-7.3E-5):8.0E-6,'AL_S5_MASTER.ncbi-curated.JX272603':-6.5E-5):7.0E-6,'AL_S5_MASTER.ncbi-curated.KP821389':-5.9E-5):-2.07E-4):2.79E-4,'AL_S5_MASTER.ncbi-curated.KP821397':2.62E-4):0.010315,'AL_S5_MASTER.ncbi-curated.FJ713336':0.007457):0.004889,('AL_S5_MASTER.ncbi-curated.GQ506492':9.58E-4,'AL_S5_MASTER.ncbi-curated.GQ506520':0.001873):0.019124):0.003676,(((((('AL_S5_MASTER.ncbi-curated.AM778437':7.46E-4,'AL_S5_MASTER.ncbi-curated.KP821379':-7.46E-4):0.001505,'AL_S5_MASTER.ncbi-curated.JX272383':-3.44E-4):0.005089,(('AL_S5_MASTER.ncbi-curated.FJ969724':-5.6E-5,'AL_S5_MASTER.ncbi-curated.JN848763':6.21E-4):2.8E-5,'AL_S5_MASTER.ncbi-curated.JX680461':-2.8E-5):0.003993):0.001537,('AL_S5_MASTER.ncbi-curated.FJ713341':-3.0E-6,(((((('AL_S5_MASTER.ncbi-curated.GQ506463':6.38E-4,'AL_S5_MASTER.ncbi-curated.GQ506482':5.06E-4):6.9E-4,'AL_S5_MASTER.ncbi-curated.GQ506476':-1.31E-4):4.4E-5,'AL_S5_MASTER.ncbi-curated.GQ506501':-8.8E-5):2.2E-5,'AL_S5_MASTER.ncbi-curated.GQ506510':-6.6E-5):1.3E-5,'AL_S5_MASTER.ncbi-curated.GQ506530':-5.3E-5):5.21E-4,'AL_S5_MASTER.ncbi-curated.JX272563':5.77E-4):1.74E-4):0.004794):0.004543,(((('AL_S5_MASTER.ncbi-curated.AM778439':0.005511,((((((((('AL_S5_MASTER.ncbi-curated.AM778442':1.86E-4,'AL_S5_MASTER.ncbi-curated.KP821445':-1.86E-4):0.0011,'AL_S5_MASTER.ncbi-curated.JX272533':6.4E-5):4.9E-5,('AL_S5_MASTER.ncbi-curated.FJ713344':1.93E-4,'AL_S5_MASTER.ncbi-curated.KP821450':-1.93E-4):4.9E-5):-4.8E-5,'AL_S5_MASTER.ncbi-curated.JN255956':-2.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.JN255966':-2.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.KP821451':-1.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.KT885059':-1.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.KT885079':-1.0E-6):5.35E-4,'AL_S5_MASTER.ncbi-curated.DQ017962':-5.4E-5):0.002565):0.002395,((('AL_S5_MASTER.ncbi-curated.FJ713342':0.001837,'AL_S5_MASTER.ncbi-curated.JX272553':9.93E-4):0.004658,'AL_S5_MASTER.ncbi-curated.JX272493':0.00681):0.00238,('AL_S5_MASTER.ncbi-curated.FJ713345':0.001164,'AL_S5_MASTER.ncbi-curated.JX272503':-3.4E-5):0.004501):4.05E-4):0.002523,(((('AL_S5_MASTER.ncbi-curated.FJ713346':-3.7E-5,(('AL_S5_MASTER.ncbi-curated.KP821457':0.0,'AL_S5_MASTER.ncbi-curated.KP821459':0.0):5.48E-4,'AL_S5_MASTER.ncbi-curated.KP821458':5.82E-4):4.2E-5):9.0E-6,'AL_S5_MASTER.ncbi-curated.JX272483':-2.8E-5):6.0E-6,'AL_S5_MASTER.ncbi-curated.KP821345':-2.2E-5):0.011243,((('AL_S5_MASTER.ncbi-curated.JQ972835':1.14E-4,('AL_S5_MASTER.ncbi-curated.JQ972855':0.0,'AL_S5_MASTER.ncbi-curated.KT885069':0.0):4.51E-4):-3.8E-5,'AL_S5_MASTER.ncbi-curated.JX272513':7.6E-5):6.8E-5,'AL_S5_MASTER.ncbi-curated.JQ972845':0.001103):0.00784):0.001506):0.001384,(('AL_S5_MASTER.ncbi-curated.FJ713340':0.001773,'AL_S5_MASTER.ncbi-curated.JX272573':4.91E-4):0.001691,('AL_S5_MASTER.ncbi-curated.JX272523':0.001684,'AL_S5_MASTER.ncbi-curated.KT317702':0.001147):0.003741):0.008347):-5.7E-4):0.005448,(('AL_S5_MASTER.ncbi-curated.FJ713353':2.11E-4,'AL_S5_MASTER.ncbi-curated.JX272393':0.001487):0.021829,(('AL_S5_MASTER.ncbi-curated.KP196607':0.008008,('AL_S5_MASTER.ncbi-curated.KP821422':0.001848,'AL_S5_MASTER.ncbi-curated.KP821460':9.83E-4):0.002882):0.010031,'AL_S5_MASTER.ncbi-curated.KT317672':0.012803):0.005053):-0.002242):4.4E-5):0.010369,((((('AL_S5_MASTER.ncbi-curated.DQ017957':-5.2E-5,'AL_S5_MASTER.ncbi-curated.JN255946':5.2E-5):3.41E-4,'AL_S5_MASTER.ncbi-curated.KP821409':2.29E-4):0.001774,('AL_S5_MASTER.ncbi-curated.JX272583':0.0,'AL_S5_MASTER.ncbi-curated.KM233618':0.0):1.7E-5):4.6E-4,'AL_S5_MASTER.ncbi-curated.FJ713339':0.002415):0.026394,((('AL_S5_MASTER.ncbi-curated.FJ713343':-4.6E-5,'AL_S5_MASTER.ncbi-curated.KT317692':6.12E-4):2.3E-5,'AL_S5_MASTER.ncbi-curated.JX272543':-2.3E-5):8.0E-6,'AL_S5_MASTER.ncbi-curated.KP821438':-1.5E-5):0.039111):-0.003408):0.007372,((((((((((((((((((((('AL_S5_MASTER.ncbi-curated.AM773691':3.42E-4,'AL_S5_MASTER.ncbi-curated.AM773693':8.67E-4):2.12E-4,'AL_S5_MASTER.ncbi-curated.AM773692':3.91E-4):1.21E-4,('AL_S5_MASTER.ncbi-curated.AM773695':0.0,'AL_S5_MASTER.ncbi-curated.KP821353':0.0):4.12E-4):0.001226,'AL_S5_MASTER.ncbi-curated.KP821421':-6.79E-4):2.93E-4,'AL_S5_MASTER.ncbi-curated.JX272463':-0.001134):1.65E-4,'AL_S5_MASTER.ncbi-curated.KP821350':-9.75E-4):1.24E-4,'AL_S5_MASTER.ncbi-curated.KP821355':-8.55E-4):2.45E-4,'AL_S5_MASTER.ncbi-curated.AM773707':-4.52E-4):1.63E-4,'AL_S5_MASTER.ncbi-curated.JN671910':2.68E-4):2.26E-4,'AL_S5_MASTER.ncbi-curated.DQ017961':-3.6E-4):2.44E-4,'AL_S5_MASTER.ncbi-curated.FJ713348':-0.001035):0.004251,'AL_S5_MASTER.ncbi-curated.KM485310':0.013887):0.010059,((((((((((((((((((((((('AL_S5_MASTER.ncbi-curated.AM773694':0.001334,'AL_S5_MASTER.ncbi-curated.AM778444':-1.27E-4):6.4E-5,'AL_S5_MASTER.ncbi-curated.AM778445':-6.4E-5):5.63E-4,'AL_S5_MASTER.ncbi-curated.AM778443':6.24E-4):3.71E-4,'AL_S5_MASTER.ncbi-curated.AM773696':5.46E-4):3.02E-4,'AL_S5_MASTER.ncbi-curated.KP821351':3.1E-5):2.42E-4,'AL_S5_MASTER.ncbi-curated.KP821442':1.87E-4):1.88E-4,'AL_S5_MASTER.ncbi-curated.KP821356':-9.4E-5):1.32E-4,'AL_S5_MASTER.ncbi-curated.KP821444':6.77E-4):2.06E-4,('AL_S5_MASTER.ncbi-curated.KP821453':0.0,'AL_S5_MASTER.ncbi-curated.KP821455':0.0):-8.0E-6):1.16E-4,'AL_S5_MASTER.ncbi-curated.KP821441':-5.05E-4):4.3E-5,'AL_S5_MASTER.ncbi-curated.KP821454':-4.64E-4):1.94E-4,'AL_S5_MASTER.ncbi-curated.KP821443':0.0):3.38E-4,'AL_S5_MASTER.ncbi-curated.KP821440':2.39E-4):1.1E-4,'AL_S5_MASTER.ncbi-curated.JN255906':-4.06E-4):2.6E-5,'AL_S5_MASTER.ncbi-curated.JN255916':-3.82E-4):2.4E-5,'AL_S5_MASTER.ncbi-curated.KP821447':-3.61E-4):2.1E-5,'AL_S5_MASTER.ncbi-curated.KP821452':-3.42E-4):1.51E-4,'AL_S5_MASTER.ncbi-curated.KP821446':1.25E-4):4.1E-4,'AL_S5_MASTER.ncbi-curated.KP821352':0.005141):8.11E-4,'AL_S5_MASTER.ncbi-curated.DQ017959':-2.98E-4):0.002293,(((('AL_S5_MASTER.ncbi-curated.JQ282773':-6.9E-5,((('AL_S5_MASTER.ncbi-curated.KP696538':-3.1E-5,'AL_S5_MASTER.ncbi-curated.KP696556':3.1E-5):1.6E-5,'AL_S5_MASTER.ncbi-curated.KP696546':-1.6E-5):3.2E-5,'AL_S5_MASTER.ncbi-curated.KP696566':-3.7E-5):0.001187):5.16E-4,'AL_S5_MASTER.ncbi-curated.KP696511':5.82E-4):1.26E-4,'AL_S5_MASTER.ncbi-curated.KP696529':-1.2E-4):8.9E-5,'AL_S5_MASTER.ncbi-curated.KP696520':9.62E-4):0.002311):0.002821,(((((('AL_S5_MASTER.ncbi-curated.KP821404':-1.25E-4,('AL_S5_MASTER.ncbi-curated.KP821407':5.54E-4,'AL_S5_MASTER.ncbi-curated.KP821408':5.84E-4):1.24E-4):4.2E-5,'AL_S5_MASTER.ncbi-curated.KP821405':-8.3E-5):2.1E-5,'AL_S5_MASTER.ncbi-curated.KP821406':-6.3E-5):1.3E-5,'AL_S5_MASTER.ncbi-curated.KP821418':-5.0E-5):9.0E-6,'AL_S5_MASTER.ncbi-curated.KP821419':-4.2E-5):3.8E-5,'AL_S5_MASTER.ncbi-curated.KP821420':4.99E-4):0.013035):8.25E-4,('AL_S5_MASTER.ncbi-curated.JX560417':0.0054,'AL_S5_MASTER.ncbi-curated.KT002582':0.009):0.002531):0.003775):9.24E-4,('AL_S5_MASTER.ncbi-curated.AY462225':0.005767,'AL_S5_MASTER.ncbi-curated.GU390664':0.003383):0.012999):0.004223,'AL_S5_MASTER.ncbi-curated.JQ086235':0.033558):0.001302,((((('AL_S5_MASTER.ncbi-curated.AM778438':0.001019,'AL_S5_MASTER.ncbi-curated.KP821367':-0.001019):5.11E-4,'AL_S5_MASTER.ncbi-curated.KP821368':-5.11E-4):1.71E-4,'AL_S5_MASTER.ncbi-curated.KP821369':-3.41E-4):0.00162,('AL_S5_MASTER.ncbi-curated.KP821347':4.5E-5,('AL_S5_MASTER.ncbi-curated.KP821348':2.33E-4,'AL_S5_MASTER.ncbi-curated.KP821354':3.35E-4):5.23E-4):0.001123):6.05E-4,'AL_S5_MASTER.ncbi-curated.KP821349':0.001768):0.020788):0.003948,'AL_S5_MASTER.ncbi-curated.KC879619':0.023055):0.012432,(((('AL_S5_MASTER.ncbi-curated.FJ713354':-8.74E-4,('AL_S5_MASTER.ncbi-curated.JQ086275':-0.001211,'AL_S5_MASTER.ncbi-curated.KM099576':0.004163):8.74E-4):7.74E-4,'AL_S5_MASTER.ncbi-curated.JQ086225':0.001292):4.03E-4,'AL_S5_MASTER.ncbi-curated.JQ086285':0.003148):0.043519,(('AL_S5_MASTER.ncbi-curated.KM099580':0.0,'AL_S5_MASTER.ncbi-curated.KM099581':0.0):7.81E-4,(((('AL_S5_MASTER.ncbi-curated.KM099582':0.001727,('AL_S5_MASTER.ncbi-curated.KM099584':6.79E-4,('AL_S5_MASTER.ncbi-curated.KM099585':0.0,'AL_S5_MASTER.ncbi-curated.KM099586':0.0):5.3E-4):7.18E-4):3.17E-4,'AL_S5_MASTER.ncbi-curated.KM099588':0.001152):4.04E-4,('AL_S5_MASTER.ncbi-curated.KM099587':8.03E-4,'AL_S5_MASTER.ncbi-curated.KM099590':0.003433):2.92E-4):3.82E-4,'AL_S5_MASTER.ncbi-curated.KM099583':0.001386):1.04E-4):0.054561):0.001576):0.006372,(('AL_S5_MASTER.ncbi-curated.JQ086245':-3.49E-4,'AL_S5_MASTER.ncbi-curated.KM099589':0.003341):4.99E-4,'AL_S5_MASTER.ncbi-curated.JQ240325':0.001556):0.049709):0.05258,(('AL_S5_MASTER.ncbi-curated.EU839841':0.172171,('AL_S5_MASTER.ncbi-curated.JN255158':0.126256,(('AL_S5_MASTER.ncbi-curated.KU760991':0.018277,'AL_S5_MASTER.ncbi-curated.LN713674':0.013415):0.02241,'AL_S5_MASTER.ncbi-curated.KU761001':0.045209):0.082566):0.044501):0.059252,((('AL_S5_MASTER.ncbi-curated.FJ713351':-1.73E-4,(('AL_S5_MASTER.ncbi-curated.JQ086255':0.0,'AL_S5_MASTER.ncbi-curated.X56735':5.66E-4):1.69E-4,'AL_S5_MASTER.ncbi-curated.JX272423':-1.69E-4):6.83E-4):0.009618,('AL_S5_MASTER.ncbi-curated.JN881989':9.53E-4,'AL_S5_MASTER.ncbi-curated.KM099574':2.48E-4):0.007224):0.060153,(((('AL_S5_MASTER.ncbi-curated.FJ713352':0.001617,('AL_S5_MASTER.ncbi-curated.JQ086265':0.0,'AL_S5_MASTER.ncbi-curated.JX272413':0.0):6.5E-4):0.005126,'AL_S5_MASTER.ncbi-curated.KM099577':0.006596):0.003088,('AL_S5_MASTER.ncbi-curated.KM099578':0.00354,'AL_S5_MASTER.ncbi-curated.KM099579':0.003127):0.004617):0.019954,('AL_S5_MASTER.ncbi-curated.JQ086295':0.009913,('AL_S5_MASTER.ncbi-curated.JQ086305':0.006503,'AL_S5_MASTER.ncbi-curated.KM099575':0.001982):0.003648):0.027068):0.039888):0.059684):0.005512):0.043928,(((((((('AL_S5_MASTER.ncbi-curated.FJ713338':0.0,'AL_S5_MASTER.ncbi-curated.KP821401':0.0):4.54E-4,'AL_S5_MASTER.ncbi-curated.JX272593':1.13E-4):-3.8E-5,'AL_S5_MASTER.ncbi-curated.KP821400':7.6E-5):9.83E-4,(('AL_S5_MASTER.ncbi-curated.JQ713560':-1.0E-5,'AL_S5_MASTER.ncbi-curated.JX272403':0.001147):0.001348,(('AL_S5_MASTER.ncbi-curated.JQ771817':0.007704,('AL_S5_MASTER.ncbi-curated.KP268778':9.2E-5,'AL_S5_MASTER.ncbi-curated.KP696586':0.001043):0.006663):7.96E-4,((((((('AL_S5_MASTER.ncbi-curated.JQ771827':0.0,'AL_S5_MASTER.ncbi-curated.KP696694':0.0):0.001202,'AL_S5_MASTER.ncbi-curated.KP696664':5.01E-4):6.2E-5,'AL_S5_MASTER.ncbi-curated.KP696576':4.83E-4):3.4E-5,'AL_S5_MASTER.ncbi-curated.KP696674':4.91E-4):6.35E-4,'AL_S5_MASTER.ncbi-curated.KP696684':0.001936):4.51E-4,'AL_S5_MASTER.ncbi-curated.KF664117':6.48E-4):1.24E-4,'AL_S5_MASTER.ncbi-curated.KU234261':0.003105):0.002147):8.86E-4):8.21E-4):8.43E-4,'AL_S5_MASTER.ncbi-curated.KT317682':0.001376):9.91E-4,(((('AL_S5_MASTER.ncbi-curated.JF443163':0.004728,((((((('AL_S5_MASTER.ncbi-curated.JX003691':4.89E-4,'AL_S5_MASTER.ncbi-curated.KP696626':8.1E-5):2.34E-4,'AL_S5_MASTER.ncbi-curated.KP696616':-2.35E-4):7.9E-5,'AL_S5_MASTER.ncbi-curated.KP696636':-1.57E-4):4.0E-5,'AL_S5_MASTER.ncbi-curated.KP696645':-1.18E-4):2.4E-5,'AL_S5_MASTER.ncbi-curated.KP696655':-9.5E-5):8.1E-4,'AL_S5_MASTER.ncbi-curated.KF560421':0.002544):9.02E-4,('AL_S5_MASTER.ncbi-curated.KC662616':0.003733,'AL_S5_MASTER.ncbi-curated.KF289017':0.008447):0.001542):3.88E-4):0.001055,'AL_S5_MASTER.ncbi-curated.JQ924824':0.008678):0.001631,((('AL_S5_MASTER.ncbi-curated.KF289015':0.001457,'AL_S5_MASTER.ncbi-curated.KF664137':9.68E-4):9.9E-5,'AL_S5_MASTER.ncbi-curated.KF289016':5.19E-4):0.002931,'AL_S5_MASTER.ncbi-curated.KF664107':0.00298):0.002688):-4.35E-4,('AL_S5_MASTER.ncbi-curated.JX399152':6.03E-4,'AL_S5_MASTER.ncbi-curated.KF664127':-3.2E-5):0.003467):0.003053):0.007463,('AL_S5_MASTER.ncbi-curated.KP821448':3.6E-5,'AL_S5_MASTER.ncbi-curated.KP821449':-3.6E-5):0.017581):0.043027,((((((('AL_S5_MASTER.ncbi-curated.GQ506540':0.007514,'AL_S5_MASTER.ncbi-curated.KF986514':0.004499):0.009577,('AL_S5_MASTER.ncbi-curated.JQ822252':0.007042,'AL_S5_MASTER.ncbi-curated.M97680':0.013144):0.005249):0.004486,'AL_S5_MASTER.ncbi-curated.KF986493':0.014296):0.001641,'AL_S5_MASTER.ncbi-curated.KF986502':0.018728):0.004368,'AL_S5_MASTER.ncbi-curated.JX272453':0.023607):0.024801,((((('AL_S5_MASTER.ncbi-curated.JQ740775':7.67E-4,('AL_S5_MASTER.ncbi-curated.NC_006025':0.0,'AL_S5_MASTER.ncbi-curated.Y00422':0.0):0.002642):0.003734,('AL_S5_MASTER.ncbi-curated.M97681':0.002531,('AL_S5_MASTER.ncbi-curated.X15891':6.69E-4,'AL_S5_MASTER.ncbi-curated.X17041':4.64E-4):8.75E-4):0.0033):0.003443,('AL_S5_MASTER.ncbi-curated.KM580415':0.002063,'AL_S5_MASTER.ncbi-curated.KM580430':0.001341):0.016762):0.002782,(('AL_S5_MASTER.ncbi-curated.KM580436':6.57E-4,(('AL_S5_MASTER.ncbi-curated.KM580448':2.97E-4,'AL_S5_MASTER.ncbi-curated.KM580461':2.69E-4):4.8E-4,'AL_S5_MASTER.ncbi-curated.KM580467':6.57E-4):3.2E-4):0.012399,('AL_S5_MASTER.ncbi-curated.KM580484':0.012561,'AL_S5_MASTER.ncbi-curated.M97762':0.007052):0.001036):0.004775):0.002818,'AL_S5_MASTER.ncbi-curated.KM580475':0.023619):0.032395):0.001054,'AL_S5_MASTER.ncbi-curated.JQ972865':0.046274):0.011233):0.004774):0.022191):0.004284,('AL_S5_MASTER.ncbi-curated.FJ713347':-2.2E-5,('AL_S5_MASTER.ncbi-curated.JX272473':-5.2E-5,'AL_S5_MASTER.ncbi-curated.KP821346':6.17E-4):5.88E-4):0.025169):0.002339,(((((((((('AL_S5_MASTER.ncbi-curated.AM773686':8.01E-4,'AL_S5_MASTER.ncbi-curated.KP821395':9.93E-4):2.39E-4,'AL_S5_MASTER.ncbi-curated.AM773687':9.93E-4):-2.31E-4,'AL_S5_MASTER.ncbi-curated.AM773688':1.52E-4):7.16E-4,(('AL_S5_MASTER.ncbi-curated.AM773690':5.14E-4,'AL_S5_MASTER.ncbi-curated.AM773706':-5.14E-4):6.2E-4,((((('AL_S5_MASTER.ncbi-curated.KP821387':-4.0E-6,'AL_S5_MASTER.ncbi-curated.KP821394':4.0E-6):2.0E-6,'AL_S5_MASTER.ncbi-curated.KP821388':-2.0E-6):1.0E-6,'AL_S5_MASTER.ncbi-curated.KP821390':-1.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.KP821391':-1.0E-6):0.0,'AL_S5_MASTER.ncbi-curated.KP821396':-1.0E-6):-4.9E-5):-1.34E-4):0.00153,(('AL_S5_MASTER.ncbi-curated.AY137387':1.46E-4,(('AL_S5_MASTER.ncbi-curated.JN255866':-7.03E-4,('AL_S5_MASTER.ncbi-curated.JN255876':-1.98E-4,'AL_S5_MASTER.ncbi-curated.KM053272':0.001358):9.73E-4):2.36E-4,'AL_S5_MASTER.ncbi-curated.KP821386':-4.7E-4):7.6E-5):3.71E-4,'AL_S5_MASTER.ncbi-curated.DQ017956':-6.3E-4):4.86E-4):4.62E-4,('AL_S5_MASTER.ncbi-curated.AM773689':5.45E-4,'AL_S5_MASTER.ncbi-curated.KP821399':-5.45E-4):0.002217):0.008327,'AL_S5_MASTER.ncbi-curated.KP821370':0.008245):0.003649,((('AL_S5_MASTER.ncbi-curated.JX861492':4.2E-5,('AL_S5_MASTER.ncbi-curated.JX861502':4.4E-5,('AL_S5_MASTER.ncbi-curated.KJ736005':4.7E-5,('AL_S5_MASTER.ncbi-curated.KP821361':5.0E-5,(((((('AL_S5_MASTER.ncbi-curated.KP821362':2.96E-4,'AL_S5_MASTER.ncbi-curated.KP821365':8.33E-4):-1.49E-4,'AL_S5_MASTER.ncbi-curated.KP821371':1.49E-4):-5.0E-5,'AL_S5_MASTER.ncbi-curated.KP821382':9.9E-5):2.3E-5,(((('AL_S5_MASTER.ncbi-curated.KP821364':1.39E-4,'AL_S5_MASTER.ncbi-curated.KP821385':4.26E-4):-7.0E-5,'AL_S5_MASTER.ncbi-curated.KP821380':7.0E-5):3.8E-5,(('AL_S5_MASTER.ncbi-curated.KP821366':1.22E-4,('AL_S5_MASTER.ncbi-curated.KP821383':6.52E-4,'AL_S5_MASTER.ncbi-curated.KP821424':4.78E-4):-1.22E-4):-4.1E-5,'AL_S5_MASTER.ncbi-curated.KP821381':8.2E-5):2.6E-5):-5.4E-5,'AL_S5_MASTER.ncbi-curated.KP821426':5.6E-5):6.9E-5):-6.7E-5,'AL_S5_MASTER.ncbi-curated.KP821374':5.8E-5):-5.0E-6,'AL_S5_MASTER.ncbi-curated.KP821363':5.4E-5):-4.0E-6):-3.0E-6):-3.0E-6):-3.0E-6):2.02E-4,(((((('AL_S5_MASTER.ncbi-curated.KC896844':-6.2E-4,'AL_S5_MASTER.ncbi-curated.KP821432':6.2E-4):3.25E-4,('AL_S5_MASTER.ncbi-curated.KC896849':-9.66E-4,'AL_S5_MASTER.ncbi-curated.KP821358':9.66E-4):6.66E-4):3.6E-5,(('AL_S5_MASTER.ncbi-curated.KP821376':1.99E-4,'AL_S5_MASTER.ncbi-curated.KP821378':9.32E-4):4.57E-4,'AL_S5_MASTER.ncbi-curated.KP821377':1.08E-4):0.001565):-9.4E-5,('AL_S5_MASTER.ncbi-curated.KC896848':-2.28E-4,'AL_S5_MASTER.ncbi-curated.KP821357':2.28E-4):5.35E-4):7.7E-5,(((('AL_S5_MASTER.ncbi-curated.KC896846':-5.67E-4,(('AL_S5_MASTER.ncbi-curated.KC896850':-2.55E-4,'AL_S5_MASTER.ncbi-curated.KP821427':0.002528):1.28E-4,'AL_S5_MASTER.ncbi-curated.KC896851':-1.28E-4):5.66E-4):4.45E-4,'AL_S5_MASTER.ncbi-curated.KC896847':-1.28E-4):-2.69E-4,((('AL_S5_MASTER.ncbi-curated.KJ019209':0.0,'AL_S5_MASTER.ncbi-curated.KJ577098':0.0):0.0,'AL_S5_MASTER.ncbi-curated.KJ577128':0.0):0.0,'AL_S5_MASTER.ncbi-curated.KJ661733':0.0):3.1E-5):5.76E-4,'AL_S5_MASTER.ncbi-curated.KP821373':4.46E-4):4.3E-5):2.31E-4,(((('AL_S5_MASTER.ncbi-curated.KC896845':0.001484,'AL_S5_MASTER.ncbi-curated.KJ577118':3.13E-4):2.76E-4,('AL_S5_MASTER.ncbi-curated.KJ577108':0.001466,'AL_S5_MASTER.ncbi-curated.KP821359':2.31E-4):8.81E-4):6.35E-4,'AL_S5_MASTER.ncbi-curated.KP821425':5.02E-4):7.23E-4,('AL_S5_MASTER.ncbi-curated.KP821372':0.0,'AL_S5_MASTER.ncbi-curated.KP821375':0.0):7.22E-4):-1.25E-4):-1.97E-4):0.007805,'AL_S5_MASTER.ncbi-curated.KP268818':0.008923):0.001649):0.005964,((((('AL_S5_MASTER.ncbi-curated.AM778441':8.55E-4,'AL_S5_MASTER.ncbi-curated.KP821431':-8.55E-4):0.002764,'AL_S5_MASTER.ncbi-curated.KP821430':1.39E-4):1.08E-4,'AL_S5_MASTER.ncbi-curated.KP821423':-2.58E-4):1.89E-4,('AL_S5_MASTER.ncbi-curated.DQ017958':1.93E-4,(('AL_S5_MASTER.ncbi-curated.JN255886':3.54E-4,'AL_S5_MASTER.ncbi-curated.JN255896':0.00362):-1.77E-4,'AL_S5_MASTER.ncbi-curated.KP821429':1.77E-4):3.14E-4):1.68E-4):4.61E-4,(('AL_S5_MASTER.ncbi-curated.KP821410':-2.6E-5,'AL_S5_MASTER.ncbi-curated.KP821412':5.91E-4):1.3E-5,'AL_S5_MASTER.ncbi-curated.KP821411':-1.3E-5):0.001105):0.017311):0.001955,(('AL_S5_MASTER.ncbi-curated.FJ713349':0.003701,'AL_S5_MASTER.ncbi-curated.JX272443':0.001977):0.008844,(('AL_S5_MASTER.ncbi-curated.KC853054':0.001696,'AL_S5_MASTER.ncbi-curated.KP821360':0.003411):0.002845,'AL_S5_MASTER.ncbi-curated.KP821456':0.009774):0.004145):0.00355):0.007517):0.003366,('AL_S5_MASTER.ncbi-curated.KP821384':0.010766,'AL_S5_MASTER.ncbi-curated.KP821437':0.01122):0.008571):0.007363,'AL_S5_MASTER.ncbi-curated.KP821398':0.016383):0.002058,('AL_S5_MASTER.ncbi-curated.FJ713350':0.0,'AL_S5_MASTER.ncbi-curated.JX272433':5.65E-4):0.015931):0.002222,(((((((('AL_S5_MASTER.ncbi-curated.AM778440':4.51E-4,'AL_S5_MASTER.ncbi-curated.KP821403':-4.51E-4):2.26E-4,'AL_S5_MASTER.ncbi-curated.KP821413':-2.26E-4):7.6E-5,'AL_S5_MASTER.ncbi-curated.KP821414':-1.51E-4):3.8E-5,'AL_S5_MASTER.ncbi-curated.KP821415':-1.14E-4):2.3E-5,'AL_S5_MASTER.ncbi-curated.KP821416':-9.1E-5):1.5E-5,'AL_S5_MASTER.ncbi-curated.KP821417':-7.6E-5):1.1E-5,'AL_S5_MASTER.ncbi-curated.KP821428':-6.5E-5):6.35E-4,'AL_S5_MASTER.ncbi-curated.KP821402':-1.12E-4):0.01185):8.69E-4,'AL_S5_MASTER.ncbi-curated.KP821433':0.006953):0.003775,('AL_S5_MASTER.ncbi-curated.FJ713355':0.0,'AL_S5_MASTER.ncbi-curated.JX272373':0.0):0.007942):0.007489,'AL_S5_MASTER.ncbi-curated.KP821434':9.51E-4):6.16E-4,'AL_S5_MASTER.ncbi-curated.FJ183378':4.07E-4):-6.8E-5,'AL_S5_MASTER.ncbi-curated.KP821435':0.001429):-1.71E-4,'AL_S5_MASTER.ncbi-curated.KU569994':0.001097):4.86E-4,'AL_S5_MASTER.ncbi-curated.KP821461':-8.0E-5):1.0E-5,'AL_S5_MASTER.ncbi-curated.KP821343':-8.9E-5):1.3E-5,'AL_S5_MASTER.ncbi-curated.JX680451':-1.02E-4):1.7E-5,((('AL_S5_MASTER.ncbi-curated.GQ506455':5.8E-5,'AL_S5_MASTER.ncbi-curated.KP821436':5.07E-4):-1.96E-4,(('AL_S5_MASTER.ncbi-curated.KM053262':0.001631,'AL_S5_MASTER.ncbi-curated.KP821344':-4.72E-4):0.001436,'AL_S5_MASTER.ncbi-curated.KP821439':-2.6E-5):9.52E-4):-9.2E-5,'AL_S5_MASTER.ncbi-curated.KP821342':5.02E-4):7.2E-5);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=406;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
