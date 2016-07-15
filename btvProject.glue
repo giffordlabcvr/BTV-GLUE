@@ -51,10 +51,17 @@ project btv
   sequence kyriaki-nomikou-unpublished-refs S2_serotype_28
     set field gb_segment 2
     set field gb_serotype 28
+    set field gb_country Jordan
+    set field gb_country_iso JOR
+	set field gb_length 2926
+    
     exit
   sequence kyriaki-nomikou-unpublished-refs S6_serotype_28
     set field gb_segment 6
     set field gb_serotype 28
+    set field gb_country Jordan
+    set field gb_country_iso JOR
+	set field gb_length 1638
     exit
 
   # references
