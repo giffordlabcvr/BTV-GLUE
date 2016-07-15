@@ -5,5 +5,5 @@
 		<matchPattern>.+\.(.+)\.(.+)</matchPattern>
 		<outputTemplate>source.name = '${g1}' and sequenceID = '${g2}'</outputTemplate>	
 	</leafToSeqExtractorFormatter>
-    <outputLeafTemplate>${renderProperty('gb_country_iso')}</outputLeafTemplate>
+    <outputLeafTemplate>${sequenceID}.${renderProperty('gb_country_iso')}</outputLeafTemplate>
 </treeTransformer>
