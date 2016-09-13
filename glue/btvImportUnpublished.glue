@@ -1,0 +1,22 @@
+
+create module -f modules/knUnpublishedSeg1FastaImporter.xml knUnpublishedSeg1FastaImporter
+create module -f modules/knUnpublishedSeg2FastaImporter.xml knUnpublishedSeg2FastaImporter
+create module -f modules/knUnpublishedSeg3FastaImporter.xml knUnpublishedSeg3FastaImporter
+create module -f modules/knUnpublishedSeg4FastaImporter.xml knUnpublishedSeg4FastaImporter
+create module -f modules/knUnpublishedSeg5FastaImporter.xml knUnpublishedSeg5FastaImporter
+create module -f modules/knUnpublishedSeg6FastaImporter.xml knUnpublishedSeg6FastaImporter
+create module -f modules/knUnpublishedSeg7FastaImporter.xml knUnpublishedSeg7FastaImporter
+create module -f modules/knUnpublishedSeg8FastaImporter.xml knUnpublishedSeg8FastaImporter
+create module -f modules/knUnpublishedSeg9FastaImporter.xml knUnpublishedSeg9FastaImporter
+create module -f modules/knUnpublishedSeg10FastaImporter.xml knUnpublishedSeg10FastaImporter
+
+module knUnpublishedSeg1FastaImporter import -f "sources/kyriaki-nomikou-unpublished/1-Seg-1 seq_mine for design probes.fas"
+module knUnpublishedSeg2FastaImporter import -f "sources/kyriaki-nomikou-unpublished/2-Seg-2 seq_mine for design probes.fas"
+module knUnpublishedSeg3FastaImporter import -f "sources/kyriaki-nomikou-unpublished/3-Seg-3 seq_mine for design probes.fas"
+module knUnpublishedSeg4FastaImporter import -f "sources/kyriaki-nomikou-unpublished/4-Seg-4 seq_mine for design probes.fas"
+module knUnpublishedSeg5FastaImporter import -f "sources/kyriaki-nomikou-unpublished/5-Seg-5 seq_mine for design probes.fas"
+module knUnpublishedSeg6FastaImporter import -f "sources/kyriaki-nomikou-unpublished/6-Seg-6 seq mine for design probes.fas"
+module knUnpublishedSeg7FastaImporter import -f "sources/kyriaki-nomikou-unpublished/7-Seg-7 seq_mine for design probes.fas"
+module knUnpublishedSeg8FastaImporter import -f "sources/kyriaki-nomikou-unpublished/8-Seg-8 seq_mine for design probes.fas"
+module knUnpublishedSeg9FastaImporter import -f "sources/kyriaki-nomikou-unpublished/9-Seg-9 seq_mine for design probes.fas"
+module knUnpublishedSeg10FastaImporter import -f "sources/kyriaki-nomikou-unpublished/10-Seg-10 seq_mine for design probes.fas"

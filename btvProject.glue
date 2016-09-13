@@ -47,19 +47,16 @@ project btv
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
-  # Import unpublished reference sequences
-  import source sources/kyriaki-nomikou-unpublished-refs
-  sequence kyriaki-nomikou-unpublished-refs S2_serotype_28
-    set field gb_segment 2
-    set field gb_serotype 28
+  run file glue/btvImportUnpublished.glue
+
+  # Extra fields for unpublished reference sequences
+  sequence kyriaki-nomikou-unpublished KN102
     set field gb_country Jordan
     set field gb_country_iso JOR
 	set field gb_length 2926
-    
     exit
-  sequence kyriaki-nomikou-unpublished-refs S6_serotype_28
-    set field gb_segment 6
-    set field gb_serotype 28
+
+  sequence kyriaki-nomikou-unpublished KN156
     set field gb_country Jordan
     set field gb_country_iso JOR
 	set field gb_length 1638
