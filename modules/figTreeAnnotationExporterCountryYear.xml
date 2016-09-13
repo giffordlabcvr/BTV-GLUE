@@ -1,7 +1,7 @@
 <figTreeAnnotationExporter>
 	<figTreeAnnotation>
 		<annotationName>country</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_country_iso')}}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_country_iso')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	<figTreeAnnotation>
 		<annotationName>year</annotationName>
