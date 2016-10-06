@@ -1,0 +1,14 @@
+create module -f modules/probeDesignFastaExporter.xml probeDesignFastaExporter
+
+module probeDesignFastaExporter
+  export -w "gb_segment = '1'" -f seg1ProbeDesign.fasta
+  export -w "gb_segment = '2'" -f seg2ProbeDesign.fasta
+  export -w "gb_segment = '3'" -f seg3ProbeDesign.fasta
+  export -w "gb_segment = '4'" -f seg4ProbeDesign.fasta
+  export -w "gb_segment = '5'" -f seg5ProbeDesign.fasta
+  export -w "gb_segment = '6'" -f seg6ProbeDesign.fasta
+  export -w "gb_segment = '7'" -f seg7ProbeDesign.fasta
+  export -w "gb_segment = '8'" -f seg8ProbeDesign.fasta
+  export -w "gb_segment = '9'" -f seg9ProbeDesign.fasta
+  export -w "gb_segment = '10'" -f seg10ProbeDesign.fasta
+  exit
