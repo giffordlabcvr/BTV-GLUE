@@ -20,7 +20,7 @@ schema-project btv
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
-    create field gb_serotype VARCHAR
+    create field gb_serotype INTEGER
     create field sample_type VARCHAR
     create field place_sampled VARCHAR 300
     create field tissue_sampled VARCHAR
