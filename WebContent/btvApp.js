@@ -49,7 +49,7 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.brand = "BTV-GLUE";
 	$scope.homeMenuTitle = "Home";
 	$scope.projectBrowserMenuTitle = "Sequence Database";
-	$scope.projectBrowserAlignmentMenuTitle = "Clade Tree";
+	$scope.projectBrowserAlignmentMenuTitle = "Segment Clade Trees";
 	$scope.projectBrowserReferenceSequenceMenuTitle = "Reference Sequences";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");

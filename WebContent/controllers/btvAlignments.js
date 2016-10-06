@@ -1,37 +1,23 @@
-btvApp.controller('btvAlignmentsCtrl', 
-		[ '$scope', '$route', '$routeParams', 'glueWS', 'dialogs', 
-    function($scope, $route, $routeParams, glueWS, dialogs) {
+projectBrowser.controller('btvAlignmentsCtrl', 
+		[ '$scope', 'glueWebToolConfig', 'glueWS', '$controller', 'dialogs', 
+		    function($scope, glueWebToolConfig, glueWS, $controller, dialogs) {
 
-			$scope.treeOptions = {
-				    nodeChildren: "childAlignment",
-				    dirSelectable: true,
-				    injectClasses: {
-				        ul: "a1",
-				        li: "a2",
-				        liSelected: "a7",
-				        iExpanded: "a3",
-				        iCollapsed: "a4",
-				        iLeaf: "a5",
-				        label: "a6",
-				        labelSelected: "a8"
-				    }
-				}
-			
-	$scope.descendentTree = null;
-	$scope.expandedNodes = [];
-	
-	addUtilsToScope($scope);
-	
-	glueWS.runGlueCommand("alignment/AL_S6_MASTER", {
-    	"descendent-tree": {} 
-	})
-    .success(function(data, status, headers, config) {
-    	var rootNode = data.alignmentDescendentTreeResult;
-    	$scope.expandedNodes = [rootNode];
-		$scope.descendentTree = { childAlignment: [rootNode] };
-		console.info('descendent-tree', $scope.descendentTree);
-    })
-    .error(glueWS.raiseErrorDialog(dialogs, "retrieving descendent-tree"));
+			$controller('cladeTreeCtrl', { $scope: $scope, 
+				glueWebToolConfig: glueWebToolConfig, 
+				glueWS: glueWS, 
+				dialogs: dialogs});
 
+			$scope.initFromRootNodes([
+  			    { almtName: "AL_S1_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S2_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S3_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S4_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S5_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S6_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S7_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S8_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S9_MASTER", initiallyExpanded: false },
+			    { almtName: "AL_S10_MASTER", initiallyExpanded: false },
+			]);
 	
 }]);
