@@ -1,8 +1,12 @@
 create alignment AL_S1_MASTER -r REF_S1_MASTER
-alignment AL_S1_MASTER add member -w "excluded = null and gb_segment = '1'"
+alignment AL_S1_MASTER
+  set field displayName "Segment 1"
+  add member -w "excluded = null and gb_segment = '1'"
+  exit
 
 create alignment AL_S2_MASTER -r REF_S2_MASTER
 alignment AL_S2_MASTER 
+  set field displayName "Segment 2"
   add member -w "excluded = null and gb_segment = '2'"
 
   extract child AL_S2_serotype_1 -r REF_S2_serotype_1
@@ -91,17 +95,57 @@ alignment AL_S2_MASTER
 
   exit
 
+alignment AL_S2_serotype_1 set field displayName "S2 Serotype 1"
+alignment AL_S2_serotype_2 set field displayName "S2 Serotype 2"
+alignment AL_S2_serotype_3 set field displayName "S2 Serotype 3"
+alignment AL_S2_serotype_4 set field displayName "S2 Serotype 4"
+alignment AL_S2_serotype_5 set field displayName "S2 Serotype 5"
+alignment AL_S2_serotype_6 set field displayName "S2 Serotype 6"
+alignment AL_S2_serotype_7 set field displayName "S2 Serotype 7"
+alignment AL_S2_serotype_8 set field displayName "S2 Serotype 8"
+alignment AL_S2_serotype_9 set field displayName "S2 Serotype 9"
+alignment AL_S2_serotype_10 set field displayName "S2 Serotype 10"
+alignment AL_S2_serotype_11 set field displayName "S2 Serotype 11"
+alignment AL_S2_serotype_12 set field displayName "S2 Serotype 12"
+alignment AL_S2_serotype_13 set field displayName "S2 Serotype 13"
+alignment AL_S2_serotype_14 set field displayName "S2 Serotype 14"
+alignment AL_S2_serotype_15 set field displayName "S2 Serotype 15"
+alignment AL_S2_serotype_16 set field displayName "S2 Serotype 16"
+alignment AL_S2_serotype_17 set field displayName "S2 Serotype 17"
+alignment AL_S2_serotype_18 set field displayName "S2 Serotype 18"
+alignment AL_S2_serotype_19 set field displayName "S2 Serotype 19"
+alignment AL_S2_serotype_20 set field displayName "S2 Serotype 20"
+alignment AL_S2_serotype_21 set field displayName "S2 Serotype 21"
+alignment AL_S2_serotype_22 set field displayName "S2 Serotype 22"
+alignment AL_S2_serotype_23 set field displayName "S2 Serotype 23"
+alignment AL_S2_serotype_24 set field displayName "S2 Serotype 24"
+alignment AL_S2_serotype_25 set field displayName "S2 Serotype 25"
+alignment AL_S2_serotype_26 set field displayName "S2 Serotype 26"
+alignment AL_S2_serotype_27 set field displayName "S2 Serotype 27"
+alignment AL_S2_serotype_28 set field displayName "S2 Serotype 28"
+
+
 create alignment AL_S3_MASTER -r REF_S3_MASTER
-alignment AL_S3_MASTER add member -w "excluded = null and gb_segment = '3'"
+alignment AL_S3_MASTER
+  set field displayName "Segment 3"
+  add member -w "excluded = null and gb_segment = '3'"
+  exit
 
 create alignment AL_S4_MASTER -r REF_S4_MASTER
-alignment AL_S4_MASTER add member -w "excluded = null and gb_segment = '4'"
+alignment AL_S4_MASTER
+  set field displayName "Segment 4"
+  add member -w "excluded = null and gb_segment = '4'"
+  exit
 
 create alignment AL_S5_MASTER -r REF_S5_MASTER
-alignment AL_S5_MASTER add member -w "excluded = null and gb_segment = '5'"
+alignment AL_S5_MASTER
+  set field displayName "Segment 5"
+  add member -w "excluded = null and gb_segment = '5'"
+  exit
 
 create alignment AL_S6_MASTER -r REF_S6_MASTER
 alignment AL_S6_MASTER 
+  set field displayName "Segment 6"
   add member -w "excluded = null and gb_segment = '6'"
 
   extract child AL_S6_serotype_1 -r REF_S6_serotype_1
@@ -190,18 +234,58 @@ alignment AL_S6_MASTER
 
   exit
 
+alignment AL_S6_serotype_1 set field displayName "S6 Serotype 1"
+alignment AL_S6_serotype_2 set field displayName "S6 Serotype 2"
+alignment AL_S6_serotype_3 set field displayName "S6 Serotype 3"
+alignment AL_S6_serotype_4 set field displayName "S6 Serotype 4"
+alignment AL_S6_serotype_5 set field displayName "S6 Serotype 5"
+alignment AL_S6_serotype_6 set field displayName "S6 Serotype 6"
+alignment AL_S6_serotype_7 set field displayName "S6 Serotype 7"
+alignment AL_S6_serotype_8 set field displayName "S6 Serotype 8"
+alignment AL_S6_serotype_9 set field displayName "S6 Serotype 9"
+alignment AL_S6_serotype_10 set field displayName "S6 Serotype 10"
+alignment AL_S6_serotype_11 set field displayName "S6 Serotype 11"
+alignment AL_S6_serotype_12 set field displayName "S6 Serotype 12"
+alignment AL_S6_serotype_13 set field displayName "S6 Serotype 13"
+alignment AL_S6_serotype_14 set field displayName "S6 Serotype 14"
+alignment AL_S6_serotype_15 set field displayName "S6 Serotype 15"
+alignment AL_S6_serotype_16 set field displayName "S6 Serotype 16"
+alignment AL_S6_serotype_17 set field displayName "S6 Serotype 17"
+alignment AL_S6_serotype_18 set field displayName "S6 Serotype 18"
+alignment AL_S6_serotype_19 set field displayName "S6 Serotype 19"
+alignment AL_S6_serotype_20 set field displayName "S6 Serotype 20"
+alignment AL_S6_serotype_21 set field displayName "S6 Serotype 21"
+alignment AL_S6_serotype_22 set field displayName "S6 Serotype 22"
+alignment AL_S6_serotype_23 set field displayName "S6 Serotype 23"
+alignment AL_S6_serotype_24 set field displayName "S6 Serotype 24"
+alignment AL_S6_serotype_25 set field displayName "S6 Serotype 25"
+alignment AL_S6_serotype_26 set field displayName "S6 Serotype 26"
+alignment AL_S6_serotype_27 set field displayName "S6 Serotype 27"
+alignment AL_S6_serotype_28 set field displayName "S6 Serotype 28"
+
 create alignment AL_S7_MASTER -r REF_S7_MASTER
-alignment AL_S7_MASTER add member -w "excluded = null and gb_segment = '7'"
+alignment AL_S7_MASTER
+  set field displayName "Segment 7"
+  add member -w "excluded = null and gb_segment = '7'"
+  exit
 
 create alignment AL_S8_MASTER -r REF_S8_MASTER
-alignment AL_S8_MASTER add member -w "excluded = null and gb_segment = '8'"
+alignment AL_S8_MASTER
+  set field displayName "Segment 8"
+  add member -w "excluded = null and gb_segment = '8'"
+  exit
 
 create alignment AL_S9_MASTER -r REF_S9_MASTER
-alignment AL_S9_MASTER add member -w "excluded = null and gb_segment = '9'"
+alignment AL_S9_MASTER
+  set field displayName "Segment 9"
+  add member -w "excluded = null and gb_segment = '9'"
+  exit
 
 create alignment AL_S10_MASTER -r REF_S10_MASTER
-alignment AL_S10_MASTER add member -w "excluded = null and gb_segment = '10'"
-
+alignment AL_S10_MASTER
+  set field displayName "Segment 10"
+  add member -w "excluded = null and gb_segment = '10'"
+  exit
 
 module blastFastaAlignmentImporter import AL_S1_UNCONSTRAINED -f alignments/manually-curated/BTV-seg1.fna
 module blastFastaAlignmentImporter import AL_S2_UNCONSTRAINED -f alignments/manually-curated/BTV-seg2.fna
@@ -343,6 +427,4 @@ compute alignment AL_S6_serotype_25 s6CompoundAligner
 compute alignment AL_S6_serotype_26 s6CompoundAligner
 compute alignment AL_S6_serotype_27 s6CompoundAligner
 compute alignment AL_S6_serotype_28 s6CompoundAligner
-
-
 
