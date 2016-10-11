@@ -90,8 +90,9 @@ alignment AL_S2_MASTER
   extract child AL_S2_serotype_27 -r REF_S2_serotype_27
   demote member AL_S2_serotype_27 -w "sequence.gb_serotype = '27'" -r reference_member true
 
-  extract child AL_S2_serotype_28 -r REF_S2_serotype_28
-  demote member AL_S2_serotype_28 -w "sequence.gb_serotype = '28'" -r reference_member true
+  ## commented out from the project build until they are published.
+  ## extract child AL_S2_serotype_28 -r REF_S2_serotype_28
+  ## demote member AL_S2_serotype_28 -w "sequence.gb_serotype = '28'" -r reference_member true
 
   exit
 
@@ -122,7 +123,8 @@ alignment AL_S2_serotype_24 set field displayName "S2 Serotype 24"
 alignment AL_S2_serotype_25 set field displayName "S2 Serotype 25"
 alignment AL_S2_serotype_26 set field displayName "S2 Serotype 26"
 alignment AL_S2_serotype_27 set field displayName "S2 Serotype 27"
-alignment AL_S2_serotype_28 set field displayName "S2 Serotype 28"
+## commented out from the project build until they are published.
+## alignment AL_S2_serotype_28 set field displayName "S2 Serotype 28"
 
 
 create alignment AL_S3_MASTER -r REF_S3_MASTER
@@ -229,8 +231,9 @@ alignment AL_S6_MASTER
   extract child AL_S6_serotype_27 -r REF_S6_serotype_27
   demote member AL_S6_serotype_27 -w "sequence.gb_serotype = '27'" -r reference_member true
 
-  extract child AL_S6_serotype_28 -r REF_S6_serotype_28
-  demote member AL_S6_serotype_28 -w "sequence.gb_serotype = '28'" -r reference_member true
+  ## commented out from the project build until they are published.
+  ## extract child AL_S6_serotype_28 -r REF_S6_serotype_28
+  ## demote member AL_S6_serotype_28 -w "sequence.gb_serotype = '28'" -r reference_member true
 
   exit
 
@@ -261,7 +264,8 @@ alignment AL_S6_serotype_24 set field displayName "S6 Serotype 24"
 alignment AL_S6_serotype_25 set field displayName "S6 Serotype 25"
 alignment AL_S6_serotype_26 set field displayName "S6 Serotype 26"
 alignment AL_S6_serotype_27 set field displayName "S6 Serotype 27"
-alignment AL_S6_serotype_28 set field displayName "S6 Serotype 28"
+## commented out from the project build until they are published.
+## alignment AL_S6_serotype_28 set field displayName "S6 Serotype 28"
 
 create alignment AL_S7_MASTER -r REF_S7_MASTER
 alignment AL_S7_MASTER
@@ -288,11 +292,15 @@ alignment AL_S10_MASTER
   exit
 
 module blastFastaAlignmentImporter import AL_S1_UNCONSTRAINED -f alignments/manually-curated/BTV-seg1.fna
-module blastFastaAlignmentImporter import AL_S2_UNCONSTRAINED -f alignments/manually-curated/BTV-seg2.fna
+## commented out from the project build until they are published.
+## module blastFastaAlignmentImporter import AL_S2_UNCONSTRAINED -f alignments/manually-curated/BTV-seg2.fna
+module blastFastaAlignmentImporter import AL_S2_UNCONSTRAINED -f alignments/manually-curated/BTV-seg2-published.fna
 module blastFastaAlignmentImporter import AL_S3_UNCONSTRAINED -f alignments/manually-curated/BTV-seg3.fna
 module blastFastaAlignmentImporter import AL_S4_UNCONSTRAINED -f alignments/manually-curated/BTV-seg4.fna
 module blastFastaAlignmentImporter import AL_S5_UNCONSTRAINED -f alignments/manually-curated/BTV-seg5.fna
-module blastFastaAlignmentImporter import AL_S6_UNCONSTRAINED -f alignments/manually-curated/BTV-seg6.fna
+## commented out from the project build until they are published.
+## module blastFastaAlignmentImporter import AL_S6_UNCONSTRAINED -f alignments/manually-curated/BTV-seg6.fna
+module blastFastaAlignmentImporter import AL_S6_UNCONSTRAINED -f alignments/manually-curated/BTV-seg6-published.fna
 module blastFastaAlignmentImporter import AL_S7_UNCONSTRAINED -f alignments/manually-curated/BTV-seg7.fna
 module blastFastaAlignmentImporter import AL_S8_UNCONSTRAINED -f alignments/manually-curated/BTV-seg8.fna
 module blastFastaAlignmentImporter import AL_S9_UNCONSTRAINED -f alignments/manually-curated/BTV-seg9.fna
@@ -337,7 +345,8 @@ reference REF_S2_serotype_24 inherit feature-location -r -s AL_S2_MASTER S2_whol
 reference REF_S2_serotype_25 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 reference REF_S2_serotype_26 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 reference REF_S2_serotype_27 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+## commented out from the project build until they are published.
+## reference REF_S2_serotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 
 
 reference REF_S6_serotype_1 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
@@ -367,7 +376,8 @@ reference REF_S6_serotype_24 inherit feature-location -r -s AL_S6_MASTER S6_whol
 reference REF_S6_serotype_25 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 reference REF_S6_serotype_26 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 reference REF_S6_serotype_27 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+## commented out from the project build until they are published.
+## reference REF_S6_serotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 
 compute alignment AL_S2_serotype_1 s2CompoundAligner
 compute alignment AL_S2_serotype_2 s2CompoundAligner
@@ -396,7 +406,8 @@ compute alignment AL_S2_serotype_24 s2CompoundAligner
 compute alignment AL_S2_serotype_25 s2CompoundAligner
 compute alignment AL_S2_serotype_26 s2CompoundAligner
 compute alignment AL_S2_serotype_27 s2CompoundAligner
-compute alignment AL_S2_serotype_28 s2CompoundAligner
+## commented out from the project build until they are published.
+## compute alignment AL_S2_serotype_28 s2CompoundAligner
 
 
 compute alignment AL_S6_serotype_1 s6CompoundAligner
@@ -426,5 +437,6 @@ compute alignment AL_S6_serotype_24 s6CompoundAligner
 compute alignment AL_S6_serotype_25 s6CompoundAligner
 compute alignment AL_S6_serotype_26 s6CompoundAligner
 compute alignment AL_S6_serotype_27 s6CompoundAligner
-compute alignment AL_S6_serotype_28 s6CompoundAligner
+## commented out from the project build until they are published.
+## compute alignment AL_S6_serotype_28 s6CompoundAligner
 

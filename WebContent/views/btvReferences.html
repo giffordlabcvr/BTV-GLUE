@@ -1,0 +1,20 @@
+<div ng-app="projectBrowser">
+	<h2>Reference Sequences</h2>
+
+	<span ng-show="listReferenceResult.length == 0">None</span>
+	<div ng-show="listReferenceResult.length > 0">
+		<table class="table table-nonfluid table-striped table-bordered">
+			<thead>
+				<th>Reference sequence name</th>
+				<th>Underlying sequence</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="referenceResult in listReferenceResult track by $index">
+					<td><a href="#project/reference/{{referenceResult.name}}">{{referenceResult.name}}</a></td>
+					<td><a href="#project/sequence/{{referenceResult['sequence.source.name']}}/{{referenceResult['sequence.sequenceID']}}">
+					{{referenceResult["sequence.sequenceID"]}}</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

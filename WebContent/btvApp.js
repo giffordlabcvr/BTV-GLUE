@@ -15,10 +15,18 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 	var projectBrowserStandardRoutes = projectBrowserStandardRoutesProvider.$get();
 	var projectBrowserURL = "../gluetools-web/www/projectBrowser";
 
-	projectBrowserStandardRoutes.addReferencesRoute($routeProvider, projectBrowserURL);
-	projectBrowserStandardRoutes.addReferenceRoute($routeProvider, projectBrowserURL);
-	projectBrowserStandardRoutes.addSequencesRoute($routeProvider, projectBrowserURL);
-	projectBrowserStandardRoutes.addSequenceRoute($routeProvider, projectBrowserURL);
+    // custom references view
+	$routeProvider.
+    when('/project/reference', {
+  	  templateUrl: 'views/btvReferences.html',
+  	  controller: 'btvReferencesCtrl'
+      });
+	// custom single alignment view
+	$routeProvider.
+    when('/project/reference/:referenceName', {
+	  templateUrl: 'views/btvReference.html',
+	  controller: 'btvReferenceCtrl'
+    });
     // custom alignments view
 	$routeProvider.
     when('/project/alignment', {
@@ -31,7 +39,18 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 	  templateUrl: 'views/btvAlignment.html',
 	  controller: 'btvAlignmentCtrl'
     });
-	projectBrowserStandardRoutes.addAlignmentMemberRoute($routeProvider, projectBrowserURL);
+    // custom sequences view
+	$routeProvider.
+    when('/project/sequence', {
+  	  templateUrl: 'views/btvSequences.html',
+  	  controller: 'btvSequencesCtrl'
+      });
+	// custom single sequence view
+	$routeProvider.
+    when('/project/sequence/:sourceName/:sequenceID', {
+	  templateUrl: 'views/btvSequence.html',
+	  controller: 'btvSequenceCtrl'
+    });
 	
     $routeProvider.
       when('/home', {

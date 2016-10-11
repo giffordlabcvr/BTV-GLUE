@@ -1,0 +1,54 @@
+<#include "/utils/glueDocUtils.ftlx">
+
+<sequence>
+	<sourceName>${source.name}</sourceName>
+	<sequenceID>${sequenceID}</sequenceID>
+<#list alignmentMemberships as alignmentMembership>
+	<alignmentMembership glueType="Object[]">
+		<name>${alignmentMembership.alignment.name}</name>
+		<renderedName>${alignmentMembership.alignment.getRenderedName()}</renderedName>
+<#if alignmentMembership.alignment.refSequence ??>
+		<constrainingReference>
+			<name>${alignmentMembership.alignment.refSequence.name}</name>
+			<renderedName>${alignmentMembership.alignment.refSequence.getRenderedName()}</renderedName>
+		</constrainingReference>
+</#if>
+	</alignmentMembership>
+</#list>
+<#list referenceSequences as referenceSequence>
+	<referenceSequence glueType="Object[]">
+		<name>${referenceSequence.name}</name>
+		<renderedName>${referenceSequence.getRenderedName()}</renderedName>
+	</referenceSequence>
+</#list>
+	<creationDate>${renderProperty('gb_create_date')}</creationDate>
+	<@elem tag="collectionYear" expr="gb_collection_year"/>
+	<@elem tag="length" expr="gb_length"/>
+	<@elem tag="segment" expr="gb_segment"/>
+	<@elem tag="serotype" expr="gb_serotype"/>
+	<@elem tag="passageCells" expr="passage_cells"/>
+	<@elem tag="passageHistory" expr="passage_history"/>
+	<@elem tag="placeSampled" expr="place_sampled"/>
+	<@elem tag="sampleType" expr="sample_type"/>
+	<@elem tag="tissueSampled" expr="tissue_sampled"/>
+<#if pmid_reference ??>	
+<#assign referenceText = "PubMed Reference "+pmid_reference>
+<#assign referenceUrl = "https://www.ncbi.nlm.nih.gov/pubmed/?term="+pmid_reference>
+<#else>
+<#if alt_reference ??>
+<#assign referenceText = alt_reference>
+<#else>
+<#if alt_reference_url ??>
+<#assign referenceText = alt_reference_url>
+</#if>
+</#if>
+<#if alt_reference_url ??>
+<#assign referenceUrl = alt_reference_url>
+</#if>
+</#if>
+	<@elem tag="referenceText" expr="referenceText"/>
+	<@elem tag="referenceUrl" expr="referenceUrl"/>
+	<@elem tag="country" expr="gb_country_official"/>
+	<@elem tag="isolate" expr="gb_isolate"/>
+	
+</sequence>

@@ -38,6 +38,7 @@ project btv
   create module --fileName modules/figTreeAnnotationExporterCountryYear.xml figTreeAnnotationExporterCountryYear
 
   create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
+  create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
 
 
   # this module downloads all btv from NCBI
@@ -49,20 +50,21 @@ project btv
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
-  run file glue/btvImportUnpublished.glue
+  ## commented out from the project build until they are published.
+  ## run file glue/btvImportUnpublished.glue
 
   # Extra fields for unpublished reference sequences
-  sequence kyriaki-nomikou-unpublished KN102
-    set field gb_country Jordan
-    set field gb_country_iso JOR
-	set field gb_length 2926
-    exit
+  ## sequence kyriaki-nomikou-unpublished KN102
+  ##   set field gb_country Jordan
+  ##   set field gb_country_iso JOR
+  ##   set field gb_length 2926
+  ##   exit
 
-  sequence kyriaki-nomikou-unpublished KN156
-    set field gb_country Jordan
-    set field gb_country_iso JOR
-	set field gb_length 1638
-    exit
+  ## sequence kyriaki-nomikou-unpublished KN156
+  ##   set field gb_country Jordan
+  ##   set field gb_country_iso JOR
+  ##   set field gb_length 1638
+  ##   exit
 
   # references
   run file glue/btvReferences.glue
