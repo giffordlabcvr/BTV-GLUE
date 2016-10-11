@@ -1,9 +1,9 @@
 <gluetools>
 	<database>
-		<username>hcvglue</username>
-		<password>hcvglue</password>
+		<username>btvglue</username>
+		<password>btvglue</password>
 		<vendor>MySQL</vendor>
-		<jdbcUrl>jdbc:mysql://localhost:3306/HCV_GLUE</jdbcUrl>	
+		<jdbcUrl>jdbc:mysql://localhost:3306/BTV_GLUE</jdbcUrl>	
 	</database>
 	<properties>
 	
