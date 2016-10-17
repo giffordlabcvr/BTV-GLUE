@@ -1,44 +1,23 @@
 btvApp.controller('btvAlignmentCtrl', 
 		[ '$scope', '$routeParams', '$controller', 'glueWS', 'dialogs',
 		  function($scope, $routeParams, $controller, glueWS, dialogs) {
-			$scope.alignmentName = $routeParams.alignmentName;
-
 			addUtilsToScope($scope);
 
-			$scope.memberList = null;
-			$scope.renderResult = null;
+			$controller('alignmentCtrl', { $scope: $scope, 
+				glueWebToolConfig: glueWebToolConfig, 
+				glueWS: glueWS, 
+				dialogs: dialogs});
 
-			glueWS.runGlueCommand("alignment/"+$scope.alignmentName, {
-			    "render-object":{
-			        "rendererModuleName":"btvAlignmentRenderer"
-			    }
-			})
-			.success(function(data, status, headers, config) {
-				$scope.renderResult = data;
-				console.info('$scope.renderResult', $scope.renderResult);
-			})
-			.error(glueWS.raiseErrorDialog(dialogs, "rendering alignment"));
-
+			$scope.init($routeParams.alignmentName, 
+					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated'",
+					[
+					 "sequence.sequenceID",
+					 "sequence.gb_country_official",
+					 "sequence.gb_collection_year",
+					 "sequence.gb_length",
+					 "sequence.gb_create_date",
+					 "sequence.pmid_reference",
+					 "sequence.gb_isolate"
+					 ]);
 			
-			glueWS.runGlueCommand("alignment/"+$scope.alignmentName, {
-				"list":{
-					"member":{
-						"whereClause":"sequence.source.name = 'ncbi-curated'",
-			            "fieldName":[
-			                         "sequence.sequenceID",
-			                         "sequence.gb_country_official",
-			                         "sequence.gb_collection_year",
-			                         "sequence.gb_length",
-			                         "sequence.gb_create_date",
-			                         "sequence.pmid_reference",
-			                         "sequence.gb_isolate"
-			                     ]
-					}
-				}
-			})
-			.success(function(data, status, headers, config) {
-				$scope.memberList = tableResultAsObjectList(data);
-				console.info('$scope.memberList', $scope.memberList);
-			})
-			.error(glueWS.raiseErrorDialog(dialogs, "listing alignment members"));
 		}]);

@@ -14,13 +14,6 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 	
 	var projectBrowserStandardRoutes = projectBrowserStandardRoutesProvider.$get();
 	var projectBrowserURL = "../gluetools-web/www/projectBrowser";
-
-    // custom references view
-	$routeProvider.
-    when('/project/reference', {
-  	  templateUrl: 'views/btvReferences.html',
-  	  controller: 'btvReferencesCtrl'
-      });
 	// custom single alignment view
 	$routeProvider.
     when('/project/reference/:referenceName', {
@@ -69,7 +62,6 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.homeMenuTitle = "Home";
 	$scope.projectBrowserMenuTitle = "Sequence Database";
 	$scope.projectBrowserAlignmentMenuTitle = "Segment Clade Trees";
-	$scope.projectBrowserReferenceSequenceMenuTitle = "Reference Sequences";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
