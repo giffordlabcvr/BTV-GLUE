@@ -144,13 +144,13 @@ class DeployWarTask extends DefaultTask {
 		  taskSsh.run {
 		    session(remote) {
 		      put from: warFile.absolutePath, into: '/tmp/'+warFile.name
-		      execute 'sudo mkdir -p /var/lib/tomcat7/webapps_hcv'
-		      execute 'sudo chmod a+rwx /var/lib/tomcat7/webapps_hcv'
-		      execute 'sudo rm -rf /var/lib/tomcat7/webapps_hcv/'+warBaseName
-		      execute 'sudo rm -rf /var/lib/tomcat7/webapps_hcv/'+warFile.name
-		      execute 'sudo mv /tmp/'+warFile.name+' /var/lib/tomcat7/webapps_hcv/'+warFile.name
-		      execute 'sudo rm -rf /var/lib/tomcat7/work/Catalina/hcv.glue.cvr.ac.uk/'+warBaseName
-		      execute 'sudo rm -rf /var/cache/tomcat7/Catalina/hcv.glue.cvr.ac.uk/'+warBaseName
+		      execute 'sudo mkdir -p /var/lib/tomcat7/webapps_btv'
+		      execute 'sudo chmod a+rwx /var/lib/tomcat7/webapps_btv'
+		      execute 'sudo rm -rf /var/lib/tomcat7/webapps_btv/'+warBaseName
+		      execute 'sudo rm -rf /var/lib/tomcat7/webapps_btv/'+warFile.name
+		      execute 'sudo mv /tmp/'+warFile.name+' /var/lib/tomcat7/webapps_btv/'+warFile.name
+		      execute 'sudo rm -rf /var/lib/tomcat7/work/Catalina/btv.glue.cvr.ac.uk/'+warBaseName
+		      execute 'sudo rm -rf /var/cache/tomcat7/Catalina/btv.glue.cvr.ac.uk/'+warBaseName
 		      
 		    }
 		  }
