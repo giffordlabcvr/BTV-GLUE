@@ -225,26 +225,24 @@ task initBtvGlueDBGlueHomeAWS {
   }
 }
 
-// consider using a separate local GLUE db for this.
-
-task dumpGlueDB(type: Exec) {
-	standardOutput = new FileOutputStream(new File('/tmp/gluedb.sql'))
-	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'gluetools', '--password=gluetools', 'GLUE_TOOLS'
+task dumpBtvGlueDB(type: Exec) {
+	standardOutput = new FileOutputStream(new File('/tmp/btv_glue.sql'))
+	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'btvglue', '--password=btvglue', 'BTV_GLUE'
 }
 
-task zipGlueDB(type: Exec, dependsOn: 'dumpGlueDB') {
-	commandLine '/usr/bin/gzip', '-f', '/tmp/gluedb.sql'
+task zipBtvGlueDB(type: Exec, dependsOn: 'dumpBtvGlueDB') {
+	commandLine '/usr/bin/gzip', '-f', '/tmp/btv_glue.sql'
 }
 
-task deployBtvGlueDbToGlueHomeAWS(dependsOn: 'zipGlueDB') {
+task deployBtvGlueDbToGlueHomeAWS(dependsOn: 'zipBtvGlueDB') {
   doLast {
 	  println "Uploading BTV-GLUE DB"
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
-	 	  put from: '/tmp/gluedb.sql.gz', into: '/tmp/gluedb.sql.gz'
+	 	  put from: '/tmp/btv_glue.sql.gz', into: '/tmp/btv_glue.sql.gz'
 	      execute 'echo "drop database BTV_GLUE; create database BTV_GLUE;" | mysql -u btvglue --password=btvglue BTV_GLUE'
-	      execute 'gunzip -c /tmp/gluedb.sql.gz | mysql -u btvglue --password=btvglue BTV_GLUE'
-	      execute 'rm /tmp/gluedb.sql.gz'
+	      execute 'gunzip -c /tmp/btv_glue.sql.gz | mysql -u btvglue --password=btvglue BTV_GLUE'
+	      execute 'rm /tmp/btv_glue.sql.gz'
 	    }
 	  }
   }
