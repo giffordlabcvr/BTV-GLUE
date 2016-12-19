@@ -163,14 +163,8 @@
 				</valueConverter>		
 				<!-- #### Midges -->											
  				<valueConverter>
-					<matchPattern>.*[Cc]ulicoides spp.*</matchPattern>
-					<outputTemplate>Culicoides sp.</outputTemplate>
-				</valueConverter>		
-  				<valueConverter>
+					<matchPattern>.*[Cc]ulicoides sp.*</matchPattern>
 					<matchPattern>.*[Cc]ulicoides biting midges.*</matchPattern>
-					<outputTemplate>Culicoides sp.</outputTemplate>
-				</valueConverter>		
-  				<valueConverter>
 					<matchPattern>.*[Cc]ulicoides</matchPattern>
 					<outputTemplate>Culicoides sp.</outputTemplate>
 				</valueConverter>		

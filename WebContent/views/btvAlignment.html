@@ -1,4 +1,4 @@
-<div ng-cloak ng-app="btvApp">
+<div ng-cloak>
 	<h2>{{renderResult.alignment.renderedName}}</h2>
 	
 	<div>
@@ -33,6 +33,7 @@
 				<th>Creation Date</th>
 				<th>Sequence Length</th>
 				<th>Isolate ID</th>
+				<th>Host Species</th>
 				<th>Country of Origin</th>
 				<th>Collection Year</th>
 			</thead>
@@ -43,6 +44,7 @@
 					<td>{{member['sequence.gb_create_date']}}</td>
 					<td>{{member['sequence.gb_length']}}</td>
 					<td>{{handleNull(member['sequence.gb_isolate'])}}</td>
+					<td><em>{{handleNull(member['sequence.gb_host'])}}</em></td>
 					<td>{{handleNull(member['sequence.gb_country_official'])}}</td>
 					<td>{{handleNull(member['sequence.gb_collection_year'])}}</td>
 				</tr>
