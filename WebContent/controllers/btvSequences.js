@@ -38,5 +38,23 @@ projectBrowser.controller('btvSequencesCtrl',
   	            { property:"gb_length", displayName: "Sequence Length" }
               ]);
 
-			
+			$scope.pagingContext.setFilterProperties([
+           		{ property:"sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
+          		{ property:"gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
+          		{ property:"gb_create_date", displayName: "Creation Date", filterHints: {type: "Date"} },
+  	            { property:"gb_segment", displayName: "Segment", filterHints: {type: "Integer"} },
+  	            { property:"gb_country_official", displayName: "Country of Origin", filterHints: {type: "String"} },
+  	            { property:"gb_collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
+  	            { property:"gb_isolate", displayName: "Isolate ID", filterHints: {type: "String"} },
+  	            { property:"gb_host", displayName: "Host Species", filterHints: {type: "String"} },
+  	            { property:"sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
+  	            { property:"place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
+  	            { property:"tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
+  	            { property:"passage_history", displayName: "Passage History", filterHints: {type: "String"} },
+  	            { property:"passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} },
+  	            { property:"pmid_reference", displayName: "PubMed ID", filterHints: {type: "String"} }
+  			]);
+  			                          			
+  			$scope.pagingContext.setDefaultFilterElems([]);
+	
 }]);

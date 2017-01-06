@@ -28,14 +28,31 @@ btvApp.controller('btvAlignmentCtrl',
 			
 			$scope.pagingContext.setSortableProperties([
 	            { property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID" },
+	            { property:"sequence.gb_length", displayName: "Sequence Length" },
 	            { property:"sequence.gb_create_date", displayName: "Creation Date" },
 	            { property:"sequence.gb_country_official", displayName: "Country of Origin" },
 	            { property:"sequence.gb_collection_year", displayName: "Collection Year" },
 	            { property:"sequence.gb_isolate", displayName: "Isolate ID" },
 	            { property:"sequence.gb_host", displayName: "Host Species" },
-	            { property:"sequence.pmid_reference", displayName: "PubMed ID" },
-	            { property:"sequence.gb_length", displayName: "Sequence Length" }
+	            { property:"sequence.pmid_reference", displayName: "PubMed ID" }
 	        ]);
 
+			$scope.pagingContext.setFilterProperties([
+         		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
+        		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
+        		{ property:"sequence.gb_create_date", displayName: "Creation Date", filterHints: {type: "Date"} },
+	            { property:"sequence.gb_country_official", displayName: "Country of Origin", filterHints: {type: "String"} },
+	            { property:"sequence.gb_collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
+	            { property:"sequence.gb_isolate", displayName: "Isolate ID", filterHints: {type: "String"} },
+	            { property:"sequence.gb_host", displayName: "Host Species", filterHints: {type: "String"} },
+	            { property:"sequence.sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
+  	            { property:"sequence.place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
+  	            { property:"sequence.tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
+  	            { property:"sequence.passage_history", displayName: "Passage History", filterHints: {type: "String"} },
+  	            { property:"sequence.passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} },
+	            { property:"sequence.pmid_reference", displayName: "PubMed ID", filterHints: {type: "String"} }
+			]);
+
+  			$scope.pagingContext.setDefaultFilterElems([]);
 			
 		}]);
