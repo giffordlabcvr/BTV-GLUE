@@ -28,7 +28,7 @@
 		    </colgroup>
 			<tbody>
 				<tr ng-repeat="sequenceResult in listSequenceResult track by $index">
-					<td><a href="#project/sequence/{{sequenceResult['source.name']}}/{{sequenceResult.sequenceID}}">{{sequenceResult.sequenceID}}</a></td>
+					<td><a href="#project/sequence/{{sequenceResult['source.name']}}/{{sequenceResult.sequenceID}}" target="_blank">{{sequenceResult.sequenceID}}</a></td>
 					<td>{{handleNull(sequenceResult.gb_segment)}}</td>
 					<td>{{sequenceResult.gb_create_date}}</td>
 					<td>{{sequenceResult.gb_length}}</td>
