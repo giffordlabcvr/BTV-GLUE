@@ -83,8 +83,12 @@ project btv
 
   # overwrite incorrect field values with corrected
   module dataCorrectedImporter populate -f tabular/data_corrected.txt
+
+  # update gb_country_short based on gb_country_iso
+  run file glue/btvCountryUpdate.glue
   
   run file glue/btvAlignmentTree.glue
+
   
   validate
   

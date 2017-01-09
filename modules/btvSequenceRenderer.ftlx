@@ -48,7 +48,8 @@
 </#if>
 	<@elem tag="referenceText" expr="referenceText"/>
 	<@elem tag="referenceUrl" expr="referenceUrl"/>
-	<@elem tag="country" expr="gb_country_official"/>
+	<@elem tag="country" expr="gb_country_short"/>
+	<@elem tag="country_iso" expr="gb_country_iso"/>
 	<@elem tag="isolate" expr="gb_isolate"/>
 	<@elem tag="host" expr="gb_host"/>
 	

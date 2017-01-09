@@ -34,7 +34,7 @@
 					<td>{{sequenceResult.gb_length}}</td>
 					<td>{{handleNull(sequenceResult.gb_isolate)}}</td>
 					<td><em>{{handleNull(sequenceResult.gb_host)}}</em></td>
-					<td>{{handleNull(sequenceResult.gb_country_official)}}</td>
+					<td>{{sequenceResult.gb_country_short ? (sequenceResult.gb_country_short+" ("+sequenceResult.gb_country_iso+")"):"-"}}</td>
 					<td>{{handleNull(sequenceResult.gb_collection_year)}}</td>
 				</tr>
 			</tbody>

@@ -66,7 +66,7 @@
 					<td><b>Host Species</b></td><td><em>{{handleNull(renderResult.sequence.host)}}</em></td>
 				</tr>
 				<tr>
-					<td><b>Country of Origin</b></td><td>{{handleNull(renderResult.sequence.country)}}</td>
+					<td><b>Country of Origin</b></td><td>{{renderResult.sequence.country ? (renderResult.sequence.country+" ("+renderResult.sequence.country_iso+")"):"-"}}</td>
 				</tr>
 				<tr>
 					<td><b>Place Sampled</b></td><td>{{handleNull(renderResult.sequence.placeSampled)}}</td>
