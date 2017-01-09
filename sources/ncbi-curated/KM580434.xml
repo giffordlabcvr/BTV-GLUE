@@ -152,62 +152,8 @@
           <GBQualifier_value>AKM21104.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:833125957</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGAATIDGLVQGSVHSIITGESYGESVKQAVLLNVLGTGEELPDPLSPGERGIQTKIKELEDEQRNELVRLKYNKEITKEFGKELEEVYDFMNGEAKEEEVVQEQYSMLCKAVDSYEKILKAEDSKMAMLARALQREASERSQDEIKMVKEYRQKIDALKNAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLSHMRSPKIEPTIIATTLEHRFKEIPDEQLAVSVLNKKTAVTDNCNEIAHIKQEILPKFKQIMDEEKEIEGIEDKVIHPRVMMRFKIPRTQQPQIHIYAAPWDSDDVFFFHCVSHHHRNESFFLGFDLGIDVVHFEDLTSHWHALGLAQEASGRTLTEAYREFLNLSISSTYSSAIHARRMIRSRAVHPIFLGSMHYDITYEALKNNAQRIVYDEELQMHILRGPLHFQRRAILGALKFGIKILGDKIDVPLFLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>393..&gt;629</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>393</GBInterval_from>
-          <GBInterval_to>629</GBInterval_to>
-          <GBInterval_accession>KM580434.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP5</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>14-3-3 domain; Region: 14-3-3; cl02098</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:261174</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>&lt;357..908</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>357</GBInterval_from>
-          <GBInterval_to>908</GBInterval_to>
-          <GBInterval_accession>KM580434.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP5</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>ATP synthase (C/AC39) subunit; Region: vATP-synt_AC39; cl00660</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:275645</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -232,7 +178,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

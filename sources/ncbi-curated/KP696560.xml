@@ -162,10 +162,6 @@
           <GBQualifier_value>AKP24167.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:873241465</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLLAPGDVIKRSSEELKQRQIQISLVDWTESESEKKEEPKVEREIKEQNNLNDGEGTQQKDGKKKEGGEEAQDADVDRRLRTAVGSGSSAKGSGERTDKDVDGGDGKTRRGGGDVDEGAGVAGASRGGWVVLTDEIARAIESKYGTKVDVYRDEASAQIIEIERSLQKELGITREGVAEQTEKLRDLRRKEKGEPRTKAVMKEDRKHGKNNRDSSSKKEGIGEEVQEKTTKVGITIEGVMSQKKLLSMIGGVERKAAPIGARESAVMLVSNNIKDVARATAYFTSPTGDPNWKEVAREASKKKNILAYSSTGGDTKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -192,7 +188,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250678</GBQualifier_value>
+          <GBQualifier_value>CDD:279812</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -247,10 +243,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AKP24168.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:873241466</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

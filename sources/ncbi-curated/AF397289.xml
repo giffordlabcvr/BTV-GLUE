@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>12-AUG-2001</GBSeq_update-date>
+  <GBSeq_update-date>23-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>12-AUG-2001</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus isolate Pool B8 viral egress protein NS3/NS3A gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>AF397289</GBSeq_primary-accession>
@@ -113,10 +113,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAK85264.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:15149368</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

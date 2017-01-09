@@ -148,10 +148,6 @@
           <GBQualifier_value>AEO19739.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:345846359</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MSAAILLAPGDVIKRSSEELKQRQIQINLVDWMESESEKEDKTEPKEEDKAEESKDGEGTQSESSQKKESSKETKDADVDRRIHTTVGSGSGAKGSGERTNENVDRGDGKVGGGGGDANAGVGTTGANGGGWVVLTEEIARAIESKYGTKIDVYRDEVPAQIIEVERSLQKELGISREGVAEQTERLRDLRRREKSGTHAKAAEKGRRRQGKKAHGDAQKEGTEEDKTSEEPASVGITIEGVMSQKKLLSMIGGVERKMAPIGARESAVMLVSNSIKDVVRATAYFTAPTGDPHWKEVAREASKKKNILAYTSTGGDVKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -174,7 +170,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250678</GBQualifier_value>
+          <GBQualifier_value>CDD:279812</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -204,10 +200,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AEO19740.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:345846360</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

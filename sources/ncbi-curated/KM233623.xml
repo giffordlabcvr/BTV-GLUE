@@ -140,10 +140,6 @@
           <GBQualifier_value>AIL52762.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:675275172</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIRRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPTPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKNLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMRLT</GBQualifier_value>
         </GBQualifier>
@@ -175,10 +171,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AIL52763.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:675275173</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>28-JUN-2011</GBSeq_update-date>
+  <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>28-JUN-2011</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus strain DP0836 VP1 protein gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>HQ397604</GBSeq_primary-accession>
@@ -133,33 +133,8 @@
           <GBQualifier_value>ADP88622.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:311235823</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>LFYTKLHTTDTKAFDKVATSIFNTVAKCGHEASPSKTMMTPYSV</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>&lt;1..&gt;132</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>1</GBInterval_from>
-          <GBInterval_to>132</GBInterval_to>
-          <GBInterval_accession>HQ397604.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus RNA-dependent RNA polymerase (VP1); Region: Orbi_VP1; pfam05788</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:253387</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

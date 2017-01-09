@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>24-FEB-2016</GBSeq_update-date>
+  <GBSeq_update-date>27-APR-2016</GBSeq_update-date>
   <GBSeq_create-date>17-JAN-2015</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus isolate RA 20 OP non-structural protein 3 gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>KJ506702</GBSeq_primary-accession>
@@ -27,7 +27,7 @@
         <GBAuthor>Venter,E.H.</GBAuthor>
       </GBReference_authors>
       <GBReference_title>Sequence analysis and evaluation of the NS3/A gene region of bluetongue virus isolates from South Africa</GBReference_title>
-      <GBReference_journal>Arch. Virol. (2016) In press</GBReference_journal>
+      <GBReference_journal>Arch. Virol. 161 (4), 947-957 (2016)</GBReference_journal>
       <GBReference_xref>
         <GBXref>
           <GBXref_dbname>doi</GBXref_dbname>
@@ -35,7 +35,6 @@
         </GBXref>
       </GBReference_xref>
       <GBReference_pubmed>26780892</GBReference_pubmed>
-      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
     </GBReference>
     <GBReference>
       <GBReference_reference>2</GBReference_reference>
@@ -123,33 +122,8 @@
           <GBQualifier_value>AJD77634.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:746645289</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>HNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIVHMTLLVAAVVALLTSVCTLSSDMSVAFKFNGTSAEIPPWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEIMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>49..636</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>49</GBInterval_from>
-          <GBInterval_to>636</GBInterval_to>
-          <GBInterval_accession>KJ506702.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus NS3; Region: Orbi_NS3; pfam01616</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250747</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

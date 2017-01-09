@@ -132,10 +132,6 @@
           <GBQualifier_value>AFY12621.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:426203854</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MDELGIPIYGRNYPEHLLKGYEFLINTGVKYPSQGGRHDVSKIPEMFAYDIKDEGIRDALKYMPTRNDGVVLPRIVDISLKGYDIRKSVIEANKSNSFHTDTNWVQWMIKDSMDQQPLKISIDEEHSR</GBQualifier_value>
         </GBQualifier>

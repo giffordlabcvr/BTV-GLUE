@@ -141,10 +141,6 @@
           <GBQualifier_value>AAR13018.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:38176247</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
         </GBQualifier>
@@ -180,10 +176,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAR13019.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:38176248</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

@@ -170,37 +170,8 @@
           <GBQualifier_value>AMQ36829.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:1006063091</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MAAQNEQKTDDVRTTPYLDGDVLSSDSGPLLSVFALQEIMQKVRQVQADYVAATREADFTVPDVQKILDDVKALAAERVYEIVRKPNISFRHIVMQSRDRVLRVNTYYEEMSQVGDVISEDEPEAFYTTMIRKVRFIRNKGSFILHDIPTKDHRGMEIVESEVLGVDFKNVLPVLTAEHRAMIQNVLDGSVVENGNVATRDVDVFIGACSEPIYRVYNRLQGYIEAVQLQELRNSIGWLERLGQRKRVVYSQEVLTDFRRQDTIWVLALQLPVNPQVIWDVPRSFIANLVMNIATCLPTGEYIAPNPRISSITLTQRITTTGPFAILTSSTPTAQQLNDVRKIYLALMFPGQILLDLKVDSSERMDPAVRMVAGVVGHLLFTAGGRFTNITVNMARQLDIALNDYLLYMYNTRIQVIYGPTGEPLDFQIGRNQYDCNVFRTNFATGTGYNGWAMVDVEFRDPAPYAHAQRYIRYCGIDSRELINPTTYGIGMTYHCYNEMLRMLVAAGKDAEAAYFRSMLPFHMVRFARINQIINEDLHSAFTLPDDLFDALLPEMVAGVHRNVDPIILDVSWISLWFAFNRSFEPTHRNDALEVAPLIESVYASELSVMKADMRHLSLMQRRFPDVLIRAKPSHFWKAVLNDSPEVIKAVMDLSHSHSFINIRDMMRWIQLPALQPSLKLALEEEAWAAANDFEDLMLTDQVYMHRDMLPEPRLDDIERFRQEGFYYTNMLDAPPGMDRVVQYTYEIARLQANMGQFRAALRRVMDDDGWVRFGGVLRTVRIKFFDARPPDDILQGLPFIYNTNEKGGLSYATIKYATETTIFYLIYNVEFSNTPDSLVLINPTYTMTKVFINKRIVERVRVGQILAVLNKRFVAYKGKMRIMDITQSLRMGAKLAAPTA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>40..2700</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>40</GBInterval_from>
-          <GBInterval_to>2700</GBInterval_to>
-          <GBInterval_accession>KU760999.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP3</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus VP3 (T2) protein; Region: Orbi_VP3; pfam01700</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:145054</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

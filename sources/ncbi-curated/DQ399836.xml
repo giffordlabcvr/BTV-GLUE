@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>23-MAY-2011</GBSeq_update-date>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>30-APR-2006</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 9 isolate Mehaboobnagar9/2002 VP7 (S7) gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>DQ399836</GBSeq_primary-accession>
@@ -161,37 +161,8 @@
           <GBQualifier_value>ABD63252.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:89199555</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>HRALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTILLLSTLADVYSVLRPEFAIHGVNPMPGPLTRAIARAAYA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>4..1029</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>4</GBInterval_from>
-          <GBInterval_to>1029</GBInterval_to>
-          <GBInterval_accession>DQ399836.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>S7</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:144478</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

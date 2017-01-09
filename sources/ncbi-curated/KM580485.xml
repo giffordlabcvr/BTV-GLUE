@@ -152,12 +152,33 @@
           <GBQualifier_value>AKM21155.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:833126319</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGAATIDGLVQGSVHSIITGESYGESVKQAVLLNVLGTGEELPDPLSPGERGMQTKIKELEDEQRNELVRLKYNKEITEKFGKELGEVYDFMNGEAKEVEAVEEQYTMLCKAVDSYEKILKEEDSKMAILARALQREAAERSEDEIKMVKEYRQKIDALKSAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLSHMRSPKIEPTIIATTLEHRFKDIPDEQLAISVLNKKTAVADNCNEIAHIKQEILPKFKQIMNEEKEIEGIEDKVIHPRVMMRFKIPRTQQPQIHIYAAPWDSDDVFFFHCVSHHHRNESFFLGFDLGIDVVHFEDLTSHWHALGMAQEASGRTLTEAYREFLNLSISSTFSSAIHARRMIRSRAVHPIFLGSMHYDITYEALKNNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGVKILGDKIDVPLFLRNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>48..1568</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>48</GBInterval_from>
+          <GBInterval_to>1568</GBInterval_to>
+          <GBInterval_accession>KM580485.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP5; Region: Orbi_VP5; pfam00901</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

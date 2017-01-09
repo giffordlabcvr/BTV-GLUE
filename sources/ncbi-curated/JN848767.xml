@@ -134,12 +134,29 @@
           <GBQualifier_value>AEU03964.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:358022958</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MSAAMLLAPGDVIKRSSEELKQRQIQINLIDWTEGESEKESKAEAKEGDKAEELKDGEGTQSESSQKKESSKETKDADVDRRIHTAVGSGSSAKGPGERANENVDRGDGKVGGGGGDADAGVGTTGANGGRWVVLTEEIARAIESKYGTKIDVYRDEVPAQIIEVERSLQKELGISREGVAEQTERLRDLRRKEKSGAHAKAAERGRRKQGKKPHGDAQREGTEEEKTSEEPASVGITIEGVMSQKKLLSMIGGVERKMAPIGARESAVMLVSNSIKDVVRATAYFTAPTGDPHWKEVAREASKKKNILAYTSTGGDVKTEFLHLIDHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>31..1002</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>31</GBInterval_from>
+          <GBInterval_to>1002</GBInterval_to>
+          <GBInterval_accession>JN848767.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus helicase VP6; Region: Orbi_VP6; pfam01516</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279812</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

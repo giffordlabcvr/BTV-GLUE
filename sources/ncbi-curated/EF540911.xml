@@ -131,10 +131,6 @@
           <GBQualifier_value>ABU48459.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:156079743</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPPWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMPLT</GBQualifier_value>
         </GBQualifier>
@@ -166,10 +162,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>ABU48460.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:156079744</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

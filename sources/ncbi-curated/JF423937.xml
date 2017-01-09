@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>27-AUG-2011</GBSeq_update-date>
+  <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>27-AUG-2011</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 8 isolate BTV/2120/2010 VP2 gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>JF423937</GBSeq_primary-accession>
@@ -108,33 +108,8 @@
           <GBQualifier_value>AEM75106.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:343966358</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>PIYTNVFPAELLDGYDYIIDVSSRVEEEGDEPVKRHDVTEIPRNSMFDIKDQHIRDAIIYKPVNNDGYVLPRVLDITLKAFDDRKRVVLNDGHSEFHTKTNWVQWMIDDAMDVQPLKVDIAHTRSRISHALFNCTVRLHSKKADTASYHVEPVEIESWGCNHTWLSRIHHLVNVELFHCSQEAAYTLKPTYKIISNAERASTSDSFNGTMIELGRNHQIQMGDQGYQKLKEGLVQVRIEGKTPLVIQEEITALNKIREQWIARNFDQREIKVLDLCRLLSTIGRKMCNTEEEPKNEADLSVKFQMELDEIFRPGNNERTNIMGGGVHRKNEDRFYVLIMIAASDTNKGRIWWSNPYPCLRGALIAAEVQLGDVYNLLRNWFQWSVRPTYVPYDRNRESDKYIYSRINLFDSTLRPGDKIVHWEYKLLNEVREVSINKGNECDLFPEDEEFTTKFHEARYTEMKNQIIQSGWNQRDFKMHKILEDGANVLTIDFEKDAYIGTGSALSLPDYYNKWIIAPMFNAKLRITEVVIGTAHTDDPAVGRSAKAFTHDPFDLQRYCLARYYDVRPGMMGRALSKQQNMSSMTDKLSKQEDYAGIVSRRLEYKERENRCLTETAQYVFEKTCLYVLELLSRHTMPSEDSEVTFEHPTIDPSVDIETWKIIDVSQLIIFVFDYLFENRKIVRDTTEARWTLFKIRSEVGRARIDAIEMTFPRFGRMLRNASQAKINQDIACLNFLPLLFIIGDNISYAHRQWSIPVLLYAHDIRIIPLEVGAYNNRFGLTSYLEYMAFFPSYATRVAKIDESIKECAIAMAEFYMNTDIHSGSVMSNVITTKRLLYETYLASLCGGYSDGLLWYLPITHPSKCLVAFEVADDVVPLSVRRERILSRFPLSSRHVKGIALISVDRNQKVSVQTEGIVTHRLCKKNLLKYVCDVILFKFSGHVFGNDEMLTKLLNV</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>30..2867</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>30</GBInterval_from>
-          <GBInterval_to>2867</GBInterval_to>
-          <GBInterval_accession>JF423937.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus outer capsid protein VP2; Region: Orbi_VP2; pfam00898</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250211</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

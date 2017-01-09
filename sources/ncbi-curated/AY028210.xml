@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>13-AUG-2001</GBSeq_update-date>
+  <GBSeq_update-date>19-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>17-APR-2001</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus strain 10O90z nonstructural membrane glycoprotein NS3 gene, partial cds; and nonstructural membrane glycoprotein NS3A gene, complete cds</GBSeq_definition>
   <GBSeq_primary-accession>AY028210</GBSeq_primary-accession>
@@ -114,10 +114,6 @@
           <GBQualifier_value>AAK32999.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:13660699</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>SGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPPWFKGLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFAMPLT</GBQualifier_value>
         </GBQualifier>
@@ -153,10 +149,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAK33000.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:13660700</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

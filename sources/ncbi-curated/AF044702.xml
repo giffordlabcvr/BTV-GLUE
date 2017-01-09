@@ -129,10 +129,6 @@
           <GBQualifier_value>AAC42306.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:3643751</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELRLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVIALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMSLT</GBQualifier_value>
         </GBQualifier>
@@ -164,10 +160,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAC42307.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:3643752</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

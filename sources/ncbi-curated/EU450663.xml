@@ -120,10 +120,6 @@
           <GBQualifier_value>ACA34342.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:168830101</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLIAAVVALLTSACTLSSDMSVAFKLNGTSAEIPQWFKSLNPMLGVVNLGATFLMMVCAKSERSLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
         </GBQualifier>

@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>18-JUN-2015</GBSeq_update-date>
+  <GBSeq_update-date>20-MAY-2016</GBSeq_update-date>
   <GBSeq_create-date>21-JUN-2014</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 1 isolate SAD2012 segment 5, complete sequence</GBSeq_definition>
   <GBSeq_primary-accession>KJ577098</GBSeq_primary-accession>
@@ -113,7 +113,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>collection_date</GBQualifier_name>
-          <GBQualifier_value>23-Oct-2013</GBQualifier_value>
+          <GBQualifier_value>23-Oct-2012</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -149,33 +149,8 @@
           <GBQualifier_value>AID16364.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:656438120</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQNFERAMIAATDAEEPAKAYRLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGVQLLEDYRKSGMMDEAVKQSALVNSERVRLDDSLSAMPYIYVPIKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYKGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEVRYVQQLFGRVPTGEFPLHQMMLIRRDFPTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHADRWEWLIDYMDRKHTCQLCYLKHSKQIPTCGVIDVRASELTGCSPFKTVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>35..1678</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>35</GBInterval_from>
-          <GBInterval_to>1678</GBInterval_to>
-          <GBInterval_accession>KJ577098.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus non-structural protein NS1, or hydrophobic tubular protein; Region: Orbi_NS1; pfam01718</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:145067</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

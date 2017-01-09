@@ -148,10 +148,6 @@
           <GBQualifier_value>AEO19741.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:345846362</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MEQKQRRFTKNIFVLDANAKTLCGAIAKLSSQPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIISLMLTPHGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPDLPGVMRSNYDVRELRQKIKNERESAPRLQVQSVAPREESRWMDDDEAKVDEEAKEMIPGTSRLEKLREARSNVFKEVEAGINWNLDEKEEEDRDEREDEERVKTLSDDDEQGEDASDDEHPKTHITKEYIEKVAKQIKLKDERFMSLSSAMPQASGGFDRMIVTKKLKWQNVPLYCFDESSKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
         </GBQualifier>
@@ -159,11 +155,11 @@
     </GBFeature>
     <GBFeature>
       <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>20..1081</GBFeature_location>
+      <GBFeature_location>20..1066</GBFeature_location>
       <GBFeature_intervals>
         <GBInterval>
           <GBInterval_from>20</GBInterval_from>
-          <GBInterval_to>1081</GBInterval_to>
+          <GBInterval_to>1066</GBInterval_to>
           <GBInterval_accession>JN255959.1</GBInterval_accession>
         </GBInterval>
       </GBFeature_intervals>
@@ -174,7 +170,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:113290</GBQualifier_value>
+          <GBQualifier_value>CDD:282383</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

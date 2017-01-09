@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>30-NOV-2014</GBSeq_update-date>
+  <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>30-NOV-2014</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus strain NET2008/04 VP2 gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>GU550956</GBSeq_primary-accession>
@@ -126,10 +126,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>ADW08762.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:320090302</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

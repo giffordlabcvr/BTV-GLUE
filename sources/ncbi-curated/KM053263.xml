@@ -141,33 +141,8 @@
           <GBQualifier_value>AIG14341.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:666411250</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSLMTGESYGESVKQAVLLNVMGSGEELPDPLSPGERGMQTKIRELEDEQRNELIRLKYNDKIKQKFGKELEEVYEFMNGVAKQEEDEEKHYDVLKKAVNSYDKILTEEEKQMRILATALQKEVKERTGTEAVMVKEYRNKIDALKEAIEVERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPTIVSTVLDHKFKDIPDEMLAVSVLSKNRAIEENHKEIIHLKNEILPRFKKAMDEEKEICGIEDKKIHPKVMMKFKIPRTQQPQIHIYSAPWDSDDVFFFHCISHHHANESFFIGFDLGIDLVHYEDLTAHWHALGAAQAAVGRSLNEVYKEFLNLAINNTYSSQMHARRMIRSKTVHPIYLGSLHYDISFSTLRSNAQRIVYDEELQMHILRGPLHFQRRAILGAIKHGVKILGTEVDIPLFLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>&lt;590..&gt;745</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>590</GBInterval_from>
-          <GBInterval_to>745</GBInterval_to>
-          <GBInterval_accession>KM053263.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase (DMB-PRT), also called CobT; Region: DMB-PRT_CobT; cl11435</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:275933</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -188,7 +163,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

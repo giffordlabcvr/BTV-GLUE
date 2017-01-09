@@ -121,10 +121,6 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:60707</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
           <GBQualifier_value>InterPro:IPR002630</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>

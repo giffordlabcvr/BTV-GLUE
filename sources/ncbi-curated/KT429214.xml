@@ -115,10 +115,6 @@
           <GBQualifier_value>AMA11224.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:975884001</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQNFERAMIAATDAEEPAKAYRLVELAKEAMYDRETVW</GBQualifier_value>
         </GBQualifier>

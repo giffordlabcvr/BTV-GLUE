@@ -113,10 +113,6 @@
           <GBQualifier_value>AFN58225.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:395399775</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>IKRSSEELKQRQIQINLVDWTESENGKEGKTEPKEEDKAEELKDGEGAQSESSQKKESSKEAKDADVDRRVHTAVGSGSGAKGPGERANENVDRGDGKVGGGGGDADAGVGTTGANGGRWVVLTEEIARAIESKYGTKVDVYRDEVPAQIIEVERSLQKELGISREGVAEQTERLRDLRRKEKSGAHAKAAERGRRKQGKKPHGDAQKEGTEEEKTSEEPTSIGITIEGVMSQKKLLSMIGGVERKMAPIGARESAVMLVSNSIKDVVRATAYFTAPTGDPHWKEVAREASKKKNILAYTSTGGDVKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -148,10 +144,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AFN58226.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:395399776</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

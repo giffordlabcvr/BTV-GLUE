@@ -6,7 +6,7 @@
   <GBSeq_moltype>mRNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>30-JAN-2003</GBSeq_update-date>
+  <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>30-JAN-2003</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 2 partial mRNA for neutralization antigen VP2 (L2 gene)</GBSeq_definition>
   <GBSeq_primary-accession>AJ430059</GBSeq_primary-accession>
@@ -145,10 +145,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>CAD22542.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:28172028</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>

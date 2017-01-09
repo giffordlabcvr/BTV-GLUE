@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>12-FEB-2016</GBSeq_update-date>
+  <GBSeq_update-date>04-MAY-2016</GBSeq_update-date>
   <GBSeq_create-date>12-FEB-2016</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 8 isolate 15-01 segment 10, complete sequence</GBSeq_definition>
   <GBSeq_primary-accession>KU569999</GBSeq_primary-accession>
@@ -23,17 +23,28 @@
       <GBReference_reference>1</GBReference_reference>
       <GBReference_position>1..822</GBReference_position>
       <GBReference_authors>
-        <GBAuthor>Sailleau,C.</GBAuthor>
         <GBAuthor>Breard,E.</GBAuthor>
-        <GBAuthor>Vitour,D.</GBAuthor>
-        <GBAuthor>Zientara,S.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
         <GBAuthor>Quenault,H.</GBAuthor>
         <GBAuthor>Lucas,P.</GBAuthor>
+        <GBAuthor>Viarouge,C.</GBAuthor>
         <GBAuthor>Touzain,F.</GBAuthor>
+        <GBAuthor>Fablet,A.</GBAuthor>
+        <GBAuthor>Vitour,D.</GBAuthor>
+        <GBAuthor>Attoui,H.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
         <GBAuthor>Blanchard,Y.</GBAuthor>
       </GBReference_authors>
-      <GBReference_title>Bluetongue virus 8 strain BTV-8/15-01 France</GBReference_title>
-      <GBReference_journal>Unpublished</GBReference_journal>
+      <GBReference_title>Complete Genome Sequence of Bluetongue Virus Serotype 8, Which Reemerged in France in August 2015</GBReference_title>
+      <GBReference_journal>Genome Announc 4 (2) (2016)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/genomeA.00163-16</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>27081120</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
     </GBReference>
     <GBReference>
       <GBReference_reference>2</GBReference_reference>
@@ -139,33 +150,8 @@
           <GBQualifier_value>AMD77989.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:987312522</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSFNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFEMPLT</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>113..700</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>113</GBInterval_from>
-          <GBInterval_to>700</GBInterval_to>
-          <GBInterval_accession>KU569999.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus NS3; Region: Orbi_NS3; pfam01616</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250747</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -197,33 +183,8 @@
           <GBQualifier_value>AMD77990.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:987312523</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSFNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFEMPLT</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>113..700</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>113</GBInterval_from>
-          <GBInterval_to>700</GBInterval_to>
-          <GBInterval_accession>KU569999.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus NS3; Region: Orbi_NS3; pfam01616</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250747</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -253,10 +214,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AMD77991.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:987312524</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

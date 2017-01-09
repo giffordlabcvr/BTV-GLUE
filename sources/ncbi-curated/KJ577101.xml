@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>18-JUN-2015</GBSeq_update-date>
+  <GBSeq_update-date>20-MAY-2016</GBSeq_update-date>
   <GBSeq_create-date>21-JUN-2014</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 1 isolate SAD2012 segment 8, complete sequence</GBSeq_definition>
   <GBSeq_primary-accession>KJ577101</GBSeq_primary-accession>
@@ -113,7 +113,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>collection_date</GBQualifier_name>
-          <GBQualifier_value>23-Oct-2013</GBQualifier_value>
+          <GBQualifier_value>23-Oct-2012</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -149,33 +149,8 @@
           <GBQualifier_value>AID16367.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:656438130</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MEQKQRRFTKNIFVLDANAKTLCGAIAKQSSQPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIISLMLTPHGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPDLPGVMRSNYDVRELRQKIKNERESAPRLQVQSVAPREESRWMDDDEAKVDEEAKEMIPGTSRLEKLREARSNVFKEVEAGINWNLDEKDEEGRDEREDEEQVKTLSDDDEQGEDASDDEHPKTHITKEYIEKVAKQIKLKDERFMSLSSAMPQASGGFDRMIVTKKLKWQNVPLYCFDESSKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>10..1071</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>10</GBInterval_from>
-          <GBInterval_to>1071</GBInterval_to>
-          <GBInterval_accession>KJ577101.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Bluetongue virus non-structural protein NS2; Region: BTV_NS2; pfam04514</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:113290</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

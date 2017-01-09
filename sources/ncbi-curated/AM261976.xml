@@ -143,10 +143,6 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:148472678</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
           <GBQualifier_value>GOA:A5HWM0</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
@@ -176,31 +172,6 @@
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEETYQPGRWFMRAAQAVTAGVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTLAGVTVSVGGVDMRAGRIIAWDGQAALQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPVFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>1..1047</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>1</GBInterval_from>
-          <GBInterval_to>1047</GBInterval_to>
-          <GBInterval_accession>AM261976.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP7</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:144478</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

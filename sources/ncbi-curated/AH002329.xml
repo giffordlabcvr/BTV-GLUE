@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>06-APR-2016</GBSeq_update-date>
+  <GBSeq_update-date>28-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>15-JUN-1989</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus serotype-specific antigen genes, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>AH002329</GBSeq_primary-accession>
@@ -80,6 +80,10 @@
       <GBFeature_partial3 value="true"/>
       <GBFeature_quals>
         <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>serotype-specific antigen</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
           <GBQualifier_name>codon_start</GBQualifier_name>
           <GBQualifier_value>1</GBQualifier_value>
         </GBQualifier>
@@ -88,16 +92,8 @@
           <GBQualifier_value>1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>product</GBQualifier_name>
-          <GBQualifier_value>serotype-specific antigen</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAA42841.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:323178</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
@@ -135,6 +131,10 @@
       <GBFeature_partial5 value="true"/>
       <GBFeature_quals>
         <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>serotype-specific antigen</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
           <GBQualifier_name>codon_start</GBQualifier_name>
           <GBQualifier_value>1</GBQualifier_value>
         </GBQualifier>
@@ -143,16 +143,8 @@
           <GBQualifier_value>1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>product</GBQualifier_name>
-          <GBQualifier_value>serotype-specific antigen</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAA42842.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:323179</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

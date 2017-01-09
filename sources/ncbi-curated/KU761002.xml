@@ -170,62 +170,8 @@
           <GBQualifier_value>AMQ36832.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:1006063097</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKIGDVLTSNTAKKIYAAVGKTAERLATSEIGTATIDGLLQGSVHSMITGESYGESVKQAVLLNVLGRGEELPDPLSPGERGMQVKIQELEDEQRNELVRLKYDEAITRAFGQELREVYNFMTGEAAVEQQNVDQYEVLRKAVDSYGKILDAEDVKMAELARALQKETRERSEVEIKMVKEYRDKIDALKEAIEVERDGMQEEAIQEIAGMTADVLEATAEEVPLIGAGVAATIASGRAIEGAYKLKKVIGALSGIDLSHMRTPKIEPSLLATVLEHRFKEIPDGLLASSVLNKKISVMDNRNEIKHIKQEILPRFKHIMDEEREMAKREHKIIHPSVMMKFKIPRTLQPQIHIYVAPWDSDEVFFFHCISHHHRNESFFLGFDLGIDVVHFEDLVSHWHALGAAQEARGRTLSEAYKEFLNLSISSTSSSVVHARRMMRSRMVHPIYLGSIHYDITYEALKANAQKIVYDDELQMHVLRGPLHFQRRAILGALKYGVKILGEREDIPLLL</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>412..&gt;807</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>412</GBInterval_from>
-          <GBInterval_to>807</GBInterval_to>
-          <GBInterval_accession>KU761002.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP5</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Lambda phage tail tape-measure protein (Tape_meas_lam_C); Region: Tape_meas_lam_C; cl19901</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:276274</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>19..1539</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>19</GBInterval_from>
-          <GBInterval_to>1539</GBInterval_to>
-          <GBInterval_accession>KU761002.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>VP5</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus outer capsid protein VP5; Region: Orbi_VP5; pfam00901</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

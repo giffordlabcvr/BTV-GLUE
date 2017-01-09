@@ -162,12 +162,33 @@
           <GBQualifier_value>AKP24110.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:873240787</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MDELGIPIYKQGFPEHLLHGYEFTIDSSTKIQSVGGRHDVTKLPEMNAYDIKAESIRTALWYNPVRNDGFVLPRVLDITLRGYDGKRAVIDSSKHKIFYTDERWVQWMMKDSMDAQPLKVGLDDRTQKIAHSLHNCVVKIDSKKADTMSYHVEPIEDPSKGCLHTRAMLWNHLVRIEMSHAAQEIAYTLKPTYDIVVHAERRDRSQPFQPGDQTLINFGRGQKVQMNHNSYEKMVEGLAHLVIRGKTPELIRDEIAKLDEICNRWIRSRHDPGEIKAYELCKILSTVGRKMLDQEKEPADEASLSIRFQEAIDNKFRQHDPERLKIFEHRNQRRDEDRFYILLMIAASDTFNTRIWWSNPYPCLRGTLMASETKLGDVYSMIRSWYDWSVRPTYTPYEKSREQEKYIYGRVNLFDYVAEPGTKIIHWEYKLNQQTKDITYEQGNPCDLFPDDDEAIVTKFDDVAYGQMVSDLINGGWDQERFKMHKILKSQGNVLTIDFEKDAKLTSNEGVTMPEYFDKWIIAPMFNAKLRIKHSEIAQRRNDDPMVKRTLSPIAFDPIVLQRLTLARYYDIRPAIMGQALSRQQGQSTYDEEVSKIEGYAEILQRRGIVQIPKKPCPTVTAQYTLERYALFLINILEQHVIQSTDEDVIYSHPRVDYKLEIYGESIVDISQIVIFVFDFLFERRRTVRGVYESRYMVTRIRDAQGQNRINVITEFFPTFGYHLSRIKEATIMQEIMYLNFLPLFFLVSDNIMYTHKQWSVPLLLYAHELKVIPLEVGSYNDRCGLISYVEYMVFFPSKAFRTSKLDEVQPKIAREMLKYYTNTKIFEGGINLNVITTKQLLYETYLASLCGGLSDGIVWYLPITHPSKCLVAGEVSDERVPPSIRASRIKPRFPLSVKHLKGIVIIQIDEEGKFTVYSEGIVSHRICKKNLLKYMCDIVLLKFSGHVFGNDEMLTKLLNV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>63..2900</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>63</GBInterval_from>
+          <GBInterval_to>2900</GBInterval_to>
+          <GBInterval_accession>KP696508.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP2; Region: Orbi_VP2; pfam00898</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279269</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

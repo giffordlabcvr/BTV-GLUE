@@ -141,12 +141,29 @@
           <GBQualifier_value>AIG14351.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:666411269</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQNFERAMIAATDAEEPAKAYRLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGVQLLEDYRKSGMMDEAVKQSALVNSERVRLDDSLSAMPYIYVPIKEGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYKGRVFQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEVRYVQQLFGRVPTGEFPLHQMMLIRRDFLTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHADRWEWLIDYMDRKHTCQLCYLKHSKRIPTCGVIDVRASELTGCSPFKTVKIEEHVGNDSVFKTKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>8..1651</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>8</GBInterval_from>
+          <GBInterval_to>1651</GBInterval_to>
+          <GBInterval_accession>KM053272.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus non-structural protein NS1, or hydrophobic tubular protein; Region: Orbi_NS1; pfam01718</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279979</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

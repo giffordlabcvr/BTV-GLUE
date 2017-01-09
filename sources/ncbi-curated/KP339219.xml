@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KP339219</GBSeq_locus>
+  <GBSeq_length>1615</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>30-NOV-2016</GBSeq_update-date>
+  <GBSeq_create-date>30-NOV-2016</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 16 isolate BTV16IND2011-NR82 segment 6, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KP339219</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP339219.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP339219.1|</GBSeqid>
+    <GBSeqid>gi|937538740</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1615</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Reddy,V.Y.</GBAuthor>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,N.Y.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Phylogenetic analysis of Indian isolates of Bluetongue virus</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1615</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,V.Y.</GBAuthor>
+        <GBAuthor>Reddy,N.Y.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (27-DEC-2014) Ella Foundation, Turkapally, Genome Valley, Hyderabad, Andhra Prasdedh 500078, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers KP339214-KP339223 represent sequences from the 10 segments of Bluetongue virus 16 isolate BTV16IND2011-NR82; ##Assembly-Data-START## Assembly Method Bowtie v. 1 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1615</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1615</GBInterval_to>
+          <GBInterval_accession>KP339219.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV16IND2011-NR82</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>sheep exibiting bluetongue like symptoms</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45029</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Adilabad, Andhra Pradesh</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lat_lon</GBQualifier_name>
+          <GBQualifier_value>19.09 N 78.34 E</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Sep-2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>P Panduranga Rao</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>Asian</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>18..1598</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>18</GBInterval_from>
+          <GBInterval_to>1598</GBInterval_to>
+          <GBInterval_accession>KP339219.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ALI51229.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MGKIIKSLSRFGKKVGSALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSIMTGESYGESVKQAVLLNVLGAGDEIPDPLSPGERGIQMKIKEIEEEQRNELVRLKHGKEITKKFGEELEEIYQFMNGEVKDEEEQEEQYKVLCKAVNSYEKLLIAENDKMHILARALQREAAERTEAESTMVKEYRQKIDALKAAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLVGSGMATAIATGRAIEGAYKLKKVINALSGIDLSHLRTPKIEPTMVATTLEHRFEDIPDKKLAMSILAKNNAITANTREIQHIKEEILPKFKKVMDEEKELEGIDDKKIHPRVMMRFKVPRSQQPQIHIYSAPWDSDDVFFFHCVSHFHANESFFLGFDLGIDVVHFEDLAAHWHALGAAQEAKGRTLNEAYREFLNLAIGSTYTSPMHARRMIRSKTVHPIYLGSMHYDITYDTLKSNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGVKVLGDKIDVPLFLKNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>36..1556</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>36</GBInterval_from>
+          <GBInterval_to>1556</GBInterval_to>
+          <GBInterval_accession>KP339219.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP5; Region: Orbi_VP5; pfam00901</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tcctacgattgcggaagatgggtaaaatcatcaaatcactaagccgtttcggcaagaaggttgggagcgcgttaacgtctaatacagcgaagaaaatctatagcaccatagggaaggcggcggaaaggttcgcggaaagtgagattgggtccgcggcaattgatggactagtccaaggtagcgttcactcgatcatgaccggggagtcgtatggcgaatcggtgaaacaggctgtactgctgaacgttctgggggcgggagacgagattcctgatccgttaagcccaggggaacgcggcatccagatgaagatcaaggaaattgaagaagagcagagaaacgaattggtaaggctgaagcatgggaaggagattacaaagaaatttggtgaagaactagaggagatatatcaatttatgaatggtgaggtgaaggatgaggaagagcaagaagagcaatataaagtgctatgtaaggcggttaactcgtacgagaaactacttatagctgaaaatgataagatgcacatattagctcgtgcattgcagagggaggcagctgaaaggactgaagctgaatcaacaatggttaaagagtacaggcagaaaattgatgcattaaaggccgccatcgaaatcgaacgggacgggatgcaggaggaagcgattcaggaaattgccggaatgaccgcggatgtgttggaagcggcttcagaggaagtacctttagttggttcggggatggcgaccgcgattgcaacaggaagagcgatcgagggcgcgtataaactaaaaaaggtgataaacgcattaagtggaattgatttatctcatttgcgtacaccgaagatagaacctacgatggttgcgactacgttggaacatagatttgaagatataccagacaaaaaacttgctatgagcatactagccaagaataacgcgataacggcgaacacgagagagatccaacatattaaagaggagattttaccaaagttcaagaaggtgatggatgaagaaaaagagcttgaaggaattgatgataagaagatccacccaagagtaatgatgaggttcaaagtgccacggtcacagcagccgcaaatacatatatatagtgcaccatgggattcagatgatgttttcttctttcattgtgtttcacatttccatgccaatgaatctttcttcctaggctttgatttaggaatcgatgtagttcattttgaggatttggcggctcattggcacgctttaggcgcggcgcaggaagctaaaggacgtaccttgaacgaagcgtatcgcgagttcttaaatttagcaatcggtagtacctacacttctccaatgcacgcccgacgtatgattcgatcgaaaacggtacatccaatctatttaggatcgatgcattatgatataacgtacgatactttgaagtcgaatgcgcagaggattgtatatgatgatgagttgcaaatgcacatattaaggggtccgttgcatttccaacggcgcgcaatactgggcgcgttaaagtttggagttaaggttcttggtgataaaattgatgtcccgctcttcctaaaaaacgcgtgactgcggtaatctcggrg</GBSeq_sequence>
+</GBSeq>

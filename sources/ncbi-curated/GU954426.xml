@@ -148,10 +148,6 @@
           <GBQualifier_value>ADE58108.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:293618182</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPTLKSDLSGLKKKRAIIHTTLLVAAVIALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVWAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSIPLDGFEMSLT</GBQualifier_value>
         </GBQualifier>
@@ -183,10 +179,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>ADE58109.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:293618183</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

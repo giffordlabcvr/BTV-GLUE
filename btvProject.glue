@@ -29,7 +29,7 @@ project btv
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
   create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
-  create module --fileName modules/seqToDeleteImporter.xml seqToDeleteImporter
+  create module --fileName modules/seqToDeleteExcluder.xml seqToDeleteExcluder
   create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
   create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
@@ -73,7 +73,9 @@ project btv
   module btvGenbankXmlPopulator populate
 
   # populate 'excluded' field for certain sequences
-  module seqToDeleteImporter populate -f tabular/seq_to_delete.txt
+  module seqToDeleteExcluder transform tabular/seq_to_delete.txt --run 
+  # non-excluded fields
+  multi-set field sequence -w "excluded = null" excluded false
 
   # populate extra columns from tabular data
   module extraColumnsAddedImporter populate -f tabular/extra_columns_added.txt
@@ -87,7 +89,8 @@ project btv
   # update gb_country_short based on gb_country_iso
   run file glue/btvCountryUpdate.glue
   
-  run file glue/btvAlignmentTree.glue
+  # REINSTATE this
+  # run file glue/btvAlignmentTree.glue
 
   
   validate

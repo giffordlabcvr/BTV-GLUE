@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>07-JUN-1999</GBSeq_update-date>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>02-JUN-1999</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 3 strain V349 outer capsid protein VP2 (L2) gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>AF135219</GBSeq_primary-accession>
@@ -162,10 +162,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAD34444.2</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:5002538</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

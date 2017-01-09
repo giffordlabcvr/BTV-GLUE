@@ -170,10 +170,6 @@
           <GBQualifier_value>AEO19769.2</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:557882478</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MPEPHAVLYVTNELSHIVKSGFLPIWRLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKNIQLADIIKTVDVRIPREVAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHKIYGMPEIPPLYMEYAEIGTRFDDEPTDEKLVSMLDYIVYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPESSDSNVIVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRSQMDDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRHMHPDASVMKVVSRDVRKMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLEPSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHEAADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGIREGASIDSWLELLRHL</GBQualifier_value>
         </GBQualifier>
@@ -181,10 +177,10 @@
     </GBFeature>
     <GBFeature>
       <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>9..1934</GBFeature_location>
+      <GBFeature_location>15..1934</GBFeature_location>
       <GBFeature_intervals>
         <GBInterval>
-          <GBInterval_from>9</GBInterval_from>
+          <GBInterval_from>15</GBInterval_from>
           <GBInterval_to>1934</GBInterval_to>
           <GBInterval_accession>JN255935.2</GBInterval_accession>
         </GBInterval>
@@ -196,7 +192,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:147308</GBQualifier_value>
+          <GBQualifier_value>CDD:282862</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

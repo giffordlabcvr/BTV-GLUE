@@ -159,10 +159,6 @@
           <GBQualifier_value>AEZ54702.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:374634996</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>PYPCLRGALIASECKLGDVYHKLRAWYEWSVRPEYKPPDLEREQEKYIVGRVNLFDLEGEPATKVFHWEYELINKVYHI</GBQualifier_value>
         </GBQualifier>

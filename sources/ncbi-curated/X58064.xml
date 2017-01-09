@@ -129,10 +129,6 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:58771</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
           <GBQualifier_value>GOA:P32932</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>

@@ -132,10 +132,6 @@
           <GBQualifier_value>AFK91742.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:389616749</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSAEIPQWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
         </GBQualifier>
@@ -143,10 +139,10 @@
     </GBFeature>
     <GBFeature>
       <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>109..696</GBFeature_location>
+      <GBFeature_location>118..696</GBFeature_location>
       <GBFeature_intervals>
         <GBInterval>
-          <GBInterval_from>109</GBInterval_from>
+          <GBInterval_from>118</GBInterval_from>
           <GBInterval_to>696</GBInterval_to>
           <GBInterval_accession>JQ086290.1</GBInterval_accession>
         </GBInterval>
@@ -158,7 +154,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250747</GBQualifier_value>
+          <GBQualifier_value>CDD:279892</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -190,10 +186,6 @@
           <GBQualifier_value>AFK91743.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:389616750</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MKHNQERVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSAEIPQWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
         </GBQualifier>
@@ -201,10 +193,10 @@
     </GBFeature>
     <GBFeature>
       <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>109..696</GBFeature_location>
+      <GBFeature_location>118..696</GBFeature_location>
       <GBFeature_intervals>
         <GBInterval>
-          <GBInterval_from>109</GBInterval_from>
+          <GBInterval_from>118</GBInterval_from>
           <GBInterval_to>696</GBInterval_to>
           <GBInterval_accession>JQ086290.1</GBInterval_accession>
         </GBInterval>
@@ -216,7 +208,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250747</GBQualifier_value>
+          <GBQualifier_value>CDD:279892</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

@@ -153,12 +153,33 @@
           <GBQualifier_value>ALX36918.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:973529877</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MPEPHAVLYVTNELSHIVKNGFLPIWRLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKNIQLADIIKTVDVRIPREVAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHKIYGMPEIPPLYMEYAEIGTRFDDEPTDEKLVSMLDYIVYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPESLDPNVIVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRSQMDDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRHMHPDASVMKVVSRDVRKMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLEPSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGMREGASIDSWLELLRHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>15..1934</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>15</GBInterval_from>
+          <GBInterval_to>1934</GBInterval_to>
+          <GBInterval_accession>KT885068.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus VP4 core protein; Region: Orbi_VP4; pfam05059</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:282862</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

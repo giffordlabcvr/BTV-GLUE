@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>21-JAN-2009</GBSeq_update-date>
+  <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>21-JAN-2009</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus VP3 gene for core protein VP3, partial cds, strain: KT/05</GBSeq_definition>
   <GBSeq_primary-accession>AB449044</GBSeq_primary-accession>
@@ -136,10 +136,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>BAH14940.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:221040318</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

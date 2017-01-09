@@ -139,10 +139,6 @@
           <GBQualifier_value>AAM95392.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:22297198</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHNQERIEELSLVRVDDTISQPPRYAPSAPIPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFCDDVRLKQIKRHVNEQILPKLKSDLGGLKKKRAIIHMTLLIAAVVALLTSVCTLSSDMSVAFKLNGTSAEIPPWFKSLNPMLGVVNLGATFIMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFELPLT</GBQualifier_value>
         </GBQualifier>

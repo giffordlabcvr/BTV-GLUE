@@ -109,10 +109,6 @@
           <GBQualifier_value>AGJ83519.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:480327362</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MSAAILLAPGDVIKRSSEELKQRQIQINLVDWVESESEKEDKTESKEEDKAEESKDGEGTQSESGQKKESGKEAKDADVDRRIHTTVGSGSGAKGSGERTNENVDRGDGKVGGGGGDANAGVGTTGANGGRWVVLTEEIARAIESKYGTKVDVYRDEVPAQIIEVERSLQKELGISREGVAEQTERLRDLRRRERSGAHAKAAEKGRRKQGKKAHGDAQKEGTEEDKMSEEPASVGITIEGVMSQKKLLSMIGGVERKMAPIGARESAVMLVSNSIKDVVRATAYFTAPTGDPHWKEVAREASKKKNILAYTSTGGDVKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -135,7 +131,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250678</GBQualifier_value>
+          <GBQualifier_value>CDD:279812</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

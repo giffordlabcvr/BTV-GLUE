@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>05-JUL-2011</GBSeq_update-date>
+  <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>03-APR-2006</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 10 isolate Nalgonda15/2003 nonstructural protein (NS1) gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>DQ418908</GBSeq_primary-accession>
@@ -161,37 +161,8 @@
           <GBQualifier_value>ABD97863.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:90761711</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCVKQHFERAMIAATDAEEPAKAYKLVELAKEAMYDRETVWL</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>26..&gt;274</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>26</GBInterval_from>
-          <GBInterval_to>274</GBInterval_to>
-          <GBInterval_accession>DQ418908.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>gene</GBQualifier_name>
-          <GBQualifier_value>NS1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus non-structural protein NS1, or hydrophobic tubular protein; Region: Orbi_NS1; pfam01718</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:145067</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

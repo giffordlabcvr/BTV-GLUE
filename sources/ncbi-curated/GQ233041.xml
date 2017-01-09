@@ -6,7 +6,7 @@
   <GBSeq_moltype>cRNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>15-JUL-2009</GBSeq_update-date>
+  <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>15-JUL-2009</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus VP2 protein gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>GQ233041</GBSeq_primary-accession>
@@ -117,10 +117,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>ACT33456.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:253721651</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

@@ -132,54 +132,8 @@
           <GBQualifier_value>AFK91773.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:389616806</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGAAAIDGLVQGSVHSIITGESYGESVKQAVLLNVLSAGEELPDPLSPGERGMQAKIKELEDEQRNELIRLKYNKEITDAFGKELNEVYEFMNGETKEEEVVQEQYSMLCKAVDSYEKILKAEDSKMAVLARALQREASERSEDEIKMVKEYRHKIDALKNAIEVERDGMQEEAIQEIAGMTADVLEAASEEVPLVGAGMATAVATGRAIEGAYKLKKVINALSGIDLSHMRTPKIEPTIIATTLEHRFKDIPDDRLAISVLNKKAAVADNCNEISHIKQEILPKFRKIMDEEKEIEGIEDKVIHPRVMMRFKIPRTQQPQIHIYAAPWDSDEVFFFHCVSHHHRNESFFLGFDLGIDVVHFEDLTSHWHALGNAQEATGRTLTEAYREFLNLSATSMFSSVIHTRRMIRSRAVHPIFLGSMHYDVTYEVLKNNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGVKILGDKLDVPLFLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>408..&gt;626</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>408</GBInterval_from>
-          <GBInterval_to>626</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>14-3-3 domain; Region: 14-3-3; cl02098</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:261174</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>&lt;309..1094</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>309</GBInterval_from>
-          <GBInterval_to>1094</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>ATP synthase (C/AC39) subunit; Region: vATP-synt_AC39; cl00660</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:275645</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -200,59 +154,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>order(411..413,528..530,537..539,549..551,594..596,606..608,615..620)</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>411</GBInterval_from>
-          <GBInterval_to>413</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>528</GBInterval_from>
-          <GBInterval_to>530</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>537</GBInterval_from>
-          <GBInterval_to>539</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>549</GBInterval_from>
-          <GBInterval_to>551</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>594</GBInterval_from>
-          <GBInterval_to>596</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>606</GBInterval_from>
-          <GBInterval_to>608</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>615</GBInterval_from>
-          <GBInterval_to>620</GBInterval_to>
-          <GBInterval_accession>JQ086256.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_operator>order</GBFeature_operator>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>dimer interface [polypeptide binding]; other site</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:206755</GBQualifier_value>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

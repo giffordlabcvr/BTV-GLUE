@@ -109,33 +109,8 @@
           <GBQualifier_value>AGJ83596.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:480327516</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNVLTSNTAKKIYSTIGRAAERFAESEVGAATIDGFVQGSVHSIMTGESYGESVKQAVLLNVLGSGEELPDPLSPGERGIQTKLKELEDEQRNELVRLKLNKKIVDKFGTELEEVYDFMNGAAKDDENEIKQYDILCKAVDSYGKILREEDKKMLELARALQRESESRSDEETKMVREYRSKIDALRDAVDVERESMTEEAIQEIAGMTSDVLEAAAEEVPLVGSGMATAIATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPSLIATTLEYRDRPIPDDSLAVSVLEKRRAIEENKNEIEHIKNEILPRFKKAMEEEKEISGIEESVIHPKVMMRFKIPRSQQPQIHIYCSPWDSDTVFFFHCVSHHHMNESFFIGFDLELDLVHFEDLTAHWHALGAAQTVVGRTFQEAYREFLGRAMMDPSSGAMHKRRMSRSRSVHPIYLGSMHYDISYATLKSNAQRIVYDDELQMHVLRGPIHFQRRAILGALKHGIKILNDKIDLTSLLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>221..643</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>221</GBInterval_from>
-          <GBInterval_to>643</GBInterval_to>
-          <GBInterval_accession>JX272434.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Rab interacting lysosomal protein-like 1 and 2 (Rilpl1 and Rilpl2); Region: RILP-like; cl18042</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:271823</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -156,7 +131,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

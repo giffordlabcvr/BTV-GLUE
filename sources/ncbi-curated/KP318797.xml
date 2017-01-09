@@ -110,33 +110,8 @@
           <GBQualifier_value>AKI87953.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:824629634</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>THKTHRTNQDRFYVLLMIAASDTNNGRVWWSNPYPCLRGALIASECKLGDVYHKLRAWYEWSVRPEYKPRDLEREQEKYIVGRVNLFDLEGEPATKVFHWEYELINKVYQITNHTGNHCDLYPDDVEITAKFDEEKYGEMIQTIINEGWKHGDFKMFKILKEEGNPLLYDLEKDIRLDSRSQVIFPPYFNKWTHAPMFNAKVKPCEVELAQRKNEDPYVKRTVKPIRADCVDLLRYHMSHYM</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>&lt;1..&gt;726</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>1</GBInterval_from>
-          <GBInterval_to>726</GBInterval_to>
-          <GBInterval_accession>KP318797.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus outer capsid protein VP2; Region: Orbi_VP2; pfam00898</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:250211</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

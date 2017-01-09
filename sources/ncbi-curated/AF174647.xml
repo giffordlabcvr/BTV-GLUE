@@ -6,15 +6,18 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>01-SEP-2000</GBSeq_update-date>
+  <GBSeq_update-date>13-SEP-2016</GBSeq_update-date>
   <GBSeq_create-date>01-SEP-2000</GBSeq_create-date>
-  <GBSeq_definition>Bluetongue virus PSMCH1 gene, complete cds</GBSeq_definition>
+  <GBSeq_definition>UNVERIFIED: Bluetongue virus PSMCH1 gene, complete cds</GBSeq_definition>
   <GBSeq_primary-accession>AF174647</GBSeq_primary-accession>
   <GBSeq_accession-version>AF174647.1</GBSeq_accession-version>
   <GBSeq_other-seqids>
     <GBSeqid>gb|AF174647.1|</GBSeqid>
     <GBSeqid>gi|9957025</GBSeqid>
   </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>UNVERIFIED_ORGANISM</GBKeyword>
+  </GBSeq_keywords>
   <GBSeq_source>Bluetongue virus</GBSeq_source>
   <GBSeq_organism>Bluetongue virus</GBSeq_organism>
   <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
@@ -44,6 +47,7 @@
       <GBReference_journal>Submitted (02-AUG-1999) Department of Pathology, Institution of Basic Medical Sciences, Chinese Acadamy of Medical Sciences, 5 Dong Dan San Tiao, Beijing 100005, People's Republic of China</GBReference_journal>
     </GBReference>
   </GBSeq_references>
+  <GBSeq_comment>GenBank staff is unable to verify source organism and sequence and/or annotation provided by the submitter.</GBSeq_comment>
   <GBSeq_feature-table>
     <GBFeature>
       <GBFeature_key>source</GBFeature_key>
@@ -96,10 +100,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AAG09179.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:9957026</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

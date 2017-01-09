@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KP339156</GBSeq_locus>
+  <GBSeq_length>2755</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>30-NOV-2016</GBSeq_update-date>
+  <GBSeq_create-date>30-NOV-2016</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 2 isolate BTV02IND1993 segment 3, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KP339156</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP339156.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP339156.1|</GBSeqid>
+    <GBSeqid>gi|937538794</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 2</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 2</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2755</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Reddy,V.Y.</GBAuthor>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,N.Y.</GBAuthor>
+        <GBAuthor>Sreenivasulu,D.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Phylogenetic analysis of Indian isolates of Bluetongue virus</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..2755</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rao,P.P.</GBAuthor>
+        <GBAuthor>Reddy,N.Y.</GBAuthor>
+        <GBAuthor>Reddy,V.Y.</GBAuthor>
+        <GBAuthor>Sreenivasulu,D.</GBAuthor>
+        <GBAuthor>Hegde,N.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (27-DEC-2014) Department of Microbiology, College of Veterinary Science, Srivenkateswara Veterinary University, Rajendranagar, Hyderabad, Andhra Prasdedh 500030, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers KP339154-KP339163 represent sequences from the 10 segments of Bluetongue virus 2 isolate BTV02IND1993; ##Assembly-Data-START## Assembly Method Bowtie v. 1 Sequencing Technology Illumina ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2755</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2755</GBInterval_to>
+          <GBInterval_accession>KP339156.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BTV02IND1993</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>sheep with BT-like symptoms</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>sheep</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35328</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India: Chittoor, Andhra Pradesh</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>1993</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>Sreenivasulu D</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>Asian</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>4..2709</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>4</GBInterval_from>
+          <GBInterval_to>2709</GBInterval_to>
+          <GBInterval_accession>KP339156.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ALI51256.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MAAQNEQRPERIKTTPYLEGDVLSSDSGPLLSVFALQEIMQKVRQVQADYMTATREVDFTVPDVQKILDDIKALAAEQVYKIVKVPSISFRHIVMQSRDRVLRVDTYYEEMSQVGDVITEDEPEKFYSTIIKKVRFIRGKGSFILHDIPTRDHRGMEVAEPEVLGVEFKNVLPVLTAEHRAMIQNALDGSIIENGNVATRDVDVFIGACSEPVYRIYNRLQGYIEAVQLQELRNSIGWLERLGHRKRITYSQEVLTDFRRQDTIWVLALQLPVNPQVVWDVPRSSIANLXMNIATCLPTGEYIAPNPRISSITLTQRITTTGPFAILTGSTPTAQQLNDVRKIYLALMFPGQIILDLKIDPGERMDPAVRMVAGVVGHLLFTAGGRFTNLTQNMARQLDIALNDYLLYMYNTRVQVNYGPTGEPLDFQIGRNQYDCNVFRADFATGTGYNGWATIDVEYREPAPYAHAQRYIRYCGIDSRELINPTTYGIGMTYHCYNEMLRMLVAAGKDSEAAYFRSMLPFHMVRFARINQIINEDLHSVFSLPDDMFNALLPDLIAGAHQNADPVVLDVSWISLWFAFNRSFEPTHRNEMLEVAPLIESVYASELSVMKVDMRHLSLMQRRFPDVLIQARPSHFWKAVLNDSPEAVKAVMNLSHSHNFINIRDMMRWVMLPSLQPSLKLALEEEAWAAANDFEDLMLTDQVYMHRDMLPEPRLDDIERFRQEGFYYTNMLEAPPEIDRVVQYTYEIARLQANMGQFRAALRRIMDDDDWVRFGGVLRTVRVKFYDARPPDDVLQGLPFSYDTNERGGLAYATIKYXTETTIFYLIYNVEFSNTPDSLVLINPTYTMTKVFINKRIVERVRVGQILAVLNRRFVAYKGKMRIMDITQSXKMGTKLAAPTV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gccatggctgctcagaacgagcaacgtccggagagaataaagacgacaccttatttggaaggagatgtattgtcgagtgattcaggaccgttgttatcagtgttcgcgttacaagaaatcatgcagaaagtgagacaggtacaagcggattacatgacggcaacgcgcgaggttgatttcacggtaccagatgtacagaagattctcgatgatatcaaagcattggctgctgagcaagtgtacaagatagttaaagtaccaagcatatctttcaggcacattgttatgcaatcaagagatcgagtactgcgggtagacacatactatgaggagatgtcgcaggtaggcgatgttatcacggaagatgaaccggagaagttttattcgacgattatcaagaaagttagattcatacgcggraaaggatccttcatattacacgacatcccaactagagatcatcgcgggatggaggttgcggaaccagaggtattaggcgtggaattcaagaatgtgctgcctgtgttaacagccgaacatagagcgatgatacaaaatgctttggatgggtcaattatcgaaaatggaaacgttgcaactcgcgatgttgatgtattcatcggtgcatgctccgagccagtttatcgcatatacaacagattacaaggttacatagaggccgtacaactacaagaacttaggaactcgattggatggttagaacggttaggtcacagaaagaggatcacctattcgcaagaggtgctaactgatttcagaaggcaggatactatttgggtgctggctctgcaattgcccgtaaatcctcaagtagtttgggacgttcctcggagttcaattgcgaatcttrttatgaacatagcgacgtgtttgcctacgggagaatacatagcaccaaacccaaggatttcttcaattacgctcactcaacgaatcacgacgactgggccttttgcgatattgactggatcaacgccaaccgcacagcagcttaatgacgttaggaagatttacttagctctaatgttcccaggacaaattatacttgatcttaagattgatcctggtgaaaggatggatccagcagtgagaatggttgcgggtgttgtaggccatctacttttcacggcgggaggacggtttactaacctaactcagaatatggcacgtcagttggatattgcgctaaacgactacttattatacatgtataatacgcgtgtgcaggttaattatggccctacgggggaaccgttggattttcagatcggcaggaatcaatatgattgtaatgtattccgagcrgattttgctacgggaacaggatataatggatgggcgacaattgatgttgagtatagagaacccgcaccctacgcacatgctcagcgttatatacggtactgtggcattgattcgcgagagttgatcaatccaactacatatggaatcggtatgacttatcattgttataatgagatgctacgcatgctggtcgccgcaggtaaagattcggaggcggcgtacttccgcagtatgttacccttccacatggtaaggttcgctagaattaaccagattataaatgaagacttgcattcagtgttttcgctgccagatgatatgtttaatgcattactccccgatttaatagccggcgctcatcagaatgcagatcctgtcgtcctagatgtaagctggatatcactttggttcgccttyaatcggtcgttcgagccaacgcatcgtaatgaaatgttggaagttgccccattgattgagtctgtttacgcgtcggagttatcagtaatgaaggtggatatgcgacatctttcgttgatgcagaggagattcccggatgttctaatccaagcgagaccctctcatttctggaaggcggtgctaaatgatagccccgaagcagtcaaagccgtaatgaatttatcgcattcacataatttcatcaatataagagatatgatgagatgggttatgttaccctcgttacagccgtcacttaagttggcgttggaagaagaagcttgggctgcggcgaatgattttgaagatttgatgctgaccgatcaagtgtatatgcacagagacatgctcccagaacctcgacttgatgacatcgaaagatttagacaggagggtttctattatactaatatgctggaggctcctcccgaaatcgatcgcgttgttcagtacacatacgaaattgcgcgacttcaagcaaatatgggacagtttcgtgcggcgttacggcgtatcatggatgatgatgattgggtaagatttggtggcgttttacgaacggttcgcgttaaattctatgacgcgcgacccccagatgatgttctgcaaggtctaccctttagttatgacactaacgaaagaggtgggttagcgtatgcgacaattaagtacrctaccgagacaactattttctacctaatatataatgtcgagttctccaacacaccggattcccttgttttaattaatccgacgtatacgatgactaaagtctttattaacaagagaattgttgaacgagttagagtcggacaaatcctagccgtattgaatagaagatttgtcgcatataaaggtaaaatgagaattatggacattacacaatcgytcaaaatgggcactaagctggctgcgccgactgtgtagagatgcgacctatctatgcactcggtagcggcagcggaaacacacg</GBSeq_sequence>
+</GBSeq>

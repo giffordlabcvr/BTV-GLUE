@@ -153,10 +153,6 @@
           <GBQualifier_value>AIT40430.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:696136132</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MSAAMLLAPGDVIKRSSEELKQRQIQINLVDWAESKSEKEEGPKLEGKSGKQDKLSDGEGAQQKDGKKKESGKETQDANVDRCLHTTVGSGSSAKGSGERADKDADGGDGKTRGGGGDADEGAGAAGASRGGWVVLTDEIARAIESKYGTKVDVYRDEASAQIIEIERSLQRELGITREGVAEQTEKLRDLRRKERGEPRTKAVVKGDRKRGRSSQDSSSKKEGVGEEVQEETTKVGITIEGVMSQKKLLSMIGGVERKAAPIGARESAVMLVSNNIKDVARATAYFTSPTGDPNWKEVAREASKKKNILAYSSTGGDTKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -188,10 +184,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>AIT40431.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:696136133</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

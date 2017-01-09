@@ -110,33 +110,8 @@
           <GBQualifier_value>AKK23612.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:827747349</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>LSVFALQEIMQKVRQVQADYMTATREVDFTVPDVQKILDDIKALAAEQVYKIVKIPSISFRHIVMQSRDRVLRVDTYYEEMSQVGDVITEDEPEKFYSTIIKKVRFIRGKGSFILHDIPTRDHRGMEVAEPEVLGVEFKNVLPVLTAEHRAMIQNALDGSIIENGNVATRDVDVFIGACSEPIYRIYNRLQGYIEAVQLQELRNSIGWLERLGQRKRITYSQEVLTDFRRQDTIWVLALQLPVNPQVVWDVPRSSIANLIMNIATCLPTGEYIAPNPRISSITLTQRITTTGPFA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>2..&gt;885</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>2</GBInterval_from>
-          <GBInterval_to>885</GBInterval_to>
-          <GBInterval_accession>KP342323.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus VP3 (T2) protein; Region: Orbi_VP3; pfam01700</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:145054</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

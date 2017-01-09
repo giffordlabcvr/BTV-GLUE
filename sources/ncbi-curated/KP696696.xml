@@ -162,12 +162,33 @@
           <GBQualifier_value>AKP24316.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:873242637</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MRACATLQXXXIVLXANVMEILGIAINXYNGLTLXXXTMXPTSLAQXNEMFFMCLBXMLXPXGIXVEPXSPNYXHXMATIEXLPXPXIPFTTKAANEIXRVTGETSTWGPARQPYGFFLETXETYXPGRWFMXXAQAVTAVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTLAGVTVSVGGVDMRAGRIIAWDGQAALQIXNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLTRAIARAAYV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>51..1061</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>51</GBInterval_from>
+          <GBInterval_to>1061</GBInterval_to>
+          <GBInterval_accession>KP696696.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279268</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

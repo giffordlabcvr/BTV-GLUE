@@ -140,10 +140,6 @@
           <GBQualifier_value>CEK41878.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:747014216</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MSAAILLAPGDVIKRSTGELKQRQIQINLVDWVTEEREGVSSKQNERKEKEGGQNGEETQQKSGEKEKSGEETQNADVDGRVHIAVGPGSGKKGLGGSSSKNASRGDGETGGRDRVTDEGDGVNGTNRGRWVVLTDEIARAIESKYGTKVEVYANEQEAQIIEVERSLQKELGITREGVAEQTERLRDLKRREKIENLGKVVARRGAKGRKENGDKKDTSKEGNAKPQSCEEIAPVGIIIEGVMSQKKLLSMIGGVERKTTPIGARESAVMLVSNSLKDVARATAYFTAPTGDPNWKDVAREASKKKNILAYTSTGGDVKTEFLHLIDHL</GBQualifier_value>
         </GBQualifier>
@@ -196,10 +192,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>CEK41879.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:747014217</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

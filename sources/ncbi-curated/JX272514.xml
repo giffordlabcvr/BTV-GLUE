@@ -109,33 +109,8 @@
           <GBQualifier_value>AGJ83516.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:480327356</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGSALSSNTAKKIYSTIGKAAERFAESEIGAATIDGLVQGSVHSIITGESYGESVKQAVLLNVLGTGEELPDPLSPGERGMQTKIKELEDEQRNELVRLKYNKEITKEFGKELEEVYDFMNGEAKEEEVVQEQYSMLCKAVDSYEKILKAEDSKMAILARALQREASERSQDEIKMVKEYRQKIDALKNAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLSHMRSPKIEPTIIATTLEHRFKEIPDEQLAVSVLNKKTAVTDNCNEIAHIKQEILPKFKQIMDEEKEIEGIEDKVIHPRVMMRFKIPRTQQPQIHIYAAPWDSDDVFFFHCVSHHHRNESFFLGFDLGIDVVHFEDLTSHWHALGLAQEASGRTLTEAYREFLNLSISSTYSSAIHARRMIRSRAVHPIFLGSMHYDITYEALKNNAQRIVYDEELQMHILRGPLHFQRRAILGALKFGVKILGDKIDVPLFLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>345..&gt;644</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>345</GBInterval_from>
-          <GBInterval_to>644</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>14-3-3 domain; Region: 14-3-3; cl02098</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:261174</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
@@ -156,84 +131,7 @@
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>order(378..380,387..392,396..401,405..407,414..416,531..533,540..542,552..554,597..599,609..611,618..623,630..632)</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>378</GBInterval_from>
-          <GBInterval_to>380</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>387</GBInterval_from>
-          <GBInterval_to>392</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>396</GBInterval_from>
-          <GBInterval_to>401</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>405</GBInterval_from>
-          <GBInterval_to>407</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>414</GBInterval_from>
-          <GBInterval_to>416</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>531</GBInterval_from>
-          <GBInterval_to>533</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>540</GBInterval_from>
-          <GBInterval_to>542</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>552</GBInterval_from>
-          <GBInterval_to>554</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>597</GBInterval_from>
-          <GBInterval_to>599</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>609</GBInterval_from>
-          <GBInterval_to>611</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>618</GBInterval_from>
-          <GBInterval_to>623</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-        <GBInterval>
-          <GBInterval_from>630</GBInterval_from>
-          <GBInterval_to>632</GBInterval_to>
-          <GBInterval_accession>JX272514.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_operator>order</GBFeature_operator>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>dimer interface [polypeptide binding]; other site</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:206755</GBQualifier_value>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

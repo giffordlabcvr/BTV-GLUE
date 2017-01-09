@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>24-SEP-2011</GBSeq_update-date>
+  <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>24-SEP-2011</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus 21 isolate KMN07/05 VP7 gene, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>JF776369</GBSeq_primary-accession>
@@ -108,33 +108,8 @@
           <GBQualifier_value>AEO79100.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:347309497</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>LAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTILLLSTLADVYSVLRPEFAIHGVNPMPGPLTRAIARAAYA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>2..883</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>2</GBInterval_from>
-          <GBInterval_to>883</GBInterval_to>
-          <GBInterval_accession>JF776369.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:144478</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>

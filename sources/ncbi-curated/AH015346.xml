@@ -6,7 +6,7 @@
   <GBSeq_moltype>RNA</GBSeq_moltype>
   <GBSeq_topology>linear</GBSeq_topology>
   <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>05-APR-2016</GBSeq_update-date>
+  <GBSeq_update-date>28-JUL-2016</GBSeq_update-date>
   <GBSeq_create-date>31-OCT-2005</GBSeq_create-date>
   <GBSeq_definition>Bluetongue virus isolate Dehradun L2 genes, partial cds</GBSeq_definition>
   <GBSeq_primary-accession>AH015346</GBSeq_primary-accession>
@@ -120,10 +120,6 @@
           <GBQualifier_value>ABB22770.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:78146026</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>ERASTGDTFNGRTIELSRGHRVQLGDPAYEKLKNGLVQTRIEGKKPQLVESEINSLNDIRQRWINSSHDRREIKALELCKILSSIGRKFLNTEEEPKNEADLSVKFQMELDEIFRPGNNERTNVFEGGNHRKDEDRFYVLIMIAASDTYKGRIWWSNPYPCLRGSLIAAEAQLGDVYNTMRNWYQWSVRPTYTPYGRSRESDKYIYSRVNLFDSQRLDLATRLIHWEYKLLNEVREVCIKDGNECDLFRDDEEMTTKFNEEK</GBQualifier_value>
         </GBQualifier>
@@ -176,10 +172,6 @@
           <GBQualifier_value>ABB22771.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:78146027</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>VKPTMDMDIKFKHPSIDTLFDIDTWKIADISQLIVLLFDYLFESRKEIRSVTEARWIRSVSGQERLDIIQSFFPRFGQSVR</GBQualifier_value>
         </GBQualifier>
@@ -230,10 +222,6 @@
         <GBQualifier>
           <GBQualifier_name>protein_id</GBQualifier_name>
           <GBQualifier_value>ABB22772.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:78146028</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>

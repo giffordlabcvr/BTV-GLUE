@@ -147,10 +147,6 @@
           <GBQualifier_value>AER60539.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:355346218</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MLSGLIQRFEEEKMKHSDQKVEELSLVRAGDRISLPPGYAPSAPAPPAMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGMKKKRAIIHATMLVAAAIALLTSVCTLSSDMSLAFKVSETNVTIPAWFKSLNPMLGVVNLGATFLMMVCARSERGLNQQIDMIKKEIMKKQSYNDAVRMSFEEFSSVPIDGFEMPLT</GBQualifier_value>
         </GBQualifier>

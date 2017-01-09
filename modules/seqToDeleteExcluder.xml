@@ -1,0 +1,10 @@
+<freemarkerTextToGlueTransformer>
+	<freemarkerTemplate><![CDATA[
+<#list rows as row>
+  <#assign sequenceID>${row["sequence_id"]?trim}</#assign>
+  <#if sequenceID != "">
+    sequence ncbi-curated "${sequenceID}" set field --noCommit excluded true
+  </#if>  
+</#list>
+commit]]></freemarkerTemplate>
+</freemarkerTextToGlueTransformer>

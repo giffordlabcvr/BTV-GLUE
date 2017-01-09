@@ -142,33 +142,8 @@
           <GBQualifier_value>AFI73129.1</GBQualifier_value>
         </GBQualifier>
         <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GI:385722002</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
           <GBQualifier_name>translation</GBQualifier_name>
           <GBQualifier_value>MGKIIKSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGAATIDGLVQGSVHSIITGESYGESVKQAVLLNVLGTGEELPDPLSPGERGMQTRIKELEDEQRNELVRLKYNKEITEKFGKELGEVYDFMNGEAKEVEAVEEQYTMLCKAVDSYEKILKEEDSKMAILARALQREAAERSEDEIKMVKEYRQKIDALKSAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLSHMRSPKIEPTIIATTLEHRFKDIPDEQLAXSVLNKKTAVADNCNEIAHIKQEILPKFKQIMNEEKEIEGIEDKVIHPRVMMRFKIPRTQQPQIHIYAAPWDSDDVFFFHCVSYHHRNESFFLGFDLGIDVVHFEDLTSHWHALGMAQEASGRTLTEAYREFLNLSISSTFSSAIHARRMIRSRAVHPIFLGSMHYDITYEALKNNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGVKILGDKIDVPLFLRNA</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>misc_feature</GBFeature_key>
-      <GBFeature_location>48..1568</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>48</GBInterval_from>
-          <GBInterval_to>1568</GBInterval_to>
-          <GBInterval_accession>JQ740776.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>Orbivirus outer capsid protein VP5; Region: Orbi_VP5; pfam00901</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>CDD:189762</GBQualifier_value>
         </GBQualifier>
       </GBFeature_quals>
     </GBFeature>
