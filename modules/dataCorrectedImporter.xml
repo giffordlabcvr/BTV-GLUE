@@ -35,12 +35,6 @@
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</isoCountryTextFileColumn>
-	<isoCountryTextFileColumn codeStyle="OFFICIAL">
-		<fieldName>gb_country_official</fieldName>
-		<header>gb_country_corrected</header>
-		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
-	</isoCountryTextFileColumn>
 	<textFileColumn>
 		<fieldName>gb_collection_year</fieldName>
 		<header>gb_collection_year_corrected</header>
