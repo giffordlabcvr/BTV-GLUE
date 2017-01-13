@@ -22,6 +22,7 @@
 	</referenceSequence>
 </#list>
 	<creationDate>${renderProperty('gb_create_date')}</creationDate>
+	<updateDate>${renderProperty('gb_update_date')}</updateDate>
 	<@elem tag="collectionYear" expr="gb_collection_year"/>
 	<@elem tag="length" expr="gb_length"/>
 	<@elem tag="segment" expr="gb_segment"/>

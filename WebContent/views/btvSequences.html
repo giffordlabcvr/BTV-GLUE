@@ -9,7 +9,8 @@
 			<thead>
 				<th>NCBI Nucleotide ID</th>
 				<th>BTV Segment</th>
-				<th>Creation Date</th>
+				<th>NCBI Entry Creation Date</th>
+				<th>NCBI Last Update Date</th>
 				<th>Sequence Length</th>
 				<th>Isolate ID</th>
 				<th>Host Species</th>
@@ -21,9 +22,10 @@
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
-		       <col span="1" style="width: 20%;">
+		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 15%;">
 		       <col span="1" style="width: 15%;">
+		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
 		    </colgroup>
 			<tbody>
@@ -31,6 +33,7 @@
 					<td><a href="#project/sequence/{{sequenceResult['source.name']}}/{{sequenceResult.sequenceID}}" target="_blank">{{sequenceResult.sequenceID}}</a></td>
 					<td>{{handleNull(sequenceResult.gb_segment)}}</td>
 					<td>{{sequenceResult.gb_create_date}}</td>
+					<td>{{sequenceResult.gb_update_date}}</td>
 					<td>{{sequenceResult.gb_length}}</td>
 					<td>{{handleNull(sequenceResult.gb_isolate)}}</td>
 					<td><em>{{handleNull(sequenceResult.gb_host)}}</em></td>
