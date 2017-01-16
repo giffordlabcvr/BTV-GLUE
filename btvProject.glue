@@ -89,8 +89,8 @@ project btv
   # update gb_country_short based on gb_country_iso
   run file glue/btvCountryUpdate.glue
   
-  # REINSTATE this
-  # run file glue/btvAlignmentTree.glue
+  # alignment tree
+  run file glue/btvAlignmentTree.glue
 
   
   validate
