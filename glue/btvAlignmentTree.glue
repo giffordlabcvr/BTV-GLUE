@@ -1,13 +1,13 @@
 create alignment AL_S1_MASTER -r REF_S1_MASTER
 alignment AL_S1_MASTER
   set field displayName "Segment 1"
-  add member -w "excluded = null and gb_segment = '1'"
+  add member -w "excluded = false and gb_segment = '1'"
   exit
 
 create alignment AL_S2_MASTER -r REF_S2_MASTER
 alignment AL_S2_MASTER 
   set field displayName "Segment 2"
-  add member -w "excluded = null and gb_segment = '2'"
+  add member -w "excluded = false and gb_segment = '2'"
 
   extract child AL_S2_serotype_1 -r REF_S2_serotype_1
   demote member AL_S2_serotype_1 -w "sequence.gb_serotype = '1'"
@@ -130,25 +130,25 @@ alignment AL_S2_serotype_27 set field displayName "S2 Serotype 27"
 create alignment AL_S3_MASTER -r REF_S3_MASTER
 alignment AL_S3_MASTER
   set field displayName "Segment 3"
-  add member -w "excluded = null and gb_segment = '3'"
+  add member -w "excluded = false and gb_segment = '3'"
   exit
 
 create alignment AL_S4_MASTER -r REF_S4_MASTER
 alignment AL_S4_MASTER
   set field displayName "Segment 4"
-  add member -w "excluded = null and gb_segment = '4'"
+  add member -w "excluded = false and gb_segment = '4'"
   exit
 
 create alignment AL_S5_MASTER -r REF_S5_MASTER
 alignment AL_S5_MASTER
   set field displayName "Segment 5"
-  add member -w "excluded = null and gb_segment = '5'"
+  add member -w "excluded = false and gb_segment = '5'"
   exit
 
 create alignment AL_S6_MASTER -r REF_S6_MASTER
 alignment AL_S6_MASTER 
   set field displayName "Segment 6"
-  add member -w "excluded = null and gb_segment = '6'"
+  add member -w "excluded = false and gb_segment = '6'"
 
   extract child AL_S6_serotype_1 -r REF_S6_serotype_1
   demote member AL_S6_serotype_1 -w "sequence.gb_serotype = '1'"
@@ -270,25 +270,25 @@ alignment AL_S6_serotype_27 set field displayName "S6 Serotype 27"
 create alignment AL_S7_MASTER -r REF_S7_MASTER
 alignment AL_S7_MASTER
   set field displayName "Segment 7"
-  add member -w "excluded = null and gb_segment = '7'"
+  add member -w "excluded = false and gb_segment = '7'"
   exit
 
 create alignment AL_S8_MASTER -r REF_S8_MASTER
 alignment AL_S8_MASTER
   set field displayName "Segment 8"
-  add member -w "excluded = null and gb_segment = '8'"
+  add member -w "excluded = false and gb_segment = '8'"
   exit
 
 create alignment AL_S9_MASTER -r REF_S9_MASTER
 alignment AL_S9_MASTER
   set field displayName "Segment 9"
-  add member -w "excluded = null and gb_segment = '9'"
+  add member -w "excluded = false and gb_segment = '9'"
   exit
 
 create alignment AL_S10_MASTER -r REF_S10_MASTER
 alignment AL_S10_MASTER
   set field displayName "Segment 10"
-  add member -w "excluded = null and gb_segment = '10'"
+  add member -w "excluded = false and gb_segment = '10'"
   exit
 
 module blastFastaAlignmentImporter import AL_S1_UNCONSTRAINED -f alignments/manually-curated/BTV-seg1.fna
