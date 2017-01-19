@@ -53,5 +53,5 @@
 	<@elem tag="country_iso" expr="gb_country_iso"/>
 	<@elem tag="isolate" expr="gb_isolate"/>
 	<@elem tag="host" expr="gb_host"/>
-	
+	<@elem tag="completeSegment" expr="complete_segment" type="Boolean"/>
 </sequence>

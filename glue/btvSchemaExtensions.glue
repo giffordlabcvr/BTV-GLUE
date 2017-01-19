@@ -28,6 +28,7 @@ schema-project btv
     create field passage_cells VARCHAR 
     create field pmid_reference VARCHAR    
     create field alt_reference VARCHAR 200
-    create field alt_reference_url VARCHAR 200    
+    create field alt_reference_url VARCHAR 200
+    create field complete_segment BOOLEAN
     exit
   exit
