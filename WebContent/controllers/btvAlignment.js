@@ -9,7 +9,7 @@ btvApp.controller('btvAlignmentCtrl',
 				dialogs: dialogs});
 
 			$scope.init($routeParams.alignmentName, 
-					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated'",
+					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated' and referenceMember = false",
 					[
 					 "sequence.sequenceID",
                      "sequence.gb_country_iso",
