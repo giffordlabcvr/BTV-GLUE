@@ -92,6 +92,8 @@ project btv
   # alignment tree
   run file glue/btvAlignmentTree.glue
 
-  
+  # "complete segment" field
+  run file glue/populateCompleteSegmentField.glue
+    
   validate
   
