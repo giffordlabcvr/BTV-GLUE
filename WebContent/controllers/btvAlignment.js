@@ -1,6 +1,6 @@
 btvApp.controller('btvAlignmentCtrl', 
-		[ '$scope', '$routeParams', '$controller', 'glueWS', 'dialogs',
-		  function($scope, $routeParams, $controller, glueWS, dialogs) {
+		[ '$scope', '$routeParams', '$controller', 'glueWS', 'glueWebToolConfig', 'dialogs',
+		  function($scope, $routeParams, $controller, glueWS, glueWebToolConfig, dialogs) {
 			addUtilsToScope($scope);
 
 			$controller('alignmentCtrl', { $scope: $scope, 
