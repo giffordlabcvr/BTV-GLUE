@@ -33,6 +33,7 @@ project btv
   create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
   create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+  create module --moduleType fastaExporter
 
   create module --fileName modules/figTreeAnnotationExporterAll.xml figTreeAnnotationExporterAll
   create module --fileName modules/figTreeAnnotationExporterCountryYear.xml figTreeAnnotationExporterCountryYear
