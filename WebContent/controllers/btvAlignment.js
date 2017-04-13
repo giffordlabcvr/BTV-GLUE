@@ -17,6 +17,7 @@ btvApp.controller('btvAlignmentCtrl',
 					 "sequence.gb_collection_year",
 					 "sequence.gb_length",
 					 "sequence.gb_create_date",
+					 "sequence.gb_update_date",
 					 "sequence.pmid_reference",
 					 "sequence.gb_isolate",
 					 "sequence.gb_host"
