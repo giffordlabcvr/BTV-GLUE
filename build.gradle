@@ -219,7 +219,7 @@ task initBtvGlueDBGlueHomeAWS {
 			// create user gluetools with correct grants
 			execute "echo 'GRANT ALL ON BTV_GLUE.* TO \"btvglue\"@\"localhost\" identified by \"btvglue\";' | mysql -u root --password=root123"
 			// create BTV_GLUE database
-			execute "echo 'create database BTV_GLUE;' | mysql -u btvglue --password=btvglue" 
+			execute "echo 'create database BTV_GLUE character set UTF8;' | mysql -u btvglue --password=btvglue" 
 	    }
 	  }
   }
@@ -240,7 +240,7 @@ task deployBtvGlueDbToGlueHomeAWS(dependsOn: 'zipBtvGlueDB') {
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
 	 	  put from: '/tmp/btv_glue.sql.gz', into: '/tmp/btv_glue.sql.gz'
-	      execute 'echo "drop database BTV_GLUE; create database BTV_GLUE;" | mysql -u btvglue --password=btvglue BTV_GLUE'
+	      execute 'echo "drop database BTV_GLUE; create database BTV_GLUE character set UTF8;" | mysql -u btvglue --password=btvglue BTV_GLUE'
 	      execute 'gunzip -c /tmp/btv_glue.sql.gz | mysql -u btvglue --password=btvglue BTV_GLUE'
 	      execute 'rm /tmp/btv_glue.sql.gz'
 	    }

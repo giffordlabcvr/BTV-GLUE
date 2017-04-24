@@ -4,7 +4,7 @@
 		<username>btvglue</username>
 		<password>btvglue</password>
 		<vendor>MySQL</vendor>
-		<jdbcUrl>jdbc:mysql://localhost:3306/BTV_GLUE</jdbcUrl>	
+		<jdbcUrl>jdbc:mysql://localhost:3306/BTV_GLUE?characterEncoding=UTF-8</jdbcUrl>	
 	</database>
 	<properties>
 		<!-- BLAST related config -->
