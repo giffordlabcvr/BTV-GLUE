@@ -44,6 +44,26 @@ btvApp.controller('btvAlignmentCtrl',
          		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
         		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
   	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
+                { property:"featurePresence", displayName: "Coverage of Genome Region", filterHints: 
+	            	{ type: "FeaturePresence", 
+	            	  generateCustomDefault: function() {
+	            		  return {
+	            			  feature: $scope.featureList[0], 
+	            			  minCoveragePct: 90.0
+	            		  };
+	            	  },
+	            	  generatePredicateFromCustom: function(custom) {
+	            		  var cayennePredicate = 
+	              		  	"fLocNotes.featureLoc.referenceSequence.name = '"+$scope.referenceName+"' and "+
+	            		  	"fLocNotes.featureLoc.feature.name = '"+custom.feature.featureName+"' and "+
+	            		  	"fLocNotes.ref_nt_coverage_pct >= "+custom.minCoveragePct;
+	            		  return cayennePredicate;
+	            	  },
+	            	  getFeaturePresenceFeatures: function() {
+	            		  return($scope.featureList);
+	            	  }
+	            	}
+                },
         		{ property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
         		{ property:"sequence.gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
   	            { property:"sequence.gb_country_short", altProperties:["sequence.gb_country_iso"], displayName: "Country of Origin", filterHints: {type: "String"} },

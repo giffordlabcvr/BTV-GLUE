@@ -31,4 +31,12 @@ schema-project btv
     create field alt_reference_url VARCHAR 200
     create field complete_segment BOOLEAN
     exit
+
+  table member_floc_note
+  	create field ref_nt_coverage_pct DOUBLE
+  	exit
+
   exit
+
+
+  
