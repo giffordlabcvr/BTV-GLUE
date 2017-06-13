@@ -1,6 +1,6 @@
 btvApp.controller('btvAlignmentCtrl', 
-		[ '$scope', '$routeParams', '$controller', 'glueWS', 'dialogs',
-		  function($scope, $routeParams, $controller, glueWS, dialogs) {
+		[ '$scope', '$routeParams', '$controller', 'glueWS', 'glueWebToolConfig', 'dialogs',
+		  function($scope, $routeParams, $controller, glueWS, glueWebToolConfig, dialogs) {
 			addUtilsToScope($scope);
 
 			$controller('alignmentCtrl', { $scope: $scope, 
@@ -9,7 +9,7 @@ btvApp.controller('btvAlignmentCtrl',
 				dialogs: dialogs});
 
 			$scope.init($routeParams.alignmentName, 
-					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated'",
+					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated' and referenceMember = false",
 					[
 					 "sequence.sequenceID",
                      "sequence.gb_country_iso",
@@ -17,6 +17,7 @@ btvApp.controller('btvAlignmentCtrl',
 					 "sequence.gb_collection_year",
 					 "sequence.gb_length",
 					 "sequence.gb_create_date",
+					 "sequence.gb_update_date",
 					 "sequence.pmid_reference",
 					 "sequence.gb_isolate",
 					 "sequence.gb_host"
@@ -42,6 +43,27 @@ btvApp.controller('btvAlignmentCtrl',
 			$scope.pagingContext.setFilterProperties([
          		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
         		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
+  	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
+                { property:"featurePresence", displayName: "Coverage of Genome Region", filterHints: 
+	            	{ type: "FeaturePresence", 
+	            	  generateCustomDefault: function() {
+	            		  return {
+	            			  feature: $scope.featureList[0], 
+	            			  minCoveragePct: 90.0
+	            		  };
+	            	  },
+	            	  generatePredicateFromCustom: function(custom) {
+	            		  var cayennePredicate = 
+	              		  	"fLocNotes.featureLoc.referenceSequence.name = '"+$scope.referenceName+"' and "+
+	            		  	"fLocNotes.featureLoc.feature.name = '"+custom.feature.featureName+"' and "+
+	            		  	"fLocNotes.ref_nt_coverage_pct >= "+custom.minCoveragePct;
+	            		  return cayennePredicate;
+	            	  },
+	            	  getFeaturePresenceFeatures: function() {
+	            		  return($scope.featureList);
+	            	  }
+	            	}
+                },
         		{ property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
         		{ property:"sequence.gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
   	            { property:"sequence.gb_country_short", altProperties:["sequence.gb_country_iso"], displayName: "Country of Origin", filterHints: {type: "String"} },

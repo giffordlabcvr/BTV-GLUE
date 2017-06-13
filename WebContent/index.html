@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="../gluetools-web/bootstrap/css/bootstrap-yeti.css"/>
 	<link rel="stylesheet" href="../gluetools-web/www/css/style.css"/>
 	<link rel="stylesheet" href="./btvApp.css"/>
+	<link rel="stylesheet" href="../gluetools-web/angular-cookie-law/angular-cookie-law.min.css"/>
 	
 	<!-- link for CSS when using angular-tree-control as a Dom element -->
 	<link rel="stylesheet" type="text/css" href="../gluetools-web/angular-tree-control-master/css/tree-control.css">
@@ -23,6 +24,8 @@
 	<link rel="import" href="./btvAppDependencies.html"/>
 </head>
 <body>
+
+<cookie-law-banner message="This website uses Google Analytics First Party cookies for collecting usage statistics and some user-related data including geography and IP address. We use this facility to understand our users and improve our website. We do not store submitted sequence data on the server. In order to use the website, please indicate that you consent to our use of cookies and data collection." accept-text="I consent"></cookie-law-banner>
 
 <div class="container" ng-controller="btvAppCtrl">
 
@@ -61,13 +64,37 @@
 	<div ng-view></div>
 
 	<hr/>
+	
 	<div>
-		<img align="right" alt="CVR logo" src="./images/CVRLogo.png">
-		<p>BTV-GLUE is based on the <a target="_blank" href="http://tools.glue.cvr.ac.uk">GLUE</a> software framework.</p>
-		<p>GLUE and BTV-GLUE are developed and maintained by the <a target="_blank" href="http://www.gla.ac.uk/researchinstitutes/iii/cvr/">MRC-University of Glasgow Centre for Virus Research</a>.
-		</p> 
-	</div>
+		<div class="col-md-6">
+			<p>BTV-GLUE is based on the <a target="_blank" href="http://tools.glue.cvr.ac.uk">GLUE</a> software framework. 
+			GLUE and BTV-GLUE are developed and maintained by the 
+			<a target="_blank" href="http://www.gla.ac.uk/researchinstitutes/iii/cvr/">MRC-University of Glasgow Centre for Virus Research</a>.
+			<br/><span style="color:#cc2222">Please note this is beta software, still undergoing development and testing before its official release.</span></p> 
+			<p>
+				<a target="_blank" href="https://www.researchgate.net/project/BTV-GLUE-an-online-database-to-support-surveillance-and-control-of-bluetongue-virus-BTV">
+					<img style="width:60px;padding-right:10px" align="left" alt="BTV-GLUE Project on ResearchGate" src="../gluetools-web/www/images/RG_square_green.jpg">
+				</a>
+				<a href="https://twitter.com/intent/tweet?button_hashtag=hcvGlue">
+					<img style="width:60px;padding-right:10px" align="left" alt="BTV-GLUE on Twitter" src="../gluetools-web/www/images/Twitter_Logo_White_On_Blue.png">
+				</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</p>
 
+		</div>
+		<div class="col-md-3">
+			<div style="padding-top:30px">
+				<a target="_blank" href="http://www.gla.ac.uk/researchinstitutes/iii/cvr/">
+					<img alt="CVR logo" src="./images/CVRLogo.png">
+				</a>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<a href="http://www.pirbright.ac.uk" target="_blank">
+				<img style="width:253px" alt="Pirbright institute logo" src="images/pirbright1.png">
+			</a>
+		</div>
+	</div>
+	
 
 </div>
 

@@ -31,6 +31,9 @@
 				<tr>
 					<td><b>BTV Segment</b></td><td>{{handleNull(renderResult.sequence.segment)}}</td>
 				</tr>
+				<tr>
+					<td><b>Complete Segment?</b></td><td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
+				</tr>
 				<tr ng-show="renderResult.sequence.segment == 6 || renderResult.sequence.segment == 2">
 					<td><b>BTV Serotype</b></td><td>{{handleNull(renderResult.sequence.serotype)}}</td>
 				</tr>

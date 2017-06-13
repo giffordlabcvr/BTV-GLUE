@@ -1,0 +1,11 @@
+multi-set field sequence -w "gb_segment = 1 and gb_length >= 328" complete_segment true
+multi-set field sequence -w "gb_segment = 2 and gb_length >= 608" complete_segment true
+multi-set field sequence -w "gb_segment = 3 and gb_length >= 378" complete_segment true
+multi-set field sequence -w "gb_segment = 4 and gb_length >= 339" complete_segment true
+multi-set field sequence -w "gb_segment = 5 and gb_length >= 395" complete_segment true
+multi-set field sequence -w "gb_segment = 6 and gb_length >= 468" complete_segment true
+multi-set field sequence -w "gb_segment = 7 and gb_length >= 427" complete_segment true
+multi-set field sequence -w "gb_segment = 8 and gb_length >= 362" complete_segment true
+multi-set field sequence -w "gb_segment = 9 and gb_length >= 400" complete_segment true
+multi-set field sequence -w "gb_segment = 10 and gb_length >= 622" complete_segment true
+multi-set field sequence -w "complete_segment = null" complete_segment false
