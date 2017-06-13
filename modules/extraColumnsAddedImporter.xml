@@ -2,39 +2,39 @@
 	<columnDelimiterRegex>\t</columnDelimiterRegex>
 	<textFileColumn>
 		<identifier>true</identifier>
-		<fieldName>sequenceID</fieldName>
+		<property>sequenceID</property>
 		<header>sequence_id</header>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>sample_type</fieldName>
+		<property>sample_type</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>place_sampled</fieldName>
+		<property>place_sampled</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>tissue_sampled</fieldName>
+		<property>tissue_sampled</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>passage_history</fieldName>
+		<property>passage_history</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>passage_cells</fieldName>
+		<property>passage_cells</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>pmid_reference</fieldName>
+		<property>pmid_reference</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>alt_reference</fieldName>
+		<property>alt_reference</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>alt_reference_url</fieldName>
+		<property>alt_reference_url</property>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 </textFilePopulator>
