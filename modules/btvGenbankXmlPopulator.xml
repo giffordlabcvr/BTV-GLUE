@@ -58,8 +58,8 @@
 		</gbQualifier>
 
 		<gbQualifier name="country">
-			<isoCountryFieldPopulator fieldName="gb_country_iso" codeStyle="ALPHA_3"/>
-			<fieldPopulator fieldName="gb_country"/>
+			<isoCountryPropertyPopulator property="gb_country_iso" codeStyle="ALPHA_3"/>
+			<propertyPopulator property="gb_country"/>
 		</gbQualifier>
 
 		
