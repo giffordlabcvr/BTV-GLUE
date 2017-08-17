@@ -1,0 +1,36 @@
+  # create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
+
+  create module --fileName modules/s1CompoundAligner.xml s1CompoundAligner
+  create module --fileName modules/s2CompoundAligner.xml s2CompoundAligner
+  create module --fileName modules/s3CompoundAligner.xml s3CompoundAligner
+  create module --fileName modules/s4CompoundAligner.xml s4CompoundAligner
+  create module --fileName modules/s5CompoundAligner.xml s5CompoundAligner
+  create module --fileName modules/s6CompoundAligner.xml s6CompoundAligner
+  create module --fileName modules/s7CompoundAligner.xml s7CompoundAligner
+  create module --fileName modules/s8CompoundAligner.xml s8CompoundAligner
+  create module --fileName modules/s9CompoundAligner.xml s9CompoundAligner
+  create module --fileName modules/s10CompoundAligner.xml s10CompoundAligner
+
+  create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
+
+  create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
+  create module --fileName modules/dataMissingImporter.xml dataMissingImporter
+  create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
+  create module --fileName modules/seqToDeleteExcluder.xml seqToDeleteExcluder
+  create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
+  create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
+  create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+  create module --moduleType fastaExporter
+  
+  create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
+  
+
+  create module --fileName modules/figTreeAnnotationExporterAll.xml figTreeAnnotationExporterAll
+  create module --fileName modules/figTreeAnnotationExporterCountryYear.xml figTreeAnnotationExporterCountryYear
+
+  create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
+  create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
+
+
+  # this module downloads all btv from NCBI
+  create module --fileName modules/ncbiImporter.xml ncbiImporter

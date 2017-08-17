@@ -20,3 +20,17 @@ module knUnpublishedSeg7FastaImporter import -f "sources/kyriaki-nomikou-unpubli
 module knUnpublishedSeg8FastaImporter import -f "sources/kyriaki-nomikou-unpublished/8-Seg-8 seq_mine for design probes.fas"
 module knUnpublishedSeg9FastaImporter import -f "sources/kyriaki-nomikou-unpublished/9-Seg-9 seq_mine for design probes.fas"
 module knUnpublishedSeg10FastaImporter import -f "sources/kyriaki-nomikou-unpublished/10-Seg-10 seq_mine for design probes.fas"
+
+
+  # Extra fields for unpublished reference sequences
+  ## sequence kyriaki-nomikou-unpublished KN102
+  ##   set field gb_country Jordan
+  ##   set field gb_country_iso JOR
+  ##   set field gb_length 2926
+  ##   exit
+
+  ## sequence kyriaki-nomikou-unpublished KN156
+  ##   set field gb_country Jordan
+  ##   set field gb_country_iso JOR
+  ##   set field gb_length 1638
+  ##   exit

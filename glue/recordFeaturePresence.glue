@@ -1,0 +1,12 @@
+  module btvFeaturePresenceRecorder 
+    record feature-presence AL_S1_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S1_whole_genome --descendentFeatures
+    record feature-presence AL_S2_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S2_whole_genome --descendentFeatures
+    record feature-presence AL_S3_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S3_whole_genome --descendentFeatures
+    record feature-presence AL_S4_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S4_whole_genome --descendentFeatures
+    record feature-presence AL_S5_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S5_whole_genome --descendentFeatures
+    record feature-presence AL_S6_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S6_whole_genome --descendentFeatures
+    record feature-presence AL_S7_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S7_whole_genome --descendentFeatures
+    record feature-presence AL_S8_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S8_whole_genome --descendentFeatures
+    record feature-presence AL_S9_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S9_whole_genome --descendentFeatures
+    record feature-presence AL_S10_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S10_whole_genome --descendentFeatures
+    exit

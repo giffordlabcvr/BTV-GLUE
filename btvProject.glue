@@ -11,42 +11,7 @@ project btv
   run file glue/btvProjectSettings.glue
   
   # create modules from files
-  # create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-
-  create module --fileName modules/s1CompoundAligner.xml s1CompoundAligner
-  create module --fileName modules/s2CompoundAligner.xml s2CompoundAligner
-  create module --fileName modules/s3CompoundAligner.xml s3CompoundAligner
-  create module --fileName modules/s4CompoundAligner.xml s4CompoundAligner
-  create module --fileName modules/s5CompoundAligner.xml s5CompoundAligner
-  create module --fileName modules/s6CompoundAligner.xml s6CompoundAligner
-  create module --fileName modules/s7CompoundAligner.xml s7CompoundAligner
-  create module --fileName modules/s8CompoundAligner.xml s8CompoundAligner
-  create module --fileName modules/s9CompoundAligner.xml s9CompoundAligner
-  create module --fileName modules/s10CompoundAligner.xml s10CompoundAligner
-
-  create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
-
-  create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
-  create module --fileName modules/dataMissingImporter.xml dataMissingImporter
-  create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
-  create module --fileName modules/seqToDeleteExcluder.xml seqToDeleteExcluder
-  create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
-  create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
-  create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
-  create module --moduleType fastaExporter
-  
-  create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
-  
-
-  create module --fileName modules/figTreeAnnotationExporterAll.xml figTreeAnnotationExporterAll
-  create module --fileName modules/figTreeAnnotationExporterCountryYear.xml figTreeAnnotationExporterCountryYear
-
-  create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
-  create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
-
-
-  # this module downloads all btv from NCBI
-  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  run file glue/btvModules.glue
   
   # features.
   run file glue/btvFeatures.glue
@@ -57,63 +22,21 @@ project btv
   ## commented out from the project build until they are published.
   ## run file glue/btvImportUnpublished.glue
 
-  # Extra fields for unpublished reference sequences
-  ## sequence kyriaki-nomikou-unpublished KN102
-  ##   set field gb_country Jordan
-  ##   set field gb_country_iso JOR
-  ##   set field gb_length 2926
-  ##   exit
-
-  ## sequence kyriaki-nomikou-unpublished KN156
-  ##   set field gb_country Jordan
-  ##   set field gb_country_iso JOR
-  ##   set field gb_length 1638
-  ##   exit
-
   # references
   run file glue/btvReferences.glue
 
-  # Populate certain fields using Genbank XML  
-  module btvGenbankXmlPopulator populate
+  # import sequence-associated data from GenBank xml and tabular
+  run file glue/btvSequenceAssociatedData.glue
 
-  # populate 'excluded' field for certain sequences
-  module seqToDeleteExcluder transform tabular/seq_to_delete.txt --run 
-  # non-excluded fields
-  multi-set field sequence -w "excluded = null" excluded false
-
-  # populate extra columns from tabular data
-  module extraColumnsAddedImporter populate -f tabular/extra_columns_added.txt
-
-  # populate extra columns from tabular data
-  module dataMissingImporter populate -f tabular/data_missing.txt
-
-  # overwrite incorrect field values with corrected
-  module dataCorrectedImporter populate -f tabular/data_corrected.txt
-
-  # update gb_country_short based on gb_country_iso
-  run file glue/btvCountryUpdate.glue
-  
   # alignment tree
   run file glue/btvAlignmentTree.glue
 
   # "complete segment" field
   run file glue/populateCompleteSegmentField.glue
     
-    ## record feature presence
-  module btvFeaturePresenceRecorder 
-    record feature-presence AL_S1_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S1_whole_genome --descendentFeatures
-    record feature-presence AL_S2_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S2_whole_genome --descendentFeatures
-    record feature-presence AL_S3_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S3_whole_genome --descendentFeatures
-    record feature-presence AL_S4_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S4_whole_genome --descendentFeatures
-    record feature-presence AL_S5_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S5_whole_genome --descendentFeatures
-    record feature-presence AL_S6_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S6_whole_genome --descendentFeatures
-    record feature-presence AL_S7_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S7_whole_genome --descendentFeatures
-    record feature-presence AL_S8_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S8_whole_genome --descendentFeatures
-    record feature-presence AL_S9_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S9_whole_genome --descendentFeatures
-    record feature-presence AL_S10_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName S10_whole_genome --descendentFeatures
-    exit
-    
-    
-  
+  ## record feature presence
+  run file glue/recordFeaturePresence.glue
+
   validate
   
+  exit;
