@@ -38,5 +38,3 @@ project btv
   run file glue/recordFeaturePresence.glue
 
   validate
-  
-  exit;
