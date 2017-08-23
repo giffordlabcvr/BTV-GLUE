@@ -19,7 +19,7 @@
   create module --fileName modules/seqToDeleteExcluder.xml seqToDeleteExcluder
   create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
-  create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+  create module --fileName modules/referenceAlignmentImporter.xml referenceAlignmentImporter
   create module --moduleType fastaExporter
   
   create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
@@ -31,6 +31,18 @@
   create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
   create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
 
-
   # this module downloads all btv from NCBI
-  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  create module --fileName modules/ncbiCuratedImporter.xml 
+
+  # BTV GLUE reference sequences
+  create module --fileName modules/ncbiRefSeqsImporter.xml 
+
+  create module --fileName modules/refseqCladeImporter.xml
+
+  create module --fileName modules/blastFastaAlignmentImporter.xml
+  create module --fileName modules/mafftAligner.xml
+  
+  
+  
+  
+  

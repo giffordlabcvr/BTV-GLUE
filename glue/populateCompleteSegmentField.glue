@@ -1,11 +1,28 @@
-multi-set field sequence -w "gb_segment = 1 and gb_length >= 328" complete_segment true
-multi-set field sequence -w "gb_segment = 2 and gb_length >= 608" complete_segment true
-multi-set field sequence -w "gb_segment = 3 and gb_length >= 378" complete_segment true
-multi-set field sequence -w "gb_segment = 4 and gb_length >= 339" complete_segment true
-multi-set field sequence -w "gb_segment = 5 and gb_length >= 395" complete_segment true
-multi-set field sequence -w "gb_segment = 6 and gb_length >= 468" complete_segment true
-multi-set field sequence -w "gb_segment = 7 and gb_length >= 427" complete_segment true
-multi-set field sequence -w "gb_segment = 8 and gb_length >= 362" complete_segment true
-multi-set field sequence -w "gb_segment = 9 and gb_length >= 400" complete_segment true
-multi-set field sequence -w "gb_segment = 10 and gb_length >= 622" complete_segment true
+
+# Segment	Ref. 		Ref			90% 
+# 			Sequence 	Sequence	Length
+# 			Accession	Length	
+#
+# 1			JX680457	3944		3550
+# 2			JX680458	2940		2646
+# 3			JX680459	2772		2495
+# 4			JX680460	1981		1783
+# 5			JX680461	1772		1595
+# 6			JX680462	1635		1472
+# 7			JX680463	1156		1040
+# 8			JX680464	1125		1013
+# 9			JX680465	1049		944
+# 10		JX680466	822			740
+
+
+multi-set field sequence -w "gb_segment = 1 and gb_length >= 3550" complete_segment true
+multi-set field sequence -w "gb_segment = 2 and gb_length >= 2646" complete_segment true
+multi-set field sequence -w "gb_segment = 3 and gb_length >= 2495" complete_segment true
+multi-set field sequence -w "gb_segment = 4 and gb_length >= 1783" complete_segment true
+multi-set field sequence -w "gb_segment = 5 and gb_length >= 1595" complete_segment true
+multi-set field sequence -w "gb_segment = 6 and gb_length >= 1472" complete_segment true
+multi-set field sequence -w "gb_segment = 7 and gb_length >= 1040" complete_segment true
+multi-set field sequence -w "gb_segment = 8 and gb_length >= 1013" complete_segment true
+multi-set field sequence -w "gb_segment = 9 and gb_length >= 944" complete_segment true
+multi-set field sequence -w "gb_segment = 10 and gb_length >= 740" complete_segment true
 multi-set field sequence -w "complete_segment = null" complete_segment false

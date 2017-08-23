@@ -10,6 +10,4 @@
        This is the number of sequences to retrieve per batch -->
   <eFetchBatchSize>500</eFetchBatchSize>
   <sourceName>ncbi-curated</sourceName>
-  <overwriteExisting>true</overwriteExisting>
-
 </ncbiImporter>

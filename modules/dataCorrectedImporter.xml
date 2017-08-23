@@ -2,65 +2,65 @@
 	<columnDelimiterRegex>\t</columnDelimiterRegex>
 	<textFileColumn>
 		<identifier>true</identifier>
-		<fieldName>sequenceID</fieldName>
+		<property>sequenceID</property>
 		<header>sequence_id</header>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_segment</fieldName>
+		<property>gb_segment</property>
 		<header>gb_segment_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_isolate</fieldName>
+		<property>gb_isolate</property>
 		<header>gb_isolate_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_host</fieldName>
+		<property>gb_host</property>
 		<header>gb_host_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_country</fieldName>
+		<property>gb_country</property>
 		<header>gb_country_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<isoCountryTextFileColumn codeStyle="ALPHA_3">
-		<fieldName>gb_country_iso</fieldName>
+		<property>gb_country_iso</property>
 		<header>gb_country_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</isoCountryTextFileColumn>
 	<textFileColumn>
-		<fieldName>gb_collection_year</fieldName>
+		<property>gb_collection_year</property>
 		<header>gb_collection_year_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_collection_month</fieldName>
+		<property>gb_collection_month</property>
 		<header>gb_collection_month_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_collection_month_day</fieldName>
+		<property>gb_collection_month_day</property>
 		<header>gb_collection_month_day_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_serotype</fieldName>
+		<property>gb_serotype</property>
 		<header>gb_serotype_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	<textFileColumn>
-		<fieldName>gb_serotype</fieldName>
+		<property>gb_serotype</property>
 		<header>gb_serotype_corrected</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>

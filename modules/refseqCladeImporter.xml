@@ -1,0 +1,16 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<property>sequenceID</property>
+		<header>sequenceID</header>
+	</textFileColumn>
+	<textFileColumn>
+		<property>gb_segment</property>
+		<header>gb_segment</header>
+	</textFileColumn>
+	<textFileColumn>
+		<property>gb_serotype</property>
+		<header>gb_serotype</header>
+	</textFileColumn>
+</textFilePopulator>

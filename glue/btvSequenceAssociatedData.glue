@@ -1,5 +1,5 @@
   # Populate certain fields using Genbank XML  
-  module btvGenbankXmlPopulator populate
+  module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
   # populate 'excluded' field for certain sequences
   module seqToDeleteExcluder transform tabular/seq_to_delete.txt --run 
@@ -7,13 +7,13 @@
   multi-set field sequence -w "excluded = null" excluded false
 
   # populate extra columns from tabular data
-  module extraColumnsAddedImporter populate -f tabular/extra_columns_added.txt
+  module extraColumnsAddedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/extra_columns_added.txt
 
   # populate extra columns from tabular data
-  module dataMissingImporter populate -f tabular/data_missing.txt
+  module dataMissingImporter populate  -w "source.name = 'ncbi-curated'" -f tabular/data_missing.txt
 
   # overwrite incorrect field values with corrected
-  module dataCorrectedImporter populate -f tabular/data_corrected.txt
+  module dataCorrectedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/data_corrected.txt
 
   # update gb_country_short based on gb_country_iso
   run file glue/btvCountryUpdate.glue

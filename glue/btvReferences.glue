@@ -1,4 +1,4 @@
-create reference REF_S1_MASTER ncbi-curated JX680457
+create reference REF_S1_MASTER ncbi-refseqs JX680457
 reference REF_S1_MASTER 
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 3944
@@ -10,7 +10,7 @@ reference REF_S1_MASTER
   feature-location S1_3UTR add segment 3921 3944
   exit
 
-create reference REF_S2_MASTER ncbi-curated JX680458
+create reference REF_S2_MASTER ncbi-refseqs JX680458
 reference REF_S2_MASTER 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2940
@@ -22,7 +22,7 @@ reference REF_S2_MASTER
   feature-location S2_3UTR add segment 2904 2940
   exit
 
-create reference REF_S3_MASTER ncbi-curated JX680459
+create reference REF_S3_MASTER ncbi-refseqs JX680459
 reference REF_S3_MASTER 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2772
@@ -34,7 +34,7 @@ reference REF_S3_MASTER
   feature-location S3_3UTR add segment 2724 2772
   exit
 
-create reference REF_S4_MASTER ncbi-curated JX680460
+create reference REF_S4_MASTER ncbi-refseqs JX680460
 reference REF_S4_MASTER 
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 1981
@@ -46,7 +46,7 @@ reference REF_S4_MASTER
   feature-location S4_3UTR add segment 1944 1981
   exit
 
-create reference REF_S5_MASTER ncbi-curated JX680461
+create reference REF_S5_MASTER ncbi-refseqs JX680461
 reference REF_S5_MASTER 
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1772
@@ -58,7 +58,7 @@ reference REF_S5_MASTER
   feature-location S5_3UTR add segment 1694 1772
   exit
 
-create reference REF_S6_MASTER ncbi-curated JX680462
+create reference REF_S6_MASTER ncbi-refseqs JX680462
 reference REF_S6_MASTER 
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1635
@@ -70,7 +70,7 @@ reference REF_S6_MASTER
   feature-location S6_3UTR add segment 1607 1635
   exit
 
-create reference REF_S7_MASTER ncbi-curated JX680463
+create reference REF_S7_MASTER ncbi-refseqs JX680463
 reference REF_S7_MASTER 
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 1156
@@ -82,7 +82,7 @@ reference REF_S7_MASTER
   feature-location S7_3UTR add segment 1068 1156
   exit
 
-create reference REF_S8_MASTER ncbi-curated JX680464
+create reference REF_S8_MASTER ncbi-refseqs JX680464
 reference REF_S8_MASTER 
   add feature-location S8_whole_genome
   feature-location S8_whole_genome add segment 1 1125
@@ -94,7 +94,7 @@ reference REF_S8_MASTER
   feature-location S8_3UTR add segment 1085 1125
   exit
 
-create reference REF_S9_MASTER ncbi-curated JX680465
+create reference REF_S9_MASTER ncbi-refseqs JX680465
 reference REF_S9_MASTER 
   add feature-location S9_whole_genome
   feature-location S9_whole_genome add segment 1 1049
@@ -110,7 +110,7 @@ reference REF_S9_MASTER
   feature-location S9_3UTR add segment 1006 1049
   exit
 
-create reference REF_S10_MASTER ncbi-curated JX680466
+create reference REF_S10_MASTER ncbi-refseqs JX680466
 reference REF_S10_MASTER 
   add feature-location S10_whole_genome
   feature-location S10_whole_genome add segment 1 822
@@ -127,62 +127,66 @@ reference REF_S10_MASTER
   exit
   
   
-create reference REF_S2_serotype_1 ncbi-curated JX680458
-create reference REF_S2_serotype_2 ncbi-curated KP821030
-create reference REF_S2_serotype_3 ncbi-curated KP821039
-create reference REF_S2_serotype_4 ncbi-curated KP821066
-create reference REF_S2_serotype_5 ncbi-curated KP821101
-create reference REF_S2_serotype_6 ncbi-curated AJ585127
-create reference REF_S2_serotype_7 ncbi-curated AJ585128
-create reference REF_S2_serotype_8 ncbi-curated KP821076
-create reference REF_S2_serotype_9 ncbi-curated KP821088
-create reference REF_S2_serotype_10 ncbi-curated AJ585131 
-create reference REF_S2_serotype_11 ncbi-curated AJ585132
-create reference REF_S2_serotype_12 ncbi-curated KP821100
-create reference REF_S2_serotype_13 ncbi-curated AJ585134
-create reference REF_S2_serotype_14 ncbi-curated KP820983
-create reference REF_S2_serotype_15 ncbi-curated KP820984
-create reference REF_S2_serotype_16 ncbi-curated AJ585137 
-create reference REF_S2_serotype_17 ncbi-curated AJ585138
-create reference REF_S2_serotype_18 ncbi-curated AJ585139
-create reference REF_S2_serotype_19 ncbi-curated AJ585140
-create reference REF_S2_serotype_20 ncbi-curated AJ585141
-create reference REF_S2_serotype_21 ncbi-curated AJ585142
-create reference REF_S2_serotype_22 ncbi-curated AJ585143
-create reference REF_S2_serotype_23 ncbi-curated AJ585144
-create reference REF_S2_serotype_24 ncbi-curated AJ585145
-create reference REF_S2_serotype_25 ncbi-curated EU839840
-create reference REF_S2_serotype_26 ncbi-curated HM590642
-create reference REF_S2_serotype_27 ncbi-curated KM200718
+create reference REF_S2_serotype_1 ncbi-refseqs JX680458
+create reference REF_S2_serotype_2 ncbi-refseqs KP821030
+create reference REF_S2_serotype_3 ncbi-refseqs KP821039
+create reference REF_S2_serotype_4 ncbi-refseqs KP821066
+create reference REF_S2_serotype_5 ncbi-refseqs KP821101
+create reference REF_S2_serotype_6 ncbi-refseqs AJ585127
+create reference REF_S2_serotype_7 ncbi-refseqs AJ585128
+create reference REF_S2_serotype_8 ncbi-refseqs KP821076
+create reference REF_S2_serotype_9 ncbi-refseqs KP821088
+create reference REF_S2_serotype_10 ncbi-refseqs AJ585131 
+create reference REF_S2_serotype_11 ncbi-refseqs AJ585132
+create reference REF_S2_serotype_12 ncbi-refseqs KP821100
+create reference REF_S2_serotype_13 ncbi-refseqs AJ585134
+create reference REF_S2_serotype_14 ncbi-refseqs KP820983
+create reference REF_S2_serotype_15 ncbi-refseqs KP820984
+create reference REF_S2_serotype_16 ncbi-refseqs AJ585137 
+create reference REF_S2_serotype_17 ncbi-refseqs AJ585138
+create reference REF_S2_serotype_18 ncbi-refseqs AJ585139
+create reference REF_S2_serotype_19 ncbi-refseqs AJ585140
+create reference REF_S2_serotype_20 ncbi-refseqs AJ585141
+create reference REF_S2_serotype_21 ncbi-refseqs AJ585142
+create reference REF_S2_serotype_22 ncbi-refseqs AJ585143
+create reference REF_S2_serotype_23 ncbi-refseqs AJ585144
+create reference REF_S2_serotype_24 ncbi-refseqs AJ585145
+create reference REF_S2_serotype_25 ncbi-refseqs EU839840
+create reference REF_S2_serotype_26 ncbi-refseqs HM590642
+create reference REF_S2_serotype_27 ncbi-refseqs KM200718
 ## commented out from the project build until they are published.
 ## create reference REF_S2_serotype_28 kyriaki-nomikou-unpublished KN102
 
-create reference REF_S6_serotype_1 ncbi-curated JX680462
-create reference REF_S6_serotype_2 ncbi-curated KP821512
-create reference REF_S6_serotype_3 ncbi-curated KP821521
-create reference REF_S6_serotype_4 ncbi-curated KP821548
-create reference REF_S6_serotype_5 ncbi-curated KP821582
-create reference REF_S6_serotype_6 ncbi-curated AJ586703
-create reference REF_S6_serotype_7 ncbi-curated AJ586704
-create reference REF_S6_serotype_8 ncbi-curated KP821558
-create reference REF_S6_serotype_9 ncbi-curated KP821570
-create reference REF_S6_serotype_10 ncbi-curated AJ586709 
-create reference REF_S6_serotype_11 ncbi-curated AJ586710
-create reference REF_S6_serotype_12 ncbi-curated KP821583
-create reference REF_S6_serotype_13 ncbi-curated AJ586713
-create reference REF_S6_serotype_14 ncbi-curated KP821465
-create reference REF_S6_serotype_15 ncbi-curated KP821466
-create reference REF_S6_serotype_16 ncbi-curated AJ586719 
-create reference REF_S6_serotype_17 ncbi-curated AJ586720 
-create reference REF_S6_serotype_18 ncbi-curated AJ586721
-create reference REF_S6_serotype_19 ncbi-curated AJ586722
-create reference REF_S6_serotype_20 ncbi-curated AJ586723 
-create reference REF_S6_serotype_21 ncbi-curated AJ586724
-create reference REF_S6_serotype_22 ncbi-curated AJ586725
-create reference REF_S6_serotype_23 ncbi-curated AJ586727
-create reference REF_S6_serotype_24 ncbi-curated AJ586730
-create reference REF_S6_serotype_25 ncbi-curated EU839842
-create reference REF_S6_serotype_26 ncbi-curated JN255159
-create reference REF_S6_serotype_27 ncbi-curated LN713675
+create reference REF_S6_serotype_1 ncbi-refseqs JX680462
+create reference REF_S6_serotype_2 ncbi-refseqs KP821512
+create reference REF_S6_serotype_3 ncbi-refseqs KP821521
+create reference REF_S6_serotype_4 ncbi-refseqs KP821548
+create reference REF_S6_serotype_5 ncbi-refseqs KP821582
+create reference REF_S6_serotype_6 ncbi-refseqs AJ586703
+create reference REF_S6_serotype_7 ncbi-refseqs AJ586704
+create reference REF_S6_serotype_8 ncbi-refseqs KP821558
+create reference REF_S6_serotype_9 ncbi-refseqs KP821570
+create reference REF_S6_serotype_10 ncbi-refseqs AJ586709 
+create reference REF_S6_serotype_11 ncbi-refseqs AJ586710
+create reference REF_S6_serotype_12 ncbi-refseqs KP821583
+create reference REF_S6_serotype_13 ncbi-refseqs AJ586713
+create reference REF_S6_serotype_14 ncbi-refseqs KP821465
+create reference REF_S6_serotype_15 ncbi-refseqs KP821466
+create reference REF_S6_serotype_16 ncbi-refseqs AJ586719 
+create reference REF_S6_serotype_17 ncbi-refseqs AJ586720 
+create reference REF_S6_serotype_18 ncbi-refseqs AJ586721
+create reference REF_S6_serotype_19 ncbi-refseqs AJ586722
+create reference REF_S6_serotype_20 ncbi-refseqs AJ586723 
+create reference REF_S6_serotype_21 ncbi-refseqs AJ586724
+create reference REF_S6_serotype_22 ncbi-refseqs AJ586725
+create reference REF_S6_serotype_23 ncbi-refseqs AJ586727
+create reference REF_S6_serotype_24 ncbi-refseqs AJ586730
+create reference REF_S6_serotype_25 ncbi-refseqs EU839842
+create reference REF_S6_serotype_26 ncbi-refseqs JN255159
+create reference REF_S6_serotype_27 ncbi-refseqs LN713675
 ## commented out from the project build until they are published.
 ## create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished KN156
+
+module refseqCladeImporter populate --whereClause "source.name = 'ncbi-refseqs'" --fileName tabular/refseq_clades.txt
+
+

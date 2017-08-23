@@ -6,8 +6,6 @@ run file glue/btvSchemaExtensions.glue
  
 project btv
 
-  console set log-level FINEST
-  
   run file glue/btvProjectSettings.glue
   
   # create modules from files
@@ -16,14 +14,17 @@ project btv
   # features.
   run file glue/btvFeatures.glue
 
+  # Import NCBI reference sequence set
+  import source sources/ncbi-refseqs 
+
+  # references
+  run file glue/btvReferences.glue
+
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
   ## commented out from the project build until they are published.
   ## run file glue/btvImportUnpublished.glue
-
-  # references
-  run file glue/btvReferences.glue
 
   # import sequence-associated data from GenBank xml and tabular
   run file glue/btvSequenceAssociatedData.glue
@@ -38,3 +39,6 @@ project btv
   run file glue/recordFeaturePresence.glue
 
   validate
+  
+  exit
+
