@@ -1,4 +1,6 @@
-run script glue/buildPhyloAlignments.js
-run script glue/buildPhyloTrees.js
-run script glue/buildPhyloAnnotations.js
-run script glue/rerootPhyloTrees.js
+project btv
+  run script glue/buildPhyloAlignments.js
+  run script glue/buildPhyloTrees.js
+  run script glue/buildPhyloAnnotations.js
+  run script glue/rerootPhyloTrees.js
+  exit
