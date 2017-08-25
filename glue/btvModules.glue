@@ -25,8 +25,7 @@
   create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
   
 
-  create module --fileName modules/figTreeAnnotationExporterAll.xml figTreeAnnotationExporterAll
-  create module --fileName modules/figTreeAnnotationExporterCountryYear.xml figTreeAnnotationExporterCountryYear
+  create module --fileName modules/btvFigTreeAnnotationExporter.xml 
 
   create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
   create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
@@ -41,6 +40,9 @@
 
   create module --fileName modules/blastFastaAlignmentImporter.xml
   create module --fileName modules/mafftAligner.xml
+  
+  create module --fileName modules/btvRaxmlPhylogenyGenerator.xml
+  create module --fileName modules/btvPhyloUtility.xml   
   
   
   

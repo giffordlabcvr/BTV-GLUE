@@ -7,9 +7,16 @@ function almtName(segment) {
 }
 
 _.each(segments, function(segment) {
-	glue.command(["create", "alignment", almtName(segment)]);
-	glue.inMode("alignment/"+almtName(segment), function() {
+	var alName = almtName(segment);
+	glue.command(["create", "alignment", alName]);
+	glue.inMode("alignment/"+alName, function() {
+		// add reference for this sequence, simply so that we can use it to pick out alignment columns (e.g. coding region).
+		glue.command(["add", "member", "-w", "referenceSequences.name = 'REF_S"+segment+"_MASTER'"]);
+		// add curated sequences for this segment
 		glue.command(["add", "member", "-w", "gb_segment = '"+segment+"' and complete_segment = 'true' and source.name = 'ncbi-curated'"]);
 	});
-	glue.command(["compute", "alignment", almtName(segment), "mafftAligner"]);
+	glue.command(["compute", "alignment", alName, "mafftAligner"]);
+	glue.inMode("module/fastaAlignmentExporter", function() {
+		glue.command(["export", alName, "--allMembers", "--fileName", "alignments/phyloUnconstrained/"+alName+".fna"]);
+	});
 });
