@@ -1,0 +1,3 @@
+run script glue/buildPhyloTrees.js
+run script glue/buildPhyloAnnotations.js
+run script glue/rerootPhyloTrees.js
