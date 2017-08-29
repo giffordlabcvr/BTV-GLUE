@@ -12,8 +12,15 @@ btvApp.controller('btvAlignmentCtrl',
 					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated' and referenceMember = false",
 					[
 					 "sequence.sequenceID",
-                     "sequence.gb_country_iso",
-                     "sequence.gb_country_short",
+                     "sequence.who_country.id",
+                     "sequence.who_country.display_name",
+                     "sequence.who_country.who_region.id",
+                     "sequence.who_country.who_region.display_name",
+                     "sequence.who_country.development_status",
+                     "sequence.who_country.who_sub_region.id",
+                     "sequence.who_country.who_sub_region.display_name",
+                     "sequence.who_country.who_intermediate_region.id",
+                     "sequence.who_country.who_intermediate_region.display_name",
 					 "sequence.gb_collection_year",
 					 "sequence.gb_length",
 					 "sequence.gb_create_date",
@@ -22,6 +29,9 @@ btvApp.controller('btvAlignmentCtrl',
 					 "sequence.gb_isolate",
 					 "sequence.gb_host"
 					 ]);
+
+			$scope.initGlobalRegionFixedValueSet();
+			$scope.initDevelopmentStatusFixedValueSet();
 
 			$scope.pagingContext.setDefaultSortOrder([
 			    { property: "sequence.sequenceID", displayName: "NCBI Nucleotide ID", order: "+" }
@@ -33,41 +43,25 @@ btvApp.controller('btvAlignmentCtrl',
 	            { property:"sequence.gb_length", displayName: "Sequence Length" },
 	            { property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date" },
 	            { property:"sequence.gb_update_date", displayName: "NCBI Last Update Date" },
-  	            { property:"sequence.gb_country_iso", displayName: "Country of Origin" },
+  	            { property:"sequence.who_country.id", displayName: "Country of Origin" },
 	            { property:"sequence.gb_collection_year", displayName: "Collection Year" },
 	            { property:"sequence.gb_isolate", displayName: "Isolate ID" },
 	            { property:"sequence.gb_host", displayName: "Host Species" },
 	            { property:"sequence.pmid_reference", displayName: "PubMed ID" }
 	        ]);
 
+  			$scope.pagingContext.setDefaultFilterElems([]);
+
 			$scope.pagingContext.setFilterProperties([
          		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
         		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
   	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
-                { property:"featurePresence", displayName: "Coverage of Genome Region", filterHints: 
-	            	{ type: "FeaturePresence", 
-	            	  generateCustomDefault: function() {
-	            		  return {
-	            			  feature: $scope.featureList[0], 
-	            			  minCoveragePct: 90.0
-	            		  };
-	            	  },
-                	  generatePredicateFromCustom: function(filterElem) {
-                		  var custom = filterElem.custom;
-	            		  var cayennePredicate = 
-	              		  	"fLocNotes.featureLoc.referenceSequence.name = '"+$scope.referenceName+"' and "+
-	            		  	"fLocNotes.featureLoc.feature.name = '"+custom.feature.featureName+"' and "+
-	            		  	"fLocNotes.ref_nt_coverage_pct >= "+custom.minCoveragePct;
-	            		  return cayennePredicate;
-	            	  },
-	            	  getFeaturePresenceFeatures: function() {
-	            		  return($scope.featureList);
-	            	  }
-	            	}
-                },
+  	            // commented out until alignments are populated
+  	            // $scope.featurePresenceFilter(),
         		{ property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
         		{ property:"sequence.gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
-  	            { property:"sequence.gb_country_short", altProperties:["sequence.gb_country_iso"], displayName: "Country of Origin", filterHints: {type: "String"} },
+  	            $scope.globalRegionFilter(),
+  	            $scope.developmentStatusFilter(),
 	            { property:"sequence.gb_host", displayName: "Host Species", filterHints: {type: "String"} },
 	            { property:"sequence.gb_collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
 	            { property:"sequence.gb_isolate", displayName: "Isolate ID", filterHints: {type: "String"} },
@@ -79,6 +73,4 @@ btvApp.controller('btvAlignmentCtrl',
 	            { property:"sequence.pmid_reference", displayName: "PubMed ID", filterHints: {type: "String"} }
 			]);
 
-  			$scope.pagingContext.setDefaultFilterElems([]);
-			
 		}]);

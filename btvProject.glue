@@ -10,6 +10,9 @@ project btv
   
   # create modules from files
   run file glue/btvModules.glue
+
+  # WHO regions / countries etc (M49 standard)
+  run file glue/who_countries/populateWhoCountries.glue
   
   # features.
   run file glue/btvFeatures.glue

@@ -26,7 +26,7 @@
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</textFileColumn>
 	<isoCountryTextFileColumn codeStyle="ALPHA_3">
-		<property>gb_country_iso</property>
+		<property>who_country</property>
 		<header>gb_country_missing</header>
 		<nullRegex>^(?:NULL)|(?: *)$</nullRegex>
 	</isoCountryTextFileColumn>

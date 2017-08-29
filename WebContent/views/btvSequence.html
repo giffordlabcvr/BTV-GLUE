@@ -34,13 +34,20 @@
 				<tr>
 					<td><b>Complete Segment?</b></td><td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
-				<tr ng-show="renderResult.sequence.segment == 6 || renderResult.sequence.segment == 2">
+				<tr>
 					<td><b>BTV Serotype</b></td><td>{{handleNull(renderResult.sequence.serotype)}}</td>
 				</tr>
-				<tr ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index" ng-show="alignment.constrainingReference">
-					<td><b>Clade membership</b></td>
-					<td><a href="#project/alignment/{{alignment.name}}">{{alignment.renderedName}}</a></td>
-				</tr>
+				<tbody ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index" ng-show="alignment.constrainingReference">
+					<tr>				
+						<td><b>Clade membership</b></td>
+						<td><a href="#project/alignment/{{alignment.name}}">{{alignment.renderedName}}</a></td>
+					</tr>
+					<!-- commented out until alignments are populated
+					<tr ng-if="alignment.featureCoverage">
+						<td><b>Coverage of Genome Region</b><br/>based on homology with<br/><a href="#project/reference/{{alignment.constrainingReference.name}}">{{alignment.constrainingReference.renderedName}}</a></td>
+						<td><div ng-repeat="featureCoverage in alignment.featureCoverage track by $index">{{featureCoverage.featureRenderedName}}: {{toFixed(featureCoverage.coveragePct,2)}}%</div></td>
+					</tr> -->
+				</tbody>
 			</table>
 			
 			<div ng-show="renderResult.sequence.referenceText">
@@ -74,8 +81,11 @@
 				<tr>
 					<td><b>Country of Origin</b></td><td>{{renderResult.sequence.country ? (renderResult.sequence.country+" ("+renderResult.sequence.country_iso+")"):"-"}}</td>
 				</tr>
-				<tr>
-					<td><b>Place Sampled</b></td><td>{{handleNull(renderResult.sequence.placeSampled)}}</td>
+				<tr ng-if="renderResult.sequence.country">
+					<td><b>Country Development Status</b></td><td>{{renderDevelopmentStatus(renderResult.sequence)}}</td>
+				</tr>
+				<tr ng-if="renderResult.sequence.country">
+					<td><b>Global Region</b></td><td>{{renderGlobalRegion(renderResult.sequence)}}</td>
 				</tr>
 				<tr>
 					<td><b>Collection Year</b></td><td>{{handleNull(renderResult.sequence.collectionYear)}}</td>

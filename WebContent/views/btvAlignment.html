@@ -69,7 +69,7 @@
 						<td>{{member['sequence.gb_length']}}</td>
 						<td>{{handleNull(member['sequence.gb_isolate'])}}</td>
 						<td><em>{{handleNull(member['sequence.gb_host'])}}</em></td>
-						<td>{{member['sequence.gb_country_short'] ? (member['sequence.gb_country_short']+" ("+member['sequence.gb_country_iso']+")"):"-"}}</td>
+						<td>{{member['sequence.who_country.display_name'] ? (member['sequence.who_country.display_name']+" ("+member['sequence.who_country.id']+")"):"-"}}</td>
 						<td>{{handleNull(member['sequence.gb_collection_year'])}}</td>
 					</tr>
 				</tbody>

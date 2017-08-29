@@ -35,8 +35,8 @@
 			       <col span="1" style="width: 10%;">
 			       <col span="1" style="width: 10%;">
 			       <col span="1" style="width: 15%;">
-			       <col span="1" style="width: 15%;">
 			       <col span="1" style="width: 10%;">
+			       <col span="1" style="width: 15%;">
 			       <col span="1" style="width: 10%;">
 			    </colgroup>
 				<tbody>
@@ -48,7 +48,7 @@
 						<td>{{sequenceResult.gb_length}}</td>
 						<td>{{handleNull(sequenceResult.gb_isolate)}}</td>
 						<td><em>{{handleNull(sequenceResult.gb_host)}}</em></td>
-						<td>{{sequenceResult.gb_country_short ? (sequenceResult.gb_country_short+" ("+sequenceResult.gb_country_iso+")"):"-"}}</td>
+						<td>{{sequenceResult['who_country.display_name'] ? (sequenceResult['who_country.display_name']+" ("+sequenceResult['who_country.id']+")"):"-"}}</td>
 						<td>{{handleNull(sequenceResult.gb_collection_year)}}</td>
 					</tr>
 				</tbody>

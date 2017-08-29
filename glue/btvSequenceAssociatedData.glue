@@ -15,5 +15,3 @@
   # overwrite incorrect field values with corrected
   module dataCorrectedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/data_corrected.txt
 
-  # update gb_country_short based on gb_country_iso
-  run file glue/btvCountryUpdate.glue

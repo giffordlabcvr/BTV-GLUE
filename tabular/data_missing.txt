@@ -697,12 +697,12 @@ AF135230	10	BTV2 ATCC MD
 AF188644	7			Barbados	1988			3		
 AF188645	7			El Salvador	1990			3		
 AF188646	7			Honduras	1989			3		
-AF188647	7			Trinitad	1989			3		
+AF188647	7			Trinidad and Tobago	1989			3		
 AF188648	7			Jamaica	1988			3		
 AF188649	7			South Africa	1977			3		
 AF188650	7			Puerto Rico	1990			17		
 AF188651	7			Costa Rica	1988			3		
-AF188652	7			Tobago	1988			3		
+AF188652	7			Trinidad and Tobago	1988			3		
 AF188653	7			Honduras	1990			6		
 AF188654	7			Panama	1992			3		
 AF188655	7			Costa Rica	1992			3		
@@ -777,14 +777,14 @@ AF512921	10			South Africa	1999
 AF512922	10			South Africa	1944					
 AF512923	10	S11REF		South Africa	1944					
 AF512924	10	S8REF		South Africa	1937					
-AF529044			Bos taurus	West Java	1990					
-AF529045			Bos taurus	West Java	1990					
-AF529046			Bos taurus	West Java	1990					
-AF529047			Bos taurus	West Java	1990					
+AF529044			Bos taurus	Indonesia	1990					
+AF529045			Bos taurus	Indonesia	1990					
+AF529046			Bos taurus	Indonesia	1990					
+AF529047			Bos taurus	Indonesia	1990					
 AF529048				Australia	1998					
-AF529049			Bos taurus	West Java	1990					
-AF529050			Bos taurus	West Java	1990					
-AF529051			Bos taurus	West Java	1991					
+AF529049			Bos taurus	Indonesia	1990					
+AF529050			Bos taurus	Indonesia	1990					
+AF529051			Bos taurus	Indonesia	1991					
 AF529052			Bos taurus	Australia	1994					
 AF529053				Australia	1994					
 AF529054				Australia	1995					
@@ -792,7 +792,7 @@ AF529055				Australia	1995
 AF529056				Australia	1995					
 AF529057				Australia	1996					
 AF529058				Australia	1998					
-AF529059			Bos taurus	West Java	1990					
+AF529059			Bos taurus	Indonesia	1990					
 AF530066	9									
 AF530067	2									
 AJ277802	7			India						
@@ -1018,7 +1018,7 @@ AY154458	1	Corsican bluetongue virus		France
 AY189951								2		
 AY263377			Ovis aries							
 AY273207										
-AY277928			Bos taurus	West Java - Indonesia						
+AY277928			Bos taurus	Indonesia						
 AY277929			Bos taurus	Australia	1991					
 AY277930			Bos taurus	Australia	1995					
 AY277931			Bos taurus	Australia	1994					
@@ -4506,7 +4506,7 @@ AJ585170	2			Bulgaria	1999
 AJ585171	2			Greece	2000					
 AJ585172	2			Serbia	2001					
 AJ585173	2			South Africa						
-AJ585174	2			Bosnia	2002					
+AJ585174	2			Bosnia and Herzegovina	2002					
 AJ585175	2			Turkey	2000					
 AJ585176	2			Turkey	2000					
 AJ585177	2			Turkey	2000					

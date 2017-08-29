@@ -58,8 +58,12 @@
 		</gbQualifier>
 
 		<gbQualifier name="country">
-			<isoCountryPropertyPopulator property="gb_country_iso" codeStyle="ALPHA_3"/>
+			<isoCountryPropertyPopulator property="who_country" codeStyle="ALPHA_3"/>
 			<propertyPopulator property="gb_country"/>
+			<propertyPopulator property="gb_place_sampled">
+				<matchPattern>^.*:(.*)$</matchPattern>
+				<outputTemplate>${g1?trim}</outputTemplate>
+			</propertyPopulator>
 		</gbQualifier>
 
 		

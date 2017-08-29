@@ -44,7 +44,13 @@
   create module --fileName modules/btvRaxmlPhylogenyGenerator.xml
   create module --fileName modules/btvPhyloUtility.xml   
   
+  create module --fileName modules/segmentRecogniser.xml  
   
+  create module --fileName modules/whoRegionTreeRenderer.xml --loadResources
   
+  create module -f modules/whoRegionsTextToCustomTableRows.xml
+  create module -f modules/whoSubRegionsTextToCustomTableRows.xml
+  create module -f modules/whoIntermediateRegionsTextToCustomTableRows.xml
+  create module -f modules/whoCountriesTextToCustomTableRows.xml  
   
   

@@ -12,9 +12,10 @@ schema-project btv
     create field gb_isolate VARCHAR 300
     create field gb_taxonomy VARCHAR 200
     create field gb_host VARCHAR 
-    create field gb_country VARCHAR 200
-    create field gb_country_iso VARCHAR 
-    create field gb_country_short VARCHAR 50
+    # country *as recorded in the genbank record*
+	# normalised country is found under the link who_country.
+    create field gb_country VARCHAR 100
+    create field gb_place_sampled VARCHAR 200
     create field gb_collection_year INTEGER 
     create field gb_collection_month VARCHAR
     create field gb_collection_month_day INTEGER
@@ -36,7 +37,10 @@ schema-project btv
   	create field ref_nt_coverage_pct DOUBLE
   	exit
 
+  # WHO regions / countries etc (M49 standard)
+  run file glue/who_countries/whoCountriesSchemaExtension.glue
+    
+  create link sequence who_country -m MANY_TO_ONE
+
   exit
-
-
   
