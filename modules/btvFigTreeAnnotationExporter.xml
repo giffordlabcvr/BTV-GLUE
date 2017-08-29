@@ -1,7 +1,19 @@
 <figTreeAnnotationExporter>
 	<figTreeAnnotation>
-		<annotationName>country</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.gb_country_iso')}</valueFreemarkerTemplate>
+		<annotationName>country_iso</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.who_country.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>country_display_name</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.who_country.display_name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>region</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.who_country.who_region.id')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+	<figTreeAnnotation>
+		<annotationName>sub_region</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.who_country.who_sub_region.id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	<figTreeAnnotation>
 		<annotationName>serotype</annotationName>
@@ -21,6 +33,6 @@
 	</figTreeAnnotation>
 	<figTreeAnnotation>
 		<annotationName>accession_country_serotype</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.gb_country_iso')}/${renderNestedProperty('sequence.gb_serotype')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.who_country.id')}/${renderNestedProperty('sequence.gb_serotype')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 </figTreeAnnotationExporter>

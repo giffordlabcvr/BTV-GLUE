@@ -1,428 +1,428 @@
-taxon	country	serotype	host	year	accession	accession_country_serotype
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AB473807	JPN	21	-	-	AB473807	AB473807/JPN/21
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172825	CHN	1	Ovis aries	1986	AF172825	AF172825/CHN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172826	CHN	2	Bos taurus	1996	AF172826	AF172826/CHN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172827	CHN	3	Bos taurus	1996	AF172827	AF172827/CHN/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172828	CHN	4	Bos taurus	1996	AF172828	AF172828/CHN/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172829	CHN	12	Bos taurus	1996	AF172829	AF172829/CHN/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172830	CHN	15	Bos taurus	1996	AF172830	AF172830/CHN/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172831	CHN	16	Ovis aries	1988	AF172831	AF172831/CHN/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188644	BRB	3	-	1988	AF188644	AF188644/BRB/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188645	SLV	3	-	1990	AF188645	AF188645/SLV/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188646	HND	3	-	1989	AF188646	AF188646/HND/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188647	TTO	3	-	1989	AF188647	AF188647/TTO/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188648	JAM	3	-	1988	AF188648	AF188648/JAM/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188649	ZAF	3	-	1977	AF188649	AF188649/ZAF/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188650	PRI	17	-	1990	AF188650	AF188650/PRI/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188651	CRI	3	-	1988	AF188651	AF188651/CRI/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188652	TTO	3	-	1988	AF188652	AF188652/TTO/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188653	HND	6	-	1990	AF188653	AF188653/HND/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188654	PAN	3	-	1992	AF188654	AF188654/PAN/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188655	CRI	3	-	1992	AF188655	AF188655/CRI/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188656	PAN	3	-	1989	AF188656	AF188656/PAN/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188657	PAN	3	-	1989	AF188657	AF188657/PAN/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188658	PAN	3	-	1991	AF188658	AF188658/PAN/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188659	GTM	3	-	1990	AF188659	AF188659/GTM/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188660	USA	2	-	1982	AF188660	AF188660/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188661	JAM	3	-	1989	AF188661	AF188661/JAM/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188662	HND	6	-	1990	AF188662	AF188662/HND/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188663	GTM	3	-	1991	AF188663	AF188663/GTM/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188664	GTM	17	-	1990	AF188664	AF188664/GTM/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188665	PRI	17	-	1990	AF188665	AF188665/PRI/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188666	PRI	17	-	1990	AF188666	AF188666/PRI/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188667	DMA	4	-	1990	AF188667	AF188667/DMA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188668	ZAF	4	-	1979	AF188668	AF188668/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188669	ZAF	1	-	1977	AF188669	AF188669/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188670	HND	1	-	1989	AF188670	AF188670/HND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188671	DMA	8	-	1990	AF188671	AF188671/DMA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188672	ZAF	2	-	1982	AF188672	AF188672/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188673	JAM	12	-	1988	AF188673	AF188673/JAM/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188674	USA	2	-	1982	AF188674	AF188674/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF346302	FRA	2	Ovis aries	2000	AF346302	AF346302/FRA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF469115	TUN	2	Ovis aries	-	AF469115	AF469115/TUN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AF481095	ZAF	2	-	-	AF481095	AF481095/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AJ277802	IND	23	Ovis aries	-	AJ277802	AJ277802/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261975	IND	-	-	-	AM261975	AM261975/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261976	IND	1	-	-	AM261976	AM261976/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261977	IND	-	-	-	AM261977	AM261977/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261978	IND	-	-	-	AM261978	AM261978/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261979	IND	-	-	-	AM261979	AM261979/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261980	IND	-	-	-	AM261980	AM261980/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261981	IND	-	-	-	AM261981	AM261981/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AM498057	NLD	8	Ovis aries	2006	AM498057	AM498057/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY079124	FRA	2	-	2001	AY079124	AY079124/FRA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY263377	BRA	12	Ovis aries	-	AY263377	AY263377/BRA/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY386682	CHN	-	-	-	AY386682	AY386682/CHN/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY485667	FRA	3	-	2003	AY485667	AY485667/FRA/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY493692	TWN	2	Capra hircus	2003	AY493692	AY493692/TWN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY606206	IND	18	-	-	AY606206	AY606206/IND/18
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY643511	IND	23	Ovis aries	1988	AY643511	AY643511/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY643512	IND	18	Ovis aries	1998	AY643512	AY643512/IND/18
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY776331	ZAF	1	-	-	AY776331	AY776331/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY789967	IND	1	-	-	AY789967	AY789967/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY839949	FRA	4	Ovis aries	2003	AY839949	AY839949/FRA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841351	GRC	4	Ovis aries	2000	AY841351	AY841351/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841352	GRC	4	Ovis aries	1999	AY841352	AY841352/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841353	ZAF	4	-	2004	AY841353	AY841353/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855282	USA	2	-	1999	AY855282	AY855282/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855283	USA	13	-	1999	AY855283	AY855283/USA/13
-alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855284	USA	17	-	1999	AY855284	AY855284/USA/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399834	IND	10	Ovis aries	2003	DQ399834	DQ399834/IND/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399835	IND	10	Ovis aries	2003	DQ399835	DQ399835/IND/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399836	IND	9	Ovis aries	2002	DQ399836	DQ399836/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399837	IND	2	Ovis aries	1995	DQ399837	DQ399837/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465026	ZAF	7	Ovis aries	1955	DQ465026	DQ465026/ZAF/7
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465027	ZAF	15	Bos taurus	1960	DQ465027	DQ465027/ZAF/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465028	ZAF	19	Ovis aries	1976	DQ465028	DQ465028/ZAF/19
-alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ825672	TUR	4	Ovis aries	1999	DQ825672	DQ825672/TUR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/EF434175	PRT	2	Bos taurus	2005	EF434175	EF434175/PRT/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/EF434178	PRT	4	Ovis aries	2004	EF434178	EF434178/PRT/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/EU498675	PRT	1	Ovis aries	2007	EU498675	EU498675/PRT/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/EU839843	CHE	25	Capra hircus	2007	EU839843	EU839843/CHE/25
-alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ183380	NLD	8	-	-	FJ183380	FJ183380/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ437558	FRA	1	Ovis aries	2007	FJ437558	FJ437558/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ437562	DZA	1	Ovis aries	2006	FJ437562	FJ437562/DZA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ947066	CHN	-	-	-	FJ947066	FJ947066/CHN/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ969725	ZAF	1	-	-	FJ969725	FJ969725/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506450	GRC	1	Ovis aries	2001	GQ506450	GQ506450/GRC/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506457	NLD	8	Bos taurus	2007	GQ506457	GQ506457/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506465	DEU	6	Bos taurus	2008	GQ506465	GQ506465/DEU/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506471	NLD	6	Bos taurus	2008	GQ506471	GQ506471/NLD/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506478	NLD	6	Bos taurus	2008	GQ506478	GQ506478/NLD/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506484	NLD	6	Bos taurus	2008	GQ506484	GQ506484/NLD/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506494	ZAF	6	Culicoides sp.	-	GQ506494	GQ506494/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506502	ZAF	6	Ovis aries	1958	GQ506502	GQ506502/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506512	ZAF	6	Ovis aries	1958	GQ506512	GQ506512/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506522	ZAF	6	Ovis aries	-	GQ506522	GQ506522/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506532	ZAF	6	Ovis aries	1958	GQ506532	GQ506532/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506542	USA	6	Bos taurus	2006	GQ506542	GQ506542/USA/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/GU390663	TWN	12	Bos taurus	2003	GU390663	GU390663/TWN/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/HM590644	KWT	26	Ovis aries	2010	HM590644	HM590644/KWT/26
-alignment/PHYLO_UNC_S7/member/ncbi-curated/J04365	USA	13	-	-	J04365	J04365/USA/13
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JF443162	IND	9	Ovis aries	2006	JF443162	JF443162/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN006965	IND	2	Ovis aries	-	JN006965	JN006965/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255868	ITA	2	Ovis aries	2000	JN255868	JN255868/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255878	ITA	2	Ovis aries	2000	JN255878	JN255878/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255888	ITA	4	Ovis aries	2003	JN255888	JN255888/ITA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255898	ITA	4	Ovis aries	2003	JN255898	JN255898/ITA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255908	ITA	9	Ovis aries	2003	JN255908	JN255908/ITA/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255918	ITA	9	Ovis aries	2000	JN255918	JN255918/ITA/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255928	ZAF	2	Ovis aries	-	JN255928	JN255928/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255938	ZAF	2	Ovis aries	-	JN255938	JN255938/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255948	ZAF	4	Ovis aries	1900	JN255948	JN255948/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255958	ZAF	9	Ovis aries	1942	JN255958	JN255958/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255968	ZAF	9	Ovis aries	1942	JN255968	JN255968/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN671912	CHN	16	Ovis aries	1996	JN671912	JN671912/CHN/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN848765	CHN	1	Ovis aries	1997	JN848765	JN848765/CHN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JN881991	AUS	1	Bos taurus	1979	JN881991	JN881991/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ080437	IND	-	Ovis aries	1999	JQ080437	JQ080437/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086227	AUS	15	Bos taurus	1982	JQ086227	JQ086227/AUS/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086237	AUS	16	Bos taurus	1987	JQ086237	JQ086237/AUS/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086247	AUS	2	Bos taurus	2008	JQ086247	JQ086247/AUS/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086257	AUS	20	Culicoides sp.	1977	JQ086257	JQ086257/AUS/20
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086267	AUS	21	Bos taurus	1979	JQ086267	JQ086267/AUS/21
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086277	AUS	23	Bos taurus	1982	JQ086277	JQ086277/AUS/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086287	AUS	3	Bos taurus	1986	JQ086287	JQ086287/AUS/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086297	AUS	7	Bos taurus	2007	JQ086297	JQ086297/AUS/7
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086307	AUS	9	Bos taurus	1985	JQ086307	JQ086307/AUS/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ240327	AUS	2	Bos taurus	2010	JQ240327	JQ240327/AUS/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ282774	IND	1	Ovis aries	1992	JQ282774	JQ282774/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414047	IND	-	Ovis aries	2005	JQ414047	JQ414047/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414048	IND	9	Ovis aries	2005	JQ414048	JQ414048/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414049	IND	-	Ovis aries	1994	JQ414049	JQ414049/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414050	IND	-	Ovis aries	1998	JQ414050	JQ414050/IND/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ681262	IND	2	Ovis aries	2003	JQ681262	JQ681262/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ713561	IND	2	-	1982	JQ713561	JQ713561/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ740777	IND	10	-	2004	JQ740777	JQ740777/IND/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ771819	IND	3	-	2003	JQ771819	JQ771819/IND/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ771828	IND	23	Ovis aries	1988	JQ771828	JQ771828/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ822254	USA	2	Bos taurus	2010	JQ822254	JQ822254/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ904067	IND	2	Ovis aries	2008	JQ904067	JQ904067/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ924826	IND	16	Capra hircus	2010	JQ924826	JQ924826/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972837	ZAF	11	Bos taurus	2010	JQ972837	JQ972837/ZAF/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972847	ZAF	11	Bos taurus	2010	JQ972847	JQ972847/ZAF/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972857	DEU	11	Bos taurus	2010	JQ972857	JQ972857/DEU/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972867	MTQ	11	Bos taurus	2010	JQ972867	JQ972867/MTQ/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX003693	IND	9	Ovis aries	2007	JX003693	JX003693/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX007928	IND	16	Bos taurus	2010	JX007928	JX007928/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024943	ARG	4	Bos taurus	1999	JX024943	JX024943/ARG/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024948	ARG	4	Bos taurus	1999	JX024948	JX024948/ARG/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024953	ARG	4	Bos taurus	1999	JX024953	JX024953/ARG/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024958	ARG	4	Bos taurus	2009	JX024958	JX024958/ARG/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024963	ARG	4	Bos taurus	2010	JX024963	JX024963/ARG/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX129383	ZAF	16	Ovis aries	1960	JX129383	JX129383/ZAF/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272375	ZAF	24	-	-	JX272375	JX272375/ZAF/24
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272385	ZAF	1	-	-	JX272385	JX272385/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272395	ZAF	22	-	-	JX272395	JX272395/ZAF/22
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272405	ZAF	23	-	-	JX272405	JX272405/ZAF/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272415	ZAF	21	-	-	JX272415	JX272415/ZAF/21
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272425	ZAF	20	-	-	JX272425	JX272425/ZAF/20
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272435	ZAF	19	-	-	JX272435	JX272435/ZAF/19
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272445	ZAF	18	-	-	JX272445	JX272445/ZAF/18
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272455	ZAF	17	-	-	JX272455	JX272455/ZAF/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272465	ZAF	16	-	-	JX272465	JX272465/ZAF/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272475	ZAF	15	-	-	JX272475	JX272475/ZAF/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272485	ZAF	14	-	-	JX272485	JX272485/ZAF/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272495	ZAF	13	-	-	JX272495	JX272495/ZAF/13
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272505	ZAF	12	-	-	JX272505	JX272505/ZAF/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272515	ZAF	11	-	-	JX272515	JX272515/ZAF/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272525	ZAF	10	-	-	JX272525	JX272525/ZAF/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272535	ZAF	9	-	-	JX272535	JX272535/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272545	ZAF	8	-	-	JX272545	JX272545/ZAF/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272555	ZAF	7	-	-	JX272555	JX272555/ZAF/7
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272565	ZAF	6	-	-	JX272565	JX272565/ZAF/6
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272575	ZAF	5	-	-	JX272575	JX272575/ZAF/5
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272585	ZAF	4	-	-	JX272585	JX272585/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272595	ZAF	3	-	-	JX272595	JX272595/ZAF/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272605	ZAF	2	-	-	JX272605	JX272605/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX399154	IND	1	Ovis aries	2008	JX399154	JX399154/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX560419	CHN	4	Bos taurus	1997	JX560419	JX560419/CHN/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX680453	NLD	8	-	-	JX680453	JX680453/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX680463	ZAF	1	-	-	JX680463	JX680463/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX861494	FRA	1	Ovis aries	2007	JX861494	JX861494/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/JX861504	FRA	1	Bos taurus	2008	JX861504	JX861504/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KC662618	IND	12	Ovis aries	2011	KC662618	KC662618/IND/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KC853055	NGA	16	-	1982	KC853055	KC853055/NGA/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KC879621	CHN	1	Ovis aries	1979	KC879621	KC879621/CHN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF387527	ITA	16	Bos taurus	2002	KF387527	KF387527/ITA/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF460442	IND	2	Ovis aries	2010	KF460442	KF460442/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF460443	IND	2	Ovis aries	2010	KF460443	KF460443/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF560423	IND	4	Ovis aries	2008	KF560423	KF560423/IND/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664109	IND	16	Ovis aries	2008	KF664109	KF664109/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664119	IND	1	Culicoides sp.	2007	KF664119	KF664119/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664129	IND	1	Ovis aries	2008	KF664129	KF664129/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664139	IND	16	Capra hircus	2011	KF664139	KF664139/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986503	PAN	2	Bos taurus	1989	KF986503	KF986503/PAN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986505	USA	2	Bos taurus	2003	KF986505	KF986505/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986509	USA	2	Bos taurus	2006	KF986509	KF986509/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ019211	ITA	1	Ovis aries	2013	KJ019211	KJ019211/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577100	ITA	1	Ovis aries	2012	KJ577100	KJ577100/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577110	TUN	1	Ovis aries	2011	KJ577110	KJ577110/TUN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577120	ITA	1	Ovis aries	2010	KJ577120	KJ577120/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577130	ITA	1	Ovis aries	2013	KJ577130	KJ577130/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ661735	ITA	1	Ovis aries	2013	KJ661735	KJ661735/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ700443	ESP	4	Ovis aries	2003	KJ700443	KJ700443/ESP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ736007	ITA	1	Ovis aries	2006	KJ736007	KJ736007/ITA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM053264	ITA	8	Ovis aries	2008	KM053264	KM053264/ITA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM053274	ITA	2	Ovis aries	2000	KM053274	KM053274/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099608	AUS	1	Bos taurus	1981	KM099608	KM099608/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099609	AUS	1	Bos taurus	1986	KM099609	KM099609/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099610	AUS	1	Bos taurus	1988	KM099610	KM099610/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099611	AUS	1	Bos taurus	1989	KM099611	KM099611/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099612	AUS	1	Bos taurus	1993	KM099612	KM099612/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099613	AUS	1	Bos taurus	1994	KM099613	KM099613/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099614	AUS	1	Bos taurus	1996	KM099614	KM099614/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099615	AUS	1	Bos taurus	1997	KM099615	KM099615/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099616	AUS	1	Bos taurus	1999	KM099616	KM099616/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099617	AUS	1	Bos taurus	1999	KM099617	KM099617/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099618	AUS	1	Bos taurus	2002	KM099618	KM099618/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099619	AUS	1	Bos taurus	2002	KM099619	KM099619/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099620	AUS	1	Bos taurus	2004	KM099620	KM099620/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099621	AUS	1	Bos taurus	2005	KM099621	KM099621/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099622	AUS	1	Bos taurus	2008	KM099622	KM099622/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099623	AUS	1	Bos taurus	2010	KM099623	KM099623/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099624	AUS	1	Bos taurus	2010	KM099624	KM099624/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM233620	ZAF	4	-	-	KM233620	KM233620/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580418	USA	11	Odocoileus virginianus	2011	KM580418	KM580418/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580431	USA	11	Odocoileus virginianus	2011	KM580431	KM580431/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580437	USA	11	Odocoileus virginianus	2011	KM580437	KM580437/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580443	USA	11	Odocoileus virginianus	2011	KM580443	KM580443/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580460	USA	11	Canis familiaris	2011	KM580460	KM580460/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580468	USA	11	Canis familiaris	2012	KM580468	KM580468/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580473	USA	11	Odocoileus virginianus	2013	KM580473	KM580473/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580487	USA	11	Lama glama	2013	KM580487	KM580487/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP196609	ZAF	-	Vicugna pacos	2008	KP196609	KP196609/ZAF/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP268780	IND	2	-	1994	KP268780	KP268780/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP268820	HUN	4	Bos taurus	2014	KP268820	KP268820/HUN/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339140	IND	1	Ovis aries	2010	KP339140	KP339140/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339150	IND	1	Ovis aries	2010	KP339150	KP339150/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339160	IND	2	Ovis aries	1993	KP339160	KP339160/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339170	IND	2	Ovis aries	2010	KP339170	KP339170/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339180	IND	9	Ovis aries	2003	KP339180	KP339180/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339190	IND	9	Ovis aries	2003	KP339190	KP339190/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339200	IND	16	Ovis aries	2010	KP339200	KP339200/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339210	IND	16	Ovis aries	2010	KP339210	KP339210/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339220	IND	16	Ovis aries	2011	KP339220	KP339220/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339230	IND	16	Ovis aries	2010	KP339230	KP339230/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339240	IND	21	Ovis aries	2005	KP339240	KP339240/IND/21
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339250	IND	10	Ovis aries	2003	KP339250	KP339250/IND/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696513	IND	1	-	1985	KP696513	KP696513/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696522	IND	1	-	1988	KP696522	KP696522/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696531	IND	1	-	1992	KP696531	KP696531/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696540	IND	1	Ovis aries	1999	KP696540	KP696540/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696548	IND	1	Culicoides sp.	2001	KP696548	KP696548/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696558	IND	1	Ovis aries	2003	KP696558	KP696558/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696568	IND	1	Ovis aries	2003	KP696568	KP696568/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696578	IND	1	-	2003	KP696578	KP696578/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696588	IND	2	Ovis aries	1993	KP696588	KP696588/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696598	IND	2	Ovis aries	2003	KP696598	KP696598/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696608	IND	2	Ovis aries	2003	KP696608	KP696608/IND/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696618	IND	9	-	2004	KP696618	KP696618/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696628	IND	9	-	2004	KP696628	KP696628/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696638	IND	9	-	2005	KP696638	KP696638/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696647	IND	9	-	2005	KP696647	KP696647/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696657	IND	9	-	2005	KP696657	KP696657/IND/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696666	IND	23	Ovis aries	1997	KP696666	KP696666/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696676	IND	23	-	2004	KP696676	KP696676/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696686	IND	23	-	2004	KP696686	KP696686/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696696	IND	23	-	2004	KP696696	KP696696/IND/23
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821584	FRA	8	Bos taurus	2008	KP821584	KP821584/FRA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821585	FRA	8	Bos taurus	2008	KP821585	KP821585/FRA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821586	FRA	8	Bos taurus	2008	KP821586	KP821586/FRA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821587	ZAF	14	Ovis aries	1959	KP821587	KP821587/ZAF/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821588	ZAF	15	Ovis aries	1960	KP821588	KP821588/ZAF/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821589	CYP	16	Ovis aries	2004	KP821589	KP821589/CYP/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821590	CYP	16	Bos taurus	2006	KP821590	KP821590/CYP/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821591	CYP	16	Bos taurus	2010	KP821591	KP821591/CYP/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821592	FRA	16	Ovis aries	2004	KP821592	KP821592/FRA/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821593	GRC	16	Ovis aries	1999	KP821593	KP821593/GRC/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821594	GRC	16	Ovis aries	2008	KP821594	KP821594/GRC/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821595	ISR	16	Ovis aries	2001	KP821595	KP821595/ISR/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821596	ISR	16	Capra hircus	2008	KP821596	KP821596/ISR/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821597	PAK	16	Ovis aries	1960	KP821597	KP821597/PAK/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821598	TUR	16	-	2000	KP821598	KP821598/TUR/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821599	DZA	1	Ovis aries	2006	KP821599	KP821599/DZA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821600	DZA	1	Ovis aries	2006	KP821600	KP821600/DZA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821601	DZA	1	Ovis aries	2008	KP821601	KP821601/DZA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821602	CMR	1	Ovis aries	1982	KP821602	KP821602/CMR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821603	FRA	1	Bos taurus	2008	KP821603	KP821603/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821604	FRA	1	Ovis aries	2008	KP821604	KP821604/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821605	FRA	1	Bos taurus	2008	KP821605	KP821605/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821606	FRA	1	Bos taurus	2008	KP821606	KP821606/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821607	FRA	1	Bos taurus	2008	KP821607	KP821607/FRA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821608	GIB	1	Ovis aries	2007	KP821608	KP821608/GIB/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821609	GRC	1	Ovis aries	2001	KP821609	KP821609/GRC/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821610	GRC	1	Ovis aries	2001	KP821610	KP821610/GRC/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821611	GRC	1	Ovis aries	2001	KP821611	KP821611/GRC/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821612	LBY	1	Ovis aries	2007	KP821612	KP821612/LBY/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821613	MAR	1	Ovis aries	2006	KP821613	KP821613/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821614	MAR	1	Ovis aries	2007	KP821614	KP821614/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821615	MAR	1	Ovis aries	2007	KP821615	KP821615/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821616	MAR	1	Ovis aries	2007	KP821616	KP821616/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821617	MAR	1	Ovis aries	2007	KP821617	KP821617/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821618	MAR	1	Ovis aries	2009	KP821618	KP821618/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821619	MAR	1	Ovis aries	2009	KP821619	KP821619/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821620	MAR	1	Ovis aries	2009	KP821620	KP821620/MAR/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821621	ZAF	1	Ovis aries	1958	KP821621	KP821621/ZAF/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821622	ESP	1	Bos taurus	2007	KP821622	KP821622/ESP/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821623	ESP	1	Bos taurus	2007	KP821623	KP821623/ESP/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821624	ESP	1	Ovis aries	2008	KP821624	KP821624/ESP/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821625	ESP	1	Bos taurus	2009	KP821625	KP821625/ESP/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821626	SDN	1	-	1987	KP821626	KP821626/SDN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821627	TUN	1	Ovis aries	2007	KP821627	KP821627/TUN/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821628	FRA	2	-	2001	KP821628	KP821628/FRA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821629	FRA	2	Ovis aries	2001	KP821629	KP821629/FRA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821630	FRA	2	Ovis aries	2001	KP821630	KP821630/FRA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821631	ISR	2	Ovis aries	2001	KP821631	KP821631/ISR/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821632	ITA	2	Culicoides pulicaris	2002	KP821632	KP821632/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821633	ITA	2	Ovis aries	2002	KP821633	KP821633/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821634	ZAF	2	Ovis aries	1959	KP821634	KP821634/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821635	ZAF	2	Ovis aries	1958	KP821635	KP821635/ZAF/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821636	ITA	2	Ovis aries	2001	KP821636	KP821636/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821637	ITA	2	Ovis aries	2001	KP821637	KP821637/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821638	ITA	2	Ovis aries	2002	KP821638	KP821638/ITA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821639	ESP	2	Bos taurus	2005	KP821639	KP821639/ESP/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821640	SDN	2	Culicoides sp.	1983	KP821640	KP821640/SDN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821641	TUN	2	-	2000	KP821641	KP821641/TUN/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821642	CYP	3	-	1958	KP821642	KP821642/CYP/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821643	CYP	3	Ovis aries	1943	KP821643	KP821643/CYP/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821644	CYP	4	Bos taurus	1969	KP821644	KP821644/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821645	CYP	4	Ovis aries	2004	KP821645	KP821645/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821646	CYP	4	Ovis aries	2011	KP821646	KP821646/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821647	CYP	4	Ovis aries	2011	KP821647	KP821647/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821648	CYP	4	Ovis aries	2011	KP821648	KP821648/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821649	CYP	4	Ovis aries	2011	KP821649	KP821649/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821650	CYP	4	Ovis aries	2011	KP821650	KP821650/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821651	EGY	4	-	1977	KP821651	KP821651/EGY/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821652	FRA	4	-	2003	KP821652	KP821652/FRA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821653	FRA	4	-	2003	KP821653	KP821653/FRA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821654	FRA	4	-	2003	KP821654	KP821654/FRA/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821655	GRC	4	Ovis aries	1979	KP821655	KP821655/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821656	GRC	4	Ovis aries	1999	KP821656	KP821656/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821657	GRC	4	Culicoides obsoletus	1999	KP821657	KP821657/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821658	GRC	4	Ovis aries	2000	KP821658	KP821658/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821659	GRC	4	Culicoides obsoletus	2000	KP821659	KP821659/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821660	GRC	4	Ovis aries	2012	KP821660	KP821660/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821661	GRC	4	Ovis aries	2012	KP821661	KP821661/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821662	GRC	4	Ovis aries	2012	KP821662	KP821662/GRC/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821663	ISR	4	Ovis aries	2006	KP821663	KP821663/ISR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821664	ISR	4	Bos taurus	2008	KP821664	KP821664/ISR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821665	MAR	4	Ovis aries	2004	KP821665	KP821665/MAR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821666	MAR	4	Ovis aries	2009	KP821666	KP821666/MAR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821667	MAR	4	Ovis aries	2009	KP821667	KP821667/MAR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821668	MAR	4	Ovis aries	2009	KP821668	KP821668/MAR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821669	MAR	4	Ovis aries	2009	KP821669	KP821669/MAR/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821670	CYP	4	Ovis aries	1969	KP821670	KP821670/CYP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821671	ESP	4	Ovis aries	2003	KP821671	KP821671/ESP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821672	ESP	4	Ovis aries	2004	KP821672	KP821672/ESP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821673	ESP	4	Bos taurus	2005	KP821673	KP821673/ESP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821674	ESP	4	Bos taurus	2010	KP821674	KP821674/ESP/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821675	SDN	4	Bos taurus	1983	KP821675	KP821675/SDN/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821676	ISR	8	Bos taurus	2008	KP821676	KP821676/ISR/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821677	GRC	8	Ovis aries	2008	KP821677	KP821677/GRC/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821678	NLD	8	Bos taurus	2008	KP821678	KP821678/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821679	ZAF	8	Capra hircus	1998	KP821679	KP821679/ZAF/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821680	ZAF	8	Ovis aries	1937	KP821680	KP821680/ZAF/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821681	GBR	8	Bos taurus	2007	KP821681	KP821681/GBR/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821682	BIH	9	Ovis aries	2002	KP821682	KP821682/BIH/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821683	BGR	9	-	1999	KP821683	KP821683/BGR/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821684	GRC	9	Ovis aries	1998	KP821684	KP821684/GRC/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821685	GRC	9	Ovis aries	1999	KP821685	KP821685/GRC/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821686	GRC	9	Bos taurus	1999	KP821686	KP821686/GRC/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821687	ITA	9	Ovis aries	2003	KP821687	KP821687/ITA/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821688	XKX	9	Ovis aries	2001	KP821688	KP821688/XKX/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821689	XKX	9	Ovis aries	2001	KP821689	KP821689/XKX/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821690	LBY	9	Ovis aries	2008	KP821690	KP821690/LBY/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821691	LBY	9	Ovis aries	2008	KP821691	KP821691/LBY/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821692	ZAF	9	Ovis aries	1942	KP821692	KP821692/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821693	ZAF	9	Ovis aries	1942	KP821693	KP821693/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821694	SRB	9	Ovis aries	2001	KP821694	KP821694/SRB/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821695	TUR	9	Ovis aries	1998	KP821695	KP821695/TUR/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821696	TUR	9	-	2000	KP821696	KP821696/TUR/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821697	TUR	9	Ovis aries	2001	KP821697	KP821697/TUR/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821698	CMR	14	-	1982	KP821698	KP821698/CMR/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821699	POL	14	Bos taurus	2012	KP821699	KP821699/POL/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821700	RUS	14	Bos taurus	2011	KP821700	KP821700/RUS/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821701	LTU	14	Bos taurus	2012	KP821701	KP821701/LTU/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821702	ISR	15	Ovis aries	2006	KP821702	KP821702/ISR/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821703	NLD	8	-	-	KP821703	KP821703/NLD/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KR085416	CHN	-	Capra hircus	2014	KR085416	KR085416/CHN/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT002584	CHN	7	Bos taurus	2014	KT002584	KT002584/CHN/7
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317671	ZAF	4	Ovis aries	2011	KT317671	KT317671/ZAF/4
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317681	ZAF	3	Ovis aries	2011	KT317681	KT317681/ZAF/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317691	ZAF	8	Ovis aries	2014	KT317691	KT317691/ZAF/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317701	ZAF	10	Ovis aries	2011	KT317701	KT317701/ZAF/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885061	ZAF	9	Ovis aries	2014	KT885061	KT885061/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885071	ZAF	11	Ovis aries	2014	KT885071	KT885071/ZAF/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885081	ZAF	9	Bos taurus	2014	KT885081	KT885081/ZAF/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KU234263	IND	1	Capra hircus	2008	KU234263	KU234263/IND/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KU569996	FRA	8	Ovis aries	2015	KU569996	KU569996/FRA/8
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KU760993	FRA	27	Capra hircus	2014	KU760993	KU760993/FRA/27
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KU761003	FRA	27	Capra hircus	2014	KU761003	KU761003/FRA/27
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164025	USA	1	Ovis aries	2010	KX164025	KX164025/USA/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164035	USA	3	Odocoileus virginianus	2008	KX164035	KX164035/USA/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164045	USA	3	deer	2012	KX164045	KX164045/USA/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164055	USA	3	Bos taurus	2015	KX164055	KX164055/USA/3
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164065	USA	5	Bos taurus	2003	KX164065	KX164065/USA/5
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164075	USA	9	deer	2008	KX164075	KX164075/USA/9
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164085	USA	12	Odocoileus virginianus	2008	KX164085	KX164085/USA/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164095	USA	12	Odocoileus virginianus	2012	KX164095	KX164095/USA/12
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164105	USA	13	Antilocapra americana	2013	KX164105	KX164105/USA/13
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164115	USA	14	Ovis aries	2003	KX164115	KX164115/USA/14
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164125	USA	18	Odocoileus virginianus	2014	KX164125	KX164125/USA/18
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164135	USA	19	Bos taurus	2003	KX164135	KX164135/USA/19
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164145	USA	22	Ovis aries	2005	KX164145	KX164145/USA/22
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164155	USA	24	Odocoileus virginianus	2007	KX164155	KX164155/USA/24
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX234084	ITA	-	Capra aegagrus hircus	2015	KX234084	KX234084/ITA/-
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX302640	IND	16	Ovis aries	2014	KX302640	KX302640/IND/16
-alignment/PHYLO_UNC_S7/member/ncbi-curated/KX599365	BRA	17	Ovis aries	2014	KX599365	KX599365/BRA/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/L11723	AUS	15	Ovis ammon aries	-	L11723	L11723/AUS/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/L11724	AUS	15	Ovis ammon aries	-	L11724	L11724/AUS/15
-alignment/PHYLO_UNC_S7/member/ncbi-curated/LN713676	FRA	27	Capra hircus	2014	LN713676	LN713676/FRA/27
-alignment/PHYLO_UNC_S7/member/ncbi-curated/M32102	USA	11	-	-	M32102	M32102/USA/11
-alignment/PHYLO_UNC_S7/member/ncbi-curated/M63417	AUS	1	-	-	M63417	M63417/AUS/1
-alignment/PHYLO_UNC_S7/member/ncbi-curated/M64997	USA	2	-	-	M64997	M64997/USA/2
-alignment/PHYLO_UNC_S7/member/ncbi-curated/NC_006022	USA	10	-	-	NC_006022	NC_006022/USA/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/X06463	USA	10	-	-	X06463	X06463/USA/10
-alignment/PHYLO_UNC_S7/member/ncbi-curated/X53693	USA	17	-	-	X53693	X53693/USA/17
-alignment/PHYLO_UNC_S7/member/ncbi-curated/X53740	ZAF	1	-	-	X53740	X53740/ZAF/1
+taxon	country_iso	country_display_name	region	sub_region	serotype	host	year	accession	accession_country_serotype
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AB473807	JPN	Japan	asia	eastern_asia	21	-	-	AB473807	AB473807/JPN/21
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172825	CHN	China	asia	eastern_asia	1	Ovis aries	1986	AF172825	AF172825/CHN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172826	CHN	China	asia	eastern_asia	2	Bos taurus	1996	AF172826	AF172826/CHN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172827	CHN	China	asia	eastern_asia	3	Bos taurus	1996	AF172827	AF172827/CHN/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172828	CHN	China	asia	eastern_asia	4	Bos taurus	1996	AF172828	AF172828/CHN/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172829	CHN	China	asia	eastern_asia	12	Bos taurus	1996	AF172829	AF172829/CHN/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172830	CHN	China	asia	eastern_asia	15	Bos taurus	1996	AF172830	AF172830/CHN/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF172831	CHN	China	asia	eastern_asia	16	Ovis aries	1988	AF172831	AF172831/CHN/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188644	BRB	Barbados	americas	latin_america_and_the_caribbean	3	-	1988	AF188644	AF188644/BRB/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188645	SLV	El Salvador	americas	latin_america_and_the_caribbean	3	-	1990	AF188645	AF188645/SLV/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188646	HND	Honduras	americas	latin_america_and_the_caribbean	3	-	1989	AF188646	AF188646/HND/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188647	TTO	Trinidad and Tobago	americas	latin_america_and_the_caribbean	3	-	1989	AF188647	AF188647/TTO/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188648	JAM	Jamaica	americas	latin_america_and_the_caribbean	3	-	1988	AF188648	AF188648/JAM/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188649	ZAF	South Africa	africa	sub_saharan_africa	3	-	1977	AF188649	AF188649/ZAF/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188650	PRI	Puerto Rico	americas	latin_america_and_the_caribbean	17	-	1990	AF188650	AF188650/PRI/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188651	CRI	Costa Rica	americas	latin_america_and_the_caribbean	3	-	1988	AF188651	AF188651/CRI/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188652	TTO	Trinidad and Tobago	americas	latin_america_and_the_caribbean	3	-	1988	AF188652	AF188652/TTO/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188653	HND	Honduras	americas	latin_america_and_the_caribbean	6	-	1990	AF188653	AF188653/HND/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188654	PAN	Panama	americas	latin_america_and_the_caribbean	3	-	1992	AF188654	AF188654/PAN/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188655	CRI	Costa Rica	americas	latin_america_and_the_caribbean	3	-	1992	AF188655	AF188655/CRI/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188656	PAN	Panama	americas	latin_america_and_the_caribbean	3	-	1989	AF188656	AF188656/PAN/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188657	PAN	Panama	americas	latin_america_and_the_caribbean	3	-	1989	AF188657	AF188657/PAN/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188658	PAN	Panama	americas	latin_america_and_the_caribbean	3	-	1991	AF188658	AF188658/PAN/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188659	GTM	Guatemala	americas	latin_america_and_the_caribbean	3	-	1990	AF188659	AF188659/GTM/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188660	USA	United States	americas	northern_america	2	-	1982	AF188660	AF188660/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188661	JAM	Jamaica	americas	latin_america_and_the_caribbean	3	-	1989	AF188661	AF188661/JAM/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188662	HND	Honduras	americas	latin_america_and_the_caribbean	6	-	1990	AF188662	AF188662/HND/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188663	GTM	Guatemala	americas	latin_america_and_the_caribbean	3	-	1991	AF188663	AF188663/GTM/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188664	GTM	Guatemala	americas	latin_america_and_the_caribbean	17	-	1990	AF188664	AF188664/GTM/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188665	PRI	Puerto Rico	americas	latin_america_and_the_caribbean	17	-	1990	AF188665	AF188665/PRI/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188666	PRI	Puerto Rico	americas	latin_america_and_the_caribbean	17	-	1990	AF188666	AF188666/PRI/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188667	DMA	Dominica	americas	latin_america_and_the_caribbean	4	-	1990	AF188667	AF188667/DMA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188668	ZAF	South Africa	africa	sub_saharan_africa	4	-	1979	AF188668	AF188668/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188669	ZAF	South Africa	africa	sub_saharan_africa	1	-	1977	AF188669	AF188669/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188670	HND	Honduras	americas	latin_america_and_the_caribbean	1	-	1989	AF188670	AF188670/HND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188671	DMA	Dominica	americas	latin_america_and_the_caribbean	8	-	1990	AF188671	AF188671/DMA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188672	ZAF	South Africa	africa	sub_saharan_africa	2	-	1982	AF188672	AF188672/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188673	JAM	Jamaica	americas	latin_america_and_the_caribbean	12	-	1988	AF188673	AF188673/JAM/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF188674	USA	United States	americas	northern_america	2	-	1982	AF188674	AF188674/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF346302	FRA	France	europe	western_europe	2	Ovis aries	2000	AF346302	AF346302/FRA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF469115	TUN	Tunisia	africa	northern_africa	2	Ovis aries	-	AF469115	AF469115/TUN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AF481095	ZAF	South Africa	africa	sub_saharan_africa	2	-	-	AF481095	AF481095/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AJ277802	IND	India	asia	southern_asia	23	Ovis aries	-	AJ277802	AJ277802/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261975	IND	India	asia	southern_asia	-	-	-	AM261975	AM261975/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261976	IND	India	asia	southern_asia	1	-	-	AM261976	AM261976/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261977	IND	India	asia	southern_asia	-	-	-	AM261977	AM261977/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261978	IND	India	asia	southern_asia	-	-	-	AM261978	AM261978/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261979	IND	India	asia	southern_asia	-	-	-	AM261979	AM261979/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261980	IND	India	asia	southern_asia	-	-	-	AM261980	AM261980/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM261981	IND	India	asia	southern_asia	-	-	-	AM261981	AM261981/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AM498057	NLD	Netherlands	europe	western_europe	8	Ovis aries	2006	AM498057	AM498057/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY079124	FRA	France	europe	western_europe	2	-	2001	AY079124	AY079124/FRA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY263377	BRA	Brazil	americas	latin_america_and_the_caribbean	12	Ovis aries	-	AY263377	AY263377/BRA/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY386682	CHN	China	asia	eastern_asia	-	-	-	AY386682	AY386682/CHN/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY485667	FRA	France	europe	western_europe	3	-	2003	AY485667	AY485667/FRA/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY493692	TWN	Taiwan	asia	eastern_asia	2	Capra hircus	2003	AY493692	AY493692/TWN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY606206	IND	India	asia	southern_asia	18	-	-	AY606206	AY606206/IND/18
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY643511	IND	India	asia	southern_asia	23	Ovis aries	1988	AY643511	AY643511/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY643512	IND	India	asia	southern_asia	18	Ovis aries	1998	AY643512	AY643512/IND/18
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY776331	ZAF	South Africa	africa	sub_saharan_africa	1	-	-	AY776331	AY776331/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY789967	IND	India	asia	southern_asia	1	-	-	AY789967	AY789967/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY839949	FRA	France	europe	western_europe	4	Ovis aries	2003	AY839949	AY839949/FRA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841351	GRC	Greece	europe	southern_europe	4	Ovis aries	2000	AY841351	AY841351/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841352	GRC	Greece	europe	southern_europe	4	Ovis aries	1999	AY841352	AY841352/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY841353	ZAF	South Africa	africa	sub_saharan_africa	4	-	2004	AY841353	AY841353/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855282	USA	United States	americas	northern_america	2	-	1999	AY855282	AY855282/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855283	USA	United States	americas	northern_america	13	-	1999	AY855283	AY855283/USA/13
+alignment/PHYLO_UNC_S7/member/ncbi-curated/AY855284	USA	United States	americas	northern_america	17	-	1999	AY855284	AY855284/USA/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399834	IND	India	asia	southern_asia	10	Ovis aries	2003	DQ399834	DQ399834/IND/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399835	IND	India	asia	southern_asia	10	Ovis aries	2003	DQ399835	DQ399835/IND/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399836	IND	India	asia	southern_asia	9	Ovis aries	2002	DQ399836	DQ399836/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ399837	IND	India	asia	southern_asia	2	Ovis aries	1995	DQ399837	DQ399837/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465026	ZAF	South Africa	africa	sub_saharan_africa	7	Ovis aries	1955	DQ465026	DQ465026/ZAF/7
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465027	ZAF	South Africa	africa	sub_saharan_africa	15	Bos taurus	1960	DQ465027	DQ465027/ZAF/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ465028	ZAF	South Africa	africa	sub_saharan_africa	19	Ovis aries	1976	DQ465028	DQ465028/ZAF/19
+alignment/PHYLO_UNC_S7/member/ncbi-curated/DQ825672	TUR	Turkey	asia	western_asia	4	Ovis aries	1999	DQ825672	DQ825672/TUR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/EF434175	PRT	Portugal	europe	southern_europe	2	Bos taurus	2005	EF434175	EF434175/PRT/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/EF434178	PRT	Portugal	europe	southern_europe	4	Ovis aries	2004	EF434178	EF434178/PRT/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/EU498675	PRT	Portugal	europe	southern_europe	1	Ovis aries	2007	EU498675	EU498675/PRT/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/EU839843	CHE	Switzerland	europe	western_europe	25	Capra hircus	2007	EU839843	EU839843/CHE/25
+alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ183380	NLD	Netherlands	europe	western_europe	8	-	-	FJ183380	FJ183380/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ437558	FRA	France	europe	western_europe	1	Ovis aries	2007	FJ437558	FJ437558/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ437562	DZA	Algeria	africa	northern_africa	1	Ovis aries	2006	FJ437562	FJ437562/DZA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ947066	CHN	China	asia	eastern_asia	-	-	-	FJ947066	FJ947066/CHN/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/FJ969725	ZAF	South Africa	africa	sub_saharan_africa	1	-	-	FJ969725	FJ969725/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506450	GRC	Greece	europe	southern_europe	1	Ovis aries	2001	GQ506450	GQ506450/GRC/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506457	NLD	Netherlands	europe	western_europe	8	Bos taurus	2007	GQ506457	GQ506457/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506465	DEU	Germany	europe	western_europe	6	Bos taurus	2008	GQ506465	GQ506465/DEU/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506471	NLD	Netherlands	europe	western_europe	6	Bos taurus	2008	GQ506471	GQ506471/NLD/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506478	NLD	Netherlands	europe	western_europe	6	Bos taurus	2008	GQ506478	GQ506478/NLD/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506484	NLD	Netherlands	europe	western_europe	6	Bos taurus	2008	GQ506484	GQ506484/NLD/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506494	ZAF	South Africa	africa	sub_saharan_africa	6	Culicoides sp.	-	GQ506494	GQ506494/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506502	ZAF	South Africa	africa	sub_saharan_africa	6	Ovis aries	1958	GQ506502	GQ506502/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506512	ZAF	South Africa	africa	sub_saharan_africa	6	Ovis aries	1958	GQ506512	GQ506512/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506522	ZAF	South Africa	africa	sub_saharan_africa	6	Ovis aries	-	GQ506522	GQ506522/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506532	ZAF	South Africa	africa	sub_saharan_africa	6	Ovis aries	1958	GQ506532	GQ506532/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GQ506542	USA	United States	americas	northern_america	6	Bos taurus	2006	GQ506542	GQ506542/USA/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/GU390663	TWN	Taiwan	asia	eastern_asia	12	Bos taurus	2003	GU390663	GU390663/TWN/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/HM590644	KWT	Kuwait	asia	western_asia	26	Ovis aries	2010	HM590644	HM590644/KWT/26
+alignment/PHYLO_UNC_S7/member/ncbi-curated/J04365	USA	United States	americas	northern_america	13	-	-	J04365	J04365/USA/13
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JF443162	IND	India	asia	southern_asia	9	Ovis aries	2006	JF443162	JF443162/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN006965	IND	India	asia	southern_asia	2	Ovis aries	-	JN006965	JN006965/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255868	ITA	Italy	europe	southern_europe	2	Ovis aries	2000	JN255868	JN255868/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255878	ITA	Italy	europe	southern_europe	2	Ovis aries	2000	JN255878	JN255878/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255888	ITA	Italy	europe	southern_europe	4	Ovis aries	2003	JN255888	JN255888/ITA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255898	ITA	Italy	europe	southern_europe	4	Ovis aries	2003	JN255898	JN255898/ITA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255908	ITA	Italy	europe	southern_europe	9	Ovis aries	2003	JN255908	JN255908/ITA/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255918	ITA	Italy	europe	southern_europe	9	Ovis aries	2000	JN255918	JN255918/ITA/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255928	ZAF	South Africa	africa	sub_saharan_africa	2	Ovis aries	-	JN255928	JN255928/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255938	ZAF	South Africa	africa	sub_saharan_africa	2	Ovis aries	-	JN255938	JN255938/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255948	ZAF	South Africa	africa	sub_saharan_africa	4	Ovis aries	1900	JN255948	JN255948/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255958	ZAF	South Africa	africa	sub_saharan_africa	9	Ovis aries	1942	JN255958	JN255958/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN255968	ZAF	South Africa	africa	sub_saharan_africa	9	Ovis aries	1942	JN255968	JN255968/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN671912	CHN	China	asia	eastern_asia	16	Ovis aries	1996	JN671912	JN671912/CHN/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN848765	CHN	China	asia	eastern_asia	1	Ovis aries	1997	JN848765	JN848765/CHN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JN881991	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1979	JN881991	JN881991/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ080437	IND	India	asia	southern_asia	-	Ovis aries	1999	JQ080437	JQ080437/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086227	AUS	Australia	oceania	australia_and_new_zealand	15	Bos taurus	1982	JQ086227	JQ086227/AUS/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086237	AUS	Australia	oceania	australia_and_new_zealand	16	Bos taurus	1987	JQ086237	JQ086237/AUS/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086247	AUS	Australia	oceania	australia_and_new_zealand	2	Bos taurus	2008	JQ086247	JQ086247/AUS/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086257	AUS	Australia	oceania	australia_and_new_zealand	20	Culicoides sp.	1977	JQ086257	JQ086257/AUS/20
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086267	AUS	Australia	oceania	australia_and_new_zealand	21	Bos taurus	1979	JQ086267	JQ086267/AUS/21
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086277	AUS	Australia	oceania	australia_and_new_zealand	23	Bos taurus	1982	JQ086277	JQ086277/AUS/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086287	AUS	Australia	oceania	australia_and_new_zealand	3	Bos taurus	1986	JQ086287	JQ086287/AUS/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086297	AUS	Australia	oceania	australia_and_new_zealand	7	Bos taurus	2007	JQ086297	JQ086297/AUS/7
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ086307	AUS	Australia	oceania	australia_and_new_zealand	9	Bos taurus	1985	JQ086307	JQ086307/AUS/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ240327	AUS	Australia	oceania	australia_and_new_zealand	2	Bos taurus	2010	JQ240327	JQ240327/AUS/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ282774	IND	India	asia	southern_asia	1	Ovis aries	1992	JQ282774	JQ282774/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414047	IND	India	asia	southern_asia	-	Ovis aries	2005	JQ414047	JQ414047/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414048	IND	India	asia	southern_asia	9	Ovis aries	2005	JQ414048	JQ414048/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414049	IND	India	asia	southern_asia	-	Ovis aries	1994	JQ414049	JQ414049/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ414050	IND	India	asia	southern_asia	-	Ovis aries	1998	JQ414050	JQ414050/IND/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ681262	IND	India	asia	southern_asia	2	Ovis aries	2003	JQ681262	JQ681262/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ713561	IND	India	asia	southern_asia	2	-	1982	JQ713561	JQ713561/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ740777	IND	India	asia	southern_asia	10	-	2004	JQ740777	JQ740777/IND/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ771819	IND	India	asia	southern_asia	3	-	2003	JQ771819	JQ771819/IND/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ771828	IND	India	asia	southern_asia	23	Ovis aries	1988	JQ771828	JQ771828/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ822254	USA	United States	americas	northern_america	2	Bos taurus	2010	JQ822254	JQ822254/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ904067	IND	India	asia	southern_asia	2	Ovis aries	2008	JQ904067	JQ904067/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ924826	IND	India	asia	southern_asia	16	Capra hircus	2010	JQ924826	JQ924826/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972837	ZAF	South Africa	africa	sub_saharan_africa	11	Bos taurus	2010	JQ972837	JQ972837/ZAF/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972847	ZAF	South Africa	africa	sub_saharan_africa	11	Bos taurus	2010	JQ972847	JQ972847/ZAF/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972857	DEU	Germany	europe	western_europe	11	Bos taurus	2010	JQ972857	JQ972857/DEU/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JQ972867	MTQ	Martinique	americas	latin_america_and_the_caribbean	11	Bos taurus	2010	JQ972867	JQ972867/MTQ/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX003693	IND	India	asia	southern_asia	9	Ovis aries	2007	JX003693	JX003693/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX007928	IND	India	asia	southern_asia	16	Bos taurus	2010	JX007928	JX007928/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024943	ARG	Argentina	americas	latin_america_and_the_caribbean	4	Bos taurus	1999	JX024943	JX024943/ARG/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024948	ARG	Argentina	americas	latin_america_and_the_caribbean	4	Bos taurus	1999	JX024948	JX024948/ARG/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024953	ARG	Argentina	americas	latin_america_and_the_caribbean	4	Bos taurus	1999	JX024953	JX024953/ARG/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024958	ARG	Argentina	americas	latin_america_and_the_caribbean	4	Bos taurus	2009	JX024958	JX024958/ARG/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX024963	ARG	Argentina	americas	latin_america_and_the_caribbean	4	Bos taurus	2010	JX024963	JX024963/ARG/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX129383	ZAF	South Africa	africa	sub_saharan_africa	16	Ovis aries	1960	JX129383	JX129383/ZAF/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272375	ZAF	South Africa	africa	sub_saharan_africa	24	-	-	JX272375	JX272375/ZAF/24
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272385	ZAF	South Africa	africa	sub_saharan_africa	1	-	-	JX272385	JX272385/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272395	ZAF	South Africa	africa	sub_saharan_africa	22	-	-	JX272395	JX272395/ZAF/22
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272405	ZAF	South Africa	africa	sub_saharan_africa	23	-	-	JX272405	JX272405/ZAF/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272415	ZAF	South Africa	africa	sub_saharan_africa	21	-	-	JX272415	JX272415/ZAF/21
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272425	ZAF	South Africa	africa	sub_saharan_africa	20	-	-	JX272425	JX272425/ZAF/20
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272435	ZAF	South Africa	africa	sub_saharan_africa	19	-	-	JX272435	JX272435/ZAF/19
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272445	ZAF	South Africa	africa	sub_saharan_africa	18	-	-	JX272445	JX272445/ZAF/18
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272455	ZAF	South Africa	africa	sub_saharan_africa	17	-	-	JX272455	JX272455/ZAF/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272465	ZAF	South Africa	africa	sub_saharan_africa	16	-	-	JX272465	JX272465/ZAF/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272475	ZAF	South Africa	africa	sub_saharan_africa	15	-	-	JX272475	JX272475/ZAF/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272485	ZAF	South Africa	africa	sub_saharan_africa	14	-	-	JX272485	JX272485/ZAF/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272495	ZAF	South Africa	africa	sub_saharan_africa	13	-	-	JX272495	JX272495/ZAF/13
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272505	ZAF	South Africa	africa	sub_saharan_africa	12	-	-	JX272505	JX272505/ZAF/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272515	ZAF	South Africa	africa	sub_saharan_africa	11	-	-	JX272515	JX272515/ZAF/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272525	ZAF	South Africa	africa	sub_saharan_africa	10	-	-	JX272525	JX272525/ZAF/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272535	ZAF	South Africa	africa	sub_saharan_africa	9	-	-	JX272535	JX272535/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272545	ZAF	South Africa	africa	sub_saharan_africa	8	-	-	JX272545	JX272545/ZAF/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272555	ZAF	South Africa	africa	sub_saharan_africa	7	-	-	JX272555	JX272555/ZAF/7
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272565	ZAF	South Africa	africa	sub_saharan_africa	6	-	-	JX272565	JX272565/ZAF/6
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272575	ZAF	South Africa	africa	sub_saharan_africa	5	-	-	JX272575	JX272575/ZAF/5
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272585	ZAF	South Africa	africa	sub_saharan_africa	4	-	-	JX272585	JX272585/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272595	ZAF	South Africa	africa	sub_saharan_africa	3	-	-	JX272595	JX272595/ZAF/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX272605	ZAF	South Africa	africa	sub_saharan_africa	2	-	-	JX272605	JX272605/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX399154	IND	India	asia	southern_asia	1	Ovis aries	2008	JX399154	JX399154/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX560419	CHN	China	asia	eastern_asia	4	Bos taurus	1997	JX560419	JX560419/CHN/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX680453	NLD	Netherlands	europe	western_europe	8	-	-	JX680453	JX680453/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX680463	ZAF	South Africa	africa	sub_saharan_africa	1	-	-	JX680463	JX680463/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX861494	FRA	France	europe	western_europe	1	Ovis aries	2007	JX861494	JX861494/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/JX861504	FRA	France	europe	western_europe	1	Bos taurus	2008	JX861504	JX861504/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KC662618	IND	India	asia	southern_asia	12	Ovis aries	2011	KC662618	KC662618/IND/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KC853055	NGA	Nigeria	africa	sub_saharan_africa	16	-	1982	KC853055	KC853055/NGA/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KC879621	CHN	China	asia	eastern_asia	1	Ovis aries	1979	KC879621	KC879621/CHN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF387527	ITA	Italy	europe	southern_europe	16	Bos taurus	2002	KF387527	KF387527/ITA/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF460442	IND	India	asia	southern_asia	2	Ovis aries	2010	KF460442	KF460442/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF460443	IND	India	asia	southern_asia	2	Ovis aries	2010	KF460443	KF460443/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF560423	IND	India	asia	southern_asia	4	Ovis aries	2008	KF560423	KF560423/IND/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664109	IND	India	asia	southern_asia	16	Ovis aries	2008	KF664109	KF664109/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664119	IND	India	asia	southern_asia	1	Culicoides sp.	2007	KF664119	KF664119/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664129	IND	India	asia	southern_asia	1	Ovis aries	2008	KF664129	KF664129/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF664139	IND	India	asia	southern_asia	16	Capra hircus	2011	KF664139	KF664139/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986503	PAN	Panama	americas	latin_america_and_the_caribbean	2	Bos taurus	1989	KF986503	KF986503/PAN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986505	USA	United States	americas	northern_america	2	Bos taurus	2003	KF986505	KF986505/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KF986509	USA	United States	americas	northern_america	2	Bos taurus	2006	KF986509	KF986509/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ019211	ITA	Italy	europe	southern_europe	1	Ovis aries	2013	KJ019211	KJ019211/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577100	ITA	Italy	europe	southern_europe	1	Ovis aries	2012	KJ577100	KJ577100/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577110	TUN	Tunisia	africa	northern_africa	1	Ovis aries	2011	KJ577110	KJ577110/TUN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577120	ITA	Italy	europe	southern_europe	1	Ovis aries	2010	KJ577120	KJ577120/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ577130	ITA	Italy	europe	southern_europe	1	Ovis aries	2013	KJ577130	KJ577130/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ661735	ITA	Italy	europe	southern_europe	1	Ovis aries	2013	KJ661735	KJ661735/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ700443	ESP	Spain	europe	southern_europe	4	Ovis aries	2003	KJ700443	KJ700443/ESP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KJ736007	ITA	Italy	europe	southern_europe	1	Ovis aries	2006	KJ736007	KJ736007/ITA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM053264	ITA	Italy	europe	southern_europe	8	Ovis aries	2008	KM053264	KM053264/ITA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM053274	ITA	Italy	europe	southern_europe	2	Ovis aries	2000	KM053274	KM053274/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099608	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1981	KM099608	KM099608/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099609	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1986	KM099609	KM099609/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099610	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1988	KM099610	KM099610/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099611	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1989	KM099611	KM099611/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099612	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1993	KM099612	KM099612/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099613	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1994	KM099613	KM099613/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099614	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1996	KM099614	KM099614/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099615	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1997	KM099615	KM099615/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099616	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1999	KM099616	KM099616/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099617	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	1999	KM099617	KM099617/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099618	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2002	KM099618	KM099618/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099619	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2002	KM099619	KM099619/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099620	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2004	KM099620	KM099620/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099621	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2005	KM099621	KM099621/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099622	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2008	KM099622	KM099622/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099623	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2010	KM099623	KM099623/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM099624	AUS	Australia	oceania	australia_and_new_zealand	1	Bos taurus	2010	KM099624	KM099624/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM233620	ZAF	South Africa	africa	sub_saharan_africa	4	-	-	KM233620	KM233620/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580418	USA	United States	americas	northern_america	11	Odocoileus virginianus	2011	KM580418	KM580418/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580431	USA	United States	americas	northern_america	11	Odocoileus virginianus	2011	KM580431	KM580431/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580437	USA	United States	americas	northern_america	11	Odocoileus virginianus	2011	KM580437	KM580437/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580443	USA	United States	americas	northern_america	11	Odocoileus virginianus	2011	KM580443	KM580443/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580460	USA	United States	americas	northern_america	11	Canis familiaris	2011	KM580460	KM580460/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580468	USA	United States	americas	northern_america	11	Canis familiaris	2012	KM580468	KM580468/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580473	USA	United States	americas	northern_america	11	Odocoileus virginianus	2013	KM580473	KM580473/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KM580487	USA	United States	americas	northern_america	11	Lama glama	2013	KM580487	KM580487/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP196609	ZAF	South Africa	africa	sub_saharan_africa	-	Vicugna pacos	2008	KP196609	KP196609/ZAF/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP268780	IND	India	asia	southern_asia	2	-	1994	KP268780	KP268780/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP268820	HUN	Hungary	europe	eastern_europe	4	Bos taurus	2014	KP268820	KP268820/HUN/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339140	IND	India	asia	southern_asia	1	Ovis aries	2010	KP339140	KP339140/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339150	IND	India	asia	southern_asia	1	Ovis aries	2010	KP339150	KP339150/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339160	IND	India	asia	southern_asia	2	Ovis aries	1993	KP339160	KP339160/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339170	IND	India	asia	southern_asia	2	Ovis aries	2010	KP339170	KP339170/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339180	IND	India	asia	southern_asia	9	Ovis aries	2003	KP339180	KP339180/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339190	IND	India	asia	southern_asia	9	Ovis aries	2003	KP339190	KP339190/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339200	IND	India	asia	southern_asia	16	Ovis aries	2010	KP339200	KP339200/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339210	IND	India	asia	southern_asia	16	Ovis aries	2010	KP339210	KP339210/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339220	IND	India	asia	southern_asia	16	Ovis aries	2011	KP339220	KP339220/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339230	IND	India	asia	southern_asia	16	Ovis aries	2010	KP339230	KP339230/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339240	IND	India	asia	southern_asia	21	Ovis aries	2005	KP339240	KP339240/IND/21
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP339250	IND	India	asia	southern_asia	10	Ovis aries	2003	KP339250	KP339250/IND/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696513	IND	India	asia	southern_asia	1	-	1985	KP696513	KP696513/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696522	IND	India	asia	southern_asia	1	-	1988	KP696522	KP696522/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696531	IND	India	asia	southern_asia	1	-	1992	KP696531	KP696531/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696540	IND	India	asia	southern_asia	1	Ovis aries	1999	KP696540	KP696540/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696548	IND	India	asia	southern_asia	1	Culicoides sp.	2001	KP696548	KP696548/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696558	IND	India	asia	southern_asia	1	Ovis aries	2003	KP696558	KP696558/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696568	IND	India	asia	southern_asia	1	Ovis aries	2003	KP696568	KP696568/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696578	IND	India	asia	southern_asia	1	-	2003	KP696578	KP696578/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696588	IND	India	asia	southern_asia	2	Ovis aries	1993	KP696588	KP696588/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696598	IND	India	asia	southern_asia	2	Ovis aries	2003	KP696598	KP696598/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696608	IND	India	asia	southern_asia	2	Ovis aries	2003	KP696608	KP696608/IND/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696618	IND	India	asia	southern_asia	9	-	2004	KP696618	KP696618/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696628	IND	India	asia	southern_asia	9	-	2004	KP696628	KP696628/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696638	IND	India	asia	southern_asia	9	-	2005	KP696638	KP696638/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696647	IND	India	asia	southern_asia	9	-	2005	KP696647	KP696647/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696657	IND	India	asia	southern_asia	9	-	2005	KP696657	KP696657/IND/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696666	IND	India	asia	southern_asia	23	Ovis aries	1997	KP696666	KP696666/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696676	IND	India	asia	southern_asia	23	-	2004	KP696676	KP696676/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696686	IND	India	asia	southern_asia	23	-	2004	KP696686	KP696686/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP696696	IND	India	asia	southern_asia	23	-	2004	KP696696	KP696696/IND/23
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821584	FRA	France	europe	western_europe	8	Bos taurus	2008	KP821584	KP821584/FRA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821585	FRA	France	europe	western_europe	8	Bos taurus	2008	KP821585	KP821585/FRA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821586	FRA	France	europe	western_europe	8	Bos taurus	2008	KP821586	KP821586/FRA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821587	ZAF	South Africa	africa	sub_saharan_africa	14	Ovis aries	1959	KP821587	KP821587/ZAF/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821588	ZAF	South Africa	africa	sub_saharan_africa	15	Ovis aries	1960	KP821588	KP821588/ZAF/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821589	CYP	Cyprus	asia	western_asia	16	Ovis aries	2004	KP821589	KP821589/CYP/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821590	CYP	Cyprus	asia	western_asia	16	Bos taurus	2006	KP821590	KP821590/CYP/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821591	CYP	Cyprus	asia	western_asia	16	Bos taurus	2010	KP821591	KP821591/CYP/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821592	FRA	France	europe	western_europe	16	Ovis aries	2004	KP821592	KP821592/FRA/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821593	GRC	Greece	europe	southern_europe	16	Ovis aries	1999	KP821593	KP821593/GRC/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821594	GRC	Greece	europe	southern_europe	16	Ovis aries	2008	KP821594	KP821594/GRC/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821595	ISR	Israel	asia	western_asia	16	Ovis aries	2001	KP821595	KP821595/ISR/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821596	ISR	Israel	asia	western_asia	16	Capra hircus	2008	KP821596	KP821596/ISR/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821597	PAK	Pakistan	asia	southern_asia	16	Ovis aries	1960	KP821597	KP821597/PAK/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821598	TUR	Turkey	asia	western_asia	16	-	2000	KP821598	KP821598/TUR/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821599	DZA	Algeria	africa	northern_africa	1	Ovis aries	2006	KP821599	KP821599/DZA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821600	DZA	Algeria	africa	northern_africa	1	Ovis aries	2006	KP821600	KP821600/DZA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821601	DZA	Algeria	africa	northern_africa	1	Ovis aries	2008	KP821601	KP821601/DZA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821602	CMR	Cameroon	africa	sub_saharan_africa	1	Ovis aries	1982	KP821602	KP821602/CMR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821603	FRA	France	europe	western_europe	1	Bos taurus	2008	KP821603	KP821603/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821604	FRA	France	europe	western_europe	1	Ovis aries	2008	KP821604	KP821604/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821605	FRA	France	europe	western_europe	1	Bos taurus	2008	KP821605	KP821605/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821606	FRA	France	europe	western_europe	1	Bos taurus	2008	KP821606	KP821606/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821607	FRA	France	europe	western_europe	1	Bos taurus	2008	KP821607	KP821607/FRA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821608	GIB	Gibraltar	europe	southern_europe	1	Ovis aries	2007	KP821608	KP821608/GIB/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821609	GRC	Greece	europe	southern_europe	1	Ovis aries	2001	KP821609	KP821609/GRC/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821610	GRC	Greece	europe	southern_europe	1	Ovis aries	2001	KP821610	KP821610/GRC/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821611	GRC	Greece	europe	southern_europe	1	Ovis aries	2001	KP821611	KP821611/GRC/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821612	LBY	Libya	africa	northern_africa	1	Ovis aries	2007	KP821612	KP821612/LBY/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821613	MAR	Morocco	africa	northern_africa	1	Ovis aries	2006	KP821613	KP821613/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821614	MAR	Morocco	africa	northern_africa	1	Ovis aries	2007	KP821614	KP821614/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821615	MAR	Morocco	africa	northern_africa	1	Ovis aries	2007	KP821615	KP821615/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821616	MAR	Morocco	africa	northern_africa	1	Ovis aries	2007	KP821616	KP821616/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821617	MAR	Morocco	africa	northern_africa	1	Ovis aries	2007	KP821617	KP821617/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821618	MAR	Morocco	africa	northern_africa	1	Ovis aries	2009	KP821618	KP821618/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821619	MAR	Morocco	africa	northern_africa	1	Ovis aries	2009	KP821619	KP821619/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821620	MAR	Morocco	africa	northern_africa	1	Ovis aries	2009	KP821620	KP821620/MAR/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821621	ZAF	South Africa	africa	sub_saharan_africa	1	Ovis aries	1958	KP821621	KP821621/ZAF/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821622	ESP	Spain	europe	southern_europe	1	Bos taurus	2007	KP821622	KP821622/ESP/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821623	ESP	Spain	europe	southern_europe	1	Bos taurus	2007	KP821623	KP821623/ESP/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821624	ESP	Spain	europe	southern_europe	1	Ovis aries	2008	KP821624	KP821624/ESP/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821625	ESP	Spain	europe	southern_europe	1	Bos taurus	2009	KP821625	KP821625/ESP/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821626	SDN	Sudan	africa	northern_africa	1	-	1987	KP821626	KP821626/SDN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821627	TUN	Tunisia	africa	northern_africa	1	Ovis aries	2007	KP821627	KP821627/TUN/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821628	FRA	France	europe	western_europe	2	-	2001	KP821628	KP821628/FRA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821629	FRA	France	europe	western_europe	2	Ovis aries	2001	KP821629	KP821629/FRA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821630	FRA	France	europe	western_europe	2	Ovis aries	2001	KP821630	KP821630/FRA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821631	ISR	Israel	asia	western_asia	2	Ovis aries	2001	KP821631	KP821631/ISR/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821632	ITA	Italy	europe	southern_europe	2	Culicoides pulicaris	2002	KP821632	KP821632/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821633	ITA	Italy	europe	southern_europe	2	Ovis aries	2002	KP821633	KP821633/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821634	ZAF	South Africa	africa	sub_saharan_africa	2	Ovis aries	1959	KP821634	KP821634/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821635	ZAF	South Africa	africa	sub_saharan_africa	2	Ovis aries	1958	KP821635	KP821635/ZAF/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821636	ITA	Italy	europe	southern_europe	2	Ovis aries	2001	KP821636	KP821636/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821637	ITA	Italy	europe	southern_europe	2	Ovis aries	2001	KP821637	KP821637/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821638	ITA	Italy	europe	southern_europe	2	Ovis aries	2002	KP821638	KP821638/ITA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821639	ESP	Spain	europe	southern_europe	2	Bos taurus	2005	KP821639	KP821639/ESP/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821640	SDN	Sudan	africa	northern_africa	2	Culicoides sp.	1983	KP821640	KP821640/SDN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821641	TUN	Tunisia	africa	northern_africa	2	-	2000	KP821641	KP821641/TUN/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821642	CYP	Cyprus	asia	western_asia	3	-	1958	KP821642	KP821642/CYP/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821643	CYP	Cyprus	asia	western_asia	3	Ovis aries	1943	KP821643	KP821643/CYP/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821644	CYP	Cyprus	asia	western_asia	4	Bos taurus	1969	KP821644	KP821644/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821645	CYP	Cyprus	asia	western_asia	4	Ovis aries	2004	KP821645	KP821645/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821646	CYP	Cyprus	asia	western_asia	4	Ovis aries	2011	KP821646	KP821646/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821647	CYP	Cyprus	asia	western_asia	4	Ovis aries	2011	KP821647	KP821647/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821648	CYP	Cyprus	asia	western_asia	4	Ovis aries	2011	KP821648	KP821648/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821649	CYP	Cyprus	asia	western_asia	4	Ovis aries	2011	KP821649	KP821649/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821650	CYP	Cyprus	asia	western_asia	4	Ovis aries	2011	KP821650	KP821650/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821651	EGY	Egypt	africa	northern_africa	4	-	1977	KP821651	KP821651/EGY/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821652	FRA	France	europe	western_europe	4	-	2003	KP821652	KP821652/FRA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821653	FRA	France	europe	western_europe	4	-	2003	KP821653	KP821653/FRA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821654	FRA	France	europe	western_europe	4	-	2003	KP821654	KP821654/FRA/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821655	GRC	Greece	europe	southern_europe	4	Ovis aries	1979	KP821655	KP821655/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821656	GRC	Greece	europe	southern_europe	4	Ovis aries	1999	KP821656	KP821656/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821657	GRC	Greece	europe	southern_europe	4	Culicoides obsoletus	1999	KP821657	KP821657/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821658	GRC	Greece	europe	southern_europe	4	Ovis aries	2000	KP821658	KP821658/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821659	GRC	Greece	europe	southern_europe	4	Culicoides obsoletus	2000	KP821659	KP821659/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821660	GRC	Greece	europe	southern_europe	4	Ovis aries	2012	KP821660	KP821660/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821661	GRC	Greece	europe	southern_europe	4	Ovis aries	2012	KP821661	KP821661/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821662	GRC	Greece	europe	southern_europe	4	Ovis aries	2012	KP821662	KP821662/GRC/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821663	ISR	Israel	asia	western_asia	4	Ovis aries	2006	KP821663	KP821663/ISR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821664	ISR	Israel	asia	western_asia	4	Bos taurus	2008	KP821664	KP821664/ISR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821665	MAR	Morocco	africa	northern_africa	4	Ovis aries	2004	KP821665	KP821665/MAR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821666	MAR	Morocco	africa	northern_africa	4	Ovis aries	2009	KP821666	KP821666/MAR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821667	MAR	Morocco	africa	northern_africa	4	Ovis aries	2009	KP821667	KP821667/MAR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821668	MAR	Morocco	africa	northern_africa	4	Ovis aries	2009	KP821668	KP821668/MAR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821669	MAR	Morocco	africa	northern_africa	4	Ovis aries	2009	KP821669	KP821669/MAR/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821670	CYP	Cyprus	asia	western_asia	4	Ovis aries	1969	KP821670	KP821670/CYP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821671	ESP	Spain	europe	southern_europe	4	Ovis aries	2003	KP821671	KP821671/ESP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821672	ESP	Spain	europe	southern_europe	4	Ovis aries	2004	KP821672	KP821672/ESP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821673	ESP	Spain	europe	southern_europe	4	Bos taurus	2005	KP821673	KP821673/ESP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821674	ESP	Spain	europe	southern_europe	4	Bos taurus	2010	KP821674	KP821674/ESP/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821675	SDN	Sudan	africa	northern_africa	4	Bos taurus	1983	KP821675	KP821675/SDN/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821676	ISR	Israel	asia	western_asia	8	Bos taurus	2008	KP821676	KP821676/ISR/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821677	GRC	Greece	europe	southern_europe	8	Ovis aries	2008	KP821677	KP821677/GRC/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821678	NLD	Netherlands	europe	western_europe	8	Bos taurus	2008	KP821678	KP821678/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821679	ZAF	South Africa	africa	sub_saharan_africa	8	Capra hircus	1998	KP821679	KP821679/ZAF/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821680	ZAF	South Africa	africa	sub_saharan_africa	8	Ovis aries	1937	KP821680	KP821680/ZAF/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821681	GBR	United Kingdom	europe	northern_europe	8	Bos taurus	2007	KP821681	KP821681/GBR/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821682	BIH	Bosnia and Herzegovina	europe	southern_europe	9	Ovis aries	2002	KP821682	KP821682/BIH/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821683	BGR	Bulgaria	europe	eastern_europe	9	-	1999	KP821683	KP821683/BGR/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821684	GRC	Greece	europe	southern_europe	9	Ovis aries	1998	KP821684	KP821684/GRC/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821685	GRC	Greece	europe	southern_europe	9	Ovis aries	1999	KP821685	KP821685/GRC/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821686	GRC	Greece	europe	southern_europe	9	Bos taurus	1999	KP821686	KP821686/GRC/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821687	ITA	Italy	europe	southern_europe	9	Ovis aries	2003	KP821687	KP821687/ITA/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821688	XKX	Kosovo	europe	southern_europe	9	Ovis aries	2001	KP821688	KP821688/XKX/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821689	XKX	Kosovo	europe	southern_europe	9	Ovis aries	2001	KP821689	KP821689/XKX/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821690	LBY	Libya	africa	northern_africa	9	Ovis aries	2008	KP821690	KP821690/LBY/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821691	LBY	Libya	africa	northern_africa	9	Ovis aries	2008	KP821691	KP821691/LBY/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821692	ZAF	South Africa	africa	sub_saharan_africa	9	Ovis aries	1942	KP821692	KP821692/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821693	ZAF	South Africa	africa	sub_saharan_africa	9	Ovis aries	1942	KP821693	KP821693/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821694	SRB	Serbia	europe	southern_europe	9	Ovis aries	2001	KP821694	KP821694/SRB/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821695	TUR	Turkey	asia	western_asia	9	Ovis aries	1998	KP821695	KP821695/TUR/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821696	TUR	Turkey	asia	western_asia	9	-	2000	KP821696	KP821696/TUR/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821697	TUR	Turkey	asia	western_asia	9	Ovis aries	2001	KP821697	KP821697/TUR/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821698	CMR	Cameroon	africa	sub_saharan_africa	14	-	1982	KP821698	KP821698/CMR/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821699	POL	Poland	europe	eastern_europe	14	Bos taurus	2012	KP821699	KP821699/POL/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821700	RUS	Russia	europe	eastern_europe	14	Bos taurus	2011	KP821700	KP821700/RUS/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821701	LTU	Lithuania	europe	northern_europe	14	Bos taurus	2012	KP821701	KP821701/LTU/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821702	ISR	Israel	asia	western_asia	15	Ovis aries	2006	KP821702	KP821702/ISR/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KP821703	NLD	Netherlands	europe	western_europe	8	-	-	KP821703	KP821703/NLD/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KR085416	CHN	China	asia	eastern_asia	-	Capra hircus	2014	KR085416	KR085416/CHN/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT002584	CHN	China	asia	eastern_asia	7	Bos taurus	2014	KT002584	KT002584/CHN/7
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317671	ZAF	South Africa	africa	sub_saharan_africa	4	Ovis aries	2011	KT317671	KT317671/ZAF/4
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317681	ZAF	South Africa	africa	sub_saharan_africa	3	Ovis aries	2011	KT317681	KT317681/ZAF/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317691	ZAF	South Africa	africa	sub_saharan_africa	8	Ovis aries	2014	KT317691	KT317691/ZAF/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT317701	ZAF	South Africa	africa	sub_saharan_africa	10	Ovis aries	2011	KT317701	KT317701/ZAF/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885061	ZAF	South Africa	africa	sub_saharan_africa	9	Ovis aries	2014	KT885061	KT885061/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885071	ZAF	South Africa	africa	sub_saharan_africa	11	Ovis aries	2014	KT885071	KT885071/ZAF/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KT885081	ZAF	South Africa	africa	sub_saharan_africa	9	Bos taurus	2014	KT885081	KT885081/ZAF/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KU234263	IND	India	asia	southern_asia	1	Capra hircus	2008	KU234263	KU234263/IND/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KU569996	FRA	France	europe	western_europe	8	Ovis aries	2015	KU569996	KU569996/FRA/8
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KU760993	FRA	France	europe	western_europe	27	Capra hircus	2014	KU760993	KU760993/FRA/27
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KU761003	FRA	France	europe	western_europe	27	Capra hircus	2014	KU761003	KU761003/FRA/27
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164025	USA	United States	americas	northern_america	1	Ovis aries	2010	KX164025	KX164025/USA/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164035	USA	United States	americas	northern_america	3	Odocoileus virginianus	2008	KX164035	KX164035/USA/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164045	USA	United States	americas	northern_america	3	deer	2012	KX164045	KX164045/USA/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164055	USA	United States	americas	northern_america	3	Bos taurus	2015	KX164055	KX164055/USA/3
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164065	USA	United States	americas	northern_america	5	Bos taurus	2003	KX164065	KX164065/USA/5
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164075	USA	United States	americas	northern_america	9	deer	2008	KX164075	KX164075/USA/9
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164085	USA	United States	americas	northern_america	12	Odocoileus virginianus	2008	KX164085	KX164085/USA/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164095	USA	United States	americas	northern_america	12	Odocoileus virginianus	2012	KX164095	KX164095/USA/12
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164105	USA	United States	americas	northern_america	13	Antilocapra americana	2013	KX164105	KX164105/USA/13
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164115	USA	United States	americas	northern_america	14	Ovis aries	2003	KX164115	KX164115/USA/14
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164125	USA	United States	americas	northern_america	18	Odocoileus virginianus	2014	KX164125	KX164125/USA/18
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164135	USA	United States	americas	northern_america	19	Bos taurus	2003	KX164135	KX164135/USA/19
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164145	USA	United States	americas	northern_america	22	Ovis aries	2005	KX164145	KX164145/USA/22
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX164155	USA	United States	americas	northern_america	24	Odocoileus virginianus	2007	KX164155	KX164155/USA/24
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX234084	ITA	Italy	europe	southern_europe	-	Capra aegagrus hircus	2015	KX234084	KX234084/ITA/-
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX302640	IND	India	asia	southern_asia	16	Ovis aries	2014	KX302640	KX302640/IND/16
+alignment/PHYLO_UNC_S7/member/ncbi-curated/KX599365	BRA	Brazil	americas	latin_america_and_the_caribbean	17	Ovis aries	2014	KX599365	KX599365/BRA/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/L11723	AUS	Australia	oceania	australia_and_new_zealand	15	Ovis ammon aries	-	L11723	L11723/AUS/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/L11724	AUS	Australia	oceania	australia_and_new_zealand	15	Ovis ammon aries	-	L11724	L11724/AUS/15
+alignment/PHYLO_UNC_S7/member/ncbi-curated/LN713676	FRA	France	europe	western_europe	27	Capra hircus	2014	LN713676	LN713676/FRA/27
+alignment/PHYLO_UNC_S7/member/ncbi-curated/M32102	USA	United States	americas	northern_america	11	-	-	M32102	M32102/USA/11
+alignment/PHYLO_UNC_S7/member/ncbi-curated/M63417	AUS	Australia	oceania	australia_and_new_zealand	1	-	-	M63417	M63417/AUS/1
+alignment/PHYLO_UNC_S7/member/ncbi-curated/M64997	USA	United States	americas	northern_america	2	-	-	M64997	M64997/USA/2
+alignment/PHYLO_UNC_S7/member/ncbi-curated/NC_006022	USA	United States	americas	northern_america	10	-	-	NC_006022	NC_006022/USA/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/X06463	USA	United States	americas	northern_america	10	-	-	X06463	X06463/USA/10
+alignment/PHYLO_UNC_S7/member/ncbi-curated/X53693	USA	United States	americas	northern_america	17	-	-	X53693	X53693/USA/17
+alignment/PHYLO_UNC_S7/member/ncbi-curated/X53740	ZAF	South Africa	africa	sub_saharan_africa	1	-	-	X53740	X53740/ZAF/1
