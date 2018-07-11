@@ -33,13 +33,13 @@ project btv
   run file glue/btvSequenceAssociatedData.glue
 
   # alignment tree
-  run file glue/btvAlignmentTree.glue
+  #run file glue/btvAlignmentTree.glue
 
   # "complete segment" field
-  run file glue/populateCompleteSegmentField.glue
+  #run file glue/populateCompleteSegmentField.glue
     
   ## record feature presence
-  run file glue/recordFeaturePresence.glue
+  #run file glue/recordFeaturePresence.glue
 
   validate
   

@@ -5,10 +5,10 @@ var sequenceMap = {};
 _.each(segments, function(segment) {
 	var whereClause = "source.name = 'ncbi-curated' and gb_segment = '"+segment+"'";
 	
-	var segmentSequences = glue.command(["list", "sequence", "-w", whereClause, "source.name", "sequenceID", "excluded"], {convertTableToObjects: true});
+	var segmentSequences = glue.command(["list", "sequence", "-w", whereClause, "source.name", "sequenceID", "complete_segment", "excluded"], {convertTableToObjects: true});
 	
 	_.each(segmentSequences, function(segmentSequence) {
-		sequenceMap[segmentSequence["source.name"]+"/"+segmentSequence["sequenceID"]] = {assignedSegment: "S"+segment, excluded: segmentSequence["excluded"], categories:[]}
+		sequenceMap[segmentSequence["source.name"]+"/"+segmentSequence["sequenceID"]] = {assignedSegment: "S"+segment, complete_segment:segmentSequence["complete_segment"],excluded: segmentSequence["excluded"], categories:[]}
 	});
 
 });

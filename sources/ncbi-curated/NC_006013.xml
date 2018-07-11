@@ -1,168 +1,178 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-  <GBSeq_locus>NC_006013</GBSeq_locus>
-  <GBSeq_length>2953</GBSeq_length>
-  <GBSeq_strandedness>double</GBSeq_strandedness>
-  <GBSeq_moltype>RNA</GBSeq_moltype>
-  <GBSeq_topology>linear</GBSeq_topology>
-  <GBSeq_division>VRL</GBSeq_division>
-  <GBSeq_update-date>08-DEC-2008</GBSeq_update-date>
-  <GBSeq_create-date>13-JUL-2004</GBSeq_create-date>
-  <GBSeq_definition>Bluetongue virus segment 2, complete sequence</GBSeq_definition>
-  <GBSeq_primary-accession>NC_006013</GBSeq_primary-accession>
-  <GBSeq_accession-version>NC_006013.1</GBSeq_accession-version>
-  <GBSeq_other-seqids>
-    <GBSeqid>ref|NC_006013.1|</GBSeqid>
-    <GBSeqid>gnl|NCBI_GENOMES|17818</GBSeqid>
-    <GBSeqid>gi|50253383</GBSeqid>
-  </GBSeq_other-seqids>
-  <GBSeq_project>PRJNA14938</GBSeq_project>
-  <GBSeq_keywords>
-    <GBKeyword>RefSeq</GBKeyword>
-  </GBSeq_keywords>
-  <GBSeq_source>Bluetongue virus</GBSeq_source>
-  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
-  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
-  <GBSeq_references>
-    <GBReference>
-      <GBReference_reference>1</GBReference_reference>
-      <GBReference_position>1..55</GBReference_position>
-      <GBReference_authors>
-        <GBAuthor>Inumaru,S.</GBAuthor>
-        <GBAuthor>Roy,P.</GBAuthor>
-      </GBReference_authors>
-      <GBReference_title>Production and characterization of the neutralization antigen VP2 of bluetongue virus serotype 10 using a baculovirus expression vector</GBReference_title>
-      <GBReference_journal>Virology 157 (2), 472-479 (1987)</GBReference_journal>
-      <GBReference_pubmed>3029984</GBReference_pubmed>
-    </GBReference>
-    <GBReference>
-      <GBReference_reference>2</GBReference_reference>
-      <GBReference_position>28..2953</GBReference_position>
-      <GBReference_authors>
-        <GBAuthor>Purdy,M.A.</GBAuthor>
-        <GBAuthor>Ghiasi,H.</GBAuthor>
-        <GBAuthor>Rao,C.D.</GBAuthor>
-        <GBAuthor>Roy,P.</GBAuthor>
-      </GBReference_authors>
-      <GBReference_title>Complete sequence of bluetongue virus L2 RNA that codes for the antigen recognized by neutralizing antibodies</GBReference_title>
-      <GBReference_journal>J. Virol. 55 (3), 826-830 (1985)</GBReference_journal>
-      <GBReference_pubmed>2991598</GBReference_pubmed>
-    </GBReference>
-    <GBReference>
-      <GBReference_reference>3</GBReference_reference>
-      <GBReference_position>1..2953</GBReference_position>
-      <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
-      <GBReference_title>Direct Submission</GBReference_title>
-      <GBReference_journal>Submitted (12-AUG-2004) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
-    </GBReference>
-  </GBSeq_references>
-  <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence was derived from M11787.; Clean copy of sequence [1] kindly provided by P.Roy (04-AUG-1987).; COMPLETENESS: full length.</GBSeq_comment>
-  <GBSeq_feature-table>
-    <GBFeature>
-      <GBFeature_key>source</GBFeature_key>
-      <GBFeature_location>1..2953</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>1</GBInterval_from>
-          <GBInterval_to>2953</GBInterval_to>
-          <GBInterval_accession>NC_006013.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>organism</GBQualifier_name>
-          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>mol_type</GBQualifier_name>
-          <GBQualifier_value>genomic RNA</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>taxon:40051</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>segment</GBQualifier_name>
-          <GBQualifier_value>2</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>segment L2</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>gene</GBFeature_key>
-      <GBFeature_location>47..2917</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>47</GBInterval_from>
-          <GBInterval_to>2917</GBInterval_to>
-          <GBInterval_accession>NC_006013.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>BTVs2gp1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:2943152</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-    <GBFeature>
-      <GBFeature_key>CDS</GBFeature_key>
-      <GBFeature_location>47..2917</GBFeature_location>
-      <GBFeature_intervals>
-        <GBInterval>
-          <GBInterval_from>47</GBInterval_from>
-          <GBInterval_to>2917</GBInterval_to>
-          <GBInterval_accession>NC_006013.1</GBInterval_accession>
-        </GBInterval>
-      </GBFeature_intervals>
-      <GBFeature_quals>
-        <GBQualifier>
-          <GBQualifier_name>locus_tag</GBQualifier_name>
-          <GBQualifier_value>BTVs2gp1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>note</GBQualifier_name>
-          <GBQualifier_value>VP2</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>codon_start</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>transl_table</GBQualifier_name>
-          <GBQualifier_value>1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>product</GBQualifier_name>
-          <GBQualifier_value>hypothetical protein</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>protein_id</GBQualifier_name>
-          <GBQualifier_value>YP_052958.1</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>db_xref</GBQualifier_name>
-          <GBQualifier_value>GeneID:2943152</GBQualifier_value>
-        </GBQualifier>
-        <GBQualifier>
-          <GBQualifier_name>translation</GBQualifier_name>
-          <GBQualifier_value>MEEFVIPVFSERDIPYSLLNHYPLAIQIDVKVDDEGGKHNLIKIPESDMIDVPRLSIIEALNYRPKRNDGVVVPRLLDITLRAYDNRKSAKNAKGVEFMTDTKWMKWAIDDKMDIQPLKVTLDNHCSVNHQLFNCIVKARSANADTIYYDYYPLENGAKRCNHTNLDLLRSLTTTEMFHILQGAAYALKTTYELVAHSERENMSESYQVGTQRWIQLRKGTKIGYRGQPYERFISSLVQVIIKGKIPDEIRTEIAELNRIKDEWKNAAYDRTEIRALELCKILSAIGRKMLDVQEEPKDEMALSTRFQFKLDEKFIRTDQEHVNIFKVGGSATDDGRFYALIAIAGTDTQQGRVWRTNPYPCLRGALIAAECELGDVYFTLRQTYKWSLRPEYGQRERPLEDNKYVFARLNLFDTNLAVGDEIIHWRYEVYQPKETTHDDGYICVSQKGDDELLCEVDEDRYKEMFDRMIQGGWDQERFKLHNILTEPNLLTIDFEKDAYLGARSELVFPPYYDKWINSPMFNARLKIARGEIATWKADDPWSNRAVHGYIKTSAESLEYALGPYYDLRLQLFGDTLSLGQRQSAVFEHMAQQDDFSTLTDYTKGRTVCPHSGGTFYTFRKVALIILSNYERLDPSLHEGREHETYMHPAVNDVFRRHVLEMKDFSQLICFVFDYIFEKHVQLRNAKEARRIIYLIQNTSGAYRLDVLREAFPNFLKHVMNLRDVKRICDLNVINFFPLLFLVQDNISYWHRQWSIPMILFDQVIRLIPVEVGAYANRFGLKSFFNFIRFHPGDSKKRQDADDTHKEFGSICFEYYTTTKISQGEIDVPVVTSKLDTLKLHVASLCAGLADSLVYTLPVAHPKKSIVLIIVGDDKLEPQIRSEQIVNKYYYSRRHISGVVSICVNQGGQLKVHSMGITRHRICDKSILKYKCKVVLVRMPGHVFGNDELMTKLLNV</GBQualifier_value>
-        </GBQualifier>
-      </GBFeature_quals>
-    </GBFeature>
-  </GBSeq_feature-table>
-  <GBSeq_sequence>gtaataaaaaaaccccggatccccggggttaaaagagtgttctaccatggaggaattcgtcataccagtgttttctgagagagatattccatattcactgctaaatcattacccactagctatacagatagatgttaaagttgatgatgaaggtgggaaacataatcttatcaagatacctgaatcggatatgatcgacgtaccgaggttaagtatcatagaggctctaaattatagaccgaaaaggaacgatggtgtggttgtgccgagattgctagatataacgctacgcgcttatgataataggaaatccgcaaagaacgcgaaaggagttgaatttatgacagatactaagtggatgaaatgggcaattgacgacaaaatggatatacaaccccttaaggttactctggataaccactgttccgttaaccatcaactcttcaattgtatcgttaaggcgaggtcagcaaatgcagacactatttattacgactattacccattggaaaatggagcgaaaagatgtaatcatacgaacctggatttattacgaagtttaacaacgacggagatgttccacatcttacagggagcggcttacgccttaaaaacaacgtatgaattagtagctcattccgaaagagaaaacatgagcgagagttatcaggttgggacgcagagatggatacagctgcgtaaaggtactaaaattggatatagagggcagccgtacgaacgatttatatccagcttagttcaagtaatcattaaagggaaaattccggatgagattagaaccgaaatcgctgaacttaatagaataaaagatgagtggaaaaacgccgcgtatgacagaactgagatacgtgcattggagctctgcaagatactttcggcgatcggacgtaaaatgttagatgttcaagaagagccaaaggatgagatggcgttatctactagatttcagttcaagttagacgagaaattcattaggactgatcaagaacacgtaaatatatttaaagtaggtggttccgcaacagatgatgggagattttacgcgctaatcgctatagcaggtaccgatacgcagcaaggccgtgtttggagaacgaacccttatccatgtttgcgtggtgcgctaattgctgctgagtgtgagctcggcgatgtgtacttcacattgcgtcaaacgtataaatggagtctgcgtccagaatatggtcagcgtgagaggccgttagaagacaataaatatgtgttcgctcgtcttaatctatttgatactaacttagccgttggggatgaaatcattcactggcgttatgaggtttatcagcctaaagaaacaactcatgatgatggatatatctgtgtgtcacagaaaggtgatgatgaattattatgtgaggttgatgaagataggtataaggagatgtttgatcgtatgattcaaggcggatgggatcaggaacggttcaaattacacaacatattgactgaaccaaacctacttaccatcgatttcgagaaggatgcttaccttggcgcgcgttctgaattagtattcccgccctattatgacaaatggatcaattcaccgatgtttaatgcccggcttaaaattgcgcgtggcgagattgcaacctggaaggcggatgatccttggagtaatcgggcggttcatgggtatataaagacgtcagcggaatctttagagtatgcgttagggccatattatgacctacgtctgcagttattcggcgacaccctcagtctgggacaaagacagtcagctgtattcgaacatatggctcaacaagatgatttttctacgctaacggattatacgaaaggaagaacagtgtgccctcactcaggcgggactttttacactttccgcaaggtagcgttgattattttatcgaattacgaacgattggacccaagtttacatgaggggagggaacatgagacatacatgcacccggcagttaatgatgtctttagacgacacgttttagaaatgaaagatttttcccagctgatttgttttgtgttcgactacatttttgagaaacatgtacagctacgtaatgccaaagaggcgagaaggattatatatttaatacagaatacgtccggtgcgtatcgattagatgttttacgcgaagctttccccaactttttaaagcacgttatgaatttacgtgatgtgaaacgtatatgcgatctgaatgtgattaatttctttccattgttatttttggttcaagataatatttcatattggcatagacagtggtcgatcccaatgattttatttgatcaagttatcagattaattcccgtcgaagtcggggcatacgcaaatagatttggacttaagagcttcttcaatttcattaggtttcaccccggcgattcaaagaagagacaggatgcggatgacacccataaagaattcggctcaatatgtttcgagtattacactacgacaaagatctctcaaggtgagatagatgttccggtcgttacgtctaaattagatacacttaagttgcacgtagcttccttatgcgcggggctagctgactctctagtgtatacgctgcctgtagcgcacccgaagaaaagtatcgttctaattattgtgggggatgataagcttgaaccacaaatacgctcagagcaaatcgtaaataagtactattattcacggaggcacatctcaggggttgtttcgatctgcgtgaaccagggtggacaactgaaggtgcattccatggggataacgagacatcggatatgtgataagtcgatattgaaatataaatgcaaagtagtattagttaggatgccaggacatgtcttcggaaatgatgaattaatgacgaagctactaaatgtttaggtcctgtgacatggaccggtagcctcttacacttac</GBSeq_sequence>
-  <GBSeq_xrefs>
-    <GBXref>
-      <GBXref_dbname>BioProject</GBXref_dbname>
-      <GBXref_id>PRJNA14938</GBXref_id>
-    </GBXref>
-  </GBSeq_xrefs>
-</GBSeq>
+
+    <GBSeq_locus>NC_006013</GBSeq_locus>
+    <GBSeq_length>2921</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-MAR-2018</GBSeq_update-date>
+    <GBSeq_create-date>13-JUL-2004</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus VP2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>NC_006013</GBSeq_primary-accession>
+    <GBSeq_accession-version>NC_006013.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NC_006013.2|</GBSeqid>
+      <GBSeqid>gi|1368578813</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA14938</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..23</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Inumaru,S.</GBAuthor>
+          <GBAuthor>Roy,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Production and characterization of the neutralization antigen VP2 of bluetongue virus serotype 10 using a baculovirus expression vector</GBReference_title>
+        <GBReference_journal>Virology 157 (2), 472-479 (1987)</GBReference_journal>
+        <GBReference_pubmed>3029984</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2921</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Purdy,M.A.</GBAuthor>
+          <GBAuthor>Ghiasi,H.</GBAuthor>
+          <GBAuthor>Rao,C.D.</GBAuthor>
+          <GBAuthor>Roy,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete sequence of bluetongue virus L2 RNA that codes for the antigen recognized by neutralizing antibodies</GBReference_title>
+        <GBReference_journal>J. Virol. 55 (3), 826-830 (1985)</GBReference_journal>
+        <GBReference_pubmed>2991598</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..2921</GBReference_position>
+        <GBReference_consortium>NCBI Genome Project</GBReference_consortium>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-MAR-2018) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..2921</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gross,I.</GBAuthor>
+          <GBAuthor>Georgel,P.</GBAuthor>
+          <GBAuthor>Oertel-Buchheit,P.</GBAuthor>
+          <GBAuthor>Schnarr,M.</GBAuthor>
+          <GBAuthor>Reichhart,J.-M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-DEC-2016) Brookdale Center for Molecular and Developmental Biology, Mount Sinai Medical School, 1, Gustave L. Levy Place, New York, NY 10029, USA</GBReference_journal>
+        <GBReference_remark>Sequence update by database staff to remove vector contamination</GBReference_remark>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. The reference sequence is identical to M11787.; On Mar 21, 2018 this sequence version replaced NC_006013.1.; Clean copy of sequence [1] kindly provided by P.Roy (04-AUG-1987).; COMPLETENESS: full length.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2921</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2921</GBInterval_to>
+            <GBInterval_accession>NC_006013.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>15..2885</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>15</GBInterval_from>
+            <GBInterval_to>2885</GBInterval_to>
+            <GBInterval_accession>NC_006013.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BTVs2gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:2943152</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>15..2885</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>15</GBInterval_from>
+            <GBInterval_to>2885</GBInterval_to>
+            <GBInterval_accession>NC_006013.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>locus_tag</GBQualifier_name>
+            <GBQualifier_value>BTVs2gp1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>serotype-specific capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>YP_052958.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:2943152</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEEFVIPVFSERDIPYSLLNHYPLAIQIDVKVDDEGGKHNLIKIPESDMIDVPRLSIIEALNYRPKRNDGVVVPRLLDITLRAYDNRKSAKNAKGVEFMTDTKWMKWAIDDKMDIQPLKVTLDNHCSVNHQLFNCIVKARSANADTIYYDYYPLENGAKRCNHTNLDLLRSLTTTEMFHILQGAAYALKTTYELVAHSERENMSESYQVGTQRWIQLRKGTKIGYRGQPYERFISSLVQVIIKGKIPDEIRTEIAELNRIKDEWKNAAYDRTEIRALELCKILSAIGRKMLDVQEEPKDEMALSTRFQFKLDEKFIRTDQEHVNIFKVGGSATDDGRFYALIAIAGTDTQQGRVWRTNPYPCLRGALIAAECELGDVYFTLRQTYKWSLRPEYGQRERPLEDNKYVFARLNLFDTNLAVGDEIIHWRYEVYQPKETTHDDGYICVSQKGDDELLCEVDEDRYKEMFDRMIQGGWDQERFKLHNILTEPNLLTIDFEKDAYLGARSELVFPPYYDKWINSPMFNARLKIARGEIATWKADDPWSNRAVHGYIKTSAESLEYALGPYYDLRLQLFGDTLSLGQRQSAVFEHMAQQDDFSTLTDYTKGRTVCPHSGGTFYTFRKVALIILSNYERLDPSLHEGREHETYMHPAVNDVFRRHVLEMKDFSQLICFVFDYIFEKHVQLRNAKEARRIIYLIQNTSGAYRLDVLREAFPNFLKHVMNLRDVKRICDLNVINFFPLLFLVQDNISYWHRQWSIPMILFDQVIRLIPVEVGAYANRFGLKSFFNFIRFHPGDSKKRQDADDTHKEFGSICFEYYTTTKISQGEIDVPVVTSKLDTLKLHVASLCAGLADSLVYTLPVAHPKKSIVLIIVGDDKLEPQIRSEQIVNKYYYSRRHISGVVSICVNQGGQLKVHSMGITRHRICDKSILKYKCKVVLVRMPGHVFGNDELMTKLLNV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagagtgttctaccatggaggaattcgtcataccagtgttttctgagagagatattccatattcactgctaaatcattacccactagctatacagatagatgttaaagttgatgatgaaggtgggaaacataatcttatcaagatacctgaatcggatatgatcgacgtaccgaggttaagtatcatagaggctctaaattatagaccgaaaaggaacgatggtgtggttgtgccgagattgctagatataacgctacgcgcttatgataataggaaatccgcaaagaacgcgaaaggagttgaatttatgacagatactaagtggatgaaatgggcaattgacgacaaaatggatatacaaccccttaaggttactctggataaccactgttccgttaaccatcaactcttcaattgtatcgttaaggcgaggtcagcaaatgcagacactatttattacgactattacccattggaaaatggagcgaaaagatgtaatcatacgaacctggatttattacgaagtttaacaacgacggagatgttccacatcttacagggagcggcttacgccttaaaaacaacgtatgaattagtagctcattccgaaagagaaaacatgagcgagagttatcaggttgggacgcagagatggatacagctgcgtaaaggtactaaaattggatatagagggcagccgtacgaacgatttatatccagcttagttcaagtaatcattaaagggaaaattccggatgagattagaaccgaaatcgctgaacttaatagaataaaagatgagtggaaaaacgccgcgtatgacagaactgagatacgtgcattggagctctgcaagatactttcggcgatcggacgtaaaatgttagatgttcaagaagagccaaaggatgagatggcgttatctactagatttcagttcaagttagacgagaaattcattaggactgatcaagaacacgtaaatatatttaaagtaggtggttccgcaacagatgatgggagattttacgcgctaatcgctatagcaggtaccgatacgcagcaaggccgtgtttggagaacgaacccttatccatgtttgcgtggtgcgctaattgctgctgagtgtgagctcggcgatgtgtacttcacattgcgtcaaacgtataaatggagtctgcgtccagaatatggtcagcgtgagaggccgttagaagacaataaatatgtgttcgctcgtcttaatctatttgatactaacttagccgttggggatgaaatcattcactggcgttatgaggtttatcagcctaaagaaacaactcatgatgatggatatatctgtgtgtcacagaaaggtgatgatgaattattatgtgaggttgatgaagataggtataaggagatgtttgatcgtatgattcaaggcggatgggatcaggaacggttcaaattacacaacatattgactgaaccaaacctacttaccatcgatttcgagaaggatgcttaccttggcgcgcgttctgaattagtattcccgccctattatgacaaatggatcaattcaccgatgtttaatgcccggcttaaaattgcgcgtggcgagattgcaacctggaaggcggatgatccttggagtaatcgggcggttcatgggtatataaagacgtcagcggaatctttagagtatgcgttagggccatattatgacctacgtctgcagttattcggcgacaccctcagtctgggacaaagacagtcagctgtattcgaacatatggctcaacaagatgatttttctacgctaacggattatacgaaaggaagaacagtgtgccctcactcaggcgggactttttacactttccgcaaggtagcgttgattattttatcgaattacgaacgattggacccaagtttacatgaggggagggaacatgagacatacatgcacccggcagttaatgatgtctttagacgacacgttttagaaatgaaagatttttcccagctgatttgttttgtgttcgactacatttttgagaaacatgtacagctacgtaatgccaaagaggcgagaaggattatatatttaatacagaatacgtccggtgcgtatcgattagatgttttacgcgaagctttccccaactttttaaagcacgttatgaatttacgtgatgtgaaacgtatatgcgatctgaatgtgattaatttctttccattgttatttttggttcaagataatatttcatattggcatagacagtggtcgatcccaatgattttatttgatcaagttatcagattaattcccgtcgaagtcggggcatacgcaaatagatttggacttaagagcttcttcaatttcattaggtttcaccccggcgattcaaagaagagacaggatgcggatgacacccataaagaattcggctcaatatgtttcgagtattacactacgacaaagatctctcaaggtgagatagatgttccggtcgttacgtctaaattagatacacttaagttgcacgtagcttccttatgcgcggggctagctgactctctagtgtatacgctgcctgtagcgcacccgaagaaaagtatcgttctaattattgtgggggatgataagcttgaaccacaaatacgctcagagcaaatcgtaaataagtactattattcacggaggcacatctcaggggttgtttcgatctgcgtgaaccagggtggacaactgaaggtgcattccatggggataacgagacatcggatatgtgataagtcgatattgaaatataaatgcaaagtagtattagttaggatgccaggacatgtcttcggaaatgatgaattaatgacgaagctactaaatgtttaggtcctgtgacatggaccggtagcctcttacacttac</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA14938</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

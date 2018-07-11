@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX905151</GBSeq_locus>
+    <GBSeq_length>2903</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-FEB-2017</GBSeq_update-date>
+    <GBSeq_create-date>26-FEB-2017</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus VP2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX905151</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX905151.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX905151.1|</GBSeqid>
+      <GBSeqid>gi|1148974652</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2903</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maan,S.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+          <GBAuthor>Gupta,A.K.</GBAuthor>
+          <GBAuthor>Dalal,A.</GBAuthor>
+          <GBAuthor>Chaudhary,D.</GBAuthor>
+          <GBAuthor>Gupta,T.K.</GBAuthor>
+          <GBAuthor>Bansal,N.</GBAuthor>
+          <GBAuthor>Kumar,V.</GBAuthor>
+          <GBAuthor>Batra,K.</GBAuthor>
+          <GBAuthor>Sindhu,N.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+          <GBAuthor>Mahajan,N.K.</GBAuthor>
+          <GBAuthor>Maan,N.S.</GBAuthor>
+          <GBAuthor>Mertens,P.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Concurrent infection of Bluetongue and Peste-des-petits-ruminants virus in small ruminants in Haryana State of India</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis (2017) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12610</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28116836</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2903</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Maan,S.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+          <GBAuthor>Dalal,A.</GBAuthor>
+          <GBAuthor>Chaudhary,D.</GBAuthor>
+          <GBAuthor>Kumar,V.</GBAuthor>
+          <GBAuthor>Bansal,N.</GBAuthor>
+          <GBAuthor>Batra,K.</GBAuthor>
+          <GBAuthor>Sindhu,N.</GBAuthor>
+          <GBAuthor>Kumar,T.</GBAuthor>
+          <GBAuthor>Goel,A.</GBAuthor>
+          <GBAuthor>Mahajan,N.K.</GBAuthor>
+          <GBAuthor>Kumar,A.</GBAuthor>
+          <GBAuthor>Maan,N.S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (26-SEP-2016) Department of Animal Biotechnology, Lala Lajpat Rai University of Veterinary and Animal Sciences, College of Veterinary Sciences, Hisar, Haryana 125 004, India</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Lasergene v. Ver 5.0 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2903</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2903</GBInterval_to>
+            <GBInterval_accession>KX905151.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>BTV-12</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>IND2015//340</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>rectal swab</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ovis aries</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>India: Hansi, Hisar, Haryana</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>13-Mar-2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>16..2868</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>16</GBInterval_from>
+            <GBInterval_to>2868</GBInterval_to>
+            <GBInterval_accession>KX905151.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>outer capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQS60698.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEDFPICVIERESKFDEDFIARYPVIIDLKECVDDANGKTDVSKLEETRGIFVRAEGIRVALSSRPDNLSHVITPSALDVLIRAYDRKHKIALDKRTDDPGRVADHNIDVWVKKRLEEQADLQAVYHDVDLGRGKLKFKMLMGLVKLDSNYAETVGYDYAPVPKVGCDHGNVDFLYDFILSGSLQVSKTAGYTLKQTYRLTVHAEANAETRDQLIVNGVYTEGVTRGEEIRDMKKKCYSRFRDGWIRATIQPKIVEELRRSKEVLDRISSKWYEELTTPDVVEICKIVSSIGRQMWNSEELPVDDAMRSKVFQEELRLLFRVGNSEYDTIQAIRSGQTPLKKFYALLAIAATDSYRWRIWWSNPYPCLRGTIIACEMELGDVYKTLRSTFHWSLRPTYATRKEIDRERRAYPYQRINLFESRLDPGTRIINWLVVREPLAEPDVESGRVCMTSTESEYILKVDDTKYREMIGQIIERGWEKEHLKLEKIVQDEGNVFQMEFEKDASLDERSHLVMPYYYDKEIHCPIYHKKIKITEAEIATSWSDDPWLNRVLNGFLGDHVETFNLGCNHIFDMRVPLKGNLLTQEQAISSYHEYIRSPEAQSENQCALKVYADEAVSKLFTTLYHRLAYHLPKTEYIERKEEVSQYEGLVKRIRTWDQFIIFVFDFFFENRKGLRTTEEATQLAKAIRSNVGVTRWTMMASAFPTSVRLVKGILRAKTWGECYIMNFLPLLICGGSSISYLHREWSYPMIVVFEDGIKVVPTMTGRSLTQGSLGEWASFVCFFMGSNHEKVKLEEDELEVLRKCVEFYEGVKMVDIIKDTPVRMTKYIACDLAFGSGCGGTSESLSFVLPVTHPNRSLIIFVVADDKISPAQHAARAKRRFRGTREYVNDVIVLQMKRPGTVGNVWSEKHSKVRICRRNFLKYDHKVVLTKFAGLVYGNYELITKLANL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaagttcgaggatggaggattttccgatatgcgtaattgaacgcgagtccaagtttgatgaagatttcatcgcgagatatccggtgataattgatttaaaagaatgtgtggacgatgcaaatggaaagacggatgtgtcgaagctggaggaaactcggggaattttcgttcgcgctgaaggcatacgagttgcattaagctcaagaccagacaatttatctcatgttataacaccgtccgctttagatgtgttgattcgggcgtatgataggaagcacaagattgcgttagacaaacgtacggatgatcctggcagagtggcggatcacaatatagatgtgtgggttaagaagcggttggaagagcaagcggatctacaagccgtatatcatgatgttgatttaggacgtggtaagttaaagtttaaaatgctaatggggttggtgaaattagattcgaattatgcggaaacagtcggctacgattatgcaccggtgccgaaagtaggatgcgatcatgggaatgtcgattttctatatgacttcattttatcaggtagcctccaggtatcgaagaccgcgggatacactttgaagcaaacgtatcgattaactgtgcacgctgaagctaacgcagaaacacgagatcaactcatcgtaaatggggtgtataccgagggcgtcacgcgcggtgaggagataagggatatgaagaaaaagtgttattcaaggttccgtgatggatggattcgagctactatacagcctaaaatagtcgaggagttgagacggagcaaggaggtgctagacagaatatcgagtaaatggtatgaagagttgacgacgccagacgttgttgaaatatgtaaaatcgtgtcgtcaattggacgtcagatgtggaatagtgaggagttgccggtcgatgatgcaatgagatcaaaagtttttcaggaggagttgcggctgttattccgagttgggaatagcgaatatgatacaattcaggctatccggagtggacaaacgcctctgaaaaaattctacgccttgttagcaattgccgcgactgacagctatcgttggcgcatatggtggagtaatccgtacccctgcttacgaggaacgatcattgcgtgtgagatggaactaggggatgtctacaaaactttaagatcaactttccattggagtttacgtcctacatatgctacccggaaggagattgatcgcgaacgaagagcctatccatatcagagaataaacctctttgaatcgcgtttagatcctggaacccgcataatcaattggttggtagtaagggagccgttagctgaaccagacgtcgagtccggtcgtgtgtgtatgacgtcgacagaatctgaatacattctaaaggtggatgacacgaagtatagagaaatgattggtcagataattgagcgggggtgggagaaagaacatttgaaactggaaaagattgtccaggacgagggtaacgtgtttcaaatggaatttgaaaaagatgcgagcttagatgagaggagccatttagttatgccgtattattatgataaagagatacactgtccgatatatcataagaagattaaaataacagaggctgagattgcgacttcatggagtgatgacccatggttaaaccgcgtgttaaatggatttttaggtgaccatgtggagacgttcaatttagggtgcaaccacatattcgatatgcgagtacctttaaaaggaaacttactgacacaagagcaggctatctcaagttaccacgaatacattaggtcgccggaagcacagagcgagaaccaatgcgcactgaaggtatatgcggatgaggcggtcagtaagctgtttactactttgtatcacagactagcctatcatcttccaaagacggagtacatagaacgaaaagaggaagtgagtcagtatgaaggattagttaagagaattcgtacatgggaccagttcattatattcgtatttgatttcttttttgaaaatagaaaagggttacgtacgacggaggaggcgacacagctcgctaaggcaataaggagtaatgttggtgttacgcgatggacgatgatggcgagtgcgtttcctaccagcgtcagattagtgaagggaatccttcgagcgaagacgtggggtgaatgttatataatgaatttcttaccattgttaatatgtgggggctcatcgatcagctatttacacagagaatggagttatcctatgatcgtagtctttgaggatggtataaaggtggttccaactatgaccggacgctcacttacacaaggttcgctgggagagtgggcatctttcgtgtgcttctttatgggttcgaatcacgaaaaggtaaaactcgaagaagacgaactggaggttttgcgaaagtgcgttgagttttacgaaggtgtaaaaatggttgatatcatcaaagatactccggttcggatgactaagtatattgcatgtgatttagcgtttggtagcggatgtggtggaacaagtgaatcacttagcttcgtactgccagtcacgcatcctaacagaagcttgattatttttgtggtggcggacgataagataagcccagcgcagcatgctgcgagagcaaaacgtagattccgtgggacgcgcgaatacgtaaatgatgtaatcgtattacagatgaaacgacctggcacagttggcaatgtttggagtgagaaacatagtaaagtgagaatatgtcgaagaaactttctaaaatatgatcacaaagtagttcttacgaagttcgcagggctagtttatggaaattacgaactaattacgaaacttgcaaatctatgagcccttgacaaggctccctcgcagcttcaacttac</GBSeq_sequence>
+  </GBSeq>

@@ -7,11 +7,11 @@
   multi-set field sequence -w "excluded = null" excluded false
 
   # populate extra columns from tabular data
-  module extraColumnsAddedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/extra_columns_added.txt
+  #module extraColumnsAddedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/extra_columns_added.txt
 
   # populate extra columns from tabular data
-  module dataMissingImporter populate  -w "source.name = 'ncbi-curated'" -f tabular/data_missing.txt
+  #module dataMissingImporter populate  -w "source.name = 'ncbi-curated'" -f tabular/data_missing.txt
 
   # overwrite incorrect field values with corrected
-  module dataCorrectedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/data_corrected.txt
+  #module dataCorrectedImporter populate -w "source.name = 'ncbi-curated'" -f tabular/data_corrected.txt
 
