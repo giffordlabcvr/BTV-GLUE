@@ -1,4 +1,11 @@
 <blastSequenceRecogniser> 
+    <blastRunner>
+    	<generalSearch>
+  		   	<word_size>8</word_size>
+    	</generalSearch>
+    	<restrictSearchOrResults>
+    	</restrictSearchOrResults>
+    </blastRunner>
 	<referenceSequence>REF_S1_MASTER</referenceSequence>
 	<referenceSequence>REF_S3_MASTER</referenceSequence>
 	<referenceSequence>REF_S4_MASTER</referenceSequence>
@@ -63,10 +70,12 @@
 	<referenceSequence>REF_S6_serotype_27</referenceSequence>
 	<recognitionCategory>
 		<id>S1</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S1_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S2</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S2_serotype_1</referenceSequence>
 		<referenceSequence>REF_S2_serotype_2</referenceSequence>
 		<referenceSequence>REF_S2_serotype_3</referenceSequence>
@@ -97,18 +106,22 @@
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S3</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S3_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S4</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S4_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S5</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S5_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S6</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S6_serotype_1</referenceSequence>
 		<referenceSequence>REF_S6_serotype_2</referenceSequence>
 		<referenceSequence>REF_S6_serotype_3</referenceSequence>
@@ -139,18 +152,22 @@
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S7</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S7_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S8</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S8_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S9</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S9_MASTER</referenceSequence>
 	</recognitionCategory>
 	<recognitionCategory>
 		<id>S10</id>
+		<minimumBitScore>50</minimumBitScore>
 		<referenceSequence>REF_S10_MASTER</referenceSequence>
 	</recognitionCategory>
 </blastSequenceRecogniser>

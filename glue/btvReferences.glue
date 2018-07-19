@@ -187,6 +187,5 @@ create reference REF_S6_serotype_27 ncbi-refseqs LN713675
 ## commented out from the project build until they are published.
 ## create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished KN156
 
-module refseqCladeImporter populate --whereClause "source.name = 'ncbi-refseqs'" --fileName tabular/refseq_clades.txt
 
 

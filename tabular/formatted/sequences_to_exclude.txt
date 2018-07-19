@@ -1,0 +1,27 @@
+sequence_id	excluded_reason
+1H1K_I	KN excluded
+1H1K_J	KN excluded
+1H1K_K	KN excluded
+1H1K_L	KN excluded
+1H1K_M	KN excluded
+1H1K_N	KN excluded
+AF174647	KN excluded
+AH002329	KN excluded
+AH015346	KN excluded
+AH015611	KN excluded
+AY397619	KN excluded
+AY397620	KN excluded
+FN557214	KN excluded
+FN557215	KN excluded
+DQ289046	Reverse complement
+EU880283	Reverse complement
+EU880284	Reverse complement
+EU880286	Reverse complement
+EU880289	Reverse complement
+EU880291	Reverse complement
+EU880292	Reverse complement
+GU931315	Reverse complement
+GU931317	Reverse complement
+GU931318	Reverse complement
+HQ719213	Reverse complement
+MF384495	Poor assembly, partial reverse complement

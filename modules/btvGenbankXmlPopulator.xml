@@ -9,18 +9,12 @@
 	</gbAccessionVersion>
 	
 	<!-- #### TOP LEVEL DATA -->	
-	<gbLocus>
-		<propertyPopulator property="gb_locus"/>
-	</gbLocus>
 	<gbOtherID>
 		<propertyPopulator property="gb_gi_number">
 			<matchPattern>gi\|(\d+)</matchPattern>
 			<outputTemplate>${g1}</outputTemplate>
 		</propertyPopulator>
 	</gbOtherID>
-	<gbTaxonomy>
-		<propertyPopulator property="gb_taxonomy"/>
-	</gbTaxonomy>
 	<gbLength>
 		<propertyPopulator property="gb_length"/>
 	</gbLength>
@@ -41,9 +35,9 @@
 		</propertyPopulator>
 	</gbOrganism>
 
-	<!-- #### Exclude patent sequences etc-->	
+	<!-- #### detect patent sequences -->	
 	<gbDivision>
-		<propertyPopulator property="gb_lab_construct">
+		<propertyPopulator property="gb_patent_related">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</propertyPopulator>
@@ -188,26 +182,9 @@
 			<propertyPopulator property="gb_segment">
 				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
 			</propertyPopulator>
 		</gbQualifier>
 		
-		<!-- #### SEROTYPE -->		
-		<gbQualifier name="serotype">
-			<propertyPopulator property="gb_serotype">
-				<matchPattern>(\d+)</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</propertyPopulator>
-		</gbQualifier>
-		<gbQualifier name="type">
-			<propertyPopulator property="gb_serotype">
-				<matchPattern>(\d+)</matchPattern>
-				<outputTemplate>${g1}</outputTemplate>
-				<overwriteExistingNonNull>false</overwriteExistingNonNull>
-			</propertyPopulator>
-		</gbQualifier>
-
 		<!-- #### COLLECTION DATE -->
 		<gbQualifier name="collection_date">
 			<propertyPopulator property="gb_collection_month_day">
@@ -224,7 +201,17 @@
 			</propertyPopulator>
 		</gbQualifier>
 
+
+
 	</gbFeature>
-	
+
+	<!-- #### PUBMED ID -->	
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="gb_pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>
+
+
 	
 </genbankXmlPopulator>

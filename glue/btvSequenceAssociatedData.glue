@@ -1,9 +1,17 @@
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
-  # populate 'excluded' field for certain sequences
-  module seqToDeleteExcluder transform tabular/seq_to_delete.txt --run 
-  # non-excluded fields
+  # Non-patent related sequences
+  multi-set field sequence -w "gb_patent_related = null" gb_patent_related false
+
+  # populate 'excluded' / excluded reason field for certain sequences from a text file
+  run script glue/btvExcludedSequences.js 
+
+  # all patent related sequences are excluded
+  multi-set field sequence -w "gb_patent_related = true" excluded true
+  multi-set field sequence -w "gb_patent_related = true" excluded_reason "Patent-related"
+
+  # set false rather than null value for non-excluded fields
   multi-set field sequence -w "excluded = null" excluded false
 
   # populate extra columns from tabular data

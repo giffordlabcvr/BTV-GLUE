@@ -16,7 +16,6 @@
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
   create module --fileName modules/extraColumnsAddedImporter.xml extraColumnsAddedImporter
-  create module --fileName modules/seqToDeleteExcluder.xml seqToDeleteExcluder
   create module --fileName modules/fastaAlignmentExporter.xml fastaAlignmentExporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
   create module --fileName modules/referenceAlignmentImporter.xml referenceAlignmentImporter
@@ -52,5 +51,6 @@
   create module -f modules/whoSubRegionsTextToCustomTableRows.xml
   create module -f modules/whoIntermediateRegionsTextToCustomTableRows.xml
   create module -f modules/whoCountriesTextToCustomTableRows.xml  
-  
+
+  create module -f modules/btvTabularUtility.xml  
   
