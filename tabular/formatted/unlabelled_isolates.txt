@@ -1,0 +1,137 @@
+source.name	sequenceID	recogniser_segment	who_country.display_name	gb_place_sampled	gb_collection_year	gb_collection_month	gb_collection_month_day	gb_host
+ncbi-curated	AF494094	2	Tunisia	-	-	-	-	-
+ncbi-curated	AF530066	9	South Africa	Ondersterpoort	-	-	-	-
+ncbi-curated	AF530067	2	-	-	-	-	-	-
+ncbi-curated	AM773691	5	South Africa	-	-	-	-	-
+ncbi-curated	AY137387	5	-	-	-	-	-	-
+ncbi-curated	AY189951	6	Italy	Sardinia	-	-	-	-
+ncbi-curated	AY263377	7	Brazil	-	-	-	-	-
+ncbi-curated	AY273207	10	Italy	Sardinia	-	-	-	Ovis aries
+ncbi-curated	AY386682	7	-	-	-	-	-	-
+ncbi-curated	AY438033	10	Italy	-	-	-	-	Culicoides sp.
+ncbi-curated	AY438034	10	Italy	-	-	-	-	-
+ncbi-curated	AY606206	7	India	-	-	-	-	-
+ncbi-curated	AY775152	10	South Africa	-	-	-	-	-
+ncbi-curated	AY775159	10	Greece	-	-	-	-	-
+ncbi-curated	AY775160	10	South Africa	-	-	-	-	-
+ncbi-curated	AY775164	10	South Africa	-	-	-	-	-
+ncbi-curated	AY776331	7	South Africa	-	-	-	-	-
+ncbi-curated	AY823220	10	Italy	Sardinia	2000	-	-	-
+ncbi-curated	AY823223	10	Greece	-	-	-	-	-
+ncbi-curated	AY823224	10	South Africa	-	-	-	-	-
+ncbi-curated	AY839948	2	South Africa	-	-	-	-	-
+ncbi-curated	AY841353	7	South Africa	-	-	-	-	-
+ncbi-curated	AY857502	8	South Africa	-	-	-	-	-
+ncbi-curated	AY857506	10	South Africa	-	-	-	-	-
+ncbi-curated	D00153	2	-	-	-	-	-	-
+ncbi-curated	D00253	10	-	-	-	-	-	-
+ncbi-curated	D00500	8	-	-	-	-	-	-
+ncbi-curated	D00509	9	-	-	-	-	-	-
+ncbi-curated	D12532	6	-	-	-	-	-	-
+ncbi-curated	DQ017957	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ017961	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ017962	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098095	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098097	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098098	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098099	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098100	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098101	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ098102	5	South Africa	-	-	-	-	-
+ncbi-curated	DQ289043	9	Australia	-	-	-	-	-
+ncbi-curated	DQ289048	9	Australia	-	-	-	-	-
+ncbi-curated	DQ825668	9	France	Corsica	2003	-	-	-
+ncbi-curated	DQ825669	9	Greece	-	2000	-	-	-
+ncbi-curated	DQ825670	2	Turkey	-	1999	-	-	-
+ncbi-curated	DQ825671	9	Turkey	-	1999	-	-	-
+ncbi-curated	DQ825672	7	Turkey	-	1999	-	-	-
+ncbi-curated	DQ825673	8	Turkey	-	1999	-	-	-
+ncbi-curated	EF533882	10	Italy	-	-	-	-	-
+ncbi-curated	EF533883	10	Algeria	-	-	-	-	-
+ncbi-curated	EF533884	10	Morocco	-	-	-	-	-
+ncbi-curated	EU450663	10	South Africa	-	-	-	-	-
+ncbi-curated	FJ745372	7	Iran	Azerbaijan	2008	-	-	Ovis aries
+ncbi-curated	FJ745373	7	Iran	Khuzestan	2008	-	-	Ovis aries
+ncbi-curated	GQ233041	2	India	-	2004	-	-	Ovis aries
+ncbi-curated	GU213110	6	India	Andhra Pradesh	2004	SEP	19	Ovis aries
+ncbi-curated	J04365	7	-	-	-	-	-	-
+ncbi-curated	JF303890	2	India	-	2004	NOV	20	Ovis aries
+ncbi-curated	JF343006	2	-	-	-	-	-	-
+ncbi-curated	JQ080436	10	India	Andhra Pradesh	1999	AUG	18	Ovis aries
+ncbi-curated	JQ080437	7	India	Andhra Pradesh	1999	AUG	18	Ovis aries
+ncbi-curated	K02369	3	-	-	-	-	-	-
+ncbi-curated	KF769399	4	France	Corsica Island	-	-	-	Ovis aries
+ncbi-curated	KT923493	2	Greece	-	2014	-	-	Ovis aries
+ncbi-curated	KT923494	2	Greece	-	2014	-	-	Ovis aries
+ncbi-curated	L08628	10	-	-	-	-	-	-
+ncbi-curated	L08629	10	-	-	-	-	-	-
+ncbi-curated	L08630	10	-	-	-	-	-	-
+ncbi-curated	L08631	10	-	-	-	-	-	-
+ncbi-curated	L08668	9	-	-	-	-	-	-
+ncbi-curated	L08669	9	-	-	-	-	-	-
+ncbi-curated	L08670	9	-	-	-	-	-	-
+ncbi-curated	L08671	9	-	-	-	-	-	-
+ncbi-curated	L08672	9	-	-	-	-	-	-
+ncbi-curated	L08673	8	-	-	-	-	-	-
+ncbi-curated	L08674	8	-	-	-	-	-	-
+ncbi-curated	L08675	8	-	-	-	-	-	-
+ncbi-curated	L08676	8	-	-	-	-	-	-
+ncbi-curated	L11723	7	-	-	-	-	-	-
+ncbi-curated	L11741	2	-	-	-	-	-	-
+ncbi-curated	L11874	2	-	-	-	-	-	-
+ncbi-curated	L13726	4	-	-	-	-	-	-
+ncbi-curated	L15424	6	-	-	-	-	-	-
+ncbi-curated	L19967	3	-	-	-	-	-	-
+ncbi-curated	L19968	3	-	-	-	-	-	-
+ncbi-curated	L19969	3	-	-	-	-	-	-
+ncbi-curated	L20445	1	-	-	-	-	-	-
+ncbi-curated	L20446	1	-	-	-	-	-	-
+ncbi-curated	L20447	1	-	-	-	-	-	-
+ncbi-curated	L20508	1	-	-	-	-	-	-
+ncbi-curated	L26550	3	-	-	-	-	-	-
+ncbi-curated	L26551	3	-	-	-	-	-	-
+ncbi-curated	L26552	3	-	-	-	-	-	-
+ncbi-curated	L26554	3	-	-	-	-	-	-
+ncbi-curated	L26555	3	-	-	-	-	-	-
+ncbi-curated	L26556	3	-	-	-	-	-	-
+ncbi-curated	L26557	3	-	-	-	-	-	-
+ncbi-curated	L26558	3	-	-	-	-	-	-
+ncbi-curated	L26559	3	-	-	-	-	-	-
+ncbi-curated	L26560	3	-	-	-	-	-	-
+ncbi-curated	L26561	3	-	-	-	-	-	-
+ncbi-curated	L26562	3	-	-	-	-	-	-
+ncbi-curated	L26563	3	-	-	-	-	-	-
+ncbi-curated	L26564	3	-	-	-	-	-	-
+ncbi-curated	L26565	3	-	-	-	-	-	-
+ncbi-curated	L26566	3	-	-	-	-	-	-
+ncbi-curated	L26567	3	-	-	-	-	-	-
+ncbi-curated	L26568	3	-	-	-	-	-	-
+ncbi-curated	L29026	2	-	-	-	-	-	-
+ncbi-curated	L29027	2	-	-	-	-	-	-
+ncbi-curated	L42170	2	-	-	-	-	-	-
+ncbi-curated	L42171	2	-	-	-	-	-	-
+ncbi-curated	M11787	2	-	-	-	-	-	-
+ncbi-curated	M17437	2	-	-	-	-	-	-
+ncbi-curated	M17438	2	-	-	-	-	-	-
+ncbi-curated	M21355	2	Australia	-	-	-	-	-
+ncbi-curated	M21845	6	-	-	-	-	-	-
+ncbi-curated	M28981	10	-	-	-	-	-	-
+ncbi-curated	M32102	7	-	-	-	-	-	-
+ncbi-curated	M32722	3	-	-	-	-	-	-
+ncbi-curated	M64997	7	-	-	-	-	-	-
+ncbi-curated	M73715	6	-	-	-	-	-	-
+ncbi-curated	M97680	5	-	-	-	-	-	-
+ncbi-curated	M97681	5	-	-	-	-	-	-
+ncbi-curated	M97762	5	-	-	-	-	-	-
+ncbi-curated	U04200	2	-	-	-	-	-	-
+ncbi-curated	X06463	7	-	-	-	-	-	-
+ncbi-curated	X06464	2	-	-	-	-	-	-
+ncbi-curated	X12819	1	-	-	-	-	-	-
+ncbi-curated	X13374	8	-	-	-	-	-	-
+ncbi-curated	X15891	5	-	-	-	-	-	-
+ncbi-curated	X17041	5	-	-	-	-	-	-
+ncbi-curated	X53693	7	-	-	-	-	-	-
+ncbi-curated	X54308	6	-	-	-	-	-	-
+ncbi-curated	X62283	6	-	-	-	-	-	-
+ncbi-curated	Y00421	4	-	-	-	-	-	-
+ncbi-curated	Y00422	5	-	-	-	-	-	-
