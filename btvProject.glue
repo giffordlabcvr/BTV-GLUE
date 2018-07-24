@@ -35,8 +35,6 @@ project btv
   # alignment tree
   #run file glue/btvAlignmentTree.glue
 
-  # "complete segment" field
-  #run file glue/populateCompleteSegmentField.glue
     
   ## record feature presence
   #run file glue/recordFeaturePresence.glue

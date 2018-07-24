@@ -1,0 +1,254 @@
+sequenceID	isolateID	field	sequenceValue	isolateValue
+KF986505	USA2006	collection_month_day	2	13
+AJ586689	RSAvvvv_16	who_country.display_name	South Africa	Pakistan
+AJ586697	RSArrrr_03	who_country.display_name	South Africa	Cyprus
+AJ586699	RSArrrr_04	who_country.display_name	South Africa	Cyprus
+AJ586709	RSArrrr_10	who_country.display_name	South Africa	Portugal
+AJ586719	RSArrrr_16*	who_country.display_name	South Africa	Pakistan
+AJ586720	RSArrrr_17	who_country.display_name	South Africa	United States
+AJ586723	RSArrrr_20	who_country.display_name	South Africa	Australia
+AJ586724	RSArrrr_21	who_country.display_name	South Africa	Australia
+AJ586727	RSArrrr_23	who_country.display_name	South Africa	Australia
+AJ631215	ITL2003_01	place_sampled	Sicily	Nissoria-Enna-Sicily
+AJ631217	IND1988_02	place_sampled	Maharastra	Maharashtra-Rahuri
+AJ783902	IND2003_04	place_sampled	Tamil Nadu	Coimbatore-Tamil Nadu
+AJ783903	IND2003_05	place_sampled	Tamil Nadu	Thoothukudi-Tamil Nadu
+AJ783904	IND2003_01	place_sampled	Tamil Nadu	Tiruneveli-Tamil Nadu
+AJ783905	IND2003_02_tissue_2	place_sampled	Tamil Nadu	Tiruneveli-Tamil Nadu
+AJ783906	IND2003_03	place_sampled	Tamil Nadu	Tiruneveli-Tamil Nadu
+AJ783908	SPA2003_01	place_sampled	Balearic Islands	Menorca
+AJ783909	SPA2003_02	place_sampled	Balearic Islands	Menorca
+AJ783910	SPA2003_01	place_sampled	Balearic Islands	Menorca
+AJ783911	SPA2003_02	place_sampled	Balearic Islands	Menorca
+AM900375	RSArrrr_09	collection_year	1970	1942
+AM900380	RSArrrr_19	collection_year	1975	1976
+AM900380	RSArrrr_19	who_country.display_name	Australia	South Africa
+AM900383	SUD1987_01	collection_year	2006	1987
+AM900384	RSArrrr_01_reference	place_sampled	Natal, Vryheid	Biggarsberg-Vryheid-Natal
+DQ186794	RSArrrr_04	who_country.display_name	South Africa	Cyprus
+DQ191261	14643-2808	place_sampled	Sardinia region	Castiadas-Sardinia
+DQ191262	10500-3	place_sampled	Sicily region	Giardinello-Sicily
+DQ191263	10670	place_sampled	Calabria region	Careri-Calabria
+DQ191264	14808-249	place_sampled	Lazio region	Aprilia-Lazio
+DQ191265	17356	place_sampled	Sardinia region	Seui-Sardinia
+DQ191266	80199	place_sampled	Tuscany region	Magliano-Tuscany
+DQ191267	80273	place_sampled	Sardinia region	Urzulei-Sardinia
+DQ191268	80296	place_sampled	Lazio region	Cerveter-Lazio
+DQ191269	80302	place_sampled	Lazio region	Montalto di Castro-Lazio
+DQ191270	81640	place_sampled	Sicily region	Messina-Sicily
+DQ191271	81641	place_sampled	Sicily region	Messina-Sicily
+DQ191272	8340	place_sampled	Sardinia region	Castiadas-Sardinia
+DQ191273	8602	place_sampled	Sardinia region	Oristano-Sardinia
+DQ191274	87902	place_sampled	Campania region	S.Gregorio Magno-Campania
+DQ191275	90726	place_sampled	Puglia region	Carpino-Puglia
+DQ191276	82027	place_sampled	Calabria region	Sellia Marina-Calabria
+DQ191282	11920	place_sampled	Calabria region	Bianco-Calabria
+DQ191284	11508	place_sampled	Calabria region	Noepoli-Calabria
+DQ191285	8368	place_sampled	Calabria region	Petrona-Calabria
+DQ872902	Mehaboobnagar9_2002	place_sampled	Mahaboobnagar, Andhra Pradesh	Sudheer-Mehaboobnagar-Andhra Pradesh
+EF059729	KOS2001_04	who_country.display_name	Serbia	Kosovo
+EF059733	RSArrrr_16	who_country.display_name	South Africa	Pakistan
+EF059734	RSAvvvv_16	who_country.display_name	South Africa	Pakistan
+EF059737	RSArrrr_20	who_country.display_name	South Africa	Australia
+EF059738	RSArrrr_21	who_country.display_name	South Africa	Australia
+EU131023	BTV1A	place_sampled	Avikanagar	Avikanagar-Rajasthan
+EU131024	BTV18B	place_sampled	Bangalore	Bangalore-Karnataka
+EU131025	BTV18M	place_sampled	Madras	Chennai-Tamil Nadu
+EU131026	BTV18S	place_sampled	Srinagar	Srinagar-Jammu and Kasmir
+EU131027	BTV23R	place_sampled	Rahuri	Rahuri-Maharashtra
+GQ506450	GRE2001_01	collection_month_day	26	15
+GQ506450	GRE2001_01	collection_month	DEC	OCT
+GQ506450	GRE2001_01	place_sampled	Lesbos	Agiasos-Achladeri-Lesbos
+GQ506498	RSArrrr_06	collection_year	1982	1958
+GQ506499	RSArrrr_06	collection_year	1982	1958
+GQ506500	RSArrrr_06	collection_year	1982	1958
+GQ506501	RSArrrr_06	collection_year	1982	1958
+GQ506502	RSArrrr_06	collection_year	1982	1958
+GQ506503	RSArrrr_06	collection_year	1982	1958
+GQ506504	RSArrrr_06	collection_year	1982	1958
+GQ506505	RSArrrr_06	collection_year	1982	1958
+JF776369	KMN07_05	place_sampled	Manakondur mandal, Karim Nagar dist., Andhra Pradesh	Karimnagar, Andhra Pradesh
+JN106020	MBN48_IND	place_sampled	Mahboobnagar District, Andhra Pradesh	Mahaboobnagar-Andhra Pradesh
+JN106023	CHT5_IND	place_sampled	Chitoor District, Andhra Pradesh	Chitoor-Andhra Pradesh
+JN255902	BTV-9IT(L)	collection_year	2003	2000
+JN255903	BTV-9IT(L)	collection_year	2003	2000
+JN255904	BTV-9IT(L)	collection_year	2003	2000
+JN255905	BTV-9IT(L)	collection_year	2003	2000
+JN255906	BTV-9IT(L)	collection_year	2003	2000
+JN255907	BTV-9IT(L)	collection_year	2003	2000
+JN255908	BTV-9IT(L)	collection_year	2003	2000
+JN255909	BTV-9IT(L)	collection_year	2003	2000
+JN255910	BTV-9IT(L)	collection_year	2003	2000
+JN255911	BTV-9IT(L)	collection_year	2003	2000
+JQ086231	DPP965	collection_year	1987	1986
+JQ086232	DPP965	collection_year	1987	1986
+JQ086233	DPP965	collection_year	1987	1986
+JQ086234	DPP965	collection_year	1987	1986
+JQ086235	DPP965	collection_year	1987	1986
+JQ086236	DPP965	collection_year	1987	1986
+JQ086237	DPP965	collection_year	1987	1986
+JQ086238	DPP965	collection_year	1987	1986
+JQ086239	DPP965	collection_year	1987	1986
+JQ086240	DPP965	collection_year	1987	1986
+JQ771823	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771824	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771825	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771826	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771827	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771828	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771829	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771830	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ771831	IND1988_02	place_sampled	Maharashtra	Maharashtra-Rahuri
+JQ924820	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924821	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924822	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924823	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924824	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924825	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924826	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924827	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924828	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+JQ924829	IND_Goat_2010_16_HSR	place_sampled	Hisar	Chennai
+KF017502	BTV4_2944_2_10	collection_year	2011	2010
+KF584205	BTV5_1405_11	collection_year	2012	2011
+KF986505	USA2006	collection_year	2003	2006
+KF986509	USA2003	collection_month_day	13	2
+KF986509	USA2003	collection_year	2006	2003
+KP342324	BTV16_ISR-1974_4_12	collection_year	2014	2012
+KP820863	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP820864	RSArrrr_15	host	Ovis aries	Bos taurus
+KP820864	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP820910	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP820956	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP820968	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP820969	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP820983	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP820984	RSArrrr_15	host	Ovis aries	Bos taurus
+KP820984	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821015	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821016	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821030	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821076	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821088	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821089	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821105	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821106	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821106	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821137	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821138	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821152	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821198	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821210	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821211	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821225	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821226	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821226	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821272	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821318	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821330	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821331	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821345	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821346	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821346	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821392	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821438	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821450	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821451	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821465	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821466	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821466	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821512	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821558	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821570	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821571	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821587	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821588	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821588	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821619	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821620	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821634	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821680	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821692	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821693	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821707	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821708	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821708	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821739	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821740	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821754	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821800	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821812	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821813	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821827	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821828	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821828	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821860	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821861	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821920	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP821932	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821933	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP821944	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP821948	RSArrrr_14	place_sampled	Transvaal	Ermelo-Transvaal-Natal
+KP821949	RSArrrr_15	host	Ovis aries	Bos taurus
+KP821949	RSArrrr_15	place_sampled	Transvaal	Ermelo-Onderstepoort
+KP821980	MOR2009_06	place_sampled	Fes	Marrakesh
+KP821981	MOR2009_04	place_sampled	Marrakesh	Fes
+KP821995	RSArrrr_02	place_sampled	Transvaal	Ermelo-Transvaal
+KP822041	RSArrrr_08	place_sampled	Transvaal	Onderstepoort
+KP822053	RSArrrr_09	place_sampled	Transvaal	Pretoria-Transvaal
+KP822054	RSAvvv1_09	place_sampled	Transvaal	Pretoria-Transvaal
+KT945042	V084	place_sampled	Yunnan	Yunnan-Shizhong
+KT945043	V133	place_sampled	Guangdong	Guangdong-Shantou
+KT945044	V134	place_sampled	Yunnan	Yunnan-Shizhong
+KT945045	V136	place_sampled	Yunnan	Yunnan-Shizhong
+KT945046	V089	place_sampled	Guangdong	Guangdong-Shantou
+KT945047	V115	place_sampled	Guangdong	Guangdong-Shantou
+KT945048	V015	place_sampled	Yunnan	Yunnan-Dehong
+KT945049	V137	place_sampled	Yunnan	Yunnan-Shizhong
+KX234078	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234079	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234080	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234081	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234082	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234083	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234084	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234085	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234086	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KX234087	BTV-X_ITL2015_34200	place_sampled	Sardinia	Silius-Cagliari-Sardinia
+KY091918	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY091919	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY091945	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY091946	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY091956	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY091973	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY091999	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092000	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092026	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092027	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092055	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092056	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092065	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092079	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092107	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092108	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092134	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092135	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY092168	BTV3_USA2013_FL_N13-03980	place_sampled	FL	Florida
+KY092169	BTV3_USA_FL_600545_	place_sampled	FL	Florida
+KY934048	DKL46_11_Ind	host	Ovis aries	Capra hircus
+LN713671	379	host	cell culture	Capra hircus
+LN713672	379	host	cell culture	Capra hircus
+LN713673	379	host	cell culture	Capra hircus
+LN713674	379	host	cell culture	Capra hircus
+LN713675	379	host	cell culture	Capra hircus
+LN713676	379	host	cell culture	Capra hircus
+LN713677	379	host	cell culture	Capra hircus
+LN713678	379	host	cell culture	Capra hircus
+LN713679	379	host	cell culture	Capra hircus
+MF673720	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673721	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673722	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673723	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673724	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673725	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region
+MF673726	BTV-Z_ITL2017	place_sampled	Verbania	Pieve Vergonte, Verbano-Cusio-Ossola municipality-Piedmont region

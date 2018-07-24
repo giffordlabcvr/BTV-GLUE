@@ -4,16 +4,16 @@ isolate	Seg-1	Seg-2	Seg-3	Seg-4	Seg-5	Seg-6	Seg-7	Seg-8	Seg-9	Seg-10	host	countr
 173		AB686213				AB686227					Bos taurus	Japan	1985			field	Kumamoto	blood	HmLu-1/6	Mammalian		22422063
 185	KF986497	KF986501	KF986489	KF986515	KF986493	KF986494	KF986503	KF986516	KF986507	KF986491	Bos taurus	Panama	1989	OCT	5	field		blood				24916442
 299	KY485049	MF384452	MF384514	MF384576	MF384638	MF384700	MF384762	MF384824	MF384886	MF384997	Bos taurus	Australia	1999			field	Queensland	Blood			No	29169390
-319										AF397295	Ovis aries	USA				field	Southern  California					11900839
+319										AF397295	Ovis aries	USA				field	Southern California					11900839
 379	LN713671	KM200718	LN713672	LN713673	LN713674	LN713675	LN713676	LN713677	LN713678	LN713679	Capra hircus	France	2014	JAN	16	field	Corsica	blood	BSR?	Mammalian		25767218
-595										AF397283	Ovis aries	USA				field	Southern  California					11900839
+595										AF397283	Ovis aries	USA				field	Southern California					11900839
 705	KY485062	MF384465	MF384527	MF384589	MF384651	MF384713	MF384775	MF384837	MF384898	MF384973	Bos taurus	Australia	2000			field	Queensland	blood			No	29169390
 837	KY485056	MF384459	MF384521	MF384583	MF384645	MF384707	MF384769	MF384831	MF384893	MF384974	Bos taurus	Australia	2001			field	Queensland	blood			No	29169390
-925										AF397284	Ovis aries	USA				field	Southern  California					11900839
-926										AF397285	Ovis aries	USA				field	Southern  California					11900839
+925										AF397284	Ovis aries	USA				field	Southern California					11900839
+926										AF397285	Ovis aries	USA				field	Southern California					11900839
 973	KY485042	MF384445	MF384507	MF384569	MF384631	MF384693	MF384755	MF384817	MF384879	MF384975	Bos taurus	Australia	2002			field	Queensland	blood			No	29169390
 999	KY485083	MF384486	MF384548	MF384610	MF384672	MF384734	MF384796	MF384858	MF384918	MF384987	Bos taurus	Australia	2002			field	Queensland	blood			No	29169390
-1032										AF397281	Ovis aries	USA				field	Southern  California					11900839
+1032										AF397281	Ovis aries	USA				field	Southern California					11900839
 1121	KY485068	MF384471	MF384533	MF384595	MF384657	MF384719	MF384781	MF384843	MF384904	MF384976	Bos taurus	Australia	2003			field	Queensland	blood			No	29169390
 1353									DQ289049		Bos taurus	Australia				field		blood				UP
 1504	JX272549	JX272550	JX272551	JX272552	JX272553	JX272554	JX272555	JX272556	JX272557	JX272558		South Africa										UP
@@ -24,7 +24,7 @@ isolate	Seg-1	Seg-2	Seg-3	Seg-4	Seg-5	Seg-6	Seg-7	Seg-8	Seg-9	Seg-10	host	countr
 1999								AY857500		AY857504	Ovis aries	Greece	1999			field						17280733
 2000		AY839946					AY841351				Ovis aries	Greece	2000			field						17280733
 2000								AY857501		AY857505	Ovis aries	Greece	2000			field						17280733
-2442										AF397282	Ovis aries	USA				field	Southern  California					11900839
+2442										AF397282	Ovis aries	USA				field	Southern California					11900839
 2627	JX272519	JX272520	JX272521	JX272522	JX272523	JX272524	JX272525	JX272526	JX272527	JX272528		South Africa										UP
 2766	JX272529	JX272530	JX272531	JX272532	JX272533	JX272534	JX272535	JX272536	JX272537	JX272538		South Africa										UP
 4574	JX272509	JX272510	JX272511	JX272512	JX272513	JX272514	JX272515	JX272516	JX272517	JX272518		South Africa										UP
@@ -44,7 +44,7 @@ isolate	Seg-1	Seg-2	Seg-3	Seg-4	Seg-5	Seg-6	Seg-7	Seg-8	Seg-9	Seg-10	host	countr
 11508		DQ191284									Ovis aries	Italy	2001			field	Noepoli-Calabria	blood	E?V?	Mammalian		16283915
 11920		DQ191282									Ovis aries	Italy	2001			field	Bianco-Calabria	spleen	E?V?	Mammalian		16283915
 17356		DQ191265									Cervus elaphus corsicanus	Italy	2001			field	Seui-Sardinia	bone marrow	E?V?	Mammalian		16283915
-23/08/1965	JX272469	JX272470	JX272471	JX272472	JX272473	JX272474	JX272475	JX272476	JX272477	JX272478		South Africa										UP
+23/08/65	JX272469	JX272470	JX272471	JX272472	JX272473	JX272474	JX272475	JX272476	JX272477	JX272478		South Africa										UP
 70621										EU450660	Bos taurus	Switzerland				field		blood				UP
 75005	JX272499	JX272500	JX272501	JX272502	JX272503	JX272504	JX272505	JX272506	JX272507	JX272508		South Africa										UP
 79043	JX272579	JX272580	JX272581	JX272582	JX272583	JX272584	JX272585	JX272586	JX272587	JX272588		South Africa										UP
@@ -243,8 +243,8 @@ ASOT					DQ098096							Cyprus				reference						16566253
 ATCC BLU-17		AF017278	AF017280										1962			field	Colorado					9612723
 AUS????/01		AJ585120										Australia				field						20422575, 18570969
 AUS1981/01		AJ585178				AJ631214						Australia	1981			field						20422575
-AUS1985/01			DQ186790								Bos taurus	Australia	1985			field	Northen Territories	blood	E1BHK4	Mammalian		19649272
-AUS1986/02			DQ186791								Bos taurus	Australia	1986			field	Northen Territories	blood	BHK2V1BHK1	Mammalian		19649272
+AUS1985/01			DQ186790								Bos taurus	Australia	1985			field	Northern Territories	blood	E1BHK4	Mammalian		19649272
+AUS1986/02			DQ186791								Bos taurus	Australia	1986			field	Northern Territories	blood	BHK2V1BHK1	Mammalian		19649272
 Australian 							L11724				Ovis ammon aries	Australia										8077943
 Australian serotype 1							M63417					Australia										1703371
 Avikanagar 1		AY559058					AM261976				Ovis aries	India				field	Avikanagar	blood	BHK?	Mammalian		19382719
@@ -447,9 +447,9 @@ BTV1/11.01 (4074)		JQ436736									Bos taurus	French Guiana	2011	JUL		field		bl
 BTV1/PT/29058/07		EU498674					EU498675			EU498676	Ovis aries	Portugal	2007			field	Barrancos	blood				UP
 BTV10 CSTRCA1992/502344	KY091949	KY092150	KY092138	KY092111	KY092082	KY092060	KY092030	KY092003	KY091976	KY091922		Costa Rica	1992			field			E1CPAE?BHK?	Mammalian		29120297
 BTV10 GUA1991/502350	KY091950	KY092151	KY092139	KY092112	KY092083	KY092061	KY092031	KY092004	KY091977	KY091923		Guatemala	1991			field			E1CPAE?BHK?	Mammalian		29120297
-BTV10/06.1 (205)		HQ222821									Bos taurus	France	2006			field	Martinique	blood				UP
+BTV10/06.1 (205)		HQ222821									Bos taurus	Martinique	2006			field		blood				UP
 BTV10/11.02 (4060)		JQ436735									Bos taurus	French Guiana	2011	JUL		field		blood	E1BHK1	Mammalian		UP
-BTV10IND2003K3	KP339244	KP339245	KP339246	KP339247	KP339248	KP339249	KP339250	KP339251	KP339252	KP339253	Ovis aries	India	2003	AUG		field	Khammam, Andhra Pradesh	blood			Yes	
+BTV10IND2003K3	KP339244	KP339245	KP339246	KP339247	KP339248	KP339249	KP339250	KP339251	KP339252	KP339253	Ovis aries	India	2003	AUG		field	Khammam-Andhra Pradesh	blood			Yes	
 BTV11/10.01 (9694)		JN003580									Bos taurus	Martinique 	2010	DEC		field		blood				UP
 BTV12/11.01(4136)		KC633278									Capra hircus	French Guiana	2011	AUG		field		blood	KC?BHK?	Culicoides-Mammalian		25301282
 BTV12/2078/11_DEC	KF017510										Bos taurus	Israel	2011	DEC	16	field		blood				UP
@@ -510,10 +510,10 @@ BTV17L2-283		AY636074																				17852347
 BTV17L2-298		AY636075																				17852347
 BTV17L2-299		AY636078																				17852347
 BTV17L2-300		AY636077																				17852347
-BTV18 GUA1990/502229	KY091953	KY092152	KY092142	KY092115	KY092087	KY092059	KY092034	KY092007	KY091980	KY091926		Guatemala	1990			field	Guatemala		E1CPAE?BHK?	Mammalian		29120297
-BTV18/06.1		HQ222818									Bos taurus	France	2006			field	Martinique	blood				UP
+BTV18 GUA1990/502229	KY091953	KY092152	KY092142	KY092115	KY092087	KY092059	KY092034	KY092007	KY091980	KY091926		Guatemala	1990			field			E1CPAE?BHK?	Mammalian		29120297
+BTV18/06.1		HQ222818									Bos taurus	Martinique	2006			field		blood				UP
 BTV18B										EU131024		India				field	Bangalore-Karnataka		BHK14	Mammalian		19744235
-BTV18M										EU131025		India				field	Madras-Chennai-Tamil Nadu		BHK11	Mammalian		19744235
+BTV18M										EU131025		India				field	Chennai-Tamil Nadu		BHK11	Mammalian		19744235
 BTV18S										EU131026		India				field	Srinagar-Jammu and Kasmir		BHK8	Mammalian		19744235
 BTV1A										EU131023		India				field	Avikanagar-Rajasthan		BHK5	Mammalian		19744235
 BTV1SA							X53740					South Africa										2169609
@@ -524,8 +524,8 @@ BTV2 OnaB US							AF188660					USA				field	Ona-Florida		E1BHK2L929/7BHK2	Mamma
 BTV2 PAN1990/185	KY091929	KY092149	KY092118	KY092091	KY092066	KY092037	KY092010	KY091983	KY091958	KY091902		Panama	1990			field	Panama		E1CPAE?BHK?	Mammalian		29120297
 BTV2_OnaA_S9									AF403420													11682128
 BTV2_SA_S9									AF403422													11682128
-BTV2/06.1		HQ222820									Bos taurus	France	2006			field	Martinique	blood				UP
-BTV2/09.01		HQ222824									Bos taurus	France	2009			field	Martinique	blood				UP
+BTV2/06.1		HQ222820									Bos taurus	Martinique	2006			field		blood				UP
+BTV2/09.01		HQ222824									Bos taurus	Martinique	2009			field		blood				UP
 BTV2/11.01(3918)		KC633279									Bos taurus	French Guiana	2011	JUL		field		blood	KC?BHK?	Culicoides-Mammalian		25301282
 BTV2/1431/1/11	KF017481										Bos taurus	Israel	2011	MAY	26	field		blood				UP
 BTV2/1745/4/11	KF017482										Bos taurus	Israel	2011	AUG	8	field		blood				UP
@@ -562,15 +562,15 @@ BTV2/870/10	KF017480										Bos taurus	Israel	2011	JAN	20	field		blood				UP
 BTV2/ISR-1894/12	KY513440	KY513441			KY513438	KY513442	KY513443			KY513439	Ovis aries	Israel	2012	OCT	10	field		spleen			yes	
 BTV2/Israel/870/11									JQ970442		Bos taurus	Israel	2011	JAN		field			E1-3BHK?V?	Mammalian		UP
 BTV22 TRIN1989/502165	KY091954	KY092144	KY092143	KY092116	KY092088	KY092062	KY092035	KY092008	KY091981	KY091927		Trinidad and Tobago	1989			field	Trinidad		E1CPAE?BHK?	Mammalian		29120297
-BTV22/06.1		HQ222819									Bos taurus	France	2006			field	Martinique	blood				UP
+BTV22/06.1		HQ222819									Bos taurus	Martinique	2006			field		blood				UP
 BTV23D										EU131022		India				field	Dehradun		BHK55	Mammalian		19744235
 BTV23R										EU131027		India				field	Rahuri-Maharashtra		BHK6	Mammalian		19744235
 BTV24-VP2-2214-2-10	JN546202	JN546197									Ovis aries	Israel	2010	SEP		field						UP
 BTV24-VP2-3027-1-10v		JN546198									Ovis aries	Israel	2010	NOV		field						UP
 BTV24-VP2-329b-3027-4-10b		JN546199									Ovis aries	Israel	2010	NOV		field						UP
 BTV24-VP2-332b-3027-6-10b		JN546200									Ovis aries	Israel	2010	NOV		field						UP
-BTV24/06.1 (127)		HQ222823									Bos taurus	France	2006			field	Martinique	blood				UP
-BTV24/09.01		JN003581									Ovis aries	Martinique 	2009	OCT		field	Martinique					UP
+BTV24/06.1 (127)		HQ222823									Bos taurus	Martinique	2006			field		blood				UP
+BTV24/09.01		JN003581									Ovis aries	Martinique 	2009	OCT		field						UP
 BTV24/11.01(3864)		KC633277									Bos taurus	French Guiana	2011	JUL		field		blood	KC?BHK?	Culicoides-Mammalian		25301282
 BTV24/1894/1/09	KF584211	KF584212									Ovis aries	Israel	2009	MAR	15	field		blood				UP
 BTV24/1925/2/09	KF584213	KF584214									Ovis aries	Israel	2009	MAR	24	field		blood				UP
@@ -614,7 +614,7 @@ BTV3 USA2008/AR 566195	KY091942	KY092165	KY092131	KY092104	KY092076	KY092052	KY0
 BTV3 USA2009/MS 025763-326	KY091943	KY092166	KY092132	KY092105	KY092077	KY092053	KY092024	KY091997	KY091971	KY091916	Odocoileus virginianus	USA	2009			field	Mississippi, Okitibbeha		E1CPAE?BHK?	Mammalian		29120297
 BTV3 USA2012/SD 035694	KY091944	KY092167	KY092133	KY092106	KY092078	KY092054	KY092025	KY091998	KY091972	KY091917	Odocoileus virginianus	USA	2012			field	South Dakota, Charles Mix		E1CPAE?BHK?	Mammalian		29120297
 BTV3 USA2013/FL N13-03980	KY091945	KY092168	KY092134	KY092107	KY092079	KY092055	KY092026	KY091999	KY091956	KY091918	Odocoileus virginianus	USA	2013			field	Florida		E1CPAE?BHK?	Mammalian		29120297
-BTV3/10.02 (9696)		JQ436730									Bos taurus	Martinique	2010	DEC		field	Martinique	blood	E1BSR1	Mammalian		UP
+BTV3/10.02 (9696)		JQ436730									Bos taurus	Martinique	2010	DEC		field		blood	E1BSR1	Mammalian		UP
 BTV4 SAD2012					KC896851					KC896853	Ovis aries	Italy	2012			field	Sardinia	blood	CPT-Tert2	Mammalian		23838283
 BTV4-HUN2014	KP268814	KP268815	KP268816	KP268817	KP268818	KP268819	KP268820	KP268821	KP268822	KP268823	Bos taurus	Hungary	2014			field			KC?	Culicoides sp.		25847695
 BTV4-ROM1					KT429214						Bos taurus	Romania	2015			field						UP
@@ -670,7 +670,7 @@ BTV4/Israel/1047/2010		JN564042									Bos taurus	Israel	2010	JAN		field						U
 BTV4/Israel/2196/2010		JN564043									Ovis aries	Israel	2010	SEP		field						UP
 BTV4/Israel/3020/2010		JN564044									Bos taurus	Israel	2010	NOV		field						UP
 BTV4SA_S9									AF403423													11682128
-BTV5/10.01 (5119)		HQ241072									Bos taurus	France	2010	MAY		field	Guadeloupe	blood				UP
+BTV5/10.01 (5119)		HQ241072									Bos taurus	Guadeloupe	2010	MAY		field		blood				UP
 BTV5/1405/11			KM365258						JQ970449	KF584205	Bos taurus	Israel	2011	MAY	15	field		blood	E1-3BHK?V?	Mammalian		UP
 BTV5/ISR-1657/2/15		KY513460		KY513461							Bos taurus	Israel	2015	JUL	20	field		blood				
 BTV5/ISR-1955/15		KY513448									Ovis aries	Israel	2015	OCT	10	field		blood				
@@ -779,32 +779,32 @@ DKL46/11/Ind		KY934048									Capra hircus	India	2011			field		blood
 DP0836	HQ397604	L46686									Bos taurus	Australia				field						21450948
 DP0837	JQ086301	JQ086302	JQ086303	JQ086304	JQ086305	JQ086306	JQ086307	JQ086308	JQ086309	JQ086310	Bos taurus	Australia	1985			field	Beatrice Hill-Coastal Plains Research Station-Northern Territories	blood	BHK3BSR2	Mammalian		22514341
 DPL36/11/Ind		KY934049									Capra hircus	India	2011			field		blood				
-DPP0065	KM099506	KM099523	KM099540	KM099557	KM099574	KM099591	KM099608	KM099625	KM099642	KM099659	Bos taurus	Australia	1981	APR	7	field	Northen Australia	blood	BHK5C6/36 1BHK1	Mammalian		25253345
+DPP0065	KM099506	KM099523	KM099540	KM099557	KM099574	KM099591	KM099608	KM099625	KM099642	KM099659	Bos taurus	Australia	1981	APR	7	field	Northern Australia	blood	BHK5C6/36 1BHK1	Mammalian		25253345
 DPP0090		L46685										Australia				field						8837885
-DPP1000	KM099507	KM099524	KM099541	KM099558	KM099575	KM099592	KM099609	KM099626	KM099643	KM099660	Bos taurus	Australia	1986	APR	24	field	Northen Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
-DPP1315	KM099508	KM099525	KM099542	KM099559	KM099576	KM099593	KM099610	KM099627	KM099644	KM099661	Bos taurus	Australia	1988	APR	7	field	Northen Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
-DPP1523	KM099509	KM099526	KM099543	KM099560	KM099577	KM099594	KM099611	KM099628	KM099645	KM099662	Bos taurus	Australia	1989	FEB	1	field	Northen Australia	blood	E1C6/36 1BHK5C6/36 1BHK1	Mammalian		25253345
+DPP1000	KM099507	KM099524	KM099541	KM099558	KM099575	KM099592	KM099609	KM099626	KM099643	KM099660	Bos taurus	Australia	1986	APR	24	field	Northern Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
+DPP1315	KM099508	KM099525	KM099542	KM099559	KM099576	KM099593	KM099610	KM099627	KM099644	KM099661	Bos taurus	Australia	1988	APR	7	field	Northern Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
+DPP1523	KM099509	KM099526	KM099543	KM099560	KM099577	KM099594	KM099611	KM099628	KM099645	KM099662	Bos taurus	Australia	1989	FEB	1	field	Northern Australia	blood	E1C6/36 1BHK5C6/36 1BHK1	Mammalian		25253345
 DPP192_passage_history_1	JQ086221	JQ086222	JQ086223	JQ086224	JQ086225	JQ086226	JQ086227	JQ086228	JQ086229	JQ086230	Bos taurus	Australia	1982			field	Beatrice Hill-Coastal Plains Research Station-Northern Territories	blood	BHK6BSR4	Mammalian		22514341
 DPP192_passage_history_2	HQ397597		AY322427						DQ289044		Bos taurus	Australia				field	Beatrice Hill-Coastal Plains Research Station-Northern Territories	blood	E?C6/36?BHK10BSR1	Mammalian		20422566
-DPP2559	KM099510	KM099527	KM099544	KM099561	KM099578	KM099595	KM099612	KM099629	KM099646	KM099663	Bos taurus	Australia	1993	MAY	6	field	Northen Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
-DPP3072	KM099511	KM099528	KM099545	KM099562	KM099579	KM099596	KM099613	KM099630	KM099647	KM099664	Bos taurus	Australia	1994	FEB	17	field	Northen Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
-DPP4032	KM099512	KM099529	KM099546	KM099563	KM099580	KM099597	KM099614	KM099631	KM099648	KM099665	Bos taurus	Australia	1996	DEC	27	field	Northen Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
-DPP4100	KM099513	KM099530	KM099547	KM099564	KM099581	KM099598	KM099615	KM099632	KM099649	KM099666	Bos taurus	Australia	1997	JAN	20	field	Northen Australia	blood	E1C6/36 1BSR5C6/36 1BSR1	Mammalian		25253345
+DPP2559	KM099510	KM099527	KM099544	KM099561	KM099578	KM099595	KM099612	KM099629	KM099646	KM099663	Bos taurus	Australia	1993	MAY	6	field	Northern Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
+DPP3072	KM099511	KM099528	KM099545	KM099562	KM099579	KM099596	KM099613	KM099630	KM099647	KM099664	Bos taurus	Australia	1994	FEB	17	field	Northern Australia	blood	E1C6/36 1BHK4	Mammalian		25253345
+DPP4032	KM099512	KM099529	KM099546	KM099563	KM099580	KM099597	KM099614	KM099631	KM099648	KM099665	Bos taurus	Australia	1996	DEC	27	field	Northern Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
+DPP4100	KM099513	KM099530	KM099547	KM099564	KM099581	KM099598	KM099615	KM099632	KM099649	KM099666	Bos taurus	Australia	1997	JAN	20	field	Northern Australia	blood	E1C6/36 1BSR5C6/36 1BSR1	Mammalian		25253345
 DPP4444	HQ397606										Bos taurus	Australia				field						21450948
-DPP4588	KM099514	KM099531	KM099548	KM099565	KM099582	KM099599	KM099616	KM099633	KM099650	KM099667	Bos taurus	Australia	1999	FEB	25	field	Northen Australia	blood	E1C6/36 1BSR5C6/36 2BSR1	Mammalian		25253345
-DPP4690	KM099515	KM099532	KM099549	KM099566	KM099583	KM099600	KM099617	KM099634	KM099651	KM099668	Bos taurus	Australia	1999	AUG	5	field	Northen Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
-DPP5775	KM099516	KM099533	KM099550	KM099567	KM099584	KM099601	KM099618	KM099635	KM099652	KM099669	Bos taurus	Australia	2002	FEB	19	field	Northen Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
-DPP5844	KM099517	KM099534	KM099551	KM099568	KM099585	KM099602	KM099619	KM099636	KM099653	KM099670	Bos taurus	Australia	2002	APR	3	field	Northen Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
+DPP4588	KM099514	KM099531	KM099548	KM099565	KM099582	KM099599	KM099616	KM099633	KM099650	KM099667	Bos taurus	Australia	1999	FEB	25	field	Northern Australia	blood	E1C6/36 1BSR5C6/36 2BSR1	Mammalian		25253345
+DPP4690	KM099515	KM099532	KM099549	KM099566	KM099583	KM099600	KM099617	KM099634	KM099651	KM099668	Bos taurus	Australia	1999	AUG	5	field	Northern Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
+DPP5775	KM099516	KM099533	KM099550	KM099567	KM099584	KM099601	KM099618	KM099635	KM099652	KM099669	Bos taurus	Australia	2002	FEB	19	field	Northern Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
+DPP5844	KM099517	KM099534	KM099551	KM099568	KM099585	KM099602	KM099619	KM099636	KM099653	KM099670	Bos taurus	Australia	2002	APR	3	field	Northern Australia	blood	E1C6/36 1BSR4C6/36 1BSR1	Mammalian		25253345
 DPP5884	HQ397605										Bos taurus	Australia				field						21450948
-DPP6112	KM099518	KM099535	KM099552	KM099569	KM099586	KM099603	KM099620	KM099637	KM099654	KM099671	Bos taurus	Australia	2004	JAN	29	field	Northen Australia	blood	E1C6/36 1BSR5C6/36 1BSR1	Mammalian		25253345
-DPP6504	KM099519	KM099536	KM099553	KM099570	KM099587	KM099604	KM099621	KM099638	KM099655	KM099672	Bos taurus	Australia	2005	JUN	30	field	Northen Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
+DPP6112	KM099518	KM099535	KM099552	KM099569	KM099586	KM099603	KM099620	KM099637	KM099654	KM099671	Bos taurus	Australia	2004	JAN	29	field	Northern Australia	blood	E1C6/36 1BSR5C6/36 1BSR1	Mammalian		25253345
+DPP6504	KM099519	KM099536	KM099553	KM099570	KM099587	KM099604	KM099621	KM099638	KM099655	KM099672	Bos taurus	Australia	2005	JUN	30	field	Northern Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
 DPP6963	HQ397603										Bos taurus	Australia				field						21450948
-DPP7137	KM099520	KM099537	KM099554	KM099571	KM099588	KM099605	KM099622	KM099639	KM099656	KM099673	Bos taurus	Australia	2008	JAN	17	field	Northen Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
+DPP7137	KM099520	KM099537	KM099554	KM099571	KM099588	KM099605	KM099622	KM099639	KM099656	KM099673	Bos taurus	Australia	2008	JAN	17	field	Northern Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
 DPP7152	HQ397607										Bos taurus	Australia				field						21450948
-DPP8086	KM099521	KM099538	KM099555	KM099572	KM099589	KM099606	KM099623	KM099640	KM099657	KM099674	Bos taurus	Australia	2010	FEB	11	field	Northen Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
-DPP8304	KM099522	KM099539	KM099556	KM099573	KM099590	KM099607	KM099624	KM099641	KM099658	KM099675	Bos taurus	Australia	2010	AUG	12	field	Northen Australia	blood	C6/361BSR3	Aedes albopictus-Mammalian		25253345
-DPP86	JQ086261	JQ086262	JQ086263	JQ086264	JQ086265	JQ086266	JQ086267	JQ086268	JQ086269 	JQ086270	Bos taurus	Australia	1979			field	Victoria River Research station-Northen territory	blood	BHK3BSR2	Mammalian		22514341
-DPP90	JQ086271	JQ086272	JQ086273	JQ086274	JQ086275	JQ086276	JQ086277	JQ086278	JQ086279	JQ086280	Bos taurus	Australia	1982			field	Tortilla Flats, Northen Territory	blood	BHK6V2BHK3MOUSE3BSR2	Mammalian		22514341
+DPP8086	KM099521	KM099538	KM099555	KM099572	KM099589	KM099606	KM099623	KM099640	KM099657	KM099674	Bos taurus	Australia	2010	FEB	11	field	Northern Australia	blood	E1C6/36 1BSR4	Mammalian		25253345
+DPP8304	KM099522	KM099539	KM099556	KM099573	KM099590	KM099607	KM099624	KM099641	KM099658	KM099675	Bos taurus	Australia	2010	AUG	12	field	Northern Australia	blood	C6/361BSR3	Aedes albopictus-Mammalian		25253345
+DPP86	JQ086261	JQ086262	JQ086263	JQ086264	JQ086265	JQ086266	JQ086267	JQ086268	JQ086269 	JQ086270	Bos taurus	Australia	1979			field	Victoria River Research station-Northern territory	blood	BHK3BSR2	Mammalian		22514341
+DPP90	JQ086271	JQ086272	JQ086273	JQ086274	JQ086275	JQ086276	JQ086277	JQ086278	JQ086279	JQ086280	Bos taurus	Australia	1982			field	Tortilla Flats, Northern Territory	blood	BHK6V2BHK3MOUSE3BSR2	Mammalian		22514341
 DPP90	HQ397601										Bos taurus	Australia				field						21450948
 DPP965	JQ086231	JQ086232	JQ086233	JQ086234	JQ086235	JQ086236	JQ086237	JQ086238	JQ086239	JQ086240	Bos taurus	Australia	1986			field	Beatrice Hill-Coastal Plains Research Station-Northern Territories		E2SV2BSR1	Mammalian		22514341
 DPP965	HQ397598	L46683									Bos taurus	Australia				field	Beatrice Hill-Coastal Plains Research Station-Northern Territories	blood	E2SV2BSR1	Mammalian		21450948
@@ -890,7 +890,7 @@ GNT-30/IND		JN106019									Ovis aries	India		NOV		field	Andhra Pradesh	blood		
 Goat/2010/Ind/Hisar		JQ904062									Capra hircus	India		JAN		field	Tamil Nadu	blood	BHK?	Mammalian		UP
 GP/CHT/1998						JQ414052	JQ414050			JQ424791	Ovis aries	India				field						UP
 GR1217/00ArS										AY691692	Ovis aries	Greece	2000			field	Arta	blood	E?BHK?	Mammalian		15993974
-GR1472/01LS										AY677628	Ovis aries	Greece	2001			field	Lesvos	blood	E?BHK?	Mammalian		15993974
+GR1472/01LS										AY677628	Ovis aries	Greece	2001			field	Lesbos	blood	E?BHK?	Mammalian		15993974
 GR15/01/Gre										AY449657	Ovis aries	Greece	2001			field	Grevena	spleen	E?BHK?	Mammalian		15993974
 GR180/99RS										AY677623	Ovis aries	Greece	1999			field	Rhodes	blood	E?BHK?	Mammalian		15993974
 GR199/98RS										AY677629	Ovis aries	Greece	1998			field	Rhodes	blood	E?BHK?	Mammalian		15993974
@@ -899,17 +899,17 @@ GR279/99RoS										AY677621	Ovis aries	Greece	1999			field	Rodopi	spleen	E?BHK
 GR280/99RoS										AY691691	Ovis aries	Greece	1999			field	Rodopi	spleen	E?BHK?	Mammalian		15993974
 GR308/99RS										AY449652	Ovis aries	Greece	1999			field	Rhodes	blood	E?BHK?	Mammalian		15993974
 GR378/99CB										AY677620	Bos taurus	Greece	1999			field	Chios	blood	E?BHK?	Mammalian		15993974
-GR382/99LS										AY677624	Ovis aries	Greece	1999			field	Lesvos	spleen	E?BHK?	Mammalian		15993974
-GR395/99LS										AY449653	Ovis aries	Greece	1999			field	Lesvos	spleen	E?BHK?	Mammalian		15993974
+GR382/99LS										AY677624	Ovis aries	Greece	1999			field	Lesbos	spleen	E?BHK?	Mammalian		15993974
+GR395/99LS										AY449653	Ovis aries	Greece	1999			field	Lesbos	spleen	E?BHK?	Mammalian		15993974
 GR408/99ChS										AY449651	Ovis aries	Greece	1999			field	Chalkidiki	blood 	E?BHK?	Mammalian		15993974
-GR413/99LS										AY677626	Ovis aries	Greece	1999			field	Lesvos	blood 	E?BHK?	Mammalian		15993974
+GR413/99LS										AY677626	Ovis aries	Greece	1999			field	Lesbos	blood 	E?BHK?	Mammalian		15993974
 GR457/99PS										AY449655	Ovis aries	Greece	1999			field	Pieria	spleen	E?BHK?	Mammalian		15993974
 GR610/99EvS										AY677627	Ovis aries	Greece	1999			field	Evia	spleen	E?BHK?	Mammalian		15993974
 GR631/99MaS										AY449656	Ovis aries	Greece	1999			field	Magnesia	blood	E?BHK?	Mammalian		15993974
 GR692/99EvS										AY449654	Ovis aries	Greece	1999			field	Evia	spleen	E?BHK?	Mammalian		15993974
-GR79LS										AY449650	Ovis aries	Greece	1979			field	Lesvos	spleen	E?BHK?	Mammalian		15993974
-GRE1979/01	KP820931	KP821051	KP821173	KP821293	KP821413	KP821533	KP821655	KP821775	KP821895	KP822016	Ovis aries	Greece	1979			field	Madamados-Lesvos	spleen	E2BHK9	Mammalian		26252219
-GRE1979/01			DQ186823								Ovis aries	Greece	1979			field	Madamados-Lesvos	spleen	E2BHK9	Mammalian		19649272
+GR79LS										AY449650	Ovis aries	Greece	1979			field	Lesbos	spleen	E?BHK?	Mammalian		15993974
+GRE1979/01	KP820931	KP821051	KP821173	KP821293	KP821413	KP821533	KP821655	KP821775	KP821895	KP822016	Ovis aries	Greece	1979			field	Madamados-Lesbos	spleen	E2BHK9	Mammalian		26252219
+GRE1979/01			DQ186823								Ovis aries	Greece	1979			field	Madamados-Lesbos	spleen	E2BHK9	Mammalian		19649272
 GRE1998/01	KP820960	KP821080	KP821202	KP821322	KP821442	KP821562	KP821684	KP821804	KP821924	KP822045	Ovis aries	Greece	1998	NOV	3	field	Afandou-Rhodes	blood	E2BHK10	Mammalian		26252219
 GRE1998/01			DQ186808								Ovis aries	Greece	1998	NOV	3	field	Afandou-Rhodes	blood	E2BHK10	Mammalian		19649272
 GRE1999/01			DQ186800								Ovis aries	Greece	1999			field	Rhodes	blood	E1BHK5	Mammalian		19649272
@@ -917,7 +917,7 @@ GRE1999/04			DQ186801								Ovis aries	Greece	1999			field	Magnesia	blood	E2BHK
 GRE1999/06	KP820961	KP821081	KP821203	KP821323	KP821443	KP821563	KP821685	KP821805	KP821925	KP822046	Ovis aries	Greece	1999	SEP	29	field	Ierissos-Chalkidiki	blood	E2BHK6	Mammalian		26252219
 GRE1999/07			DQ186802								Capra hircus	Greece	1999	AUG	10	field	Doriskos-Feres-Evros	blood	E1BHK6	Mammalian		19649272
 GRE1999/09			DQ186803								Bos taurus	Greece	1999			field	Chios	blood	E2BHK8	Mammalian		19649272
-GRE1999/10			DQ186804								Ovis aries	Greece	1999	SEP	24	field	Kalloni-Lesvos	spleen	E2BHK2	Mammalian		19649272
+GRE1999/10			DQ186804								Ovis aries	Greece	1999	SEP	24	field	Kalloni-Lesbos	spleen	E2BHK2	Mammalian		19649272
 GRE1999/12			DQ186805								Ovis aries	Greece	1999	SEP	29	field	Ierissos-Chalkidiki	blood	E2BHK6	Mammalian		19649272
 GRE1999/13	KP820869	KP820989	KP821111	KP821231	KP821351	KP821471	KP821593	KP821713	KP821833	KP821954	Ovis aries	Greece	1999	AUG	19	field	Damatria-Rhodes	blood	E2BHK11	Mammalian		26252219
 GRE1999/13			DQ186821								Ovis aries	Greece	1999	AUG	19	field	Damatria-Rhodes	blood	E2BHK11	Mammalian		19649272
@@ -927,24 +927,24 @@ GRE1999/15			DQ186809								Ovis aries	Greece	1999	AUG	13	field	Kerasia-Kechros
 GRE1999/15					AM778440						Ovis aries	Greece	1999	AUG	13	field	Kerasia-Kechros-Sapes-Rodopi	spleen	E2BHK14	Mammalian		UP
 GRE1999/24	KP820932	KP821052	KP821174	KP821294	KP821414	KP821534	KP821656	KP821776	KP821896	KP822017	Ovis aries	Greece	1999			field	Mandriko-Rhodes	blood	E2BHK6	Mammalian		26252219
 GRE1999/26	KP820933	KP821053	KP821175	KP821295	KP821415	KP821535	KP821657	KP821777	KP821897	KP822018	Culicoides obsoletus	Greece	1999	OCT	15	field	Keramidi-Magnesia	Culicoides obsoletus	BHK6	Mammalian		26252219
-GRE1999/31	KP820962	KP821082	KP821204	KP821324	KP821444	KP821564	KP821686	KP821806	KP821926	KP822047	Bos taurus	Greece	1999	NOV	25	field	Aghia Paraskevi- Lesvos	spleen	KC1	Culicoides sp.		26252219
+GRE1999/31	KP820962	KP821082	KP821204	KP821324	KP821444	KP821564	KP821686	KP821806	KP821926	KP822047	Bos taurus	Greece	1999	NOV	25	field	Aghia Paraskevi-Lesbos	spleen	KC1	Culicoides sp.		26252219
 GRE2000/01		AJ585167				AJ586681		AM900372				Greece	2000			field	Rhodes	blood	E2BHK6	Mammalian		18570969
 GRE2000/02		AJ585171										Greece	2000			field						20422575
 GRE2000/07	KP820934	KP821054	KP821176	KP821296	KP821416	KP821536	KP821658	KP821778	KP821898	KP822019	Ovis aries	Greece	2000	OCT	3	field	Arta	blood	E2BHK5	Mammalian		26252219
 GRE2000/07			DQ186806								Ovis aries	Greece	2000	OCT	3	field	Arta	blood	E2BHK5	Mammalian		19649272
 GRE2000/08	KP820935	KP821055	KP821177	KP821297	KP821417	KP821537	KP821659	KP821779	KP821899	KP822020	Culicoides obsoletus	Greece	2000	APR	13	field	Kavala	Culicoides obsoletus	BHK7	Mammalian		26252219
-GRE2001/01	KP820885	KP821005	KP821127	KP821247	KP821367	KP821487	KP821609	KP821729	KP821850	KP821970	Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesvos	spleen	BHK5	Mammalian		26252219
-GRE2001/01		AJ585121				AJ586664	GQ506450		EU220289		Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesvos	spleen	BHK5	Mammalian		18570969
-GRE2001/02	EF059720										Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesvos	spleen	BHK5	Mammalian		17586061
+GRE2001/01	KP820885	KP821005	KP821127	KP821247	KP821367	KP821487	KP821609	KP821729	KP821850	KP821970	Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesbos	spleen	BHK5	Mammalian		26252219
+GRE2001/01		AJ585121				AJ586664	GQ506450		EU220289		Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesbos	spleen	BHK5	Mammalian		18570969
+GRE2001/02	EF059720										Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesbos	spleen	BHK5	Mammalian		17586061
 GRE2001/05			DQ186822								Ovis aries	Greece	2001	SEP	18	field	Oraioastro-Delvinaki-Ioannina	spleen	E1BHK11	Mammalian		19649272
 GRE2001/06	KP820886	KP821006	KP821128	KP821248	KP821368	KP821488	KP821610	KP821730	KP821851	KP821971	Ovis aries	Greece	2001	DEC	31	field	Smiksi-Grevena	spleen	BHK10	Mammalian		26252219
 GRE2001/06			DQ186820								Ovis aries	Greece	2001	DEC	31	field	Smiksi-Grevena	spleen	BHK10	Mammalian		19649272
 GRE2001/07		JN635334									Ovis aries	Greece	2001			field						22285887
-GRE2001/07			DQ186807								Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesvos	blood	BHK2E1BHK2	Mammalian		19649272
-GRE2001/07					AM778438						Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesvos	blood	BHK2E1BHK2	Mammalian		UP
+GRE2001/07			DQ186807								Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesbos	blood	BHK2E1BHK2	Mammalian		19649272
+GRE2001/07					AM778438						Ovis aries	Greece	2001	OCT	15	field	Agiasos-Achladeri-Lesbos	blood	BHK2E1BHK2	Mammalian		UP
 GRE2001/10	KP820887	KP821007	KP821129	KP821249	KP821369	KP821489	KP821611	KP821731	KP821852	KP821972	Ovis aries	Greece	2001	NOV	16	field	Potamia-Paramithia-Thesprotia	spleen	E1BHK7	Mammalian		26252219
-GRE2008/01	KP820953	KP821073	KP821195	KP821315	KP821435	KP821555	KP821677	KP821797	KP821917	KP822038	Ovis aries	Greece	2008			field	Aghia Paraskevi- Lesvos	blood	KC1	Culicoides sp.		26252219
-GRE2008/10	KP820870	KP820990	KP821112	KP821232	KP821352	KP821472	KP821594	KP821714	KP821834	KP821955	Ovis aries	Greece	2008	OCT		field	Madamados-Lesvos	blood	KC1	Culicoides sp.		26252219
+GRE2008/01	KP820953	KP821073	KP821195	KP821315	KP821435	KP821555	KP821677	KP821797	KP821917	KP822038	Ovis aries	Greece	2008			field	Aghia Paraskevi-Lesbos	blood	KC1	Culicoides sp.		26252219
+GRE2008/10	KP820870	KP820990	KP821112	KP821232	KP821352	KP821472	KP821594	KP821714	KP821834	KP821955	Ovis aries	Greece	2008	OCT		field	Madamados-Lesbos	blood	KC1	Culicoides sp.		26252219
 GRE2012/01	KP820936	KP821056	KP821178	KP821298	KP821418	KP821538	KP821660	KP821780	KP821900	KP822021	Ovis aries	Greece	2012	NOV		field	Rhodes	blood	KC1BHK1	Culicoides-Mammalian		26252219
 GRE2012/02	KP820937	KP821057	KP821179	KP821299	KP821419	KP821539	KP821661	KP821781	KP821901	KP822022	Ovis aries	Greece	2012	NOV		field	Rhodes	blood	KC1BHK1	Culicoides-Mammalian		26252219
 GRE2012/03	KP820938	KP821058	KP821180	KP821300	KP821420	KP821540	KP821662	KP821782	KP821902	KP822023	Ovis aries	Greece	2012	NOV		field	Rhodes	blood	KC1BHK1	Culicoides-Mammalian		26252219
@@ -974,9 +974,9 @@ IND/2007/04/BTONG5			EU880291								Ovis aries	India										UP
 IND/Goat/2010/16/HSR	JQ924820	JQ924821	JQ924822	JQ924823	JQ924824	JQ924825	JQ924826	JQ924827	JQ924828	JQ924829	Capra hircus	India	2010			field	Chennai	blood	BHK?	Mammalian		22787269
 IND1982/01	JQ713557	AJ585152	JQ713558	JQ713559	JQ713560	AJ586675	JQ713561	AM900382	JQ713562	JQ713563		India	1982	MAR	26	field			E2BHK3	Mammalian		22532533
 IND1988/01						AJ586661						India		SEP	24	field			BHK11	Mammalian		UP
-IND1988/02	JQ771823	JQ771824	JQ771825	JQ771826	JQ771827		JQ771828	JQ771829	JQ771830	JQ771831	Ovis aries	India	1988	JAN		field	Maharashtra-Rahuri-West India	blood and spleen	BHK91	Mammalian		22628397
-IND1988/02						AJ631217					Ovis aries	India				field	Maharashtra-Rahuri-West India	blood and spleen	BHK91	Mammalian		UP
-IND1988/03	EF059740					AJ783907					Ovis aries	India				field	Rishikesh-Uttranchal-Northen India	blood and spleen	BHK55	Mammalian		17586061
+IND1988/02	JQ771823	JQ771824	JQ771825	JQ771826	JQ771827		JQ771828	JQ771829	JQ771830	JQ771831	Ovis aries	India	1988	JAN		field	Maharashtra-Rahuri	blood and spleen	BHK91	Mammalian		22628397
+IND1988/02						AJ631217					Ovis aries	India				field	Maharashtra-Rahuri	blood and spleen	BHK91	Mammalian		UP
+IND1988/03	EF059740					AJ783907					Ovis aries	India				field	Rishikesh-Uttranchal	blood and spleen	BHK55	Mammalian		17586061
 IND1992/01	JQ282770	AJ585111	JQ282771	JQ282772	JQ282773	AJ586659	JQ282774	JQ282775	JQ282776	JQ282777	Ovis aries	India	1992	MAR	3	field	Avikanagar-Rajasthan	blood	BHK?	Mammalian		22457532
 IND1992/02						AJ586660						India		NOV	3	field			E1BHK12	Mammalian		UP
 IND1994/01	KP268774	KP268775	KP268776	KP268777	KP268778	KP268779	KP268780	KP268781	KP268782	KP268783		India	1994			field			?BHK2	Mammalian		25858823
@@ -1222,16 +1222,16 @@ P635	GQ506488	GQ506489	GQ506490	GQ506491	GQ506492	GQ506493	GQ506494	GQ506495	GQ5
 PDP2/13/Ind		KY934051									Capra hircus	India	2013			field		blood				
 PDP5/13/Ind		KY934052									Capra hircus	India	2013			field		blood				
 POL2012/01	KP820975	KP821095	KP821217	KP821337	KP821457	KP821577	KP821699	KP821819	KP821939	KP822060	Bos taurus	Poland	2012	JAN		field	Sokolka poviat	blood	KC3BHK1	Culicoides-Mammalian		26252219
-Pool A8										AF397280	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool B1										AF397286	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool B10										AF397287	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool B6										AF397288	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool B7										AF397290	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool B8										AF397289	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool C10										AF397291	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool C11										AF397292	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool D12										AF397293	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
-Pool H4										AF397294	Culicoides sonorensis	USA				field	Southern  California	Culicoides sonorensis				11900839
+Pool A8										AF397280	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool B1										AF397286	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool B10										AF397287	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool B6										AF397288	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool B7										AF397290	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool B8										AF397289	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool C10										AF397291	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool C11										AF397292	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool D12										AF397293	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
+Pool H4										AF397294	Culicoides sonorensis	USA				field	Southern California	Culicoides sonorensis				11900839
 PTG13/11/Ind		KF563946									Capra hircus	India				field	Pithoragarh-UK	blood				25703157
 RA 19 OP										KJ506699			1995	APR	6				V?	Mammalian		26780892
 RA 20 OP										KJ506702			1995	APR	6				V?	Mammalian		26780892
@@ -1304,8 +1304,8 @@ RSArrrr/16*	JX129381	AJ585137	DQ186796	JX129382	AM773707	AJ586719	JX129383	JX129
 RSArrrr/17		AJ585138				AJ586720						USA	1979			reference			S3E2LK7BHK9	Mammalian		20422574
 RSArrrr/18	EF059735	AJ585139				AJ586721					Ovis aries	South Africa	1976			reference			E1BHK7	Mammalian		20422574
 RSArrrr/19	EF059736 	AJ585140				AJ586722	DQ465028	AM900380			Ovis aries	South Africa	1976			reference			E3BHK7	Mammalian		20422574, 17586061
-RSArrrr/20	EF059737	AJ585141				AJ586723					Culicoides sp.	Australia	1975			reference	Beatrice Hill-Northen Territories	Culicoides sp.	BHK12	Mammalian		20422574
-RSArrrr/21	EF059738	AJ585142				AJ586724		AM900390			Bos taurus	Australia	1979			reference	Victoria River Research Station-Northen Territories	blood	V3BHK14	Mammalian		20422574
+RSArrrr/20	EF059737	AJ585141				AJ586723					Culicoides sp.	Australia	1975			reference	Beatrice Hill-Northern Territories	Culicoides sp.	BHK12	Mammalian		20422574
+RSArrrr/21	EF059738	AJ585142				AJ586724		AM900390			Bos taurus	Australia	1979			reference	Victoria River Research Station-Northern Territories	blood	V3BHK14	Mammalian		20422574
 RSArrrr/22		AJ585143				AJ586725					Culicoides sp.	South Africa	1992			reference		Culicoides sp.	E2BHK1CER1BHK4	Mammalian		20422574
 RSArrrr/23		AJ585144				AJ586727					Bos taurus	Australia	1987			reference		blood	E1CER2BHK3	Mammalian		20422574
 RSArrrr/24	EF059741	AJ585145				AJ586730					Ovis aries	South Africa	1992			reference			E1CER4BHK6	Mammalian		20422574
@@ -1479,18 +1479,18 @@ USA2007/FL 520518	KX164149	KX164150	KX164151	KX164152	KX164153	KX164154	KX164155
 USA2008/AR 566195	KX164029	KX164030	KX164031	KX164032	KX164033	KX164034	KX164035	KX164036	KX164037	KX164038	Odocoileus virginianus	USA	2008			field	Chicot County, Arkansas	lung				
 USA2008/FL 576307	KX164069	KX164070	KX164071	KX164072	KX164073	KX164074	KX164075	KX164076	KX164077	KX164078	Deer	USA	2008	OCT	23	field	Putnam County, Florida	spleen				
 USA2008/TX 576181	KX164079	KX164080	KX164081	KX164082	KX164083	KX164084	KX164085	KX164086	KX164087	KX164088	Odocoileus virginianus	USA	2008			field	Palo Pinto County, Texas	spleen				
-USA2010	JQ822248	JQ822249	JQ822250	JQ822251	JQ822252	JQ822253	JQ822254	JQ822255	JQ822256	JQ822257	Bos taurus	USA	2010	AUG		field	Northen Sacramento Valley-California	blood	BPAEC?	Mammalian		23750753
+USA2010	JQ822248	JQ822249	JQ822250	JQ822251	JQ822252	JQ822253	JQ822254	JQ822255	JQ822256	JQ822257	Bos taurus	USA	2010	AUG		field	Northern Sacramento Valley-California	blood	BPAEC?	Mammalian		23750753
 USA2010/FL 10-044273	KX164019	KX164020	KX164021	KX164022	KX164023	KX164024	KX164025	KX164026	KX164027	KX164028	Ovis aries	USA	2010	SEP	2	field	Alachua County, Florida	blood				
 USA2011/TX 11-56803-18	KM580446	KM580450	KM580445	KM580447	KM580448	KM580451	KM580443	KM580452	KM580444	KM580449	Odocoileus virginianus	USA	2011	OCT	15	field	Nacogdoches-Texas		E1BHK1BPAE1	Mammalian		26069226
 USA2011/TX 11-56803-3	KM580413	KM580420	KM580417	KM580419	KM580415	KM580422	KM580418	KM580414	KM580416	KM580421	Odocoileus virginianus	USA	2011	AUG	15	field	Gillespie-Texas		E1BHK1BPAE1	Mammalian		26069226
-USA2011/TX 11-56803-5	KM580432	KM580426	KM580425	KM580428	KM580430	KM580424	KM580431	KM580427	KM580423	KM580429	Odocoileus virginianus	USA	2011	AUG	15	field	Frio - Texas		E1BHK1BPAE1	Mammalian		26069226
+USA2011/TX 11-56803-5	KM580432	KM580426	KM580425	KM580428	KM580430	KM580424	KM580431	KM580427	KM580423	KM580429	Odocoileus virginianus	USA	2011	AUG	15	field	Frio-Texas		E1BHK1BPAE1	Mammalian		26069226
 USA2011/TX 11-56803-9	KM580439	KM580435	KM580442	KM580433	KM580436	KM580434	KM580437	KM580438	KM580441	KM580440	Odocoileus virginianus	USA	2011	SEP	15	field	Brazos-Texas		E1BHK1BPAE1	Mammalian		26069226
 USA2011/TX 128184-11	KM580454	KM580453	KM580462	KM580457	KM580461	KM580459	KM580460	KM580458	KM580456	KM580455	Canis familiaris	USA	2011	OCT	15	field	Denton-Texas	Aborted embryos	E1BHK1BPAE1	Mammalian		26069226
 USA2012/KS 120659-12	KM580469	KM580464	KM580465	KM580463	KM580467	KM580471	KM580468	KM580466	KM580470	KM580472	Canis familiaris	USA	2012	SEP	15	field	Frankfort-Kansas	Aborted embryos	E1BHK1BPAE1	Mammalian		26069226
 USA2012/LA 12-046093	KX164089	KX164090	KX164091	KX164092	KX164093	KX164094	KX164095	KX164096	KX164097	KX164098	Odocoileus virginianus	USA	2012	SEP	18	field	East Feliciana Parish, Louisiana	spleen				
 USA2012/SD 12-035694	KX164039	KX164040	KX164041	KX164042	KX164043	KX164044	KX164045	KX164046	KX164047	KX164048	Deer	USA	2012	SEP		field	Charles Mix County, South Dakota	blood				
 USA2013/CA 13-034210	KX164099	KX164100	KX164101	KX164102	KX164103	KX164104	KX164105	KX164106	KX164107	KX164108	Antilocapra americana	USA	2013	SEP	12	field	Los Angeles County, California	blood				
-USA2013/FL 13-037190	KM580479	KM580478	KM580481	KM580476	KM580475	KM580480	KM580473	KM580482	KM580477	KM580474	Odocoileus virginianus	USA	2013	OCT	18	field	Williston- Florida		E1BHK1BPAE1	Mammalian		26069226
+USA2013/FL 13-037190	KM580479	KM580478	KM580481	KM580476	KM580475	KM580480	KM580473	KM580482	KM580477	KM580474	Odocoileus virginianus	USA	2013	OCT	18	field	Williston-Florida		E1BHK1BPAE1	Mammalian		26069226
 USA2013/WA 13-031503	KM580490 	KM580491	KM580486	KM580483	KM580484	KM580485	KM580487	KM580492	KM580489	KM580488	Lama glama	USA	2013	AUG	26	field	Franklin-Washington		E1BHK1BPAE1	Mammalian		26069226
 USA2014/FL 15-008010	KX164119	KX164120	KX164121	KX164122	KX164123	KX164124	KX164125	KX164126	KX164127	KX164128	Odocoileus virginianus	USA	2014	OCT	8	field	Alachua County, Florida	spleen				
 USA2015/TX 15-029176	KX164049	KX164050	KX164051	KX164052	KX164053	KX164054	KX164055	KX164056	KX164057	KX164058	Bos taurus	USA	2015	AUG	24	field	Washington County, Texas	blood				

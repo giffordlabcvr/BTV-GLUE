@@ -1,0 +1,7 @@
+<ecmaFunctionInvoker>
+    <scriptFileName>btvSequenceIsolateDiscrepancyFinder.js</scriptFileName>
+    <function>
+        <name>findDiscrepancies</name>
+        <tableFromObjectsResultType/>
+    </function>
+</ecmaFunctionInvoker>
