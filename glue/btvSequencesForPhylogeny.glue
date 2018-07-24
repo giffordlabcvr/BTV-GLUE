@@ -1,43 +1,43 @@
 # Segment 1 sequences 
-count sequence -w "excluded = false and gb_segment = '1'"
+count sequence -w "excluded = false and spreadsheet_segment = '1'"
 # Segment 2 sequences 
-count sequence -w "excluded = false and gb_segment = '2'"
+count sequence -w "excluded = false and spreadsheet_segment = '2'"
 # Segment 3 sequences 
-count sequence -w "excluded = false and gb_segment = '3'"
+count sequence -w "excluded = false and spreadsheet_segment = '3'"
 # Segment 4 sequences 
-count sequence -w "excluded = false and gb_segment = '4'"
+count sequence -w "excluded = false and spreadsheet_segment = '4'"
 # Segment 5 sequences 
-count sequence -w "excluded = false and gb_segment = '5'"
+count sequence -w "excluded = false and spreadsheet_segment = '5'"
 # Segment 6 sequences 
-count sequence -w "excluded = false and gb_segment = '6'"
+count sequence -w "excluded = false and spreadsheet_segment = '6'"
 # Segment 7 sequences 
-count sequence -w "excluded = false and gb_segment = '7'"
+count sequence -w "excluded = false and spreadsheet_segment = '7'"
 # Segment 8 sequences 
-count sequence -w "excluded = false and gb_segment = '8'"
-# Segment 19 sequences 
-count sequence -w "excluded = false and gb_segment = '9'"
+count sequence -w "excluded = false and spreadsheet_segment = '8'"
+# Segment 9 sequences 
+count sequence -w "excluded = false and spreadsheet_segment = '9'"
 # Segment 10 sequences 
-count sequence -w "excluded = false and gb_segment = '10'"
+count sequence -w "excluded = false and spreadsheet_segment = '10'"
 
 # Segment 1 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '1' and gb_length >= 3550"
+count sequence -w "excluded = false and spreadsheet_segment = '1' and gb_length >= 3550"
 # Segment 2 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '2' and gb_length >= 2646"
+count sequence -w "excluded = false and spreadsheet_segment = '2' and gb_length >= 2646"
 # Segment 3 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '3' and gb_length >= 2495"
+count sequence -w "excluded = false and spreadsheet_segment = '3' and gb_length >= 2495"
 # Segment 4 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '4' and gb_length >= 1783"
+count sequence -w "excluded = false and spreadsheet_segment = '4' and gb_length >= 1783"
 # Segment 5 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '5' and gb_length >= 1595"
+count sequence -w "excluded = false and spreadsheet_segment = '5' and gb_length >= 1595"
 # Segment 6 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '6' and gb_length >= 1472"
+count sequence -w "excluded = false and spreadsheet_segment = '6' and gb_length >= 1472"
 # Segment 7 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '7' and gb_length >= 1040"
+count sequence -w "excluded = false and spreadsheet_segment = '7' and gb_length >= 1040"
 # Segment 8 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '8' and gb_length >= 1013"
+count sequence -w "excluded = false and spreadsheet_segment = '8' and gb_length >= 1013"
 # Segment 9 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '9' and gb_length >= 944"
+count sequence -w "excluded = false and spreadsheet_segment = '9' and gb_length >= 944"
 # Segment 10 sequences suitable for reference phylogeny
-count sequence -w "excluded = false and gb_segment = '10' and gb_length >= 740"
+count sequence -w "excluded = false and spreadsheet_segment = '10' and gb_length >= 658"
 
 
