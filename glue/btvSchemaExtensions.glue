@@ -1,6 +1,7 @@
 schema-project btv
 
-  create custom-table isolate --idFieldLength 200   
+  create custom-table isolate --idFieldLength 200
+  
   create custom-table publication   
   create custom-table isolate_publication   
 
@@ -28,7 +29,7 @@ schema-project btv
     create field excluded BOOLEAN 
     create field excluded_reason VARCHAR 
     create field recogniser_segment VARCHAR
-    create field spreadsheet_segment VARCHAR
+    create field isolate_segment INTEGER
     
     exit
 
@@ -48,12 +49,6 @@ schema-project btv
     create field alt_names CLOB
     exit
 
-  table publication
-    create field is_pubmed BOOLEAN
-    create field display_name VARCHAR 300
-    create field alt_url VARCHAR 300
-    exit
-
   table member_floc_note
   	create field ref_nt_coverage_pct DOUBLE
   	exit
@@ -63,20 +58,9 @@ schema-project btv
     
   create link sequence who_country -m MANY_TO_ONE
 
-  create link isolate --srcLinkName seg_1 sequence --destLinkName isolate_seg_1 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_2 sequence --destLinkName isolate_seg_2 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_3 sequence --destLinkName isolate_seg_3 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_4 sequence --destLinkName isolate_seg_4 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_5 sequence --destLinkName isolate_seg_5 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_6 sequence --destLinkName isolate_seg_6 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_7 sequence --destLinkName isolate_seg_7 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_8 sequence --destLinkName isolate_seg_8 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_9 sequence --destLinkName isolate_seg_9 --multiplicity ONE_TO_MANY
-  create link isolate --srcLinkName seg_10 sequence --destLinkName isolate_seg_10 --multiplicity ONE_TO_MANY
+  create link isolate sequence -m ONE_TO_MANY
 
   create link isolate who_country -m MANY_TO_ONE
-  create link isolate isolate_publication -m ONE_TO_MANY
-  create link isolate_publication publication -m MANY_TO_ONE
 
   exit
   

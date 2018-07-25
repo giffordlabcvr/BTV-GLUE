@@ -13,7 +13,7 @@ _.each(segments, function(segment) {
 		// add reference for this sequence, simply so that we can use it to pick out alignment columns (e.g. coding region).
 		glue.command(["add", "member", "-w", "referenceSequences.name = 'REF_S"+segment+"_MASTER'"]);
 		// add curated sequences for this segment
-		glue.command(["add", "member", "-w", "spreadsheet_segment = '"+segment+"' and excluded = 'false' and complete_segment = 'true' and source.name = 'ncbi-curated'"]);
+		glue.command(["add", "member", "-w", "isolate_segment = '"+segment+"' and excluded = 'false' and complete_segment = 'true' and source.name = 'ncbi-curated'"]);
 	});
 	glue.command(["compute", "alignment", alName, "mafftAligner"]);
 	glue.inMode("module/fastaAlignmentExporter", function() {

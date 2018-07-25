@@ -155,7 +155,7 @@ _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 				var seqID = isolateObj["Seg-"+i];
 				if(seqID != null) {
 					seqID = seqID.trim();
-					glue.command(["add", "link-target", "seg_"+i, "sequence/ncbi-curated/"+seqID]);
+					glue.command(["add", "link-target", "sequence", "sequence/ncbi-curated/"+seqID]);
 				}
 			}
 		});
@@ -180,7 +180,11 @@ _.each(_.pairs(seqIdToSegs), function(pair) {
 	var seqID = pair[0];
 	var segs = pair[1];
 	glue.inMode("sequence/ncbi-curated/"+seqID, function() {
-		glue.command(["set", "field", "spreadsheet_segment", segs.join('/')]);
+		if(segs.length > 1) {
+			throw new Error("Sequence \""+seqID+"\" referenced as multiple segments: "+JSON.stringify(segs));
+		} else {
+			glue.command(["set", "field", "isolate_segment", segs[0]]);
+		}
 	});
 });
 
