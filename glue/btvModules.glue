@@ -26,8 +26,9 @@
 
   create module --fileName modules/btvFigTreeAnnotationExporter.xml 
 
-  create module --fileName modules/btvAlignmentRenderer.xml --loadResources btvAlignmentRenderer
-  create module --fileName modules/btvSequenceRenderer.xml --loadResources btvSequenceRenderer
+  create module --fileName modules/btvAlignmentRenderer.xml --loadResources
+  create module --fileName modules/btvSequenceRenderer.xml --loadResources
+  create module --fileName modules/btvIsolateRenderer.xml --loadResources
 
   # this module downloads all btv from NCBI
   create module --fileName modules/ncbiCuratedImporter.xml 

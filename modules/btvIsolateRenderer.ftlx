@@ -1,0 +1,45 @@
+<#include "/utils/glueDocUtils.ftlx">
+
+<isolate>
+	<id>${id}</id>
+	<displayName>${display_name}</displayName>
+<#if alt_names??>
+	<#list alt_names?split(";") as alt_name>
+	<alternativeName glueType="String[]">${alt_name}</alternativeName>
+	</#list>
+</#if>
+	<@elem tag="collectionYear" expr="collection_year" type="Integer"/>
+	<@elem tag="collectionMonth" expr="collection_month"/>
+	<@elem tag="collectionMonthDay" expr="collection_month_day"  type="Integer"/>
+	<@elem tag="passageCells" expr="passage_cells"/>
+	<@elem tag="passageHistory" expr="passage_history"/>
+	<@elem tag="placeSampled" expr="place_sampled"/>
+	<@elem tag="sampleType" expr="sample_type"/>
+	<@elem tag="tissueSampled" expr="tissue_sampled"/>
+<#list sequence?sort_by("isolate_segment") as seq>
+	<sequence glueType="Object[]">
+		<sourceName>${seq.source.name}</sourceName>
+		<sequenceID>${seq.sequenceID}</sequenceID>
+		<segment glueType="Integer">${seq.isolate_segment}</segment>
+		<length glueType="Integer">${seq.gb_length?c}</length>
+		<@elem tag="completeSegment" expr="context.complete_segment" type="Boolean" context=seq/>
+		<@elem tag="create_date" expr="context.gb_create_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
+		<@elem tag="update_date" expr="context.gb_update_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
+	</sequence>
+</#list>
+	<@elem tag="country" expr="context.display_name" context=who_country/>
+	<@elem tag="country_iso" expr="context.id" context=who_country/>
+<#if who_country ??>
+	<@elem tag="who_region" expr="context.id" context=who_country.who_region/>
+	<@elem tag="who_region_display_name" expr="context.display_name" context=who_country.who_region/>
+	<@elem tag="who_sub_region" expr="context.id" context=who_country.who_sub_region/>
+	<@elem tag="who_sub_region_display_name" expr="context.display_name" context=who_country.who_sub_region/>
+	<@elem tag="who_intermediate_region" expr="context.id" context=who_country.who_intermediate_region/>
+	<@elem tag="who_intermediate_region_display_name" expr="context.display_name" context=who_country.who_intermediate_region/>
+	<@elem tag="country_development_status" expr="context.development_status" context=who_country/>
+	<@elem tag="country_is_ldc" expr="context.is_ldc" type="Boolean" context=who_country/>
+	<@elem tag="country_is_lldc" expr="context.is_lldc" type="Boolean" context=who_country/>
+	<@elem tag="country_is_sids" expr="context.is_sids" type="Boolean" context=who_country/>
+</#if>
+	<@elem tag="host" expr="host"/>
+</isolate>

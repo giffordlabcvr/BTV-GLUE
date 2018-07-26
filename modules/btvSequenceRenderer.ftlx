@@ -33,15 +33,8 @@
 </#list>
 	<creationDate>${renderProperty('gb_create_date')}</creationDate>
 	<updateDate>${renderProperty('gb_update_date')}</updateDate>
-	<@elem tag="collectionYear" expr="gb_collection_year"/>
-	<@elem tag="length" expr="gb_length"/>
-	<@elem tag="segment" expr="gb_segment"/>
-	<@elem tag="serotype" expr="gb_serotype"/>
-	<@elem tag="passageCells" expr="passage_cells"/>
-	<@elem tag="passageHistory" expr="passage_history"/>
-	<@elem tag="placeSampled" expr="place_sampled"/>
-	<@elem tag="sampleType" expr="sample_type"/>
-	<@elem tag="tissueSampled" expr="tissue_sampled"/>
+	<@elem tag="length" expr="gb_length" type="Integer"/>
+	<@elem tag="segment" expr="isolate_segment" type="Integer"/>
 <#if pmid_reference ??>	
 <#assign referenceText = "PubMed Reference "+pmid_reference>
 <#assign referenceUrl = "https://www.ncbi.nlm.nih.gov/pubmed/?term="+pmid_reference>
@@ -59,21 +52,32 @@
 </#if>
 	<@elem tag="referenceText" expr="referenceText"/>
 	<@elem tag="referenceUrl" expr="referenceUrl"/>
-	<@elem tag="country" expr="context.display_name" context=who_country/>
-	<@elem tag="country_iso" expr="context.id" context=who_country/>
-<#if who_country ??>
-	<@elem tag="who_region" expr="context.id" context=who_country.who_region/>
-	<@elem tag="who_region_display_name" expr="context.display_name" context=who_country.who_region/>
-	<@elem tag="who_sub_region" expr="context.id" context=who_country.who_sub_region/>
-	<@elem tag="who_sub_region_display_name" expr="context.display_name" context=who_country.who_sub_region/>
-	<@elem tag="who_intermediate_region" expr="context.id" context=who_country.who_intermediate_region/>
-	<@elem tag="who_intermediate_region_display_name" expr="context.display_name" context=who_country.who_intermediate_region/>
-	<@elem tag="country_development_status" expr="context.development_status" context=who_country/>
-	<@elem tag="country_is_ldc" expr="context.is_ldc" type="Boolean" context=who_country/>
-	<@elem tag="country_is_lldc" expr="context.is_lldc" type="Boolean" context=who_country/>
-	<@elem tag="country_is_sids" expr="context.is_sids" type="Boolean" context=who_country/>
+<#if isolate ??>
+	<@elem tag="isolateID" expr="context.id" context=isolate/>
+	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>
+	<@elem tag="host" expr="context.host" context=isolate/>
+<#if isolate.who_country ??>
+	<@elem tag="collectionYear" expr="context.collection_year" context=isolate type="Integer"/>
+	<@elem tag="collectionMonth" expr="context.collection_month" context=isolate/>
+	<@elem tag="collectionMonthDay" expr="context.collection_month_day" context=isolate type="Integer"/>
+	<@elem tag="passageCells" expr="context.passage_cells" context=isolate/>
+	<@elem tag="passageHistory" expr="context.passage_history" context=isolate/>
+	<@elem tag="placeSampled" expr="context.place_sampled" context=isolate/>
+	<@elem tag="sampleType" expr="context.sample_type" context=isolate/>
+	<@elem tag="tissueSampled" expr="context.tissue_sampled" context=isolate/>
+	<@elem tag="country" expr="context.display_name" context=isolate.who_country/>
+	<@elem tag="country_iso" expr="context.id" context=isolate.who_country/>
+	<@elem tag="who_region" expr="context.id" context=isolate.who_country.who_region/>
+	<@elem tag="who_region_display_name" expr="context.display_name" context=isolate.who_country.who_region/>
+	<@elem tag="who_sub_region" expr="context.id" context=isolate.who_country.who_sub_region/>
+	<@elem tag="who_sub_region_display_name" expr="context.display_name" context=isolate.who_country.who_sub_region/>
+	<@elem tag="who_intermediate_region" expr="context.id" context=isolate.who_country.who_intermediate_region/>
+	<@elem tag="who_intermediate_region_display_name" expr="context.display_name" context=isolate.who_country.who_intermediate_region/>
+	<@elem tag="country_development_status" expr="context.development_status" context=isolate.who_country/>
+	<@elem tag="country_is_ldc" expr="context.is_ldc" type="Boolean" context=isolate.who_country/>
+	<@elem tag="country_is_lldc" expr="context.is_lldc" type="Boolean" context=isolate.who_country/>
+	<@elem tag="country_is_sids" expr="context.is_sids" type="Boolean" context=isolate.who_country/>
 </#if>
-	<@elem tag="isolate" expr="gb_isolate"/>
-	<@elem tag="host" expr="gb_host"/>
+</#if>
 	<@elem tag="completeSegment" expr="complete_segment" type="Boolean"/>
 </sequence>

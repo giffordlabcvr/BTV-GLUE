@@ -20,6 +20,9 @@ _.each(_.pairs(isolateIDToAltNames), function(pair) {
 	glue.inMode("custom-table-row/isolate/"+isolateID, function() {
 		var displayName = glue.command(["show", "property", "display_name"]).propertyValueResult.value;
 		altNames = _.without(altNames, displayName);
+		if(altNames.length > 0) {
+			glue.command(["set", "field", "alt_names", altNames.join(";")]);
+		}
 	});
 	
 });
