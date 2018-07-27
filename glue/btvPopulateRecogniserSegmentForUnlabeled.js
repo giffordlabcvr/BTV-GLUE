@@ -5,16 +5,7 @@ var multipleHits = [];
 glue.inMode("module/segmentRecogniser", function() {
 	recogniserResultObjs = glue.tableToObjects(glue.command(["recognise", "sequence", "-w", 
 	    "excluded = false and source.name = 'ncbi-curated'"+
-	    " and isolate_seg_1 = null"+
-	    " and isolate_seg_2 = null"+
-	    " and isolate_seg_3 = null"+
-	    " and isolate_seg_4 = null"+
-	    " and isolate_seg_5 = null"+
-	    " and isolate_seg_6 = null"+
-	    " and isolate_seg_7 = null"+
-	    " and isolate_seg_8 = null"+
-	    " and isolate_seg_9 = null"+
-	    " and isolate_seg_10 = null"+
+	    " and isolate = null"+
 	    " and not sequenceID like 'NC_%'"]));
 })
 

@@ -64,6 +64,18 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 	  templateUrl: 'views/btvSequence.html',
 	  controller: 'btvSequenceCtrl'
     });
+	// single isolate view
+    $routeProvider.
+    when('/project/isolate/:isolateID', {
+  	  templateUrl: 'views/btvIsolate.html',
+  	  controller: 'btvIsolateCtrl'
+      });
+    // isolates view
+	$routeProvider.
+    when('/project/isolate', {
+  	  templateUrl: 'views/btvIsolates.html',
+  	  controller: 'btvIsolatesCtrl'
+      });
 	
     $routeProvider.
       when('/home', {
@@ -73,6 +85,8 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
       otherwise({
     	  redirectTo: '/home'
       });
+
+
 }]);
 
 btvApp.controller('btvAppCtrl', 
@@ -83,6 +97,7 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserMenuTitle = "Sequence Database";
 	$scope.projectBrowserAlignmentMenuTitle = "Segment Clade Trees";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
+	$scope.projectBrowserIsolateMenuTitle = "Isolates";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
 	glueWebToolConfig.setGlueWSURL("../gluetools-web/www/glueWS");

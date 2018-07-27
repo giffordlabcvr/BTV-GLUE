@@ -1,4 +1,4 @@
-<div ng-show="renderResult" ng-app="projectBrowser">
+<div ng-show="renderResult">
 	<h2>Sequence {{renderResult.sequence.sequenceID}}</h2>
 	<p>
 		<div ng-repeat="reference in renderResult.sequence.referenceSequence track by $index">
@@ -34,9 +34,6 @@
 				<tr>
 					<td><b>Complete Segment?</b></td><td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
-				<tr>
-					<td><b>BTV Serotype</b></td><td>{{handleNull(renderResult.sequence.serotype)}}</td>
-				</tr>
 				<tbody ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index" ng-show="alignment.constrainingReference">
 					<tr>				
 						<td><b>Clade membership</b></td>
@@ -66,14 +63,16 @@
 			
 	    </div>
 	    <div class="col-md-6">
-			<h4>Sample details</h4>
+			<h4>Isolate details</h4>
 			<table class="table table-striped table-bordered">
 				<thead>
 					<col width="50%"/>
 					<col width="50%"/>
 				</thead>
 				<tr>
-					<td><b>Isolate ID</b></td><td>{{handleNull(renderResult.sequence.isolate)}}</td>
+					<td><b>Isolate</b></td><td>
+						<a ng-if="renderResult.sequence.isolateID" target="_blank" href="#/project/isolate/{{renderResult.sequence.isolateID}}">{{renderResult.sequence.isolateDisplayName}}</a>
+					</td>
 				</tr>
 				<tr>
 					<td><b>Host Species</b></td><td><em>{{handleNull(renderResult.sequence.host)}}</em></td>
@@ -81,6 +80,10 @@
 				<tr>
 					<td><b>Country of Origin</b></td><td>{{renderResult.sequence.country ? (renderResult.sequence.country+" ("+renderResult.sequence.country_iso+")"):"-"}}</td>
 				</tr>
+				<tr>
+					<td><b>Place sampled</b></td><td>{{handleNull(renderResult.sequence.placeSampled)}}</td>
+				</tr>
+
 				<tr ng-if="renderResult.sequence.country">
 					<td><b>Country Development Status</b></td><td>{{renderDevelopmentStatus(renderResult.sequence)}}</td>
 				</tr>
@@ -88,7 +91,8 @@
 					<td><b>Global Region</b></td><td>{{renderGlobalRegion(renderResult.sequence)}}</td>
 				</tr>
 				<tr>
-					<td><b>Collection Year</b></td><td>{{handleNull(renderResult.sequence.collectionYear)}}</td>
+					<td><b>Collection Date</b></td>
+					<td>{{renderResult.sequence.collectionMonthDay ? renderResult.sequence.collectionMonthDay+"-" : ""}}{{renderResult.sequence.collectionMonth ? renderResult.sequence.collectionMonth[0]+renderResult.sequence.collectionMonth.substring(1,3).toLowerCase()+"-" : ""}}{{renderResult.sequence.collectionYear ? renderResult.sequence.collectionYear : "-"}}</td>
 				</tr>
 				<tr>
 					<td><b>Sample Type</b></td><td>{{handleNull(renderResult.sequence.sampleType)}}</td>

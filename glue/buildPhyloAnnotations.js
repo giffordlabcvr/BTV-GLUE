@@ -8,7 +8,7 @@ _.each(segments, function(segment) {
 	glue.inMode("module/btvFigTreeAnnotationExporter", function() {
 		
 		glue.command(["export", "figtree-annotation", almtName(segment), 
-		              "--whereClause", "sequence.source.name = 'ncbi-curated'",
+		              "--whereClause", "sequence.source.name = 'ncbi-curated' and sequence.isolate_segment = '"+segment+"'",
 		              "--fileName", "trees/phyloTrees/S"+segment+"_annotations.txt"])
 	});
 });

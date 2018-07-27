@@ -17,14 +17,14 @@
 # For segments 1-9, 90% of the ref. sequence length ensures the coding region is captured.
 # In segment 10, the coding region is a smaller proportion of the segment so we use 80%
 
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 1 and gb_length >= 3550" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 2 and gb_length >= 2646" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 3 and gb_length >= 2495" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 4 and gb_length >= 1783" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 5 and gb_length >= 1595" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 6 and gb_length >= 1472" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 7 and gb_length >= 1040" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 8 and gb_length >= 1013" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 9 and gb_length >= 944" complete_segment true
-multi-set field sequence -w "excluded = false and spreadsheet_segment = 10 and gb_length >= 658" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 1 and gb_length >= 3550" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 2 and gb_length >= 2646" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 3 and gb_length >= 2495" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 4 and gb_length >= 1783" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 5 and gb_length >= 1595" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 6 and gb_length >= 1472" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 7 and gb_length >= 1040" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 8 and gb_length >= 1013" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 9 and gb_length >= 944" complete_segment true
+multi-set field sequence -w "excluded = false and isolate_segment = 10 and gb_length >= 658" complete_segment true
 multi-set field sequence -w "complete_segment = null" complete_segment false

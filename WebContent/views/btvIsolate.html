@@ -1,0 +1,109 @@
+<div ng-show="renderResult">
+	<h2>Isolate {{renderResult.isolate.displayName}}</h2>
+
+	<div ng-if="renderResult.isolate.alternativeName.length > 0" class="row">
+		<div class="col-md-6">
+			<h4>Alternative isolate names</h4>
+			<table class="table table-striped table-bordered">
+				<tr ng-repeat="alternativeName in renderResult.isolate.alternativeName">
+					<td>{{alternativeName}}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h4>Isolate details</h4>
+			<table class="table table-striped table-bordered">
+				<thead>
+				<col width="50%" />
+				<col width="50%" />
+				</thead>
+				<tr>
+					<td><b>Host Species</b></td>
+					<td><em>{{handleNull(renderResult.isolate.host)}}</em></td>
+				</tr>
+				<tr>
+					<td><b>Country of Origin</b></td>
+					<td>{{renderResult.isolate.country ?
+						(renderResult.isolate.country+"
+						("+renderResult.isolate.country_iso+")"):"-"}}</td>
+				</tr>
+				<tr>
+					<td><b>Place sampled</b></td>
+					<td>{{handleNull(renderResult.isolate.placeSampled)}}</td>
+				</tr>
+
+				<tr ng-if="renderResult.isolate.country">
+					<td><b>Country Development Status</b></td>
+					<td>{{renderDevelopmentStatus(renderResult.isolate)}}</td>
+				</tr>
+				<tr ng-if="renderResult.isolate.country">
+					<td><b>Global Region</b></td>
+					<td>{{renderGlobalRegion(renderResult.isolate)}}</td>
+				</tr>
+				<tr>
+					<td><b>Collection Date</b></td>
+					<td>{{renderResult.isolate.collectionMonthDay ?
+						renderResult.isolate.collectionMonthDay+"-" :
+						""}}{{renderResult.isolate.collectionMonth ?
+						renderResult.isolate.collectionMonth[0]+renderResult.isolate.collectionMonth.substring(1,3).toLowerCase()+"-"
+						: ""}}{{renderResult.isolate.collectionYear ?
+						renderResult.isolate.collectionYear : "-"}}</td>
+				</tr>
+				<tr>
+					<td><b>Sample Type</b></td>
+					<td>{{handleNull(renderResult.isolate.sampleType)}}</td>
+				</tr>
+				<tr>
+					<td><b>Tissue Sampled</b></td>
+					<td>{{handleNull(renderResult.isolate.tissueSampled)}}</td>
+				</tr>
+				<tr>
+					<td><b>Passage Cells</b></td>
+					<td>{{handleNull(renderResult.isolate.passageCells)}}</td>
+				</tr>
+				<tr>
+					<td><b>Passage History</b></td>
+					<td>{{handleNull(renderResult.isolate.passageHistory)}}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<h4>Sequence details</h4>
+
+	<table class="table table-striped table-bordered">
+		<thead>
+			<th>NCBI Nucleotide ID</th>
+			<th>Segment</th>
+			<th>Length</th>
+			<th>Complete segment?</th>
+			<th>NCBI Entry Creation Date</th>
+			<th>NCBI Last Update Date</th>
+			<colgroup>
+				<col span="1" style="width: 20%;">
+				<col span="1" style="width: 10%;">
+				<col span="1" style="width: 10%;">
+				<col span="1" style="width: 10%;">
+				<col span="1" style="width: 20%;">
+				<col span="1" style="width: 20%;">
+			</colgroup>
+		</thead>
+		<tbody>
+			<tr ng-repeat="seq in renderResult.isolate.sequence">
+				<td><a
+					href="#project/sequence/{{seq.sourceName}}/{{seq.sequenceID}}"
+					target="_blank">{{seq.sequenceID}}</a></td>
+				<td>{{seq.segment}}</td>
+				<td>{{seq.length}}</td>
+				<td>{{seq.completeSegment ? "Yes" : "No"}}</td>
+				<td>{{seq.create_date}}</td>
+				<td>{{seq.update_date}}</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+</div>
