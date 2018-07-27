@@ -1,0 +1,3 @@
+id	title	authors_short	authors_full	year	journal	volume	issue	pages	url	doi
+Futukomi_2006	Antigenic and Genetic Analyses of Bluetongue Viruses Prevalent in Okayama Prefecture	Futukomi et al.	T. Fukutomi, M. Oouchi, K. Sawada, N. Hirai, M. Hada and K. Okuda	2006	Journal of the Japan Veterinary Medical Association	59	8	535-539		https://doi.org/10.12935/jvma1951.59.535
+Tsuda_2010	Isolation and characterization of Bluetongue virus from Culicoides brevitarsis (Diptera: Ceratopogonidae)	Tsuda et al.	T. Yanase, T. Kato, Y. Katagiri, M. Aizawa, K. Nakamura, T. Kokuba, M. Araki, H. Shirafuji, M. Yamakawa and T. Tsuda	2010	Medical Entomology and Zoology	61	1	85-91		https://doi.org/10.7601/mez.61.85

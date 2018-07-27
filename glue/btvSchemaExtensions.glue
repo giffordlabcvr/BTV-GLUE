@@ -1,10 +1,8 @@
 schema-project btv
 
   create custom-table isolate --idFieldLength 200
+  create custom-table publication
   
-  create custom-table publication   
-  create custom-table isolate_publication   
-
   table sequence
     create field gb_gi_number VARCHAR
     create field gb_primary_accession VARCHAR
@@ -24,13 +22,11 @@ schema-project btv
     create field gb_collection_month_day INTEGER
     create field gb_create_date DATE
     create field gb_update_date DATE
-    create field gb_pubmed_id VARCHAR    
     create field complete_segment BOOLEAN
     create field excluded BOOLEAN 
     create field excluded_reason VARCHAR 
     create field recogniser_segment VARCHAR
     create field isolate_segment INTEGER
-    
     exit
 
   table isolate
@@ -49,12 +45,27 @@ schema-project btv
     create field alt_names CLOB
     exit
 
+  table publication
+    create field title VARCHAR 500
+    create field authors_short VARCHAR
+    create field authors_full VARCHAR 1000
+    create field year INTEGER
+    create field journal VARCHAR 500
+    create field volume VARCHAR
+    create field issue VARCHAR
+    create field pages VARCHAR
+    create field url VARCHAR 500
+    exit
+
+
   table member_floc_note
   	create field ref_nt_coverage_pct DOUBLE
   	exit
 
   # WHO regions / countries etc (M49 standard)
   run file glue/who_countries/whoCountriesSchemaExtension.glue
+
+  create link sequence publication -m MANY_TO_ONE
     
   create link sequence who_country -m MANY_TO_ONE
 

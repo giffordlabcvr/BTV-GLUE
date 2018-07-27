@@ -35,23 +35,20 @@
 	<updateDate>${renderProperty('gb_update_date')}</updateDate>
 	<@elem tag="length" expr="gb_length" type="Integer"/>
 	<@elem tag="segment" expr="isolate_segment" type="Integer"/>
-<#if pmid_reference ??>	
-<#assign referenceText = "PubMed Reference "+pmid_reference>
-<#assign referenceUrl = "https://www.ncbi.nlm.nih.gov/pubmed/?term="+pmid_reference>
-<#else>
-<#if alt_reference ??>
-<#assign referenceText = alt_reference>
-<#else>
-<#if alt_reference_url ??>
-<#assign referenceText = alt_reference_url>
+<#if publication ??>	
+	<publication>
+		<id>${publication.id}</id>
+		<displayName>${publication.authors_short}, ${publication.year?c}</displayName>
+		<title>${publication.title}</title>
+		<authors>${publication.authors_full}</authors>
+		<year>${publication.year?c}</year>
+		<journal>${publication.journal}</journal>
+		<url>${publication.url}</url>
+		<@elem tag="volume" expr="context.volume" context=publication/>
+		<@elem tag="issue" expr="context.issue" context=publication/>
+		<@elem tag="pages" expr="context.pages" context=publication/>
+	</publication>
 </#if>
-</#if>
-<#if alt_reference_url ??>
-<#assign referenceUrl = alt_reference_url>
-</#if>
-</#if>
-	<@elem tag="referenceText" expr="referenceText"/>
-	<@elem tag="referenceUrl" expr="referenceUrl"/>
 <#if isolate ??>
 	<@elem tag="isolateID" expr="context.id" context=isolate/>
 	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>

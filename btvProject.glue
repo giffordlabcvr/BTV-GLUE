@@ -29,6 +29,9 @@ project btv
   ## commented out from the project build until they are published.
   ## run file glue/btvImportUnpublished.glue
 
+  # load publications
+  run script glue/btvLoadPublications.js
+
   # import sequence-associated data from GenBank xml and tabular
   run file glue/btvSequenceAssociatedData.glue
 

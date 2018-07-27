@@ -81,13 +81,15 @@
 			<th>Complete segment?</th>
 			<th>NCBI Entry Creation Date</th>
 			<th>NCBI Last Update Date</th>
+			<th>Reference</th>
 			<colgroup>
-				<col span="1" style="width: 20%;">
+				<col span="1" style="width: 18%;">
+				<col span="1" style="width: 7%;">
+				<col span="1" style="width: 7%;">
+				<col span="1" style="width: 7%;">
 				<col span="1" style="width: 10%;">
 				<col span="1" style="width: 10%;">
-				<col span="1" style="width: 10%;">
-				<col span="1" style="width: 20%;">
-				<col span="1" style="width: 20%;">
+				<col span="1" style="width: 15%;">
 			</colgroup>
 		</thead>
 		<tbody>
@@ -100,9 +102,25 @@
 				<td>{{seq.completeSegment ? "Yes" : "No"}}</td>
 				<td>{{seq.create_date}}</td>
 				<td>{{seq.update_date}}</td>
+				<td ng-if="seq.publicationId"><a href="{{seq.publicationUrl}}" target="_blank">{{seq.publicationDisplayName}} [{{seq.publicationIndex}}] <i class="glyphicon glyphicon-link"></i></a></td>
+				<td ng-if="!seq.publicationId">-</td>
 			</tr>
 		</tbody>
 	</table>
+
+	<h4 ng-if="renderResult.isolate.reference.length > 0">References</h4>
+
+	<ol>
+		<li ng-repeat="publication in renderResult.isolate.reference">
+			<b>{{publication.title}}</b><br/>
+			{{publication.authors}},
+			{{publication.journal}} 
+			{{(publication.volume != null && publication.issue != null) ? (publication.volume + "("+publication.issue+")" ) : (publication.volume != null ? publication.volume : "" ) }} 
+			{{publication.pages != null ? publication.pages : "" }}
+			({{publication.year}})<br/>
+			<a href="{{publication.url}}" target="_blank">{{publication.url}} <i class="glyphicon glyphicon-link"></i></a>
+		</li>
+	</ol>
 
 
 

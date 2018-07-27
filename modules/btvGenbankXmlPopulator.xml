@@ -205,10 +205,10 @@
 
 	</gbFeature>
 
-	<!-- #### PUBMED ID -->	
+	<!-- This will link the sequence to the appropriate publication -->	
 	<gbReference>
 		<gbRefPubmed>
-			<propertyPopulator property="gb_pubmed_id"/>
+			<propertyPopulator property="publication"/>
 		</gbRefPubmed>
 	</gbReference>
 
