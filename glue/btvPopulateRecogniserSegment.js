@@ -2,7 +2,7 @@ var recogniserResultObjs;
 var reverseHits = [];
 var multipleHits = [];
 
-glue.inMode("module/segmentRecogniser", function() {
+glue.inMode("module/btvSegmentRecogniser", function() {
 	recogniserResultObjs = glue.tableToObjects(glue.command(["recognise", "sequence", "-w", "excluded = false"]));
 })
 

@@ -18,7 +18,7 @@ _.each(segments, function(segment) {
 
 	var recognitionResults;
 	
-	glue.inMode("/module/segmentRecogniser", function() {
+	glue.inMode("/module/btvSegmentRecogniser", function() {
 		recognitionResults = glue.command(["recognise", "sequence", "-w", whereClause], {convertTableToObjects: true});
 	});
 

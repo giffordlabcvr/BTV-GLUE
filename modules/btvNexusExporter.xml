@@ -1,0 +1,38 @@
+<nexusExporter>
+	<freemarkerAnnotationGenerator>
+		<annotationName>country_iso</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.who_country.id')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>country_display_name</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.who_country.display_name')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>region</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.who_country.who_region.id')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>sub_region</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.who_country.who_sub_region.id')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>host</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.host')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>isolate_display_name</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.display_name')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>year</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.collection_year')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>accession</annotationName>
+		<template>${renderNestedProperty('sequence.sequenceID')}</template>
+	</freemarkerAnnotationGenerator>
+	<figtreeProperty name="tipLabels.colorAttribute">region</figtreeProperty>
+	<figtreeProperty name="tipLabels.displayAttribute">isolate_display_name</figtreeProperty>
+	<figtreeProperty name="nodeLabels.displayAttribute">bootstraps</figtreeProperty>
+	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
+</nexusExporter>

@@ -12,6 +12,8 @@
   create module --fileName modules/s10CompoundAligner.xml s10CompoundAligner
 
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
+  
+  create module --fileName modules/btvGenbankXmlSerotypePopulator.xml
 
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
@@ -42,9 +44,13 @@
   create module --fileName modules/mafftAligner.xml
   
   create module --fileName modules/btvRaxmlPhylogenyGenerator.xml
-  create module --fileName modules/btvPhyloUtility.xml   
+  create module --fileName modules/btvPhyloUtility.xml
+  create module --fileName modules/btvPhyloImporter.xml
   
-  create module --fileName modules/segmentRecogniser.xml  
+  create module --fileName modules/btvSegmentRecogniser.xml  
+
+  create module --fileName modules/btvSeg2SerotypeRecogniser.xml
+  create module --fileName modules/btvSeg6SerotypeRecogniser.xml
   
   create module --fileName modules/whoRegionTreeRenderer.xml --loadResources
   
@@ -54,5 +60,6 @@
   create module -f modules/whoCountriesTextToCustomTableRows.xml  
 
   create module -f modules/btvTabularUtility.xml  
+  create module -f modules/btvNexusExporter.xml  
 
   create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml  --loadResources 
