@@ -17,8 +17,19 @@
   # load isolate data / metadata
   run script glue/btvLoadIsolates.js
 
+  # populate gb_serotype: serotype as indicated in the GenBank record
+  module btvGenbankXmlSerotypePopulator
+    populate -w "source.name = 'ncbi-curated' and excluded = false and isolate_segment in ('2', '6')"
+    exit
+
+  # populate recogniser_serotype: serotype as indicated by the BLAST-based recogniser
+  run script glue/btvPopulateRecogniserSerotype.js
+
   # derive alt-names for isolates
   run script glue/btvSetIsolateAltNames.js
+
+  # set isolate serotypes from sequence serotypes
+  run script glue/btvSetIsolateSerotypes.js
   
   # "complete segment" field
   run file glue/populateCompleteSegmentField.glue

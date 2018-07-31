@@ -1,5 +1,13 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
+		<annotationName>accession_country_seg2serotype_year</annotationName>
+		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg2serotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>accession_country_seg6serotype_year</annotationName>
+		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg6serotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
 		<annotationName>country_iso</annotationName>
 		<template>${renderNestedProperty('sequence.isolate.who_country.id')}</template>
 	</freemarkerAnnotationGenerator>
@@ -30,6 +38,22 @@
 	<freemarkerAnnotationGenerator>
 		<annotationName>accession</annotationName>
 		<template>${renderNestedProperty('sequence.sequenceID')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>seg2serotype</annotationName>
+		<template>Serotype ${renderNestedProperty('sequence.isolate.seg2serotype')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>seg6serotype</annotationName>
+		<template>Serotype ${renderNestedProperty('sequence.isolate.seg6serotype')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>gb_serotype</annotationName>
+		<template>Serotype ${renderNestedProperty('sequence.gb_serotype')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>recogniser_serotype</annotationName>
+		<template>Serotype ${renderNestedProperty('sequence.recogniser_serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<figtreeProperty name="tipLabels.colorAttribute">region</figtreeProperty>
 	<figtreeProperty name="tipLabels.displayAttribute">isolate_display_name</figtreeProperty>

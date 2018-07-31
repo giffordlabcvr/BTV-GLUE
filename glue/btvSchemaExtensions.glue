@@ -45,6 +45,9 @@ schema-project btv
     create field passage_history VARCHAR
     create field passage_cells VARCHAR
     create field clinical_symptoms BOOLEAN
+    # segment 2 / 6 serotypes as reported by the genbank records, or failing that, the BLAST-based recogniser.
+    create field seg2serotype VARCHAR
+    create field seg6serotype VARCHAR
     # alternative isolate names, separated by ;
     create field alt_names CLOB
     exit

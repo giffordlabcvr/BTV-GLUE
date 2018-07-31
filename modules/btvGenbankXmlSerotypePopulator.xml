@@ -1,14 +1,13 @@
 <genbankXmlPopulator>
 
 	<gbFeature key="source">
-		<!-- #### SEGMENT -->			
-		<gbQualifier name="serotype">
+		<gbQualifier name="organism">
 			<propertyPopulator property="gb_serotype">
 				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
-		<gbQualifier name="organism">
+		<gbQualifier name="serotype">
 			<propertyPopulator property="gb_serotype">
 				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
@@ -17,6 +16,12 @@
 		<gbQualifier name="isolate">
 			<propertyPopulator property="gb_serotype">
 				<matchPattern>BTV(?:[/\-])?(\d+)</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		<gbQualifier name="isolate">
+			<propertyPopulator property="gb_serotype">
+				<matchPattern>[Ss]erotype (\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
@@ -39,4 +44,5 @@
 			</propertyPopulator>
 		</gbQualifier>
 	</gbFeature>
+	
 </genbankXmlPopulator>

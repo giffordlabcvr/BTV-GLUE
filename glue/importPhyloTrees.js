@@ -8,7 +8,7 @@ _.each(segments, function(segment) {
 	glue.inMode("module/btvPhyloImporter", function() {
 	    glue.command(["import", "phylogeny", alName, 
 	                  "-w", "sequence.source.name = 'ncbi-curated'", 
-	                  "-i", "trees/phyloTrees/S"+segment+".tree", "NEWICK_BOOTSTRAPS", 
+	                  "-i", "trees/phyloTrees/S"+segment+"_mp_rerooted.tree", "NEWICK_BOOTSTRAPS", 
 	                  "-f", "phylogeny" ]);
 	});
 });
