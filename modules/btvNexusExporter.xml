@@ -55,8 +55,11 @@
 		<annotationName>recogniser_serotype</annotationName>
 		<template>Serotype ${renderNestedProperty('sequence.recogniser_serotype')}</template>
 	</freemarkerAnnotationGenerator>
+	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty name="tipLabels.colorAttribute">region</figtreeProperty>
 	<figtreeProperty name="tipLabels.displayAttribute">isolate_display_name</figtreeProperty>
+	<figtreeProperty type="integer" name="nodeLabels.fontSize">13</figtreeProperty>
+	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
 	<figtreeProperty name="nodeLabels.displayAttribute">bootstraps</figtreeProperty>
 	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
 </nexusExporter>
