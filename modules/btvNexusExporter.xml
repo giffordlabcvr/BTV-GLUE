@@ -41,19 +41,19 @@
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>isolateS2serotype</annotationName>
-		<template>Serotype ${renderNestedProperty('sequence.isolate.seg2serotype')}</template>
+		<template>${renderNestedProperty('sequence.isolate.seg2serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>isolateS6serotype</annotationName>
-		<template>Serotype ${renderNestedProperty('sequence.isolate.seg6serotype')}</template>
+		<template>${renderNestedProperty('sequence.isolate.seg6serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>gb_serotype</annotationName>
-		<template>Serotype ${renderNestedProperty('sequence.gb_serotype')}</template>
+		<template>${renderNestedProperty('sequence.gb_serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>recogniser_serotype</annotationName>
-		<template>Serotype ${renderNestedProperty('sequence.recogniser_serotype')}</template>
+		<template>${renderNestedProperty('sequence.recogniser_serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty name="tipLabels.colorAttribute">region</figtreeProperty>
