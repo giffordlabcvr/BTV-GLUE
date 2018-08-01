@@ -98,8 +98,7 @@ task deployAll(dependsOn: ['deployGluetoolsWebWarGlueHomeAWS',
 	'deployGluetoolsWsWarGlueHomeAWS',
 	'deployBtvGlueWarGlueHomeAWS',
 	'deployBtvGlueGluetoolsWsContextXmlGlueHomeAWS',
-	'deployBtvGlueConfigGlueHomeAWS',
-	'deployBtvGlueDbToGlueHomeAWS'])
+	'deployBtvGlueConfigGlueHomeAWS'])
 
 task deployGluetoolsWebWarGlueHomeAWS(type: DeployWarTask, dependsOn: 'copyGluetoolsWebWar') {
     warFile = new File(buildDir, 'runtimeWars/gluetools-web.war')
@@ -247,29 +246,6 @@ task buildBtvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'btvProject.glue'
-}
-
-task dumpBtvGlueDB(type: Exec) {
-	standardOutput = new FileOutputStream(new File('/tmp/btv_glue.sql'))
-	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'btvglue', '--password=btvglue', 'BTV_GLUE'
-}
-
-task zipBtvGlueDB(type: Exec, dependsOn: 'dumpBtvGlueDB') {
-	commandLine '/usr/bin/gzip', '-f', '/tmp/btv_glue.sql'
-}
-
-task deployBtvGlueDbToGlueHomeAWS(dependsOn: 'zipBtvGlueDB') {
-  doLast {
-	  println "Uploading BTV-GLUE DB"
-	  ssh.run {
-	    session(remotes.gluehome_aws) {
-	 	  put from: '/tmp/btv_glue.sql.gz', into: '/tmp/btv_glue.sql.gz'
-	      execute 'echo "drop database BTV_GLUE; create database BTV_GLUE character set UTF8;" | mysql -u btvglue --password=btvglue BTV_GLUE'
-	      execute 'gunzip -c /tmp/btv_glue.sql.gz | mysql -u btvglue --password=btvglue BTV_GLUE'
-	      execute 'rm /tmp/btv_glue.sql.gz'
-	    }
-	  }
-  }
 }
 
 def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/Users/joshsinger/.ssh/github_id_rsa' : '/opt/bitnami/apps/jenkins/jenkins_home/.ssh/github_id_rsa'
