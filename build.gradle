@@ -22,11 +22,13 @@ repositories {
 configurations {
 	gluetoolsWebWar
 	gluetoolsWsWar
+	gluetoolsCore
 }
 
 dependencies {
     gluetoolsWebWar group: 'cvr.ac.uk', name: 'gluetools-web', version: project.glueVersion, transitive: false
     gluetoolsWsWar group: 'cvr.ac.uk', name: 'gluetools-ws', version: project.glueVersion, transitive: false
+    gluetoolsCore group: 'cvr.ac.uk', name: 'gluetools-core', version: project.glueVersion, transitive: false
 }
 
 
