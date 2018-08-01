@@ -6,6 +6,7 @@ run file glue/btvSchemaExtensions.glue
  
 project btv
 
+  # settings file, including version
   run file glue/btvProjectSettings.glue
   
   # create modules from files
