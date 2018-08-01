@@ -69,8 +69,27 @@
 				</tr>
 			</table>
 		</div>
-	</div>
+		<div class="col-md-6">
+			<h4>Serotype</h4>
 	
+			<table class="table table-striped table-bordered">
+				<thead>
+				<col width="50%" />
+				<col width="50%" />
+				</thead>
+				<tr>
+					<td><b>Segment 2 serotype</b></td>
+					<td>{{handleNull(renderResult.isolate.seg2serotype)}}</td>
+				</tr>
+				<tr>
+					<td><b>Segment 6 serotype</b></td>
+					<td>{{handleNull(renderResult.isolate.seg6serotype)}}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
 	<h4>Sequence details</h4>
 
 	<table class="table table-striped table-bordered">

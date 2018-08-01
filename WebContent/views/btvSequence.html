@@ -43,6 +43,23 @@
 					<td><b>Complete Segment?</b></td>
 					<td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
+				
+				<tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
+					<td><b>Serotype (annotated in GenBank)</b></td>
+					<td>{{handleNull(renderResult.sequence.gbSerotype)}}</td>
+				</tr>
+				<tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
+					<td><b>Serotype (detected by BTV-GLUE)</b></td>
+					<td>{{handleNull(renderResult.sequence.recogniserSerotype)}}</td>
+				</tr>
+				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
+					<td><b>Isolate segment 2 serotype</b></td>
+					<td>{{handleNull(renderResult.sequence.isolateSeg2Serotype)}}</td>
+				</tr>
+				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
+					<td><b>Isolate segment 6 serotype</b></td>
+					<td>{{handleNull(renderResult.sequence.isolateSeg6Serotype)}}</td>
+				</tr>
 				<tbody
 					ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index"
 					ng-show="alignment.constrainingReference">
