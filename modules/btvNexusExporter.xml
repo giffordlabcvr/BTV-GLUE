@@ -1,10 +1,10 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
-		<annotationName>accession_country_seg2serotype_year</annotationName>
+		<annotationName>accession_country_isolateS2serotype_year</annotationName>
 		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg2serotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
-		<annotationName>accession_country_seg6serotype_year</annotationName>
+		<annotationName>accession_country_isolateS6serotype_year</annotationName>
 		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg6serotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
@@ -40,11 +40,11 @@
 		<template>${renderNestedProperty('sequence.sequenceID')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
-		<annotationName>seg2serotype</annotationName>
+		<annotationName>isolateS2serotype</annotationName>
 		<template>Serotype ${renderNestedProperty('sequence.isolate.seg2serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
-		<annotationName>seg6serotype</annotationName>
+		<annotationName>isolateS6serotype</annotationName>
 		<template>Serotype ${renderNestedProperty('sequence.isolate.seg6serotype')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
