@@ -26,18 +26,19 @@ project btv
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
-  ## commented out from the project build until they are published.
-  ## run file glue/btvImportUnpublished.glue
-
   # load publications
   run script glue/btvLoadPublications.js
 
   # import sequence-associated data from GenBank xml and tabular
   run file glue/btvSequenceAssociatedData.glue
 
+  # phylo alignments and trees are 10 unconstrained alignments of complete-segment sequences, one for
+  # each segment. Each one has an associated RAxML generated tree (1000 bootstraps) as side data.
+  # From these, "display trees" can be generated, suitable for loading into FigTree.
+  run script glue/importPhyloAlignmentsAndTrees.js
+
   # alignment tree
   #run file glue/btvAlignmentTree.glue
-
     
   ## record feature presence
   #run file glue/recordFeaturePresence.glue

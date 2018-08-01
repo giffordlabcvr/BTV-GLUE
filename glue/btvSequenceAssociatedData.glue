@@ -14,7 +14,7 @@
   # set false rather than null value for non-excluded fields
   multi-set field sequence -w "excluded = null" excluded false
 
-  # load isolate data / metadata
+  # load isolate data / metadata. As a side effect, isolate_segment on sequence table is populated.
   run script glue/btvLoadIsolates.js
 
   # populate gb_serotype: serotype as indicated in the GenBank record

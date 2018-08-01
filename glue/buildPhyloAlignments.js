@@ -19,4 +19,7 @@ _.each(segments, function(segment) {
 	glue.inMode("module/fastaAlignmentExporter", function() {
 		glue.command(["export", alName, "--allMembers", "--fileName", "alignments/phyloUnconstrained/"+alName+".fna"]);
 	});
+	glue.inMode("alignment/"+alName, function() {
+		glue.command(["export", "command-document", "--fileName", "alignments/phyloUnconstrained/"+alName+".json"]);
+	});
 });
