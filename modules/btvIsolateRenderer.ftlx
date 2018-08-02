@@ -11,6 +11,7 @@
 	<@elem tag="collectionYear" expr="collection_year" type="Integer"/>
 	<@elem tag="collectionMonth" expr="collection_month"/>
 	<@elem tag="collectionMonthDay" expr="collection_month_day"  type="Integer"/>
+	<@elem tag="completeGenome" expr="complete_genome"  type="Boolean"/>
 	<@elem tag="passageCells" expr="passage_cells"/>
 	<@elem tag="passageHistory" expr="passage_history"/>
 	<@elem tag="placeSampled" expr="place_sampled"/>
@@ -23,6 +24,7 @@
 <#assign pubs = []>	
 		
 <#list sequence?sort_by("isolate_segment") as seq>
+	<#if seq.source.name = 'ncbi-curated'>
 	<sequence glueType="Object[]">
 		<sourceName>${seq.source.name}</sourceName>
 		<sequenceID>${seq.sequenceID}</sequenceID>
@@ -44,6 +46,7 @@
 			<publicationIndex>${pubIDs?seq_index_of(seq.publication.id)+1}</publicationIndex>
 		</#if>
 	</sequence>
+	</#if>
 </#list>
 	<@elem tag="country" expr="context.display_name" context=who_country/>
 	<@elem tag="country_iso" expr="context.id" context=who_country/>

@@ -50,6 +50,8 @@ schema-project btv
     create field seg6serotype VARCHAR
     # alternative isolate names, separated by ;
     create field alt_names CLOB
+    # true iff isolate has at least one "complete segment" sequence for each of the 10 segments
+    create field complete_genome BOOLEAN
     exit
 
   table publication

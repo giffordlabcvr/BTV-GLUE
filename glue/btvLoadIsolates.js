@@ -191,6 +191,7 @@ _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 	}
 });
 
+
 _.each(_.pairs(seqIdToSegs), function(pair) {
 	var seqID = pair[0];
 	var segs = pair[1];
@@ -198,7 +199,8 @@ _.each(_.pairs(seqIdToSegs), function(pair) {
 		if(segs.length > 1) {
 			throw new Error("Sequence \""+seqID+"\" referenced as multiple segments: "+JSON.stringify(segs));
 		} else {
-			glue.command(["set", "field", "isolate_segment", segs[0]]);
+			var segNumber = segs[0];
+			glue.command(["set", "field", "isolate_segment", segNumber]);
 		}
 	});
 });

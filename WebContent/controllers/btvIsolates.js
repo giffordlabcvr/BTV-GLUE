@@ -251,6 +251,7 @@ btvApp.controller('btvIsolatesCtrl',
   	            $scope.globalRegionFilter(),
   	            $scope.developmentStatusFilter(),
          		{ property:"host", displayName: "Host Species", filterHints: {type: "String"} },
+         		{ property:"complete_genome", displayName: "Complete Genome?", filterHints: {type: "Boolean"} },
   	            { property:"seg2serotype", altProperties:["seg6serotype"], displayName: "Serotype", filterHints: {type: "Integer"} },
 	            { property:"collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} }
 			]);

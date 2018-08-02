@@ -31,6 +31,8 @@
   # set isolate serotypes from sequence serotypes
   run script glue/btvSetIsolateSerotypes.js
   
-  # "complete segment" field
+  # "complete segment" field on sequences
   run file glue/populateCompleteSegmentField.glue
   
+  # "complete genome" field on isolates
+  run script glue/populateCompleteGenomeField.js
