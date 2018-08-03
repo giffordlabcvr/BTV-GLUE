@@ -118,11 +118,6 @@
 					<td><b>Place sampled</b></td>
 					<td>{{handleNull(renderResult.sequence.placeSampled)}}</td>
 				</tr>
-
-				<tr ng-if="renderResult.sequence.country">
-					<td><b>Country Development Status</b></td>
-					<td>{{renderDevelopmentStatus(renderResult.sequence)}}</td>
-				</tr>
 				<tr ng-if="renderResult.sequence.country">
 					<td><b>Global Region</b></td>
 					<td>{{renderGlobalRegion(renderResult.sequence)}}</td>
