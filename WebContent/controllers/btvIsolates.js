@@ -253,7 +253,12 @@ btvApp.controller('btvIsolatesCtrl',
          		{ property:"host", displayName: "Host Species", filterHints: {type: "String"} },
          		{ property:"complete_genome", displayName: "Complete Genome?", filterHints: {type: "Boolean"} },
   	            { property:"seg2serotype", altProperties:["seg6serotype"], displayName: "Serotype", filterHints: {type: "Integer"} },
-	            { property:"collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} }
+	            { property:"collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
+  	            { property:"sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
+  	            { property:"place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
+  	            { property:"tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
+  	            { property:"passage_history", displayName: "Passage History", filterHints: {type: "String"} },
+  	            { property:"passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} }
 			]);
 			                          			
 		}]);
