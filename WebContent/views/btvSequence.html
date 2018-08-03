@@ -17,18 +17,18 @@
 				<col width="50%" />
 				</thead>
 				<tr>
-					<td><b>NCBI Nucleotide DB Entry</b></td>
+					<td><b>GenBank Entry</b></td>
 					<td><a target="_blank"
 						href="https://www.ncbi.nlm.nih.gov/nuccore/{{renderResult.sequence.sequenceID}}">{{renderResult.sequence.sequenceID}}
 							<i class="glyphicon glyphicon-link"></i>
 					</a></td>
 				</tr>
 				<tr>
-					<td><b>NCBI Entry Creation Date</b></td>
+					<td><b>GenBank Creation Date</b></td>
 					<td>{{renderResult.sequence.creationDate}}</td>
 				</tr>
 				<tr>
-					<td><b>NCBI Last Update Date</b></td>
+					<td><b>GenBank Last Update Date</b></td>
 					<td>{{renderResult.sequence.updateDate}}</td>
 				</tr>
 				<tr>
@@ -44,7 +44,7 @@
 					<td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
 				
-				<tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
+				<tr>
 					<td><b>Serotype (annotated in GenBank)</b></td>
 					<td>{{handleNull(renderResult.sequence.gbSerotype)}}</td>
 				</tr>
@@ -53,11 +53,11 @@
 					<td>{{handleNull(renderResult.sequence.recogniserSerotype)}}</td>
 				</tr>
 				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Isolate segment 2 serotype</b></td>
+					<td><b>Serotype of segment 2 in the same isolate</b></td>
 					<td>{{handleNull(renderResult.sequence.isolateSeg2Serotype)}}</td>
 				</tr>
 				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Isolate segment 6 serotype</b></td>
+					<td><b>Serotype of segment 6 in the same isolate</b></td>
 					<td>{{handleNull(renderResult.sequence.isolateSeg6Serotype)}}</td>
 				</tr>
 				<tbody

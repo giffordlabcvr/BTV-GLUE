@@ -1,6 +1,8 @@
 
 var isolateIDs = glue.getTableColumn(glue.command(["list", "custom-table-row", "isolate", "-w", "complete_genome = true"]), "id");
 
+var gapSize = 100;
+
 // function used to pick a sequence when there are multiple available for a segment.
 // prefer longer sequences first, break ties by preferring earlier GB create date.
 // finally sort on sequenceID
@@ -27,15 +29,17 @@ function seqCompare(seq1, seq2) {
 	}
 }
 
-glue.command(["delete", "source", "ncbi-fullgenomes"]);
-glue.command(["create", "source", "ncbi-fullgenomes"]);
+glue.command(["delete", "source", "ncbi-curated-fullgenomes"]);
+glue.command(["create", "source", "ncbi-curated-fullgenomes"]);
 
-glue.command(["delete", "alignment", "PHYLO_UNC_FULLGENOMES"])
-glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"])
+glue.command(["delete", "source", "ncbi-refseqs-fullgenomes"]);
+glue.command(["create", "source", "ncbi-refseqs-fullgenomes"]);
 
-var seqIndex = 1;
 
-// find the widths of the PHYLO_UNC_S... alignments (maximum max reference coordinate of any member)
+glue.command(["delete", "alignment", "PHYLO_UNC_FULLGENOMES"]);
+glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"]);
+
+//find the widths of the PHYLO_UNC_S... alignments (maximum max reference coordinate of any member)
 var alignmentWidths = {};
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], 
 		function(segNum) {
@@ -45,6 +49,31 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
 		}
 );
 
+var segNumToRefSeq = {};
+
+var refConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-refseqs-fullgenomes", "REF_MASTER"];
+_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	var refSeqID;
+	glue.inMode("reference/REF_S"+segNum+"_MASTER", function() {
+		var result = glue.command(["show", "sequence"]);
+		refSeqID = result.showSequenceResult["sequence.sequenceID"];
+	});
+	refConcatenateCmd.push("ncbi-refseqs");
+	refConcatenateCmd.push(refSeqID);
+	var gbLength;
+	glue.inMode("sequence/ncbi-refseqs/"+refSeqID, function() {
+		gbLength = glue.command(["show", "length"]).lengthResult.length;
+	});
+	segNumToRefSeq[segNum] = {
+		sequenceID: refSeqID,
+		gb_length: gbLength
+	}
+});
+glue.command(refConcatenateCmd);
+
+populateFullGenomeAlignmentRow("ncbi-refseqs", segNumToRefSeq, "ncbi-refseqs-fullgenomes", "REF_MASTER");
+
+var seqIndex = 1;
 
 
 _.each(isolateIDs, function(isolateID) {
@@ -55,20 +84,20 @@ _.each(isolateIDs, function(isolateID) {
 	
 	var segNumToSeqs = _.groupBy(seqObjs, "isolate_segment");
 	
-	var chosenSeqs = {};
+	var segNumToSingleSeqs = {};
 	_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], 
 		function(segNum) {
 			var seqs = segNumToSeqs[segNum];
 			// sort sequences with preferred sequence at beginning of list.
 			var sortedSeqs = seqs.sort(seqCompare);
-			chosenSeqs[segNum] = sortedSeqs[0];
+			segNumToSingleSeqs[segNum] = sortedSeqs[0];
 		}
 	);
 
 	var concatenatedSeqID = "concatenated_"+seqIndex;
-	var concatenateCmd = ["concatenate", "sequence", "-g", "100", "ncbi-fullgenomes", concatenatedSeqID];
+	var concatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-curated-fullgenomes", concatenatedSeqID];
 	seqIndex++;
-	_.each(_.pairs(chosenSeqs), function(pair) {
+	_.each(_.pairs(segNumToSingleSeqs), function(pair) {
 		concatenateCmd.push("ncbi-curated");
 		concatenateCmd.push(pair[1].sequenceID);
 	});
@@ -76,13 +105,38 @@ _.each(isolateIDs, function(isolateID) {
 	glue.command(concatenateCmd);
 	
 	glue.inMode("custom-table-row/isolate/"+isolateID, function() {
-		glue.command(["add", "link-target", "sequence", "sequence/ncbi-fullgenomes/"+concatenatedSeqID]);
+		glue.command(["add", "link-target", "sequence", "sequence/ncbi-curated-fullgenomes/"+concatenatedSeqID]);
 	});
 
-	glue.inMode("alignment/PHYLO_UNC_FULLGENOMES", function() {
-		
-	});
-	
+	populateFullGenomeAlignmentRow("ncbi-curated", segNumToSingleSeqs, "ncbi-curated-fullgenomes", concatenatedSeqID);
 });
 
-glue.logInfo("alignmentWidths", alignmentWidths);
+function populateFullGenomeAlignmentRow(singleSequenceSource, segNumToSingleSeqObj, concatenatedSource, concatenatedSeqID) {
+	glue.inMode("alignment/PHYLO_UNC_FULLGENOMES", function() {
+		glue.command(["add", "member", concatenatedSource, concatenatedSeqID]);
+	});
+
+	var refOffset = 0;
+	var memberOffset = 0;
+	_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], 
+			function(segNum) {
+		var segSeqObj = segNumToSingleSeqObj[segNum];
+		var alignmentWidth = alignmentWidths[segNum];
+		var alignedSegs;
+		glue.inMode("alignment/PHYLO_UNC_S"+segNum+"/member/"+singleSequenceSource+"/"+segSeqObj.sequenceID, function() {
+			alignedSegs = glue.tableToObjects(glue.command(["list", "segment"]));
+		});
+		glue.inMode("alignment/PHYLO_UNC_FULLGENOMES/member/"+concatenatedSource+"/"+concatenatedSeqID, function() {
+			_.each(alignedSegs, function(alignedSeg) {
+				var refStart = alignedSeg.refStart + refOffset; 
+				var refEnd = alignedSeg.refEnd + refOffset; 
+				var memberStart = alignedSeg.memberStart + memberOffset; 
+				var memberEnd = alignedSeg.memberEnd + memberOffset; 
+				glue.command(["add", "segment", refStart, refEnd, memberStart, memberEnd]);
+			});
+		});
+		refOffset = refOffset + alignmentWidth;
+		memberOffset = memberOffset + segSeqObj.gb_length + gapSize;
+	}
+	);
+}

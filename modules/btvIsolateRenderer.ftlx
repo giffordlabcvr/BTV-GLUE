@@ -23,8 +23,8 @@
 <#assign pubIDs = []>	
 <#assign pubs = []>	
 		
-<#list sequence?sort_by("isolate_segment") as seq>
-	<#if seq.source.name = 'ncbi-curated'>
+<#list sequence as seq>
+	<#if seq.source.name = 'ncbi-curated' && seq.excluded = false>
 	<sequence glueType="Object[]">
 		<sourceName>${seq.source.name}</sourceName>
 		<sequenceID>${seq.sequenceID}</sequenceID>
@@ -46,6 +46,14 @@
 			<publicationIndex>${pubIDs?seq_index_of(seq.publication.id)+1}</publicationIndex>
 		</#if>
 	</sequence>
+	</#if>
+</#list>
+<#list sequence as seq>
+	<#if seq.source.name = 'ncbi-curated-fullgenomes'>
+	<fullGenome glueType="Object">
+		<sourceName>${seq.source.name}</sourceName>
+		<sequenceID>${seq.sequenceID}</sequenceID>
+	</fullGenome>
 	</#if>
 </#list>
 	<@elem tag="country" expr="context.display_name" context=who_country/>

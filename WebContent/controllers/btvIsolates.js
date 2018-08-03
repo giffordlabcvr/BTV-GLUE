@@ -246,7 +246,7 @@ btvApp.controller('btvIsolatesCtrl',
 			$scope.pagingContext.setDefaultFilterElems([]);
 
 			$scope.pagingContext.setFilterProperties([
-         		{ property:"id", displayName: "Name", filterHints: {type: "String", altProperties:["display_name", "alt_names"]} },
+         		{ property:"id", displayName: "Isolate Name", filterHints: {type: "String", altProperties:["display_name", "alt_names"]} },
   	            { property:"who_country.display_name", nullProperty:"who_country", altProperties:["who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
   	            $scope.developmentStatusFilter(),

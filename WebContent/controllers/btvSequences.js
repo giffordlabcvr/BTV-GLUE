@@ -14,7 +14,6 @@ projectBrowser.controller('btvSequencesCtrl',
                      "sequenceID",
                      "isolate.who_country.id",
                      "isolate.who_country.display_name",
-                     "isolate.who_country.development_status",
                      "isolate.who_country.who_region.id",
                      "isolate.who_country.who_region.display_name",
                      "isolate.who_country.who_sub_region.id",
@@ -36,43 +35,40 @@ projectBrowser.controller('btvSequencesCtrl',
 
 			
 			$scope.pagingContext.setDefaultSortOrder([
-  			    { property: "sequenceID", displayName: "NCBI Nucleotide ID", order: "+" }
+  			    { property: "sequenceID", displayName: "GenBank Accession", order: "+" }
   			]);
 
   			
   			$scope.pagingContext.setSortableProperties([
-  	            { property:"sequenceID", displayName: "NCBI Nucleotide ID" },
-  	            { property:"gb_create_date", displayName: "NCBI Entry Creation Date" },
-  	            { property:"gb_update_date", displayName: "NCBI Last Update Date" },
+  	            { property:"sequenceID", displayName: "GenBank Accession" },
+  	            { property:"gb_create_date", displayName: "GenBank Creation Date" },
+  	            { property:"gb_update_date", displayName: "GenBank Last Update Date" },
   	            { property:"isolate.who_country.id", displayName: "Country of Origin" },
   	            { property:"isolate.collection_year", displayName: "Collection Year" },
-  	            { property:"isolate.id", displayName: "Isolate" },
+  	            { property:"isolate.id", displayName: "Isolate Name" },
   	            { property:"isolate.host", displayName: "Host Species" },
   	            { property:"isolate_segment", displayName: "Segment" },
-  	            { property:"pmid_reference", displayName: "PubMed ID" },
   	            { property:"gb_length", displayName: "Sequence Length" }
               ]);
 
 			$scope.pagingContext.setFilterProperties([
-           		{ property:"sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
+           		{ property:"sequenceID", displayName: "GenBank Accession", filterHints: {type: "String"} },
           		{ property:"gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
-          		{ property:"gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
-  	            { property:"gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
+          		{ property:"gb_create_date", displayName: "GenBank Creation Date", filterHints: {type: "Date"} },
+  	            { property:"gb_update_date", displayName: "GenBank Last Update Date", filterHints: {type: "Date"} },
   	            { property:"isolate_segment", displayName: "Segment", filterHints: {type: "Integer"} },
   	            { property:"complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
   	            { property:"isolate.who_country.display_name", nullProperty:"isolate.who_country", altProperties:["isolate.who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
-  	            $scope.developmentStatusFilter(),
   	            { property:"isolate.host", displayName: "Host Species", filterHints: {type: "String"} },
   	            { property:"isolate.collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
-  	            { property:"isolate.id", altProperties:["isolate.display_name", "isolate.alt_names"], displayName: "Isolate", filterHints: {type: "String"} },
-  	            { property:"isolate.seg2serotype", altProperties:["isolate.seg6serotype"], displayName: "Serotype", filterHints: {type: "Integer"} },
+  	            { property:"isolate.id", altProperties:["isolate.display_name", "isolate.alt_names"], displayName: "Isolate Name", filterHints: {type: "String"} },
+  	            { property:"isolate.seg2serotype", altProperties:["isolate.seg6serotype", "gb_serotype", "recogniser_serotype"], displayName: "Serotype", filterHints: {type: "Integer"} },
   	            { property:"isolate.sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
   	            { property:"isolate.place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
   	            { property:"isolate.tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
   	            { property:"isolate.passage_history", displayName: "Passage History", filterHints: {type: "String"} },
-  	            { property:"isolate.passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} },
-  	            { property:"pmid_reference", displayName: "PubMed ID", filterHints: {type: "String"} }
+  	            { property:"isolate.passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} }
   			]);
   			                          			
   			$scope.pagingContext.setDefaultFilterElems([]);

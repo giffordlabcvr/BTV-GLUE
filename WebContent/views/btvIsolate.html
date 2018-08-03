@@ -33,11 +33,6 @@
 					<td><b>Place sampled</b></td>
 					<td>{{handleNull(renderResult.isolate.placeSampled)}}</td>
 				</tr>
-
-				<tr ng-if="renderResult.isolate.country">
-					<td><b>Country Development Status</b></td>
-					<td>{{renderDevelopmentStatus(renderResult.isolate)}}</td>
-				</tr>
 				<tr ng-if="renderResult.isolate.country">
 					<td><b>Global Region</b></td>
 					<td>{{renderGlobalRegion(renderResult.isolate)}}</td>
@@ -78,7 +73,7 @@
 				<col width="50%" />
 				</thead>
 				<tr>
-					<td><b>Complete Genome?</b></td>
+					<td><b>Complete Genome?</b> (10 complete segments)</td>
 					<td>{{renderResult.isolate.completeGenome ? "Yes" : "No"}}</td>
 				</tr>
 				<tr>
@@ -98,12 +93,12 @@
 
 	<table class="table table-striped table-bordered">
 		<thead>
-			<th>NCBI Nucleotide ID</th>
+			<th>GenBank Accession</th>
 			<th>Segment</th>
 			<th>Length</th>
 			<th>Complete segment?</th>
-			<th>NCBI Entry Creation Date</th>
-			<th>NCBI Last Update Date</th>
+			<th>GenBank Creation Date</th>
+			<th>GenBank Last Update Date</th>
 			<th>Reference</th>
 			<colgroup>
 				<col span="1" style="width: 18%;">

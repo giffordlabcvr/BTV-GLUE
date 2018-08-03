@@ -1,6 +1,11 @@
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
+  # populate gb_serotype: serotype as indicated in the GenBank record
+  module btvGenbankXmlSerotypePopulator
+    populate -w "source.name = 'ncbi-curated'"
+    exit
+
   # Non-patent related sequences
   multi-set field sequence -w "gb_patent_related = null" gb_patent_related false
 
@@ -17,11 +22,6 @@
   # load isolate data / metadata. As a side effect, isolate_segment on sequence table is populated.
   run script glue/btvLoadIsolates.js
 
-  # populate gb_serotype: serotype as indicated in the GenBank record
-  module btvGenbankXmlSerotypePopulator
-    populate -w "source.name = 'ncbi-curated' and excluded = false and isolate_segment in ('2', '6')"
-    exit
-
   # populate recogniser_serotype: serotype as indicated by the BLAST-based recogniser
   run script glue/btvPopulateRecogniserSerotype.js
 
@@ -36,3 +36,4 @@
   
   # "complete genome" field on isolates
   run script glue/populateCompleteGenomeField.js
+  
