@@ -22,9 +22,18 @@
 	
 <#assign pubIDs = []>	
 <#assign pubs = []>	
-		
+	
+<#assign segSeqs = []>
+	
 <#list sequence as seq>
-	<#if seq.source.name = 'ncbi-curated' && seq.excluded = false>
+	<#if seq.source.name = 'ncbi-curated' && seq.excluded = false && seq.isolate_segment??>
+	<#assign segSeqs = segSeqs+[seq]>
+	</#if>
+</#list>
+
+<#assign segSeqs = segSeqs?sort_by("isolate_segment")>
+
+<#list segSeqs as seq>
 	<sequence glueType="Object[]">
 		<sourceName>${seq.source.name}</sourceName>
 		<sequenceID>${seq.sequenceID}</sequenceID>
@@ -46,8 +55,8 @@
 			<publicationIndex>${pubIDs?seq_index_of(seq.publication.id)+1}</publicationIndex>
 		</#if>
 	</sequence>
-	</#if>
 </#list>
+
 <#list sequence as seq>
 	<#if seq.source.name = 'ncbi-curated-fullgenomes'>
 	<fullGenome glueType="Object">
