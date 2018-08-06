@@ -14,6 +14,8 @@
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
   
   create module --fileName modules/btvGenbankXmlSerotypePopulator.xml
+  
+  create module --fileName modules/btvGenbankXmlOutgroupPopulator.xml
 
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
@@ -22,6 +24,8 @@
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
   create module --fileName modules/referenceAlignmentImporter.xml referenceAlignmentImporter
   create module --moduleType fastaExporter
+  
+  create module --fileName modules/btvBlastFastaProteinAlignmentImporter.xml
   
   create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
   
@@ -38,6 +42,9 @@
   # BTV GLUE reference sequences
   create module --fileName modules/ncbiRefSeqsImporter.xml 
 
+  # 10 segments of EHDV, used as an outgroup in the phylogenetics
+  create module --fileName modules/btvOutgroupNcbiImporter.xml
+
   create module --fileName modules/refseqCladeImporter.xml
 
   create module --fileName modules/blastFastaAlignmentImporter.xml
@@ -46,6 +53,9 @@
   create module --fileName modules/btvRaxmlPhylogenyGenerator.xml
   create module --fileName modules/btvPhyloUtility.xml
   create module --fileName modules/btvPhyloImporter.xml
+  
+  // selects the coding regions of the full genomes alignment
+  create module --fileName modules/btvFullGenomesPhyloColumnsSelector.xml
   
   create module --fileName modules/btvSegmentRecogniser.xml  
 
@@ -63,3 +73,7 @@
   create module -f modules/btvNexusExporter.xml  
 
   create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml  --loadResources 
+  
+  create module --moduleType fastaProteinExporter
+  
+  

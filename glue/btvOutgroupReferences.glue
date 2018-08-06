@@ -1,0 +1,60 @@
+create reference REF_S1_OUTGROUP ncbi-outgroup AM744977
+reference REF_S1_OUTGROUP 
+  add feature-location VP1
+  feature-location VP1 add segment 12 3920
+  exit
+
+create reference REF_S2_OUTGROUP ncbi-outgroup AM744978
+reference REF_S2_OUTGROUP 
+  add feature-location VP2
+  feature-location VP2 add segment 17 2932
+  exit
+
+create reference REF_S3_OUTGROUP ncbi-outgroup AM744979
+reference REF_S3_OUTGROUP 
+  add feature-location VP3
+  feature-location VP3 add segment 18 2717
+  exit
+
+create reference REF_S4_OUTGROUP ncbi-outgroup AM744980
+reference REF_S4_OUTGROUP 
+  add feature-location VP4
+  feature-location VP4 add segment 9 1943
+  exit
+
+create reference REF_S5_OUTGROUP ncbi-outgroup AM744981
+reference REF_S5_OUTGROUP 
+  add feature-location NS1
+  feature-location NS1 add segment 33 1688
+  exit
+
+create reference REF_S6_OUTGROUP ncbi-outgroup AM744982
+reference REF_S6_OUTGROUP 
+  add feature-location VP5
+  feature-location VP5 add segment 28 1611
+  exit
+
+create reference REF_S7_OUTGROUP ncbi-outgroup AM744983
+reference REF_S7_OUTGROUP 
+  add feature-location VP7
+  feature-location VP7 add segment 18 1067
+  exit
+
+create reference REF_S8_OUTGROUP ncbi-outgroup AM744984
+reference REF_S8_OUTGROUP 
+  add feature-location NS2
+  feature-location NS2 add segment 20 1141
+  exit
+
+create reference REF_S9_OUTGROUP ncbi-outgroup AM744985
+reference REF_S9_OUTGROUP 
+  add feature-location VP6
+  feature-location VP6 add segment 15 1097
+  exit
+
+create reference REF_S10_OUTGROUP ncbi-outgroup AM744986
+reference REF_S10_OUTGROUP 
+  add feature-location NS3
+  feature-location NS3 add segment 21 707
+  add feature-location NS3a
+  exit

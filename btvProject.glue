@@ -27,6 +27,12 @@ project btv
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
 
+  # Import NCBI outgroup sequence set
+  import source sources/ncbi-outgroup 
+  
+  # these ensure we have accurate feature annotations for the outgroup sequences.
+  run file glue/btvOutgroupReferences.glue
+
   # load publications
   run script glue/btvLoadPublications.js
 

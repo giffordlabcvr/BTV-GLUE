@@ -1,0 +1,33 @@
+<alignmentColumnsSelector>
+	<relRefName>REF_MASTER_FULLGENOME</relRefName>
+	<aminoAcidRegionSelector>
+		<featureName>VP1</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP2</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP3</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP4</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>NS1</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP5</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP7</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>NS2</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>VP6</featureName>
+	</aminoAcidRegionSelector>
+	<aminoAcidRegionSelector>
+		<featureName>NS3</featureName>
+	</aminoAcidRegionSelector>
+</alignmentColumnsSelector>

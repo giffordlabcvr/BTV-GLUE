@@ -5,6 +5,7 @@ var gapSize = 100;
 glue.command(["delete", "reference", "REF_MASTER_FULLGENOME"]);
 glue.command(["delete", "source", "ncbi-curated-fullgenomes"]);
 glue.command(["delete", "source", "ncbi-refseqs-fullgenomes"]);
+glue.command(["delete", "source", "ncbi-outgroup-fullgenomes"]);
 glue.command(["delete", "alignment", "PHYLO_UNC_FULLGENOMES"]);
 
 // find the widths of the PHYLO_UNC_S... alignments (maximum max reference coordinate of any member)
@@ -17,12 +18,13 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
 		}
 );
 
+//create an unconstrained alignment for the full genomes
+glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"]);
+
+
 // create a sequence ncbi-refseqs-fullgenomes/referenceFullGenome by concatenating all the segment reference sequences
-
 var segNumToRefSeq = {};
-
 glue.command(["create", "source", "ncbi-refseqs-fullgenomes"]);
-
 var refConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-refseqs-fullgenomes", "referenceFullGenome"];
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 	var refSeqID;
@@ -43,11 +45,25 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 });
 glue.command(refConcatenateCmd);
 
-// create an unconstrained alignment for the full genomes
-glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"]);
-
 // add ncbi-refseqs-fullgenomes/referenceFullGenome to this alignment
 populateFullGenomeAlignmentRow("ncbi-refseqs", segNumToRefSeq, "ncbi-refseqs-fullgenomes", "referenceFullGenome");
+
+//create a sequence ncbi-outgroup-fullgenomes/outgroupFullGenome by concatenating all the segment outgroup sequences
+var segNumToOutgroupSeq = {};
+glue.command(["create", "source", "ncbi-outgroup-fullgenomes"]);
+var outgroupConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-outgroup-fullgenomes", "outgroupFullGenome"];
+_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	var outgroupSeqObj = glue.tableToObjects(glue.command(["list", "sequence", 
+	                                          "-w", "source.name = 'ncbi-outgroup' and isolate_segment = '"+segNum+"'", 
+	                                          "sequenceID", "gb_length"]))[0];
+	outgroupConcatenateCmd.push("ncbi-outgroup");
+	outgroupConcatenateCmd.push(outgroupSeqObj.sequenceID);
+	segNumToOutgroupSeq[segNum] = outgroupSeqObj;
+});
+glue.command(outgroupConcatenateCmd);
+
+// add ncbi-outgroup-fullgenomes/outgroupFullGenome to this alignment
+populateFullGenomeAlignmentRow("ncbi-outgroup", segNumToOutgroupSeq, "ncbi-outgroup-fullgenomes", "outgroupFullGenome");
 
 // create a full genome reference sequence based on ncbi-refseqs-fullgenomes/referenceFullGenome, with the main coding regions defined.
 var segToFeatureName = {};
@@ -136,6 +152,12 @@ _.each(isolateIDs, function(isolateID) {
 });
 
 
+// export full genomes alignment to disk
+glue.inMode("module/fastaAlignmentExporter", function() {
+	glue.command(["export", "PHYLO_UNC_FULLGENOMES", "--allMembers", "--fileName", "alignments/phyloUnconstrained/PHYLO_UNC_FULLGENOMES.fna"]);
+});
+
+
 // function used to pick a sequence when there are multiple available for a segment.
 // prefer longer sequences first, break ties by preferring earlier GB create date.
 // finally sort on sequenceID
@@ -192,3 +214,6 @@ function populateFullGenomeAlignmentRow(singleSequenceSource, segNumToSingleSeqO
 	}
 	);
 }
+
+
+

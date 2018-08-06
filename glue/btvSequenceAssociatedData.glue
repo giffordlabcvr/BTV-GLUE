@@ -2,9 +2,10 @@
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
   # populate gb_serotype: serotype as indicated in the GenBank record
-  module btvGenbankXmlSerotypePopulator
-    populate -w "source.name = 'ncbi-curated'"
-    exit
+  module btvGenbankXmlSerotypePopulator populate -w "source.name = 'ncbi-curated'"
+
+  # this adds gb_length and isolate_segment to the outgroup sequences
+  module btvGenbankXmlOutgroupPopulator populate -w "source.name = 'ncbi-outgroup'"
 
   # Non-patent related sequences
   multi-set field sequence -w "gb_patent_related = null" gb_patent_related false

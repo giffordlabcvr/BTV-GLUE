@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncbiImporter>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <specificPrimaryAccessions>
+    <primaryAccession>AM744977</primaryAccession>
+    <primaryAccession>AM744978</primaryAccession>
+    <primaryAccession>AM744979</primaryAccession>
+    <primaryAccession>AM744980</primaryAccession>
+    <primaryAccession>AM744981</primaryAccession>
+    <primaryAccession>AM744982</primaryAccession>
+    <primaryAccession>AM744983</primaryAccession>
+    <primaryAccession>AM744984</primaryAccession>
+    <primaryAccession>AM744985</primaryAccession>
+    <primaryAccession>AM744986</primaryAccession>
+  </specificPrimaryAccessions>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  <eSearchRetMax>100000</eSearchRetMax>
+  <eFetchBatchSize>500</eFetchBatchSize>
+  <sourceName>ncbi-outgroup</sourceName>
+</ncbiImporter>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM744980</GBSeq_locus>
+    <GBSeq_length>1983</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-MAR-2015</GBSeq_update-date>
+    <GBSeq_create-date>29-SEP-2009</GBSeq_create-date>
+    <GBSeq_definition>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey) segment 4</GBSeq_definition>
+    <GBSeq_primary-accession>AM744980</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM744980.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM744980.1|</GBSeqid>
+      <GBSeqid>gi|260161593</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>complete genome segment</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)</GBSeq_source>
+    <GBSeq_organism>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1983</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Anthony,S.J.</GBAuthor>
+          <GBAuthor>Maan,N.</GBAuthor>
+          <GBAuthor>Maan,S.</GBAuthor>
+          <GBAuthor>Sutton,G.</GBAuthor>
+          <GBAuthor>Attoui,H.</GBAuthor>
+          <GBAuthor>Mertens,P.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic and phylogenetic analysis of the core proteins VP1, VP3, VP4, VP6 and VP7 of epizootic haemorrhagic disease virus (EHDV)</GBReference_title>
+        <GBReference_journal>Virus Res. 145 (2), 187-199 (2009)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.virusres.2009.07.011</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>19632280</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1983</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Anthony,S.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-MAY-2007) Anthony S.J., Department of Arbovirology, Institute for Animal Health, Ash Road, Pirbright, Surrey GU24 0NF, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1983</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1983</GBInterval_to>
+            <GBInterval_accession>AM744980.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>New Jersey</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>USA1955/01</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:449133</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA:New Jersey</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1955</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>9..1943</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1943</GBInterval_to>
+            <GBInterval_accession>AM744980.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP4</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>9..1943</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1943</GBInterval_to>
+            <GBInterval_accession>AM744980.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP4 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAN89080.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:C8TE61</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR007753</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:C8TE61</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPEPHAVIYVTEELTHLIKESYLPVWEIRGDETLNELWLTNGKYSSDIYAHGKIETWSYRQLRGHGFIFVSTRKTVQLSDVLMNVDVRIPKDIIKGVDVKAFETIIGRRRLKLRKMFGDVLRSYAFRKAIILHGSEAETLNDANPRLHKVYGLPKEPPMYHEGLCAQGPFLDEPTDEKLVSMLDYAIYSCEEVHYVGSGDGRTVMCFAKRSPERFHRIVWHLYDPIAVDLKYNNVYVHRMFVDGKRDIIRNVNLLKRVERLFIWDVSTDRGDMSDREWERHRFAEDRLGEEIAMSTSGLFSMAIIKHRIPRFMEQYHITSTYLFPQPGAPSDMYEVRNVMRLRGYSHVDRTRHQDAQVHTIVQKDVCKLVEWYHGREKGKRLKKMLFEYLHIMRENGLYAENEEPRADLFYLTNRCNYDMWREQKRVLRVSQIATMWVGGDQLFDYDDYSVPRALLMLECSHADVRVLDGNGAVLFLIWRYPDMYKRGLNYDPSWAMKFVVTMKEPVPDPPVPDISLCRFIGLRVESSLMRVRNPRVHQVNDELKRMGLDVSGHLYVTLLSGAYATDLLWWFKMILEWSSQNKEEKIRQLKASKAEVIEWKDEMAERPWHVRNDLIAALREFKFKIQKRWDAPVESWLDLLQRL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaacatgccggagccacatgcggttatctatgtcacggaggaactgacgcacctgattaaagagagttatttacctgtatgggagatacgaggcgatgagacattgaacgaattatggttgacaaatggaaaatactcatcagatatatacgctcatggaaagattgaaacttggagctataggcaactgaggggacacggatttatatttgtaagcacgaggaagactgtacaactgagtgatgtgttaatgaatgttgatgttagaataccaaaggatatcattaaaggtgttgatgtgaaagcattcgaaacaattataggccgaagaaggttaaagttaaggaaaatgttcggagatgttctgcgtagctacgcgtttaggaaggcaataatattacatggaagtgaagcggagacattgaatgatgcgaatccgcgattgcataaagtctatggattaccaaaagaacctccaatgtatcacgaaggattatgcgctcaaggaccgtttttggatgaaccaactgatgagaagttagtttcgatgctggattacgcgatctacagctgtgaagaagtacactatgtggggagcggcgacggacgcaccgtgatgtgctttgcaaaacgatcacctgaacggttccataggattgtatggcatttatatgatccaatagcggtagatttaaagtataataatgtttatgtacatcgtatgtttgtagatggaaaacgtgacataataagaaacgttaacctattgaaaagagtggagaggttatttatatgggacgtttcgacagatagaggtgacatgagtgatagagagtgggaaaggcatagatttgcggaggatagactaggagaagagatcgctatgtctacatcaggtttgttctcaatggctataattaagcaccggattccaagattcatggagcaataccatataacttcaacttatttattcccacagccaggagctccatcggatatgtatgaagtccgcaacgtcatgagattacggggatacagtcatgtggatcgaacgaggcatcaagatgctcaggtacacacaatagtgcagaaagatgtgtgtaaacttgtagaatggtatcatgggcgcgaaaagggtaaaaggttaaagaaaatgttgtttgagtacttacatataatgcgagagaatggtttatatgctgaaaacgaagagccacgagcggatttattctaccttacgaataggtgcaattatgatatgtggcgcgaacagaagcgtgtattacgagtgagtcaaattgcgacgatgtgggtcgggggtgatcagttattcgattatgatgattattcggttccaagggcgcttttgatgcttgagtgctcacatgcagatgtgagggtactggatgggaatggagcggtcttatttctaatatggcgctatccagatatgtataagcgtgggttgaactacgatccgagttgggcgatgaagttcgtggtcacaatgaaggagccggttccagatccaccggtaccggatatttcattatgtcgttttattggattacgcgtagagtcatctttgatgcgagtgcggaatcctcgcgtgcatcaggtcaacgatgagcttaaacgtatgggcttagacgtctcggggcatttatatgtcacattattaagcggagcgtacgcgacagatttgttatggtggtttaaaatgattttagagtggtcttcacaaaacaaggaagaaaaaataagacagttgaaagcctcgaaagccgaggtgatagaatggaaggatgagatggcggagagaccgtggcatgtccgaaatgatttaatagctgcgctacgcgaattcaaattcaagattcaaaagagatgggatgcgcctgttgagtcgtggctagatttactgcagcgcttatagaatgtggaagttctgagctaggcctgcgtgttacacttac</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMEA3283075</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>
