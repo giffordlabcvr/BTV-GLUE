@@ -1,45 +1,13 @@
-
-var isolateIDs = glue.getTableColumn(glue.command(["list", "custom-table-row", "isolate", "-w", "complete_genome = true"]), "id");
-
+// number of N's used between segments in concatenated sequences.
 var gapSize = 100;
 
-// function used to pick a sequence when there are multiple available for a segment.
-// prefer longer sequences first, break ties by preferring earlier GB create date.
-// finally sort on sequenceID
-function seqCompare(seq1, seq2) {
-	if(seq1.gb_length > seq2.gb_length) {
-		// prefer seq1
-		return -1;
-	}
-	if(seq1.gb_length < seq2.gb_length) {
-		// prefer seq2
-		return 1;
-	}
-	var date1 = new Date(seq1.gb_create_date.replace(/-/g, " "));
-	var date2 = new Date(seq2.gb_create_date.replace(/-/g, " "));
-	if(date1.getTime() < date2.getTime()) {
-		return -1;
-	} else if(date1.getTime() > date2.getTime()) {
-		return 1;
-	} 
-	if(seq1.sequenceID < seq2.sequenceID) {
-		return -1;
-	} else {
-		return 1;
-	}
-}
-
+// delete old data.
+glue.command(["delete", "reference", "REF_MASTER_FULLGENOME"]);
 glue.command(["delete", "source", "ncbi-curated-fullgenomes"]);
-glue.command(["create", "source", "ncbi-curated-fullgenomes"]);
-
 glue.command(["delete", "source", "ncbi-refseqs-fullgenomes"]);
-glue.command(["create", "source", "ncbi-refseqs-fullgenomes"]);
-
-
 glue.command(["delete", "alignment", "PHYLO_UNC_FULLGENOMES"]);
-glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"]);
 
-//find the widths of the PHYLO_UNC_S... alignments (maximum max reference coordinate of any member)
+// find the widths of the PHYLO_UNC_S... alignments (maximum max reference coordinate of any member)
 var alignmentWidths = {};
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], 
 		function(segNum) {
@@ -49,9 +17,13 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
 		}
 );
 
+// create a sequence ncbi-refseqs-fullgenomes/referenceFullGenome by concatenating all the segment reference sequences
+
 var segNumToRefSeq = {};
 
-var refConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-refseqs-fullgenomes", "REF_MASTER"];
+glue.command(["create", "source", "ncbi-refseqs-fullgenomes"]);
+
+var refConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-refseqs-fullgenomes", "referenceFullGenome"];
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 	var refSeqID;
 	glue.inMode("reference/REF_S"+segNum+"_MASTER", function() {
@@ -71,10 +43,61 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 });
 glue.command(refConcatenateCmd);
 
-populateFullGenomeAlignmentRow("ncbi-refseqs", segNumToRefSeq, "ncbi-refseqs-fullgenomes", "REF_MASTER");
+// create an unconstrained alignment for the full genomes
+glue.command(["create", "alignment", "PHYLO_UNC_FULLGENOMES"]);
+
+// add ncbi-refseqs-fullgenomes/referenceFullGenome to this alignment
+populateFullGenomeAlignmentRow("ncbi-refseqs", segNumToRefSeq, "ncbi-refseqs-fullgenomes", "referenceFullGenome");
+
+// create a full genome reference sequence based on ncbi-refseqs-fullgenomes/referenceFullGenome, with the main coding regions defined.
+var segToFeatureName = {};
+segToFeatureName["1"] = "VP1";
+segToFeatureName["2"] = "VP2";
+segToFeatureName["3"] = "VP3";
+segToFeatureName["4"] = "VP4";
+segToFeatureName["5"] = "NS1";
+segToFeatureName["6"] = "VP5";
+segToFeatureName["7"] = "VP7";
+segToFeatureName["8"] = "NS2";
+segToFeatureName["9"] = "VP6";
+segToFeatureName["10"] = "NS3";
+
+glue.command(["create", "reference", "REF_MASTER_FULLGENOME", "ncbi-refseqs-fullgenomes", "referenceFullGenome"]);
+
+var refOffset = 0;
+
+_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	var refSeqID;
+	var oldFeatureSegs;
+	var featureName = segToFeatureName[segNum];
+	glue.inMode("reference/REF_S"+segNum+"_MASTER/feature-location/"+featureName, function() {
+		oldFeatureSegs = glue.tableToObjects(glue.command(["list", "segment"]));
+	});
+	var newFeatureSegs = _.map(oldFeatureSegs, function(oldFeatureSeg) {
+		return {
+				refStart: oldFeatureSeg.refStart + refOffset,
+				refEnd: oldFeatureSeg.refEnd + refOffset
+		};
+	});
+	glue.inMode("reference/REF_MASTER_FULLGENOME", function() {
+		glue.command(["add", "feature-location", featureName]);
+		glue.inMode("/feature-location/"+featureName, function() {
+			_.each(newFeatureSegs, function(newFeatureSeg) {
+				glue.command(["add", "segment", newFeatureSeg.refStart, newFeatureSeg.refEnd]);
+			});
+		});
+	});
+	
+	refOffset = refOffset + segNumToRefSeq[segNum].gb_length + gapSize;
+});
+
+// create concatenated sequences in ncbi-curated-fullgenomes for each of the full genome isolates.
 
 var seqIndex = 1;
 
+glue.command(["create", "source", "ncbi-curated-fullgenomes"]);
+
+var isolateIDs = glue.getTableColumn(glue.command(["list", "custom-table-row", "isolate", "-w", "complete_genome = true"]), "id");
 
 _.each(isolateIDs, function(isolateID) {
 	var seqObjs;
@@ -108,9 +131,38 @@ _.each(isolateIDs, function(isolateID) {
 		glue.command(["add", "link-target", "sequence", "sequence/ncbi-curated-fullgenomes/"+concatenatedSeqID]);
 	});
 
+	// add the sequence to the unconstrained alignment of full genome sequences.
 	populateFullGenomeAlignmentRow("ncbi-curated", segNumToSingleSeqs, "ncbi-curated-fullgenomes", concatenatedSeqID);
 });
 
+
+// function used to pick a sequence when there are multiple available for a segment.
+// prefer longer sequences first, break ties by preferring earlier GB create date.
+// finally sort on sequenceID
+function seqCompare(seq1, seq2) {
+	if(seq1.gb_length > seq2.gb_length) {
+		// prefer seq1
+		return -1;
+	}
+	if(seq1.gb_length < seq2.gb_length) {
+		// prefer seq2
+		return 1;
+	}
+	var date1 = new Date(seq1.gb_create_date.replace(/-/g, " "));
+	var date2 = new Date(seq2.gb_create_date.replace(/-/g, " "));
+	if(date1.getTime() < date2.getTime()) {
+		return -1;
+	} else if(date1.getTime() > date2.getTime()) {
+		return 1;
+	} 
+	if(seq1.sequenceID < seq2.sequenceID) {
+		return -1;
+	} else {
+		return 1;
+	}
+}
+
+// function to add a sequence to the unconstrained alignment of full genome sequences.
 function populateFullGenomeAlignmentRow(singleSequenceSource, segNumToSingleSeqObj, concatenatedSource, concatenatedSeqID) {
 	glue.inMode("alignment/PHYLO_UNC_FULLGENOMES", function() {
 		glue.command(["add", "member", concatenatedSource, concatenatedSeqID]);
