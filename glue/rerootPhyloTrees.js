@@ -8,3 +8,10 @@ _.each(segments, function(segment) {
 	                  "-o", "trees/phyloTrees/S"+segment+"_mp_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
 	});
 });
+
+glue.inMode("module/btvPhyloUtility", function() {
+    glue.command(["reroot-phylogeny", 
+                  "-i", "trees/phyloTrees/FULL_GENOMES.tree", "NEWICK_BOOTSTRAPS", 
+                  "--midpoint", 
+                  "-o", "trees/phyloTrees/FULL_GENOMES_mp_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
+});

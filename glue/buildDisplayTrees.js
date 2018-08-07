@@ -1,13 +1,15 @@
 var segments = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 
-function almtName(segment) {
-	return "PHYLO_UNC_S"+segment;
-}
-
 _.each(segments, function(segment) {
 	glue.inMode("module/btvNexusExporter", function() {
 		
-		glue.command(["export", "tree", almtName(segment), 
+		glue.command(["export", "tree", "BTV_OUTG_CODON_"+segment, 
 		              "-f", "trees/phyloTrees/display/S"+segment+"_display.nexus"])
 	});
+});
+
+glue.inMode("module/btvNexusExporter", function() {
+	
+	glue.command(["export", "tree", "BTV_OUTG_CODON_FULLGENOME", 
+	              "-f", "trees/phyloTrees/display/FULL_GENOMES_display.nexus"])
 });

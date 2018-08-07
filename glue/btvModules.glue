@@ -15,7 +15,7 @@
   
   create module --fileName modules/btvGenbankXmlSerotypePopulator.xml
   
-  create module --fileName modules/btvGenbankXmlOutgroupPopulator.xml
+  create module --fileName modules/btvGenbankXmlReferencePopulator.xml
 
   create module --fileName modules/dataCorrectedImporter.xml dataCorrectedImporter
   create module --fileName modules/dataMissingImporter.xml dataMissingImporter
@@ -54,7 +54,7 @@
   create module --fileName modules/btvPhyloUtility.xml
   create module --fileName modules/btvPhyloImporter.xml
   
-  // selects the coding regions of the full genomes alignment
+  # selects the coding regions of the full genomes alignment
   create module --fileName modules/btvFullGenomesPhyloColumnsSelector.xml
   
   create module --fileName modules/btvSegmentRecogniser.xml  
@@ -74,6 +74,9 @@
 
   create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml  --loadResources 
   
+  create module -f modules/btvBlastFastaProteinAlignmentImporter.xml
+  
   create module --moduleType fastaProteinExporter
+  create module --moduleType fastaUtility
   
   

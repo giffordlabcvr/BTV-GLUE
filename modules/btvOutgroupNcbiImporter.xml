@@ -2,6 +2,7 @@
 <ncbiImporter>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <specificPrimaryAccessions>
+    <!-- EHDV -->
     <primaryAccession>AM744977</primaryAccession>
     <primaryAccession>AM744978</primaryAccession>
     <primaryAccession>AM744979</primaryAccession>
@@ -12,6 +13,17 @@
     <primaryAccession>AM744984</primaryAccession>
     <primaryAccession>AM744985</primaryAccession>
     <primaryAccession>AM744986</primaryAccession>
+    <!-- PATAV -->
+    <primaryAccession>JQ070386</primaryAccession>
+    <primaryAccession>JQ070387</primaryAccession>
+    <primaryAccession>JQ070388</primaryAccession>
+    <primaryAccession>JQ070389</primaryAccession>
+    <primaryAccession>JQ070390</primaryAccession>
+    <primaryAccession>JQ070391</primaryAccession>
+    <primaryAccession>JQ070392</primaryAccession>
+    <primaryAccession>JQ070393</primaryAccession>
+    <primaryAccession>JQ070394</primaryAccession>
+    <primaryAccession>JQ070395</primaryAccession>
   </specificPrimaryAccessions>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <eSearchRetMax>100000</eSearchRetMax>

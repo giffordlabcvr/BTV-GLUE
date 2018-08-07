@@ -1,7 +1,3 @@
 project btv
-  run script glue/buildPhyloAlignments.js
   run script glue/buildPhyloTrees.js
-  run script glue/rerootPhyloTrees.js
-  run script glue/importPhyloTrees.js
-  run script glue/buildDisplayTrees.js
   exit

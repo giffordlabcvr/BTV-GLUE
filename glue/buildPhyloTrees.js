@@ -14,7 +14,7 @@ segToFeatureName["9"] = "VP6";
 segToFeatureName["10"] = "NS3";
 
 function almtName(segment) {
-	return "PHYLO_UNC_S"+segment;
+	return "BTV_OUTG_CODON_"+segment;
 }
 
 _.each(segments, function(segment) {
@@ -27,7 +27,7 @@ _.each(segments, function(segment) {
 });
 
 glue.inMode("module/btvRaxmlPhylogenyGenerator", function() {
-    glue.command(["generate","nucleotide", "phylogeny", "PHYLO_UNC_FULLGENOMES", 
+    glue.command(["generate","nucleotide", "phylogeny", "BTV_OUTG_CODON_FULLGENOME", 
                   "-s", "btvFullGenomesPhyloColumnsSelector", "-w", "sequence.source.name in ('ncbi-curated-fullgenomes','ncbi-outgroup-fullgenomes')'", 
-                  "-o", "trees/phyloTrees/fullGenomes.tree", "NEWICK_BOOTSTRAPS"]);
+                  "-o", "trees/phyloTrees/FULL_GENOMES.tree", "NEWICK_BOOTSTRAPS"]);
 });

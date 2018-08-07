@@ -39,13 +39,16 @@ project btv
   # import sequence-associated data from GenBank xml and tabular
   run file glue/btvSequenceAssociatedData.glue
 
-  # phylo alignments and trees are 10 unconstrained alignments of complete-segment sequences, one for
-  # each segment. Each one has an associated RAxML generated tree (1000 bootstraps) as side data.
-  # From these, "display trees" can be generated, suitable for loading into FigTree.
-  run script glue/importPhyloAlignmentsAndTrees.js
+  # two sets of unconstrained alignments used for phylogenetic analysis
+  run script glue/importAlignments.js
 
-  # concatenated genomes
+  # concatenated genomes + alignment
   run script glue/concatenateCompleteGenomeSegments.js
+
+  # Trees associated with the BTV_OUTG_CODON... alignments as side data.
+  # RAxML generated tree (1000 bootstraps).
+  # From these, "display trees" can be generated, suitable for loading into FigTree.
+  # run script glue/importTrees.js
 
   # alignment tree
   #run file glue/btvAlignmentTree.glue
