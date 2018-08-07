@@ -21,7 +21,7 @@ _.each(segments, function(segment) {
 	var alName = almtName(segment);
 	glue.inMode("module/btvRaxmlPhylogenyGenerator", function() {
 	    glue.command(["generate","nucleotide", "phylogeny", alName, 
-	                  "-r", "REF_S"+segment+"_MASTER", "-f", segToFeatureName[segment], "-w", "sequence.source.name in ('ncbi-curated','ncbi-outgroup')'", 
+	                  "-r", "REF_S"+segment+"_MASTER", "-f", segToFeatureName[segment], "-w", "sequence.source.name in ('ncbi-curated','ncbi-outgroup')", 
 	                  "-o", "trees/phyloTrees/S"+segment+".tree", "NEWICK_BOOTSTRAPS"]);
 	});
 });
