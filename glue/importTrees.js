@@ -4,7 +4,8 @@ _.each(segments, function(segment) {
 	glue.inMode("module/btvPhyloImporter", function() {
 	    glue.command(["import", "phylogeny", "BTV_OUTG_CODON_"+segment, 
 	                  "-w", "sequence.source.name in ('ncbi-curated', 'ncbi-outgroup')", 
-	                  "-i", "trees/phyloTrees/S"+segment+"_mp_rerooted.tree", "NEWICK_BOOTSTRAPS", 
+//	                  "-i", "trees/phyloTrees/S"+segment+"_mp_rerooted.tree", "NEWICK_BOOTSTRAPS", 
+	                  "-i", "trees/phyloTrees/S"+segment+".tree", "NEWICK_BOOTSTRAPS", 
 	                  "-f", "phylogeny" ]);
 	});
 	glue.log("FINEST", "Imported tree for segment "+segment);

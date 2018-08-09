@@ -4,12 +4,14 @@ _.each(segments, function(segment) {
 	glue.inMode("module/btvNexusExporter", function() {
 		
 		glue.command(["export", "tree", "BTV_OUTG_CODON_"+segment, 
-		              "-f", "trees/phyloTrees/display/S"+segment+"_display.nexus"])
+		              "-f", "trees/phyloTrees/S"+segment+"_display.nexus"])
 	});
 });
-
+/*
 glue.inMode("module/btvNexusExporter", function() {
 	
 	glue.command(["export", "tree", "BTV_OUTG_CODON_FULLGENOME", 
-	              "-f", "trees/phyloTrees/display/FULL_GENOMES_display.nexus"])
+	              "-f", "trees/phyloTrees/FULL_GENOMES_display.nexus"])
 });
+
+*/
