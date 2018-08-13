@@ -1,0 +1,3 @@
+project btv
+  run script glue/buildFullGenomePhyloTree.js
+  exit
