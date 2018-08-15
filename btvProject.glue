@@ -1,6 +1,6 @@
 delete project btv
 
-create project btv "A GLUE project for Bluetongue virus (BTV)" --minVersion 1.0.13
+create project btv "A GLUE project for Bluetongue virus (BTV)" --minVersion 1.0.14
 
 run file glue/btvSchemaExtensions.glue
  
@@ -48,7 +48,9 @@ project btv
   # Trees associated with the BTV_OUTG_CODON... alignments as side data.
   # RAxML generated tree (1000 bootstraps).
   # From these, "display trees" can be generated, suitable for loading into FigTree.
-  # run script glue/importTrees.js
+  run script glue/importRootedTrees.js
+
+  run script glue/importRootedFullGenomeTree.js
 
   # alignment tree
   #run file glue/btvAlignmentTree.glue
