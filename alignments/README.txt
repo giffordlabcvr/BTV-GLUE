@@ -18,6 +18,13 @@ alignments/btvOutgroupCodon/BTV_OUTG_CODON_{n}.json
 -- per segment codon (i.e. nucleotide) alignments generated using GLUE BLAST importer, from BTV_OUTG_ALIGNED_{n}
 -- these will be used to generate trees, to allow the selection of per segment genotypes.
 
+alignments/btvOutgroupCodonAsProtein/BTV_OUTG_CODON_AS_PROTEIN_{n}.faa
+-- these are just the results of applying the
+fastaProteinAlignmentExporter to the btvOutgroupCodon alignments;
+should be basically the same as BTV_OUTG_ALIGNED...
+-- just looking at these in order to check that they will be OK for
+GLUE to use when generating RAXML protein trees.
+
 alignments/btvOutgroupCodon/BTV_OUTG_CODON_FULLGENOME.fna
 alignments/btvOutgroupCodon/BTV_OUTG_CODON_FULLGENOME.json
 -- Full genome concatenations of the above BTV_OUTG_CODON_{n} alignments.
