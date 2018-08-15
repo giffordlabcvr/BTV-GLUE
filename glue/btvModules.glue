@@ -51,6 +51,7 @@
   create module --fileName modules/mafftAligner.xml
   
   create module --fileName modules/btvRaxmlPhylogenyGenerator.xml
+  create module --fileName modules/btvRaxmlProteinPhylogenyGenerator.xml
   create module --fileName modules/btvPhyloUtility.xml
   create module --fileName modules/btvPhyloImporter.xml
   
