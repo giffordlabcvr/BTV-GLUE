@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KR061882</GBSeq_locus>
+    <GBSeq_length>2926</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-NOV-2016</GBSeq_update-date>
+    <GBSeq_create-date>15-NOV-2016</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus strain XJ1407 VP2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KR061882</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR061882.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KR061882.1|</GBSeqid>
+      <GBSeqid>gi|1001941723</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2926</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sun,E.C.</GBAuthor>
+          <GBAuthor>Huang,L.P.</GBAuthor>
+          <GBAuthor>Xu,Q.Y.</GBAuthor>
+          <GBAuthor>Wang,H.X.</GBAuthor>
+          <GBAuthor>Xue,X.M.</GBAuthor>
+          <GBAuthor>Lu,P.</GBAuthor>
+          <GBAuthor>Li,W.J.</GBAuthor>
+          <GBAuthor>Liu,W.</GBAuthor>
+          <GBAuthor>Bu,Z.G.</GBAuthor>
+          <GBAuthor>Wu,D.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Emergence of a Novel Bluetongue Virus Serotype, China 2014</GBReference_title>
+        <GBReference_journal>Transbound Emerg Dis 63 (6), 585-589 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1111/tbed.12560</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27597166</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2926</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sun,E.</GBAuthor>
+          <GBAuthor>Huang,L.</GBAuthor>
+          <GBAuthor>Xu,Q.</GBAuthor>
+          <GBAuthor>Wang,H.</GBAuthor>
+          <GBAuthor>Yang,T.</GBAuthor>
+          <GBAuthor>Wu,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (04-APR-2015) Harbin Veterinary Research Institute, Maduan Street 427#, Harbin 150001, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2926</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2926</GBInterval_to>
+            <GBInterval_accession>KR061882.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>XJ1407</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>goat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>14-Jul-2014</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..2890</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>2890</GBInterval_to>
+            <GBInterval_accession>KR061882.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>structural protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AMM44543.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDELVIPVFSRQEMPHALIGHYPLAVQIDRKIQSDREFHDLTKIPQSNMLDISQYGIVKALNYRPVRNDGIVVPRLLDITLHAYDKRRSTRQVHGSEFTTDTEWMRWAINDRMDIQPLKIEIDNECTVNHQLFNCNVKVRSRNVDTVYYDYHPLEDEATKCNHTNLELMRSLTMVEMYHVLQGIAYALKPNFELIAVAERANTSTAYNAVERSVGRQVGSGIGYRGTKYTKFMAGLVEVEVRGKCSDDISEEMRRLTEIKNKWVRNKRSGTEIYASDLCTEFSAIGRKMTDTHEEPKDEEGISRRFQIELDDIFSASRAENKNILNQRNVKANDDNKFYALIMIAASDTQMGRVWRTNPYPCLRGALIAAECVMGDVYYTLRNIFEWSVRSTYGGQERSLEQNRYVFSRINLFDTTLPRGSNVIFWRYEEIAPIETTYDNGYMCKSQRKDGEELCEIDEDSYAMMRDDVVQNGWRQESLKLHKILTNPNLLTIDFETDAYIASNSDLVLPSYFNKWINSPMFNARLRIANGVIGTDKGSDPWNKRVTDGTMKVSAESLGYALGRFYDLRLQFVEDVLNTRQTKSLALEHMSNLEDFAKITHYTAGQRICPHAGGTMYTFRRVALEMITNYERLSPAEHRGCEYQTYRHPAVDYSRLDDVYRMEDLSQLICFIFDSIFERRNVLREVGEARMIIYRIQSVSGERRHDILKQEFPTFYEWFLRLQSVKLIRDLNVINFLPLLFLVRDNASYQHRQWSIPMILYDEEIRLIPVEVGAYANRFGFKSFFNFVRFHPGDARKKQEANPYHRVYGSICYRYYTDTMISQGEVNPSIITTKLDTLKVHLAALCGGLSDSLVYTLPITHPEKCLVLIIIGDDKIDSRIRSELVTSRYRYSRQHIRGTVSISIDEDGQPNVYSSGIVKHRICEKAVLRYRCKIILVRTPGYVFGNDELMTKLLNV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaagagtgttccacaatggatgagttagttataccagtattttcaagacaggaaatgccccacgctttgataggtcattatcctttagccgtacagatagacagaaaaattcaaagtgatcgtgaattccatgatttgacaaaaatccctcagtcgaatatgttagatatttcacaatatggcatagtgaaagcactaaattatcgacctgtaaggaatgatggcatagtcgtgccaagattactagatataacgttacatgcatatgacaagaggcggtcaacgaggcaggtacatggatcggagtttacaacggatactgagtggatgcggtgggctattaacgatagaatggacatacaaccgttaaagattgagatcgacaacgagtgtacggtcaaccaccaattgttcaactgcaatgttaaagttagatcgagaaatgtagatacagtgtattatgattatcacccgctcgaagatgaggcgacgaaatgtaatcatactaatttagagttgatgcgaagtttaacgatggtagagatgtaccatgttttacaagggatagcttatgcgcttaagccaaatttcgaactaattgcagtagcggagagagcaaacacgagtacagcgtataatgctgtggaaagatcagtggggcggcaggtgggaagtggcatagggtatcgtggcacgaaatatacaaaatttatggctggtttggtggaggtagaagtaagagggaagtgctctgatgatatcagtgaagaaatgagacggcttacggaaatcaagaataaatgggtaagaaataaacgttccggtactgaaatatacgcctcggacctatgtacggaattctctgcgatcggacgtaaaatgacagatacgcatgaagagcctaaggacgaggagggtatctcacgacgctttcaaattgaattagatgatatatttagtgcgagccgtgcagaaaataagaatattttgaaccagagaaatgtgaaagcgaatgatgataacaagttttatgcgctaattatgatagcggcttcggatacgcagatgggtagagtatggagaacgaatccttacccctgcttacgaggcgcgttaatcgcggcggagtgcgtaatgggagatgtttactatacgttgcgcaatatttttgaatggagcgtacggagtacgtatggtggacaagagcgatccttggagcagaatagatatgtcttttcacgtattaatctcttcgacaccactttaccgagaggcagtaatgtcatcttttggcgttatgaagaaattgcgcctatagagacgacctatgataacggatatatgtgtaaatcacagcggaaggacggcgaagagttatgtgaaatcgatgaagactcgtacgctatgatgcgcgatgatgtggttcagaatggatggcgccaagaaagtttgaaacttcacaaaatactgaccaatccaaacctgctaacgattgattttgaaacagatgcttatattgcgtcaaactcagatttagtcttgccgagttacttcaataaatggataaattcgccgatgtttaatgctcgattgcgaatagcgaacggggtaattggaactgacaagggaagtgatccgtggaataaacgtgtgactgatggtacgatgaaagtttcagctgaatcgttagggtatgccttgggtagattttatgatttgcgattgcagttcgtcgaggatgtgcttaatactcgacagacaaaatcattagcacttgagcacatgagtaacctagaggattttgcgaaaataacacattatacggcgggacagagaatttgtcctcatgcgggtggtacgatgtatacattcagaagagttgctttggagatgataactaactatgagagattaagcccagcggaacatagaggttgtgaataccaaacataccgtcatcctgcagttgattactcaaggctagatgacgtgtatagaatggaagatttatcccagctcatttgtttcatctttgacagcatatttgagcgacgcaatgtattacgtgaagttggagaggcgcggatgatcatatacagaattcaaagcgtaagcggagagcgtcggcacgacatactgaaacaggaatttcctacattttatgaatggtttctcagactgcaaagcgttaaactaatccgcgacttgaacgtaatcaacttcctcccgttgctatttctagttcgggataacgcttcatatcagcatagacagtggtcaattcctatgatactctatgacgaagagattagattaatacccgtagaggttggtgcttatgcgaacaggtttggttttaaaagtttctttaattttgttcgatttcatccaggcgatgcacgtaagaagcaagaagcgaatccgtatcatagagtgtacggttcaatttgctatcgttactacacagatacaatgatatcacagggcgaggtgaacccttcgattatcacaacgaagctagatacgcttaaagtgcatttggcggcgctatgcggtggcttgtcggattcgcttgtctatactcttccaataacacacccggaaaaatgtcttgtgctaattatcattggggatgataaaatagattcacgcattcgatcagaactagtgactagcagatatcgttactcgcgtcagcatatacgtggtactgtttccataagtatcgatgaagatggccagcctaatgtttactccagtggtattgtaaagcacaggatatgtgagaaagcagtattaagatatagatgtaagataatcttagttagaacgcctgggtatgtattcgggaatgatgagctcatgactaaattactcaacgtttaggtcccttgacacggacctgtggcctcttacacttac</GBSeq_sequence>
+  </GBSeq>

@@ -19,9 +19,15 @@ project btv
   run file glue/btvFeatures.glue
 
   # Import NCBI reference sequence set
+  # old-style (non seg 2)
   import source sources/ncbi-refseqs 
+  # new-style (seg 2)
+  import source sources/ncbi-s2-refseqs 
 
-  # references
+  # create new-style (seg 2) references
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S2_clade_structure_and_refs.json
+
+  # create old-style references and add feature locations
   run file glue/btvReferences.glue
 
   # Import NCBI curated sequence set

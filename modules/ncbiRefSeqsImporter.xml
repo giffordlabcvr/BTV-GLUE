@@ -2,20 +2,6 @@
 <ncbiImporter>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <specificPrimaryAccessions>
-    <primaryAccession>AJ585127</primaryAccession>
-    <primaryAccession>AJ585128</primaryAccession>
-    <primaryAccession>AJ585131</primaryAccession>
-    <primaryAccession>AJ585132</primaryAccession>
-    <primaryAccession>AJ585134</primaryAccession>
-    <primaryAccession>AJ585137</primaryAccession>
-    <primaryAccession>AJ585138</primaryAccession>
-    <primaryAccession>AJ585139</primaryAccession>
-    <primaryAccession>AJ585140</primaryAccession>
-    <primaryAccession>AJ585141</primaryAccession>
-    <primaryAccession>AJ585142</primaryAccession>
-    <primaryAccession>AJ585143</primaryAccession>
-    <primaryAccession>AJ585144</primaryAccession>
-    <primaryAccession>AJ585145</primaryAccession>
     <primaryAccession>AJ586703</primaryAccession>
     <primaryAccession>AJ586704</primaryAccession>
     <primaryAccession>AJ586709</primaryAccession>
@@ -30,12 +16,9 @@
     <primaryAccession>AJ586725</primaryAccession>
     <primaryAccession>AJ586727</primaryAccession>
     <primaryAccession>AJ586730</primaryAccession>
-    <primaryAccession>EU839840</primaryAccession>
     <primaryAccession>EU839842</primaryAccession>
-    <primaryAccession>HM590642</primaryAccession>
     <primaryAccession>JN255159</primaryAccession>
     <primaryAccession>JX680457</primaryAccession>
-    <primaryAccession>JX680458</primaryAccession>
     <primaryAccession>JX680459</primaryAccession>
     <primaryAccession>JX680460</primaryAccession>
     <primaryAccession>JX680461</primaryAccession>
@@ -44,16 +27,6 @@
     <primaryAccession>JX680464</primaryAccession>
     <primaryAccession>JX680465</primaryAccession>
     <primaryAccession>JX680466</primaryAccession>
-    <primaryAccession>KM200718</primaryAccession>
-    <primaryAccession>KP820983</primaryAccession>
-    <primaryAccession>KP820984</primaryAccession>
-    <primaryAccession>KP821030</primaryAccession>
-    <primaryAccession>KP821039</primaryAccession>
-    <primaryAccession>KP821066</primaryAccession>
-    <primaryAccession>KP821076</primaryAccession>
-    <primaryAccession>KP821088</primaryAccession>
-    <primaryAccession>KP821100</primaryAccession>
-    <primaryAccession>KP821101</primaryAccession>
     <primaryAccession>KP821465</primaryAccession>
     <primaryAccession>KP821466</primaryAccession>
     <primaryAccession>KP821512</primaryAccession>

@@ -10,8 +10,7 @@ reference REF_S1_MASTER
   feature-location S1_3UTR add segment 3921 3944
   exit
 
-create reference REF_S2_MASTER ncbi-refseqs JX680458
-reference REF_S2_MASTER 
+reference REF_S2_MASTER_JX680458 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2940
   add feature-location S2_5UTR
@@ -126,36 +125,7 @@ reference REF_S10_MASTER
   feature-location S10_3UTR add segment 710 822
   exit
   
-  
-create reference REF_S2_serotype_1 ncbi-refseqs JX680458
-create reference REF_S2_serotype_2 ncbi-refseqs KP821030
-create reference REF_S2_serotype_3 ncbi-refseqs KP821039
-create reference REF_S2_serotype_4 ncbi-refseqs KP821066
-create reference REF_S2_serotype_5 ncbi-refseqs KP821101
-create reference REF_S2_serotype_6 ncbi-refseqs AJ585127
-create reference REF_S2_serotype_7 ncbi-refseqs AJ585128
-create reference REF_S2_serotype_8 ncbi-refseqs KP821076
-create reference REF_S2_serotype_9 ncbi-refseqs KP821088
-create reference REF_S2_serotype_10 ncbi-refseqs AJ585131 
-create reference REF_S2_serotype_11 ncbi-refseqs AJ585132
-create reference REF_S2_serotype_12 ncbi-refseqs KP821100
-create reference REF_S2_serotype_13 ncbi-refseqs AJ585134
-create reference REF_S2_serotype_14 ncbi-refseqs KP820983
-create reference REF_S2_serotype_15 ncbi-refseqs KP820984
-create reference REF_S2_serotype_16 ncbi-refseqs AJ585137 
-create reference REF_S2_serotype_17 ncbi-refseqs AJ585138
-create reference REF_S2_serotype_18 ncbi-refseqs AJ585139
-create reference REF_S2_serotype_19 ncbi-refseqs AJ585140
-create reference REF_S2_serotype_20 ncbi-refseqs AJ585141
-create reference REF_S2_serotype_21 ncbi-refseqs AJ585142
-create reference REF_S2_serotype_22 ncbi-refseqs AJ585143
-create reference REF_S2_serotype_23 ncbi-refseqs AJ585144
-create reference REF_S2_serotype_24 ncbi-refseqs AJ585145
-create reference REF_S2_serotype_25 ncbi-refseqs EU839840
-create reference REF_S2_serotype_26 ncbi-refseqs HM590642
-create reference REF_S2_serotype_27 ncbi-refseqs KM200718
-## commented out from the project build until they are published.
-## create reference REF_S2_serotype_28 kyriaki-nomikou-unpublished KN102
+
 
 create reference REF_S6_serotype_1 ncbi-refseqs JX680462
 create reference REF_S6_serotype_2 ncbi-refseqs KP821512

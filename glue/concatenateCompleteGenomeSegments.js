@@ -28,17 +28,18 @@ glue.command(["create", "source", "ncbi-refseqs-fullgenomes"]);
 var refConcatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-refseqs-fullgenomes", "referenceFullGenome"];
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 	var refSeqID;
-	glue.inMode("reference/REF_S"+segNum+"_MASTER", function() {
-		var result = glue.command(["show", "sequence"]);
-		refSeqID = result.showSequenceResult["sequence.sequenceID"];
-	});
-	refConcatenateCmd.push("ncbi-refseqs");
+	var refSourceName;
+	var refObj = glue.tableToObjects(glue.command(["list", "reference", "-w", "name like 'REF_S"+segNum+"_MASTER%'"]))[0];
+	refSeqID = refObj["sequence.sequenceID"];
+	refSourceName = refObj["sequence.source.name"];
+	refConcatenateCmd.push(refSourceName);
 	refConcatenateCmd.push(refSeqID);
 	var gbLength;
-	glue.inMode("sequence/ncbi-refseqs/"+refSeqID, function() {
+	glue.inMode("sequence/"+refSourceName+"/"+refSeqID, function() {
 		gbLength = glue.command(["show", "length"]).lengthResult.length;
 	});
 	segNumToRefSeq[segNum] = {
+		"source.name": refSourceName,
 		sequenceID: refSeqID,
 		gb_length: gbLength
 	}
@@ -46,7 +47,7 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 glue.command(refConcatenateCmd);
 
 // add ncbi-refseqs-fullgenomes/referenceFullGenome to this alignment
-populateFullGenomeAlignmentRow("ncbi-refseqs", segNumToRefSeq, "ncbi-refseqs-fullgenomes", "referenceFullGenome");
+populateFullGenomeAlignmentRow(segNumToRefSeq, "ncbi-refseqs-fullgenomes", "referenceFullGenome");
 
 // outgroup full genomes.
 glue.command(["create", "source", "ncbi-outgroup-fullgenomes"]);
@@ -70,7 +71,7 @@ _.each(outgroups, function(outgroup) {
 		                                          	"source.name = 'ncbi-outgroup' and "+
 		                                          	"isolate_segment = '"+segNum+"' and "+
 		                                          	"sequenceID like '"+outgroup.accessionPrefix+"%'", 
-		                                          "sequenceID", "gb_length"]))[0];
+		                                          "source.name", "sequenceID", "gb_length"]))[0];
 		outgroupConcatenateCmd.push("ncbi-outgroup");
 		outgroupConcatenateCmd.push(outgroupSeqObj.sequenceID);
 		segNumToOutgroupSeq[segNum] = outgroupSeqObj;
@@ -78,7 +79,7 @@ _.each(outgroups, function(outgroup) {
 	glue.command(outgroupConcatenateCmd);
 
 	// add ncbi-outgroup-fullgenomes/outgroupFullGenome to this alignment
-	populateFullGenomeAlignmentRow("ncbi-outgroup", segNumToOutgroupSeq, "ncbi-outgroup-fullgenomes", outgroup.concatenatedSeqID);
+	populateFullGenomeAlignmentRow(segNumToOutgroupSeq, "ncbi-outgroup-fullgenomes", outgroup.concatenatedSeqID);
 });
 
 // create a full genome reference sequence based on ncbi-refseqs-fullgenomes/referenceFullGenome, with the main coding regions defined.
@@ -102,7 +103,9 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 	var refSeqID;
 	var oldFeatureSegs;
 	var featureName = segToFeatureName[segNum];
-	glue.inMode("reference/REF_S"+segNum+"_MASTER/feature-location/"+featureName, function() {
+	
+	var refObj = glue.tableToObjects(glue.command(["list", "reference", "-w", "name like 'REF_S"+segNum+"_MASTER%'"]))[0];
+	glue.inMode("reference/"+refObj.name+"/feature-location/"+featureName, function() {
 		oldFeatureSegs = glue.tableToObjects(glue.command(["list", "segment"]));
 	});
 	var newFeatureSegs = _.map(oldFeatureSegs, function(oldFeatureSeg) {
@@ -140,7 +143,7 @@ var isolateIDs = glue.getTableColumn(glue.command(["list", "custom-table-row", "
 _.each(isolateIDs, function(isolateID) {
 	var seqObjs;
 	glue.inMode("custom-table-row/isolate/"+isolateID, function() {
-		seqObjs = glue.tableToObjects(glue.command(["list", "link-target", "sequence", "sequenceID", "gb_length", "isolate_segment", "gb_create_date"]));
+		seqObjs = glue.tableToObjects(glue.command(["list", "link-target", "sequence", "source.name", "sequenceID", "gb_length", "isolate_segment", "gb_create_date"]));
 	});
 	
 	var segNumToSeqs = _.groupBy(seqObjs, "isolate_segment");
@@ -159,7 +162,7 @@ _.each(isolateIDs, function(isolateID) {
 	var concatenateCmd = ["concatenate", "sequence", "-g", gapSize, "ncbi-curated-fullgenomes", concatenatedSeqID];
 	seqIndex++;
 	_.each(_.pairs(segNumToSingleSeqs), function(pair) {
-		concatenateCmd.push("ncbi-curated");
+		concatenateCmd.push(pair[1]["source.name"]);
 		concatenateCmd.push(pair[1].sequenceID);
 	});
 	
@@ -170,7 +173,7 @@ _.each(isolateIDs, function(isolateID) {
 	});
 
 	// add the sequence to the unconstrained alignment of full genome sequences.
-	populateFullGenomeAlignmentRow("ncbi-curated", segNumToSingleSeqs, "ncbi-curated-fullgenomes", concatenatedSeqID);
+	populateFullGenomeAlignmentRow(segNumToSingleSeqs, "ncbi-curated-fullgenomes", concatenatedSeqID);
 });
 
 
@@ -207,7 +210,7 @@ function seqCompare(seq1, seq2) {
 }
 
 // function to add a sequence to the unconstrained alignment of full genome sequences.
-function populateFullGenomeAlignmentRow(singleSequenceSource, segNumToSingleSeqObj, concatenatedSource, concatenatedSeqID) {
+function populateFullGenomeAlignmentRow(segNumToSingleSeqObj, concatenatedSource, concatenatedSeqID) {
 	glue.inMode("alignment/BTV_OUTG_CODON_FULLGENOME", function() {
 		glue.command(["add", "member", concatenatedSource, concatenatedSeqID]);
 	});
@@ -219,7 +222,7 @@ function populateFullGenomeAlignmentRow(singleSequenceSource, segNumToSingleSeqO
 		var segSeqObj = segNumToSingleSeqObj[segNum];
 		var alignmentWidth = alignmentWidths[segNum];
 		var alignedSegs;
-		glue.inMode("alignment/BTV_OUTG_CODON_"+segNum+"/member/"+singleSequenceSource+"/"+segSeqObj.sequenceID, function() {
+		glue.inMode("alignment/BTV_OUTG_CODON_"+segNum+"/member/"+segSeqObj["source.name"]+"/"+segSeqObj.sequenceID, function() {
 			alignedSegs = glue.tableToObjects(glue.command(["list", "segment"]));
 		});
 		glue.inMode("alignment/BTV_OUTG_CODON_FULLGENOME/member/"+concatenatedSource+"/"+concatenatedSeqID, function() {

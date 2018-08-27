@@ -5,7 +5,7 @@
   module btvGenbankXmlSerotypePopulator populate -w "source.name = 'ncbi-curated'"
 
   # this adds gb_length and isolate_segment to the outgroup sequences
-  module btvGenbankXmlReferencePopulator populate -w "source.name in ('ncbi-outgroup', 'ncbi-refseqs')"
+  module btvGenbankXmlReferencePopulator populate -w "source.name in ('ncbi-outgroup', 'ncbi-refseqs', 'ncbi-s2-refseqs')"
 
   # Note that in PATAV, segments 7 and 8 are reversed due to slightly different lengths.
   # Here we will keep the segment names the same as for BTV, i.e. S7 == VP7, S8 == NS2

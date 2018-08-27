@@ -1,0 +1,189 @@
+Nucleotype G
+Serotype 22
+ncbi-curated/AJ585187
+ncbi-curated/AJ585143
+ncbi-curated/KX164140
+Serotype 12
+ncbi-curated/KT946761
+ncbi-curated/KX164080
+ncbi-curated/AB686216
+ncbi-curated/KC662613
+ncbi-curated/JX272500
+Nucleotype J
+Serotype Unclassified_KP196604
+ncbi-curated/KP196604
+Serotype 15A
+ncbi-curated/JX272470
+ncbi-curated/KP821098
+Serotype 15B
+ncbi-curated/JQ086222
+ncbi-curated/MH346492
+Nucleotype K
+Serotype Unclassified_MF124283
+ncbi-curated/MF124283
+Serotype Unclassified_KX695171
+ncbi-curated/KX695171
+Serotype 26
+ncbi-curated/HM590642
+Serotype 25
+ncbi-curated/EU839840
+Serotype 27
+ncbi-curated/KU760998
+ncbi-curated/KU760988
+ncbi-curated/KM200718
+Serotype Unclassified_KR061882
+ncbi-curated/KR061882
+Serotype Unclassified_KY365755_KX234079
+ncbi-curated/KX234079
+Nucleotype A
+Serotype 11
+ncbi-curated/KY471279
+ncbi-curated/JX272510
+ncbi-curated/KM580478
+ncbi-curated/JN003580
+ncbi-curated/KM580426
+Serotype 10
+ncbi-curated/JX272520
+ncbi-curated/U06784
+ncbi-curated/JQ740772
+ncbi-curated/KY092151
+ncbi-curated/HQ222821
+Serotype 24
+ncbi-curated/JN162682
+ncbi-curated/KC633277
+ncbi-curated/KX164150
+ncbi-curated/KT945049
+ncbi-curated/JX272370
+Serotype 20
+ncbi-curated/AJ585141
+ncbi-curated/JX272420
+Serotype 4B
+ncbi-curated/JX560414
+ncbi-curated/KY947344
+Serotype 4A
+ncbi-curated/JX272580
+ncbi-curated/JX024950
+ncbi-curated/DQ191278
+ncbi-curated/KP821055
+ncbi-curated/KP821056
+ncbi-curated/KP821068
+ncbi-curated/KT317666
+Serotype 17
+ncbi-curated/KX599360
+ncbi-curated/M17438
+ncbi-curated/S72158
+ncbi-curated/HQ222825
+ncbi-curated/JX272450
+Nucleotype F
+Serotype 7
+ncbi-curated/JQ086292
+ncbi-curated/JX272550
+ncbi-curated/KT945046
+Serotype 19
+ncbi-curated/KX164130
+ncbi-curated/JX272430
+Nucleotype E
+Serotype 9B
+ncbi-curated/KP821080
+ncbi-curated/JN255913
+ncbi-curated/KP696652
+ncbi-curated/MF384478
+ncbi-curated/AB686223
+Serotype 5
+ncbi-curated/AJ585182
+ncbi-curated/HQ241072
+ncbi-curated/JX272570
+ncbi-curated/KT945045
+Serotype 9A
+ncbi-curated/KY092145
+ncbi-curated/KP821089
+ncbi-curated/JN255963
+ncbi-curated/KP821087
+Nucleotype I
+Serotype 2B
+ncbi-curated/AJ585152
+ncbi-curated/AY493687
+ncbi-curated/MF384475
+Serotype 2A
+ncbi-curated/HQ222820
+ncbi-curated/AY855267
+ncbi-curated/KF986501
+ncbi-curated/HQ222824
+ncbi-curated/AJ585161
+ncbi-curated/AJ585155
+ncbi-curated/JN255933
+ncbi-curated/JX272600
+Nucleotype H
+Serotype 1A
+ncbi-curated/X55800
+ncbi-curated/JX272380
+ncbi-curated/KP821008
+ncbi-curated/KP821021
+ncbi-curated/KP821010
+ncbi-curated/KY049854
+ncbi-curated/KY092170
+Serotype 1B
+ncbi-curated/AJ585116
+ncbi-curated/JN635334
+ncbi-curated/AJ585112
+ncbi-curated/KP696553
+ncbi-curated/KM099523
+ncbi-curated/MF384446
+ncbi-curated/MF384464
+Nucleotype D
+Serotype 23
+ncbi-curated/JX272400
+ncbi-curated/JQ771824
+ncbi-curated/L46685
+ncbi-curated/MF384502
+Serotype 18
+ncbi-curated/KX442585
+ncbi-curated/JX272440
+ncbi-curated/KX164120
+Serotype 8
+ncbi-curated/JX272540
+ncbi-curated/AJ585184
+ncbi-curated/AM498052
+ncbi-curated/KU569991
+Nucleotype C
+Serotype 21
+ncbi-curated/AB686218
+ncbi-curated/JN613126
+ncbi-curated/JX272410
+ncbi-curated/MF384487
+ncbi-curated/MG206078
+Serotype 14
+ncbi-curated/AJ585186
+ncbi-curated/JX272480
+ncbi-curated/KY092147
+Serotype 6
+ncbi-curated/JX965385
+ncbi-curated/JX272560
+ncbi-curated/GQ506517
+Nucleotype B
+Serotype 3A
+ncbi-curated/KY092166
+ncbi-curated/KX164050
+ncbi-curated/KY092159
+ncbi-curated/JX272590
+ncbi-curated/KY092169
+Serotype 3B
+ncbi-curated/AB686219
+ncbi-curated/MF384477
+Serotype 13
+ncbi-curated/KX442584
+ncbi-curated/KX164100
+ncbi-curated/JQ436729
+ncbi-curated/JX272490
+Serotype 16B
+ncbi-curated/AB686217
+ncbi-curated/JQ086232
+ncbi-curated/JX272460
+ncbi-curated/AB686221
+ncbi-curated/JN572917
+ncbi-curated/KP339205
+ncbi-curated/AJ585147
+ncbi-curated/AB686214
+Serotype 16A
+ncbi-curated/AJ585150
+

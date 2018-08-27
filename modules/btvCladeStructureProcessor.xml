@@ -1,0 +1,36 @@
+<ecmaFunctionInvoker>
+    <scriptFileName>btvCladeStructureProcessor.js</scriptFileName>
+    <function>
+        <name>generateRefSeqNcbiImporter</name>
+        <parameter>
+            <name>jsonStructureFile</name>
+            <pathCompleter/>
+        </parameter>
+        <parameter>
+            <name>ncbiImporterFile</name>
+            <pathCompleter/>
+        </parameter>
+		<okFromNullResultType/>
+    </function>
+    <function>
+        <name>createGlueReferenceSequences</name>
+        <parameter>
+            <name>jsonStructureFile</name>
+            <pathCompleter/>
+        </parameter>
+		<okFromNullResultType/>
+    </function>
+    <function>
+        <name>generateBlastRecogniser</name>
+        <parameter>
+            <name>jsonStructureFile</name>
+            <pathCompleter/>
+        </parameter>
+        <parameter>
+            <name>blastRecogniserFile</name>
+            <pathCompleter/>
+        </parameter>
+		<okFromNullResultType/>
+    </function>
+</ecmaFunctionInvoker>
+

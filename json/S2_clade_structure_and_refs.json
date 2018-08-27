@@ -1,0 +1,358 @@
+{ "referenceSourceName" : "ncbi-s2-refseqs",
+  "alignmentName": "AL_S2_MASTER",
+  "almtDisplayName": "BTV Segment 2",
+  "constrainingRef": { "sequenceID": "JX680458" },
+  "childAlignments": [
+    { "alignmentName": "AL_S2_NtG",
+      "almtDisplayName": "Nucleotype G",
+      "constrainingRef": { "sequenceID": "AJ585187" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St22", "almtDisplayName": "Serotype 22",
+	    "constrainingRef": { "sequenceID": "AJ585187" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585187" },
+	      { "sequenceID": "AJ585143" },
+	      { "sequenceID": "KX164140" }
+	  ]},
+	  { "alignmentName": "AL_S2_St12", "almtDisplayName": "Serotype 12",
+	    "constrainingRef": { "sequenceID": "KT946761" },
+	    "referenceSequences": [
+	      { "sequenceID": "KT946761" },
+	      { "sequenceID": "KX164080" },
+	      { "sequenceID": "AB686216" },
+	      { "sequenceID": "KC662613" },
+	      { "sequenceID": "JX272500" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtJ",
+      "almtDisplayName": "Nucleotype J",
+      "constrainingRef": { "sequenceID": "KP196604" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_Unclassified_NtJ_1", "almtDisplayName": "Unclassified Nucleotype J (KP196604)",
+	    "constrainingRef": { "sequenceID": "KP196604" },
+	    "referenceSequences": [
+	      { "sequenceID": "KP196604" }
+	  ]},
+	  { "alignmentName": "AL_S2_St15A", "almtDisplayName": "Serotype 15A",
+	    "constrainingRef": { "sequenceID": "JX272470" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX272470" },
+	      { "sequenceID": "KP821098" }
+	  ]},
+	  { "alignmentName": "AL_S2_St15B", "almtDisplayName": "Serotype 15B",
+	    "constrainingRef": { "sequenceID": "JQ086222" },
+	    "referenceSequences": [
+	      { "sequenceID": "JQ086222" },
+	      { "sequenceID": "MH346492" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtK",
+      "almtDisplayName": "Nucleotype K",
+      "constrainingRef": { "sequenceID": "MF124283" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_Unclassified_NtK_1", "almtDisplayName": "Unclassified Nucleotype K (MF124283)",
+	    "constrainingRef": { "sequenceID": "MF124283" },
+	    "referenceSequences": [
+	      { "sequenceID": "MF124283" }
+	  ]},
+	  { "alignmentName": "AL_S2_Unclassified_NtK_2", "almtDisplayName": "Unclassified Nucleotype K (KX695171)",
+	    "constrainingRef": { "sequenceID": "KX695171" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX695171" }
+	  ]},
+	  { "alignmentName": "AL_S2_St26", "almtDisplayName": "Serotype 26",
+	    "constrainingRef": { "sequenceID": "HM590642" },
+	    "referenceSequences": [
+	      { "sequenceID": "HM590642" }
+	  ]},
+	  { "alignmentName": "AL_S2_St25", "almtDisplayName": "Serotype 25",
+	    "constrainingRef": { "sequenceID": "EU839840" },
+	    "referenceSequences": [
+	      { "sequenceID": "EU839840" }
+	  ]},
+	  { "alignmentName": "AL_S2_St27", "almtDisplayName": "Serotype 27",
+	    "constrainingRef": { "sequenceID": "KU760998" },
+	    "referenceSequences": [
+	      { "sequenceID": "KU760998" },
+	      { "sequenceID": "KU760988" },
+	      { "sequenceID": "KM200718" }
+	  ]},
+	  { "alignmentName": "AL_S2_Unclassified_NtK_3", "almtDisplayName": "Unclassified Nucleotype K (KR061882)",
+	    "constrainingRef": { "sequenceID": "KR061882" },
+	    "referenceSequences": [
+	      { "sequenceID": "KR061882" }
+	  ]},
+	  { "alignmentName": "AL_S2_Unclassified_NtK_4", "almtDisplayName": "Unclassified Nucleotype K (KY365755/KX234079)",
+	    "constrainingRef": { "sequenceID": "KX234079" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX234079" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtA",
+      "almtDisplayName": "Nucleotype A",
+      "constrainingRef": { "sequenceID": "KY471279" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St11", "almtDisplayName": "Serotype 11",
+	    "constrainingRef": { "sequenceID": "KY471279" },
+	    "referenceSequences": [
+	      { "sequenceID": "KY471279" },
+	      { "sequenceID": "JX272510" },
+	      { "sequenceID": "KM580478" },
+	      { "sequenceID": "JN003580" },
+	      { "sequenceID": "KM580426" }
+	  ]},
+	  { "alignmentName": "AL_S2_St10", "almtDisplayName": "Serotype 10",
+	    "constrainingRef": { "sequenceID": "JX272520" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX272520" },
+	      { "sequenceID": "U06784" },
+	      { "sequenceID": "JQ740772" },
+	      { "sequenceID": "KY092151" },
+	      { "sequenceID": "HQ222821" }
+	  ]},
+	  { "alignmentName": "AL_S2_St24", "almtDisplayName": "Serotype 24",
+	    "constrainingRef": { "sequenceID": "JN162682" },
+	    "referenceSequences": [
+	      { "sequenceID": "JN162682" },
+	      { "sequenceID": "KC633277" },
+	      { "sequenceID": "KX164150" },
+	      { "sequenceID": "KT945049" },
+	      { "sequenceID": "JX272370" }
+	  ]},
+	  { "alignmentName": "AL_S2_St20", "almtDisplayName": "Serotype 20",
+	    "constrainingRef": { "sequenceID": "AJ585141" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585141" },
+	      { "sequenceID": "JX272420" }
+	  ]},
+	  { "alignmentName": "AL_S2_St4B", "almtDisplayName": "Serotype 4B",
+	    "constrainingRef": { "sequenceID": "JX560414" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX560414" },
+	      { "sequenceID": "KY947344" }
+	  ]},
+	  { "alignmentName": "AL_S2_St4A", "almtDisplayName": "Serotype 4A",
+	    "constrainingRef": { "sequenceID": "JX272580" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX272580" },
+	      { "sequenceID": "JX024950" },
+	      { "sequenceID": "DQ191278" },
+	      { "sequenceID": "KP821055" },
+	      { "sequenceID": "KP821056" },
+	      { "sequenceID": "KP821068" },
+	      { "sequenceID": "KT317666" }
+	  ]},
+	  { "alignmentName": "AL_S2_St17", "almtDisplayName": "Serotype 17",
+	    "constrainingRef": { "sequenceID": "KX599360" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX599360" },
+	      { "sequenceID": "M17438" },
+	      { "sequenceID": "S72158" },
+	      { "sequenceID": "HQ222825" },
+	      { "sequenceID": "JX272450" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtF",
+      "almtDisplayName": "Nucleotype F",
+      "constrainingRef": { "sequenceID": "JQ086292" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St7", "almtDisplayName": "Serotype 7",
+	    "constrainingRef": { "sequenceID": "JQ086292" },
+	    "referenceSequences": [
+	      { "sequenceID": "JQ086292" },
+	      { "sequenceID": "JX272550" },
+	      { "sequenceID": "KT945046" }
+	  ]},
+	  { "alignmentName": "AL_S2_St19", "almtDisplayName": "Serotype 19",
+	    "constrainingRef": { "sequenceID": "KX164130" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX164130" },
+	      { "sequenceID": "JX272430" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtE",
+      "almtDisplayName": "Nucleotype E",
+      "constrainingRef": { "sequenceID": "KP821080" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St9B", "almtDisplayName": "Serotype 9B",
+	    "constrainingRef": { "sequenceID": "KP821080" },
+	    "referenceSequences": [
+	      { "sequenceID": "KP821080" },
+	      { "sequenceID": "JN255913" },
+	      { "sequenceID": "KP696652" },
+	      { "sequenceID": "MF384478" },
+	      { "sequenceID": "AB686223" }
+	  ]},
+	  { "alignmentName": "AL_S2_St5", "almtDisplayName": "Serotype 5",
+	    "constrainingRef": { "sequenceID": "AJ585182" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585182" },
+	      { "sequenceID": "HQ241072" },
+	      { "sequenceID": "JX272570" },
+	      { "sequenceID": "KT945045" }
+	  ]},
+	  { "alignmentName": "AL_S2_St9A", "almtDisplayName": "Serotype 9A",
+	    "constrainingRef": { "sequenceID": "KY092145" },
+	    "referenceSequences": [
+	      { "sequenceID": "KY092145" },
+	      { "sequenceID": "KP821089" },
+	      { "sequenceID": "JN255963" },
+	      { "sequenceID": "KP821087" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtI",
+      "almtDisplayName": "Nucleotype I",
+      "constrainingRef": { "sequenceID": "AJ585152" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St2B", "almtDisplayName": "Serotype 2B",
+	    "constrainingRef": { "sequenceID": "AJ585152" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585152" },
+	      { "sequenceID": "AY493687" },
+	      { "sequenceID": "MF384475" }
+	  ]},
+	  { "alignmentName": "AL_S2_St2A", "almtDisplayName": "Serotype 2A",
+	    "constrainingRef": { "sequenceID": "HQ222820" },
+	    "referenceSequences": [
+	      { "sequenceID": "HQ222820" },
+	      { "sequenceID": "AY855267" },
+	      { "sequenceID": "KF986501" },
+	      { "sequenceID": "HQ222824" },
+	      { "sequenceID": "AJ585161" },
+	      { "sequenceID": "AJ585155" },
+	      { "sequenceID": "JN255933" },
+	      { "sequenceID": "JX272600" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtH",
+      "almtDisplayName": "Nucleotype H",
+      "constrainingRef": { "sequenceID": "JX680458" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St1A", "almtDisplayName": "Serotype 1A",
+	    "constrainingRef": { "sequenceID": "JX680458" },
+	    "referenceSequences": [
+	      { "sequenceID": "X55800" },
+	      { "sequenceID": "JX680458" },
+	      { "sequenceID": "JX272380" },
+	      { "sequenceID": "KP821008" },
+	      { "sequenceID": "KP821021" },
+	      { "sequenceID": "KP821010" },
+	      { "sequenceID": "KY049854" },
+	      { "sequenceID": "KY092170" }
+	  ]},
+	  { "alignmentName": "AL_S2_St1B", "almtDisplayName": "Serotype 1B",
+	    "constrainingRef": { "sequenceID": "AJ585116" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585116" },
+	      { "sequenceID": "JN635334" },
+	      { "sequenceID": "AJ585112" },
+	      { "sequenceID": "KP696553" },
+	      { "sequenceID": "KM099523" },
+	      { "sequenceID": "MF384446" },
+	      { "sequenceID": "MF384464" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtD",
+      "almtDisplayName": "Nucleotype D",
+      "constrainingRef": { "sequenceID": "JX272400" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St23", "almtDisplayName": "Serotype 23",
+	    "constrainingRef": { "sequenceID": "JX272400" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX272400" },
+	      { "sequenceID": "JQ771824" },
+	      { "sequenceID": "L46685" },
+	      { "sequenceID": "MF384502" }
+	  ]},
+	  { "alignmentName": "AL_S2_St18", "almtDisplayName": "Serotype 18",
+	    "constrainingRef": { "sequenceID": "KX442585" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX442585" },
+	      { "sequenceID": "JX272440" },
+	      { "sequenceID": "KX164120" }
+	  ]},
+	  { "alignmentName": "AL_S2_St8", "almtDisplayName": "Serotype 8",
+	    "constrainingRef": { "sequenceID": "JX272540" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX272540" },
+	      { "sequenceID": "AJ585184" },
+	      { "sequenceID": "AM498052" },
+	      { "sequenceID": "KU569991" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtC",
+      "almtDisplayName": "Nucleotype C",
+      "constrainingRef": { "sequenceID": "AB686218" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St21", "almtDisplayName": "Serotype 21",
+	    "constrainingRef": { "sequenceID": "AB686218" },
+	    "referenceSequences": [
+	      { "sequenceID": "AB686218" },
+	      { "sequenceID": "JN613126" },
+	      { "sequenceID": "JX272410" },
+	      { "sequenceID": "MF384487" },
+	      { "sequenceID": "MG206078" }
+	  ]},
+	  { "alignmentName": "AL_S2_St14", "almtDisplayName": "Serotype 14",
+	    "constrainingRef": { "sequenceID": "AJ585186" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585186" },
+	      { "sequenceID": "JX272480" },
+	      { "sequenceID": "KY092147" }
+	  ]},
+	  { "alignmentName": "AL_S2_St6", "almtDisplayName": "Serotype 6",
+	    "constrainingRef": { "sequenceID": "JX965385" },
+	    "referenceSequences": [
+	      { "sequenceID": "JX965385" },
+	      { "sequenceID": "JX272560" },
+	      { "sequenceID": "GQ506517" }
+	  ]}
+      ]},
+    { "alignmentName": "AL_S2_NtB",
+      "almtDisplayName": "Nucleotype B",
+      "constrainingRef": { "sequenceID": "KY092166" },
+      "childAlignments": [
+	  { "alignmentName": "AL_S2_St3A", "almtDisplayName": "Serotype 3A",
+	    "constrainingRef": { "sequenceID": "KY092166" },
+	    "referenceSequences": [
+	      { "sequenceID": "KY092166" },
+	      { "sequenceID": "KX164050" },
+	      { "sequenceID": "KY092159" },
+	      { "sequenceID": "JX272590" },
+	      { "sequenceID": "KY092169" }
+	  ]},
+	  { "alignmentName": "AL_S2_St3B", "almtDisplayName": "Serotype 3B",
+	    "constrainingRef": { "sequenceID": "AB686219" },
+	    "referenceSequences": [
+	      { "sequenceID": "AB686219" },
+	      { "sequenceID": "MF384477" }
+	  ]},
+	  { "alignmentName": "AL_S2_St13", "almtDisplayName": "Serotype 13",
+	    "constrainingRef": { "sequenceID": "KX442584" },
+	    "referenceSequences": [
+	      { "sequenceID": "KX442584" },
+	      { "sequenceID": "KX164100" },
+	      { "sequenceID": "JQ436729" },
+	      { "sequenceID": "JX272490" }
+	  ]},
+	  { "alignmentName": "AL_S2_St16B", "almtDisplayName": "Serotype 16B",
+	    "constrainingRef": { "sequenceID": "AB686217" },
+	    "referenceSequences": [
+	      { "sequenceID": "AB686217" },
+	      { "sequenceID": "JQ086232" },
+	      { "sequenceID": "JX272460" },
+	      { "sequenceID": "AB686221" },
+	      { "sequenceID": "JN572917" },
+	      { "sequenceID": "KP339205" },
+	      { "sequenceID": "AJ585147" },
+	      { "sequenceID": "AB686214" }
+	  ]},
+	  { "alignmentName": "AL_S2_St16A", "almtDisplayName": "Serotype 16A",
+	    "constrainingRef": { "sequenceID": "AJ585150" },
+	    "referenceSequences": [
+	      { "sequenceID": "AJ585150" }
+	  ]}
+      ]}
+]
+}
+

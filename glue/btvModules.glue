@@ -79,5 +79,8 @@
   
   create module --moduleType fastaProteinExporter
   create module --moduleType fastaUtility
+
+  create module -f modules/btvCladeStructureProcessor.xml  --loadResources 
+  create module -f modules/s2RefseqsNcbiImporter.xml
   
   
