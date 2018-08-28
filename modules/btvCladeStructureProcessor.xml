@@ -21,7 +21,7 @@
 		<okFromNullResultType/>
     </function>
     <function>
-        <name>generateBlastRecogniser</name>
+        <name>generateSerotypeBlastRecogniser</name>
         <parameter>
             <name>jsonStructureFile</name>
             <pathCompleter/>
@@ -32,5 +32,15 @@
         </parameter>
 		<okFromNullResultType/>
     </function>
+    <function>
+        <name>generateSegmentBlastRecogniser</name>
+        <parameter>
+            <name>blastRecogniserFile</name>
+            <pathCompleter/>
+        </parameter>
+		<okFromNullResultType/>
+    </function>
+
+
 </ecmaFunctionInvoker>
 
