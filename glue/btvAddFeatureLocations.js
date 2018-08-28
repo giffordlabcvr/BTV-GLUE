@@ -51,6 +51,11 @@ _.each(segments, function(segNum) {
 				var segmentObjs = glue.tableToObjects(glue.command(["list", "segment"]));
 				refStart = _.min(segmentObjs, function(obj) {return obj.refStart;}).refStart;
 				refEnd = _.max(segmentObjs, function(obj) {return obj.refEnd;}).refEnd;
+				var numStopCodons = glue.command(["count", "amino-acid", "*"]).featureLocCountAminoAcidResult.count;
+				if(numStopCodons > 1) {
+					throw new Error("Multiple stop codons in reference "+refName+", feature-location "+codingFeatureName);
+				}
+				
 			});
 			var feature5utr = "S"+segNum+"_5UTR";
 			if(refStart > 1) {
