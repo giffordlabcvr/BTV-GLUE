@@ -61,7 +61,7 @@ function generateSerotypeBlastRecogniser(jsonStructureFile, blastRecogniserFile)
 	
 	var categoriesString = "";
 	
-	visitStructureAlignments(cladeStructure, function(alignment) {
+	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
 		if(alignment.referenceSequences != null) {
 			var cladeID = getCladeID(alignment);
 			categoriesString += 
@@ -103,7 +103,7 @@ function generateSegmentBlastRecogniser(blastRecogniserFile) {
 	
 	var s2RefsString = "";
 	
-	visitStructureAlignments(s2CladeStructure, function(alignment) {
+	visitStructureAlignmentsPost(s2CladeStructure, function(alignment) {
 		if(alignment.referenceSequences != null) {
 			var cladeID = getCladeID(alignment);
 			_.each(alignment.referenceSequences, function(refSeqObj) {
@@ -247,7 +247,7 @@ function createGlueReferenceSequences(jsonStructureFile) {
 	var sourceName = cladeStructure.referenceSourceName;
 
 
-	visitStructureAlignments(cladeStructure, function(alignment) {
+	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
 		var allRefs = [];
 		allRefs.push(alignment.constrainingRef);
 		if(alignment.referenceSequences != null) {
@@ -261,6 +261,44 @@ function createGlueReferenceSequences(jsonStructureFile) {
 	});
 
 }
+
+function createAlignmentTree(jsonStructureFile) {
+
+	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
+	var sourceName = cladeStructure.referenceSourceName;
+	var masterRefObj = cladeStructure.constrainingRef;
+	var masterRefName = getRefSeqName(cladeStructure, masterRefObj);
+	var masterAlmtName = cladeStructure.alignmentName;
+	glue.command(["delete", "alignment", masterAlmtName]);
+	glue.command(["create", "alignment", masterAlmtName, "--refSeqName", masterRefName]);
+	visitStructureAlignmentsPre(cladeStructure, function(alignment) {
+		if(alignment.almtDisplayName != null) {
+			glue.inMode("/alignment/"+alignment.alignmentName, function() {
+				glue.command(["set", "field", "displayName", alignment.almtDisplayName]);
+			});
+		}
+		if(alignment.childAlignments != null) {
+			_.each(alignment.childAlignments, function(childAlignment) {
+				glue.command(["delete", "alignment", childAlignment.alignmentName]);
+				glue.inMode("/alignment/"+alignment.alignmentName, function() {
+					var childRefName = getRefSeqName(childAlignment, childAlignment.constrainingRef);
+					glue.command(["add", "member", "--refName", childRefName]);
+					glue.command(["extract", "child", childAlignment.alignmentName, "--refName", childRefName]);
+				});
+			});
+		}
+		if(alignment.referenceSequences != null) {
+			glue.inMode("/alignment/"+alignment.alignmentName, function() {
+				_.each(alignment.referenceSequences, function(refObj) {
+					glue.command(["add", "member", sourceName, refObj.sequenceID]);
+				});
+			});
+		}
+	});
+
+}
+
+
 
 function generateGenotypingCodonAlignment(jsonStructureFile, outgCodonAlignmentName, genoCodonAlignmentName) {
 	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
@@ -321,12 +359,21 @@ function visitStructureRefseqs(structureNode, refseqCallback) {
 }
 
 //visit all alignment objects in post-order fashion
-function visitStructureAlignments(structureNode, alignmentCallback) {
+function visitStructureAlignmentsPost(structureNode, alignmentCallback) {
 	if(structureNode.childAlignments != null) {
 		_.each(structureNode.childAlignments, function(childAlignment) {
-			visitStructureAlignments(childAlignment, alignmentCallback);
+			visitStructureAlignmentsPost(childAlignment, alignmentCallback);
 		});
 	}
 	alignmentCallback(structureNode);
 }
 
+//visit all alignment objects in pre-order fashion
+function visitStructureAlignmentsPre(structureNode, alignmentCallback) {
+	alignmentCallback(structureNode);
+	if(structureNode.childAlignments != null) {
+		_.each(structureNode.childAlignments, function(childAlignment) {
+			visitStructureAlignmentsPre(childAlignment, alignmentCallback);
+		});
+	}
+}

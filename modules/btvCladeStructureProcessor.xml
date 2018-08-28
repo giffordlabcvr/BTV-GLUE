@@ -54,7 +54,12 @@
         </parameter>
 		<okFromNullResultType/>
     </function>
-
-
+    <function>
+        <name>createAlignmentTree</name>
+        <parameter>
+            <name>jsonStructureFile</name>
+            <pathCompleter/>
+        </parameter>
+	</function>
 </ecmaFunctionInvoker>
 
