@@ -1,3 +1,13 @@
+/**
+ * This module generates various objects (reference sequences, module configs, alignments) based on a
+ * single JSON file which defines the clade structure and reference sequence choices for each segment.
+ * 
+ * The point of this is to have these choices in one place, so that they can be updated easily.
+ * 
+ * Note, currently, the clade structure file is only in place for segment 2.
+ */
+
+
 
 function getRefSeqName(alignmentObj, refSeqObj) {
 	return "REF_"+getCladeID(alignmentObj)+"_"+refSeqObj.sequenceID;
@@ -59,7 +69,7 @@ function generateSerotypeBlastRecogniser(jsonStructureFile, blastRecogniserFile)
 				"    <id>"+cladeID+"</id>\n"+
 				"    <minimumBitScore>100</minimumBitScore>\n";
 			_.each(alignment.referenceSequences, function(refSeqObj) {
-				var refSeqName = getRefSeqName(alignmentObj, refSeqObj);
+				var refSeqName = getRefSeqName(alignment, refSeqObj);
 				blastRecogniserString +=
 					"  <referenceSequence>"+refSeqName+"</referenceSequence>\n";
 				categoriesString +=
@@ -245,12 +255,51 @@ function createGlueReferenceSequences(jsonStructureFile) {
 		}
 		allRefs = _.uniq(allRefs, function(refSeqObj) { return refSeqObj.sequenceID; });
 		_.each(allRefs, function(refSeqObj) {
-			var refSeqName = getRefSeqName(alignmentObj, refSeqObj);
+			var refSeqName = getRefSeqName(alignment, refSeqObj);
 			glue.command(["create", "reference", refSeqName, sourceName, refSeqObj.sequenceID]);
 		});
 	});
 
 }
+
+function generateGenotypingCodonAlignment(jsonStructureFile, outgCodonAlignmentName, genoCodonAlignmentName) {
+	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
+
+	glue.command(["delete", "alignment", genoCodonAlignmentName]);
+
+	glue.command(["create", "alignment", genoCodonAlignmentName]);
+	
+
+	// we assume that the members of outgCodonAlignment which we need to replicate, are in this source.
+	var curatedSourceName = "ncbi-curated";
+
+	var sourceName = cladeStructure.referenceSourceName;
+	
+	visitStructureRefseqs(cladeStructure, function(refseq) {
+		var sequenceID = refseq.sequenceID;
+		
+		var segmentObjs;
+		
+		glue.inMode("alignment/"+outgCodonAlignmentName+"/member/"+curatedSourceName+"/"+sequenceID, function() {
+			segmentObjs = glue.tableToObjects(glue.command(["list", "segment"]));
+		});
+		
+
+		glue.inMode("alignment/"+genoCodonAlignmentName, function() {
+			glue.command(["add", "member", sourceName, sequenceID]);
+			glue.inMode("member/"+sourceName+"/"+sequenceID, function() {
+				_.each(segmentObjs, function(segmentObj) {
+					glue.command(["add", "segment", 
+					              segmentObj.refStart, segmentObj.refEnd, segmentObj.memberStart, segmentObj.memberEnd]);
+				});
+			});
+
+		});
+	});
+
+	
+}
+
 
 
 function loadJsonCladeStructure(jsonStructureFile) {

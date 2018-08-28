@@ -40,6 +40,20 @@
         </parameter>
 		<okFromNullResultType/>
     </function>
+    <function>
+        <name>generateGenotypingCodonAlignment</name>
+        <parameter>
+            <name>jsonStructureFile</name>
+            <pathCompleter/>
+        </parameter>
+        <parameter>
+            <name>outgCodonAlignmentName</name>
+        </parameter>
+        <parameter>
+            <name>genoCodonAlignmentName</name>
+        </parameter>
+		<okFromNullResultType/>
+    </function>
 
 
 </ecmaFunctionInvoker>
