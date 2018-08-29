@@ -284,6 +284,10 @@ function createAlignmentTree(jsonStructureFile) {
 					var childRefName = getRefSeqName(childAlignment, childAlignment.constrainingRef);
 					glue.command(["add", "member", "--refName", childRefName]);
 					glue.command(["extract", "child", childAlignment.alignmentName, "--refName", childRefName]);
+					// this demote member command is just to get the referenceMember flag set to true on the member
+					// in the parent alignment.
+					glue.command(["demote", "member", childAlignment.alignmentName, "--member", sourceName, childAlignment.constrainingRef.sequenceID]);
+
 				});
 			});
 		}
