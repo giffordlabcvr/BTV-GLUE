@@ -1,0 +1,10 @@
+project btv
+  module btvRaxmlPhylogenyGenerator 
+  
+    generate nucleotide phylogeny BTV_GENO_CODON_2 \
+      --allMembers \
+      -o trees/reference/S2_reference.tree \
+      NEWICK_BOOTSTRAPS
+    exit    
+  
+  exit
