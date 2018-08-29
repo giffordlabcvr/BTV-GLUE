@@ -177,11 +177,6 @@ _.each(isolateIDs, function(isolateID) {
 });
 
 
-// export full genomes alignment to disk
-glue.inMode("module/fastaAlignmentExporter", function() {
-	glue.command(["export", "BTV_OUTG_CODON_FULLGENOME", "--allMembers", "--fileName", "alignments/btvOutgroupCodon/BTV_OUTG_CODON_FULLGENOME.fna"]);
-});
-
 
 // function used to pick a sequence when there are multiple available for a segment.
 // prefer longer sequences first, break ties by preferring earlier GB create date.

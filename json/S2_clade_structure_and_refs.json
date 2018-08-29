@@ -15,7 +15,7 @@
 	      { "sequenceID": "KX164140" }
 	  ]},
 	  { "alignmentName": "AL_S2_St12", "almtDisplayName": "Serotype 12",
-	    "constrainingRef": { "sequenceID": "KT946761" },
+	    "constrainingRef": { "sequenceID": "KX164080" },
 	    "referenceSequences": [
 	      { "sequenceID": "KT946761" },
 	      { "sequenceID": "KX164080" },
@@ -48,7 +48,7 @@
       ]},
     { "alignmentName": "AL_S2_NtK",
       "almtDisplayName": "Nucleotype K",
-      "constrainingRef": { "sequenceID": "MF124283" },
+      "constrainingRef": { "sequenceID": "EU839840" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_Unclassified_NtK_1", "almtDisplayName": "Unclassified Nucleotype K (MF124283)",
 	    "constrainingRef": { "sequenceID": "MF124283" },
@@ -111,7 +111,7 @@
 	      { "sequenceID": "HQ222821" }
 	  ]},
 	  { "alignmentName": "AL_S2_St24", "almtDisplayName": "Serotype 24",
-	    "constrainingRef": { "sequenceID": "JN162682" },
+	    "constrainingRef": { "sequenceID": "KC633277" },
 	    "referenceSequences": [
 	      { "sequenceID": "JN162682" },
 	      { "sequenceID": "KC633277" },

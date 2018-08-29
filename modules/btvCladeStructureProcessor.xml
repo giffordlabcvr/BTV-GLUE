@@ -60,6 +60,9 @@
             <name>jsonStructureFile</name>
             <pathCompleter/>
         </parameter>
+        <parameter>
+            <name>genoCodonAlignmentName</name>
+        </parameter>
 	</function>
 </ecmaFunctionInvoker>
 

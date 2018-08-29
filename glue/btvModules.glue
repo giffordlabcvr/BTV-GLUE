@@ -82,5 +82,5 @@
 
   create module -f modules/btvCladeStructureProcessor.xml  --loadResources 
   create module -f modules/s2RefseqsNcbiImporter.xml
-  
+  create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
   

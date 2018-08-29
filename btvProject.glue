@@ -58,8 +58,14 @@ project btv
 
   run script glue/importRootedFullGenomeTree.js
 
-  # alignment tree
-  #run file glue/btvAlignmentTree.glue
+  # derive feature locations for segment 2 references
+  run script glue/btvAddFeatureLocations.js
+
+  # create alignment tree for segment 2
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S2_clade_structure_and_refs.json BTV_GENO_CODON_2
+
+  # check coding feature locations for segment 2 references
+  run script glue/btvCheckCodingFeatureLocations.js
     
   ## record feature presence
   #run file glue/recordFeaturePresence.glue

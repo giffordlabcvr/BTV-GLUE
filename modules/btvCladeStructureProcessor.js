@@ -246,7 +246,7 @@ function createGlueReferenceSequences(jsonStructureFile) {
 	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
 	var sourceName = cladeStructure.referenceSourceName;
 
-
+	
 	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
 		var allRefs = [];
 		allRefs.push(alignment.constrainingRef);
@@ -262,7 +262,7 @@ function createGlueReferenceSequences(jsonStructureFile) {
 
 }
 
-function createAlignmentTree(jsonStructureFile) {
+function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 
 	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
 	var sourceName = cladeStructure.referenceSourceName;
@@ -298,6 +298,10 @@ function createAlignmentTree(jsonStructureFile) {
 				});
 			});
 		}
+		glue.inMode("/alignment/"+alignment.alignmentName, function() {
+			glue.command(["derive", "segments", genoCodonAlignmentName, "--existingMembersOnly", "--allMembers"]);
+		});
+			
 	});
 
 }
