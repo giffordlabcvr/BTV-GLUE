@@ -1,0 +1,27 @@
+<maxLikelihoodGenotyper>
+	<maxLikelihoodPlacerModuleName>btvS2MaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+	<cladeCategory>
+		<name>species</name>	
+		<displayName>Species</displayName>	
+		<whereClause>clade_category = 'species'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+		<distanceCutoff>0.7</distanceCutoff>
+		<finalCladeCutoff>80.0</finalCladeCutoff>
+	</cladeCategory>
+	<cladeCategory>
+		<name>nucleotype</name>	
+		<displayName>Nucleotype</displayName>	
+		<whereClause>clade_category = 'nucleotype'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+		<distanceCutoff>0.4</distanceCutoff>
+		<finalCladeCutoff>80.0</finalCladeCutoff>
+	</cladeCategory>
+	<cladeCategory>
+		<name>serotype</name>	
+		<displayName>Serotype</displayName>	
+		<whereClause>clade_category = 'serotype'</whereClause>
+		<distanceScalingExponent>-3.0</distanceScalingExponent>
+	    <distanceCutoff>0.26</distanceCutoff>
+		<finalCladeCutoff>80.0</finalCladeCutoff>
+	</cladeCategory>
+</maxLikelihoodGenotyper>

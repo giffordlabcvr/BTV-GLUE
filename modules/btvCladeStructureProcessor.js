@@ -272,11 +272,12 @@ function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 	glue.command(["delete", "alignment", masterAlmtName]);
 	glue.command(["create", "alignment", masterAlmtName, "--refSeqName", masterRefName]);
 	visitStructureAlignmentsPre(cladeStructure, function(alignment) {
-		if(alignment.almtDisplayName != null) {
-			glue.inMode("/alignment/"+alignment.alignmentName, function() {
+		glue.inMode("/alignment/"+alignment.alignmentName, function() {
+			glue.command(["set", "field", "clade_category", alignment.cladeCategory]);
+			if(alignment.almtDisplayName != null) {
 				glue.command(["set", "field", "displayName", alignment.almtDisplayName]);
-			});
-		}
+			}
+		});
 		if(alignment.childAlignments != null) {
 			_.each(alignment.childAlignments, function(childAlignment) {
 				glue.command(["delete", "alignment", childAlignment.alignmentName]);
@@ -292,9 +293,12 @@ function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 			});
 		}
 		if(alignment.referenceSequences != null) {
-			glue.inMode("/alignment/"+alignment.alignmentName, function() {
-				_.each(alignment.referenceSequences, function(refObj) {
+			_.each(alignment.referenceSequences, function(refObj) {
+				glue.inMode("/alignment/"+alignment.alignmentName, function() {
 					glue.command(["add", "member", sourceName, refObj.sequenceID]);
+				});
+				glue.inMode("/sequence/"+sourceName+"/"+refObj.sequenceID, function() {
+					glue.command(["set", "field", "annotated_clade_id", getCladeID(alignment)]);
 				});
 			});
 		}

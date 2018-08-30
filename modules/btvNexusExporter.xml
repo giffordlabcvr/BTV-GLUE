@@ -59,6 +59,14 @@
 		<annotationName>recogniser_serotype</annotationName>
 		<template>${renderNestedProperty('sequence.recogniser_serotype')}</template>
 	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>epa_serotype</annotationName>
+		<template>${renderNestedProperty('sequence.epa_serotype')}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>epa_nucleotype</annotationName>
+		<template>${renderNestedProperty('sequence.epa_nucleotype')}</template>
+	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty name="tipLabels.colorAttribute">virus</figtreeProperty>
 	<figtreeProperty name="tipLabels.displayAttribute">virus</figtreeProperty>

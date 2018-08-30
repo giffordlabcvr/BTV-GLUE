@@ -66,9 +66,23 @@ project btv
 
   # check coding feature locations for segment 2 references
   run script glue/btvCheckCodingFeatureLocations.js
+
+  # import the segment 2 reference phylogeny
+  module btvPhyloImporter
+    import phylogeny AL_S2_MASTER --recursive --anyAlignment \
+      -w "sequence.source.name = 'ncbi-s2-refseqs' and referenceMember = false" \
+      -i trees/reference/S2_reference_rerooted.tree NEWICK_BOOTSTRAPS \
+      -f phylogeny
+    exit
+    
+  # genotype segment 2 curated sequences using placement files, 
+  # add them to the alignment tree and recompute alignments.
+  module btvGenotypeCuratedSeg2Sequences invoke-function genotypeCuratedSeg2  
     
   ## record feature presence
   #run file glue/recordFeaturePresence.glue
+
+
 
   validate
   

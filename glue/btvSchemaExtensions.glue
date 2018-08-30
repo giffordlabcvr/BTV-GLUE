@@ -27,9 +27,12 @@ schema-project btv
     create field excluded_reason VARCHAR 
     create field recogniser_segment VARCHAR
     create field isolate_segment INTEGER
+    # serotype as produced by the blast recogniser
     create field recogniser_serotype VARCHAR
     # serotype as recorded in the genbank record
     create field gb_serotype VARCHAR
+    # tip clade as annotated on the clade tree (i.e. tree in trees/cladeAnnotated or equivalent JSON file )
+    create field annotated_clade_id VARCHAR
     
     exit
 
@@ -68,6 +71,7 @@ schema-project btv
 
   table alignment
     create field phylogeny CLOB
+    create field clade_category VARCHAR
     exit
 
   table member_floc_note

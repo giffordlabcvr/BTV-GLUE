@@ -83,4 +83,10 @@
   create module -f modules/btvCladeStructureProcessor.xml  --loadResources 
   create module -f modules/s2RefseqsNcbiImporter.xml
   create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvGenotypingNexusExporter.xml  
+  
+  create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
+  
+  create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml
   

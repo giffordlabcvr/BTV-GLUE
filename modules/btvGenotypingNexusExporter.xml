@@ -1,0 +1,13 @@
+<nexusExporter>
+	<freemarkerAnnotationGenerator>
+		<annotationName>annotated_clade_id</annotationName>
+		<template>${renderNestedProperty('sequence.annotated_clade_id')}</template>
+	</freemarkerAnnotationGenerator>
+	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
+	<figtreeProperty name="tipLabels.colorAttribute">annotated_clade_id</figtreeProperty>
+	<figtreeProperty name="tipLabels.displayAttribute">annotated_clade_id</figtreeProperty>
+	<figtreeProperty type="integer" name="nodeLabels.fontSize">13</figtreeProperty>
+	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
+	<figtreeProperty name="nodeLabels.displayAttribute">bootstraps</figtreeProperty>
+	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
+</nexusExporter>
