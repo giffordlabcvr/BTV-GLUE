@@ -73,14 +73,14 @@
   create module -f modules/btvTabularUtility.xml  
   create module -f modules/btvNexusExporter.xml  
 
-  create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml  --loadResources 
+  create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml --loadResources 
   
   create module -f modules/btvBlastFastaProteinAlignmentImporter.xml
   
   create module --moduleType fastaProteinExporter
   create module --moduleType fastaUtility
 
-  create module -f modules/btvCladeStructureProcessor.xml  --loadResources 
+  create module -f modules/btvCladeStructureProcessor.xml --loadResources 
   create module -f modules/s2RefseqsNcbiImporter.xml
   create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
   create module -f modules/btvGenotypingNexusExporter.xml  
@@ -88,5 +88,5 @@
   create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
   create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
   
-  create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml
+  create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml --loadResources
   
