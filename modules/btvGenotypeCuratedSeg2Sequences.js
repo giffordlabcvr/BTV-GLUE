@@ -86,14 +86,6 @@ function genotypeCuratedSeg2() {
 				alignmentsToRecompute.push(targetAlignmentName);
 
 				glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-					var serotype = genotyperResult.serotypeFinalClade;
-					if(serotype != null) {
-						glue.command(["set", "field", "--noCommit", "epa_serotype", serotype]);
-					}
-					var nucleotype = genotyperResult.nucleotypeFinalClade;
-					if(nucleotype != null) {
-						glue.command(["set", "field", "--noCommit", "epa_nucleotype", nucleotype]);
-					}
 					isolateID = glue.command(["show", "property", "isolate.id"]).propertyValueResult.value;
 				});
 				if(isolateID != null) {
