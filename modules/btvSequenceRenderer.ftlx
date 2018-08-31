@@ -80,5 +80,4 @@
 </#if>
 	<@elem tag="completeSegment" expr="complete_segment" type="Boolean"/>
 	<@elem tag="gbSerotype" expr="gb_serotype"/>
-	<@elem tag="recogniserSerotype" expr="recogniser_serotype"/>
 </sequence>

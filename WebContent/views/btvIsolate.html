@@ -76,14 +76,6 @@
 					<td><b>Complete Genome?</b> (10 complete segments)</td>
 					<td>{{renderResult.isolate.completeGenome ? "Yes" : "No"}}</td>
 				</tr>
-				<tr>
-					<td><b>Segment 2 serotype</b></td>
-					<td>{{handleNull(renderResult.isolate.seg2serotype)}}</td>
-				</tr>
-				<tr>
-					<td><b>Segment 6 serotype</b></td>
-					<td>{{handleNull(renderResult.isolate.seg6serotype)}}</td>
-				</tr>
 			</table>
 		</div>
 	</div>
@@ -99,15 +91,17 @@
 			<th>Complete segment?</th>
 			<th>GenBank Creation Date</th>
 			<th>GenBank Last Update Date</th>
+			<th>Clade assignment</th>
 			<th>Reference</th>
 			<colgroup>
-				<col span="1" style="width: 18%;">
-				<col span="1" style="width: 7%;">
-				<col span="1" style="width: 7%;">
-				<col span="1" style="width: 7%;">
+				<col span="1" style="width: 12%;">
+				<col span="1" style="width: 6%;">
+				<col span="1" style="width: 6%;">
+				<col span="1" style="width: 6%;">
 				<col span="1" style="width: 10%;">
 				<col span="1" style="width: 10%;">
-				<col span="1" style="width: 15%;">
+				<col span="1" style="width: 12%;">
+				<col span="1" style="width: 12%;">
 			</colgroup>
 		</thead>
 		<tbody>
@@ -120,6 +114,8 @@
 				<td>{{seq.completeSegment ? "Yes" : "No"}}</td>
 				<td>{{seq.create_date}}</td>
 				<td>{{seq.update_date}}</td>
+				<td ng-if="seq.alignmentMembership"><span ng-repeat="almtMember in seq.alignmentMembership"><a href="#project/alignment/{{almtMember.alignmentName}}">{{almtMember.alignmentDisplayName}}</a></span></td>
+				<td ng-if="!seq.alignmentMembership">-</td>
 				<td ng-if="seq.publicationId"><a href="{{seq.publicationUrl}}" target="_blank">{{seq.publicationDisplayName}} [{{seq.publicationIndex}}] <i class="glyphicon glyphicon-link"></i></a></td>
 				<td ng-if="!seq.publicationId">-</td>
 			</tr>

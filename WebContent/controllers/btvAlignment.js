@@ -11,23 +11,25 @@ btvApp.controller('btvAlignmentCtrl',
 			$scope.init($routeParams.alignmentName, 
 					"btvAlignmentRenderer", "sequence.source.name = 'ncbi-curated' and referenceMember = false",
 					[
+					 "alignment.name",
+					 "alignment.displayName",
 					 "sequence.sequenceID",
-                     "sequence.who_country.id",
-                     "sequence.who_country.display_name",
-                     "sequence.who_country.who_region.id",
-                     "sequence.who_country.who_region.display_name",
-                     "sequence.who_country.development_status",
-                     "sequence.who_country.who_sub_region.id",
-                     "sequence.who_country.who_sub_region.display_name",
-                     "sequence.who_country.who_intermediate_region.id",
-                     "sequence.who_country.who_intermediate_region.display_name",
-					 "sequence.gb_collection_year",
-					 "sequence.gb_length",
-					 "sequence.gb_create_date",
-					 "sequence.gb_update_date",
-					 "sequence.pmid_reference",
-					 "sequence.gb_isolate",
-					 "sequence.gb_host"
+                     "sequence.isolate.who_country.id",
+                     "sequence.isolate.who_country.display_name",
+                     "sequence.isolate.who_country.who_region.id",
+                     "sequence.isolate.who_country.who_region.display_name",
+                     "sequence.isolate.who_country.who_sub_region.id",
+                     "sequence.isolate.who_country.who_sub_region.display_name",
+                     "sequence.isolate.who_country.who_intermediate_region.id",
+                     "sequence.isolate.who_country.who_intermediate_region.display_name",
+                     "sequence.isolate.collection_year",
+                     "sequence.complete_segment",
+                     "sequence.gb_length",
+                     "sequence.gb_create_date",
+                     "sequence.gb_update_date",
+                     "sequence.isolate.id",
+                     "sequence.isolate.display_name",
+                     "sequence.isolate.host"
 					 ]);
 
 			$scope.initGlobalRegionFixedValueSet();
@@ -41,13 +43,13 @@ btvApp.controller('btvAlignmentCtrl',
 			$scope.pagingContext.setSortableProperties([
 	            { property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID" },
 	            { property:"sequence.gb_length", displayName: "Sequence Length" },
+	            { property:"alignment.sort_key", displayName: "Clade" },
 	            { property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date" },
 	            { property:"sequence.gb_update_date", displayName: "NCBI Last Update Date" },
-  	            { property:"sequence.who_country.id", displayName: "Country of Origin" },
-	            { property:"sequence.gb_collection_year", displayName: "Collection Year" },
-	            { property:"sequence.gb_isolate", displayName: "Isolate ID" },
-	            { property:"sequence.gb_host", displayName: "Host Species" },
-	            { property:"sequence.pmid_reference", displayName: "PubMed ID" }
+  	            { property:"sequence.isolate.who_country.id", displayName: "Country of Origin" },
+	            { property:"sequence.isolate.collection_year", displayName: "Collection Year" },
+	            { property:"sequence.isolate.id", displayName: "Isolate Name" },
+	            { property:"sequence.isolate.host", displayName: "Host Species" }
 	        ]);
 
   			$scope.pagingContext.setDefaultFilterElems([]);
@@ -55,22 +57,20 @@ btvApp.controller('btvAlignmentCtrl',
 			$scope.pagingContext.setFilterProperties([
          		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
         		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
-  	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
-  	            // commented out until alignments are populated
-  	            // $scope.featurePresenceFilter(),
+  	            { property:"alignment.displayName", displayName: "Clade", filterHints: {type: "String"} },
         		{ property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
         		{ property:"sequence.gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
+  	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
+  	            { property:"sequence.isolate.who_country.display_name", nullProperty:"sequence.isolate.who_country", altProperties:["sequence.isolate.who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
-  	            $scope.developmentStatusFilter(),
-	            { property:"sequence.gb_host", displayName: "Host Species", filterHints: {type: "String"} },
-	            { property:"sequence.gb_collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
-	            { property:"sequence.gb_isolate", displayName: "Isolate ID", filterHints: {type: "String"} },
-	            { property:"sequence.sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
-  	            { property:"sequence.place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
-  	            { property:"sequence.tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
-  	            { property:"sequence.passage_history", displayName: "Passage History", filterHints: {type: "String"} },
-  	            { property:"sequence.passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} },
-	            { property:"sequence.pmid_reference", displayName: "PubMed ID", filterHints: {type: "String"} }
+	            { property:"sequence.isolate.host", displayName: "Host Species", filterHints: {type: "String"} },
+	            { property:"sequence.isolate.collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
+	            { property:"sequence.isolate.id", displayName: "Isolate Name", filterHints: {type: "String"} },
+	            { property:"sequence.isolate.sample_type", displayName: "Sample Type", filterHints: {type: "String"} },
+  	            { property:"sequence.isolate.place_sampled", displayName: "Place Sampled", filterHints: {type: "String"} },
+  	            { property:"sequence.isolate.tissue_sampled", displayName: "Tissue Sampled", filterHints: {type: "String"} },
+  	            { property:"sequence.isolate.passage_history", displayName: "Passage History", filterHints: {type: "String"} },
+  	            { property:"sequence.isolate.passage_cells", displayName: "Passage Cells", filterHints: {type: "String"} }
 			]);
 
 		}]);

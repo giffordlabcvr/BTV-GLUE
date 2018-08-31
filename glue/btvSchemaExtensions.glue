@@ -72,6 +72,7 @@ schema-project btv
   table alignment
     create field phylogeny CLOB
     create field clade_category VARCHAR
+    create field sort_key VARCHAR
     exit
 
   table member_floc_note
@@ -86,6 +87,9 @@ schema-project btv
   create link sequence who_country -m MANY_TO_ONE
 
   create link isolate sequence -m ONE_TO_MANY
+
+  # direct link between isolate and relevant segment 2 clade.
+  create link isolate -s seg2clade alignment -d seg2isolate -m MANY_TO_ONE
 
   create link isolate who_country -m MANY_TO_ONE
 

@@ -81,6 +81,8 @@ function genotypeCuratedSeg2() {
 					glue.command(["add", "member", sourceName, sequenceID]);
 				});
 
+				var isolateID;
+				
 				alignmentsToRecompute.push(targetAlignmentName);
 
 				glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
@@ -92,7 +94,13 @@ function genotypeCuratedSeg2() {
 					if(nucleotype != null) {
 						glue.command(["set", "field", "--noCommit", "epa_nucleotype", nucleotype]);
 					}
+					isolateID = glue.command(["show", "property", "isolate.id"]).propertyValueResult.value;
 				});
+				if(isolateID != null) {
+					glue.inMode("custom-table-row/isolate/"+isolateID, function() {
+						glue.command(["set", "link-target", "seg2clade", "alignment/"+targetAlignmentName]);
+					});
+				}
 			}
 			if(numUpdates % batchSize == 0) {
 				glue.command("commit");

@@ -44,11 +44,11 @@
 					<td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
 				
-				<tr>
+				<tr ng-if="renderResult.sequence.segment == '2'">
 					<td><b>Serotype (annotated in GenBank)</b></td>
 					<td>{{handleNull(renderResult.sequence.gbSerotype)}}</td>
 				</tr>
-				<tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
+				<!-- <tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
 					<td><b>Serotype (detected by BTV-GLUE)</b></td>
 					<td>{{handleNull(renderResult.sequence.recogniserSerotype)}}</td>
 				</tr>
@@ -59,12 +59,12 @@
 				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
 					<td><b>Serotype of segment 6 in the same isolate</b></td>
 					<td>{{handleNull(renderResult.sequence.isolateSeg6Serotype)}}</td>
-				</tr>
+				</tr> -->
 				<tbody
 					ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index"
 					ng-show="alignment.constrainingReference">
 					<tr>
-						<td><b>Clade membership</b></td>
+						<td><b>Segment clade assignment</b></td>
 						<td><a href="#project/alignment/{{alignment.name}}">{{alignment.renderedName}}</a></td>
 					</tr>
 					<!-- commented out until alignments are populated

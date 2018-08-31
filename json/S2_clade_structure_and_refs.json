@@ -6,10 +6,12 @@
   "childAlignments": [
     { "alignmentName": "AL_S2_NtG",
       "almtDisplayName": "Nucleotype G",
+      "alphaSortKey": "G",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "AJ585187" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St22", "almtDisplayName": "Serotype 22",
+	    "numericSortKey": "22",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585187" },
 	    "referenceSequences": [
@@ -18,6 +20,7 @@
 	      { "sequenceID": "KX164140" }
 	  ]},
 	  { "alignmentName": "AL_S2_St12", "almtDisplayName": "Serotype 12",
+	    "numericSortKey": "12",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX164080" },
 	    "referenceSequences": [
@@ -30,16 +33,21 @@
       ]},
     { "alignmentName": "AL_S2_NtJ",
       "almtDisplayName": "Nucleotype J",
+      "alphaSortKey": "J",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "KP196604" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_Unclassified_NtJ_1", "almtDisplayName": "Unclassified Nucleotype J (KP196604)",
+	    "numericSortKey": "999",
+	    "alphaSortKey": "KP196604",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KP196604" },
 	    "referenceSequences": [
 	      { "sequenceID": "KP196604" }
 	  ]},
 	  { "alignmentName": "AL_S2_St15A", "almtDisplayName": "Serotype 15A",
+	    "numericSortKey": "15",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX272470" },
 	    "referenceSequences": [
@@ -47,6 +55,8 @@
 	      { "sequenceID": "KP821098" }
 	  ]},
 	  { "alignmentName": "AL_S2_St15B", "almtDisplayName": "Serotype 15B",
+	    "numericSortKey": "15",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JQ086222" },
 	    "referenceSequences": [
@@ -56,34 +66,42 @@
       ]},
     { "alignmentName": "AL_S2_NtK",
       "almtDisplayName": "Nucleotype K",
+      "alphaSortKey": "K",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "EU839840" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_Unclassified_NtK_1", "almtDisplayName": "Unclassified Nucleotype K (MF124283)",
+	    "numericSortKey": "999",
+	    "alphaSortKey": "MF124283",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "MF124283" },
 	    "referenceSequences": [
 	      { "sequenceID": "MF124283" }
 	  ]},
 	  { "alignmentName": "AL_S2_Unclassified_NtK_2", "almtDisplayName": "Unclassified Nucleotype K (KX695171)",
+	    "numericSortKey": "999",
+	    "alphaSortKey": "KX695171",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX695171" },
 	    "referenceSequences": [
 	      { "sequenceID": "KX695171" }
 	  ]},
 	  { "alignmentName": "AL_S2_St26", "almtDisplayName": "Serotype 26",
+	    "numericSortKey": "26",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "HM590642" },
 	    "referenceSequences": [
 	      { "sequenceID": "HM590642" }
 	  ]},
 	  { "alignmentName": "AL_S2_St25", "almtDisplayName": "Serotype 25",
+	    "numericSortKey": "25",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "EU839840" },
 	    "referenceSequences": [
 	      { "sequenceID": "EU839840" }
 	  ]},
 	  { "alignmentName": "AL_S2_St27", "almtDisplayName": "Serotype 27",
+	    "numericSortKey": "27",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KU760998" },
 	    "referenceSequences": [
@@ -92,12 +110,16 @@
 	      { "sequenceID": "KM200718" }
 	  ]},
 	  { "alignmentName": "AL_S2_Unclassified_NtK_3", "almtDisplayName": "Unclassified Nucleotype K (KR061882)",
+	    "numericSortKey": "999",
+	    "alphaSortKey": "KR061882",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KR061882" },
 	    "referenceSequences": [
 	      { "sequenceID": "KR061882" }
 	  ]},
 	  { "alignmentName": "AL_S2_Unclassified_NtK_4", "almtDisplayName": "Unclassified Nucleotype K (KY365755/KX234079)",
+	    "numericSortKey": "999",
+	    "alphaSortKey": "KY365755/KX234079",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX234079" },
 	    "referenceSequences": [
@@ -106,10 +128,12 @@
       ]},
     { "alignmentName": "AL_S2_NtA",
       "almtDisplayName": "Nucleotype A",
+      "alphaSortKey": "A",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "KY471279" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St11", "almtDisplayName": "Serotype 11",
+	    "numericSortKey": "11",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KY471279" },
 	    "referenceSequences": [
@@ -120,6 +144,7 @@
 	      { "sequenceID": "KM580426" }
 	  ]},
 	  { "alignmentName": "AL_S2_St10", "almtDisplayName": "Serotype 10",
+	    "numericSortKey": "10",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX272520" },
 	    "referenceSequences": [
@@ -130,6 +155,7 @@
 	      { "sequenceID": "HQ222821" }
 	  ]},
 	  { "alignmentName": "AL_S2_St24", "almtDisplayName": "Serotype 24",
+	    "numericSortKey": "24",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KC633277" },
 	    "referenceSequences": [
@@ -140,6 +166,7 @@
 	      { "sequenceID": "JX272370" }
 	  ]},
 	  { "alignmentName": "AL_S2_St20", "almtDisplayName": "Serotype 20",
+	    "numericSortKey": "20",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585141" },
 	    "referenceSequences": [
@@ -147,6 +174,8 @@
 	      { "sequenceID": "JX272420" }
 	  ]},
 	  { "alignmentName": "AL_S2_St4B", "almtDisplayName": "Serotype 4B",
+	    "numericSortKey": "4",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX560414" },
 	    "referenceSequences": [
@@ -154,6 +183,8 @@
 	      { "sequenceID": "KY947344" }
 	  ]},
 	  { "alignmentName": "AL_S2_St4A", "almtDisplayName": "Serotype 4A",
+	    "numericSortKey": "4",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX272580" },
 	    "referenceSequences": [
@@ -166,6 +197,7 @@
 	      { "sequenceID": "KT317666" }
 	  ]},
 	  { "alignmentName": "AL_S2_St17", "almtDisplayName": "Serotype 17",
+	    "numericSortKey": "17",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX599360" },
 	    "referenceSequences": [
@@ -178,10 +210,12 @@
       ]},
     { "alignmentName": "AL_S2_NtF",
       "almtDisplayName": "Nucleotype F",
+      "alphaSortKey": "F",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "JQ086292" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St7", "almtDisplayName": "Serotype 7",
+	    "numericSortKey": "7",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JQ086292" },
 	    "referenceSequences": [
@@ -190,6 +224,7 @@
 	      { "sequenceID": "KT945046" }
 	  ]},
 	  { "alignmentName": "AL_S2_St19", "almtDisplayName": "Serotype 19",
+	    "numericSortKey": "19",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX164130" },
 	    "referenceSequences": [
@@ -199,10 +234,13 @@
       ]},
     { "alignmentName": "AL_S2_NtE",
       "almtDisplayName": "Nucleotype E",
+      "alphaSortKey": "E",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "KP821080" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St9B", "almtDisplayName": "Serotype 9B",
+	    "numericSortKey": "9",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KP821080" },
 	    "referenceSequences": [
@@ -213,6 +251,7 @@
 	      { "sequenceID": "AB686223" }
 	  ]},
 	  { "alignmentName": "AL_S2_St5", "almtDisplayName": "Serotype 5",
+	    "numericSortKey": "5",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585182" },
 	    "referenceSequences": [
@@ -222,6 +261,8 @@
 	      { "sequenceID": "KT945045" }
 	  ]},
 	  { "alignmentName": "AL_S2_St9A", "almtDisplayName": "Serotype 9A",
+	    "numericSortKey": "9",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KY092145" },
 	    "referenceSequences": [
@@ -233,10 +274,13 @@
       ]},
     { "alignmentName": "AL_S2_NtI",
       "almtDisplayName": "Nucleotype I",
+      "alphaSortKey": "I",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "AJ585152" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St2B", "almtDisplayName": "Serotype 2B",
+	    "numericSortKey": "2",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585152" },
 	    "referenceSequences": [
@@ -245,6 +289,8 @@
 	      { "sequenceID": "MF384475" }
 	  ]},
 	  { "alignmentName": "AL_S2_St2A", "almtDisplayName": "Serotype 2A",
+	    "numericSortKey": "2",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "HQ222820" },
 	    "referenceSequences": [
@@ -260,10 +306,13 @@
       ]},
     { "alignmentName": "AL_S2_NtH",
       "almtDisplayName": "Nucleotype H",
+      "alphaSortKey": "H",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "JX680458" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St1A", "almtDisplayName": "Serotype 1A",
+	    "numericSortKey": "1",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX680458" },
 	    "referenceSequences": [
@@ -277,6 +326,8 @@
 	      { "sequenceID": "KY092170" }
 	  ]},
 	  { "alignmentName": "AL_S2_St1B", "almtDisplayName": "Serotype 1B",
+	    "numericSortKey": "1",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585116" },
 	    "referenceSequences": [
@@ -291,10 +342,12 @@
       ]},
     { "alignmentName": "AL_S2_NtD",
       "almtDisplayName": "Nucleotype D",
+      "alphaSortKey": "D",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "JX272400" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St23", "almtDisplayName": "Serotype 23",
+	    "numericSortKey": "23",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX272400" },
 	    "referenceSequences": [
@@ -304,6 +357,7 @@
 	      { "sequenceID": "MF384502" }
 	  ]},
 	  { "alignmentName": "AL_S2_St18", "almtDisplayName": "Serotype 18",
+	    "numericSortKey": "18",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX442585" },
 	    "referenceSequences": [
@@ -312,6 +366,7 @@
 	      { "sequenceID": "KX164120" }
 	  ]},
 	  { "alignmentName": "AL_S2_St8", "almtDisplayName": "Serotype 8",
+	    "numericSortKey": "8",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX272540" },
 	    "referenceSequences": [
@@ -323,10 +378,12 @@
       ]},
     { "alignmentName": "AL_S2_NtC",
       "almtDisplayName": "Nucleotype C",
+      "alphaSortKey": "C",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "AB686218" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St21", "almtDisplayName": "Serotype 21",
+	    "numericSortKey": "21",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AB686218" },
 	    "referenceSequences": [
@@ -337,6 +394,7 @@
 	      { "sequenceID": "MG206078" }
 	  ]},
 	  { "alignmentName": "AL_S2_St14", "almtDisplayName": "Serotype 14",
+	    "numericSortKey": "14",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585186" },
 	    "referenceSequences": [
@@ -345,6 +403,7 @@
 	      { "sequenceID": "KY092147" }
 	  ]},
 	  { "alignmentName": "AL_S2_St6", "almtDisplayName": "Serotype 6",
+	    "numericSortKey": "6",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "JX965385" },
 	    "referenceSequences": [
@@ -355,10 +414,13 @@
       ]},
     { "alignmentName": "AL_S2_NtB",
       "almtDisplayName": "Nucleotype B",
+      "alphaSortKey": "B",
       "cladeCategory": "nucleotype",
       "constrainingRef": { "sequenceID": "KY092166" },
       "childAlignments": [
 	  { "alignmentName": "AL_S2_St3A", "almtDisplayName": "Serotype 3A",
+	    "numericSortKey": "3",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KY092166" },
 	    "referenceSequences": [
@@ -369,6 +431,8 @@
 	      { "sequenceID": "KY092169" }
 	  ]},
 	  { "alignmentName": "AL_S2_St3B", "almtDisplayName": "Serotype 3B",
+	    "numericSortKey": "3",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AB686219" },
 	    "referenceSequences": [
@@ -376,6 +440,7 @@
 	      { "sequenceID": "MF384477" }
 	  ]},
 	  { "alignmentName": "AL_S2_St13", "almtDisplayName": "Serotype 13",
+	    "numericSortKey": "13",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "KX442584" },
 	    "referenceSequences": [
@@ -385,6 +450,8 @@
 	      { "sequenceID": "JX272490" }
 	  ]},
 	  { "alignmentName": "AL_S2_St16B", "almtDisplayName": "Serotype 16B",
+	    "numericSortKey": "16",
+	    "alphaSortKey": "B",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AB686217" },
 	    "referenceSequences": [
@@ -398,6 +465,8 @@
 	      { "sequenceID": "AB686214" }
 	  ]},
 	  { "alignmentName": "AL_S2_St16A", "almtDisplayName": "Serotype 16A",
+	    "numericSortKey": "16",
+	    "alphaSortKey": "A",
 	    "cladeCategory": "serotype",
 	    "constrainingRef": { "sequenceID": "AJ585150" },
 	    "referenceSequences": [

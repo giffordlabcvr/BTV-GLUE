@@ -90,3 +90,7 @@
   
   create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml --loadResources
   
+  create module --fileName modules/btvSeg2WebAnalysisTool.xml
+  create module --fileName modules/btvSeg2SequenceReporter.xml
+
+  

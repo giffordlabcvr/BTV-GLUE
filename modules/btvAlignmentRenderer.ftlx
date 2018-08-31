@@ -15,7 +15,7 @@
 		<renderedName>${parent.getRenderedName()}</renderedName>
 	</parent>
 </#if>
-<#list children?sort_by(['refSequence', 'sequence', 'gb_serotype']) as child>
+<#list children?sort_by(['sort_key']) as child>
 	<child glueType="Object[]">
 		<name>${child.name}</name>
 		<renderedName>${child.getRenderedName()}</renderedName>

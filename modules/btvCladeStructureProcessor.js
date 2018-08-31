@@ -262,6 +262,14 @@ function createGlueReferenceSequences(jsonStructureFile) {
 
 }
 
+function pad(num, size) {
+    var s = num+"";
+    while (s.length < size) {
+    	s = "0" + s;
+    }
+    return s;
+}
+
 function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 
 	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
@@ -277,6 +285,16 @@ function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 			if(alignment.almtDisplayName != null) {
 				glue.command(["set", "field", "displayName", alignment.almtDisplayName]);
 			}
+			var numericSortKey = alignment.numericSortKey;
+			if(numericSortKey == null) {
+				numericSortKey = 0;
+			}
+			var alphaSortKey = alignment.alphaSortKey;
+			if(alphaSortKey == null) {
+				alphaSortKey = "";
+			}
+			var sortKey = pad(numericSortKey, 5)+alphaSortKey;
+			glue.command(["set", "field", "sort_key", sortKey]);
 		});
 		if(alignment.childAlignments != null) {
 			_.each(alignment.childAlignments, function(childAlignment) {

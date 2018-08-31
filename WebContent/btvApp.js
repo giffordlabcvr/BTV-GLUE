@@ -17,6 +17,7 @@
 
 var btvApp = angular.module('btvApp', [
     'ngRoute',
+    'analysisTool', 
     'projectBrowser', 
     'home',
     'glueWS',
@@ -78,6 +79,12 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
       });
 	
     $routeProvider.
+    when('/analysisTool', {
+      templateUrl: '../gluetools-web/www/analysisTool/analysisTool.html',
+      controller: 'analysisToolCtrl'
+    });
+
+    $routeProvider.
       when('/home', {
     	  templateUrl: './modules/home/home.html',
     	  controller: 'homeCtrl'
@@ -98,7 +105,13 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserAlignmentMenuTitle = "Segment Clade Trees";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	$scope.projectBrowserIsolateMenuTitle = "Isolates";
+	$scope.analysisMenuTitle = "Analysis";
+	$scope.analysisToolMenuTitle = "Segment 2 Genotyping";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
+	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
+	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/btvSeg2Example.fasta");
+	glueWebToolConfig.setAnalysisToolExampleMsWindowsSequenceURL("exampleSequencesMsWindows/btvSeg2Example.fasta");
+	glueWebToolConfig.setAnalysisModuleName("btvSeg2WebAnalysisTool");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
 	glueWebToolConfig.setGlueWSURL("../gluetools-web/www/glueWS");
 } ]);

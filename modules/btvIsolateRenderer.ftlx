@@ -17,8 +17,6 @@
 	<@elem tag="placeSampled" expr="place_sampled"/>
 	<@elem tag="sampleType" expr="sample_type"/>
 	<@elem tag="tissueSampled" expr="tissue_sampled"/>
-	<@elem tag="seg2serotype" expr="seg2serotype"/>
-	<@elem tag="seg6serotype" expr="seg6serotype"/>
 	
 <#assign pubIDs = []>	
 <#assign pubs = []>	
@@ -42,8 +40,15 @@
 		<@elem tag="completeSegment" expr="context.complete_segment" type="Boolean" context=seq/>
 		<@elem tag="create_date" expr="context.gb_create_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
 		<@elem tag="update_date" expr="context.gb_update_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
-		<@elem tag="gbSerotype" expr="context.gb_serotype" context=seq/>
 		<@elem tag="recogniserSerotype" expr="context.recogniser_serotype" context=seq/>
+		<#list seq.alignmentMemberships as almtMember>
+		<#if almtMember.alignment.refSequence??>
+		<alignmentMembership glueType="Object[]">
+			<@elem tag="alignmentName" expr="context.alignment.name" context=almtMember/>
+			<@elem tag="alignmentDisplayName" expr="context.alignment.displayName" context=almtMember/>
+		</alignmentMembership>
+		</#if>
+		</#list>
 		<#if seq.publication??>
 			<#if !pubIDs?seq_contains(seq.publication.id)>
 			<#assign pubIDs = pubIDs + [ seq.publication.id ]>
