@@ -41,7 +41,7 @@ isolate	Seg-1	Seg-2	Seg-3	Seg-4	Seg-5	Seg-6	Seg-7	Seg-8	Seg-9	Seg-10	host	countr
 8602		DQ191273									Ovis aries	Italy	2000			field	Oristano-Sardinia	spleen	E?V?	Mammalian			16283915
 10353		DQ191280									Ovis aries	Italy	2003			field	Sardinia	blood	E?V?	Mammalian			16283915
 10670		DQ191263									Ovis aries	Italy	2001			field	Careri-Calabria	spleen	E?V?	Mammalian			16283915
-11508		DQ191284									Ovis aries	Italy	2001			field	Noepoli-Calabria	blood	E?V?	Mammalian			16283915
+11508		DQ191284									Ovis aries	Italy	2001			field	Noepoli-Basilicata	blood	E?V?	Mammalian			16283915
 11920		DQ191282									Ovis aries	Italy	2001			field	Bianco-Calabria	spleen	E?V?	Mammalian			16283915
 17356		DQ191265									Cervus elaphus corsicanus	Italy	2001			field	Seui-Sardinia	bone marrow	E?V?	Mammalian			16283915
 23/08/1965	JX272469	JX272470	JX272471	JX272472	JX272473	JX272474	JX272475	JX272476	JX272477	JX272478		South Africa											UP
@@ -51,7 +51,7 @@ isolate	Seg-1	Seg-2	Seg-3	Seg-4	Seg-5	Seg-6	Seg-7	Seg-8	Seg-9	Seg-10	host	countr
 80022										EU450661	Bos taurus	Switzerland				field		blood					UP
 80199		DQ191266									Ovis aries	Italy	2001			field	Magliano-Tuscany	blood	E?V?	Mammalian			16283915
 80273		DQ191267									Ovis aries	Italy	2001			field	Urzulei-Sardinia	spleen	E?V?	Mammalian			16283915
-80296		DQ191268									Ovis aries	Italy	2001			field	Cerveter-Lazio	blood	E?V?	Mammalian			16283915
+80296		DQ191268									Ovis aries	Italy	2001			field	Cerveteri-Lazio	blood	E?V?	Mammalian			16283915
 80302		DQ191269									Ovis aries	Italy	2001			field	Montalto di Castro-Lazio	blood	E?V?	Mammalian			16283915
 81640		DQ191270									Ovis aries	Italy	2001			field	Messina-Sicily	blood	E?V?	Mammalian			16283915
 81641		DQ191271									Bos taurus	Italy	2001			field	Messina-Sicily	blood	E?V?	Mammalian			16283915
@@ -434,12 +434,12 @@ BTV/2646/3/2010		JF423938							JQ970453		Ovis aries	Israel	2010	SEP		field			E1
 BTV/2662/1/09	KF584221										Bos taurus	Israel	2009	JUL	22	field		blood					UP
 BTV/Bov/BC/NS-3481/2004		DQ848152									Bos taurus	Canada	2004			field							UP
 BTV/ISR-1894/12			KM365235		KP342327			KP342328			Ovis aries	Israel	2012	OCT		field							UP
-BTV01IND2010-KRM07	KP339134	KP339135	KP339136	KP339137	KP339138	KP339139	KP339140	KP339141	KP339142	KP339143	Ovis aries	India	2010	SEP		field	Karimnagar, Andhra Pradesh				Yes		
+BTV01IND2010-KRM07	KP339134	KP339135	KP339136	KP339137	KP339138	KP339139	KP339140	KP339141	KP339142	KP339143	Ovis aries	India	2010	SEP		field	Karimnagar, Telangana				Yes		
 BTV01IND2010-VC12	KP339144	KP339145	KP339146	KP339147	KP339148	KP339149	KP339150	KP339151	KP339152	KP339153	Ovis aries	India	2010	SEP		field	Nellore, Andhra Pradesh				Yes		
 BTV02IND1993	KP339154	KP339155	KP339156	KP339157	KP339158	KP339159	KP339160	KP339161	KP339162	KP339163	Ovis aries	India	1993			field	Chittoor, Andhra Pradesh				Yes		
-BTV02IND2010-KRM08	KP339164	KP339165	KP339166	KP339167	KP339168	KP339169	KP339170	KP339171	KP339172	KP339173	Ovis aries	India	2010	SEP		field	Karimnagar, Andhra Pradesh				Yes		
-BTV09IND2003-M10	KP339174	KP339175	KP339176	KP339177	KP339178	KP339179	KP339180	KP339181	KP339182	KP339183	Ovis aries	India	2003	AUG		field	Mahaboobnagar, Andhra Pradesh				Yes		
-BTV09IND2003-M11	KP339184	KP339185	KP339186	KP339187	KP339188	KP339189	KP339190	KP339191	KP339192	KP339193	Ovis aries	India	2003	AUG		field	Mahaboobnagar, Andhra Pradesh				Yes		
+BTV02IND2010-KRM08	KP339164	KP339165	KP339166	KP339167	KP339168	KP339169	KP339170	KP339171	KP339172	KP339173	Ovis aries	India	2010	SEP		field	Karimnagar, Telangana				Yes		
+BTV09IND2003-M10	KP339174	KP339175	KP339176	KP339177	KP339178	KP339179	KP339180	KP339181	KP339182	KP339183	Ovis aries	India	2003	AUG		field	Mahaboobnagar, Telangana				Yes		
+BTV09IND2003-M11	KP339184	KP339185	KP339186	KP339187	KP339188	KP339189	KP339190	KP339191	KP339192	KP339193	Ovis aries	India	2003	AUG		field	Mahaboobnagar, Telangana				Yes		
 BTV1 SAD2012					KC896850					KC896852	Ovis aries	Italy	2012			field	Sardinia	blood	CPT-Tert2	Mammalian			23838283
 BTV1 SAL1990/502270 	KY091928	KY092170	KY092117	KY092090	KY092089	KY092036	KY092009	KY091982	KY091957	KY091901		El Salvador	1990			field		blood	E1BHK4	Mammalian	No		29120297
 btv1/07-01		FJ437557					FJ437558	FJ437559	FJ437560	FJ437561	Ovis aries	France	2007	NOV		field		blood					21074232
@@ -499,8 +499,8 @@ BTV16/ISR-2296/14		KP306784									Bos taurus	Israel	2014	OCT		field							UP
 BTV16/ISR-2404/08		KP306785	KM365245								Bos taurus	Israel	2008	NOV		field		blood					UP
 BTV16/ISR-7774/03		KP306786	KM365268								Ovis aries	Israel	2003	SEP		field		spleen					UP
 BTV16/Israel/2019/11									JQ970461		Bos taurus	Israel	2011	NOV		field			E1-3BHK?V?	Mammalian			UP
-BTV16IND2010-AP04	KP339194	KP339195	KP339196	KP339197	KP339198	KP339199	KP339200	KP339201	KP339202	KP339203	Ovis aries	India	2010	SEP		field	Mahaboobnagar, Andhra Pradesh				Yes		
-BTV16IND2010-AP06	KP339204	KP339205	KP339206	KP339207	KP339208	KP339209	KP339210	KP339211	KP339212	KP339213	Ovis aries	India	2010	SEP		field	Mahaboobnagar, Andhra Pradesh				Yes		
+BTV16IND2010-AP04	KP339194	KP339195	KP339196	KP339197	KP339198	KP339199	KP339200	KP339201	KP339202	KP339203	Ovis aries	India	2010	SEP		field	Mahaboobnagar, Telangana				Yes		
+BTV16IND2010-AP06	KP339204	KP339205	KP339206	KP339207	KP339208	KP339209	KP339210	KP339211	KP339212	KP339213	Ovis aries	India	2010	SEP		field	Mahaboobnagar, Telangana				Yes		
 BTV16IND2010-VC07	KP339224	KP339225	KP339226	KP339227	KP339228	KP339229	KP339230	KP339231	KP339232	KP339233	Ovis aries	India	2010	SEP		field	Nellore, Andhra Pradesh				Yes		
 BTV16IND2011-NR82	KP339214	KP339215	KP339216	KP339217	KP339218	KP339219	KP339220	KP339221	KP339222	KP339223	Ovis aries	India	2011	SEP		field	Adilabad, Andhra Pradesh				Yes		
 BTV17/06.1 (212)		HQ222822									Bos taurus	Martinique	2006			field		blood					UP
@@ -1065,9 +1065,9 @@ KDP15/07/Ind		KF563933									Ovis aries	India				field	Kadappa-Andhra Pradesh	
 KEN????/01		AJ585183				AJ586707						Kenya				field			BHK?	Mammalian			UP
 KEN????/02		AJ585185				AJ586712						Kenya				field			BHK?	Mammalian			UP
 KM	AY493686	AY493687	AY493688	AY493689	AY462225	AY493690	AY493692	AY493684	AY493691	AY493685	Capra hircus	Taiwan	2003	MAY		field	Kinmen island	blood	E1BHK2	Mammalian			15675526
-KMN07/05	KP339234	KP339235	KP339236	KP339237	KP339238	KP339239	KP339240	KP339241	KP339242	KP339243	Ovis aries	India	2005	SEP		field	Karimnagar, Andhra Pradesh	blood	E3BHK3	Mammalian	Yes		25598289
-KMN07/05		JF768738			JF747592		JF768739				Ovis aries	India				field	Karimnagar, Andhra Pradesh	blood	E3BHK3	Mammalian			22350945
-KMN07/05							JF776369				Ovis aries	India				field	Karimnagar, Andhra Pradesh		E3BHK3	Mammalian			UP
+KMN07/05	KP339234	KP339235	KP339236	KP339237	KP339238	KP339239	KP339240	KP339241	KP339242	KP339243	Ovis aries	India	2005	SEP		field	Karimnagar, Telangana	blood	E3BHK3	Mammalian	Yes		25598289
+KMN07/05		JF768738			JF747592		JF768739				Ovis aries	India				field	Karimnagar, Telangana	blood	E3BHK3	Mammalian			22350945
+KMN07/05							JF776369				Ovis aries	India				field	Karimnagar, Telangana		E3BHK3	Mammalian			UP
 Kmno-7/06/IND		JN613126			KF289017	JN572916					Ovis aries	India		NOV		field	Andhra Pradesh						23353779
 Kol-2_1							DQ462582					India				field	Kolkata-West Bengal		BHK?	Mammalian			UP
 KOL-2_2							AM261981					India				field							19382719
@@ -1496,13 +1496,13 @@ USA2014/FL 15-008010	KX164119	KX164120	KX164121	KX164122	KX164123	KX164124	KX164
 USA2015/TX 15-029176	KX164049	KX164050	KX164051	KX164052	KX164053	KX164054	KX164055	KX164056	KX164057	KX164058	Bos taurus	USA	2015	AUG	24	field	Washington County, Texas	blood					
 UTKR-03/2012		KY947345									Ovis aries	India	2012	SEP		field	Telangana	blood	KC?BHK?	Culicoides-Mammalian	yes		29120083
 V015		KT945048									Bos taurus	China	2013	JUL		field	Yunnan-Dehong	blood	E1C6/36 1BHK3	Mammalian			26865326
-V084		KT945042									Bos taurus	China	2012	SEP		field	Yunnan-Shizhong	blood	E1C6/36 1BHK5	Mammalian			26865326
+V084		KT945042									Bos taurus	China	2012	SEP		field	Yunnan-Shizong	blood	E1C6/36 1BHK5	Mammalian			26865326
 V089		KT945046									Bos taurus	China	2014	AUG		field	Guangdong-Shantou	blood	C6/36 1BHK3	Aedes albopictus-Mammalian			26865326
 V115		KT945047									Capra hircus	China	2014	JUN		field	Guangdong-Shantou	blood	C6/36 1BHK4	Aedes albopictus-Mammalian			26865326
 V133		KT945043									Bos taurus	China	2014	JUN		field	Guangdong-Shantou	blood	C6/36 1BHK3	Aedes albopictus-Mammalian			26865326
-V134		KT945044									Bos taurus	China	2012	SEP		field	Yunnan-Shizhong	blood	E1C6/36 1BHK5	Mammalian			26865326
-V136		KT945045									Bos taurus	China	2012	OCT		field	Yunnan-Shizhong	blood	E1C6/36 1BHK3	Mammalian			26865326
-V137		KT945049									Bos taurus	China	2012	OCT		field	Yunnan-Shizhong	blood	E1C6/36 1BHK4	Mammalian			26865326
+V134		KT945044									Bos taurus	China	2012	SEP		field	Yunnan-Shizong	blood	E1C6/36 1BHK5	Mammalian			26865326
+V136		KT945045									Bos taurus	China	2012	OCT		field	Yunnan-Shizong	blood	E1C6/36 1BHK3	Mammalian			26865326
+V137		KT945049									Bos taurus	China	2012	OCT		field	Yunnan-Shizong	blood	E1C6/36 1BHK4	Mammalian			26865326
 V196/XJ/2014	KX695170	KX695171	KX695172	KX695173	KX695174	KX695175	KX695176	KX695177	KX695178	KX695179	Capra aegagrus hircus	China	2014	SEP	20	field	Xinjiang	blood	E1C6/36 1BHK5	Mammalian	No		UP
 V3036			AY277935							AF529052	Bos taurus	Australia				field		blood	E?C6/36?BHK?	Mammalian			15041187
 V3209			AY277931							AF529053		Australia				field		blood	E?C6/36?BHK?	Mammalian			15041187
