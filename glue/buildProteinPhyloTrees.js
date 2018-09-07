@@ -1,5 +1,8 @@
 // reordered the segments to do the ones which have the more problematic rooting first.
-var segments = ["5", "8", "9", "10", "1", "2", "3", "4", "6", "7"];
+// var segments = ["5", "8", "9", "10", "1", "2", "3", "4", "6", "7"];
+
+// only 6 and 7 remain.
+var segments = ["6", "7"];
 
 var segToFeatureName = {};
 
