@@ -44,28 +44,8 @@
 		<template>${renderNestedProperty('sequence.sequenceID')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
-		<annotationName>isolateS2serotype</annotationName>
-		<template>${renderNestedProperty('sequence.isolate.seg2serotype')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>isolateS6serotype</annotationName>
-		<template>${renderNestedProperty('sequence.isolate.seg6serotype')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>gb_serotype</annotationName>
-		<template>${renderNestedProperty('sequence.gb_serotype')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>recogniser_serotype</annotationName>
-		<template>${renderNestedProperty('sequence.recogniser_serotype')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>epa_serotype</annotationName>
-		<template>${renderNestedProperty('sequence.epa_serotype')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>epa_nucleotype</annotationName>
-		<template>${renderNestedProperty('sequence.epa_nucleotype')}</template>
+		<annotationName>seg2clade</annotationName>
+		<template>${renderNestedProperty('sequence.isolate.seg2clade.displayName')}</template>
 	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty name="tipLabels.colorAttribute">virus</figtreeProperty>
