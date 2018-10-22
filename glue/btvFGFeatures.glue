@@ -1,0 +1,108 @@
+## these features are copies of the features used on individual segment references that we will use for
+## full genome references.
+
+## The reason to have a separate set of features is that the full genome sequences are not members of
+## the linking alignments which are used in codon labeler modules referenced by each feature. Therefore validating the 
+## full genome reference sequences fails. 
+
+create feature FG_S1_whole_genome "Segment 1"
+
+create feature FG_VP1 -p FG_S1_whole_genome "VP1 coding sequence"
+feature FG_VP1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+
+create feature FG_S2_whole_genome "Segment 2"
+feature FG_S2_whole_genome set field displayName "Segment 2"
+
+create feature FG_VP2 -p FG_S2_whole_genome "VP2 coding sequence"
+feature FG_VP2
+  set field displayName VP2
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S3_whole_genome "Segment 3"
+feature FG_S3_whole_genome set field displayName "Segment 3"
+
+create feature FG_VP3 -p FG_S3_whole_genome "VP3 coding sequence"
+feature FG_VP3
+  set field displayName VP3
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S4_whole_genome "Segment 4"
+feature FG_S4_whole_genome set field displayName "Segment 4"
+
+create feature FG_VP4 -p FG_S4_whole_genome "VP4 coding sequence"
+feature FG_VP4
+  set field displayName VP4
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S5_whole_genome "Segment 5"
+feature FG_S5_whole_genome set field displayName "Segment 5"
+
+create feature FG_NS1 -p FG_S5_whole_genome "NS1 coding sequence"
+feature FG_NS1
+  set field displayName NS1
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S6_whole_genome "Segment 6"
+feature FG_S6_whole_genome set field displayName "Segment 6"
+
+create feature FG_VP5 -p FG_S6_whole_genome "VP5 coding sequence"
+feature FG_VP5
+  set field displayName VP5
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S7_whole_genome "Segment 7"
+feature FG_S7_whole_genome set field displayName "Segment 7"
+
+create feature FG_VP7 -p FG_S7_whole_genome "VP7 coding sequence"
+feature FG_VP7
+  set field displayName VP7
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S8_whole_genome "Segment 8"
+feature FG_S8_whole_genome set field displayName "Segment 8"
+
+create feature FG_NS2 -p FG_S8_whole_genome "NS2 coding sequence"
+feature FG_NS2
+  set field displayName NS2
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S9_whole_genome "Segment 9"
+feature FG_S9_whole_genome set field displayName "Segment 9"
+
+create feature FG_VP6 -p FG_S9_whole_genome "VP6 coding sequence"
+feature FG_VP6
+  set field displayName VP6
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_VP6a -p FG_S9_whole_genome "VP6a coding sequence"
+feature FG_VP6a
+  set field displayName VP6a
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_NS4 -p FG_S9_whole_genome "NS4 coding sequence"
+feature FG_NS4
+  set field displayName NS4
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit
+create feature FG_S10_whole_genome "Segment 10"
+feature FG_S10_whole_genome set field displayName "Segment 10"
+
+create feature FG_NS3 -p FG_S10_whole_genome "NS3 coding sequence"
+feature FG_NS3
+  set field displayName NS3
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  exit

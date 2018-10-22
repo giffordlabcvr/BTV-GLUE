@@ -1,6 +1,6 @@
 delete project btv
 
-create project btv "A GLUE project for Bluetongue virus (BTV)" --minVersion 1.0.16
+create project btv "A GLUE project for Bluetongue virus (BTV)" --minVersion 1.1.5
 
 run file glue/btvSchemaExtensions.glue
  
@@ -17,6 +17,7 @@ project btv
   
   # features.
   run file glue/btvFeatures.glue
+  run file glue/btvFGFeatures.glue
 
   # Import NCBI reference sequence set
   # old-style (non seg 2)

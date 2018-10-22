@@ -1,5 +1,3 @@
-  # create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-
   create module --fileName modules/s1CompoundAligner.xml s1CompoundAligner
   create module --fileName modules/s2CompoundAligner.xml s2CompoundAligner
   create module --fileName modules/s3CompoundAligner.xml s3CompoundAligner

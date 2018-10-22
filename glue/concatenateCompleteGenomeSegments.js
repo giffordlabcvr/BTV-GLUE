@@ -115,14 +115,14 @@ _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
 		};
 	});
 	glue.inMode("reference/REF_MASTER_FULLGENOME", function() {
-		glue.command(["add", "feature-location", "S"+segNum+"_whole_genome"]);
-		glue.inMode("/feature-location/S"+segNum+"_whole_genome", function() {
+		glue.command(["add", "feature-location", "FG_S"+segNum+"_whole_genome"]);
+		glue.inMode("/feature-location/FG_S"+segNum+"_whole_genome", function() {
 			glue.command(["add", "segment", refOffset+1, refOffset+segNumToRefSeq[segNum].gb_length]);
 		});
 		
 		
-		glue.command(["add", "feature-location", featureName]);
-		glue.inMode("/feature-location/"+featureName, function() {
+		glue.command(["add", "feature-location", "FG_"+featureName]);
+		glue.inMode("/feature-location/FG_"+featureName, function() {
 			_.each(newFeatureSegs, function(newFeatureSeg) {
 				glue.command(["add", "segment", newFeatureSeg.refStart, newFeatureSeg.refEnd]);
 			});
