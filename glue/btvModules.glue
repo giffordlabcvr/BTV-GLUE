@@ -91,4 +91,5 @@
   create module --fileName modules/btvSeg2WebAnalysisTool.xml
   create module --fileName modules/btvSeg2SequenceReporter.xml
 
+  create module --fileName modules/btvReportingController.xml --loadResources 
   
