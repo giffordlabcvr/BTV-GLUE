@@ -236,12 +236,10 @@ function generateSingleFastaReport(fastaMap, resultObj, fastaFilePath) {
 	var genotypingResult = resultObj.genotypingResult;
 	if(genotypingResult != null) {
 		var targetRefName = genotypingResultToTargetRefName(resultObj.segment, genotypingResult);
-		var nucleotides = fastaMap[resultObj.id].sequence;
-		var queryToTargetRefSegs = generateQueryToTargetRefSegs(resultObj.segment, targetRefName, nucleotides);
+		var queryNucleotides = fastaMap[resultObj.id].sequence;
+		var queryToTargetRefSegs = generateQueryToTargetRefSegs(resultObj.segment, targetRefName, queryNucleotides);
 		resultObj.featuresWithCoverage = generateFeaturesWithCoverage(resultObj.segment, targetRefName, queryToTargetRefSegs);
-		/*
 		resultObj.visualisationHints = visualisationHints(resultObj.segment, queryNucleotides, targetRefName, genotypingResult, queryToTargetRefSegs);
-		*/
 	}
 	
 	var btvReport = { 
@@ -259,44 +257,48 @@ function generateSingleFastaReport(fastaMap, resultObj, fastaFilePath) {
 
 function visualisationHints(segment, queryNucleotides, targetRefName, genotypingResult, queryToTargetRefSegs) {
 	// consider the target ref, subtype ref, genotype ref and master ref as comparison refs.
-	var comparisonReferenceNames = ["REF_MASTER_NC_004102"];
-	var genotypeAlmtName = genotypingResult.genotypeCladeCategoryResult.finalClade;
-	if(genotypeAlmtName != null) {
-		glue.inMode("alignment/"+genotypeAlmtName, function() {
-			comparisonReferenceNames.push(glue.command(["show", "reference"]).showReferenceResult.referenceName);
-		});
-	}
-	var subtypeAlmtName = genotypingResult.subtypeCladeCategoryResult.finalClade;
-	if(subtypeAlmtName != null) {
-		glue.inMode("alignment/"+subtypeAlmtName, function() {
-			comparisonReferenceNames.push(glue.command(["show", "reference"]).showReferenceResult.referenceName);
-		});
-	}
-	comparisonReferenceNames.push(targetRefName);
+	var comparisonReferences = [{
+		"refName": segToSegDetails[segment].masterReference, 
+		"refDisplayName" : "Segment "+segment+" Master Reference"
+	}];
+	var cladeCategories = segmentCladeCategories(segment);
+	_.each(cladeCategories, function(cladeCategory) {
+		var categoryResult = _.find(genotypingResult.queryCladeCategoryResult, function(qcCatResult) {return qcCatResult.categoryName == cladeCategory.name;});
+		if(categoryResult.finalClade != null) {
+			glue.inMode("alignment/"+categoryResult.finalClade, function() {
+				var referenceName = glue.command(["show", "reference"]).showReferenceResult.referenceName;
+				var cladeDisplayName = glue.command(["show", "property", "displayName"]).propertyValueResult.value;
+				comparisonReferences.push({
+					"refName": referenceName,
+					"refDisplayName": cladeDisplayName+" Reference"
+				});
+			});
+		}
+	});
+	comparisonReferences.push({
+		"refName":targetRefName,
+		"refDisplayName": "Closest Reference"
+	});
 	var seqs = [];
-	var comparisonRefs = [];
+	var comparisonReferencesFinal = [];
 	
-	// eliminate duplicates and enhance with display names.
-	_.each(comparisonReferenceNames, function(refName) {
-		glue.inMode("reference/"+refName, function() {
+	// eliminate duplicates and enhance with sequence ID.
+	_.each(comparisonReferences, function(ref) {
+		glue.inMode("reference/"+ref.refName, function() {
 			var seqID = glue.command(["show", "sequence"]).showSequenceResult["sequence.sequenceID"];
 			if(seqs.indexOf(seqID) < 0) {
 				seqs.push(seqID);
-				var refDisplayName = glue.command(["show", "property", "displayName"]).propertyValueResult.value;
-				if(refDisplayName == null) {
-					refDisplayName = "Closest Reference ("+seqID+")";
+				if(!ref.refDisplayName.startsWith("Unclassified")) {
+					ref.refDisplayName = ref.refDisplayName + " ("+seqID+")";
 				}
-				comparisonRefs.push({
-					"refName": refName,
-					"refDisplayName": refDisplayName
-				});
+				comparisonReferencesFinal.push(ref);
 			}
 		});
 	});
 	
 	return {
-		"features": featuresList,
-		"comparisonRefs": comparisonRefs,
+		"features": segToSegDetails[segment].allFeatures,
+		"comparisonRefs": comparisonReferencesFinal,
 		"targetReferenceName":targetRefName,
 		"queryNucleotides":queryNucleotides,
 		"queryToTargetRefSegments": queryToTargetRefSegs
