@@ -17,7 +17,6 @@
 
 var btvApp = angular.module('btvApp', [
     'ngRoute',
-    'analysisTool', 
     'projectBrowser', 
     'home',
     'glueWS',
@@ -79,9 +78,9 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
       });
 	
     $routeProvider.
-    when('/analysisTool', {
-      templateUrl: '../gluetools-web/www/analysisTool/analysisTool.html',
-      controller: 'analysisToolCtrl'
+    when('/btvFastaAnalysis', {
+      templateUrl: '../views/btvFastaAnalysis.html',
+      controller: 'btvFastaAnalysisCtrl'
     });
 
     $routeProvider.
@@ -106,7 +105,7 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	$scope.projectBrowserIsolateMenuTitle = "Isolates";
 	$scope.analysisMenuTitle = "Analysis";
-	$scope.analysisToolMenuTitle = "Segment 2 Genotyping";
+	$scope.analysisToolMenuTitle = "Genotyping and Interpretation";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
 	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
 	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/btvSeg2Example.fasta");

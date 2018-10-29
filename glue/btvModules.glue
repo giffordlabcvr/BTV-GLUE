@@ -92,4 +92,5 @@
   create module --fileName modules/btvSeg2SequenceReporter.xml
 
   create module --fileName modules/btvReportingController.xml --loadResources 
+  create module --fileName modules/btvFeatureToSvgTransformer.xml --loadResources 
   

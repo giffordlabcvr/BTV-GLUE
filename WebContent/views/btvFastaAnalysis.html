@@ -1,0 +1,212 @@
+<div>
+	<div nv-file-drop="" uploader="uploader"
+		filters="queueLimit, customFilter">
+		<h2>Automated genotyping and interpretation</h2>
+		<p>
+			Submit your sequence files in FASTA nucleotide format for automated
+			clade membership analysis and
+			genome visualisation. <small><br />For testing, download this
+				<a ng-click="downloadExampleSequence()">example sequence file</a>
+				and submit it for analysis.</small>
+		</p>
+		<div>
+			<div>
+
+				<table class="table" width="100%">
+					<thead>
+					<col width="40%"></col>
+					<col width="20%"></col>
+					<col width="20%"></col>
+					<col width="20%"></col>
+					<tr>
+						<th>File</th>
+						<th ng-show="uploader.isHTML5">Size</th>
+						<th>Status</th>
+						<th>Actions</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="item in uploader.queue">
+							<td><strong>{{ item.file.name }}</strong></td>
+							<td ng-show="uploader.isHTML5" nowrap>{{
+								item.file.size/1024/1024|number:2 }} MB</td>
+							<td><span ng-show="item.isSuccess"> <i
+									class="glyphicon glyphicon-ok"></i>
+							</span> <span ng-show="item.isCancel"> <i
+									class="glyphicon glyphicon-ban-circle"></i>
+							</span> <span ng-show="item.isUploading"> <i
+									class="glyphicon glyphicon-transfer"></i>
+							</span> <span ng-show="item.isError"> <i
+									class="glyphicon glyphicon-remove"></i>
+							</span></td>
+							<td nowrap>
+								<button type="button" class="btn btn-primary btn-xs"
+									ng-click="item.upload()"
+									ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+									<span class="glyphicon glyphicon-upload"></span> Submit
+								</button>
+								<button type="button" class="btn btn-primary btn-xs"
+									ng-click="showAnalysisResults(item)"
+									ng-disabled="!item.isSuccess">
+									<span class="glyphicon glyphicon-list"></span> Show analysis
+								</button>
+								<button type="button" class="btn btn-primary btn-xs"
+									ng-click="removeItem(item)">
+									<span class="glyphicon glyphicon-trash"></span> Remove
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div>
+					<label class="btn btn-primary" for="my-file-selector"> <input
+						id="my-file-selector" type="file" nv-file-select=""
+						uploader="uploader" multiple style="display: none;"> <span
+						class="glyphicon glyphicon-plus-sign"></span> Add files
+					</label>
+					<button type="button" class="btn btn-primary btn-s"
+						ng-click="uploader.uploadAll()"
+						ng-disabled="!uploader.getNotUploadedItems().length">
+						<span class="glyphicon glyphicon-upload"></span> Submit all files
+					</button>
+					<button type="button" class="btn btn-primary btn-s"
+						ng-click="removeAll()" ng-disabled="!uploader.queue.length">
+						<span class="glyphicon glyphicon-trash"></span> Remove all files
+					</button>
+				</div>
+
+			</div>
+
+			<div ng-show="fileItemUnderAnalysis">
+				<hr />
+				<h4>Analysis of sequence file
+					'{{fileItemUnderAnalysis.file.name}}'</h4>
+
+					<p>
+						<div class="btn-group">
+							<label
+								class="btn btn-primary ng-pristine ng-untouched ng-valid active"
+								btn-checkbox ng-model="summary">Summary</label> <label
+								class="btn btn-primary ng-pristine ng-untouched ng-valid active"
+								btn-checkbox ng-model="genomeVisualisation">Genome
+								visualisation</label>
+						</div>
+					</p>
+				<div ng-show="summary">
+					<p>
+					<table class="table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th rowspan="2" style="width: 20%;">Sequence</th>
+								<th rowspan="2" style="width: 10%;">BTV Segment</th>
+								<th rowspan="2" style="width: 10%;">Closest reference sequence</th>
+								<th rowspan="2" style="width: 60%;">Clade membership</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr
+								ng-repeat="btvResult in fileItemUnderAnalysis.response.btvWebReport.results track by $index">
+								<td>{{btvResult.btvReport.sequenceResult.id}}</td>
+								<td colspan="3" ng-if="!btvResult.btvReport.sequenceResult.isForwardBtv">
+									<span ng-if="btvResult.btvReport.sequenceResult.noRecogniserHits">Not recognised as Bluetongue virus</span>
+									<span ng-if="btvResult.btvReport.sequenceResult.multipleRecogniserHits">Bluetongue segment and/or sequence direction unclear</span>
+									<span ng-if="btvResult.btvReport.sequenceResult.isReverseBtv">Recognised as reverse-complement Bluetongue virus</span>
+								</td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv">BTV Segment {{btvResult.btvReport.sequenceResult.segment}}</td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != 2">-</td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment == 2"><a href="#/project/reference/{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceName}}" target="_blank">{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceSeqID}}</a></td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != 2">-</td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment == 2">
+									<span ng-repeat="qccr in btvResult.btvReport.sequenceResult.genotypingResult.queryCladeCategoryResult | filter: allowCladeCategory track by $index">
+										<span ng-if="$index > 0">&nbsp;/&nbsp;</span>
+										<a href="#/project/alignment/{{qccr.finalClade}}" target="_blank" ng-if="qccr.finalClade != null">{{qccr.finalCladeRenderedName}}</a>
+										<span ng-if="qccr.finalClade == null">{{qccr.categoryDisplayName}} unknown</span>
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					</p>
+				</div>
+				<div ng-show="genomeVisualisation" class="container-fluid">
+					<div class="row">
+						<div class="genomeVisualisationControls col-md-10">
+							<p>
+							<div>
+								Visualise genome region:
+								<div class="btn-group" dropdown is-open="status.fButtonOpen">
+									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null" id="f-button" type="button" class="btn btn-sm btn-default"
+										dropdown-toggle>
+										{{fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null ? "-" : fileItemUnderAnalysis.sequenceReport.phdrReport.feature.displayName}}
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu"
+										aria-labelledby="f-button">
+										<li
+											ng-repeat="feature in fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.visualisationHints.features"
+											ng-click="setFeature(fileItemUnderAnalysis.sequenceReport, feature)"
+											role="menuitem"><a>{{feature.displayName}}</a></li>
+									</ul>
+								</div>
+							</div>
+							</p>
+							<p>
+							<div>
+								of submitted sequence:
+								<div class="btn-group" dropdown is-open="status.qseqButtonOpen">
+									<button ng-disabled="visualisationUpdating" id="qseq-button" type="button" class="btn btn-sm btn-default"
+										dropdown-toggle>
+										{{fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.id}}
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu"
+										aria-labelledby="qseq-button">
+										<li
+											ng-repeat="report in fileItemUnderAnalysis.response.phdrWebReport.results"
+											ng-click="setSequenceReport(fileItemUnderAnalysis, report)"
+											role="menuitem"><a>{{report.phdrReport.sequenceResult.id}}</a></li>
+									</ul>
+								</div>
+								(displayed in green)
+							</div>
+							</p>
+							<p>
+							<div>
+								highlighting any differences with:
+								<div class="btn-group" dropdown is-open="status.rseqButtonOpen">
+									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null" id="rseq-button" type="button" class="btn btn-sm btn-default"
+										dropdown-toggle>
+										{{fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null ? "-" : fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef.refDisplayName}}
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu"
+										aria-labelledby="rseq-button">
+										<li
+											ng-repeat="comparisonRef in fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.visualisationHints.comparisonRefs"
+											ng-click="setComparisonRef(fileItemUnderAnalysis.sequenceReport, comparisonRef)"
+											role="menuitem"><a>{{comparisonRef.refDisplayName}}</a></li>
+									</ul>
+								</div>
+								(displayed in blue)
+							</div>
+			
+							</p>
+						</div><!-- https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+					    --><div class="col-md-2 updateVisualisationButton text-right">
+								<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null || fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null" type="button" class="btn btn-primary"
+									ng-click="updateSvg()"><i class="glyphicon glyphicon-refresh"></i> Update</button>
+							</div>
+					</div>
+					<div class="row svgContainer" us-spinner="{radius:23, width:7, length: 11}" spinner-on="visualisationUpdating" style="min-height: 100px; position: relative">
+						<div ng-if="visualisationSvgUrl == null && !visualisationUpdating">
+							<p class="text-center">No data</p>
+						</div>
+						<div id="visualisationSvg" style="overflow: auto;" data-onload="svgUpdated()" ng-include="visualisationSvgUrl">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -295,11 +295,23 @@ function visualisationHints(segment, queryNucleotides, targetRefName, genotyping
 			}
 		});
 	});
+
+
+	var targetRefSeqID;
+	
+	glue.inMode("reference/"+targetRefName, function() {
+		var showSeqResult = glue.command(["show", "sequence"]);
+		targetRefSeqID = showSeqResult.showSequenceResult["sequence.sequenceID"];
+		targetRefSourceName = showSeqResult.showSequenceResult["sequence.source.name"];
+	});
+
 	
 	return {
 		"features": segToSegDetails[segment].allFeatures,
 		"comparisonRefs": comparisonReferencesFinal,
 		"targetReferenceName":targetRefName,
+		"targetReferenceSeqID":targetRefSeqID,
+		"targetReferenceSourceName":targetRefSourceName,
 		"queryNucleotides":queryNucleotides,
 		"queryToTargetRefSegments": queryToTargetRefSegs
 	};

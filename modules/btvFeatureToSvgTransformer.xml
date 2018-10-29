@@ -1,0 +1,4 @@
+<freemarkerDocTransformer>
+	<templateFileName>btvFeatureToSvgTransformer.ftlx</templateFileName>
+	<resourceFileName>btvFeatureToSvgTransformer.css</resourceFileName>
+</freemarkerDocTransformer>
