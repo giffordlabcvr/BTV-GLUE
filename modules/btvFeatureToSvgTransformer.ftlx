@@ -61,7 +61,7 @@
 
 <svg width="${svgWidthPx?c}" height="${svgHeightPx?c}"
      xmlns="http://www.w3.org/2000/svg">
-  <style>${getResourceAsString('phdrFeatureToSvgTransformer.css')?no_esc}</style>
+  <style>${getResourceAsString('btvFeatureToSvgTransformer.css')?no_esc}</style>
   
   <#assign y = 0>
   

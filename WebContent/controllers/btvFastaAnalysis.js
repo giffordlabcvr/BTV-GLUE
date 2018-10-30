@@ -24,6 +24,13 @@ btvApp.controller('btvFastaAnalysisCtrl',
 				return true;
 			};
 			
+			$scope.canVisualiseReport = function(report) {
+				if(report.btvReport.sequenceResult.visualisationHints != null) {
+					return true;
+				}
+				return false;
+			}
+			
 			// executed after the project URL is set
 			glueWS.addProjectUrlListener( {
 				reportProjectURL: function(projectURL) {
@@ -83,7 +90,12 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    $scope.setFileItemUnderAnalysis = function(item) {
 				$scope.saveFeatureScrollLeft();
 		    	if(item.sequenceReport == null) {
-		    		$scope.setSequenceReport(item, item.response.btvWebReport.results[0]);
+		    		for(var i = 0; i < item.response.btvWebReport.results.length; i++) {
+		    			if($scope.canVisualiseReport(item.response.btvWebReport.results[i])) {
+				    		$scope.setSequenceReport(item, item.response.btvWebReport.results[i]);
+				    		break;
+		    			}
+		    		}
 		    	}
 		    	$scope.fileItemUnderAnalysis = item;
 		    	$scope.visualisationSvgUrl = null;
@@ -124,49 +136,6 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    	// need to nest feature within btvReport to avoid breaking command doc assumptions.
 		    	sequenceReport.btvReport.feature = feature;
 		    }
-
-		    $scope.getGenotype = function(sequenceResult) {
-		    	var genotypeCladeResult = _.find(sequenceResult.genotypingResult.queryCladeCategoryResult, function(qccr) {return qccr.categoryName == 'genotype'});
-		    	if(genotypeCladeResult == null) {
-		    		return "-";
-		    	}
-		    	return genotypeCladeResult.shortRenderedName;
-		    };
-
-		    $scope.getSubtype = function(sequenceResult) {
-		    	var subtypeCladeResult = _.find(sequenceResult.genotypingResult.queryCladeCategoryResult, function(qccr) {return qccr.categoryName == 'subtype'});
-		    	if(subtypeCladeResult == null) {
-		    		return "-";
-		    	}
-		    	return subtypeCladeResult.shortRenderedName;
-		    };
-
-		    $scope.getClosestReferenceSequence = function(sequenceResult) {
-		    	var genotypeCladeResult = _.find(sequenceResult.genotypingResult.queryCladeCategoryResult, function(qccr) {return qccr.categoryName == 'genotype'});
-		    	if(genotypeCladeResult == null) {
-		    		return "-";
-		    	}
-		    	return genotypeCladeResult.closestTargetSequenceID;
-		    };
-
-		    $scope.getResistanceLevel = function(sequenceResult, drugId) {
-		    	if(sequenceResult.drugScores != null) { 
-		    		for(var i = 0; i < sequenceResult.drugScores.length; i++) {
-		    			var categoryScores = sequenceResult.drugScores[i];
-		    			for(var j = 0; j < categoryScores.drugAssessments.length; j++) {
-		    				var drugAssessment = categoryScores.drugAssessments[j];
-		    				if(drugAssessment.drug.id == drugId) {
-		    					if(drugAssessment.sufficientCoverage) {
-		    						return drugAssessment.drugScore;
-		    					} else {
-		    						return 'insufficient_coverage';
-		    					}
-		    				}
-		    			}
-		    		}
-		    	}
-		    	return "none";
-		    };
 
 			$scope.$watch('summary', function(newObj, oldObj) {
 				if(!$scope.updating) {
@@ -247,7 +216,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 					});
 				} else {
 					console.info('visualisationHints', visualisationHints);
-					glueWS.runGlueCommand("module/btvVisualisationUtility", 
+					glueWS.runGlueCommand("module/"+visualisationHints.visualisationUtilityModule, 
 							{ "visualise-feature": {
 							    "targetReferenceName": visualisationHints.targetReferenceName,
 							    "comparisonReferenceName": sequenceReport.btvReport.comparisonRef.refName,

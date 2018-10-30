@@ -111,7 +111,7 @@
 								<td colspan="3" ng-if="!btvResult.btvReport.sequenceResult.isForwardBtv">
 									<span ng-if="btvResult.btvReport.sequenceResult.noRecogniserHits">Not recognised as Bluetongue virus</span>
 									<span ng-if="btvResult.btvReport.sequenceResult.multipleRecogniserHits">Bluetongue segment and/or sequence direction unclear</span>
-									<span ng-if="btvResult.btvReport.sequenceResult.isReverseBtv">Recognised as reverse-complement Bluetongue virus</span>
+									<span ng-if="btvResult.btvReport.sequenceResult.isReverseBtv">Reverse-complement of Bluetongue segment {{btvResult.btvReport.sequenceResult.segment}}</span>
 								</td>
 								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv">BTV Segment {{btvResult.btvReport.sequenceResult.segment}}</td>
 								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != 2">-</td>
@@ -130,21 +130,24 @@
 					</p>
 				</div>
 				<div ng-show="genomeVisualisation" class="container-fluid">
-					<div class="row">
+					<div ng-if="fileItemUnderAnalysis.sequenceReport == null">
+						<p class="text-center">No submitted sequences may be visualised</p>
+					</div>
+					<div ng-if="fileItemUnderAnalysis.sequenceReport != null" class="row">
 						<div class="genomeVisualisationControls col-md-10">
 							<p>
 							<div>
 								Visualise genome region:
 								<div class="btn-group" dropdown is-open="status.fButtonOpen">
-									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null" id="f-button" type="button" class="btn btn-sm btn-default"
+									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.btvReport.feature == null" id="f-button" type="button" class="btn btn-sm btn-default"
 										dropdown-toggle>
-										{{fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null ? "-" : fileItemUnderAnalysis.sequenceReport.phdrReport.feature.displayName}}
+										{{fileItemUnderAnalysis.sequenceReport.btvReport.feature == null ? "-" : fileItemUnderAnalysis.sequenceReport.btvReport.feature.displayName}}
 										<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu" role="menu"
 										aria-labelledby="f-button">
 										<li
-											ng-repeat="feature in fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.visualisationHints.features"
+											ng-repeat="feature in fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.visualisationHints.features"
 											ng-click="setFeature(fileItemUnderAnalysis.sequenceReport, feature)"
 											role="menuitem"><a>{{feature.displayName}}</a></li>
 									</ul>
@@ -157,15 +160,15 @@
 								<div class="btn-group" dropdown is-open="status.qseqButtonOpen">
 									<button ng-disabled="visualisationUpdating" id="qseq-button" type="button" class="btn btn-sm btn-default"
 										dropdown-toggle>
-										{{fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.id}}
+										{{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.id}}
 										<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu" role="menu"
 										aria-labelledby="qseq-button">
 										<li
-											ng-repeat="report in fileItemUnderAnalysis.response.phdrWebReport.results"
+											ng-repeat="report in fileItemUnderAnalysis.response.btvWebReport.results | filter: canVisualiseReport"
 											ng-click="setSequenceReport(fileItemUnderAnalysis, report)"
-											role="menuitem"><a>{{report.phdrReport.sequenceResult.id}}</a></li>
+											role="menuitem"><a>{{report.btvReport.sequenceResult.id}}</a></li>
 									</ul>
 								</div>
 								(displayed in green)
@@ -175,15 +178,15 @@
 							<div>
 								highlighting any differences with:
 								<div class="btn-group" dropdown is-open="status.rseqButtonOpen">
-									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null" id="rseq-button" type="button" class="btn btn-sm btn-default"
+									<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.btvReport.comparisonRef == null" id="rseq-button" type="button" class="btn btn-sm btn-default"
 										dropdown-toggle>
-										{{fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null ? "-" : fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef.refDisplayName}}
+										{{fileItemUnderAnalysis.sequenceReport.btvReport.comparisonRef == null ? "-" : fileItemUnderAnalysis.sequenceReport.btvReport.comparisonRef.refDisplayName}}
 										<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu" role="menu"
 										aria-labelledby="rseq-button">
 										<li
-											ng-repeat="comparisonRef in fileItemUnderAnalysis.sequenceReport.phdrReport.sequenceResult.visualisationHints.comparisonRefs"
+											ng-repeat="comparisonRef in fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.visualisationHints.comparisonRefs"
 											ng-click="setComparisonRef(fileItemUnderAnalysis.sequenceReport, comparisonRef)"
 											role="menuitem"><a>{{comparisonRef.refDisplayName}}</a></li>
 									</ul>
@@ -194,7 +197,7 @@
 							</p>
 						</div><!-- https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
 					    --><div class="col-md-2 updateVisualisationButton text-right">
-								<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.phdrReport.feature == null || fileItemUnderAnalysis.sequenceReport.phdrReport.comparisonRef == null" type="button" class="btn btn-primary"
+								<button ng-disabled="visualisationUpdating || fileItemUnderAnalysis.sequenceReport.btvReport.feature == null || fileItemUnderAnalysis.sequenceReport.btvReport.comparisonRef == null" type="button" class="btn btn-primary"
 									ng-click="updateSvg()"><i class="glyphicon glyphicon-refresh"></i> Update</button>
 							</div>
 					</div>

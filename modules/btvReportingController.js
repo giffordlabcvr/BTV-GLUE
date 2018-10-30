@@ -2,84 +2,94 @@
 var segToSegDetails = {};
 
 segToSegDetails["1"] = {
-    mainFeature : "VP1",
-    allFeatures : ["VP1"],
+    mainFeature : { name: "VP1", displayName: "VP1" },
+    allFeatures : [{ name: "VP1", displayName: "VP1" }],
     linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["2"] = {
-    mainFeature : "VP2",
-    allFeatures : ["VP2"],
+    mainFeature : { name: "VP2", displayName: "VP2" },
+    allFeatures : [{ name: "VP2", displayName: "VP2" }],
 	linkingAlignment : "BTV_GENO_CODON_2",
 	masterReference : "REF_S2_MASTER_JX680458",
 	sequenceReporterModule: "btvSeg2SequenceReporter",
 	genotyperModule: "btvS2MaxLikelihoodGenotyper",
+	visualisationUtilityModule: "btvS2VisualisationUtility",
 };
 segToSegDetails["3"] = {
-    mainFeature : "VP3",
-    allFeatures : ["VP3"],
+    mainFeature : { name: "VP3", displayName: "VP3" },
+    allFeatures : [{ name: "VP3", displayName: "VP3" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["4"] = {
-    mainFeature : "VP4",
-    allFeatures : ["VP4"],
+    mainFeature : { name: "VP4", displayName: "VP4" },
+    allFeatures : [{ name: "VP4", displayName: "VP4" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["5"] = {
-    mainFeature : "NS1",
-    allFeatures : ["NS1"],
+    mainFeature : { name: "NS1", displayName: "NS1" },
+    allFeatures : [{ name: "NS1", displayName: "NS1" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["6"] = {
-    mainFeature : "VP5",
-    allFeatures : ["VP5"],
+    mainFeature : { name: "VP5", displayName: "VP5" },
+    allFeatures : [{ name: "VP5", displayName: "VP5" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["7"] = {
-    mainFeature : "VP7",
-    allFeatures : ["VP7"],
+    mainFeature : { name: "VP7", displayName: "VP7" },
+    allFeatures : [{ name: "VP7", displayName: "VP7" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["8"] = {
-    mainFeature : "NS2",
-    allFeatures : ["NS2"],
+    mainFeature : { name: "NS2", displayName: "NS2" },
+    allFeatures : [{ name: "NS2", displayName: "NS2" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["9"] = {
-    mainFeature : "VP6",
-    allFeatures : ["VP6", "VP6a", "NS4"],
+    mainFeature : { name: "VP6", displayName: "VP6" },
+    allFeatures : [{ name: "VP6", displayName: "VP6" }, { name: "VP6a", displayName: "VP6a" }, { name: "NS4", displayName: "NS4" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 segToSegDetails["10"] = {
-    mainFeature : "NS3",
-    allFeatures : ["NS3", "NS3a", "NS5"],
+    mainFeature : { name: "NS3", displayName: "NS3" },
+    allFeatures : [{ name: "NS3", displayName: "NS3" }, { name: "NS3a", displayName: "NS3a" }, { name: "NS5", displayName: "NS5" }],
 	linkingAlignment : null,
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	visualisationUtilityModule: null,
 };
 
 function segmentCladeCategories(segment) {
@@ -207,7 +217,7 @@ function generateQueryToTargetRefSegs(segment, targetRefName, nucleotides) {
 
 function generateFeaturesWithCoverage(segment, targetRefName, queryToTargetRefSegs) {
 	var featuresWithCoverage = []; 
-	_.each(segToSegDetails[segment].allFeatures, function(featureName) {
+	_.each(segToSegDetails[segment].allFeatures, function(feature) {
 		glue.inMode("module/"+segToSegDetails[segment].sequenceReporterModule, function() {
 			var coveragePercentage = glue.command({
 				"alignment-feature-coverage" :{
@@ -219,12 +229,13 @@ function generateFeaturesWithCoverage(segment, targetRefName, queryToTargetRefSe
 							"targetRefName":targetRefName,
 							"relRefName":segToSegDetails[segment].masterReference,
 							"linkingAlmtName":segToSegDetails[segment].linkingAlignment,
-							"featureName":featureName
+							"featureName":feature.name
 						}
 			}).fastaSequenceAlignmentFeatureCoverageResult.coveragePercentage;
 			featuresWithCoverage.push(
 					{
-						name: featureName, 
+						name: feature.name, 
+						displayName: feature.displayName, 
 						coveragePct: coveragePercentage
 					} );
 		});
@@ -313,7 +324,8 @@ function visualisationHints(segment, queryNucleotides, targetRefName, genotyping
 		"targetReferenceSeqID":targetRefSeqID,
 		"targetReferenceSourceName":targetRefSourceName,
 		"queryNucleotides":queryNucleotides,
-		"queryToTargetRefSegments": queryToTargetRefSegs
+		"queryToTargetRefSegments": queryToTargetRefSegs,
+		"visualisationUtilityModule": segToSegDetails[segment].visualisationUtilityModule
 	};
 }
 
@@ -356,34 +368,43 @@ function genotypeFasta(fastaMap, resultMap) {
 	_.each(_.pairs(segmentToResults), function(pair) {
 		var segment = pair[0];
 		var resultObjs = pair[1];
-		var genotyperModule = segToSegDetails[segment].genotyperModule 
-		// if genotyping is defined for this segment.
-		if(segment != null && genotyperModule != null) {
-			// gather the sequences mapped to this segment in a single fasta map
-			var genotypingFastaMap = {}; 
-			_.each(resultObjs, function(resultObj) {
-				genotypingFastaMap[resultObj.id] = fastaMap[resultObj.id];
-			});
-			var genotypingResults;
-			glue.inMode("module/"+genotyperModule, function() {
-				genotypingResults = glue.command({
-					"genotype": {
-						"fasta-document":
-						{
-							"fastaCommandDocument": {
-								"nucleotideFasta" : {
-									"sequences": _.values(genotypingFastaMap)
-								}
-							}, 
-							"documentResult" : true
-						}
+		if(segment != "null") { // groupBy makes null into a string!
+			var genotyperModule = segToSegDetails[segment].genotyperModule 
+			// if genotyping is defined for this segment.
+			if(genotyperModule != null) {
+				// gather the sequences mapped to this segment in a single fasta map
+				var genotypingFastaMap = {}; 
+				_.each(resultObjs, function(resultObj) {
+					if(resultObj.isForwardBtv) {
+						genotypingFastaMap[resultObj.id] = fastaMap[resultObj.id];
 					}
-				}).genotypingDocumentResult.queryGenotypingResults;
-			});
-			glue.log("FINE", "btvReportingController.genotypeFasta genotypingResults:", genotypingResults);
-			_.each(genotypingResults, function(genotypingResult) {
-				resultMap[genotypingResult.queryName].genotypingResult = genotypingResult;
-			});
+				});
+				
+				var genotypingMapValues = _.values(genotypingFastaMap)
+				
+				if(genotypingMapValues.length > 0) {
+					var genotypingResults;
+					glue.inMode("module/"+genotyperModule, function() {
+						genotypingResults = glue.command({
+							"genotype": {
+								"fasta-document":
+								{
+									"fastaCommandDocument": {
+										"nucleotideFasta" : {
+											"sequences": genotypingMapValues
+										}
+									}, 
+									"documentResult" : true
+								}
+							}
+						}).genotypingDocumentResult.queryGenotypingResults;
+					});
+					glue.log("FINE", "btvReportingController.genotypeFasta genotypingResults:", genotypingResults);
+					_.each(genotypingResults, function(genotypingResult) {
+						resultMap[genotypingResult.queryName].genotypingResult = genotypingResult;
+					});
+				}
+			}
 		}
 	});
 	
@@ -426,7 +447,7 @@ function recogniseFasta(fastaMap, resultMap) {
 		var sequenceID = pair[0];
 		var resultObj = pair[1];
 		var seqRecogniserResults = sequenceIDToRecogniserResults[sequenceID];
-		if(seqRecogniserResults.length == 0) {
+		if(seqRecogniserResults == null || seqRecogniserResults.length == 0) {
 			resultObj.noRecogniserHits = true;
 		} else if(seqRecogniserResults.length > 1) {
 			resultObj.multipleRecogniserHits = true;

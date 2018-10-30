@@ -88,8 +88,8 @@
   
   create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml --loadResources
   
-  create module --fileName modules/btvSeg2WebAnalysisTool.xml
   create module --fileName modules/btvSeg2SequenceReporter.xml
+  create module --fileName modules/btvS2VisualisationUtility.xml
 
   create module --fileName modules/btvReportingController.xml --loadResources 
   create module --fileName modules/btvFeatureToSvgTransformer.xml --loadResources 
