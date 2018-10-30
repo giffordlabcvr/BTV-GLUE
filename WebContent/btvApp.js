@@ -82,6 +82,21 @@ btvApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
       templateUrl: '../views/btvFastaAnalysis.html',
       controller: 'btvFastaAnalysisCtrl'
     });
+    
+    $routeProvider.when('/versionInfo', {
+  	  templateUrl: './views/versionInfo.html',
+	  controller: 'versionInfoCtrl'
+    });
+    
+    $routeProvider.when('/team', {
+	  templateUrl: './views/team.html',
+	  controller: 'teamCtrl'
+    });
+    
+    $routeProvider.when('/howToCite', {
+	  templateUrl: './views/howToCite.html',
+	  controller: 'howToCiteCtrl'
+    });
 
     $routeProvider.
       when('/home', {
@@ -106,6 +121,11 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserIsolateMenuTitle = "Isolates";
 	$scope.analysisMenuTitle = "Analysis";
 	$scope.analysisToolMenuTitle = "Genotyping and Interpretation";
+	$scope.aboutBtvGlueMenuTitle = "About";
+	$scope.aboutMenuTitle = "About";
+	$scope.teamTitle = "The BTV-GLUE team";
+	$scope.versionInfoTitle = "Version information";
+	$scope.howToCiteTitle = "How to cite";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
 	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
 	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/btvSeg2Example.fasta");
