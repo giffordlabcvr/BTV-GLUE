@@ -10,6 +10,49 @@ btvApp.controller('btvIsolatesCtrl',
 
 			addUtilsToScope($scope);
 
+			$scope.downloadIsolateMetadata = function() {
+				console.log("Downloading isolate metadata");
+				
+				saveFile.saveAsDialog("Isolate metadata file", 
+						"isolate_metadata.txt", function(fileName) {
+					var cmdParams = {
+							"lineFeedStyle": "LF"
+					};
+					if($scope.whereClause) {
+						cmdParams.whereClause = $scope.whereClause;
+					}
+					$scope.pagingContext.extendCmdParamsWhereClause(cmdParams);
+					$scope.pagingContext.extendCmdParamsSortOrder(cmdParams);
+
+					if(userAgent.os.family.indexOf("Windows") !== -1) {
+						cmdParams["lineFeedStyle"] = "CRLF";
+
+					}
+
+					$scope.analytics.eventTrack("sequenceMetadataDownload", 
+							{   category: 'dataDownload', 
+						label: 'totalItems:'+$scope.pagingContext.getTotalItems() });
+
+					glueWS.runGlueCommandLong("", {
+						"web-list": {
+							"sequence" : cmdParams
+						},
+					},
+					"Sequence metadata file preparation in progress")
+					.success(function(data, status, headers, config) {
+						var result = data.webListSequenceResult;
+						var dlg = dialogs.create(
+								glueWebToolConfig.getProjectBrowserURL()+'/dialogs/fileReady.html','fileReadyCtrl',
+								{ 
+									url:"gluetools-ws/glue_web_files/"+result.webSubDirUuid+"/"+result.webFileName, 
+									fileName: result.webFileName,
+									fileSize: result.webFileSizeString
+								}, {});
+					})
+					.error(glueWS.raiseErrorDialog(dialogs, "preparing sequence metadata file"));
+				});
+			}
+			
 			$scope.updateCount = function(pContext) {
 				$scope.listIsolatesResult = null;
 				$scope.loadingSpinner = true;

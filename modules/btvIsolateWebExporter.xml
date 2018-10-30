@@ -1,0 +1,17 @@
+<ecmaFunctionInvoker>
+    <scriptFileName>btvIsolateWebExporter.js</scriptFileName>
+    <function>
+        <name>exportIsolateTable</name>
+        <parameter>
+            <name>whereClause</name>
+        </parameter>
+        <parameter>
+            <name>sortProperties</name>
+        </parameter>
+        <parameter>
+            <name>lineFeedStyle</name>
+        </parameter>
+		<documentResultType/>
+    </function>
+</ecmaFunctionInvoker>
+
