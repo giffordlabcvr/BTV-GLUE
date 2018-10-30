@@ -253,6 +253,7 @@ def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/User
 scmVersion {
 	hooks {
         pre 'fileUpdate', [file: 'glue/btvProjectSettings.glue', pattern: {v, c -> /set setting project-version $v/}, replacement: {v, c -> "set setting project-version $v"}]
+        pre 'fileUpdate', [file: 'WebContent/btvAppDependencies.html', pattern: {v, c -> /btvGlueVersion=$v/}, replacement: {v, c -> "btvGlueVersion=$v"}]
 		pre 'commit', {v, p -> "Release version $v"}
     }
 
