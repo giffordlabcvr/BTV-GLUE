@@ -9,9 +9,22 @@
             <name>sortProperties</name>
         </parameter>
         <parameter>
+            <name>fileName</name>
+        </parameter>
+        <parameter>
             <name>lineFeedStyle</name>
         </parameter>
 		<documentResultType/>
+    </function>
+    <function>
+        <name>previewIsolateTable</name>
+        <parameter>
+            <name>whereClause</name>
+        </parameter>
+        <parameter>
+            <name>sortProperties</name>
+        </parameter>
+		<tableFromDocumentResultType/>
     </function>
 </ecmaFunctionInvoker>
 

@@ -29,18 +29,24 @@ btvApp.controller('btvIsolatesCtrl',
 
 					}
 
-					$scope.analytics.eventTrack("sequenceMetadataDownload", 
+					$scope.analytics.eventTrack("isolateMetadataDownload", 
 							{   category: 'dataDownload', 
 						label: 'totalItems:'+$scope.pagingContext.getTotalItems() });
 
-					glueWS.runGlueCommandLong("", {
-						"web-list": {
-							"sequence" : cmdParams
+					glueWS.runGlueCommandLong("module/btvIsolateWebExporter", {
+						"invoke-function": {
+							"functionName" : "exportIsolateTable", 
+							"argument": [
+								cmdParams.whereClause,
+								cmdParams.sortProperties,
+								fileName,
+								cmdParams.lineFeedStyle
+							]
 						},
 					},
-					"Sequence metadata file preparation in progress")
+					"Isolate metadata file preparation in progress")
 					.success(function(data, status, headers, config) {
-						var result = data.webListSequenceResult;
+						var result = data.tabularWebFileResult;
 						var dlg = dialogs.create(
 								glueWebToolConfig.getProjectBrowserURL()+'/dialogs/fileReady.html','fileReadyCtrl',
 								{ 
@@ -49,7 +55,7 @@ btvApp.controller('btvIsolatesCtrl',
 									fileSize: result.webFileSizeString
 								}, {});
 					})
-					.error(glueWS.raiseErrorDialog(dialogs, "preparing sequence metadata file"));
+					.error(glueWS.raiseErrorDialog(dialogs, "preparing isolate metadata file"));
 				});
 			}
 			
