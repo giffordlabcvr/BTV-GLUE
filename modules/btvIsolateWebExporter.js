@@ -78,7 +78,7 @@ function previewIsolateTable(whereClause, sortProperties) {
 			if(ids == null) {
 				ids = sequence.sequenceID;
 			} else {
-				ids = ","+sequence.sequenceID
+				ids = ids+","+sequence.sequenceID
 			}
 			segToSeqIds[sequence.segment] = ids;
 		});
