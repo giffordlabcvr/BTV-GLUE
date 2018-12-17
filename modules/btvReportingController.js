@@ -8,6 +8,7 @@ segToSegDetails["1"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["2"] = {
@@ -17,6 +18,7 @@ segToSegDetails["2"] = {
 	masterReference : "REF_S2_MASTER_JX680458",
 	sequenceReporterModule: "btvSeg2SequenceReporter",
 	genotyperModule: "btvS2MaxLikelihoodGenotyper",
+	placerModule: "btvS2MaxLikelihoodPlacer",
 	visualisationUtilityModule: "btvS2VisualisationUtility",
 };
 segToSegDetails["3"] = {
@@ -26,6 +28,7 @@ segToSegDetails["3"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["4"] = {
@@ -35,6 +38,7 @@ segToSegDetails["4"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["5"] = {
@@ -44,6 +48,7 @@ segToSegDetails["5"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["6"] = {
@@ -53,6 +58,7 @@ segToSegDetails["6"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["7"] = {
@@ -62,6 +68,7 @@ segToSegDetails["7"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["8"] = {
@@ -71,6 +78,7 @@ segToSegDetails["8"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["9"] = {
@@ -80,6 +88,7 @@ segToSegDetails["9"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 segToSegDetails["10"] = {
@@ -89,6 +98,7 @@ segToSegDetails["10"] = {
 	masterReference : null,
 	sequenceReporterModule: null,
 	genotyperModule: null,
+	placerModule: null,
 	visualisationUtilityModule: null,
 };
 
@@ -131,15 +141,18 @@ function reportFastaMultiAux(fastaDocument, filePath) {
 	}
 	var fastaMap = {};
 	var resultMap = {};
+	var placerResultContainer = {};
+	
 	// apply blast recogniser / genotyping together on set, as this is more efficient.
-	initResultMap(fastaDocument, fastaMap, resultMap);
+	initResultMap(fastaDocument, fastaMap, resultMap, placerResultContainer);
 	// apply report generation to each sequence in the set.
 	var btvReports = _.map(fastaDocument.nucleotideFasta.sequences, function(sequence) {
 		return generateSingleFastaReport(_.pick(fastaMap, sequence.id), resultMap[sequence.id], filePath);
 	});
 	var result = {
 		btvWebReport:  { 
-			results: btvReports
+			results: btvReports,
+			placerResult: placerResultContainer.placerResult
 		}
 	};
 
@@ -167,11 +180,14 @@ function reportFasta(fastaFilePath) {
 	var sequenceID = fastaDocument.nucleotideFasta.sequences[0].id;
 	var fastaMap = {};
 	var resultMap = {};
-	initResultMap(fastaDocument, fastaMap, resultMap);
-	return generateSingleFastaReport(fastaMap, resultMap[sequenceID], fastaFilePath);
+	var placerResultContainer = {};
+	initResultMap(fastaDocument, fastaMap, resultMap, placerResultContainer);
+	var singleFastaReport = generateSingleFastaReport(fastaMap, resultMap[sequenceID], fastaFilePath);
+	singleFastaReport["placerResult"] = placerResultContainer.placerResult;
+	return singleFastaReport;
 }
 
-function initResultMap(fastaDocument, fastaMap, resultMap) {
+function initResultMap(fastaDocument, fastaMap, resultMap, placerResultContainer) {
 	glue.log("FINE", "btvReportingController.initResultMap fastaDocument:", fastaDocument);
 	_.each(fastaDocument.nucleotideFasta.sequences, function(sequenceObj) {
 		fastaMap[sequenceObj.id] = sequenceObj;
@@ -187,7 +203,7 @@ function initResultMap(fastaDocument, fastaMap, resultMap) {
 	glue.log("FINE", "btvReportingController.initResultMap, result map after recogniser", resultMap);
 
 	// apply genotyping
-	genotypeFasta(fastaMap, resultMap);
+	genotypeFasta(fastaMap, resultMap, placerResultContainer);
 
 	glue.log("FINE", "btvReportingController.initResultMap, result map after genotyping", resultMap);
 }
@@ -247,10 +263,12 @@ function generateSingleFastaReport(fastaMap, resultObj, fastaFilePath) {
 	var genotypingResult = resultObj.genotypingResult;
 	if(genotypingResult != null) {
 		var targetRefName = genotypingResultToTargetRefName(resultObj.segment, genotypingResult);
-		var queryNucleotides = fastaMap[resultObj.id].sequence;
-		var queryToTargetRefSegs = generateQueryToTargetRefSegs(resultObj.segment, targetRefName, queryNucleotides);
-		resultObj.featuresWithCoverage = generateFeaturesWithCoverage(resultObj.segment, targetRefName, queryToTargetRefSegs);
-		resultObj.visualisationHints = visualisationHints(resultObj.segment, queryNucleotides, targetRefName, genotypingResult, queryToTargetRefSegs);
+		if(targetRefName != null) {
+			var queryNucleotides = fastaMap[resultObj.id].sequence;
+			var queryToTargetRefSegs = generateQueryToTargetRefSegs(resultObj.segment, targetRefName, queryNucleotides);
+			resultObj.featuresWithCoverage = generateFeaturesWithCoverage(resultObj.segment, targetRefName, queryToTargetRefSegs);
+			resultObj.visualisationHints = visualisationHints(resultObj.segment, queryNucleotides, targetRefName, genotypingResult, queryToTargetRefSegs);
+		}
 	}
 	
 	var btvReport = { 
@@ -359,7 +377,9 @@ function genotypingResultToTargetRefName(segment, genotypingResult) {
  * and runs max likelihood genotyping on the subset of sequences that have been identified as forward BTV.
  * The the genotyping result object is recorded in the result map for each sequence.
  */
-function genotypeFasta(fastaMap, resultMap) {
+function genotypeFasta(fastaMap, resultMap, placerResultContainer) {
+	placerResultContainer.placerResult = {};
+	
 	// group result objects by segment.
 	var segmentToResults = _.groupBy(_.values(resultMap), "segment");
 	glue.log("FINE", "btvReportingController.genotypeFasta segmentToResults:", segmentToResults);
@@ -380,20 +400,70 @@ function genotypeFasta(fastaMap, resultMap) {
 					}
 				});
 				
+
 				var genotypingMapValues = _.values(genotypingFastaMap)
 				
 				if(genotypingMapValues.length > 0) {
-					var genotypingResults;
-					glue.inMode("module/"+genotyperModule, function() {
-						genotypingResults = glue.command({
-							"genotype": {
-								"fasta-document":
-								{
+
+					var placerModule = segToSegDetails[segment].placerModule;
+
+					// run the placer and generate a placer result document
+					var placerResultDocument;
+					glue.inMode("module/"+placerModule, function() {
+						placerResultDocument = glue.command({
+							"place": {
+								"fasta-document": {
 									"fastaCommandDocument": {
 										"nucleotideFasta" : {
 											"sequences": genotypingMapValues
 										}
-									}, 
+									}
+								}
+							}
+						});
+					});
+					placerResultContainer.placerResult[segment] = placerResultDocument;
+
+					// list the query summaries within the placer result document
+					var placementSummaries;
+					glue.inMode("module/"+placerModule, function() {
+						placementSummaries = glue.tableToObjects(glue.command({
+							"list": {
+								"query-from-document": {
+									"placerResultDocument": placerResultDocument
+								}
+							}
+						}));
+					});
+
+					// for each query in the placer results.
+					_.each(placementSummaries, function(placementSummaryObj) {
+						var queryName = placementSummaryObj.queryName;
+						
+						var placements;
+						
+						// list the placements for that query.
+						glue.inMode("module/"+placerModule, function() {
+							placements = glue.tableToObjects(glue.command({
+								"list": {
+									"placement-from-document": {
+										"queryName": queryName,
+										"placerResultDocument": placerResultDocument
+									}
+								}
+							}));
+						});
+
+						resultMap[queryName].placements = placements;
+					});
+
+					
+					var genotypingResults;
+					glue.inMode("module/"+genotyperModule, function() {
+						genotypingResults = glue.command({
+							"genotype": {
+								"placer-result-document": {
+									"placerResultDocument": placerResultDocument, 
 									"documentResult" : true
 								}
 							}

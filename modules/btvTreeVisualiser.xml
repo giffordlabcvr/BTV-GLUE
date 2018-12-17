@@ -1,0 +1,6 @@
+<treeVisualiser>
+	<freemarkerAnnotationGenerator>
+		<annotationName>sequenceIDPlusClade</annotationName>
+		<template><![CDATA[<#assign clade = renderNestedProperty('alignment.displayName')>${renderNestedProperty('sequence.sequenceID')}<#if !(clade?contains('Unclassified'))> (${clade})</#if>]]></template>
+	</freemarkerAnnotationGenerator>
+</treeVisualiser>

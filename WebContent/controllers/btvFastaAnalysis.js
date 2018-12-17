@@ -5,13 +5,29 @@ btvApp.controller('btvFastaAnalysisCtrl',
 			addUtilsToScope($scope);
 
 			$scope.analytics = $analytics;
-			$scope.visualisationUpdating = false;
-			$scope.svgUrlCache = {};
+			$scope.featureVisualisationUpdating = false;
+			$scope.phyloVisualisationUpdating = false;
+			$scope.featureSvgUrlCache = {};
+			$scope.phyloSvgUrlCache = {};
 			$scope.featureNameToScrollLeft = {};
 			$scope.lastFeatureName = null;
-	    	$scope.summary = true;
-			$scope.genomeVisualisation = false;
+	    	$scope.displaySection = 'summary';
 			
+	    	$scope.neighbourSlider = {
+	    			  value: 100,
+	    			  options: {
+	    			    precision: 1,
+	    			    floor: 0,
+	    			    ceil: 1000,
+	    			    hideLimitLabels: true,
+	    			    hidePointerLabels: true,
+	    			    getLegend: function(value, sliderId) { return toFixed(value/100, 1); }, 
+	    			    step: 5,
+	    			    showTicks: 50,
+	    			    keyboardSupport: false,
+	    			  }
+	    			};
+	    	
 			$controller('fileConsumerCtrl', { $scope: $scope, 
 				glueWebToolConfig: glueWebToolConfig, 
 				glueWS: glueWS, 
@@ -23,13 +39,6 @@ btvApp.controller('btvFastaAnalysisCtrl',
 				}
 				return true;
 			};
-			
-			$scope.canVisualiseReport = function(report) {
-				if(report.btvReport.sequenceResult.visualisationHints != null) {
-					return true;
-				}
-				return false;
-			}
 			
 			// executed after the project URL is set
 			glueWS.addProjectUrlListener( {
@@ -91,14 +100,16 @@ btvApp.controller('btvFastaAnalysisCtrl',
 				$scope.saveFeatureScrollLeft();
 		    	if(item.sequenceReport == null) {
 		    		for(var i = 0; i < item.response.btvWebReport.results.length; i++) {
-		    			if($scope.canVisualiseReport(item.response.btvWebReport.results[i])) {
-				    		$scope.setSequenceReport(item, item.response.btvWebReport.results[i]);
-				    		break;
-		    			}
+			    		$scope.setSequenceReport(item, item.response.btvWebReport.results[i]);
 		    		}
 		    	}
 		    	$scope.fileItemUnderAnalysis = item;
-		    	$scope.visualisationSvgUrl = null;
+		    	$scope.featureVisualisationSvgUrl = null;
+		    	$scope.phyloVisualisationSvgUrl = null;
+		    }
+		    
+		    $scope.getPlacementLabel = function(placement) {
+		    	return placement.placementIndex + " (" + toFixed(placement.likeWeightRatio * 100, 2) + "%)";
 		    }
 		    
 		    $scope.setSequenceReport = function(item, sequenceReport) {
@@ -123,6 +134,14 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    		}
 		    		$scope.setFeature(sequenceReport, feature);
 		    	}
+		    	if(sequenceReport.btvReport.sequenceResult.placements == null) {
+		    		$scope.setPlacement(sequenceReport, null);
+		    	} else {
+		    		if(sequenceReport, sequenceReport.btvReport.placement == null) {
+			    		$scope.setPlacement(sequenceReport, sequenceReport.btvReport.sequenceResult.placements[0]);
+		    		}
+		    	}
+
 		    	item.sequenceReport = sequenceReport;
 		    }
 
@@ -136,63 +155,84 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    	// need to nest feature within btvReport to avoid breaking command doc assumptions.
 		    	sequenceReport.btvReport.feature = feature;
 		    }
+		    
+		    $scope.setPlacement = function(sequenceReport, placement) {
+		    	// need to nest feature within btvReport to avoid breaking command doc assumptions.
+		    	sequenceReport.btvReport.placement = placement;
+				$scope.refreshSlider();
+		    }
 
-			$scope.$watch('summary', function(newObj, oldObj) {
-				if(!$scope.updating) {
-					$scope.updating = true;
-					if(newObj) {
-						$scope.genomeVisualisation = false;
-					}
-					$scope.updating = false;
+			$scope.$watch('displaySection', function(newObj, oldObj) {
+				if(newObj == "phyloPlacement") {
+					$scope.refreshSlider();
 				}
 			}, false);
 
-			$scope.$watch('genomeVisualisation', function(newObj, oldObj) {
-				if(!$scope.updating) {
-					$scope.updating = true;
-					if(newObj) {
-						$scope.summary = false;
-					}
-					$scope.updating = false;
-				}
-			}, false);
 
-			$scope.svgUpdated = function() {
-				console.info('svgUpdated');
-				var visualisationSvgElem = document.getElementById('visualisationSvg');
-				if(visualisationSvgElem != null) {
+		    
+		    $scope.refreshSlider = function() {
+		        $timeout(function () {
+		        	console.log("rzSliderForceRender");
+		            $scope.$broadcast('rzSliderForceRender');
+		        });
+		    };
+		    
+			$scope.featureSvgUpdated = function() {
+				console.info('featureSvgUpdated');
+				var featureVisualisationSvgElem = document.getElementById('featureVisualisationSvg');
+				if(featureVisualisationSvgElem != null) {
 					var featureName = $scope.fileItemUnderAnalysis.sequenceReport.btvReport.feature.name;
 					console.info('featureName', featureName);
 					var featureScrollLeft = $scope.featureNameToScrollLeft[featureName];
 					console.info('featureScrollLeft', featureScrollLeft);
 					if(featureScrollLeft != null) {
-						visualisationSvgElem.scrollLeft = featureScrollLeft;
+						featureVisualisationSvgElem.scrollLeft = featureScrollLeft;
 					} else {
-						visualisationSvgElem.scrollLeft = 0;
+						featureVisualisationSvgElem.scrollLeft = 0;
 					}
 					$scope.lastFeatureName = featureName;
 				} 
-				$scope.visualisationUpdating = false;
+				$scope.featureVisualisationUpdating = false;
 				
 			}
-			$scope.updateSvgFromUrl = function(cacheKey, svgUrl) {
-				$scope.visualisationSvgUrl = svgUrl;
-				$scope.svgUrlCache[cacheKey] = svgUrl;
+			
+			$scope.phyloSvgUpdated = function() {
+				$scope.phyloVisualisationUpdating = false;
+			}
+			
+			$scope.updateFeatureSvgFromUrl = function(cacheKey, svgUrl) {
+				if(svgUrl == $scope.featureVisualisationSvgUrl) {
+					// onLoad does not get invoked again for the same URL.
+					$scope.featureSvgUpdated();
+				} else {
+					$scope.featureVisualisationSvgUrl = svgUrl;
+					$scope.featureSvgUrlCache[cacheKey] = svgUrl;
+				}
+			}
+			
+			$scope.updatePhyloSvgFromUrl = function(cacheKey, svgUrl) {
+				if(svgUrl == $scope.phyloVisualisationSvgUrl) {
+					// onLoad does not get invoked again for the same URL.
+					$scope.phyloSvgUpdated();
+				} else {
+					$scope.phyloVisualisationSvgUrl = svgUrl;
+					$scope.phyloSvgUrlCache[cacheKey] = svgUrl;
+				}
 			}
 			
 			$scope.saveFeatureScrollLeft = function() {
 				if($scope.lastFeatureName != null) {
-					var visualisationSvgElem = document.getElementById('visualisationSvg');
-					if(visualisationSvgElem != null) {
-						$scope.featureNameToScrollLeft[$scope.lastFeatureName]	= visualisationSvgElem.scrollLeft;
+					var featureVisualisationSvgElem = document.getElementById('featureVisualisationSvg');
+					if(featureVisualisationSvgElem != null) {
+						$scope.featureNameToScrollLeft[$scope.lastFeatureName]	= featureVisualisationSvgElem.scrollLeft;
 					}
 				}
 
 			}
 			
-			$scope.updateSvg = function() {
+			$scope.updateFeatureSvg = function() {
 				
-				$scope.visualisationUpdating = true;
+				$scope.featureVisualisationUpdating = true;
 				var sequenceReport = $scope.fileItemUnderAnalysis.sequenceReport;
 				var visualisationHints = sequenceReport.btvReport.sequenceResult.visualisationHints;
 
@@ -208,11 +248,11 @@ btvApp.controller('btvFastaAnalysisCtrl',
 
 		    	$scope.lastFeatureName = featureName;
 
-				var cachedSvgUrl = $scope.svgUrlCache[cacheKey];
+				var cachedSvgUrl = $scope.featureSvgUrlCache[cacheKey];
 				
 				if(cachedSvgUrl != null) {
 					$timeout(function() {
-						$scope.updateSvgFromUrl(cacheKey, cachedSvgUrl);
+						$scope.updateFeatureSvgFromUrl(cacheKey, cachedSvgUrl);
 					});
 				} else {
 					console.info('visualisationHints', visualisationHints);
@@ -246,16 +286,71 @@ btvApp.controller('btvFastaAnalysisCtrl',
 							    var data = response.data;
 								console.info('transform-to-web-file result', data);
 								var transformerResult = data.freemarkerDocTransformerWebResult;
-								$scope.updateSvgFromUrl(cacheKey, "/glue_web_files/"+transformerResult.webSubDirUuid+"/"+transformerResult.webFileName);
+								$scope.updateFeatureSvgFromUrl(cacheKey, "/glue_web_files/"+transformerResult.webSubDirUuid+"/"+transformerResult.webFileName);
 							}, function onError(response) {
-								$scope.visualisationUpdating = false;
+								$scope.featureVisualisationUpdating = false;
 								var dlgFunction = glueWS.raiseErrorDialog(dialogs, "rendering genome feature to SVG");
 								dlgFunction(response.data, response.status, response.headers, response.config);
 							});
 					}, function onError(response) {
 						    // Handle error
-							$scope.visualisationUpdating = false;
+							$scope.featureVisualisationUpdating = false;
 							var dlgFunction = glueWS.raiseErrorDialog(dialogs, "visualising genome feature");
+							dlgFunction(response.data, response.status, response.headers, response.config);
+					});
+				}
+			}
+			
+			
+			$scope.updatePhyloSvg = function() {
+				
+				$scope.phyloVisualisationUpdating = true;
+				var sequenceReport = $scope.fileItemUnderAnalysis.sequenceReport;
+				var placement = sequenceReport.btvReport.placement;
+
+				var cacheKey = $scope.fileItemUnderAnalysis.file.name+":"+
+					sequenceReport.btvReport.sequenceResult.id+":"+
+					placement.placementIndex+":"+$scope.neighbourSlider.value;
+				console.info('cacheKey', cacheKey);
+				
+
+				var cachedSvgUrl = $scope.phyloSvgUrlCache[cacheKey];
+				
+				if(cachedSvgUrl != null) {
+					$timeout(function() {
+						console.info('phylo SVG found in cache');
+						$scope.updatePhyloSvgFromUrl(cacheKey, cachedSvgUrl);
+					});
+				} else {
+					var fileName = "visualisation.svg";
+					var segment = sequenceReport.btvReport.sequenceResult.segment;
+					glueWS.runGlueCommand("module/btvSvgPhyloVisualisation", 
+							{ 
+								"invoke-function": {
+									"functionName": "visualisePhyloAsSvg", 
+									"document": {
+										"inputDocument": {
+										    "placerResult" : $scope.fileItemUnderAnalysis.response.btvWebReport.placerResult[segment], 
+										    "queryName" : sequenceReport.btvReport.sequenceResult.id,
+										    "placementIndex" : placement.placementIndex,
+										    "maxDistance" : toFixed($scope.neighbourSlider.value/100, 2),
+											"pxWidth" : 1136, 
+											"pxHeight" : 2000,
+										    "fileName": fileName
+										}
+									}
+								} 
+							}
+					).then(function onSuccess(response) {
+						// Handle success
+					    var data = response.data;
+						console.info('visualisePhyloAsSvg result', data);
+						var transformerResult = data.freemarkerDocTransformerWebResult;
+						$scope.updatePhyloSvgFromUrl(cacheKey, "/glue_web_files/"+transformerResult.webSubDirUuid+"/"+transformerResult.webFileName);
+					}, function onError(response) {
+						    // Handle error
+							$scope.phyloVisualisationUpdating = false;
+							var dlgFunction = glueWS.raiseErrorDialog(dialogs, "visualising phylo tree");
 							dlgFunction(response.data, response.status, response.headers, response.config);
 					});
 				}

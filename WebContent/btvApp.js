@@ -24,7 +24,8 @@ var btvApp = angular.module('btvApp', [
     'treeControl',
     'angulartics',
     'angulartics.google.analytics',
-    'angular-cookie-law'
+    'angular-cookie-law',
+    'rzModule'
   ]);
 
 console.log("after btvApp module definition");

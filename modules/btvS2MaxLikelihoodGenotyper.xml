@@ -5,7 +5,7 @@
 		<displayName>Species</displayName>	
 		<whereClause>clade_category = 'species'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
-		<distanceCutoff>0.7</distanceCutoff>
+		<distanceCutoff>1.45</distanceCutoff>
 		<finalCladeCutoff>80.0</finalCladeCutoff>
 	</cladeCategory>
 	<cladeCategory>

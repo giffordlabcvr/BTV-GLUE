@@ -96,4 +96,8 @@
 
   create module --fileName modules/btvIsolateWebExporter.xml --loadResources
 
+  create module --fileName modules/btvTreeVisualiser.xml  
+  create module --fileName modules/btvTreeVisualisationTransformer.xml --loadResources
+  create module --fileName modules/btvSvgPhyloVisualisation.xml --loadResources
+
   
