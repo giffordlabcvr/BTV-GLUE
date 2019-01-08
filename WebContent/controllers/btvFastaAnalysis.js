@@ -99,9 +99,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    $scope.setFileItemUnderAnalysis = function(item) {
 				$scope.saveFeatureScrollLeft();
 		    	if(item.sequenceReport == null) {
-		    		for(var i = 0; i < item.response.btvWebReport.results.length; i++) {
-			    		$scope.setSequenceReport(item, item.response.btvWebReport.results[i]);
-		    		}
+		    		$scope.setSequenceReport(item, item.response.btvWebReport.results[0]);
 		    	}
 		    	$scope.fileItemUnderAnalysis = item;
 		    	$scope.featureVisualisationSvgUrl = null;
@@ -137,7 +135,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 		    	if(sequenceReport.btvReport.sequenceResult.placements == null) {
 		    		$scope.setPlacement(sequenceReport, null);
 		    	} else {
-		    		if(sequenceReport, sequenceReport.btvReport.placement == null) {
+		    		if(sequenceReport.btvReport.placement == null) {
 			    		$scope.setPlacement(sequenceReport, sequenceReport.btvReport.sequenceResult.placements[0]);
 		    		}
 		    	}

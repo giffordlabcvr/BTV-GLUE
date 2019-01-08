@@ -231,7 +231,7 @@
 								<span ng-if="fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.placements.length > 1">
 									alternative placement:
 									<div class="btn-group" dropdown is-open="status.pButtonOpen">
-										<button ng-disabled="phyloVisualisationUpdating || fileItemUnderAnalysis.sequenceReport.btvReport.feature == null" id="p-button" type="button" class="btn btn-sm btn-default"
+										<button ng-disabled="phyloVisualisationUpdating" id="p-button" type="button" class="btn btn-sm btn-default"
 											dropdown-toggle>
 											{{fileItemUnderAnalysis.sequenceReport.btvReport.placement == null ? "-" : getPlacementLabel(fileItemUnderAnalysis.sequenceReport.btvReport.placement)}}
 											<span class="caret"></span>

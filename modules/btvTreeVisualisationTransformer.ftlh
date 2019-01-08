@@ -4,7 +4,7 @@
 <#assign svgHeightPx = treeVisDoc.pxHeight>
 <#assign verticalLeafSpacePx = treeVisDoc.verticalLeafSpacePx>
 <#assign leafTextGapPx = treeVisDoc.leafTextGapPx>
-<#assign leafTextHeightPx = treeVisDoc.leafTextHeightPx>
+<#assign leafTextFontSize = treeVisDoc.leafTextFontSize>
 	
 <#assign leafNodeRadiusPx = 2>
 	
@@ -29,7 +29,7 @@
     	cx="${leafNode.x}" cy="${leafNode.y}" r="${leafNodeRadiusPx}"/>
   </#list>
   </g>
-  <g class="leafText" font-size="${leafTextHeightPx}">
+  <g class="leafText" font-size="${leafTextFontSize}">
   <#list treeVisDoc.leafNodes as leafNode>
     <text <#if leafNode.highlighted!false>class="highlightedLeafText"</#if>
 	  	x="${leafNode.x+leafTextGapPx}" y="${leafNode.y}" width="${leafNode.properties.leafTextWidthPx}" height="${verticalLeafSpacePx}"
@@ -52,7 +52,7 @@
 		Z"/>
   </#list>
   </g>
-  <g class="collapsedSubtreeText" font-size="${leafTextHeightPx}">
+  <g class="collapsedSubtreeText" font-size="${leafTextFontSize}">
   <#list treeVisDoc.collapsedSubtrees as collapsedSubtree>
     <text
 	  	x="${collapsedSubtree.leafX+leafTextGapPx}" y="${collapsedSubtree.rootY}" width="${collapsedSubtree.properties.collapsedTextWidthPx}" height="${verticalLeafSpacePx}"
