@@ -14,11 +14,16 @@ function collapseClades(subtree, foundAnyAlignment) {
 	var recurse = true;
 	var nextFoundAnyAlignment = foundAnyAlignment;
 	var collapsed = userData["treevisualiser-collapsed"];
+	if(subtreeType == "leaf" && userData["name"].indexOf("refseqs") > 0) {
+		userData["treevisualiser-leafSourceName"] = "ncbi-curated";
+		userData["treevisualiser-leafSequenceID"] = userData["name"].substring(userData["name"].lastIndexOf("/")+1);
+	}
 	var unclassified = false;
+	var mainAlignmentName;
 	if(collapsed == null) { // collapsed not already set to false
 		var collapsedLabel = "";
 		if(alignmentNames != null && alignmentNames.length > 0) {
-			var mainAlignmentName = alignmentNames[0];
+			mainAlignmentName = alignmentNames[0];
 			glue.inMode("alignment/"+mainAlignmentName, function() {
 				collapsedLabel = glue.command(["show", "property", "displayName"]).propertyValueResult.value;
 			});
@@ -32,6 +37,9 @@ function collapseClades(subtree, foundAnyAlignment) {
 		if(nextFoundAnyAlignment && !unclassified) { 
 			userData["treevisualiser-collapsed"] = "true";
 			userData["treevisualiser-collapsedLabel"] = collapsedLabel;
+			if(mainAlignmentName != null) {
+				userData["treevisualiser-collapsedAlignment"] = mainAlignmentName;
+			}
 			recurse = false;
 		}
 	}

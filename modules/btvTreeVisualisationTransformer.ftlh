@@ -29,11 +29,17 @@
     	cx="${leafNode.x}" cy="${leafNode.y}" r="${leafNodeRadiusPx}"/>
   </#list>
   </g>
-  <g class="leafText" font-size="${leafTextFontSize}">
+  <g font-size="${leafTextFontSize}">
   <#list treeVisDoc.leafNodes as leafNode>
-    <text <#if leafNode.highlighted!false>class="highlightedLeafText"</#if>
+    <#if leafNode.properties.leafSourceName ?? && leafNode.properties.leafSequenceID ?? >
+	<a class="leafLink" href="#project/sequence/${leafNode.properties.leafSourceName}/${leafNode.properties.leafSequenceID}" target="_blank">
+	</#if>
+    <text <#if leafNode.highlighted!false>class="highlightedLeafText"<#else>class="leafText"</#if>
 	  	x="${leafNode.x+leafTextGapPx}" y="${leafNode.y}" width="${leafNode.properties.leafTextWidthPx}" height="${verticalLeafSpacePx}"
 	  	dy=".35em">${leafNode.properties.leafText}</text>
+    <#if leafNode.properties.leafSourceName ?? && leafNode.properties.leafSequenceID ?? >
+	</a>
+	</#if>
   </#list>
   </g>
   <#if treeVisDoc.collapsedSubtrees??>
@@ -52,15 +58,18 @@
 		Z"/>
   </#list>
   </g>
-  <g class="collapsedSubtreeText" font-size="${leafTextFontSize}">
+  <g font-size="${leafTextFontSize}">
   <#list treeVisDoc.collapsedSubtrees as collapsedSubtree>
-    <text
+	<#if collapsedSubtree.properties.collapsedAlignment ??>
+	<a class="collapsedSubtreeLink" href="#project/alignment/${collapsedSubtree.properties.collapsedAlignment}" target="_blank">
+	</#if>
+    <text class="collapsedSubtreeText"
 	  	x="${collapsedSubtree.leafX+leafTextGapPx}" y="${collapsedSubtree.rootY}" width="${collapsedSubtree.properties.collapsedTextWidthPx}" height="${verticalLeafSpacePx}"
 	  	dy=".35em">${collapsedSubtree.properties.collapsedText}</text>
+	<#if collapsedSubtree.properties.collapsedAlignment ??>
+	</a>
+	</#if>
   </#list>
   </g>
   </#if>
-
-
-
 </svg>
