@@ -8,6 +8,11 @@ svg {
 	fill: none;
 }
 
+.branchLengthLegendLine {
+	stroke: DarkGrey;
+	stroke-width: 2px;
+}
+
 .highlightedBranch {
 	stroke: Red;
 	stroke-width: 2px;
@@ -27,6 +32,11 @@ svg {
 }
 
 .leafText {
+	text-anchor: left;
+	fill: DarkGrey;
+}
+
+.legendText {
 	text-anchor: left;
 	fill: DarkGrey;
 }

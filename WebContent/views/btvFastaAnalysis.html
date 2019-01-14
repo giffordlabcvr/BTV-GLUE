@@ -262,12 +262,14 @@
 									ng-click="updatePhyloSvg()"><i class="glyphicon glyphicon-refresh"></i> Update</button>
 							</div>
 					</div>
-						<div class="row phyloSvgContainer" us-spinner="{radius:23, width:7, length: 11}" spinner-on="phyloVisualisationUpdating" style="min-height: 100px; position: relative">
-						<div ng-if="phyloVisualisationSvgUrl == null && !phyloVisualisationUpdating">
+					<div class="row phyloSvgContainer" us-spinner="{radius:23, width:7, length: 11}" spinner-on="phyloVisualisationUpdating || phyloLegendUpdating" style="min-height: 100px; position: relative">
+						<div ng-if="(phyloVisualisationSvgUrl == null && !phyloVisualisationUpdating) || (phyloLegendSvgUrl == null && !phyloLegendUpdating)">
 							<p class="text-center">No data</p>
 						</div>
-						<div style="overflow: auto;" data-onload="phyloSvgUpdated()" ng-include="phyloVisualisationSvgUrl">
+						<div style="height: 80px; width: 1136px;" data-onload="phyloLegendSvgUpdated()" ng-include="phyloLegendSvgUrl"></div>
+						<div style="height: 2px; width: 1136px; background-color: #cecece;" ng-if="phyloVisualisationSvgUrl != null && phyloLegendSvgUrl != null">
 						</div>
+						<div style="height: 800px; overflow: auto;" data-onload="phyloSvgUpdated()" ng-include="phyloVisualisationSvgUrl"></div>
 					</div>
 				</div>
 			</div>

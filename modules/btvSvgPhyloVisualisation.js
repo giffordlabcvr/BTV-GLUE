@@ -143,26 +143,51 @@ function visualisePhyloAsSvg(document) {
 					"treeDocument" : glueTree, 
 					"pxWidth" : document.inputDocument.pxWidth, 
 					"pxHeight" : document.inputDocument.pxHeight,
+					"legendPxWidth" : document.inputDocument.legendPxWidth, 
+					"legendPxHeight" : document.inputDocument.legendPxHeight,
 					"leafTextAnnotationName": "sequenceIDPlusClade"
 				}
 			}
 		});
 	});
 
-	// from the visualisation document, generate an SVG as a GLUE web file.
-	var transformResult;
+	// from the visualisation documents, generate SVGs as GLUE web files.
+	var treeTransformResult;
 	glue.inMode("module/btvTreeVisualisationTransformer", function() {
-		transformResult = glue.command({ "transform-to-web-file": 
+		treeTransformResult = glue.command({ "transform-to-web-file": 
 			{
 				"webFileType": "WEB_PAGE",
 				"commandDocument":{
 					transformerInput: {
-						treeVisualisation: visualiseTreeResult.treeVisualisation
+						treeVisualisation: visualiseTreeResult.visDocument.treeVisualisation
 					}
 				},
 				"outputFile": document.inputDocument.fileName
 			}
 		});
 	});
-	return transformResult
+
+	var legendTransformResult;
+	glue.inMode("module/btvTreeVisualisationLegendTransformer", function() {
+		legendTransformResult = glue.command({ "transform-to-web-file": 
+			{
+				"webFileType": "WEB_PAGE",
+				"commandDocument":{
+					transformerInput: {
+						treeVisualisationLegend: visualiseTreeResult.visDocument.treeVisualisationLegend
+					}
+				},
+				"outputFile": document.inputDocument.legendFileName
+			}
+		});
+	});
+
+	glue.logInfo("legendTransformResult", legendTransformResult);
+	
+	return {
+		visualisePhyloAsSvgResult: {
+			treeTransformResult: treeTransformResult,
+			legendTransformResult: legendTransformResult
+		}
+	}
 }
