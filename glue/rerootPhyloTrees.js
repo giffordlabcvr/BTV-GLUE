@@ -11,6 +11,7 @@ _.each(segments, function(segment) {
 	    glue.command(["reroot-alignment-phylogeny", 
 	                  "BTV_OUTG_CODON_"+segment, "phylogeny", 
 	                  "--whereClause", whereClause, 
+	                  "--removeOutgroup",
 	                  "-o", "trees/phyloTrees/S"+segment+"_og_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
 	});
 	glue.log("FINEST", "Rerooted tree for segment "+segment);

@@ -34,6 +34,17 @@ schema-project btv
     # tip clade as annotated on the clade tree (i.e. tree in trees/cladeAnnotated or equivalent JSON file )
     create field annotated_clade_id VARCHAR
     
+    create field cluster_a INTEGER
+    create field cluster_b INTEGER
+    create field cluster_c INTEGER
+    create field cluster_d INTEGER
+    create field cluster_e INTEGER
+    create field cluster_f INTEGER
+    create field cluster_g INTEGER
+    create field cluster_h INTEGER
+    create field cluster_i INTEGER
+    create field cluster_j INTEGER
+    
     exit
 
   table isolate

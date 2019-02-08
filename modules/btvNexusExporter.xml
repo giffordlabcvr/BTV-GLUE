@@ -1,7 +1,51 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_a</annotationName>
+		<template>${sequence.cluster_a!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_b</annotationName>
+		<template>${sequence.cluster_b!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_c</annotationName>
+		<template>${sequence.cluster_c!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_d</annotationName>
+		<template>${sequence.cluster_d!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_e</annotationName>
+		<template>${sequence.cluster_e!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_f</annotationName>
+		<template>${sequence.cluster_f!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_g</annotationName>
+		<template>${sequence.cluster_g!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_h</annotationName>
+		<template>${sequence.cluster_h!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_i</annotationName>
+		<template>${sequence.cluster_i!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_j</annotationName>
+		<template>${sequence.cluster_j!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
 		<annotationName>virus</annotationName>
 		<template><![CDATA[<#if (sequence.source.name = 'ncbi-outgroup' && sequence.sequenceID?starts_with('AM7449')) || (sequence.source.name = 'ncbi-outgroup-fullgenomes' && sequence.sequenceID = 'ehdvFullGenome')>EHDV<#elseif (sequence.source.name = 'ncbi-outgroup' && sequence.sequenceID?starts_with('JQ0703')) || (sequence.source.name = 'ncbi-outgroup-fullgenomes' && sequence.sequenceID = 'patavFullGenome')>PATAV<#elseif sequence.isolate_segment?? && sequence.isolate_segment = 6>BTV${renderNestedProperty('sequence.isolate.seg6serotype')}<#else>BTV${renderNestedProperty('sequence.isolate.seg2serotype')}</#if>]]></template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>glue_clade_plus_cluster</annotationName>
+		<template><![CDATA[<#list sequence.alignmentMemberships as memb><#if memb.alignment.name?startsWith('AL_')><#assign almt = memb.alignment.displayName!memb.alignment.name><#break></#if></#list>${almt!"-"}:${sequence.cluster_a!"-"}]]></template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>accession_country_isolateS2serotype_year</annotationName>
@@ -48,10 +92,11 @@
 		<template>${renderNestedProperty('sequence.isolate.seg2clade.displayName')}</template>
 	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
-	<figtreeProperty name="tipLabels.colorAttribute">virus</figtreeProperty>
-	<figtreeProperty name="tipLabels.displayAttribute">virus</figtreeProperty>
+	<figtreeProperty name="tipLabels.colorAttribute">cluster_c</figtreeProperty>
+	<figtreeProperty name="tipLabels.displayAttribute">accession_country_isolateS2serotype_year</figtreeProperty>
 	<figtreeProperty type="integer" name="nodeLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
 	<figtreeProperty name="nodeLabels.displayAttribute">bootstraps</figtreeProperty>
 	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
+	<figtreeProperty name="layout.layoutType">RADIAL</figtreeProperty>
 </nexusExporter>
