@@ -1,11 +1,95 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_y1</annotationName>
+		<template>${sequence.cluster_y1!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_y2</annotationName>
+		<template>${sequence.cluster_y2!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_y3</annotationName>
+		<template>${sequence.cluster_y3!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_y4</annotationName>
+		<template>${sequence.cluster_y4!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_y5</annotationName>
+		<template>${sequence.cluster_y5!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z1</annotationName>
+		<template>${sequence.cluster_z1!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z2</annotationName>
+		<template>${sequence.cluster_z2!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z3</annotationName>
+		<template>${sequence.cluster_z3!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z4</annotationName>
+		<template>${sequence.cluster_z4!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z5</annotationName>
+		<template>${sequence.cluster_z5!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z6</annotationName>
+		<template>${sequence.cluster_z6!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z7</annotationName>
+		<template>${sequence.cluster_z7!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z8</annotationName>
+		<template>${sequence.cluster_z8!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_z9</annotationName>
+		<template>${sequence.cluster_z9!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
 		<annotationName>cluster_a</annotationName>
 		<template>${sequence.cluster_a!"-"}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_a2</annotationName>
+		<template>${sequence.cluster_a2!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_a3</annotationName>
+		<template>${sequence.cluster_a3!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_a4</annotationName>
+		<template>${sequence.cluster_a4!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
 		<annotationName>cluster_b</annotationName>
 		<template>${sequence.cluster_b!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_b</annotationName>
+		<template>${sequence.cluster_b!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_b2</annotationName>
+		<template>${sequence.cluster_b2!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_b3</annotationName>
+		<template>${sequence.cluster_b3!"-"}</template>
+	</freemarkerAnnotationGenerator>
+	<freemarkerAnnotationGenerator>
+		<annotationName>cluster_b4</annotationName>
+		<template>${sequence.cluster_b4!"-"}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>cluster_c</annotationName>

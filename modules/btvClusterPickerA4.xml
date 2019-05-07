@@ -1,0 +1,6 @@
+<clusterPickerRunner>
+    <!-- This set of settings will recapitulate exactly our hand made "serotype" clade definitions for Seg 2 -->	
+    <initialThreshold>70</initialThreshold>
+	<supportThreshold>70</supportThreshold>
+	<geneticThreshold>0.19</geneticThreshold>
+</clusterPickerRunner>

@@ -33,9 +33,29 @@ schema-project btv
     create field gb_serotype VARCHAR
     # tip clade as annotated on the clade tree (i.e. tree in trees/cladeAnnotated or equivalent JSON file )
     create field annotated_clade_id VARCHAR
-    
+
+    create field cluster_y1 INTEGER
+    create field cluster_y2 INTEGER
+    create field cluster_y3 INTEGER
+    create field cluster_y4 INTEGER
+    create field cluster_y5 INTEGER
+    create field cluster_z1 INTEGER
+    create field cluster_z2 INTEGER
+    create field cluster_z3 INTEGER
+    create field cluster_z4 INTEGER
+    create field cluster_z5 INTEGER
+    create field cluster_z6 INTEGER
+    create field cluster_z7 INTEGER
+    create field cluster_z8 INTEGER
+    create field cluster_z9 INTEGER
     create field cluster_a INTEGER
+    create field cluster_a2 INTEGER
+    create field cluster_a3 INTEGER
+    create field cluster_a4 INTEGER
     create field cluster_b INTEGER
+    create field cluster_b2 INTEGER
+    create field cluster_b3 INTEGER
+    create field cluster_b4 INTEGER
     create field cluster_c INTEGER
     create field cluster_d INTEGER
     create field cluster_e INTEGER
