@@ -15,7 +15,7 @@ segToFeatureName["10"] = "NS3";
 // within each segment set there are various sequences for which deriving the protein sequence 
 // from the BTV_COMPL_SEG_NT_ using fastaProteinExporter does not work, producing a protein with 
 // stop codons in. This is for different reasons either to do with the sequence itself or how it aligns.
-// In these cases we use the fastaProteinAlignmentExporter instead, which produces an protein
+// In these cases we use the fastaProteinAlignmentExporter instead, which produces a protein
 // sequence with gaps but no stop codons.
 
 var segToBrokenCDS = {};
