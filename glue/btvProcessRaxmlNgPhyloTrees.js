@@ -52,13 +52,6 @@ _.each(segments, function(segment) {
 	                  "-i", "trees/raxmlNgTbeTrees/S"+segment+"_og_rerooted_TBE.tree", "NEWICK_TRANSFER_BOOTSTRAPS", 
 	                  "-f", "phylogeny", "--merge" ]);
 	});
-	glue.log("FINEST", "Exporting display tree for segment "+segment);
-	glue.inMode("module/btvNexusExporter", function() {
-		glue.command(["export", "tree", "BTV_OUTG_CODON_"+segment, 
-		              "-f", "trees/raxmlNgTbeTrees/S"+segment+"_display.nexus"])
-	});
-	
-
 	
 });
 

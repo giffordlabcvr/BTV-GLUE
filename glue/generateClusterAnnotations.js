@@ -1,47 +1,79 @@
 var segments = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 
-// var segments = ["2"];
-
 glue.command(["delete", "module", "-w", "name like 'btvClusterPicker%'"]);
 
 var clusterPickers = [
-	{ module: "btvClusterPickerY1", seq_column: "cluster_y1", p_distance: 0.36 },
-	{ module: "btvClusterPickerY2", seq_column: "cluster_y2", p_distance: 0.35 },
-	{ module: "btvClusterPickerY3", seq_column: "cluster_y3", p_distance: 0.34 },
-	{ module: "btvClusterPickerY4", seq_column: "cluster_y4", p_distance: 0.33 },
-	{ module: "btvClusterPickerY5", seq_column: "cluster_y5", p_distance: 0.32 },
-	{ module: "btvClusterPickerZ1", seq_column: "cluster_z1", p_distance: 0.31 },
-	{ module: "btvClusterPickerZ2", seq_column: "cluster_z2", p_distance: 0.30 },
-	{ module: "btvClusterPickerZ3", seq_column: "cluster_z3", p_distance: 0.29 },
-	{ module: "btvClusterPickerZ4", seq_column: "cluster_z4", p_distance: 0.28 },
-	{ module: "btvClusterPickerZ5", seq_column: "cluster_z5", p_distance: 0.27 },
-	{ module: "btvClusterPickerZ6", seq_column: "cluster_z6", p_distance: 0.26 },
-	{ module: "btvClusterPickerZ7", seq_column: "cluster_z7", p_distance: 0.25 },
-	{ module: "btvClusterPickerZ8", seq_column: "cluster_z8", p_distance: 0.24 },
-	{ module: "btvClusterPickerZ9", seq_column: "cluster_z9", p_distance: 0.23 },
-	{ module: "btvClusterPickerA", seq_column: "cluster_a", p_distance: 0.22 },
-	{ module: "btvClusterPickerA2", seq_column: "cluster_a2", p_distance: 0.21 },
-	{ module: "btvClusterPickerA3", seq_column: "cluster_a3", p_distance: 0.20 },
-	{ module: "btvClusterPickerA4", seq_column: "cluster_a4", p_distance: 0.19 },
-	{ module: "btvClusterPickerB", seq_column: "cluster_b", p_distance: 0.18 },
-	{ module: "btvClusterPickerB2", seq_column: "cluster_b2", p_distance: 0.17 },
-	{ module: "btvClusterPickerB3", seq_column: "cluster_b3", p_distance: 0.16 },
-	{ module: "btvClusterPickerB4", seq_column: "cluster_b4", p_distance: 0.15 },
-	{ module: "btvClusterPickerC", seq_column: "cluster_c", p_distance: 0.14 },
-	{ module: "btvClusterPickerD", seq_column: "cluster_d", p_distance: 0.12 },
-	{ module: "btvClusterPickerE", seq_column: "cluster_e", p_distance: 0.10 },
-	{ module: "btvClusterPickerF", seq_column: "cluster_f", p_distance: 0.08 },
-	{ module: "btvClusterPickerG", seq_column: "cluster_g", p_distance: 0.06 },
-	{ module: "btvClusterPickerH", seq_column: "cluster_h", p_distance: 0.04 },
-	{ module: "btvClusterPickerI", seq_column: "cluster_i", p_distance: 0.02 },
-	{ module: "btvClusterPickerJ", seq_column: "cluster_j", p_distance: 0.01 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.05 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.10 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.15 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.20 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.25 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.30 },
+	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.35 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.05 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.10 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.15 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.20 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.25 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.30 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.35 }
 ];
 
+try {
+	glue.popMode();
+	glue.inMode("schema-project/btv/table/sequence", function() {
+		var seqFields = glue.getTableColumn(glue.command(["list", "field"]), "name");
+		_.each(seqFields, function(seqField) {
+			if(seqField.startsWith("cluster_")) {
+				glue.command(["delete", "field", seqField]);
+			}
+		});
+		_.each(clusterPickers, function(clusterPicker) {
+			var field = fieldForClusterPicker(clusterPicker);
+			glue.command(["create", "field", field, "INTEGER"]);
+		});
+	});
+} finally {
+	glue.pushMode("project/btv");
+}
+
+function idForClusterPicker(clusterPicker) {
+	var nodeThresholdType = clusterPicker.nodeThresholdType;
+	return nodeThresholdType.toLowerCase()+
+		"_n"+( nodeThresholdType == "FBP" ? clusterPicker.nodeThreshold : Math.floor(clusterPicker.nodeThreshold * 100) ) + 
+		"_p"+( Math.floor(clusterPicker.p_distance * 100));
+}
+
+
+function fieldForClusterPicker(clusterPicker) {
+	return "cluster_" + idForClusterPicker(clusterPicker);
+}
+
+function moduleNameForClusterPicker(clusterPicker) {
+	return "btvClusterPicker_"+idForClusterPicker(clusterPicker);
+}
+
 _.each(clusterPickers, function(clusterPicker) {
-	glue.command(["create", "module", "--fileName", "modules/"+clusterPicker.module+".xml"]);
+	var moduleName = moduleNameForClusterPicker(clusterPicker);
+	glue.command(["create", "module", "--moduleType", "clusterPickerRunner", moduleName]);
+	glue.inMode("module/"+moduleName, function() {
+		glue.command(["set", "property", "geneticThreshold", clusterPicker.p_distance]);
+		glue.command(["set", "property", "initialThreshold", clusterPicker.nodeThreshold]);
+		glue.command(["set", "property", "supportThreshold", clusterPicker.nodeThreshold]);
+		glue.command(["set", "property", "nodeThresholdType", clusterPicker.nodeThresholdType == "FBP" ? "BOOTSTRAPS" : "TRANSFER_BOOTSTRAPS"]);
+	});
 });
 
-var summaryString = "segment\tclusterPicker\tpDistance\tnumSequences\tclusters\tsingletons\n";
+glue.inMode("module/btvNexusExporter", function() {
+	glue.command(["load", "configuration", "modules/btvNexusExporter.xml"]);
+	_.each(clusterPickers, function(clusterPicker) {
+		var field = fieldForClusterPicker(clusterPicker);
+		glue.command(["add", "annotation-generator", "freemarker", field, "${sequence."+field+"!'-'}"]);
+	});
+});
+
+
+var summaryString = "segment\tclusterPicker\tbootstrapType\tnodeThreshold\tpDistance\tnumSequences\tclusters\tsingletons\n";
 
 _.each(segments, function(segment) {
 	_.each(clusterPickers, function(clusterPicker) {
@@ -54,23 +86,22 @@ _.each(segments, function(segment) {
 
 		var clusterResultObjs;
 		
-		glue.inMode("module/"+clusterPicker.module, function() {
+		glue.inMode("module/"+moduleNameForClusterPicker(clusterPicker), function() {
 		    clusterResultObjs = 
-		    	glue.tableToObjects(glue.command(["run", "cluster-picker", "--alignmentName", "BTV_OUTG_CODON_"+segment, 
-		                  "-w", whereClause, 
-		                  "--treeFileName", "trees/phyloTrees/S"+segment+"_og_rerooted.tree", "NEWICK_BOOTSTRAPS"]));
+		    	glue.tableToObjects(glue.command(["run", "cluster-picker", "field", "--alignmentName", "BTV_OUTG_CODON_"+segment]));
 		});
 
 		var clusters = 0;
 		var singletons = 0;
 
+		var field = fieldForClusterPicker(clusterPicker);
 		_.each(clusterResultObjs, function(clusterResultObj) {
 			glue.inMode("sequence/"+clusterResultObj.sourceName+"/"+clusterResultObj.sequenceID, function() {
 				if(clusterResultObj.clusterIndex == null) {
-					glue.command(["unset", "field", "--noCommit", clusterPicker.seq_column]);
+					glue.command(["unset", "field", "--noCommit", field]);
 					singletons++;
 				} else {
-					glue.command(["set", "field", "--noCommit", clusterPicker.seq_column, clusterResultObj.clusterIndex]);
+					glue.command(["set", "field", "--noCommit", field, clusterResultObj.clusterIndex]);
 					clusters = Math.max(clusters, clusterResultObj.clusterIndex);
 				}
 			});
@@ -78,7 +109,9 @@ _.each(segments, function(segment) {
 		glue.command(["commit"]);
 
 		summaryString += segment + "\t" + 
-			clusterPicker.seq_column + "\t" +
+			idForClusterPicker(clusterPicker) + "\t" +
+			clusterPicker.nodeThresholdType + "\t" +
+			clusterPicker.nodeThreshold + "\t" +
 			clusterPicker.p_distance + "\t" +
 			clusterResultObjs.length + "\t" +
 			clusters + "\t" +
@@ -86,6 +119,14 @@ _.each(segments, function(segment) {
 		
 		glue.log("FINEST", "Set "+clusterPicker.module+" annotations for segment "+segment);
 	});
+	
+	glue.log("FINEST", "Exporting display tree for segment "+segment);
+	glue.inMode("module/btvNexusExporter", function() {
+		glue.command(["export", "tree", "BTV_OUTG_CODON_"+segment, 
+		              "-f", "trees/S"+segment+"_display.nexus"])
+	});
+
+	
 });
 
 glue.command(["file-util", "save-string", summaryString, "clusterPickerSummary.txt"]);
