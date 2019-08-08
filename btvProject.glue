@@ -38,7 +38,9 @@ project btv
   import source sources/ncbi-outgroup 
   
   # these ensure we have accurate feature annotations for the outgroup sequences.
-  run file glue/btvOutgroupReferences.glue
+  # Temporarily commented out as these references are not in 
+  # the GENO alignments, therefore codon labeling cannot work and feature location validation fails.
+  # run file glue/btvOutgroupReferences.glue
 
   # load publications
   run script glue/btvLoadPublications.js
