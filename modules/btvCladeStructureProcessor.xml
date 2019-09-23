@@ -21,7 +21,7 @@
 		<okFromNullResultType/>
     </function>
     <function>
-        <name>generateSerotypeBlastRecogniser</name>
+        <name>generateGenotypeBlastRecogniser</name>
         <parameter>
             <name>jsonStructureFile</name>
             <pathCompleter/>

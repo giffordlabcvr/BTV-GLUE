@@ -67,8 +67,8 @@ function genotypeCuratedSeg2() {
 			var sourceName = queryBits[0];
 			var sequenceID = queryBits[1];
 
-			if(genotyperResult.serotypeFinalClade != null) {
-				targetAlignmentName = genotyperResult.serotypeFinalClade;
+			if(genotyperResult.genotypeFinalClade != null) {
+				targetAlignmentName = genotyperResult.genotypeFinalClade;
 			} else if(genotyperResult.genogroupFinalClade != null) {
 				targetAlignmentName = genotyperResult.genogroupFinalClade;
 			} else if(genotyperResult.speciesFinalClade != null) {

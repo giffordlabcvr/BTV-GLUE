@@ -40,7 +40,7 @@
 		<@elem tag="completeSegment" expr="context.complete_segment" type="Boolean" context=seq/>
 		<@elem tag="create_date" expr="context.gb_create_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
 		<@elem tag="update_date" expr="context.gb_update_date?string('dd-MMM-yyyy')" type="Date" context=seq/>
-		<@elem tag="recogniserSerotype" expr="context.recogniser_serotype" context=seq/>
+		<@elem tag="recogniserGenotype" expr="context.recogniser_genotype" context=seq/>
 		<#list seq.alignmentMemberships as almtMember>
 		<#if almtMember.alignment.refSequence??>
 		<alignmentMembership glueType="Object[]">

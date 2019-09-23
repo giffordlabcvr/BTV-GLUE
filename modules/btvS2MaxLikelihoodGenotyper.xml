@@ -17,9 +17,9 @@
 		<finalCladeCutoff>80.0</finalCladeCutoff>
 	</cladeCategory>
 	<cladeCategory>
-		<name>serotype</name>	
-		<displayName>Serotype</displayName>	
-		<whereClause>clade_category = 'serotype'</whereClause>
+		<name>genotype</name>	
+		<displayName>Genotype</displayName>	
+		<whereClause>clade_category = 'genotype'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
 	    <distanceCutoff>0.26</distanceCutoff>
 		<finalCladeCutoff>80.0</finalCladeCutoff>

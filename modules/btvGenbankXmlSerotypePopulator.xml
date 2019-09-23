@@ -7,7 +7,7 @@
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>
-		<gbQualifier name="serotype">
+		<gbQualifier name="genotype">
 			<propertyPopulator property="gb_serotype">
 				<matchPattern>(\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
@@ -33,7 +33,7 @@
 		</gbQualifier>
 		<gbQualifier name="strain">
 			<propertyPopulator property="gb_serotype">
-				<matchPattern>serotype (\d+)</matchPattern>
+				<matchPattern>genotype (\d+)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>
 		</gbQualifier>

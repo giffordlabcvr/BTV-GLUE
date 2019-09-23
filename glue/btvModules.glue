@@ -11,7 +11,7 @@
 
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
   
-  create module --fileName modules/btvGenbankXmlSerotypePopulator.xml
+  create module --fileName modules/btvGenbankXmlGenotypePopulator.xml
   
   create module --fileName modules/btvGenbankXmlReferencePopulator.xml
 
@@ -58,8 +58,8 @@
   
   create module --fileName modules/btvSegmentRecogniser.xml  
 
-  create module --fileName modules/btvSeg2SerotypeRecogniser.xml
-  create module --fileName modules/btvSeg6SerotypeRecogniser.xml
+  create module --fileName modules/btvSeg2GenotypeRecogniser.xml
+  create module --fileName modules/btvSeg6GenotypeRecogniser.xml
   
   create module --fileName modules/whoRegionTreeRenderer.xml --loadResources
   

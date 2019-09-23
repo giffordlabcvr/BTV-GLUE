@@ -4,7 +4,7 @@ _.each(segments, function(segment) {
 	glue.inMode("module/btvPhyloUtility", function() {
 		var whereClause = "sequence.source.name in ('ncbi-outgroup')";
 		if(segment == "6") {
-			// A bunch of Seg 6 serotypes group within PATAV+EHDV, so the internal node of these two cannot be used as an
+			// A bunch of Seg 6 genotypes group within PATAV+EHDV, so the internal node of these two cannot be used as an
 			// outgroup. Instead we just use PATAV
 			whereClause = "sequence.sequenceID = 'JQ070391'";
 		}

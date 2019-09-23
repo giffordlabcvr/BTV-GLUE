@@ -6,7 +6,7 @@ _.each(segments, function(segment) {
 		
 		var whereClause = "sequence.source.name in ('ncbi-curated')";
 		if(segment == "6") {
-			// A bunch of Seg 6 serotypes group within PATAV+EHDV, so the internal node of these two cannot be used as an
+			// A bunch of Seg 6 genotypes group within PATAV+EHDV, so the internal node of these two cannot be used as an
 			// outgroup. Instead PATAV is used as an outgroup and so EHDV remains in the tree
 			whereClause = whereClause +" or (sequence.sequenceID = 'AM744982')";
 		}

@@ -1,8 +1,8 @@
 var seqObjs = glue.tableToObjects(glue.command(["list", "sequence", "-w", 
  "source.name = 'ncbi-curated' and excluded = false and isolate_segment in ('2','6')",
- "sequenceID", "isolate.id", "isolate_segment", "gb_serotype", "recogniser_serotype"]));
+ "sequenceID", "isolate.id", "isolate_segment", "gb_serotype", "recogniser_genotype"]));
 
-// no isolate serotypes should be set from these sequences; they are post-serotype 27 and have not been classified yet.
+// no isolate genotypes should be set from these sequences; they are post-genotype 27 and have not been classified yet.
 var excluded_seqIDs = [
 	"MF124283", "MF124287",
 	"MF673721", "MF673725",
@@ -44,7 +44,7 @@ function setIsolateSegment(map, segment) {
 		var seqs = pair[1];
 		
 		var gb_serotype = null;
-		var recogniser_serotype = null;
+		var recogniser_genotype = null;
 		
 		_.each(seqs, function(seqObj) {
 			if(excluded_seqIDs.indexOf(seqObj.sequenceID) == -1) {
@@ -55,20 +55,20 @@ function setIsolateSegment(map, segment) {
 						throw new Error("gb_serotypes disagree for seg "+segment+" isolate "+isolateID);
 					}
 				}
-				if(seqObj["recogniser_serotype"] != null) {
-					if(recogniser_serotype == null) {
-						recogniser_serotype = seqObj["recogniser_serotype"];
-					} else if(recogniser_serotype != seqObj["recogniser_serotype"]) {
-						throw new Error("recogniser_serotype disagree for seg "+segment+", isolate "+isolateID);
+				if(seqObj["recogniser_genotype"] != null) {
+					if(recogniser_genotype == null) {
+						recogniser_genotype = seqObj["recogniser_genotype"];
+					} else if(recogniser_genotype != seqObj["recogniser_genotype"]) {
+						throw new Error("recogniser_genotype disagree for seg "+segment+", isolate "+isolateID);
 					}
 				}
 			}
 		});
 		glue.inMode("custom-table-row/isolate/"+isolateID, function() {
 			if(gb_serotype != null) {
-				glue.command(["set", "field", "seg"+segment+"serotype", gb_serotype]);
-			} else if(recogniser_serotype != null) {
-				glue.command(["set", "field", "seg"+segment+"serotype", recogniser_serotype]);
+				glue.command(["set", "field", "seg"+segment+"genotype", gb_serotype]);
+			} else if(recogniser_genotype != null) {
+				glue.command(["set", "field", "seg"+segment+"genotype", recogniser_genotype]);
 			}
 		});
 	});

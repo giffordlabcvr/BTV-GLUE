@@ -45,20 +45,20 @@
 				</tr>
 				
 				<tr ng-if="renderResult.sequence.segment == '2'">
-					<td><b>Serotype (annotated in GenBank)</b></td>
-					<td>{{handleNull(renderResult.sequence.gbSerotype)}}</td>
+					<td><b>Genotype (annotated in GenBank)</b></td>
+					<td>{{handleNull(renderResult.sequence.gbGenotype)}}</td>
 				</tr>
 				<!-- <tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
-					<td><b>Serotype (detected by BTV-GLUE)</b></td>
-					<td>{{handleNull(renderResult.sequence.recogniserSerotype)}}</td>
+					<td><b>Genotype (detected by BTV-GLUE)</b></td>
+					<td>{{handleNull(renderResult.sequence.recogniserGenotype)}}</td>
 				</tr>
 				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Serotype of segment 2 in the same isolate</b></td>
-					<td>{{handleNull(renderResult.sequence.isolateSeg2Serotype)}}</td>
+					<td><b>Genotype of segment 2 in the same isolate</b></td>
+					<td>{{handleNull(renderResult.sequence.isolateSeg2Genotype)}}</td>
 				</tr>
 				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Serotype of segment 6 in the same isolate</b></td>
-					<td>{{handleNull(renderResult.sequence.isolateSeg6Serotype)}}</td>
+					<td><b>Genotype of segment 6 in the same isolate</b></td>
+					<td>{{handleNull(renderResult.sequence.isolateSeg6Genotype)}}</td>
 				</tr> -->
 				<tbody
 					ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index"

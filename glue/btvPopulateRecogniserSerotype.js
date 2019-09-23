@@ -7,7 +7,7 @@ _.each(["2", "6"], function(segment) {
 
 	var recogniserResultObjs;
 	glue.inMode("module/btvTabularUtility", function() {
-		recogniserResultObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/formatted/seg"+segment+"SerotypeRecogniserResults.txt"]));
+		recogniserResultObjs = glue.tableToObjects(glue.command(["load-tabular", "tabular/formatted/seg"+segment+"GenotypeRecogniserResults.txt"]));
 	});
 
 	var querySeqIdToHits = {};
@@ -31,7 +31,7 @@ _.each(["2", "6"], function(segment) {
 			multipleHits.push(sequenceID);
 		} else if(objs[0].direction == 'FORWARD') {
 			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-				glue.command(["set", "field", "recogniser_serotype", objs[0].categoryId.replace('S'+segment+'_serotype_', '')]);
+				glue.command(["set", "field", "recogniser_genotype", objs[0].categoryId.replace('S'+segment+'_genotype_', '')]);
 			});
 		} else {
 			reverseHits.push(sequenceID);

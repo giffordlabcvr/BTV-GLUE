@@ -127,35 +127,35 @@ reference REF_S10_MASTER
   
 
 
-create reference REF_S6_serotype_1 ncbi-refseqs JX680462
-create reference REF_S6_serotype_2 ncbi-refseqs KP821512
-create reference REF_S6_serotype_3 ncbi-refseqs KP821521
-create reference REF_S6_serotype_4 ncbi-refseqs KP821548
-create reference REF_S6_serotype_5 ncbi-refseqs KP821582
-create reference REF_S6_serotype_6 ncbi-refseqs AJ586703
-create reference REF_S6_serotype_7 ncbi-refseqs AJ586704
-create reference REF_S6_serotype_8 ncbi-refseqs KP821558
-create reference REF_S6_serotype_9 ncbi-refseqs KP821570
-create reference REF_S6_serotype_10 ncbi-refseqs AJ586709 
-create reference REF_S6_serotype_11 ncbi-refseqs AJ586710
-create reference REF_S6_serotype_12 ncbi-refseqs KP821583
-create reference REF_S6_serotype_13 ncbi-refseqs AJ586713
-create reference REF_S6_serotype_14 ncbi-refseqs KP821465
-create reference REF_S6_serotype_15 ncbi-refseqs KP821466
-create reference REF_S6_serotype_16 ncbi-refseqs AJ586719 
-create reference REF_S6_serotype_17 ncbi-refseqs AJ586720 
-create reference REF_S6_serotype_18 ncbi-refseqs AJ586721
-create reference REF_S6_serotype_19 ncbi-refseqs AJ586722
-create reference REF_S6_serotype_20 ncbi-refseqs AJ586723 
-create reference REF_S6_serotype_21 ncbi-refseqs AJ586724
-create reference REF_S6_serotype_22 ncbi-refseqs AJ586725
-create reference REF_S6_serotype_23 ncbi-refseqs AJ586727
-create reference REF_S6_serotype_24 ncbi-refseqs AJ586730
-create reference REF_S6_serotype_25 ncbi-refseqs EU839842
-create reference REF_S6_serotype_26 ncbi-refseqs JN255159
-create reference REF_S6_serotype_27 ncbi-refseqs LN713675
+create reference REF_S6_genotype_1 ncbi-refseqs JX680462
+create reference REF_S6_genotype_2 ncbi-refseqs KP821512
+create reference REF_S6_genotype_3 ncbi-refseqs KP821521
+create reference REF_S6_genotype_4 ncbi-refseqs KP821548
+create reference REF_S6_genotype_5 ncbi-refseqs KP821582
+create reference REF_S6_genotype_6 ncbi-refseqs AJ586703
+create reference REF_S6_genotype_7 ncbi-refseqs AJ586704
+create reference REF_S6_genotype_8 ncbi-refseqs KP821558
+create reference REF_S6_genotype_9 ncbi-refseqs KP821570
+create reference REF_S6_genotype_10 ncbi-refseqs AJ586709 
+create reference REF_S6_genotype_11 ncbi-refseqs AJ586710
+create reference REF_S6_genotype_12 ncbi-refseqs KP821583
+create reference REF_S6_genotype_13 ncbi-refseqs AJ586713
+create reference REF_S6_genotype_14 ncbi-refseqs KP821465
+create reference REF_S6_genotype_15 ncbi-refseqs KP821466
+create reference REF_S6_genotype_16 ncbi-refseqs AJ586719 
+create reference REF_S6_genotype_17 ncbi-refseqs AJ586720 
+create reference REF_S6_genotype_18 ncbi-refseqs AJ586721
+create reference REF_S6_genotype_19 ncbi-refseqs AJ586722
+create reference REF_S6_genotype_20 ncbi-refseqs AJ586723 
+create reference REF_S6_genotype_21 ncbi-refseqs AJ586724
+create reference REF_S6_genotype_22 ncbi-refseqs AJ586725
+create reference REF_S6_genotype_23 ncbi-refseqs AJ586727
+create reference REF_S6_genotype_24 ncbi-refseqs AJ586730
+create reference REF_S6_genotype_25 ncbi-refseqs EU839842
+create reference REF_S6_genotype_26 ncbi-refseqs JN255159
+create reference REF_S6_genotype_27 ncbi-refseqs LN713675
 ## commented out from the project build until they are published.
-## create reference REF_S6_serotype_28 kyriaki-nomikou-unpublished KN156
+## create reference REF_S6_genotype_28 kyriaki-nomikou-unpublished KN156
 
 
 

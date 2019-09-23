@@ -11,122 +11,122 @@ alignment AL_S2_MASTER
   add member -w "source.name = 'ncbi-curated' and excluded = false and gb_segment = '2'"
   add member -w "source.name = 'ncbi-refseqs' and gb_segment = '2'"
 
-  extract child AL_S2_serotype_1 -r REF_S2_serotype_1
-  demote member AL_S2_serotype_1 -w "sequence.gb_serotype = '1'"
+  extract child AL_S2_genotype_1 -r REF_S2_genotype_1
+  demote member AL_S2_genotype_1 -w "sequence.gb_serotype = '1'"
 
-  extract child AL_S2_serotype_2 -r REF_S2_serotype_2
-  demote member AL_S2_serotype_2 -w "sequence.gb_serotype = '2'"
+  extract child AL_S2_genotype_2 -r REF_S2_genotype_2
+  demote member AL_S2_genotype_2 -w "sequence.gb_serotype = '2'"
 
-  extract child AL_S2_serotype_3 -r REF_S2_serotype_3
-  demote member AL_S2_serotype_3 -w "sequence.gb_serotype = '3'"
+  extract child AL_S2_genotype_3 -r REF_S2_genotype_3
+  demote member AL_S2_genotype_3 -w "sequence.gb_serotype = '3'"
 
-  extract child AL_S2_serotype_4 -r REF_S2_serotype_4
-  demote member AL_S2_serotype_4 -w "sequence.gb_serotype = '4'"
+  extract child AL_S2_genotype_4 -r REF_S2_genotype_4
+  demote member AL_S2_genotype_4 -w "sequence.gb_serotype = '4'"
 
-  extract child AL_S2_serotype_5 -r REF_S2_serotype_5
-  demote member AL_S2_serotype_5 -w "sequence.gb_serotype = '5'"
+  extract child AL_S2_genotype_5 -r REF_S2_genotype_5
+  demote member AL_S2_genotype_5 -w "sequence.gb_serotype = '5'"
 
-  extract child AL_S2_serotype_6 -r REF_S2_serotype_6
-  demote member AL_S2_serotype_6 -w "sequence.gb_serotype = '6'"
+  extract child AL_S2_genotype_6 -r REF_S2_genotype_6
+  demote member AL_S2_genotype_6 -w "sequence.gb_serotype = '6'"
 
-  extract child AL_S2_serotype_7 -r REF_S2_serotype_7
-  demote member AL_S2_serotype_7 -w "sequence.gb_serotype = '7'"
+  extract child AL_S2_genotype_7 -r REF_S2_genotype_7
+  demote member AL_S2_genotype_7 -w "sequence.gb_serotype = '7'"
 
-  extract child AL_S2_serotype_8 -r REF_S2_serotype_8
-  demote member AL_S2_serotype_8 -w "sequence.gb_serotype = '8'"
+  extract child AL_S2_genotype_8 -r REF_S2_genotype_8
+  demote member AL_S2_genotype_8 -w "sequence.gb_serotype = '8'"
 
-  extract child AL_S2_serotype_9 -r REF_S2_serotype_9
-  demote member AL_S2_serotype_9 -w "sequence.gb_serotype = '9'"
+  extract child AL_S2_genotype_9 -r REF_S2_genotype_9
+  demote member AL_S2_genotype_9 -w "sequence.gb_serotype = '9'"
 
-  extract child AL_S2_serotype_10 -r REF_S2_serotype_10
-  demote member AL_S2_serotype_10 -w "sequence.gb_serotype = '10'"
+  extract child AL_S2_genotype_10 -r REF_S2_genotype_10
+  demote member AL_S2_genotype_10 -w "sequence.gb_serotype = '10'"
 
-  extract child AL_S2_serotype_11 -r REF_S2_serotype_11
-  demote member AL_S2_serotype_11 -w "sequence.gb_serotype = '11'"
+  extract child AL_S2_genotype_11 -r REF_S2_genotype_11
+  demote member AL_S2_genotype_11 -w "sequence.gb_serotype = '11'"
 
-  extract child AL_S2_serotype_12 -r REF_S2_serotype_12
-  demote member AL_S2_serotype_12 -w "sequence.gb_serotype = '12'"
+  extract child AL_S2_genotype_12 -r REF_S2_genotype_12
+  demote member AL_S2_genotype_12 -w "sequence.gb_serotype = '12'"
 
-  extract child AL_S2_serotype_13 -r REF_S2_serotype_13
-  demote member AL_S2_serotype_13 -w "sequence.gb_serotype = '13'"
+  extract child AL_S2_genotype_13 -r REF_S2_genotype_13
+  demote member AL_S2_genotype_13 -w "sequence.gb_serotype = '13'"
 
-  extract child AL_S2_serotype_14 -r REF_S2_serotype_14
-  demote member AL_S2_serotype_14 -w "sequence.gb_serotype = '14'"
+  extract child AL_S2_genotype_14 -r REF_S2_genotype_14
+  demote member AL_S2_genotype_14 -w "sequence.gb_serotype = '14'"
 
-  extract child AL_S2_serotype_15 -r REF_S2_serotype_15
-  demote member AL_S2_serotype_15 -w "sequence.gb_serotype = '15'"
+  extract child AL_S2_genotype_15 -r REF_S2_genotype_15
+  demote member AL_S2_genotype_15 -w "sequence.gb_serotype = '15'"
 
-  extract child AL_S2_serotype_16 -r REF_S2_serotype_16
-  demote member AL_S2_serotype_16 -w "sequence.gb_serotype = '16'"
+  extract child AL_S2_genotype_16 -r REF_S2_genotype_16
+  demote member AL_S2_genotype_16 -w "sequence.gb_serotype = '16'"
 
-  extract child AL_S2_serotype_17 -r REF_S2_serotype_17
-  demote member AL_S2_serotype_17 -w "sequence.gb_serotype = '17'"
+  extract child AL_S2_genotype_17 -r REF_S2_genotype_17
+  demote member AL_S2_genotype_17 -w "sequence.gb_serotype = '17'"
 
-  extract child AL_S2_serotype_18 -r REF_S2_serotype_18
-  demote member AL_S2_serotype_18 -w "sequence.gb_serotype = '18'"
+  extract child AL_S2_genotype_18 -r REF_S2_genotype_18
+  demote member AL_S2_genotype_18 -w "sequence.gb_serotype = '18'"
 
-  extract child AL_S2_serotype_19 -r REF_S2_serotype_19
-  demote member AL_S2_serotype_19 -w "sequence.gb_serotype = '19'"
+  extract child AL_S2_genotype_19 -r REF_S2_genotype_19
+  demote member AL_S2_genotype_19 -w "sequence.gb_serotype = '19'"
 
-  extract child AL_S2_serotype_20 -r REF_S2_serotype_20
-  demote member AL_S2_serotype_20 -w "sequence.gb_serotype = '20'"
+  extract child AL_S2_genotype_20 -r REF_S2_genotype_20
+  demote member AL_S2_genotype_20 -w "sequence.gb_serotype = '20'"
 
-  extract child AL_S2_serotype_21 -r REF_S2_serotype_21
-  demote member AL_S2_serotype_21 -w "sequence.gb_serotype = '21'"
+  extract child AL_S2_genotype_21 -r REF_S2_genotype_21
+  demote member AL_S2_genotype_21 -w "sequence.gb_serotype = '21'"
 
-  extract child AL_S2_serotype_22 -r REF_S2_serotype_22
-  demote member AL_S2_serotype_22 -w "sequence.gb_serotype = '22'"
+  extract child AL_S2_genotype_22 -r REF_S2_genotype_22
+  demote member AL_S2_genotype_22 -w "sequence.gb_serotype = '22'"
 
-  extract child AL_S2_serotype_23 -r REF_S2_serotype_23
-  demote member AL_S2_serotype_23 -w "sequence.gb_serotype = '23'"
+  extract child AL_S2_genotype_23 -r REF_S2_genotype_23
+  demote member AL_S2_genotype_23 -w "sequence.gb_serotype = '23'"
 
-  extract child AL_S2_serotype_24 -r REF_S2_serotype_24
-  demote member AL_S2_serotype_24 -w "sequence.gb_serotype = '24'"
+  extract child AL_S2_genotype_24 -r REF_S2_genotype_24
+  demote member AL_S2_genotype_24 -w "sequence.gb_serotype = '24'"
 
-  extract child AL_S2_serotype_25 -r REF_S2_serotype_25
-  demote member AL_S2_serotype_25 -w "sequence.gb_serotype = '25'"
+  extract child AL_S2_genotype_25 -r REF_S2_genotype_25
+  demote member AL_S2_genotype_25 -w "sequence.gb_serotype = '25'"
 
-  extract child AL_S2_serotype_26 -r REF_S2_serotype_26
-  demote member AL_S2_serotype_26 -w "sequence.gb_serotype = '26'"
+  extract child AL_S2_genotype_26 -r REF_S2_genotype_26
+  demote member AL_S2_genotype_26 -w "sequence.gb_serotype = '26'"
 
-  extract child AL_S2_serotype_27 -r REF_S2_serotype_27
-  demote member AL_S2_serotype_27 -w "sequence.gb_serotype = '27'"
+  extract child AL_S2_genotype_27 -r REF_S2_genotype_27
+  demote member AL_S2_genotype_27 -w "sequence.gb_serotype = '27'"
 
   ## commented out from the project build until they are published.
-  ## extract child AL_S2_serotype_28 -r REF_S2_serotype_28
-  ## demote member AL_S2_serotype_28 -w "sequence.gb_serotype = '28'"
+  ## extract child AL_S2_genotype_28 -r REF_S2_genotype_28
+  ## demote member AL_S2_genotype_28 -w "sequence.gb_serotype = '28'"
 
   exit
 
-alignment AL_S2_serotype_1 set field displayName "S2 Serotype 1"
-alignment AL_S2_serotype_2 set field displayName "S2 Serotype 2"
-alignment AL_S2_serotype_3 set field displayName "S2 Serotype 3"
-alignment AL_S2_serotype_4 set field displayName "S2 Serotype 4"
-alignment AL_S2_serotype_5 set field displayName "S2 Serotype 5"
-alignment AL_S2_serotype_6 set field displayName "S2 Serotype 6"
-alignment AL_S2_serotype_7 set field displayName "S2 Serotype 7"
-alignment AL_S2_serotype_8 set field displayName "S2 Serotype 8"
-alignment AL_S2_serotype_9 set field displayName "S2 Serotype 9"
-alignment AL_S2_serotype_10 set field displayName "S2 Serotype 10"
-alignment AL_S2_serotype_11 set field displayName "S2 Serotype 11"
-alignment AL_S2_serotype_12 set field displayName "S2 Serotype 12"
-alignment AL_S2_serotype_13 set field displayName "S2 Serotype 13"
-alignment AL_S2_serotype_14 set field displayName "S2 Serotype 14"
-alignment AL_S2_serotype_15 set field displayName "S2 Serotype 15"
-alignment AL_S2_serotype_16 set field displayName "S2 Serotype 16"
-alignment AL_S2_serotype_17 set field displayName "S2 Serotype 17"
-alignment AL_S2_serotype_18 set field displayName "S2 Serotype 18"
-alignment AL_S2_serotype_19 set field displayName "S2 Serotype 19"
-alignment AL_S2_serotype_20 set field displayName "S2 Serotype 20"
-alignment AL_S2_serotype_21 set field displayName "S2 Serotype 21"
-alignment AL_S2_serotype_22 set field displayName "S2 Serotype 22"
-alignment AL_S2_serotype_23 set field displayName "S2 Serotype 23"
-alignment AL_S2_serotype_24 set field displayName "S2 Serotype 24"
-alignment AL_S2_serotype_25 set field displayName "S2 Serotype 25"
-alignment AL_S2_serotype_26 set field displayName "S2 Serotype 26"
-alignment AL_S2_serotype_27 set field displayName "S2 Serotype 27"
+alignment AL_S2_genotype_1 set field displayName "S2 Genotype 1"
+alignment AL_S2_genotype_2 set field displayName "S2 Genotype 2"
+alignment AL_S2_genotype_3 set field displayName "S2 Genotype 3"
+alignment AL_S2_genotype_4 set field displayName "S2 Genotype 4"
+alignment AL_S2_genotype_5 set field displayName "S2 Genotype 5"
+alignment AL_S2_genotype_6 set field displayName "S2 Genotype 6"
+alignment AL_S2_genotype_7 set field displayName "S2 Genotype 7"
+alignment AL_S2_genotype_8 set field displayName "S2 Genotype 8"
+alignment AL_S2_genotype_9 set field displayName "S2 Genotype 9"
+alignment AL_S2_genotype_10 set field displayName "S2 Genotype 10"
+alignment AL_S2_genotype_11 set field displayName "S2 Genotype 11"
+alignment AL_S2_genotype_12 set field displayName "S2 Genotype 12"
+alignment AL_S2_genotype_13 set field displayName "S2 Genotype 13"
+alignment AL_S2_genotype_14 set field displayName "S2 Genotype 14"
+alignment AL_S2_genotype_15 set field displayName "S2 Genotype 15"
+alignment AL_S2_genotype_16 set field displayName "S2 Genotype 16"
+alignment AL_S2_genotype_17 set field displayName "S2 Genotype 17"
+alignment AL_S2_genotype_18 set field displayName "S2 Genotype 18"
+alignment AL_S2_genotype_19 set field displayName "S2 Genotype 19"
+alignment AL_S2_genotype_20 set field displayName "S2 Genotype 20"
+alignment AL_S2_genotype_21 set field displayName "S2 Genotype 21"
+alignment AL_S2_genotype_22 set field displayName "S2 Genotype 22"
+alignment AL_S2_genotype_23 set field displayName "S2 Genotype 23"
+alignment AL_S2_genotype_24 set field displayName "S2 Genotype 24"
+alignment AL_S2_genotype_25 set field displayName "S2 Genotype 25"
+alignment AL_S2_genotype_26 set field displayName "S2 Genotype 26"
+alignment AL_S2_genotype_27 set field displayName "S2 Genotype 27"
 ## commented out from the project build until they are published.
-## alignment AL_S2_serotype_28 set field displayName "S2 Serotype 28"
+## alignment AL_S2_genotype_28 set field displayName "S2 Genotype 28"
 
 
 create alignment AL_S3_MASTER -r REF_S3_MASTER
@@ -156,122 +156,122 @@ alignment AL_S6_MASTER
   add member -w "source.name = 'ncbi-curated' and excluded = false and gb_segment = '6'"
   add member -w "source.name = 'ncbi-refseqs' and gb_segment = '6'"
 
-  extract child AL_S6_serotype_1 -r REF_S6_serotype_1
-  demote member AL_S6_serotype_1 -w "sequence.gb_serotype = '1'"
+  extract child AL_S6_genotype_1 -r REF_S6_genotype_1
+  demote member AL_S6_genotype_1 -w "sequence.gb_serotype = '1'"
 
-  extract child AL_S6_serotype_2 -r REF_S6_serotype_2
-  demote member AL_S6_serotype_2 -w "sequence.gb_serotype = '2'"
+  extract child AL_S6_genotype_2 -r REF_S6_genotype_2
+  demote member AL_S6_genotype_2 -w "sequence.gb_serotype = '2'"
 
-  extract child AL_S6_serotype_3 -r REF_S6_serotype_3
-  demote member AL_S6_serotype_3 -w "sequence.gb_serotype = '3'"
+  extract child AL_S6_genotype_3 -r REF_S6_genotype_3
+  demote member AL_S6_genotype_3 -w "sequence.gb_serotype = '3'"
 
-  extract child AL_S6_serotype_4 -r REF_S6_serotype_4
-  demote member AL_S6_serotype_4 -w "sequence.gb_serotype = '4'"
+  extract child AL_S6_genotype_4 -r REF_S6_genotype_4
+  demote member AL_S6_genotype_4 -w "sequence.gb_serotype = '4'"
 
-  extract child AL_S6_serotype_5 -r REF_S6_serotype_5
-  demote member AL_S6_serotype_5 -w "sequence.gb_serotype = '5'"
+  extract child AL_S6_genotype_5 -r REF_S6_genotype_5
+  demote member AL_S6_genotype_5 -w "sequence.gb_serotype = '5'"
 
-  extract child AL_S6_serotype_6 -r REF_S6_serotype_6
-  demote member AL_S6_serotype_6 -w "sequence.gb_serotype = '6'"
+  extract child AL_S6_genotype_6 -r REF_S6_genotype_6
+  demote member AL_S6_genotype_6 -w "sequence.gb_serotype = '6'"
 
-  extract child AL_S6_serotype_7 -r REF_S6_serotype_7
-  demote member AL_S6_serotype_7 -w "sequence.gb_serotype = '7'"
+  extract child AL_S6_genotype_7 -r REF_S6_genotype_7
+  demote member AL_S6_genotype_7 -w "sequence.gb_serotype = '7'"
 
-  extract child AL_S6_serotype_8 -r REF_S6_serotype_8
-  demote member AL_S6_serotype_8 -w "sequence.gb_serotype = '8'"
+  extract child AL_S6_genotype_8 -r REF_S6_genotype_8
+  demote member AL_S6_genotype_8 -w "sequence.gb_serotype = '8'"
 
-  extract child AL_S6_serotype_9 -r REF_S6_serotype_9
-  demote member AL_S6_serotype_9 -w "sequence.gb_serotype = '9'"
+  extract child AL_S6_genotype_9 -r REF_S6_genotype_9
+  demote member AL_S6_genotype_9 -w "sequence.gb_serotype = '9'"
 
-  extract child AL_S6_serotype_10 -r REF_S6_serotype_10
-  demote member AL_S6_serotype_10 -w "sequence.gb_serotype = '10'"
+  extract child AL_S6_genotype_10 -r REF_S6_genotype_10
+  demote member AL_S6_genotype_10 -w "sequence.gb_serotype = '10'"
 
-  extract child AL_S6_serotype_11 -r REF_S6_serotype_11
-  demote member AL_S6_serotype_11 -w "sequence.gb_serotype = '11'"
+  extract child AL_S6_genotype_11 -r REF_S6_genotype_11
+  demote member AL_S6_genotype_11 -w "sequence.gb_serotype = '11'"
 
-  extract child AL_S6_serotype_12 -r REF_S6_serotype_12
-  demote member AL_S6_serotype_12 -w "sequence.gb_serotype = '12'"
+  extract child AL_S6_genotype_12 -r REF_S6_genotype_12
+  demote member AL_S6_genotype_12 -w "sequence.gb_serotype = '12'"
 
-  extract child AL_S6_serotype_13 -r REF_S6_serotype_13
-  demote member AL_S6_serotype_13 -w "sequence.gb_serotype = '13'"
+  extract child AL_S6_genotype_13 -r REF_S6_genotype_13
+  demote member AL_S6_genotype_13 -w "sequence.gb_serotype = '13'"
 
-  extract child AL_S6_serotype_14 -r REF_S6_serotype_14
-  demote member AL_S6_serotype_14 -w "sequence.gb_serotype = '14'"
+  extract child AL_S6_genotype_14 -r REF_S6_genotype_14
+  demote member AL_S6_genotype_14 -w "sequence.gb_serotype = '14'"
 
-  extract child AL_S6_serotype_15 -r REF_S6_serotype_15
-  demote member AL_S6_serotype_15 -w "sequence.gb_serotype = '15'"
+  extract child AL_S6_genotype_15 -r REF_S6_genotype_15
+  demote member AL_S6_genotype_15 -w "sequence.gb_serotype = '15'"
 
-  extract child AL_S6_serotype_16 -r REF_S6_serotype_16
-  demote member AL_S6_serotype_16 -w "sequence.gb_serotype = '16'"
+  extract child AL_S6_genotype_16 -r REF_S6_genotype_16
+  demote member AL_S6_genotype_16 -w "sequence.gb_serotype = '16'"
 
-  extract child AL_S6_serotype_17 -r REF_S6_serotype_17
-  demote member AL_S6_serotype_17 -w "sequence.gb_serotype = '17'"
+  extract child AL_S6_genotype_17 -r REF_S6_genotype_17
+  demote member AL_S6_genotype_17 -w "sequence.gb_serotype = '17'"
 
-  extract child AL_S6_serotype_18 -r REF_S6_serotype_18
-  demote member AL_S6_serotype_18 -w "sequence.gb_serotype = '18'"
+  extract child AL_S6_genotype_18 -r REF_S6_genotype_18
+  demote member AL_S6_genotype_18 -w "sequence.gb_serotype = '18'"
 
-  extract child AL_S6_serotype_19 -r REF_S6_serotype_19
-  demote member AL_S6_serotype_19 -w "sequence.gb_serotype = '19'"
+  extract child AL_S6_genotype_19 -r REF_S6_genotype_19
+  demote member AL_S6_genotype_19 -w "sequence.gb_serotype = '19'"
 
-  extract child AL_S6_serotype_20 -r REF_S6_serotype_20
-  demote member AL_S6_serotype_20 -w "sequence.gb_serotype = '20'"
+  extract child AL_S6_genotype_20 -r REF_S6_genotype_20
+  demote member AL_S6_genotype_20 -w "sequence.gb_serotype = '20'"
 
-  extract child AL_S6_serotype_21 -r REF_S6_serotype_21
-  demote member AL_S6_serotype_21 -w "sequence.gb_serotype = '21'"
+  extract child AL_S6_genotype_21 -r REF_S6_genotype_21
+  demote member AL_S6_genotype_21 -w "sequence.gb_serotype = '21'"
 
-  extract child AL_S6_serotype_22 -r REF_S6_serotype_22
-  demote member AL_S6_serotype_22 -w "sequence.gb_serotype = '22'"
+  extract child AL_S6_genotype_22 -r REF_S6_genotype_22
+  demote member AL_S6_genotype_22 -w "sequence.gb_serotype = '22'"
 
-  extract child AL_S6_serotype_23 -r REF_S6_serotype_23
-  demote member AL_S6_serotype_23 -w "sequence.gb_serotype = '23'"
+  extract child AL_S6_genotype_23 -r REF_S6_genotype_23
+  demote member AL_S6_genotype_23 -w "sequence.gb_serotype = '23'"
 
-  extract child AL_S6_serotype_24 -r REF_S6_serotype_24
-  demote member AL_S6_serotype_24 -w "sequence.gb_serotype = '24'"
+  extract child AL_S6_genotype_24 -r REF_S6_genotype_24
+  demote member AL_S6_genotype_24 -w "sequence.gb_serotype = '24'"
 
-  extract child AL_S6_serotype_25 -r REF_S6_serotype_25
-  demote member AL_S6_serotype_25 -w "sequence.gb_serotype = '25'"
+  extract child AL_S6_genotype_25 -r REF_S6_genotype_25
+  demote member AL_S6_genotype_25 -w "sequence.gb_serotype = '25'"
 
-  extract child AL_S6_serotype_26 -r REF_S6_serotype_26
-  demote member AL_S6_serotype_26 -w "sequence.gb_serotype = '26'"
+  extract child AL_S6_genotype_26 -r REF_S6_genotype_26
+  demote member AL_S6_genotype_26 -w "sequence.gb_serotype = '26'"
 
-  extract child AL_S6_serotype_27 -r REF_S6_serotype_27
-  demote member AL_S6_serotype_27 -w "sequence.gb_serotype = '27'"
+  extract child AL_S6_genotype_27 -r REF_S6_genotype_27
+  demote member AL_S6_genotype_27 -w "sequence.gb_serotype = '27'"
 
   ## commented out from the project build until they are published.
-  ## extract child AL_S6_serotype_28 -r REF_S6_serotype_28
-  ## demote member AL_S6_serotype_28 -w "sequence.gb_serotype = '28'"
+  ## extract child AL_S6_genotype_28 -r REF_S6_genotype_28
+  ## demote member AL_S6_genotype_28 -w "sequence.gb_serotype = '28'"
 
   exit
 
-alignment AL_S6_serotype_1 set field displayName "S6 Serotype 1"
-alignment AL_S6_serotype_2 set field displayName "S6 Serotype 2"
-alignment AL_S6_serotype_3 set field displayName "S6 Serotype 3"
-alignment AL_S6_serotype_4 set field displayName "S6 Serotype 4"
-alignment AL_S6_serotype_5 set field displayName "S6 Serotype 5"
-alignment AL_S6_serotype_6 set field displayName "S6 Serotype 6"
-alignment AL_S6_serotype_7 set field displayName "S6 Serotype 7"
-alignment AL_S6_serotype_8 set field displayName "S6 Serotype 8"
-alignment AL_S6_serotype_9 set field displayName "S6 Serotype 9"
-alignment AL_S6_serotype_10 set field displayName "S6 Serotype 10"
-alignment AL_S6_serotype_11 set field displayName "S6 Serotype 11"
-alignment AL_S6_serotype_12 set field displayName "S6 Serotype 12"
-alignment AL_S6_serotype_13 set field displayName "S6 Serotype 13"
-alignment AL_S6_serotype_14 set field displayName "S6 Serotype 14"
-alignment AL_S6_serotype_15 set field displayName "S6 Serotype 15"
-alignment AL_S6_serotype_16 set field displayName "S6 Serotype 16"
-alignment AL_S6_serotype_17 set field displayName "S6 Serotype 17"
-alignment AL_S6_serotype_18 set field displayName "S6 Serotype 18"
-alignment AL_S6_serotype_19 set field displayName "S6 Serotype 19"
-alignment AL_S6_serotype_20 set field displayName "S6 Serotype 20"
-alignment AL_S6_serotype_21 set field displayName "S6 Serotype 21"
-alignment AL_S6_serotype_22 set field displayName "S6 Serotype 22"
-alignment AL_S6_serotype_23 set field displayName "S6 Serotype 23"
-alignment AL_S6_serotype_24 set field displayName "S6 Serotype 24"
-alignment AL_S6_serotype_25 set field displayName "S6 Serotype 25"
-alignment AL_S6_serotype_26 set field displayName "S6 Serotype 26"
-alignment AL_S6_serotype_27 set field displayName "S6 Serotype 27"
+alignment AL_S6_genotype_1 set field displayName "S6 Genotype 1"
+alignment AL_S6_genotype_2 set field displayName "S6 Genotype 2"
+alignment AL_S6_genotype_3 set field displayName "S6 Genotype 3"
+alignment AL_S6_genotype_4 set field displayName "S6 Genotype 4"
+alignment AL_S6_genotype_5 set field displayName "S6 Genotype 5"
+alignment AL_S6_genotype_6 set field displayName "S6 Genotype 6"
+alignment AL_S6_genotype_7 set field displayName "S6 Genotype 7"
+alignment AL_S6_genotype_8 set field displayName "S6 Genotype 8"
+alignment AL_S6_genotype_9 set field displayName "S6 Genotype 9"
+alignment AL_S6_genotype_10 set field displayName "S6 Genotype 10"
+alignment AL_S6_genotype_11 set field displayName "S6 Genotype 11"
+alignment AL_S6_genotype_12 set field displayName "S6 Genotype 12"
+alignment AL_S6_genotype_13 set field displayName "S6 Genotype 13"
+alignment AL_S6_genotype_14 set field displayName "S6 Genotype 14"
+alignment AL_S6_genotype_15 set field displayName "S6 Genotype 15"
+alignment AL_S6_genotype_16 set field displayName "S6 Genotype 16"
+alignment AL_S6_genotype_17 set field displayName "S6 Genotype 17"
+alignment AL_S6_genotype_18 set field displayName "S6 Genotype 18"
+alignment AL_S6_genotype_19 set field displayName "S6 Genotype 19"
+alignment AL_S6_genotype_20 set field displayName "S6 Genotype 20"
+alignment AL_S6_genotype_21 set field displayName "S6 Genotype 21"
+alignment AL_S6_genotype_22 set field displayName "S6 Genotype 22"
+alignment AL_S6_genotype_23 set field displayName "S6 Genotype 23"
+alignment AL_S6_genotype_24 set field displayName "S6 Genotype 24"
+alignment AL_S6_genotype_25 set field displayName "S6 Genotype 25"
+alignment AL_S6_genotype_26 set field displayName "S6 Genotype 26"
+alignment AL_S6_genotype_27 set field displayName "S6 Genotype 27"
 ## commented out from the project build until they are published.
-## alignment AL_S6_serotype_28 set field displayName "S6 Serotype 28"
+## alignment AL_S6_genotype_28 set field displayName "S6 Genotype 28"
 
 create alignment AL_S7_MASTER -r REF_S7_MASTER
 alignment AL_S7_MASTER
@@ -312,125 +312,125 @@ alignment AL_S2_MASTER derive segments AL_S2_UNCONSTRAINED -w "sequence.source.n
 alignment AL_S6_MASTER derive segments AL_S6_UNCONSTRAINED -w "sequence.source.name = 'ncbi-refseqs'"
 
 
-reference REF_S2_serotype_1 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_2 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_3 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_4 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_5 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_6 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_7 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_8 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_9 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_10 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_11 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_12 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_13 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_14 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_15 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_16 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_17 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_18 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_19 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_20 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_21 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_22 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_23 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_24 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_25 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_26 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
-reference REF_S2_serotype_27 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_1 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_2 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_3 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_4 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_5 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_6 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_7 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_8 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_9 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_10 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_11 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_12 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_13 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_14 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_15 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_16 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_17 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_18 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_19 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_20 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_21 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_22 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_23 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_24 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_25 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_26 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+reference REF_S2_genotype_27 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 ## commented out from the project build until they are published.
-## reference REF_S2_serotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
+## reference REF_S2_genotype_28 inherit feature-location -r -s AL_S2_MASTER S2_whole_genome
 
 
-reference REF_S6_serotype_1 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_2 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_3 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_4 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_5 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_6 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_7 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_8 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_9 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_10 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_11 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_12 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_13 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_14 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_15 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_16 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_17 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_18 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_19 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_20 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_21 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_22 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_23 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_24 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_25 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_26 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
-reference REF_S6_serotype_27 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_1 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_2 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_3 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_4 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_5 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_6 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_7 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_8 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_9 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_10 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_11 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_12 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_13 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_14 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_15 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_16 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_17 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_18 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_19 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_20 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_21 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_22 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_23 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_24 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_25 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_26 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+reference REF_S6_genotype_27 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 ## commented out from the project build until they are published.
-## reference REF_S6_serotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
+## reference REF_S6_genotype_28 inherit feature-location -r -s AL_S6_MASTER S6_whole_genome
 
-compute alignment AL_S2_serotype_1 s2CompoundAligner
-compute alignment AL_S2_serotype_2 s2CompoundAligner
-compute alignment AL_S2_serotype_3 s2CompoundAligner
-compute alignment AL_S2_serotype_4 s2CompoundAligner
-compute alignment AL_S2_serotype_5 s2CompoundAligner
-compute alignment AL_S2_serotype_6 s2CompoundAligner
-compute alignment AL_S2_serotype_7 s2CompoundAligner
-compute alignment AL_S2_serotype_8 s2CompoundAligner
-compute alignment AL_S2_serotype_9 s2CompoundAligner
-compute alignment AL_S2_serotype_10 s2CompoundAligner
-compute alignment AL_S2_serotype_11 s2CompoundAligner
-compute alignment AL_S2_serotype_12 s2CompoundAligner
-compute alignment AL_S2_serotype_13 s2CompoundAligner
-compute alignment AL_S2_serotype_14 s2CompoundAligner
-compute alignment AL_S2_serotype_15 s2CompoundAligner
-compute alignment AL_S2_serotype_16 s2CompoundAligner
-compute alignment AL_S2_serotype_17 s2CompoundAligner
-compute alignment AL_S2_serotype_18 s2CompoundAligner
-compute alignment AL_S2_serotype_19 s2CompoundAligner
-compute alignment AL_S2_serotype_20 s2CompoundAligner
-compute alignment AL_S2_serotype_21 s2CompoundAligner
-compute alignment AL_S2_serotype_22 s2CompoundAligner
-compute alignment AL_S2_serotype_23 s2CompoundAligner
-compute alignment AL_S2_serotype_24 s2CompoundAligner
-compute alignment AL_S2_serotype_25 s2CompoundAligner
-compute alignment AL_S2_serotype_26 s2CompoundAligner
-compute alignment AL_S2_serotype_27 s2CompoundAligner
+compute alignment AL_S2_genotype_1 s2CompoundAligner
+compute alignment AL_S2_genotype_2 s2CompoundAligner
+compute alignment AL_S2_genotype_3 s2CompoundAligner
+compute alignment AL_S2_genotype_4 s2CompoundAligner
+compute alignment AL_S2_genotype_5 s2CompoundAligner
+compute alignment AL_S2_genotype_6 s2CompoundAligner
+compute alignment AL_S2_genotype_7 s2CompoundAligner
+compute alignment AL_S2_genotype_8 s2CompoundAligner
+compute alignment AL_S2_genotype_9 s2CompoundAligner
+compute alignment AL_S2_genotype_10 s2CompoundAligner
+compute alignment AL_S2_genotype_11 s2CompoundAligner
+compute alignment AL_S2_genotype_12 s2CompoundAligner
+compute alignment AL_S2_genotype_13 s2CompoundAligner
+compute alignment AL_S2_genotype_14 s2CompoundAligner
+compute alignment AL_S2_genotype_15 s2CompoundAligner
+compute alignment AL_S2_genotype_16 s2CompoundAligner
+compute alignment AL_S2_genotype_17 s2CompoundAligner
+compute alignment AL_S2_genotype_18 s2CompoundAligner
+compute alignment AL_S2_genotype_19 s2CompoundAligner
+compute alignment AL_S2_genotype_20 s2CompoundAligner
+compute alignment AL_S2_genotype_21 s2CompoundAligner
+compute alignment AL_S2_genotype_22 s2CompoundAligner
+compute alignment AL_S2_genotype_23 s2CompoundAligner
+compute alignment AL_S2_genotype_24 s2CompoundAligner
+compute alignment AL_S2_genotype_25 s2CompoundAligner
+compute alignment AL_S2_genotype_26 s2CompoundAligner
+compute alignment AL_S2_genotype_27 s2CompoundAligner
 ## commented out from the project build until they are published.
-## compute alignment AL_S2_serotype_28 s2CompoundAligner
+## compute alignment AL_S2_genotype_28 s2CompoundAligner
 
 
-compute alignment AL_S6_serotype_1 s6CompoundAligner
-compute alignment AL_S6_serotype_2 s6CompoundAligner
-compute alignment AL_S6_serotype_3 s6CompoundAligner
-compute alignment AL_S6_serotype_4 s6CompoundAligner
-compute alignment AL_S6_serotype_5 s6CompoundAligner
-compute alignment AL_S6_serotype_6 s6CompoundAligner
-compute alignment AL_S6_serotype_7 s6CompoundAligner
-compute alignment AL_S6_serotype_8 s6CompoundAligner
-compute alignment AL_S6_serotype_9 s6CompoundAligner
-compute alignment AL_S6_serotype_10 s6CompoundAligner
-compute alignment AL_S6_serotype_11 s6CompoundAligner
-compute alignment AL_S6_serotype_12 s6CompoundAligner
-compute alignment AL_S6_serotype_13 s6CompoundAligner
-compute alignment AL_S6_serotype_14 s6CompoundAligner
-compute alignment AL_S6_serotype_15 s6CompoundAligner
-compute alignment AL_S6_serotype_16 s6CompoundAligner
-compute alignment AL_S6_serotype_17 s6CompoundAligner
-compute alignment AL_S6_serotype_18 s6CompoundAligner
-compute alignment AL_S6_serotype_19 s6CompoundAligner
-compute alignment AL_S6_serotype_20 s6CompoundAligner
-compute alignment AL_S6_serotype_21 s6CompoundAligner
-compute alignment AL_S6_serotype_22 s6CompoundAligner
-compute alignment AL_S6_serotype_23 s6CompoundAligner
-compute alignment AL_S6_serotype_24 s6CompoundAligner
-compute alignment AL_S6_serotype_25 s6CompoundAligner
-compute alignment AL_S6_serotype_26 s6CompoundAligner
-compute alignment AL_S6_serotype_27 s6CompoundAligner
+compute alignment AL_S6_genotype_1 s6CompoundAligner
+compute alignment AL_S6_genotype_2 s6CompoundAligner
+compute alignment AL_S6_genotype_3 s6CompoundAligner
+compute alignment AL_S6_genotype_4 s6CompoundAligner
+compute alignment AL_S6_genotype_5 s6CompoundAligner
+compute alignment AL_S6_genotype_6 s6CompoundAligner
+compute alignment AL_S6_genotype_7 s6CompoundAligner
+compute alignment AL_S6_genotype_8 s6CompoundAligner
+compute alignment AL_S6_genotype_9 s6CompoundAligner
+compute alignment AL_S6_genotype_10 s6CompoundAligner
+compute alignment AL_S6_genotype_11 s6CompoundAligner
+compute alignment AL_S6_genotype_12 s6CompoundAligner
+compute alignment AL_S6_genotype_13 s6CompoundAligner
+compute alignment AL_S6_genotype_14 s6CompoundAligner
+compute alignment AL_S6_genotype_15 s6CompoundAligner
+compute alignment AL_S6_genotype_16 s6CompoundAligner
+compute alignment AL_S6_genotype_17 s6CompoundAligner
+compute alignment AL_S6_genotype_18 s6CompoundAligner
+compute alignment AL_S6_genotype_19 s6CompoundAligner
+compute alignment AL_S6_genotype_20 s6CompoundAligner
+compute alignment AL_S6_genotype_21 s6CompoundAligner
+compute alignment AL_S6_genotype_22 s6CompoundAligner
+compute alignment AL_S6_genotype_23 s6CompoundAligner
+compute alignment AL_S6_genotype_24 s6CompoundAligner
+compute alignment AL_S6_genotype_25 s6CompoundAligner
+compute alignment AL_S6_genotype_26 s6CompoundAligner
+compute alignment AL_S6_genotype_27 s6CompoundAligner
 ## commented out from the project build until they are published.
-## compute alignment AL_S6_serotype_28 s6CompoundAligner
+## compute alignment AL_S6_genotype_28 s6CompoundAligner
 

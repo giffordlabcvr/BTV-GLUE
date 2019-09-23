@@ -52,8 +52,8 @@
 <#if isolate ??>
 	<@elem tag="isolateID" expr="context.id" context=isolate/>
 	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>
-	<@elem tag="isolateSeg2Serotype" expr="context.seg2serotype" context=isolate/>
-	<@elem tag="isolateSeg6Serotype" expr="context.seg6serotype" context=isolate/>
+	<@elem tag="isolateSeg2Genotype" expr="context.seg2genotype" context=isolate/>
+	<@elem tag="isolateSeg6Genotype" expr="context.seg6genotype" context=isolate/>
 	<@elem tag="host" expr="context.host" context=isolate/>
 <#if isolate.who_country ??>
 	<@elem tag="collectionYear" expr="context.collection_year" context=isolate type="Integer"/>
@@ -79,5 +79,5 @@
 </#if>
 </#if>
 	<@elem tag="completeSegment" expr="complete_segment" type="Boolean"/>
-	<@elem tag="gbSerotype" expr="gb_serotype"/>
+	<@elem tag="gbGenotype" expr="gb_serotype"/>
 </sequence>

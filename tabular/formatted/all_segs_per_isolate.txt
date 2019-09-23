@@ -246,7 +246,7 @@ AUS1981/01		AJ585178				AJ631214						Australia	1981			field							20422575
 AUS1985/01			DQ186790								Bos taurus	Australia	1985			field	Northern Territories	blood	E1BHK4	Mammalian			19649272
 AUS1986/02			DQ186791								Bos taurus	Australia	1986			field	Northern Territories	blood	BHK2V1BHK1	Mammalian			19649272
 Australian 							L11724				Ovis ammon aries	Australia											8077943
-Australian serotype 1							M63417					Australia											1703371
+Australian genotype 1							M63417					Australia											1703371
 Avikanagar 1		AY559058					AM261976				Ovis aries	India				field	Avikanagar	blood	BHK?	Mammalian			19382719
 Avikanagar 2						EU443928						India	1994			field	Avikanagar-Rajasthan						UP
 Avikanagar/94/Ind		KF563930									Ovis aries	India				field	Avikanagar-Rajasthan	blood					25703157
@@ -261,7 +261,7 @@ BBF	JF443166	JF443167	JF443158	JF443159	JF443163	JF443160	JF443162	JF443164	JF44
 BH141/7										EU450662	Bos taurus	Germany				field		blood					UP
 Bhakhar/2011/Ind/Hisar		JQ904060									Ovis aries	India		FEB	20	field	Gujarat	blood	BHK?	Mammalian			UP
 BLU-17 198		AF017279	AF017281										1976			field	California						9612723
-Bluetongue vaccine monovalent serotype 2 Ondersterpoort, South Africa		AF481096					AF481095			AF481094		South Africa				Ondersterpoort							UP
+Bluetongue vaccine monovalent genotype 2 Ondersterpoort, South Africa		AF481096					AF481095			AF481094		South Africa				Ondersterpoort							UP
 BN96/16	JN671906	JN671907	JN671908	JN671909	JN671910	JN671911	JN671912	JN671913	JN671914	JN671915	Ovis aries	China	1996			field	Yunnan	blood					22106384
 BOS2002/01					AM778443						Ovis aries	Bosnia and Herzegovina	2002	AUG	14	field	Milici-Vlasenica-Srpska	blood	E1BHK3	Mammalian			UP
 BOS2002/02	KP820958	KP821078	KP821200	KP821320	KP821440	KP821560	KP821682	KP821802	KP821922	KP822043	Ovis aries	Bosnia and Herzegovina	2002	AUG	14	field	Milici-Vlasenica-Srpska	blood	E1BHK3	Mammalian			26252219
@@ -745,8 +745,8 @@ COR2004/01	KP820868	KP820988	KP821110	KP821230	KP821350	KP821470	KP821592	KP8217
 Corsica		AY839945					AY839949				Ovis aries	France	2003			field	Corsica						17280733
 Corsica								AY857499		AY857503	Ovis aries	France	2003			field	Corsica						17280733
 Corsican bluetongue virus	AY154458		AY124371	AY129085		AY129083	AY079124	AY124372	AY124373			France	2001			field	Corsica						UP
-Corsican bluetongue virus serotype 2 (2000)										AF481092	Ovis aries	France	2000			field	Corsica						UP
-Corsican bluetongue virus serotype 2 (2001)										AF481093	Ovis aries	France	2001			field	Corsica						UP
+Corsican bluetongue virus genotype 2 (2000)										AF481092	Ovis aries	France	2000			field	Corsica						UP
+Corsican bluetongue virus genotype 2 (2001)										AF481093	Ovis aries	France	2001			field	Corsica						UP
 Corsican strain 2000		AF356601					AF346302				Ovis aries	France	2000			field	Corsica						12036242
 CS156			AY322428						DQ289041		Bos taurus	Australia				field		blood	E?C6/36?BHK?	Mammalian			20422566
 CSIRO 154	JX272409	JX272410	JX272411	JX272412	JX272413	JX272414	JX272415	JX272416	JX272417	JX272418		South Africa											UP
@@ -1352,8 +1352,8 @@ SAD2010	KJ577114	KJ577115	KJ577116	KJ577117	KJ577118	KJ577119	KJ577120	KJ577121	
 SAD2012	KJ577094	KJ577095	KJ577096	KJ577097	KJ577098	KJ577099	KJ577100	KJ577101	KJ577102	KJ577103	Ovis aries	Italy	2012	OCT	23	field	Sardinia	blood	CPT-Tert2BSR1	Mammalian			25239524
 SER2001/01	KP820970	KP821090	KP821212	KP821332	KP821452	KP821572	KP821694	KP821814	KP821934	KP822055	Ovis aries	Serbia	2001	OCT	7	field		blood	E1BHK4	Mammalian			26252219
 SER2001/01		AJ585172				AJ586688						Serbia	2001			field							20422575
-serotype 1		X55800																					2171239
-serotype 3		X55801																					2171239
+genotype 1		X55800																					2171239
+genotype 3		X55801																					2171239
 SH/05			AB449046								Bos taurus	Japan				field	Tochigi	blood					UP
 sheep/08/Ind/ABT/Hisar	JQ904073	JQ904072	JQ904071	JQ904070	JQ904069	JQ904068	JQ904067	JQ904066	JQ904065	JQ904064	Ovis aries	India	2008			field		blood	BHK?	Mammalian			UP
 Sheep/2010/Ind/Hisar		JQ904061									Ovis aries	India		FEB		field	Tamil Nadu	blood	BHK?	Mammalian			UP

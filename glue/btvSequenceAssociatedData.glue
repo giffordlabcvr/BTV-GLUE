@@ -1,8 +1,8 @@
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
-  # populate gb_serotype: serotype as indicated in the GenBank record
-  module btvGenbankXmlSerotypePopulator populate -w "source.name = 'ncbi-curated'"
+  # populate gb_serotype: genotype as indicated in the GenBank record
+  module btvGenbankXmlGenotypePopulator populate -w "source.name = 'ncbi-curated'"
 
   # this adds gb_length and isolate_segment to the outgroup sequences
   module btvGenbankXmlReferencePopulator populate -w "source.name in ('ncbi-outgroup', 'ncbi-refseqs', 'ncbi-s2-refseqs')"
@@ -28,14 +28,14 @@
   # load isolate data / metadata. As a side effect, isolate_segment on sequence table is populated.
   run script glue/btvLoadIsolates.js
 
-  # populate recogniser_serotype: serotype as indicated by the BLAST-based recogniser
-  run script glue/btvPopulateRecogniserSerotype.js
+  # populate recogniser_genotype: genotype as indicated by the BLAST-based recogniser
+  run script glue/btvPopulateRecogniserGenotype.js
 
   # derive alt-names for isolates
   run script glue/btvSetIsolateAltNames.js
 
-  # set isolate serotypes from sequence serotypes
-  run script glue/btvSetIsolateSerotypes.js
+  # set isolate genotypes from sequence genotypes
+  run script glue/btvSetIsolateGenotypes.js
   
   # "complete segment" field on sequences
   run file glue/populateCompleteSegmentField.glue
