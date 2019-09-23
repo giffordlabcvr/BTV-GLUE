@@ -6,439 +6,439 @@
     <restrictSearchOrResults>
     </restrictSearchOrResults>
   </blastRunner>
-  <referenceSequence>REF_S2_St22_AJ585187</referenceSequence>
-  <referenceSequence>REF_S2_St22_AJ585143</referenceSequence>
-  <referenceSequence>REF_S2_St22_KX164140</referenceSequence>
-  <referenceSequence>REF_S2_St12_KT946761</referenceSequence>
-  <referenceSequence>REF_S2_St12_KX164080</referenceSequence>
-  <referenceSequence>REF_S2_St12_AB686216</referenceSequence>
-  <referenceSequence>REF_S2_St12_KC662613</referenceSequence>
-  <referenceSequence>REF_S2_St12_JX272500</referenceSequence>
-  <referenceSequence>REF_S2_Unclassified_NtJ_1_KP196604</referenceSequence>
-  <referenceSequence>REF_S2_St15A_JX272470</referenceSequence>
-  <referenceSequence>REF_S2_St15A_KP821098</referenceSequence>
-  <referenceSequence>REF_S2_St15B_JQ086222</referenceSequence>
-  <referenceSequence>REF_S2_St15B_MH346492</referenceSequence>
-  <referenceSequence>REF_S2_Unclassified_NtK_1_MF124283</referenceSequence>
-  <referenceSequence>REF_S2_Unclassified_NtK_2_KX695171</referenceSequence>
-  <referenceSequence>REF_S2_St26_HM590642</referenceSequence>
-  <referenceSequence>REF_S2_St25_EU839840</referenceSequence>
-  <referenceSequence>REF_S2_St27_KU760998</referenceSequence>
-  <referenceSequence>REF_S2_St27_KU760988</referenceSequence>
-  <referenceSequence>REF_S2_St27_KM200718</referenceSequence>
-  <referenceSequence>REF_S2_Unclassified_NtK_3_KR061882</referenceSequence>
-  <referenceSequence>REF_S2_Unclassified_NtK_4_KX234079</referenceSequence>
-  <referenceSequence>REF_S2_St11_KY471279</referenceSequence>
-  <referenceSequence>REF_S2_St11_JX272510</referenceSequence>
-  <referenceSequence>REF_S2_St11_KM580478</referenceSequence>
-  <referenceSequence>REF_S2_St11_JN003580</referenceSequence>
-  <referenceSequence>REF_S2_St11_KM580426</referenceSequence>
-  <referenceSequence>REF_S2_St10_JX272520</referenceSequence>
-  <referenceSequence>REF_S2_St10_U06784</referenceSequence>
-  <referenceSequence>REF_S2_St10_JQ740772</referenceSequence>
-  <referenceSequence>REF_S2_St10_KY092151</referenceSequence>
-  <referenceSequence>REF_S2_St10_HQ222821</referenceSequence>
-  <referenceSequence>REF_S2_St24_JN162682</referenceSequence>
-  <referenceSequence>REF_S2_St24_KC633277</referenceSequence>
-  <referenceSequence>REF_S2_St24_KX164150</referenceSequence>
-  <referenceSequence>REF_S2_St24_KT945049</referenceSequence>
-  <referenceSequence>REF_S2_St24_JX272370</referenceSequence>
-  <referenceSequence>REF_S2_St20_AJ585141</referenceSequence>
-  <referenceSequence>REF_S2_St20_JX272420</referenceSequence>
-  <referenceSequence>REF_S2_St4B_JX560414</referenceSequence>
-  <referenceSequence>REF_S2_St4B_KY947344</referenceSequence>
-  <referenceSequence>REF_S2_St4A_JX272580</referenceSequence>
-  <referenceSequence>REF_S2_St4A_JX024950</referenceSequence>
-  <referenceSequence>REF_S2_St4A_DQ191278</referenceSequence>
-  <referenceSequence>REF_S2_St4A_KP821055</referenceSequence>
-  <referenceSequence>REF_S2_St4A_KP821056</referenceSequence>
-  <referenceSequence>REF_S2_St4A_KP821068</referenceSequence>
-  <referenceSequence>REF_S2_St4A_KT317666</referenceSequence>
-  <referenceSequence>REF_S2_St17_KX599360</referenceSequence>
-  <referenceSequence>REF_S2_St17_M17438</referenceSequence>
-  <referenceSequence>REF_S2_St17_S72158</referenceSequence>
-  <referenceSequence>REF_S2_St17_HQ222825</referenceSequence>
-  <referenceSequence>REF_S2_St17_JX272450</referenceSequence>
-  <referenceSequence>REF_S2_St7_JQ086292</referenceSequence>
-  <referenceSequence>REF_S2_St7_JX272550</referenceSequence>
-  <referenceSequence>REF_S2_St7_KT945046</referenceSequence>
-  <referenceSequence>REF_S2_St19_KX164130</referenceSequence>
-  <referenceSequence>REF_S2_St19_JX272430</referenceSequence>
-  <referenceSequence>REF_S2_St9B_KP821080</referenceSequence>
-  <referenceSequence>REF_S2_St9B_JN255913</referenceSequence>
-  <referenceSequence>REF_S2_St9B_KP696652</referenceSequence>
-  <referenceSequence>REF_S2_St9B_MF384478</referenceSequence>
-  <referenceSequence>REF_S2_St9B_AB686223</referenceSequence>
-  <referenceSequence>REF_S2_St5_AJ585182</referenceSequence>
-  <referenceSequence>REF_S2_St5_HQ241072</referenceSequence>
-  <referenceSequence>REF_S2_St5_JX272570</referenceSequence>
-  <referenceSequence>REF_S2_St5_KT945045</referenceSequence>
-  <referenceSequence>REF_S2_St9A_KY092145</referenceSequence>
-  <referenceSequence>REF_S2_St9A_KP821089</referenceSequence>
-  <referenceSequence>REF_S2_St9A_JN255963</referenceSequence>
-  <referenceSequence>REF_S2_St9A_KP821087</referenceSequence>
-  <referenceSequence>REF_S2_St2B_AJ585152</referenceSequence>
-  <referenceSequence>REF_S2_St2B_AY493687</referenceSequence>
-  <referenceSequence>REF_S2_St2B_MF384475</referenceSequence>
-  <referenceSequence>REF_S2_St2A_HQ222820</referenceSequence>
-  <referenceSequence>REF_S2_St2A_AY855267</referenceSequence>
-  <referenceSequence>REF_S2_St2A_KF986501</referenceSequence>
-  <referenceSequence>REF_S2_St2A_HQ222824</referenceSequence>
-  <referenceSequence>REF_S2_St2A_AJ585161</referenceSequence>
-  <referenceSequence>REF_S2_St2A_AJ585155</referenceSequence>
-  <referenceSequence>REF_S2_St2A_JN255933</referenceSequence>
-  <referenceSequence>REF_S2_St2A_JX272600</referenceSequence>
-  <referenceSequence>REF_S2_St1A_X55800</referenceSequence>
-  <referenceSequence>REF_S2_St1A_JX680458</referenceSequence>
-  <referenceSequence>REF_S2_St1A_JX272380</referenceSequence>
-  <referenceSequence>REF_S2_St1A_KP821008</referenceSequence>
-  <referenceSequence>REF_S2_St1A_KP821021</referenceSequence>
-  <referenceSequence>REF_S2_St1A_KP821010</referenceSequence>
-  <referenceSequence>REF_S2_St1A_KY049854</referenceSequence>
-  <referenceSequence>REF_S2_St1A_KY092170</referenceSequence>
-  <referenceSequence>REF_S2_St1B_AJ585116</referenceSequence>
-  <referenceSequence>REF_S2_St1B_JN635334</referenceSequence>
-  <referenceSequence>REF_S2_St1B_AJ585112</referenceSequence>
-  <referenceSequence>REF_S2_St1B_KP696553</referenceSequence>
-  <referenceSequence>REF_S2_St1B_KM099523</referenceSequence>
-  <referenceSequence>REF_S2_St1B_MF384446</referenceSequence>
-  <referenceSequence>REF_S2_St1B_MF384464</referenceSequence>
-  <referenceSequence>REF_S2_St23_JX272400</referenceSequence>
-  <referenceSequence>REF_S2_St23_JQ771824</referenceSequence>
-  <referenceSequence>REF_S2_St23_L46685</referenceSequence>
-  <referenceSequence>REF_S2_St23_MF384502</referenceSequence>
-  <referenceSequence>REF_S2_St18_KX442585</referenceSequence>
-  <referenceSequence>REF_S2_St18_JX272440</referenceSequence>
-  <referenceSequence>REF_S2_St18_KX164120</referenceSequence>
-  <referenceSequence>REF_S2_St8_JX272540</referenceSequence>
-  <referenceSequence>REF_S2_St8_AJ585184</referenceSequence>
-  <referenceSequence>REF_S2_St8_AM498052</referenceSequence>
-  <referenceSequence>REF_S2_St8_KU569991</referenceSequence>
-  <referenceSequence>REF_S2_St21_AB686218</referenceSequence>
-  <referenceSequence>REF_S2_St21_JN613126</referenceSequence>
-  <referenceSequence>REF_S2_St21_JX272410</referenceSequence>
-  <referenceSequence>REF_S2_St21_MF384487</referenceSequence>
-  <referenceSequence>REF_S2_St21_MG206078</referenceSequence>
-  <referenceSequence>REF_S2_St14_AJ585186</referenceSequence>
-  <referenceSequence>REF_S2_St14_JX272480</referenceSequence>
-  <referenceSequence>REF_S2_St14_KY092147</referenceSequence>
-  <referenceSequence>REF_S2_St6_JX965385</referenceSequence>
-  <referenceSequence>REF_S2_St6_JX272560</referenceSequence>
-  <referenceSequence>REF_S2_St6_GQ506517</referenceSequence>
-  <referenceSequence>REF_S2_St3A_KY092166</referenceSequence>
-  <referenceSequence>REF_S2_St3A_KX164050</referenceSequence>
-  <referenceSequence>REF_S2_St3A_KY092159</referenceSequence>
-  <referenceSequence>REF_S2_St3A_JX272590</referenceSequence>
-  <referenceSequence>REF_S2_St3A_KY092169</referenceSequence>
-  <referenceSequence>REF_S2_St3B_AB686219</referenceSequence>
-  <referenceSequence>REF_S2_St3B_MF384477</referenceSequence>
-  <referenceSequence>REF_S2_St13_KX442584</referenceSequence>
-  <referenceSequence>REF_S2_St13_KX164100</referenceSequence>
-  <referenceSequence>REF_S2_St13_JQ436729</referenceSequence>
-  <referenceSequence>REF_S2_St13_JX272490</referenceSequence>
-  <referenceSequence>REF_S2_St16B_AB686217</referenceSequence>
-  <referenceSequence>REF_S2_St16B_JQ086232</referenceSequence>
-  <referenceSequence>REF_S2_St16B_JX272460</referenceSequence>
-  <referenceSequence>REF_S2_St16B_AB686221</referenceSequence>
-  <referenceSequence>REF_S2_St16B_JN572917</referenceSequence>
-  <referenceSequence>REF_S2_St16B_KP339205</referenceSequence>
-  <referenceSequence>REF_S2_St16B_AJ585147</referenceSequence>
-  <referenceSequence>REF_S2_St16B_AB686214</referenceSequence>
-  <referenceSequence>REF_S2_St16A_AJ585150</referenceSequence>
+  <referenceSequence>REF_S2_Gt22_AJ585187</referenceSequence>
+  <referenceSequence>REF_S2_Gt22_AJ585143</referenceSequence>
+  <referenceSequence>REF_S2_Gt22_KX164140</referenceSequence>
+  <referenceSequence>REF_S2_Gt12_KT946761</referenceSequence>
+  <referenceSequence>REF_S2_Gt12_KX164080</referenceSequence>
+  <referenceSequence>REF_S2_Gt12_AB686216</referenceSequence>
+  <referenceSequence>REF_S2_Gt12_KC662613</referenceSequence>
+  <referenceSequence>REF_S2_Gt12_JX272500</referenceSequence>
+  <referenceSequence>REF_S2_Unclassified_GGrJ_1_KP196604</referenceSequence>
+  <referenceSequence>REF_S2_Gt15A_JX272470</referenceSequence>
+  <referenceSequence>REF_S2_Gt15A_KP821098</referenceSequence>
+  <referenceSequence>REF_S2_Gt15B_JQ086222</referenceSequence>
+  <referenceSequence>REF_S2_Gt15B_MH346492</referenceSequence>
+  <referenceSequence>REF_S2_Unclassified_GGrK_1_MF124283</referenceSequence>
+  <referenceSequence>REF_S2_Unclassified_GGrK_2_KX695171</referenceSequence>
+  <referenceSequence>REF_S2_Gt26_HM590642</referenceSequence>
+  <referenceSequence>REF_S2_Gt25_EU839840</referenceSequence>
+  <referenceSequence>REF_S2_Gt27_KU760998</referenceSequence>
+  <referenceSequence>REF_S2_Gt27_KU760988</referenceSequence>
+  <referenceSequence>REF_S2_Gt27_KM200718</referenceSequence>
+  <referenceSequence>REF_S2_Unclassified_GGrK_3_KR061882</referenceSequence>
+  <referenceSequence>REF_S2_Unclassified_GGrK_4_KX234079</referenceSequence>
+  <referenceSequence>REF_S2_Gt11_KY471279</referenceSequence>
+  <referenceSequence>REF_S2_Gt11_JX272510</referenceSequence>
+  <referenceSequence>REF_S2_Gt11_KM580478</referenceSequence>
+  <referenceSequence>REF_S2_Gt11_JN003580</referenceSequence>
+  <referenceSequence>REF_S2_Gt11_KM580426</referenceSequence>
+  <referenceSequence>REF_S2_Gt10_JX272520</referenceSequence>
+  <referenceSequence>REF_S2_Gt10_U06784</referenceSequence>
+  <referenceSequence>REF_S2_Gt10_JQ740772</referenceSequence>
+  <referenceSequence>REF_S2_Gt10_KY092151</referenceSequence>
+  <referenceSequence>REF_S2_Gt10_HQ222821</referenceSequence>
+  <referenceSequence>REF_S2_Gt24_JN162682</referenceSequence>
+  <referenceSequence>REF_S2_Gt24_KC633277</referenceSequence>
+  <referenceSequence>REF_S2_Gt24_KX164150</referenceSequence>
+  <referenceSequence>REF_S2_Gt24_KT945049</referenceSequence>
+  <referenceSequence>REF_S2_Gt24_JX272370</referenceSequence>
+  <referenceSequence>REF_S2_Gt20_AJ585141</referenceSequence>
+  <referenceSequence>REF_S2_Gt20_JX272420</referenceSequence>
+  <referenceSequence>REF_S2_Gt4B_JX560414</referenceSequence>
+  <referenceSequence>REF_S2_Gt4B_KY947344</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_JX272580</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_JX024950</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_DQ191278</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_KP821055</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_KP821056</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_KP821068</referenceSequence>
+  <referenceSequence>REF_S2_Gt4A_KT317666</referenceSequence>
+  <referenceSequence>REF_S2_Gt17_KX599360</referenceSequence>
+  <referenceSequence>REF_S2_Gt17_M17438</referenceSequence>
+  <referenceSequence>REF_S2_Gt17_S72158</referenceSequence>
+  <referenceSequence>REF_S2_Gt17_HQ222825</referenceSequence>
+  <referenceSequence>REF_S2_Gt17_JX272450</referenceSequence>
+  <referenceSequence>REF_S2_Gt7_JQ086292</referenceSequence>
+  <referenceSequence>REF_S2_Gt7_JX272550</referenceSequence>
+  <referenceSequence>REF_S2_Gt7_KT945046</referenceSequence>
+  <referenceSequence>REF_S2_Gt19_KX164130</referenceSequence>
+  <referenceSequence>REF_S2_Gt19_JX272430</referenceSequence>
+  <referenceSequence>REF_S2_Gt9B_KP821080</referenceSequence>
+  <referenceSequence>REF_S2_Gt9B_JN255913</referenceSequence>
+  <referenceSequence>REF_S2_Gt9B_KP696652</referenceSequence>
+  <referenceSequence>REF_S2_Gt9B_MF384478</referenceSequence>
+  <referenceSequence>REF_S2_Gt9B_AB686223</referenceSequence>
+  <referenceSequence>REF_S2_Gt5_AJ585182</referenceSequence>
+  <referenceSequence>REF_S2_Gt5_HQ241072</referenceSequence>
+  <referenceSequence>REF_S2_Gt5_JX272570</referenceSequence>
+  <referenceSequence>REF_S2_Gt5_KT945045</referenceSequence>
+  <referenceSequence>REF_S2_Gt9A_KY092145</referenceSequence>
+  <referenceSequence>REF_S2_Gt9A_KP821089</referenceSequence>
+  <referenceSequence>REF_S2_Gt9A_JN255963</referenceSequence>
+  <referenceSequence>REF_S2_Gt9A_KP821087</referenceSequence>
+  <referenceSequence>REF_S2_Gt2B_AJ585152</referenceSequence>
+  <referenceSequence>REF_S2_Gt2B_AY493687</referenceSequence>
+  <referenceSequence>REF_S2_Gt2B_MF384475</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_HQ222820</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_AY855267</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_KF986501</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_HQ222824</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_AJ585161</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_AJ585155</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_JN255933</referenceSequence>
+  <referenceSequence>REF_S2_Gt2A_JX272600</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_X55800</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_JX680458</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_JX272380</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_KP821008</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_KP821021</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_KP821010</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_KY049854</referenceSequence>
+  <referenceSequence>REF_S2_Gt1A_KY092170</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_AJ585116</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_JN635334</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_AJ585112</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_KP696553</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_KM099523</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_MF384446</referenceSequence>
+  <referenceSequence>REF_S2_Gt1B_MF384464</referenceSequence>
+  <referenceSequence>REF_S2_Gt23_JX272400</referenceSequence>
+  <referenceSequence>REF_S2_Gt23_JQ771824</referenceSequence>
+  <referenceSequence>REF_S2_Gt23_L46685</referenceSequence>
+  <referenceSequence>REF_S2_Gt23_MF384502</referenceSequence>
+  <referenceSequence>REF_S2_Gt18_KX442585</referenceSequence>
+  <referenceSequence>REF_S2_Gt18_JX272440</referenceSequence>
+  <referenceSequence>REF_S2_Gt18_KX164120</referenceSequence>
+  <referenceSequence>REF_S2_Gt8_JX272540</referenceSequence>
+  <referenceSequence>REF_S2_Gt8_AJ585184</referenceSequence>
+  <referenceSequence>REF_S2_Gt8_AM498052</referenceSequence>
+  <referenceSequence>REF_S2_Gt8_KU569991</referenceSequence>
+  <referenceSequence>REF_S2_Gt21_AB686218</referenceSequence>
+  <referenceSequence>REF_S2_Gt21_JN613126</referenceSequence>
+  <referenceSequence>REF_S2_Gt21_JX272410</referenceSequence>
+  <referenceSequence>REF_S2_Gt21_MF384487</referenceSequence>
+  <referenceSequence>REF_S2_Gt21_MG206078</referenceSequence>
+  <referenceSequence>REF_S2_Gt14_AJ585186</referenceSequence>
+  <referenceSequence>REF_S2_Gt14_JX272480</referenceSequence>
+  <referenceSequence>REF_S2_Gt14_KY092147</referenceSequence>
+  <referenceSequence>REF_S2_Gt6_JX965385</referenceSequence>
+  <referenceSequence>REF_S2_Gt6_JX272560</referenceSequence>
+  <referenceSequence>REF_S2_Gt6_GQ506517</referenceSequence>
+  <referenceSequence>REF_S2_Gt3A_KY092166</referenceSequence>
+  <referenceSequence>REF_S2_Gt3A_KX164050</referenceSequence>
+  <referenceSequence>REF_S2_Gt3A_KY092159</referenceSequence>
+  <referenceSequence>REF_S2_Gt3A_JX272590</referenceSequence>
+  <referenceSequence>REF_S2_Gt3A_KY092169</referenceSequence>
+  <referenceSequence>REF_S2_Gt3B_AB686219</referenceSequence>
+  <referenceSequence>REF_S2_Gt3B_MF384477</referenceSequence>
+  <referenceSequence>REF_S2_Gt13_KX442584</referenceSequence>
+  <referenceSequence>REF_S2_Gt13_KX164100</referenceSequence>
+  <referenceSequence>REF_S2_Gt13_JQ436729</referenceSequence>
+  <referenceSequence>REF_S2_Gt13_JX272490</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_AB686217</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_JQ086232</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_JX272460</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_AB686221</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_JN572917</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_KP339205</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_AJ585147</referenceSequence>
+  <referenceSequence>REF_S2_Gt16B_AB686214</referenceSequence>
+  <referenceSequence>REF_S2_Gt16A_AJ585150</referenceSequence>
   <recognitionCategory>
-    <id>S2_St22</id>
+    <id>S2_Gt22</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St22_AJ585187</referenceSequence>
-    <referenceSequence>REF_S2_St22_AJ585143</referenceSequence>
-    <referenceSequence>REF_S2_St22_KX164140</referenceSequence>
+    <referenceSequence>REF_S2_Gt22_AJ585187</referenceSequence>
+    <referenceSequence>REF_S2_Gt22_AJ585143</referenceSequence>
+    <referenceSequence>REF_S2_Gt22_KX164140</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St12</id>
+    <id>S2_Gt12</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St12_KT946761</referenceSequence>
-    <referenceSequence>REF_S2_St12_KX164080</referenceSequence>
-    <referenceSequence>REF_S2_St12_AB686216</referenceSequence>
-    <referenceSequence>REF_S2_St12_KC662613</referenceSequence>
-    <referenceSequence>REF_S2_St12_JX272500</referenceSequence>
+    <referenceSequence>REF_S2_Gt12_KT946761</referenceSequence>
+    <referenceSequence>REF_S2_Gt12_KX164080</referenceSequence>
+    <referenceSequence>REF_S2_Gt12_AB686216</referenceSequence>
+    <referenceSequence>REF_S2_Gt12_KC662613</referenceSequence>
+    <referenceSequence>REF_S2_Gt12_JX272500</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_Unclassified_NtJ_1</id>
+    <id>S2_Unclassified_GGrJ_1</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_Unclassified_NtJ_1_KP196604</referenceSequence>
+    <referenceSequence>REF_S2_Unclassified_GGrJ_1_KP196604</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St15A</id>
+    <id>S2_Gt15A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St15A_JX272470</referenceSequence>
-    <referenceSequence>REF_S2_St15A_KP821098</referenceSequence>
+    <referenceSequence>REF_S2_Gt15A_JX272470</referenceSequence>
+    <referenceSequence>REF_S2_Gt15A_KP821098</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St15B</id>
+    <id>S2_Gt15B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St15B_JQ086222</referenceSequence>
-    <referenceSequence>REF_S2_St15B_MH346492</referenceSequence>
+    <referenceSequence>REF_S2_Gt15B_JQ086222</referenceSequence>
+    <referenceSequence>REF_S2_Gt15B_MH346492</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_Unclassified_NtK_1</id>
+    <id>S2_Unclassified_GGrK_1</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_Unclassified_NtK_1_MF124283</referenceSequence>
+    <referenceSequence>REF_S2_Unclassified_GGrK_1_MF124283</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_Unclassified_NtK_2</id>
+    <id>S2_Unclassified_GGrK_2</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_Unclassified_NtK_2_KX695171</referenceSequence>
+    <referenceSequence>REF_S2_Unclassified_GGrK_2_KX695171</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St26</id>
+    <id>S2_Gt26</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St26_HM590642</referenceSequence>
+    <referenceSequence>REF_S2_Gt26_HM590642</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St25</id>
+    <id>S2_Gt25</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St25_EU839840</referenceSequence>
+    <referenceSequence>REF_S2_Gt25_EU839840</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St27</id>
+    <id>S2_Gt27</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St27_KU760998</referenceSequence>
-    <referenceSequence>REF_S2_St27_KU760988</referenceSequence>
-    <referenceSequence>REF_S2_St27_KM200718</referenceSequence>
+    <referenceSequence>REF_S2_Gt27_KU760998</referenceSequence>
+    <referenceSequence>REF_S2_Gt27_KU760988</referenceSequence>
+    <referenceSequence>REF_S2_Gt27_KM200718</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_Unclassified_NtK_3</id>
+    <id>S2_Unclassified_GGrK_3</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_Unclassified_NtK_3_KR061882</referenceSequence>
+    <referenceSequence>REF_S2_Unclassified_GGrK_3_KR061882</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_Unclassified_NtK_4</id>
+    <id>S2_Unclassified_GGrK_4</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_Unclassified_NtK_4_KX234079</referenceSequence>
+    <referenceSequence>REF_S2_Unclassified_GGrK_4_KX234079</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St11</id>
+    <id>S2_Gt11</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St11_KY471279</referenceSequence>
-    <referenceSequence>REF_S2_St11_JX272510</referenceSequence>
-    <referenceSequence>REF_S2_St11_KM580478</referenceSequence>
-    <referenceSequence>REF_S2_St11_JN003580</referenceSequence>
-    <referenceSequence>REF_S2_St11_KM580426</referenceSequence>
+    <referenceSequence>REF_S2_Gt11_KY471279</referenceSequence>
+    <referenceSequence>REF_S2_Gt11_JX272510</referenceSequence>
+    <referenceSequence>REF_S2_Gt11_KM580478</referenceSequence>
+    <referenceSequence>REF_S2_Gt11_JN003580</referenceSequence>
+    <referenceSequence>REF_S2_Gt11_KM580426</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St10</id>
+    <id>S2_Gt10</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St10_JX272520</referenceSequence>
-    <referenceSequence>REF_S2_St10_U06784</referenceSequence>
-    <referenceSequence>REF_S2_St10_JQ740772</referenceSequence>
-    <referenceSequence>REF_S2_St10_KY092151</referenceSequence>
-    <referenceSequence>REF_S2_St10_HQ222821</referenceSequence>
+    <referenceSequence>REF_S2_Gt10_JX272520</referenceSequence>
+    <referenceSequence>REF_S2_Gt10_U06784</referenceSequence>
+    <referenceSequence>REF_S2_Gt10_JQ740772</referenceSequence>
+    <referenceSequence>REF_S2_Gt10_KY092151</referenceSequence>
+    <referenceSequence>REF_S2_Gt10_HQ222821</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St24</id>
+    <id>S2_Gt24</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St24_JN162682</referenceSequence>
-    <referenceSequence>REF_S2_St24_KC633277</referenceSequence>
-    <referenceSequence>REF_S2_St24_KX164150</referenceSequence>
-    <referenceSequence>REF_S2_St24_KT945049</referenceSequence>
-    <referenceSequence>REF_S2_St24_JX272370</referenceSequence>
+    <referenceSequence>REF_S2_Gt24_JN162682</referenceSequence>
+    <referenceSequence>REF_S2_Gt24_KC633277</referenceSequence>
+    <referenceSequence>REF_S2_Gt24_KX164150</referenceSequence>
+    <referenceSequence>REF_S2_Gt24_KT945049</referenceSequence>
+    <referenceSequence>REF_S2_Gt24_JX272370</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St20</id>
+    <id>S2_Gt20</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St20_AJ585141</referenceSequence>
-    <referenceSequence>REF_S2_St20_JX272420</referenceSequence>
+    <referenceSequence>REF_S2_Gt20_AJ585141</referenceSequence>
+    <referenceSequence>REF_S2_Gt20_JX272420</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St4B</id>
+    <id>S2_Gt4B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St4B_JX560414</referenceSequence>
-    <referenceSequence>REF_S2_St4B_KY947344</referenceSequence>
+    <referenceSequence>REF_S2_Gt4B_JX560414</referenceSequence>
+    <referenceSequence>REF_S2_Gt4B_KY947344</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St4A</id>
+    <id>S2_Gt4A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St4A_JX272580</referenceSequence>
-    <referenceSequence>REF_S2_St4A_JX024950</referenceSequence>
-    <referenceSequence>REF_S2_St4A_DQ191278</referenceSequence>
-    <referenceSequence>REF_S2_St4A_KP821055</referenceSequence>
-    <referenceSequence>REF_S2_St4A_KP821056</referenceSequence>
-    <referenceSequence>REF_S2_St4A_KP821068</referenceSequence>
-    <referenceSequence>REF_S2_St4A_KT317666</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_JX272580</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_JX024950</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_DQ191278</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_KP821055</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_KP821056</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_KP821068</referenceSequence>
+    <referenceSequence>REF_S2_Gt4A_KT317666</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St17</id>
+    <id>S2_Gt17</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St17_KX599360</referenceSequence>
-    <referenceSequence>REF_S2_St17_M17438</referenceSequence>
-    <referenceSequence>REF_S2_St17_S72158</referenceSequence>
-    <referenceSequence>REF_S2_St17_HQ222825</referenceSequence>
-    <referenceSequence>REF_S2_St17_JX272450</referenceSequence>
+    <referenceSequence>REF_S2_Gt17_KX599360</referenceSequence>
+    <referenceSequence>REF_S2_Gt17_M17438</referenceSequence>
+    <referenceSequence>REF_S2_Gt17_S72158</referenceSequence>
+    <referenceSequence>REF_S2_Gt17_HQ222825</referenceSequence>
+    <referenceSequence>REF_S2_Gt17_JX272450</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St7</id>
+    <id>S2_Gt7</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St7_JQ086292</referenceSequence>
-    <referenceSequence>REF_S2_St7_JX272550</referenceSequence>
-    <referenceSequence>REF_S2_St7_KT945046</referenceSequence>
+    <referenceSequence>REF_S2_Gt7_JQ086292</referenceSequence>
+    <referenceSequence>REF_S2_Gt7_JX272550</referenceSequence>
+    <referenceSequence>REF_S2_Gt7_KT945046</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St19</id>
+    <id>S2_Gt19</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St19_KX164130</referenceSequence>
-    <referenceSequence>REF_S2_St19_JX272430</referenceSequence>
+    <referenceSequence>REF_S2_Gt19_KX164130</referenceSequence>
+    <referenceSequence>REF_S2_Gt19_JX272430</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St9B</id>
+    <id>S2_Gt9B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St9B_KP821080</referenceSequence>
-    <referenceSequence>REF_S2_St9B_JN255913</referenceSequence>
-    <referenceSequence>REF_S2_St9B_KP696652</referenceSequence>
-    <referenceSequence>REF_S2_St9B_MF384478</referenceSequence>
-    <referenceSequence>REF_S2_St9B_AB686223</referenceSequence>
+    <referenceSequence>REF_S2_Gt9B_KP821080</referenceSequence>
+    <referenceSequence>REF_S2_Gt9B_JN255913</referenceSequence>
+    <referenceSequence>REF_S2_Gt9B_KP696652</referenceSequence>
+    <referenceSequence>REF_S2_Gt9B_MF384478</referenceSequence>
+    <referenceSequence>REF_S2_Gt9B_AB686223</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St5</id>
+    <id>S2_Gt5</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St5_AJ585182</referenceSequence>
-    <referenceSequence>REF_S2_St5_HQ241072</referenceSequence>
-    <referenceSequence>REF_S2_St5_JX272570</referenceSequence>
-    <referenceSequence>REF_S2_St5_KT945045</referenceSequence>
+    <referenceSequence>REF_S2_Gt5_AJ585182</referenceSequence>
+    <referenceSequence>REF_S2_Gt5_HQ241072</referenceSequence>
+    <referenceSequence>REF_S2_Gt5_JX272570</referenceSequence>
+    <referenceSequence>REF_S2_Gt5_KT945045</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St9A</id>
+    <id>S2_Gt9A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St9A_KY092145</referenceSequence>
-    <referenceSequence>REF_S2_St9A_KP821089</referenceSequence>
-    <referenceSequence>REF_S2_St9A_JN255963</referenceSequence>
-    <referenceSequence>REF_S2_St9A_KP821087</referenceSequence>
+    <referenceSequence>REF_S2_Gt9A_KY092145</referenceSequence>
+    <referenceSequence>REF_S2_Gt9A_KP821089</referenceSequence>
+    <referenceSequence>REF_S2_Gt9A_JN255963</referenceSequence>
+    <referenceSequence>REF_S2_Gt9A_KP821087</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St2B</id>
+    <id>S2_Gt2B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St2B_AJ585152</referenceSequence>
-    <referenceSequence>REF_S2_St2B_AY493687</referenceSequence>
-    <referenceSequence>REF_S2_St2B_MF384475</referenceSequence>
+    <referenceSequence>REF_S2_Gt2B_AJ585152</referenceSequence>
+    <referenceSequence>REF_S2_Gt2B_AY493687</referenceSequence>
+    <referenceSequence>REF_S2_Gt2B_MF384475</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St2A</id>
+    <id>S2_Gt2A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St2A_HQ222820</referenceSequence>
-    <referenceSequence>REF_S2_St2A_AY855267</referenceSequence>
-    <referenceSequence>REF_S2_St2A_KF986501</referenceSequence>
-    <referenceSequence>REF_S2_St2A_HQ222824</referenceSequence>
-    <referenceSequence>REF_S2_St2A_AJ585161</referenceSequence>
-    <referenceSequence>REF_S2_St2A_AJ585155</referenceSequence>
-    <referenceSequence>REF_S2_St2A_JN255933</referenceSequence>
-    <referenceSequence>REF_S2_St2A_JX272600</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_HQ222820</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_AY855267</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_KF986501</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_HQ222824</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_AJ585161</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_AJ585155</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_JN255933</referenceSequence>
+    <referenceSequence>REF_S2_Gt2A_JX272600</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St1A</id>
+    <id>S2_Gt1A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St1A_X55800</referenceSequence>
-    <referenceSequence>REF_S2_St1A_JX680458</referenceSequence>
-    <referenceSequence>REF_S2_St1A_JX272380</referenceSequence>
-    <referenceSequence>REF_S2_St1A_KP821008</referenceSequence>
-    <referenceSequence>REF_S2_St1A_KP821021</referenceSequence>
-    <referenceSequence>REF_S2_St1A_KP821010</referenceSequence>
-    <referenceSequence>REF_S2_St1A_KY049854</referenceSequence>
-    <referenceSequence>REF_S2_St1A_KY092170</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_X55800</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_JX680458</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_JX272380</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_KP821008</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_KP821021</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_KP821010</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_KY049854</referenceSequence>
+    <referenceSequence>REF_S2_Gt1A_KY092170</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St1B</id>
+    <id>S2_Gt1B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St1B_AJ585116</referenceSequence>
-    <referenceSequence>REF_S2_St1B_JN635334</referenceSequence>
-    <referenceSequence>REF_S2_St1B_AJ585112</referenceSequence>
-    <referenceSequence>REF_S2_St1B_KP696553</referenceSequence>
-    <referenceSequence>REF_S2_St1B_KM099523</referenceSequence>
-    <referenceSequence>REF_S2_St1B_MF384446</referenceSequence>
-    <referenceSequence>REF_S2_St1B_MF384464</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_AJ585116</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_JN635334</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_AJ585112</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_KP696553</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_KM099523</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_MF384446</referenceSequence>
+    <referenceSequence>REF_S2_Gt1B_MF384464</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St23</id>
+    <id>S2_Gt23</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St23_JX272400</referenceSequence>
-    <referenceSequence>REF_S2_St23_JQ771824</referenceSequence>
-    <referenceSequence>REF_S2_St23_L46685</referenceSequence>
-    <referenceSequence>REF_S2_St23_MF384502</referenceSequence>
+    <referenceSequence>REF_S2_Gt23_JX272400</referenceSequence>
+    <referenceSequence>REF_S2_Gt23_JQ771824</referenceSequence>
+    <referenceSequence>REF_S2_Gt23_L46685</referenceSequence>
+    <referenceSequence>REF_S2_Gt23_MF384502</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St18</id>
+    <id>S2_Gt18</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St18_KX442585</referenceSequence>
-    <referenceSequence>REF_S2_St18_JX272440</referenceSequence>
-    <referenceSequence>REF_S2_St18_KX164120</referenceSequence>
+    <referenceSequence>REF_S2_Gt18_KX442585</referenceSequence>
+    <referenceSequence>REF_S2_Gt18_JX272440</referenceSequence>
+    <referenceSequence>REF_S2_Gt18_KX164120</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St8</id>
+    <id>S2_Gt8</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St8_JX272540</referenceSequence>
-    <referenceSequence>REF_S2_St8_AJ585184</referenceSequence>
-    <referenceSequence>REF_S2_St8_AM498052</referenceSequence>
-    <referenceSequence>REF_S2_St8_KU569991</referenceSequence>
+    <referenceSequence>REF_S2_Gt8_JX272540</referenceSequence>
+    <referenceSequence>REF_S2_Gt8_AJ585184</referenceSequence>
+    <referenceSequence>REF_S2_Gt8_AM498052</referenceSequence>
+    <referenceSequence>REF_S2_Gt8_KU569991</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St21</id>
+    <id>S2_Gt21</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St21_AB686218</referenceSequence>
-    <referenceSequence>REF_S2_St21_JN613126</referenceSequence>
-    <referenceSequence>REF_S2_St21_JX272410</referenceSequence>
-    <referenceSequence>REF_S2_St21_MF384487</referenceSequence>
-    <referenceSequence>REF_S2_St21_MG206078</referenceSequence>
+    <referenceSequence>REF_S2_Gt21_AB686218</referenceSequence>
+    <referenceSequence>REF_S2_Gt21_JN613126</referenceSequence>
+    <referenceSequence>REF_S2_Gt21_JX272410</referenceSequence>
+    <referenceSequence>REF_S2_Gt21_MF384487</referenceSequence>
+    <referenceSequence>REF_S2_Gt21_MG206078</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St14</id>
+    <id>S2_Gt14</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St14_AJ585186</referenceSequence>
-    <referenceSequence>REF_S2_St14_JX272480</referenceSequence>
-    <referenceSequence>REF_S2_St14_KY092147</referenceSequence>
+    <referenceSequence>REF_S2_Gt14_AJ585186</referenceSequence>
+    <referenceSequence>REF_S2_Gt14_JX272480</referenceSequence>
+    <referenceSequence>REF_S2_Gt14_KY092147</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St6</id>
+    <id>S2_Gt6</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St6_JX965385</referenceSequence>
-    <referenceSequence>REF_S2_St6_JX272560</referenceSequence>
-    <referenceSequence>REF_S2_St6_GQ506517</referenceSequence>
+    <referenceSequence>REF_S2_Gt6_JX965385</referenceSequence>
+    <referenceSequence>REF_S2_Gt6_JX272560</referenceSequence>
+    <referenceSequence>REF_S2_Gt6_GQ506517</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St3A</id>
+    <id>S2_Gt3A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St3A_KY092166</referenceSequence>
-    <referenceSequence>REF_S2_St3A_KX164050</referenceSequence>
-    <referenceSequence>REF_S2_St3A_KY092159</referenceSequence>
-    <referenceSequence>REF_S2_St3A_JX272590</referenceSequence>
-    <referenceSequence>REF_S2_St3A_KY092169</referenceSequence>
+    <referenceSequence>REF_S2_Gt3A_KY092166</referenceSequence>
+    <referenceSequence>REF_S2_Gt3A_KX164050</referenceSequence>
+    <referenceSequence>REF_S2_Gt3A_KY092159</referenceSequence>
+    <referenceSequence>REF_S2_Gt3A_JX272590</referenceSequence>
+    <referenceSequence>REF_S2_Gt3A_KY092169</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St3B</id>
+    <id>S2_Gt3B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St3B_AB686219</referenceSequence>
-    <referenceSequence>REF_S2_St3B_MF384477</referenceSequence>
+    <referenceSequence>REF_S2_Gt3B_AB686219</referenceSequence>
+    <referenceSequence>REF_S2_Gt3B_MF384477</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St13</id>
+    <id>S2_Gt13</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St13_KX442584</referenceSequence>
-    <referenceSequence>REF_S2_St13_KX164100</referenceSequence>
-    <referenceSequence>REF_S2_St13_JQ436729</referenceSequence>
-    <referenceSequence>REF_S2_St13_JX272490</referenceSequence>
+    <referenceSequence>REF_S2_Gt13_KX442584</referenceSequence>
+    <referenceSequence>REF_S2_Gt13_KX164100</referenceSequence>
+    <referenceSequence>REF_S2_Gt13_JQ436729</referenceSequence>
+    <referenceSequence>REF_S2_Gt13_JX272490</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St16B</id>
+    <id>S2_Gt16B</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St16B_AB686217</referenceSequence>
-    <referenceSequence>REF_S2_St16B_JQ086232</referenceSequence>
-    <referenceSequence>REF_S2_St16B_JX272460</referenceSequence>
-    <referenceSequence>REF_S2_St16B_AB686221</referenceSequence>
-    <referenceSequence>REF_S2_St16B_JN572917</referenceSequence>
-    <referenceSequence>REF_S2_St16B_KP339205</referenceSequence>
-    <referenceSequence>REF_S2_St16B_AJ585147</referenceSequence>
-    <referenceSequence>REF_S2_St16B_AB686214</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_AB686217</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_JQ086232</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_JX272460</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_AB686221</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_JN572917</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_KP339205</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_AJ585147</referenceSequence>
+    <referenceSequence>REF_S2_Gt16B_AB686214</referenceSequence>
   </recognitionCategory>
   <recognitionCategory>
-    <id>S2_St16A</id>
+    <id>S2_Gt16A</id>
     <minimumBitScore>100</minimumBitScore>
-    <referenceSequence>REF_S2_St16A_AJ585150</referenceSequence>
+    <referenceSequence>REF_S2_Gt16A_AJ585150</referenceSequence>
   </recognitionCategory>
   <!-- if one category result has an HSP with a bit score more than 100 higher than the highest bit score in a second category result, 
        the second category result is discarded -->

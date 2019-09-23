@@ -4,13 +4,13 @@
   "cladeCategory": "species",
   "constrainingRef": { "sequenceID": "JX680458" },
   "childAlignments": [
-    { "alignmentName": "AL_S2_NtG",
+    { "alignmentName": "AL_S2_GGrG",
       "almtDisplayName": "Genogroup G",
       "alphaSortKey": "G",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "AJ585187" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St22", "almtDisplayName": "Genotype 22",
+	  { "alignmentName": "AL_S2_Gt22", "almtDisplayName": "Genotype 22",
 	    "numericSortKey": "22",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "AJ585187" },
@@ -19,7 +19,7 @@
 	      { "sequenceID": "AJ585143" },
 	      { "sequenceID": "KX164140" }
 	  ]},
-	  { "alignmentName": "AL_S2_St12", "almtDisplayName": "Genotype 12",
+	  { "alignmentName": "AL_S2_Gt12", "almtDisplayName": "Genotype 12",
 	    "numericSortKey": "12",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KX164080" },
@@ -31,13 +31,13 @@
 	      { "sequenceID": "JX272500" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtJ",
+    { "alignmentName": "AL_S2_GGrJ",
       "almtDisplayName": "Genogroup J",
       "alphaSortKey": "J",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "KP196604" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_Unclassified_NtJ_1", "almtDisplayName": "Unclassified Genogroup J (KP196604)",
+	  { "alignmentName": "AL_S2_Unclassified_GGrJ_1", "almtDisplayName": "Unclassified Genogroup J (KP196604)",
 	    "numericSortKey": "999",
 	    "alphaSortKey": "KP196604",
 	    "cladeCategory": "genotype",
@@ -45,7 +45,7 @@
 	    "referenceSequences": [
 	      { "sequenceID": "KP196604" }
 	  ]},
-	  { "alignmentName": "AL_S2_St15A", "almtDisplayName": "Genotype 15A",
+	  { "alignmentName": "AL_S2_Gt15A", "almtDisplayName": "Genotype 15A",
 	    "numericSortKey": "15",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -54,7 +54,7 @@
 	      { "sequenceID": "JX272470" },
 	      { "sequenceID": "KP821098" }
 	  ]},
-	  { "alignmentName": "AL_S2_St15B", "almtDisplayName": "Genotype 15B",
+	  { "alignmentName": "AL_S2_Gt15B", "almtDisplayName": "Genotype 15B",
 	    "numericSortKey": "15",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -64,13 +64,13 @@
 	      { "sequenceID": "MH346492" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtK",
+    { "alignmentName": "AL_S2_GGrK",
       "almtDisplayName": "Genogroup K",
       "alphaSortKey": "K",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "EU839840" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_Unclassified_NtK_1", "almtDisplayName": "Unclassified Genogroup K (MF124283)",
+	  { "alignmentName": "AL_S2_Unclassified_GGrK_1", "almtDisplayName": "Unclassified Genogroup K (MF124283)",
 	    "numericSortKey": "999",
 	    "alphaSortKey": "MF124283",
 	    "cladeCategory": "genotype",
@@ -78,7 +78,7 @@
 	    "referenceSequences": [
 	      { "sequenceID": "MF124283" }
 	  ]},
-	  { "alignmentName": "AL_S2_Unclassified_NtK_2", "almtDisplayName": "Unclassified Genogroup K (KX695171)",
+	  { "alignmentName": "AL_S2_Unclassified_GGrK_2", "almtDisplayName": "Unclassified Genogroup K (KX695171)",
 	    "numericSortKey": "999",
 	    "alphaSortKey": "KX695171",
 	    "cladeCategory": "genotype",
@@ -86,21 +86,21 @@
 	    "referenceSequences": [
 	      { "sequenceID": "KX695171" }
 	  ]},
-	  { "alignmentName": "AL_S2_St26", "almtDisplayName": "Genotype 26",
+	  { "alignmentName": "AL_S2_Gt26", "almtDisplayName": "Genotype 26",
 	    "numericSortKey": "26",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "HM590642" },
 	    "referenceSequences": [
 	      { "sequenceID": "HM590642" }
 	  ]},
-	  { "alignmentName": "AL_S2_St25", "almtDisplayName": "Genotype 25",
+	  { "alignmentName": "AL_S2_Gt25", "almtDisplayName": "Genotype 25",
 	    "numericSortKey": "25",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "EU839840" },
 	    "referenceSequences": [
 	      { "sequenceID": "EU839840" }
 	  ]},
-	  { "alignmentName": "AL_S2_St27", "almtDisplayName": "Genotype 27",
+	  { "alignmentName": "AL_S2_Gt27", "almtDisplayName": "Genotype 27",
 	    "numericSortKey": "27",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KU760998" },
@@ -109,7 +109,7 @@
 	      { "sequenceID": "KU760988" },
 	      { "sequenceID": "KM200718" }
 	  ]},
-	  { "alignmentName": "AL_S2_Unclassified_NtK_3", "almtDisplayName": "Unclassified Genogroup K (KR061882)",
+	  { "alignmentName": "AL_S2_Unclassified_GGrK_3", "almtDisplayName": "Unclassified Genogroup K (KR061882)",
 	    "numericSortKey": "999",
 	    "alphaSortKey": "KR061882",
 	    "cladeCategory": "genotype",
@@ -117,7 +117,7 @@
 	    "referenceSequences": [
 	      { "sequenceID": "KR061882" }
 	  ]},
-	  { "alignmentName": "AL_S2_Unclassified_NtK_4", "almtDisplayName": "Unclassified Genogroup K (KY365755/KX234079)",
+	  { "alignmentName": "AL_S2_Unclassified_GGrK_4", "almtDisplayName": "Unclassified Genogroup K (KY365755/KX234079)",
 	    "numericSortKey": "999",
 	    "alphaSortKey": "KY365755/KX234079",
 	    "cladeCategory": "genotype",
@@ -126,13 +126,13 @@
 	      { "sequenceID": "KX234079" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtA",
+    { "alignmentName": "AL_S2_GGrA",
       "almtDisplayName": "Genogroup A",
       "alphaSortKey": "A",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "KY471279" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St11", "almtDisplayName": "Genotype 11",
+	  { "alignmentName": "AL_S2_Gt11", "almtDisplayName": "Genotype 11",
 	    "numericSortKey": "11",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KY471279" },
@@ -143,7 +143,7 @@
 	      { "sequenceID": "JN003580" },
 	      { "sequenceID": "KM580426" }
 	  ]},
-	  { "alignmentName": "AL_S2_St10", "almtDisplayName": "Genotype 10",
+	  { "alignmentName": "AL_S2_Gt10", "almtDisplayName": "Genotype 10",
 	    "numericSortKey": "10",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "JX272520" },
@@ -154,7 +154,7 @@
 	      { "sequenceID": "KY092151" },
 	      { "sequenceID": "HQ222821" }
 	  ]},
-	  { "alignmentName": "AL_S2_St24", "almtDisplayName": "Genotype 24",
+	  { "alignmentName": "AL_S2_Gt24", "almtDisplayName": "Genotype 24",
 	    "numericSortKey": "24",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KC633277" },
@@ -165,7 +165,7 @@
 	      { "sequenceID": "KT945049" },
 	      { "sequenceID": "JX272370" }
 	  ]},
-	  { "alignmentName": "AL_S2_St20", "almtDisplayName": "Genotype 20",
+	  { "alignmentName": "AL_S2_Gt20", "almtDisplayName": "Genotype 20",
 	    "numericSortKey": "20",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "AJ585141" },
@@ -173,7 +173,7 @@
 	      { "sequenceID": "AJ585141" },
 	      { "sequenceID": "JX272420" }
 	  ]},
-	  { "alignmentName": "AL_S2_St4B", "almtDisplayName": "Genotype 4B",
+	  { "alignmentName": "AL_S2_Gt4B", "almtDisplayName": "Genotype 4B",
 	    "numericSortKey": "4",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -182,7 +182,7 @@
 	      { "sequenceID": "JX560414" },
 	      { "sequenceID": "KY947344" }
 	  ]},
-	  { "alignmentName": "AL_S2_St4A", "almtDisplayName": "Genotype 4A",
+	  { "alignmentName": "AL_S2_Gt4A", "almtDisplayName": "Genotype 4A",
 	    "numericSortKey": "4",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -196,7 +196,7 @@
 	      { "sequenceID": "KP821068" },
 	      { "sequenceID": "KT317666" }
 	  ]},
-	  { "alignmentName": "AL_S2_St17", "almtDisplayName": "Genotype 17",
+	  { "alignmentName": "AL_S2_Gt17", "almtDisplayName": "Genotype 17",
 	    "numericSortKey": "17",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KX599360" },
@@ -208,13 +208,13 @@
 	      { "sequenceID": "JX272450" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtF",
+    { "alignmentName": "AL_S2_GGrF",
       "almtDisplayName": "Genogroup F",
       "alphaSortKey": "F",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "JQ086292" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St7", "almtDisplayName": "Genotype 7",
+	  { "alignmentName": "AL_S2_Gt7", "almtDisplayName": "Genotype 7",
 	    "numericSortKey": "7",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "JQ086292" },
@@ -223,7 +223,7 @@
 	      { "sequenceID": "JX272550" },
 	      { "sequenceID": "KT945046" }
 	  ]},
-	  { "alignmentName": "AL_S2_St19", "almtDisplayName": "Genotype 19",
+	  { "alignmentName": "AL_S2_Gt19", "almtDisplayName": "Genotype 19",
 	    "numericSortKey": "19",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KX164130" },
@@ -232,13 +232,13 @@
 	      { "sequenceID": "JX272430" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtE",
+    { "alignmentName": "AL_S2_GGrE",
       "almtDisplayName": "Genogroup E",
       "alphaSortKey": "E",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "KP821080" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St9B", "almtDisplayName": "Genotype 9B",
+	  { "alignmentName": "AL_S2_Gt9B", "almtDisplayName": "Genotype 9B",
 	    "numericSortKey": "9",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -250,7 +250,7 @@
 	      { "sequenceID": "MF384478" },
 	      { "sequenceID": "AB686223" }
 	  ]},
-	  { "alignmentName": "AL_S2_St5", "almtDisplayName": "Genotype 5",
+	  { "alignmentName": "AL_S2_Gt5", "almtDisplayName": "Genotype 5",
 	    "numericSortKey": "5",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "AJ585182" },
@@ -260,7 +260,7 @@
 	      { "sequenceID": "JX272570" },
 	      { "sequenceID": "KT945045" }
 	  ]},
-	  { "alignmentName": "AL_S2_St9A", "almtDisplayName": "Genotype 9A",
+	  { "alignmentName": "AL_S2_Gt9A", "almtDisplayName": "Genotype 9A",
 	    "numericSortKey": "9",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -272,13 +272,13 @@
 	      { "sequenceID": "KP821087" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtI",
+    { "alignmentName": "AL_S2_GGrI",
       "almtDisplayName": "Genogroup I",
       "alphaSortKey": "I",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "AJ585152" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St2B", "almtDisplayName": "Genotype 2B",
+	  { "alignmentName": "AL_S2_Gt2B", "almtDisplayName": "Genotype 2B",
 	    "numericSortKey": "2",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -288,7 +288,7 @@
 	      { "sequenceID": "AY493687" },
 	      { "sequenceID": "MF384475" }
 	  ]},
-	  { "alignmentName": "AL_S2_St2A", "almtDisplayName": "Genotype 2A",
+	  { "alignmentName": "AL_S2_Gt2A", "almtDisplayName": "Genotype 2A",
 	    "numericSortKey": "2",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -304,13 +304,13 @@
 	      { "sequenceID": "JX272600" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtH",
+    { "alignmentName": "AL_S2_GGrH",
       "almtDisplayName": "Genogroup H",
       "alphaSortKey": "H",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "JX680458" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St1A", "almtDisplayName": "Genotype 1A",
+	  { "alignmentName": "AL_S2_Gt1A", "almtDisplayName": "Genotype 1A",
 	    "numericSortKey": "1",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -325,7 +325,7 @@
 	      { "sequenceID": "KY049854" },
 	      { "sequenceID": "KY092170" }
 	  ]},
-	  { "alignmentName": "AL_S2_St1B", "almtDisplayName": "Genotype 1B",
+	  { "alignmentName": "AL_S2_Gt1B", "almtDisplayName": "Genotype 1B",
 	    "numericSortKey": "1",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -340,13 +340,13 @@
 	      { "sequenceID": "MF384464" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtD",
+    { "alignmentName": "AL_S2_GGrD",
       "almtDisplayName": "Genogroup D",
       "alphaSortKey": "D",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "JX272400" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St23", "almtDisplayName": "Genotype 23",
+	  { "alignmentName": "AL_S2_Gt23", "almtDisplayName": "Genotype 23",
 	    "numericSortKey": "23",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "JX272400" },
@@ -356,7 +356,7 @@
 	      { "sequenceID": "L46685" },
 	      { "sequenceID": "MF384502" }
 	  ]},
-	  { "alignmentName": "AL_S2_St18", "almtDisplayName": "Genotype 18",
+	  { "alignmentName": "AL_S2_Gt18", "almtDisplayName": "Genotype 18",
 	    "numericSortKey": "18",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KX442585" },
@@ -365,7 +365,7 @@
 	      { "sequenceID": "JX272440" },
 	      { "sequenceID": "KX164120" }
 	  ]},
-	  { "alignmentName": "AL_S2_St8", "almtDisplayName": "Genotype 8",
+	  { "alignmentName": "AL_S2_Gt8", "almtDisplayName": "Genotype 8",
 	    "numericSortKey": "8",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "JX272540" },
@@ -376,13 +376,13 @@
 	      { "sequenceID": "KU569991" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtC",
+    { "alignmentName": "AL_S2_GGrC",
       "almtDisplayName": "Genogroup C",
       "alphaSortKey": "C",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "AB686218" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St21", "almtDisplayName": "Genotype 21",
+	  { "alignmentName": "AL_S2_Gt21", "almtDisplayName": "Genotype 21",
 	    "numericSortKey": "21",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "AB686218" },
@@ -393,7 +393,7 @@
 	      { "sequenceID": "MF384487" },
 	      { "sequenceID": "MG206078" }
 	  ]},
-	  { "alignmentName": "AL_S2_St14", "almtDisplayName": "Genotype 14",
+	  { "alignmentName": "AL_S2_Gt14", "almtDisplayName": "Genotype 14",
 	    "numericSortKey": "14",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "AJ585186" },
@@ -402,7 +402,7 @@
 	      { "sequenceID": "JX272480" },
 	      { "sequenceID": "KY092147" }
 	  ]},
-	  { "alignmentName": "AL_S2_St6", "almtDisplayName": "Genotype 6",
+	  { "alignmentName": "AL_S2_Gt6", "almtDisplayName": "Genotype 6",
 	    "numericSortKey": "6",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "JX965385" },
@@ -412,13 +412,13 @@
 	      { "sequenceID": "GQ506517" }
 	  ]}
       ]},
-    { "alignmentName": "AL_S2_NtB",
+    { "alignmentName": "AL_S2_GGrB",
       "almtDisplayName": "Genogroup B",
       "alphaSortKey": "B",
       "cladeCategory": "genogroup",
       "constrainingRef": { "sequenceID": "KY092166" },
       "childAlignments": [
-	  { "alignmentName": "AL_S2_St3A", "almtDisplayName": "Genotype 3A",
+	  { "alignmentName": "AL_S2_Gt3A", "almtDisplayName": "Genotype 3A",
 	    "numericSortKey": "3",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",
@@ -430,7 +430,7 @@
 	      { "sequenceID": "JX272590" },
 	      { "sequenceID": "KY092169" }
 	  ]},
-	  { "alignmentName": "AL_S2_St3B", "almtDisplayName": "Genotype 3B",
+	  { "alignmentName": "AL_S2_Gt3B", "almtDisplayName": "Genotype 3B",
 	    "numericSortKey": "3",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -439,7 +439,7 @@
 	      { "sequenceID": "AB686219" },
 	      { "sequenceID": "MF384477" }
 	  ]},
-	  { "alignmentName": "AL_S2_St13", "almtDisplayName": "Genotype 13",
+	  { "alignmentName": "AL_S2_Gt13", "almtDisplayName": "Genotype 13",
 	    "numericSortKey": "13",
 	    "cladeCategory": "genotype",
 	    "constrainingRef": { "sequenceID": "KX442584" },
@@ -449,7 +449,7 @@
 	      { "sequenceID": "JQ436729" },
 	      { "sequenceID": "JX272490" }
 	  ]},
-	  { "alignmentName": "AL_S2_St16B", "almtDisplayName": "Genotype 16B",
+	  { "alignmentName": "AL_S2_Gt16B", "almtDisplayName": "Genotype 16B",
 	    "numericSortKey": "16",
 	    "alphaSortKey": "B",
 	    "cladeCategory": "genotype",
@@ -464,7 +464,7 @@
 	      { "sequenceID": "AJ585147" },
 	      { "sequenceID": "AB686214" }
 	  ]},
-	  { "alignmentName": "AL_S2_St16A", "almtDisplayName": "Genotype 16A",
+	  { "alignmentName": "AL_S2_Gt16A", "almtDisplayName": "Genotype 16A",
 	    "numericSortKey": "16",
 	    "alphaSortKey": "A",
 	    "cladeCategory": "genotype",

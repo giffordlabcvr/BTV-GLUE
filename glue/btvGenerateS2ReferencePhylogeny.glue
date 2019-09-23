@@ -15,7 +15,7 @@ project btv
   # are the basal clade with BTV segment 2.
   module btvPhyloUtility 
     reroot-alignment-phylogeny BTV_GENO_CODON_2 phylogeny \
-      -w "sequence.annotated_clade_id in ('S2_St12', 'S2_St22', 'S2_Unclassified_NtJ_1', 'S2_St15A', 'S2_St15B')" \
+      -w "sequence.annotated_clade_id in ('S2_Gt12', 'S2_Gt22', 'S2_Unclassified_GGrJ_1', 'S2_Gt15A', 'S2_Gt15B')" \
       -o trees/reference/S2_reference_rerooted.tree NEWICK_BOOTSTRAPS  
     exit
   
