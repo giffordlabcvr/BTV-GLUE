@@ -422,7 +422,7 @@ function genotypeFasta(fastaMap, resultMap, placerResultContainer) {
 							}
 						});
 					});
-					placerResultContainer.placerResult[segment] = placerResultDocument;
+					placerResultContainer.placerResult["S"+segment] = placerResultDocument;
 
 					// list the query summaries within the placer result document
 					var placementSummaries;
