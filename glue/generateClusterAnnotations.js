@@ -10,13 +10,42 @@ var clusterPickers = [
 	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.25 },
 	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.30 },
 	{ nodeThresholdType: "FBP", nodeThreshold:70, p_distance: 0.35 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.05 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.10 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.15 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.20 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.25 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.30 },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.85, p_distance: 0.35 }
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.05 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.06 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.07 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.08 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.09 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.10 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.11 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.12 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.13 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.14 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.15 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.16 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.17 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.18 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.19 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.20 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.21 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.22 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.23 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.24 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.25 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.26 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.27 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.28 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.29 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.30 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.31 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.32 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.33 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.34 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.35 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.36 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.37 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.38 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.39 },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.40 }
 ];
 
 try {
@@ -26,11 +55,16 @@ try {
 		_.each(seqFields, function(seqField) {
 			if(seqField.startsWith("cluster_")) {
 				glue.command(["delete", "field", seqField]);
+				glue.logInfo("Removed old field "+seqField);
 			}
 		});
+		glue.command(["commit"]);
+		glue.command(["new-context"]);
 		_.each(clusterPickers, function(clusterPicker) {
 			var field = fieldForClusterPicker(clusterPicker);
+			glue.logInfo("Adding field "+field);
 			glue.command(["create", "field", field, "INTEGER"]);
+			glue.logInfo("Added field "+field);
 		});
 	});
 } finally {
@@ -40,8 +74,8 @@ try {
 function idForClusterPicker(clusterPicker) {
 	var nodeThresholdType = clusterPicker.nodeThresholdType;
 	return nodeThresholdType.toLowerCase()+
-		"_n"+( nodeThresholdType == "FBP" ? clusterPicker.nodeThreshold : Math.floor(clusterPicker.nodeThreshold * 100) ) + 
-		"_p"+( Math.floor(clusterPicker.p_distance * 100));
+		"_n"+( nodeThresholdType == "FBP" ? clusterPicker.nodeThreshold : Math.round(clusterPicker.nodeThreshold * 100) ) + 
+		"_p"+( Math.round(clusterPicker.p_distance * 100));
 }
 
 

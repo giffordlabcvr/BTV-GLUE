@@ -8,11 +8,12 @@ _.each(segments, function(segment) {
 			// outgroup. Instead we just use PATAV
 			whereClause = "sequence.sequenceID = 'JQ070391'";
 		}
+		var ogTreePath = "trees/phyloTrees/S"+segment+"_og_rerooted.tree"
 	    glue.command(["reroot-alignment-phylogeny", 
 	                  "BTV_OUTG_CODON_"+segment, "phylogeny", 
 	                  "--whereClause", whereClause, 
 	                  "--removeOutgroup",
-	                  "-o", "trees/phyloTrees/S"+segment+"_og_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
+	                  "-o", ogTreePath, "NEWICK_BOOTSTRAPS"]);
 	});
 	glue.log("FINEST", "Rerooted tree for segment "+segment);
 
