@@ -517,7 +517,8 @@ function recogniseFasta(fastaMap, resultMap) {
 		var sequenceID = pair[0];
 		var resultObj = pair[1];
 		var seqRecogniserResults = sequenceIDToRecogniserResults[sequenceID];
-		if(seqRecogniserResults == null || seqRecogniserResults.length == 0) {
+		if(seqRecogniserResults == null || seqRecogniserResults.length == 0 || 
+				seqRecogniserResults.length == 1 && seqRecogniserResults[0].categoryId == null) {
 			resultObj.noRecogniserHits = true;
 		} else if(seqRecogniserResults.length > 1) {
 			resultObj.multipleRecogniserHits = true;
