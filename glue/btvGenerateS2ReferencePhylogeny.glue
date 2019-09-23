@@ -11,7 +11,7 @@ project btv
 	  -f phylogeny
     exit
   
-  # previous analysis showed that the group comprising nucleotypes G (Sts 12 and 22) and J (Sts 15A and 15B and an unclassified serotype)
+  # previous analysis showed that the group comprising genogroups G (Sts 12 and 22) and J (Sts 15A and 15B and an unclassified serotype)
   # are the basal clade with BTV segment 2.
   module btvPhyloUtility 
     reroot-alignment-phylogeny BTV_GENO_CODON_2 phylogeny \

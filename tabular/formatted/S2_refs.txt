@@ -1,4 +1,4 @@
-Nucleotype G
+Genogroup G
 Serotype 22
 ncbi-curated/AJ585187
 ncbi-curated/AJ585143
@@ -9,7 +9,7 @@ ncbi-curated/KX164080
 ncbi-curated/AB686216
 ncbi-curated/KC662613
 ncbi-curated/JX272500
-Nucleotype J
+Genogroup J
 Serotype Unclassified_KP196604
 ncbi-curated/KP196604
 Serotype 15A
@@ -18,7 +18,7 @@ ncbi-curated/KP821098
 Serotype 15B
 ncbi-curated/JQ086222
 ncbi-curated/MH346492
-Nucleotype K
+Genogroup K
 Serotype Unclassified_MF124283
 ncbi-curated/MF124283
 Serotype Unclassified_KX695171
@@ -35,7 +35,7 @@ Serotype Unclassified_KR061882
 ncbi-curated/KR061882
 Serotype Unclassified_KY365755_KX234079
 ncbi-curated/KX234079
-Nucleotype A
+Genogroup A
 Serotype 11
 ncbi-curated/KY471279
 ncbi-curated/JX272510
@@ -74,7 +74,7 @@ ncbi-curated/M17438
 ncbi-curated/S72158
 ncbi-curated/HQ222825
 ncbi-curated/JX272450
-Nucleotype F
+Genogroup F
 Serotype 7
 ncbi-curated/JQ086292
 ncbi-curated/JX272550
@@ -82,7 +82,7 @@ ncbi-curated/KT945046
 Serotype 19
 ncbi-curated/KX164130
 ncbi-curated/JX272430
-Nucleotype E
+Genogroup E
 Serotype 9B
 ncbi-curated/KP821080
 ncbi-curated/JN255913
@@ -99,7 +99,7 @@ ncbi-curated/KY092145
 ncbi-curated/KP821089
 ncbi-curated/JN255963
 ncbi-curated/KP821087
-Nucleotype I
+Genogroup I
 Serotype 2B
 ncbi-curated/AJ585152
 ncbi-curated/AY493687
@@ -113,7 +113,7 @@ ncbi-curated/AJ585161
 ncbi-curated/AJ585155
 ncbi-curated/JN255933
 ncbi-curated/JX272600
-Nucleotype H
+Genogroup H
 Serotype 1A
 ncbi-curated/X55800
 ncbi-curated/JX272380
@@ -130,7 +130,7 @@ ncbi-curated/KP696553
 ncbi-curated/KM099523
 ncbi-curated/MF384446
 ncbi-curated/MF384464
-Nucleotype D
+Genogroup D
 Serotype 23
 ncbi-curated/JX272400
 ncbi-curated/JQ771824
@@ -145,7 +145,7 @@ ncbi-curated/JX272540
 ncbi-curated/AJ585184
 ncbi-curated/AM498052
 ncbi-curated/KU569991
-Nucleotype C
+Genogroup C
 Serotype 21
 ncbi-curated/AB686218
 ncbi-curated/JN613126
@@ -160,7 +160,7 @@ Serotype 6
 ncbi-curated/JX965385
 ncbi-curated/JX272560
 ncbi-curated/GQ506517
-Nucleotype B
+Genogroup B
 Serotype 3A
 ncbi-curated/KY092166
 ncbi-curated/KX164050

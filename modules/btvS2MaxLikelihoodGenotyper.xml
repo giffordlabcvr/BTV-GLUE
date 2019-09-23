@@ -9,9 +9,9 @@
 		<finalCladeCutoff>80.0</finalCladeCutoff>
 	</cladeCategory>
 	<cladeCategory>
-		<name>nucleotype</name>	
-		<displayName>Nucleotype</displayName>	
-		<whereClause>clade_category = 'nucleotype'</whereClause>
+		<name>genogroup</name>	
+		<displayName>Genogroup</displayName>	
+		<whereClause>clade_category = 'genogroup'</whereClause>
 		<distanceScalingExponent>-3.0</distanceScalingExponent>
 		<distanceCutoff>0.4</distanceCutoff>
 		<finalCladeCutoff>80.0</finalCladeCutoff>
