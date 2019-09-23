@@ -11,7 +11,7 @@
 
   create module --fileName modules/btvGenbankXmlPopulator.xml btvGenbankXmlPopulator
   
-  create module --fileName modules/btvGenbankXmlGenotypePopulator.xml
+  create module --fileName modules/btvGenbankXmlSerotypePopulator.xml
   
   create module --fileName modules/btvGenbankXmlReferencePopulator.xml
 

@@ -342,7 +342,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 									"functionName": "visualisePhyloAsSvg", 
 									"document": {
 										"inputDocument": {
-										    "placerResult" : $scope.fileItemUnderAnalysis.response.btvWebReport.placerResult[segment], 
+										    "placerResult" : $scope.fileItemUnderAnalysis.response.btvWebReport.placerResult["S"+segment], 
 										    "queryName" : sequenceReport.btvReport.sequenceResult.id,
 										    "placementIndex" : placement.placementIndex,
 										    "maxDistance" : toFixed($scope.neighbourSlider.value/100, 2),

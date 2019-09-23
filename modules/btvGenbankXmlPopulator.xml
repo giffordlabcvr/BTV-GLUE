@@ -44,7 +44,7 @@
 	</gbDivision>
 	
 
-	<!-- #### EXTRACT FROM FEATURES: Isolate, country, host, segment & genotype -->		
+	<!-- #### EXTRACT FROM FEATURES: Isolate, country, host, segment -->		
 	<gbFeature key="source">
 	
 		<gbQualifier name="isolate">

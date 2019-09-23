@@ -1,8 +1,8 @@
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
-  # populate gb_serotype: genotype as indicated in the GenBank record
-  module btvGenbankXmlGenotypePopulator populate -w "source.name = 'ncbi-curated'"
+  # populate gb_serotype: serotype as indicated in the GenBank record
+  module btvGenbankXmlSerotypePopulator populate -w "source.name = 'ncbi-curated'"
 
   # this adds gb_length and isolate_segment to the outgroup sequences
   module btvGenbankXmlReferencePopulator populate -w "source.name in ('ncbi-outgroup', 'ncbi-refseqs', 'ncbi-s2-refseqs')"
