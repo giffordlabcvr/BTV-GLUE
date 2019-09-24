@@ -52,7 +52,7 @@
 		<template>${renderNestedProperty('sequence.isolate.seg2clade.displayName')}</template>
 	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
-	<figtreeProperty name="tipLabels.colorAttribute">cluster_tbe_n75_p20</figtreeProperty>
+	<figtreeProperty name="tipLabels.colorAttribute">cluster_tbe_n75_p24</figtreeProperty>
 	<figtreeProperty name="tipLabels.displayAttribute">accession_country_isolateS2genotype_year</figtreeProperty>
 	<figtreeProperty type="integer" name="nodeLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>

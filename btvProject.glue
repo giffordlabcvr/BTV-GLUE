@@ -55,11 +55,10 @@ project btv
   run script glue/concatenateCompleteGenomeSegments.js
 
   # Trees associated with the BTV_OUTG_CODON... alignments as side data.
-  # RAxML generated tree (1000 bootstraps).
-  # From these, "display trees" can be generated, suitable for loading into FigTree.
-  run script glue/importRootedTrees.js
-
-  run script glue/importRootedFullGenomeTree.js
+  # RAxML-NG generated tree (500 bootstraps).
+  # From these, "display trees" with cluster assignments can be generated, suitable for loading into FigTree.
+  # using run script glue/generateClusterAnnotations.js
+  run script glue/btvProcessRaxmlNgPhyloTrees.js
 
   # derive feature locations for segment 2 references
   run script glue/btvAddFeatureLocations.js
