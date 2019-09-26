@@ -58,17 +58,25 @@ _.each(segments, function(segObj) {
 		var ggrName = pair[0];
 		var refObjs = pair[1];
 		var ggrObj = {};
-		
+
+		var firstSequenceID;
 		_.each(refObjs, function(refObj) {
 			var sequenceID = refObj["Accesion No"];
+			if(firstSequenceID == null) {
+				firstSequenceID = sequenceID;
+			}
 			var sourceName = 'ncbi-curated';
 			if(sequenceID == 'AM744982') {
 				sourceName = 'ncbi-outgroup';
 			}
+			if(sequenceID == segObj.masterRef) {
+				ggrObj.constrainingRef = {sequenceID: sequenceID};
+				
+			}
 			var numSequences = glue.command(["count", "sequence", "-w", 
 				"source.name in ('ncbi-curated', 'ncbi-outgroup') and sequenceID = '"+sequenceID+"'"]).countResult.count;
 			if(numSequences != 1) {
-				glue.log("SEVERE", "Seg "+segNum+": Sequence not found: "+sequenceID);
+				throw new Error("Seg "+segNum+": Sequence not found: "+sequenceID);
 			}
 
 			var isolateSegNum;
@@ -78,46 +86,123 @@ _.each(segments, function(segObj) {
 						.propertyValueResult.value;
 			});
 			if(isolateSegNum != segNum) {
-				glue.log("SEVERE", "Table segment number "+segNum+" does not match DB segment number "+isolateSegNum+" for sequence "+sequenceID);
+				throw new Error("Table segment number "+segNum+" does not match DB segment number "+isolateSegNum+" for sequence "+sequenceID);
 			}
-
 		});
-		
-		var tableClusterIDs = _.uniq(_.map(refObjs, function(refObj) {
-			return refObj["Cluster_tbe_n75_"+segObj.genogroupPThreshold].toLowerCase();
-		}));
-		if(tableClusterIDs.length > 1) {
-			glue.log("SEVERE", "Multiple table cluster IDs ["+tableClusterIDs+"] for Genogroup "+ggrName+", segment "+segNum);
+		if(ggrObj.constrainingRef == null) {
+			ggrObj.constrainingRef = {sequenceID: firstSequenceID};
 		}
-
-		var dbClusterIDs = _.uniq(_.map(refObjs, function(refObj) {
-			var dbClusterID;
-			var sequenceID = refObj["Accesion No"];
-			var sourceName = 'ncbi-curated';
-			if(sequenceID == 'AM744982') {
-				sourceName = 'ncbi-outgroup';
-			}
-			
-			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-				dbClusterID = 
-					glue.command(["show", "property", 
-						"cluster_tbe_n75_p"+segObj.genogroupPThreshold])
-						.propertyValueResult.value;
-			});
-			return dbClusterID == null ? "singleton" : dbClusterID;
-		}));
-		if(dbClusterIDs.length > 1) {
-//			throw new Error("Multiple DB cluster IDs ["+dbClusterIDs+"] for Genogroup "+ggrName+", segment "+segNum);
-			glue.log("SEVERE", "Multiple DB cluster IDs ["+dbClusterIDs+"] for Genogroup "+ggrName+", segment "+segNum);
-		}
-
 		ggrObj.alignmentName = "AL_S"+segNum+"_GGr"+ggrName;
 		ggrObj.almtDisplayName = "Genogroup "+ggrName;
-		ggrObj.alphaSortKey = "Genogroup "+ggrName;
+		ggrObj.alphaSortKey = ggrName;
 		ggrObj.cladeCategory = "genogroup"; 
+
+		checkClusterIDs(refObjs, segObj.genogroupPThreshold, segNum, ggrObj.almtDisplayName);
+		
+
+		var genogroupRefSeqObjs = [];
+		
+		if(segObj.genotypePThreshold != null) {
+			// group the reference sequences within this genogroup into genotypes
+			var gtNameToRefObjs = _.groupBy(refObjs, function(ro) {return ro["GenotypeName"];} );
+			ggrObj.childAlignments = []; 
+			
+			_.each(_.pairs(gtNameToRefObjs), function(pair2) {
+				var gtName = pair2[0];
+				var gtRefObjs = pair2[1];
+
+				if(gtName == "unclassified") {
+					_.each(gtRefObjs, function(uncRefObj) {
+						var uncGtObj = {};
+						var uncSequenceID = uncRefObj["Accesion No"];
+						uncGtObj.alignmentName = "AL_S"+segNum+"_Unclassified_GGr"+ggrName+"_"+uncSequenceID;
+						uncGtObj.almtDisplayName = "Unclassified Genogroup "+ggrName+" ("+uncSequenceID+")";
+						uncGtObj.cladeCategory = "genotype";
+						uncGtObj.numericSortKey = "999";
+						uncGtObj.alphaSortKey = uncSequenceID;
+						uncGtObj.constrainingRef = { sequenceID: uncSequenceID};
+						uncGtObj.referenceSequences = [{ sequenceID: uncSequenceID}];
+						ggrObj.childAlignments.push(uncGtObj);
+					});
+					
+				} else {
+					var gtObj = {};
+					gtObj.alignmentName = "AL_S"+segNum+"_Gt"+gtName;
+					gtObj.almtDisplayName = "Genotype "+gtName;
+					gtObj.cladeCategory = "genotype"
+
+					checkClusterIDs(gtRefObjs, segObj.genotypePThreshold, segNum, gtObj.almtDisplayName);
+		
+					var alphaSortKey = gtName.replace(/[\d]+/g, "");
+					if(alphaSortKey.length > 0) {
+						gtObj.alphaSortKey = alphaSortKey;
+					}
+					gtObj.numericSortKey = gtName.replace(/[A-Z]+/g, "");
+
+					var firstSequenceID;
+					_.each(gtRefObjs, function(gtRefObj) {
+						var sequenceID = gtRefObj["Accesion No"];
+						if(firstSequenceID == null) {
+							firstSequenceID = sequenceID;
+						}
+						if(sequenceID == segObj.masterRef) {
+							gtObj.constrainingRef = {sequenceID: sequenceID};
+							
+						}
+					});
+					if(gtObj.constrainingRef == null) {
+						gtObj.constrainingRef = {sequenceID: firstSequenceID};
+					}
+
+					
+					gtObj.referenceSequences = _.map(gtRefObjs, function(gtro) {
+						return { "sequenceID": gtro["Accesion No"] };
+					});
+					
+					ggrObj.childAlignments.push(gtObj);
+				}
+				
+			});
+			
+		} else {
+			ggrObj.referenceSequences = _.map(refObjs, function(ro) {
+				return { "sequenceID": ro["Accesion No"] };
+			});
+		}
+		
+		cladeStructureObj.childAlignments.push(ggrObj);
 		
 	});
 	
-	// glue.logInfo("cladeStructureObj", cladeStructureObj);
+	glue.command(["file-util", "save-string", JSON.stringify(cladeStructureObj, null, 2), "json/S"+segNum+"_clade_structure_and_refs.json"]);
 	
 });
+
+function checkClusterIDs(refObjs, pThreshold, segNum, cladeName) {
+	var tableClusterIDs = _.uniq(_.map(refObjs, function(refObj) {
+		return refObj["Cluster_tbe_n75_"+pThreshold].toLowerCase();
+	}));
+	if(tableClusterIDs.length > 1) {
+		throw new Error("Multiple table cluster IDs ["+tableClusterIDs+"] for "+cladeName+", segment "+segNum);
+	}
+
+	var dbClusterIDs = _.uniq(_.map(refObjs, function(refObj) {
+		var dbClusterID;
+		var sequenceID = refObj["Accesion No"];
+		var sourceName = 'ncbi-curated';
+		if(sequenceID == 'AM744982') {
+			sourceName = 'ncbi-outgroup';
+		}
+		
+		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+			dbClusterID = 
+				glue.command(["show", "property", 
+					"cluster_tbe_n75_p"+pThreshold])
+					.propertyValueResult.value;
+		});
+		return dbClusterID == null ? "singleton" : dbClusterID;
+	}));
+	if(dbClusterIDs.length > 1) {
+		throw new Error("Multiple DB cluster IDs ["+dbClusterIDs+"] for "+cladeName+", segment "+segNum);
+	}
+}

@@ -1,0 +1,381 @@
+{
+  "referenceSourceName": "ncbi-s5-refseqs",
+  "alignmentName": "AL_5_MASTER",
+  "almtDisplayName": "BTV Segment 5",
+  "cladeCategory": "species",
+  "constrainingRef": {
+    "sequenceID": "JX680461"
+  },
+  "childAlignments": [
+    {
+      "constrainingRef": {
+        "sequenceID": "KX695174"
+      },
+      "alignmentName": "AL_S5_GGrE",
+      "almtDisplayName": "Genogroup E",
+      "alphaSortKey": "E",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KX695174"
+        },
+        {
+          "sequenceID": "KR085415"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "KU761001"
+      },
+      "alignmentName": "AL_S5_GGrD",
+      "almtDisplayName": "Genogroup D",
+      "alphaSortKey": "D",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KU761001"
+        },
+        {
+          "sequenceID": "KU760991"
+        },
+        {
+          "sequenceID": "LN713674"
+        },
+        {
+          "sequenceID": "KX234082"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "JN255158"
+      },
+      "alignmentName": "AL_S5_GGrF",
+      "almtDisplayName": "Genogroup F",
+      "alphaSortKey": "F",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "JN255158"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "EU839841"
+      },
+      "alignmentName": "AL_S5_GGrG",
+      "almtDisplayName": "Genogroup G",
+      "alphaSortKey": "G",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "EU839841"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "MF124286"
+      },
+      "alignmentName": "AL_S5_GGrH",
+      "almtDisplayName": "Genogroup H",
+      "alphaSortKey": "H",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "MF124286"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "KP821456"
+      },
+      "alignmentName": "AL_S5_GGrA",
+      "almtDisplayName": "Genogroup A",
+      "alphaSortKey": "A",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KP821456"
+        },
+        {
+          "sequenceID": "KP821360"
+        },
+        {
+          "sequenceID": "JX272443"
+        },
+        {
+          "sequenceID": "KP821431"
+        },
+        {
+          "sequenceID": "KP821399"
+        },
+        {
+          "sequenceID": "KP821388"
+        },
+        {
+          "sequenceID": "KP821386"
+        },
+        {
+          "sequenceID": "KP821370"
+        },
+        {
+          "sequenceID": "KY654332"
+        },
+        {
+          "sequenceID": "KC896847"
+        },
+        {
+          "sequenceID": "KJ577108"
+        },
+        {
+          "sequenceID": "KP821432"
+        },
+        {
+          "sequenceID": "KP821384"
+        },
+        {
+          "sequenceID": "KP821433"
+        },
+        {
+          "sequenceID": "KP821439"
+        },
+        {
+          "sequenceID": "JX272373"
+        },
+        {
+          "sequenceID": "KP821403"
+        },
+        {
+          "sequenceID": "JX272433"
+        },
+        {
+          "sequenceID": "KP821398"
+        },
+        {
+          "sequenceID": "JX272473"
+        },
+        {
+          "sequenceID": "JX272563"
+        },
+        {
+          "sequenceID": "JX272383"
+        },
+        {
+          "sequenceID": "JX272553"
+        },
+        {
+          "sequenceID": "JX272493"
+        },
+        {
+          "sequenceID": "JX272503"
+        },
+        {
+          "sequenceID": "JX272533"
+        },
+        {
+          "sequenceID": "JX272483"
+        },
+        {
+          "sequenceID": "KY513438"
+        },
+        {
+          "sequenceID": "KP196607"
+        },
+        {
+          "sequenceID": "JX272393"
+        },
+        {
+          "sequenceID": "JX272513"
+        },
+        {
+          "sequenceID": "JX272573"
+        },
+        {
+          "sequenceID": "JX272523"
+        },
+        {
+          "sequenceID": "JX272603"
+        },
+        {
+          "sequenceID": "GQ506520"
+        },
+        {
+          "sequenceID": "JX272583"
+        },
+        {
+          "sequenceID": "JX272543"
+        },
+        {
+          "sequenceID": "JX272403"
+        },
+        {
+          "sequenceID": "JQ924824"
+        },
+        {
+          "sequenceID": "KP696616"
+        },
+        {
+          "sequenceID": "KP339148"
+        },
+        {
+          "sequenceID": "KP339158"
+        },
+        {
+          "sequenceID": "JX272593"
+        },
+        {
+          "sequenceID": "MF124296"
+        },
+        {
+          "sequenceID": "KY049884"
+        },
+        {
+          "sequenceID": "KY092086"
+        },
+        {
+          "sequenceID": "KX599363"
+        },
+        {
+          "sequenceID": "JX272453"
+        },
+        {
+          "sequenceID": "KY092067"
+        },
+        {
+          "sequenceID": "JQ972865"
+        },
+        {
+          "sequenceID": "KY092087"
+        },
+        {
+          "sequenceID": "KY092077"
+        },
+        {
+          "sequenceID": "KX164053"
+        },
+        {
+          "sequenceID": "KX164103"
+        },
+        {
+          "sequenceID": "KY092070"
+        },
+        {
+          "sequenceID": "KY092075"
+        },
+        {
+          "sequenceID": "KY092078"
+        },
+        {
+          "sequenceID": "KP339248"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "MF384658"
+      },
+      "alignmentName": "AL_S5_GGrB",
+      "almtDisplayName": "Genogroup B",
+      "alphaSortKey": "B",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "MF384658"
+        },
+        {
+          "sequenceID": "MF384631"
+        },
+        {
+          "sequenceID": "KM099578"
+        },
+        {
+          "sequenceID": "MF384676"
+        },
+        {
+          "sequenceID": "JX272413"
+        },
+        {
+          "sequenceID": "JQ086295"
+        },
+        {
+          "sequenceID": "KM099574"
+        },
+        {
+          "sequenceID": "JX272423"
+        },
+        {
+          "sequenceID": "MF384664"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "KM099590"
+      },
+      "alignmentName": "AL_S5_GGrC",
+      "almtDisplayName": "Genogroup C",
+      "alphaSortKey": "C",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KM099590"
+        },
+        {
+          "sequenceID": "MF384686"
+        },
+        {
+          "sequenceID": "MH346495"
+        },
+        {
+          "sequenceID": "KT002582"
+        },
+        {
+          "sequenceID": "KP696529"
+        },
+        {
+          "sequenceID": "KP821352"
+        },
+        {
+          "sequenceID": "KP821407"
+        },
+        {
+          "sequenceID": "MF384665"
+        },
+        {
+          "sequenceID": "AY462225"
+        },
+        {
+          "sequenceID": "JX272463"
+        },
+        {
+          "sequenceID": "KM485310"
+        },
+        {
+          "sequenceID": "KP821367"
+        },
+        {
+          "sequenceID": "MF384689"
+        },
+        {
+          "sequenceID": "MG206081"
+        },
+        {
+          "sequenceID": "MF384666"
+        },
+        {
+          "sequenceID": "JQ086225"
+        },
+        {
+          "sequenceID": "MF384636"
+        },
+        {
+          "sequenceID": "KM099589"
+        }
+      ]
+    }
+  ]
+}

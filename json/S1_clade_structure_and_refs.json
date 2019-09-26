@@ -1,0 +1,339 @@
+{
+  "referenceSourceName": "ncbi-s1-refseqs",
+  "alignmentName": "AL_1_MASTER",
+  "almtDisplayName": "BTV Segment 1",
+  "cladeCategory": "species",
+  "constrainingRef": {
+    "sequenceID": "JX680457"
+  },
+  "childAlignments": [
+    {
+      "constrainingRef": {
+        "sequenceID": "KX234078"
+      },
+      "alignmentName": "AL_S1_GGrE",
+      "almtDisplayName": "Genogroup E",
+      "alphaSortKey": "E",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KX234078"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "MF124282"
+      },
+      "alignmentName": "AL_S1_GGrC",
+      "almtDisplayName": "Genogroup C",
+      "alphaSortKey": "C",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "MF124282"
+        },
+        {
+          "sequenceID": "JN255156"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "KX695170"
+      },
+      "alignmentName": "AL_S1_GGrD",
+      "almtDisplayName": "Genogroup D",
+      "alphaSortKey": "D",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KX695170"
+        },
+        {
+          "sequenceID": "KR815991"
+        },
+        {
+          "sequenceID": "GQ982522"
+        },
+        {
+          "sequenceID": "KU760987"
+        },
+        {
+          "sequenceID": "LN713671"
+        },
+        {
+          "sequenceID": "KU760997"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "JX272539"
+      },
+      "alignmentName": "AL_S1_GGrA",
+      "almtDisplayName": "Genogroup A",
+      "alphaSortKey": "A",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "JX272539"
+        },
+        {
+          "sequenceID": "KY091941"
+        },
+        {
+          "sequenceID": "KX164079"
+        },
+        {
+          "sequenceID": "KX164049"
+        },
+        {
+          "sequenceID": "KM580432"
+        },
+        {
+          "sequenceID": "KM580446"
+        },
+        {
+          "sequenceID": "KM580413"
+        },
+        {
+          "sequenceID": "JX272469"
+        },
+        {
+          "sequenceID": "JX272589"
+        },
+        {
+          "sequenceID": "JX272499"
+        },
+        {
+          "sequenceID": "JX272529"
+        },
+        {
+          "sequenceID": "JX272489"
+        },
+        {
+          "sequenceID": "JX272509"
+        },
+        {
+          "sequenceID": "JX272429"
+        },
+        {
+          "sequenceID": "JX272579"
+        },
+        {
+          "sequenceID": "JX272549"
+        },
+        {
+          "sequenceID": "JX272569"
+        },
+        {
+          "sequenceID": "JX272519"
+        },
+        {
+          "sequenceID": "JX272379"
+        },
+        {
+          "sequenceID": "JX272439"
+        },
+        {
+          "sequenceID": "JX272479"
+        },
+        {
+          "sequenceID": "KP196603"
+        },
+        {
+          "sequenceID": "KP820920"
+        },
+        {
+          "sequenceID": "KP820939"
+        },
+        {
+          "sequenceID": "KP820938"
+        },
+        {
+          "sequenceID": "MF124292"
+        },
+        {
+          "sequenceID": "KY432369"
+        },
+        {
+          "sequenceID": "KP820957"
+        },
+        {
+          "sequenceID": "JX272389"
+        },
+        {
+          "sequenceID": "KP820888"
+        },
+        {
+          "sequenceID": "KP820944"
+        },
+        {
+          "sequenceID": "KJ577104"
+        },
+        {
+          "sequenceID": "KP820917"
+        },
+        {
+          "sequenceID": "KP820967"
+        },
+        {
+          "sequenceID": "KC853052"
+        },
+        {
+          "sequenceID": "JX272369"
+        },
+        {
+          "sequenceID": "GQ506516"
+        },
+        {
+          "sequenceID": "JX272559"
+        },
+        {
+          "sequenceID": "JX272599"
+        },
+        {
+          "sequenceID": "KY049843"
+        },
+        {
+          "sequenceID": "KX599359"
+        },
+        {
+          "sequenceID": "L20508"
+        },
+        {
+          "sequenceID": "KY091928"
+        },
+        {
+          "sequenceID": "KY091934"
+        },
+        {
+          "sequenceID": "KY091930"
+        },
+        {
+          "sequenceID": "KX164119"
+        },
+        {
+          "sequenceID": "KX164069"
+        },
+        {
+          "sequenceID": "JX272449"
+        },
+        {
+          "sequenceID": "KY091933"
+        },
+        {
+          "sequenceID": "JQ972861"
+        },
+        {
+          "sequenceID": "GQ506536"
+        }
+      ]
+    },
+    {
+      "constrainingRef": {
+        "sequenceID": "KY485075"
+      },
+      "alignmentName": "AL_S1_GGrB",
+      "almtDisplayName": "Genogroup B",
+      "alphaSortKey": "B",
+      "cladeCategory": "genogroup",
+      "referenceSequences": [
+        {
+          "sequenceID": "KY485075"
+        },
+        {
+          "sequenceID": "KC879615"
+        },
+        {
+          "sequenceID": "KY485076"
+        },
+        {
+          "sequenceID": "KY485077"
+        },
+        {
+          "sequenceID": "JX272419"
+        },
+        {
+          "sequenceID": "JQ086301"
+        },
+        {
+          "sequenceID": "JN881985"
+        },
+        {
+          "sequenceID": "KY485053"
+        },
+        {
+          "sequenceID": "KY485050"
+        },
+        {
+          "sequenceID": "KY485058"
+        },
+        {
+          "sequenceID": "KY485090"
+        },
+        {
+          "sequenceID": "KY485086"
+        },
+        {
+          "sequenceID": "JX272409"
+        },
+        {
+          "sequenceID": "KM099507"
+        },
+        {
+          "sequenceID": "KP696517"
+        },
+        {
+          "sequenceID": "MG206077"
+        },
+        {
+          "sequenceID": "KM099521"
+        },
+        {
+          "sequenceID": "GU390658"
+        },
+        {
+          "sequenceID": "JQ713557"
+        },
+        {
+          "sequenceID": "KF664113"
+        },
+        {
+          "sequenceID": "KP339164"
+        },
+        {
+          "sequenceID": "KP820867"
+        },
+        {
+          "sequenceID": "JX272399"
+        },
+        {
+          "sequenceID": "KF664133"
+        },
+        {
+          "sequenceID": "JX399148"
+        },
+        {
+          "sequenceID": "JF443166"
+        },
+        {
+          "sequenceID": "KX302634"
+        },
+        {
+          "sequenceID": "JN255912"
+        },
+        {
+          "sequenceID": "KP820874"
+        },
+        {
+          "sequenceID": "MF615237"
+        },
+        {
+          "sequenceID": "JX272459"
+        }
+      ]
+    }
+  ]
+}
