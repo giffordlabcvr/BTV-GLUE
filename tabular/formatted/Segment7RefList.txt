@@ -97,3 +97,4 @@ Segment	Cluster_tbe_n75_20	Accesion No	GenogroupName	NoRefSeq
 7	10	MF384784	G	96
 7	10	MF384812	G	97
 7	10	AF172826	G	98
+7	4	JX680463	A	

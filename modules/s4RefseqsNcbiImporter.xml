@@ -92,6 +92,7 @@
     <primaryAccession>KY432372</primaryAccession>
     <primaryAccession>KY654331</primaryAccession>
     <primaryAccession>KP821303</primaryAccession>
+    <primaryAccession>JX680460</primaryAccession>
   </specificPrimaryAccessions>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <sourceName>ncbi-s4-refseqs</sourceName>

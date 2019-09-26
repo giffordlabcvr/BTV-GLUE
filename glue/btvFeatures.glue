@@ -25,7 +25,7 @@ feature VP2
   set field displayName VP2
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
-  set metatag CODON_LABELER_MODULE btvS2Kuiken2006CodonLabeler
+#  set metatag CODON_LABELER_MODULE btvS2Kuiken2006CodonLabeler
   exit
 create feature S2_3UTR -p S2_whole_genome "Segment 2 3' untranslated region"
 feature S2_3UTR set field displayName "3' UTR"

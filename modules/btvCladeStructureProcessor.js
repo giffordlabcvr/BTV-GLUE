@@ -43,9 +43,28 @@ function generateRefSeqNcbiImporter(jsonStructureFile, ncbiImporterFile) {
 	glue.command(["file-util", "save-string", refSeqImporterString, ncbiImporterFile]);
 }
 
-function generateGenotypeBlastRecogniser(jsonStructureFile, blastRecogniserFile) {
+function generateSegmentBlastRecogniser(blastRecogniserFile) {
+
+	var segNumToRefsString = {};
 	
-	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
+	for(var segNum = 1; segNum <= 10; segNum++) {
+		var cladeStructure = loadJsonCladeStructure("json/S"+segNum+"_clade_structure_and_refs.json");
+		
+		var refsString = "";
+		
+		visitStructureAlignmentsPost(cladeStructure, function(alignment) {
+			if(alignment.referenceSequences != null) {
+				var cladeID = getCladeID(alignment);
+				_.each(alignment.referenceSequences, function(refSeqObj) {
+					var refSeqName = getRefSeqName(alignment, refSeqObj);
+					refsString +=
+						"<referenceSequence>"+refSeqName+"</referenceSequence>\n";
+				});
+			}
+		});
+		
+		segNumToRefsString[""+segNum] = refsString;
+	}
 	
 	var blastRecogniserString = 
 		"<blastSequenceRecogniser>\n"+
@@ -56,186 +75,19 @@ function generateGenotypeBlastRecogniser(jsonStructureFile, blastRecogniserFile)
 		"    <restrictSearchOrResults>\n"+
 		"    </restrictSearchOrResults>\n"+
 		"  </blastRunner>\n";
-
-	var sourceName = cladeStructure.referenceSourceName;
 	
-	var categoriesString = "";
-	
-	visitStructureAlignmentsPost(cladeStructure, function(alignment) {
-		if(alignment.referenceSequences != null) {
-			var cladeID = getCladeID(alignment);
-			categoriesString += 
-				"  <recognitionCategory>\n"+
-				"    <id>"+cladeID+"</id>\n"+
-				"    <minimumBitScore>100</minimumBitScore>\n";
-			_.each(alignment.referenceSequences, function(refSeqObj) {
-				var refSeqName = getRefSeqName(alignment, refSeqObj);
-				blastRecogniserString +=
-					"  <referenceSequence>"+refSeqName+"</referenceSequence>\n";
-				categoriesString +=
-					"    <referenceSequence>"+refSeqName+"</referenceSequence>\n";
-			});
-			categoriesString += 
-				"  </recognitionCategory>\n";
-		}
+	_.each(_.pairs(segNumToRefsString), function(pair) {
+		blastRecogniserString += pair[1];
 	});
-	blastRecogniserString += categoriesString;
-	
-	blastRecogniserString += 
-	"  <!-- if one category result has an HSP with a bit score more than 100 higher than the highest bit score in a second category result, \n"+
-	"       the second category result is discarded -->\n"+
-	"  <maxBitScoreCategoryResultResolver>\n"+
-	"    <minDifference>100</minDifference>\n"+
-	"  </maxBitScoreCategoryResultResolver>\n"+
-	"  <!-- if one category result has an HSP with a total alignment length more 50 higher than the total alignment length in a second category result, \n"+
-	"	    the second category result is discarded -->\n"+
-	"  <totalAlignLengthCategoryResultResolver>\n"+
-	"	 <minDifference>50</minDifference>\n"+
-	"  </totalAlignLengthCategoryResultResolver>\n"+
-	"</blastSequenceRecogniser>\n";
-
-	glue.command(["file-util", "save-string", blastRecogniserString, blastRecogniserFile]);
-}
-
-
-function generateSegmentBlastRecogniser(blastRecogniserFile) {
-	var s2CladeStructure = loadJsonCladeStructure("json/S2_clade_structure_and_refs.json");
-	
-	var s2RefsString = "";
-	
-	visitStructureAlignmentsPost(s2CladeStructure, function(alignment) {
-		if(alignment.referenceSequences != null) {
-			var cladeID = getCladeID(alignment);
-			_.each(alignment.referenceSequences, function(refSeqObj) {
-				var refSeqName = getRefSeqName(alignment, refSeqObj);
-				s2RefsString +=
-					"<referenceSequence>"+refSeqName+"</referenceSequence>\n";
-			});
-		}
-	});
-	
-	var blastRecogniserString = 
-		"<blastSequenceRecogniser>\n"+
-		"  <blastRunner>\n"+
-		"    <generalSearch>\n"+
-		"      <word_size>8</word_size>\n"+
-		"    </generalSearch>\n"+
-		"    <restrictSearchOrResults>\n"+
-		"    </restrictSearchOrResults>\n"+
-		"  </blastRunner>\n"+
-		"<referenceSequence>REF_S1_MASTER</referenceSequence>\n"+
-		s2RefsString+
-		"<referenceSequence>REF_S3_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S4_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S5_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S7_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S8_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S9_MASTER</referenceSequence>\n"+
-		"<referenceSequence>REF_S10_MASTER</referenceSequence>\n"+
-	  	"<referenceSequence>REF_S6_genotype_1</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_2</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_3</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_4</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_5</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_6</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_7</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_8</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_9</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_10</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_11</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_12</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_13</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_14</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_15</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_16</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_17</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_18</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_19</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_20</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_21</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_22</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_23</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_24</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_25</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_26</referenceSequence>\n"+
-		"<referenceSequence>REF_S6_genotype_27</referenceSequence>\n"+
-		"<recognitionCategory>\n"+
-		"<id>S1</id>\n"+
+	_.each(_.pairs(segNumToRefsString), function(pair) {
+		blastRecogniserString += "<recognitionCategory>\n"+
+		"<id>S"+pair[0]+"</id>\n"+
 		"<minimumBitScore>50</minimumBitScore>\n"+
-		"<referenceSequence>REF_S1_MASTER</referenceSequence>\n"+
-	"</recognitionCategory>\n"+
-	"<recognitionCategory>\n"+
-		"<id>S2</id>\n"+
-	    "<minimumBitScore>50</minimumBitScore>\n"+
-	    s2RefsString+
-	    "</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S3</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S3_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S4</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S4_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S5</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S5_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S6</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S6_genotype_1</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_2</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_3</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_4</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_5</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_6</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_7</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_8</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_9</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_10</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_11</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_12</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_13</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_14</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_15</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_16</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_17</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_18</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_19</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_20</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_21</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_22</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_23</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_24</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_25</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_26</referenceSequence>\n"+
-			"<referenceSequence>REF_S6_genotype_27</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S7</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S7_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S8</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S8_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S9</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S9_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-		"<recognitionCategory>\n"+
-			"<id>S10</id>\n"+
-			"<minimumBitScore>50</minimumBitScore>\n"+
-			"<referenceSequence>REF_S10_MASTER</referenceSequence>\n"+
-		"</recognitionCategory>\n"+
-	"</blastSequenceRecogniser>\n";
+		pair[1]+
+		"</recognitionCategory>\n";
+	});
+	
+	blastRecogniserString += "</blastSequenceRecogniser>\n";
 		
 	glue.command(["file-util", "save-string", blastRecogniserString, blastRecogniserFile]);
 	

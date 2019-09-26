@@ -118,6 +118,7 @@
     <primaryAccession>KP822018</primaryAccession>
     <primaryAccession>KP821987</primaryAccession>
     <primaryAccession>JX272438</primaryAccession>
+    <primaryAccession>JX680466</primaryAccession>
   </specificPrimaryAccessions>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <sourceName>ncbi-s10-refseqs</sourceName>

@@ -90,3 +90,4 @@ Segment	Cluster_tbe_n75_20	Accesion No	GenogroupName	NoRefSeq
 4	5	KY432372	A	89
 4	5	KY654331	A	90
 4	5	KP821303	A	91
+4	5	JX680460	A	

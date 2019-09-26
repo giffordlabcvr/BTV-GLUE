@@ -69,7 +69,7 @@
     },
     {
       "constrainingRef": {
-        "sequenceID": "KY092133"
+        "sequenceID": "JX680459"
       },
       "alignmentName": "AL_S3_GGrA",
       "almtDisplayName": "Genogroup A",
@@ -213,6 +213,9 @@
         },
         {
           "sequenceID": "JX272471"
+        },
+        {
+          "sequenceID": "JX680459"
         }
       ]
     },

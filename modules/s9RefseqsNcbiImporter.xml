@@ -105,6 +105,7 @@
     <primaryAccession>JX272457</primaryAccession>
     <primaryAccession>KY091968</primaryAccession>
     <primaryAccession>KX164127</primaryAccession>
+    <primaryAccession>JX680465</primaryAccession>
   </specificPrimaryAccessions>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <sourceName>ncbi-s9-refseqs</sourceName>

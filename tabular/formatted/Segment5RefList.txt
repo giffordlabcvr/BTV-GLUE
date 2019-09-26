@@ -93,3 +93,4 @@ Segment	Cluster_tbe_n75_20	Accesion No	GenogroupName	NoRefSeq
 5	5	JQ086225	C	92
 5	5	MF384636	C	93
 5	5	KM099589	C	94
+5	3	JX680461	A	

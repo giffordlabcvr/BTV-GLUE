@@ -144,3 +144,4 @@ Segment	Cluster_tbe_n75_35	GenogroupName	Cluster_tbe_n75_24	Accesion No	Genotype
 2	9	B	31	AB686225	16B	143
 2	9	B	31	KP820994	16B	144
 2	9	B	31	KP820989	16B	145
+2	10	H	20	JX680458	1A	

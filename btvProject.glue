@@ -19,16 +19,31 @@ project btv
   run file glue/btvFeatures.glue
   run file glue/btvFGFeatures.glue
 
-  # Import NCBI reference sequence set
-  # old-style (non seg 2)
-  import source sources/ncbi-refseqs 
-  # new-style (seg 2)
+  # per segment refseqs
+  import source sources/ncbi-s1-refseqs 
   import source sources/ncbi-s2-refseqs 
-
+  import source sources/ncbi-s3-refseqs 
+  import source sources/ncbi-s4-refseqs 
+  import source sources/ncbi-s5-refseqs 
+  import source sources/ncbi-s6-refseqs 
+  import source sources/ncbi-s7-refseqs 
+  import source sources/ncbi-s8-refseqs 
+  import source sources/ncbi-s9-refseqs 
+  import source sources/ncbi-s10-refseqs 
+  
   # create new-style (seg 2) references
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S1_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S2_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S3_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S4_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S5_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S6_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S7_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S8_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S9_clade_structure_and_refs.json
+  module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S10_clade_structure_and_refs.json
 
-  # create old-style references and add feature locations
+  # create segment master references and add basic feature locations
   run file glue/btvReferences.glue
 
   # Import NCBI curated sequence set
@@ -49,35 +64,33 @@ project btv
   run file glue/btvSequenceAssociatedData.glue
 
   # two sets of unconstrained alignments used for phylogenetic analysis
-  run script glue/importAlignments.js
-
-  # concatenated genomes + alignment
-  run script glue/concatenateCompleteGenomeSegments.js
+  # run script glue/importAlignments.js
 
   # Trees associated with the BTV_OUTG_CODON... alignments as side data.
   # RAxML-NG generated tree (500 bootstraps).
   # From these, "display trees" with cluster assignments can be generated, suitable for loading into FigTree.
   # using run script glue/generateClusterAnnotations.js
-  run script glue/btvProcessRaxmlNgPhyloTrees.js
+  #
+  # run script glue/btvProcessRaxmlNgPhyloTrees.js
 
   # derive feature locations for segment 2 references
-  run script glue/btvAddFeatureLocations.js
+  # run script glue/btvAddFeatureLocations.js
 
   # create alignment tree for segment 2
-  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S2_clade_structure_and_refs.json BTV_GENO_CODON_2
+  # module btvCladeStructureProcessor invoke-function createAlignmentTree json/S2_clade_structure_and_refs.json BTV_GENO_CODON_2
 
   # check coding feature locations for segment 2 references
-  run script glue/btvCheckCodingFeatureLocations.js
+  # run script glue/btvCheckCodingFeatureLocations.js
 
   # import reference phylogenies
-  run file glue/btvImportPhylogenies.glue
+  # run file glue/btvImportPhylogenies.glue
     
   # genotype segment 2 curated sequences using placement files, 
   # add them to the alignment tree and recompute alignments.
-  module btvGenotypeCuratedSeg2Sequences invoke-function genotypeCuratedSeg2  
+  # module btvGenotypeCuratedSeg2Sequences invoke-function genotypeCuratedSeg2  
     
   ## record feature presence
-  #run file glue/recordFeaturePresence.glue
+  # run file glue/recordFeaturePresence.glue
 
 
 

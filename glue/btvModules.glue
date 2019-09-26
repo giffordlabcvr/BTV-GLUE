@@ -53,13 +53,10 @@
   create module --fileName modules/btvPhyloUtility.xml
   create module --fileName modules/btvPhyloImporter.xml
   
-  # selects the coding regions of the full genomes alignment
-  create module --fileName modules/btvFullGenomesPhyloColumnsSelector.xml
-  
   create module --fileName modules/btvSegmentRecogniser.xml  
 
-  create module --fileName modules/btvSeg2GenotypeRecogniser.xml
-  create module --fileName modules/btvSeg6GenotypeRecogniser.xml
+  # create module --fileName modules/btvSeg2GenotypeRecogniser.xml
+  # create module --fileName modules/btvSeg6GenotypeRecogniser.xml
   
   create module --fileName modules/whoRegionTreeRenderer.xml --loadResources
   
@@ -91,16 +88,16 @@
   create module -f modules/s8RefseqsNcbiImporter.xml
   create module -f modules/s9RefseqsNcbiImporter.xml
   create module -f modules/s10RefseqsNcbiImporter.xml
-  create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
+  # create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
   create module -f modules/btvGenotypingNexusExporter.xml  
   
-  create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
-  create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
+  # create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
+  # create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
   
   create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml --loadResources
   
   create module --fileName modules/btvSeg2SequenceReporter.xml
-  create module --fileName modules/btvS2VisualisationUtility.xml
+  # create module --fileName modules/btvS2VisualisationUtility.xml
 
   create module --fileName modules/btvReportingController.xml --loadResources 
   create module --fileName modules/btvFeatureToSvgTransformer.xml --loadResources 

@@ -331,7 +331,7 @@
     },
     {
       "constrainingRef": {
-        "sequenceID": "JX272518"
+        "sequenceID": "JX680466"
       },
       "alignmentName": "AL_S10_GGrC",
       "almtDisplayName": "Genogroup C",
@@ -421,6 +421,9 @@
         },
         {
           "sequenceID": "JX272438"
+        },
+        {
+          "sequenceID": "JX680466"
         }
       ]
     }

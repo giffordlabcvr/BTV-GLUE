@@ -835,7 +835,7 @@
     },
     {
       "constrainingRef": {
-        "sequenceID": "KC153300"
+        "sequenceID": "JX680458"
       },
       "alignmentName": "AL_S2_GGrH",
       "almtDisplayName": "Genogroup H",
@@ -891,7 +891,7 @@
           "alphaSortKey": "A",
           "numericSortKey": "1",
           "constrainingRef": {
-            "sequenceID": "KY049854"
+            "sequenceID": "JX680458"
           },
           "referenceSequences": [
             {
@@ -914,6 +914,9 @@
             },
             {
               "sequenceID": "KP821022"
+            },
+            {
+              "sequenceID": "JX680458"
             }
           ]
         }
