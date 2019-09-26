@@ -1,145 +1,151 @@
 <ncbiImporter>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <specificPrimaryAccessions>
-    <primaryAccession>AJ585187</primaryAccession>
-    <primaryAccession>AJ585143</primaryAccession>
-    <primaryAccession>KX164140</primaryAccession>
-    <primaryAccession>KT946761</primaryAccession>
-    <primaryAccession>KX164080</primaryAccession>
-    <primaryAccession>AB686216</primaryAccession>
-    <primaryAccession>KC662613</primaryAccession>
+    <primaryAccession>KT946760</primaryAccession>
     <primaryAccession>JX272500</primaryAccession>
+    <primaryAccession>KX164080</primaryAccession>
+    <primaryAccession>KC633278</primaryAccession>
+    <primaryAccession>AJ585187</primaryAccession>
+    <primaryAccession>JX272390</primaryAccession>
+    <primaryAccession>HQ222819</primaryAccession>
+    <primaryAccession>KY092144</primaryAccession>
     <primaryAccession>KP196604</primaryAccession>
-    <primaryAccession>JX272470</primaryAccession>
-    <primaryAccession>KP821098</primaryAccession>
     <primaryAccession>JQ086222</primaryAccession>
-    <primaryAccession>MH346492</primaryAccession>
-    <primaryAccession>MF124283</primaryAccession>
-    <primaryAccession>KX695171</primaryAccession>
-    <primaryAccession>HM590642</primaryAccession>
-    <primaryAccession>EU839840</primaryAccession>
-    <primaryAccession>KU760998</primaryAccession>
-    <primaryAccession>KU760988</primaryAccession>
-    <primaryAccession>KM200718</primaryAccession>
-    <primaryAccession>KR061882</primaryAccession>
-    <primaryAccession>KX234079</primaryAccession>
-    <primaryAccession>KY471279</primaryAccession>
-    <primaryAccession>JX272510</primaryAccession>
-    <primaryAccession>KM580478</primaryAccession>
-    <primaryAccession>JN003580</primaryAccession>
-    <primaryAccession>KM580426</primaryAccession>
+    <primaryAccession>MF384479</primaryAccession>
+    <primaryAccession>KP821098</primaryAccession>
+    <primaryAccession>JX272470</primaryAccession>
     <primaryAccession>JX272520</primaryAccession>
-    <primaryAccession>U06784</primaryAccession>
-    <primaryAccession>JQ740772</primaryAccession>
-    <primaryAccession>KY092151</primaryAccession>
+    <primaryAccession>KP339245</primaryAccession>
     <primaryAccession>HQ222821</primaryAccession>
+    <primaryAccession>KY092150</primaryAccession>
+    <primaryAccession>JX272510</primaryAccession>
+    <primaryAccession>JQ972862</primaryAccession>
+    <primaryAccession>KM580478</primaryAccession>
+    <primaryAccession>KM580420</primaryAccession>
+    <primaryAccession>KM580491</primaryAccession>
+    <primaryAccession>KX599360</primaryAccession>
+    <primaryAccession>JX272450</primaryAccession>
+    <primaryAccession>HQ222825</primaryAccession>
+    <primaryAccession>AJ585138</primaryAccession>
+    <primaryAccession>JX272420</primaryAccession>
     <primaryAccession>JN162682</primaryAccession>
+    <primaryAccession>JX272370</primaryAccession>
+    <primaryAccession>KT945049</primaryAccession>
     <primaryAccession>KC633277</primaryAccession>
     <primaryAccession>KX164150</primaryAccession>
-    <primaryAccession>KT945049</primaryAccession>
-    <primaryAccession>JX272370</primaryAccession>
-    <primaryAccession>AJ585141</primaryAccession>
-    <primaryAccession>JX272420</primaryAccession>
-    <primaryAccession>JX560414</primaryAccession>
-    <primaryAccession>KY947344</primaryAccession>
     <primaryAccession>JX272580</primaryAccession>
-    <primaryAccession>JX024950</primaryAccession>
-    <primaryAccession>DQ191278</primaryAccession>
+    <primaryAccession>KP821071</primaryAccession>
+    <primaryAccession>KY654329</primaryAccession>
+    <primaryAccession>JN255883</primaryAccession>
     <primaryAccession>KP821055</primaryAccession>
-    <primaryAccession>KP821056</primaryAccession>
-    <primaryAccession>KP821068</primaryAccession>
-    <primaryAccession>KT317666</primaryAccession>
-    <primaryAccession>KX599360</primaryAccession>
-    <primaryAccession>M17438</primaryAccession>
-    <primaryAccession>S72158</primaryAccession>
-    <primaryAccession>HQ222825</primaryAccession>
-    <primaryAccession>JX272450</primaryAccession>
+    <primaryAccession>KP821044</primaryAccession>
+    <primaryAccession>JX024940</primaryAccession>
+    <primaryAccession>JX024950</primaryAccession>
+    <primaryAccession>JX560414</primaryAccession>
+    <primaryAccession>KY947349</primaryAccession>
+    <primaryAccession>JX272570</primaryAccession>
+    <primaryAccession>KT945043</primaryAccession>
+    <primaryAccession>HQ241072</primaryAccession>
+    <primaryAccession>AJ585182</primaryAccession>
+    <primaryAccession>MF384478</primaryAccession>
+    <primaryAccession>AB686223</primaryAccession>
+    <primaryAccession>KP821080</primaryAccession>
+    <primaryAccession>KP696623</primaryAccession>
+    <primaryAccession>KY092146</primaryAccession>
+    <primaryAccession>KY092145</primaryAccession>
+    <primaryAccession>KP821086</primaryAccession>
+    <primaryAccession>JX272530</primaryAccession>
     <primaryAccession>JQ086292</primaryAccession>
     <primaryAccession>JX272550</primaryAccession>
     <primaryAccession>KT945046</primaryAccession>
     <primaryAccession>KX164130</primaryAccession>
     <primaryAccession>JX272430</primaryAccession>
-    <primaryAccession>KP821080</primaryAccession>
-    <primaryAccession>JN255913</primaryAccession>
-    <primaryAccession>KP696652</primaryAccession>
-    <primaryAccession>MF384478</primaryAccession>
-    <primaryAccession>AB686223</primaryAccession>
-    <primaryAccession>AJ585182</primaryAccession>
-    <primaryAccession>HQ241072</primaryAccession>
-    <primaryAccession>JX272570</primaryAccession>
-    <primaryAccession>KT945045</primaryAccession>
-    <primaryAccession>KY092145</primaryAccession>
-    <primaryAccession>KP821089</primaryAccession>
-    <primaryAccession>JN255963</primaryAccession>
-    <primaryAccession>KP821087</primaryAccession>
-    <primaryAccession>AJ585152</primaryAccession>
-    <primaryAccession>AY493687</primaryAccession>
-    <primaryAccession>MF384475</primaryAccession>
-    <primaryAccession>HQ222820</primaryAccession>
-    <primaryAccession>AY855267</primaryAccession>
-    <primaryAccession>KF986501</primaryAccession>
-    <primaryAccession>HQ222824</primaryAccession>
-    <primaryAccession>AJ585161</primaryAccession>
-    <primaryAccession>AJ585155</primaryAccession>
-    <primaryAccession>JN255933</primaryAccession>
-    <primaryAccession>JX272600</primaryAccession>
-    <primaryAccession>X55800</primaryAccession>
-    <primaryAccession>JX680458</primaryAccession>
-    <primaryAccession>JX272380</primaryAccession>
-    <primaryAccession>KP821008</primaryAccession>
-    <primaryAccession>KP821021</primaryAccession>
-    <primaryAccession>KP821010</primaryAccession>
-    <primaryAccession>KY049854</primaryAccession>
-    <primaryAccession>KY092170</primaryAccession>
-    <primaryAccession>AJ585116</primaryAccession>
-    <primaryAccession>JN635334</primaryAccession>
-    <primaryAccession>AJ585112</primaryAccession>
-    <primaryAccession>KP696553</primaryAccession>
-    <primaryAccession>KM099523</primaryAccession>
-    <primaryAccession>MF384446</primaryAccession>
-    <primaryAccession>MF384464</primaryAccession>
-    <primaryAccession>JX272400</primaryAccession>
-    <primaryAccession>JQ771824</primaryAccession>
-    <primaryAccession>L46685</primaryAccession>
-    <primaryAccession>MF384502</primaryAccession>
-    <primaryAccession>KX442585</primaryAccession>
-    <primaryAccession>JX272440</primaryAccession>
-    <primaryAccession>KX164120</primaryAccession>
     <primaryAccession>JX272540</primaryAccession>
     <primaryAccession>AJ585184</primaryAccession>
-    <primaryAccession>AM498052</primaryAccession>
-    <primaryAccession>KU569991</primaryAccession>
-    <primaryAccession>AB686218</primaryAccession>
-    <primaryAccession>JN613126</primaryAccession>
-    <primaryAccession>JX272410</primaryAccession>
-    <primaryAccession>MF384487</primaryAccession>
-    <primaryAccession>MG206078</primaryAccession>
-    <primaryAccession>AJ585186</primaryAccession>
-    <primaryAccession>JX272480</primaryAccession>
-    <primaryAccession>KY092147</primaryAccession>
-    <primaryAccession>JX965385</primaryAccession>
+    <primaryAccession>KP821077</primaryAccession>
+    <primaryAccession>KX164120</primaryAccession>
+    <primaryAccession>HQ222818</primaryAccession>
+    <primaryAccession>JX272440</primaryAccession>
+    <primaryAccession>KY092152</primaryAccession>
+    <primaryAccession>JQ086272</primaryAccession>
+    <primaryAccession>MF384502</primaryAccession>
+    <primaryAccession>JX272400</primaryAccession>
+    <primaryAccession>KP696671</primaryAccession>
+    <primaryAccession>GQ506489</primaryAccession>
     <primaryAccession>JX272560</primaryAccession>
-    <primaryAccession>GQ506517</primaryAccession>
-    <primaryAccession>KY092166</primaryAccession>
-    <primaryAccession>KX164050</primaryAccession>
-    <primaryAccession>KY092159</primaryAccession>
-    <primaryAccession>JX272590</primaryAccession>
-    <primaryAccession>KY092169</primaryAccession>
-    <primaryAccession>AB686219</primaryAccession>
-    <primaryAccession>MF384477</primaryAccession>
+    <primaryAccession>JX965385</primaryAccession>
+    <primaryAccession>KX164110</primaryAccession>
+    <primaryAccession>KY092147</primaryAccession>
+    <primaryAccession>JX272480</primaryAccession>
+    <primaryAccession>KP821094</primaryAccession>
+    <primaryAccession>KP339235</primaryAccession>
+    <primaryAccession>JX272410</primaryAccession>
+    <primaryAccession>MF384486</primaryAccession>
+    <primaryAccession>MF384498</primaryAccession>
+    <primaryAccession>MF384500</primaryAccession>
+    <primaryAccession>MG206078</primaryAccession>
     <primaryAccession>KX442584</primaryAccession>
     <primaryAccession>KX164100</primaryAccession>
-    <primaryAccession>JQ436729</primaryAccession>
     <primaryAccession>JX272490</primaryAccession>
-    <primaryAccession>AB686217</primaryAccession>
+    <primaryAccession>JQ436729</primaryAccession>
+    <primaryAccession>JQ436734</primaryAccession>
+    <primaryAccession>KY092165</primaryAccession>
+    <primaryAccession>KY092159</primaryAccession>
+    <primaryAccession>KY092156</primaryAccession>
+    <primaryAccession>JQ436730</primaryAccession>
+    <primaryAccession>JX272590</primaryAccession>
+    <primaryAccession>MF124293</primaryAccession>
+    <primaryAccession>KY092157</primaryAccession>
+    <primaryAccession>AB686219</primaryAccession>
+    <primaryAccession>MF384477</primaryAccession>
+    <primaryAccession>JQ771814</primaryAccession>
+    <primaryAccession>AJ585150</primaryAccession>
+    <primaryAccession>AB686214</primaryAccession>
+    <primaryAccession>MF384480</primaryAccession>
     <primaryAccession>JQ086232</primaryAccession>
     <primaryAccession>JX272460</primaryAccession>
-    <primaryAccession>AB686221</primaryAccession>
-    <primaryAccession>JN572917</primaryAccession>
-    <primaryAccession>KP339205</primaryAccession>
-    <primaryAccession>AJ585147</primaryAccession>
-    <primaryAccession>AB686214</primaryAccession>
-    <primaryAccession>AJ585150</primaryAccession>
+    <primaryAccession>KC751419</primaryAccession>
+    <primaryAccession>AB686225</primaryAccession>
+    <primaryAccession>KP820994</primaryAccession>
+    <primaryAccession>KP820989</primaryAccession>
+    <primaryAccession>EU839840</primaryAccession>
+    <primaryAccession>HM590642</primaryAccession>
+    <primaryAccession>KR061882</primaryAccession>
+    <primaryAccession>KY365755</primaryAccession>
+    <primaryAccession>KX234079</primaryAccession>
+    <primaryAccession>KM200718</primaryAccession>
+    <primaryAccession>KU760988</primaryAccession>
+    <primaryAccession>KU760998</primaryAccession>
+    <primaryAccession>KX695171</primaryAccession>
+    <primaryAccession>MF124283</primaryAccession>
+    <primaryAccession>KC153300</primaryAccession>
+    <primaryAccession>KC879616</primaryAccession>
+    <primaryAccession>KF664114</primaryAccession>
+    <primaryAccession>KF563935</primaryAccession>
+    <primaryAccession>KF563933</primaryAccession>
+    <primaryAccession>KF563945</primaryAccession>
+    <primaryAccession>KP821007</primaryAccession>
+    <primaryAccession>MF384446</primaryAccession>
+    <primaryAccession>MF384450</primaryAccession>
+    <primaryAccession>KM099525</primaryAccession>
+    <primaryAccession>KY049854</primaryAccession>
+    <primaryAccession>KY092170</primaryAccession>
+    <primaryAccession>JX272380</primaryAccession>
+    <primaryAccession>KP820998</primaryAccession>
+    <primaryAccession>KP821011</primaryAccession>
+    <primaryAccession>KP821008</primaryAccession>
+    <primaryAccession>KP821022</primaryAccession>
+    <primaryAccession>KP339165</primaryAccession>
+    <primaryAccession>AY493687</primaryAccession>
+    <primaryAccession>JQ086242</primaryAccession>
+    <primaryAccession>HQ222820</primaryAccession>
+    <primaryAccession>KC633279</primaryAccession>
+    <primaryAccession>KF986499</primaryAccession>
+    <primaryAccession>HQ222824</primaryAccession>
+    <primaryAccession>KP821037</primaryAccession>
+    <primaryAccession>KP821036</primaryAccession>
+    <primaryAccession>JX272600</primaryAccession>
+    <primaryAccession>KP696603</primaryAccession>
   </specificPrimaryAccessions>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <sourceName>ncbi-s2-refseqs</sourceName>

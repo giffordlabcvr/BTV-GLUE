@@ -81,7 +81,16 @@
   create module --moduleType fastaUtility
 
   create module -f modules/btvCladeStructureProcessor.xml --loadResources 
+  create module -f modules/s1RefseqsNcbiImporter.xml
   create module -f modules/s2RefseqsNcbiImporter.xml
+  create module -f modules/s3RefseqsNcbiImporter.xml
+  create module -f modules/s4RefseqsNcbiImporter.xml
+  create module -f modules/s5RefseqsNcbiImporter.xml
+  create module -f modules/s6RefseqsNcbiImporter.xml
+  create module -f modules/s7RefseqsNcbiImporter.xml
+  create module -f modules/s8RefseqsNcbiImporter.xml
+  create module -f modules/s9RefseqsNcbiImporter.xml
+  create module -f modules/s10RefseqsNcbiImporter.xml
   create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
   create module -f modules/btvGenotypingNexusExporter.xml  
   

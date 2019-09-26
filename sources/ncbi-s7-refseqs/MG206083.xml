@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG206083</GBSeq_locus>
+    <GBSeq_length>1156</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>13-FEB-2018</GBSeq_update-date>
+    <GBSeq_create-date>13-FEB-2018</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus isolate 5149E serotype 21 segment 7, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MG206083</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG206083.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG206083.1|</GBSeqid>
+      <GBSeqid>gi|1341139773</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Qin,S.</GBAuthor>
+          <GBAuthor>Yang,H.</GBAuthor>
+          <GBAuthor>Zhang,Y.</GBAuthor>
+          <GBAuthor>Li,Z.</GBAuthor>
+          <GBAuthor>Lin,J.</GBAuthor>
+          <GBAuthor>Gao,L.</GBAuthor>
+          <GBAuthor>Liao,D.</GBAuthor>
+          <GBAuthor>Cao,Y.</GBAuthor>
+          <GBAuthor>Ren,P.</GBAuthor>
+          <GBAuthor>Li,H.</GBAuthor>
+          <GBAuthor>Wu,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Full genome sequence of the first bluetongue virus serotype 21 (BTV-21) isolated from China: evidence for genetic reassortment between BTV-21 and bluetongue virus serotype 16 (BTV-16)</GBReference_title>
+        <GBReference_journal>Arch. Virol. (2018) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1007/s00705-018-3718-9</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>29392498</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Qin,S.</GBAuthor>
+          <GBAuthor>Yang,H.</GBAuthor>
+          <GBAuthor>Zhang,Y.</GBAuthor>
+          <GBAuthor>Li,Z.</GBAuthor>
+          <GBAuthor>Lin,J.</GBAuthor>
+          <GBAuthor>Gao,L.</GBAuthor>
+          <GBAuthor>Liao,D.</GBAuthor>
+          <GBAuthor>Cao,Y.</GBAuthor>
+          <GBAuthor>Ren,P.</GBAuthor>
+          <GBAuthor>Li,H.</GBAuthor>
+          <GBAuthor>Wu,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-OCT-2017) Guangxi Key Laboratory of Veterinary Biotechnology, Guangxi Veterinary Research Institute, 51 Youai north Rd, Nanning, Guangxi 530001, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Newbler v. 2.6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1156</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1156</GBInterval_to>
+            <GBInterval_accession>MG206083.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>5149E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>cattle</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>China</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Oct-2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>18..1067</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>18</GBInterval_from>
+            <GBInterval_to>1067</GBInterval_to>
+            <GBInterval_accession>MG206083.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AVA18093.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMIQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSVLTILLLSTLADVYSVLRPEFAIHGVNPMPGPLTRAIARAAYA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaatctcgagagatggacactatcgctgcaagagcactcactgtgatgcgggcatgtgccacgttacaggaagcaaggattgtattagaagcgaatgtaatggaaattttgggaatagctatcaacaggtataatggattgactttgcgtggggttacgatgagacccacctctctagctcaaaggaatgagatgttcttcatgtgtttagacatgatgttgtcagctgctggaattaatgttggaccaatatcgccagattatacccaacatatggctactatcggcgttttggcgactccagagataccatttacaactgaggcagcgaatgagattgcgcgtgtaactggagagacttcaacttggggaccggcccgtcagccgtatggtttctttctcgagacagaggaggtgtatcaaccgggaagatggttcatgagagcggctcaagtggtcacgcctgtggtttgcggcccggatatgatccaggtttcattgaacgcaggagcaagaggtgatgtacagcagatctttcaaggtcgaaacgacccaatgatgatttatctcgtctggagaaggattgaaaatttttctatgcctcaaggtaactcacagcggacgttagcaggagtgacagtgagtgtaggaggtgtggatatgagggcaggacggataatcgcgtgggatggacaggcggttctgcagatacataatcctacccaacagaacgcaatggtacagattcaagttgtgttttatatttcaatggataagacactaaatcaatatccagctttgacagcggagattttcaatgtatatagttttagagaccacacatggcatggactaagaacagcaatactaaatagaacgaccttaccgaatatgcttccgccgattttcccaccaaatgatagagacagcgtcttaacaattttactactgtcgacgctcgcggatgtttattcggtgttgagacctgagtttgcaatacacggtgtaaatccaatgcctggcccgctcacacgtgcaattgcacgcgccgcttacgcatagtccactttgcacgggtgtgggttatgtggagggtgtgtcagttgcaagaaaaatgtatcttgtttaaacgtctctgggattacacttac</GBSeq_sequence>
+  </GBSeq>

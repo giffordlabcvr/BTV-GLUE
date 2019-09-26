@@ -1,5 +1,0 @@
-<clusterPickerRunner>
-    <initialThreshold>70</initialThreshold>
-	<supportThreshold>70</supportThreshold>
-	<geneticThreshold>0.06</geneticThreshold>
-</clusterPickerRunner>
