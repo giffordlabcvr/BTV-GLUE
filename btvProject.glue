@@ -30,8 +30,11 @@ project btv
   import source sources/ncbi-s8-refseqs 
   import source sources/ncbi-s9-refseqs 
   import source sources/ncbi-s10-refseqs 
+
+  # create per-segment master references and add feature locations
+  run file glue/btvReferences.glue
   
-  # create new-style (seg 2) references
+  # create other references based on per-segment JSONs 
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S1_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S2_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S3_clade_structure_and_refs.json
@@ -42,9 +45,6 @@ project btv
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S8_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S9_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S10_clade_structure_and_refs.json
-
-  # create segment master references and add basic feature locations
-  run file glue/btvReferences.glue
 
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
@@ -63,8 +63,11 @@ project btv
   # import sequence-associated data from GenBank xml and tabular
   run file glue/btvSequenceAssociatedData.glue
 
-  # two sets of unconstrained alignments used for phylogenetic analysis
-  # run script glue/importAlignments.js
+  # various sets of unconstrained alignments used for phylogenetic analysis
+  run script glue/btvImportCompleteSegNtAlignments.js
+  run script glue/btvImportOutgroupCodonAlignments.js
+
+  # run script glue/btvImportGenoCodonAlignments.js
 
   # Trees associated with the BTV_OUTG_CODON... alignments as side data.
   # RAxML-NG generated tree (500 bootstraps).

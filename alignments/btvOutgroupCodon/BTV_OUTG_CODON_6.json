@@ -11911,7 +11911,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s6-refseqs",
                 "sequenceID":"JX680462",
                 "referenceMember":false,
                 "segments":[

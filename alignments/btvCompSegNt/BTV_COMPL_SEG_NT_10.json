@@ -9498,7 +9498,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s10-refseqs",
                 "sequenceID":"JX680466",
                 "referenceMember":false,
                 "segments":[

@@ -12196,7 +12196,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s7-refseqs",
                 "sequenceID":"JX680463",
                 "referenceMember":false,
                 "segments":[

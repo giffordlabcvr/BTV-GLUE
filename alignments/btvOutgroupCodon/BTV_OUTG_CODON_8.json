@@ -8148,7 +8148,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s8-refseqs",
                 "sequenceID":"JX680464",
                 "referenceMember":false,
                 "segments":[

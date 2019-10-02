@@ -10507,7 +10507,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s9-refseqs",
                 "sequenceID":"JX680465",
                 "referenceMember":false,
                 "segments":[

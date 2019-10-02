@@ -4387,7 +4387,7 @@
                 ]
             },
             {
-                "sourceName":"ncbi-refseqs",
+                "sourceName":"ncbi-s5-refseqs",
                 "sequenceID":"JX680461",
                 "referenceMember":false,
                 "segments":[
