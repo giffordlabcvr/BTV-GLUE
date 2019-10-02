@@ -1,124 +1,144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-
-    <GBSeq_locus>KP196603</GBSeq_locus>
-    <GBSeq_length>3944</GBSeq_length>
-    <GBSeq_strandedness>single</GBSeq_strandedness>
-    <GBSeq_moltype>RNA</GBSeq_moltype>
-    <GBSeq_topology>linear</GBSeq_topology>
-    <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>22-APR-2015</GBSeq_update-date>
-    <GBSeq_create-date>22-APR-2015</GBSeq_create-date>
-    <GBSeq_definition>Bluetongue virus isolate BT 57/08 segment S1, complete sequence</GBSeq_definition>
-    <GBSeq_primary-accession>KP196603</GBSeq_primary-accession>
-    <GBSeq_accession-version>KP196603.1</GBSeq_accession-version>
-    <GBSeq_other-seqids>
-      <GBSeqid>gb|KP196603.1|</GBSeqid>
-      <GBSeqid>gi|808034835</GBSeqid>
-    </GBSeq_other-seqids>
-    <GBSeq_source>Bluetongue virus</GBSeq_source>
-    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
-    <GBSeq_references>
-      <GBReference>
-        <GBReference_reference>1</GBReference_reference>
-        <GBReference_position>1..3944</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Wright,I.M.</GBAuthor>
-          <GBAuthor>Potgieter,C.A.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (24-NOV-2014) Research and Development, Deltamune (Pty) Ltd, 248 Jean Avenue, Pretoria, Gauteng 0110, South Africa</GBReference_journal>
-      </GBReference>
-    </GBSeq_references>
-    <GBSeq_comment>GenBank Accession Numbers KP196603-KP196612 represent the complete genome of Bluetongue virus BT 57/08.; ; ##Assembly-Data-START## ; Assembly Method :: Lasergene v. 8.1.2 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</GBSeq_comment>
-    <GBSeq_feature-table>
-      <GBFeature>
-        <GBFeature_key>source</GBFeature_key>
-        <GBFeature_location>1..3944</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>3944</GBInterval_to>
-            <GBInterval_accession>KP196603.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>organism</GBQualifier_name>
-            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>mol_type</GBQualifier_name>
-            <GBQualifier_value>genomic RNA</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>isolate</GBQualifier_name>
-            <GBQualifier_value>BT 57/08</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>isolation_source</GBQualifier_name>
-            <GBQualifier_value>blood</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>host</GBQualifier_name>
-            <GBQualifier_value>Vicugna pacos</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>taxon:40051</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>segment</GBQualifier_name>
-            <GBQualifier_value>S1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>country</GBQualifier_name>
-            <GBQualifier_value>South Africa</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>collection_date</GBQualifier_name>
-            <GBQualifier_value>2008</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>CDS</GBFeature_key>
-        <GBFeature_location>12..3920</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>12</GBInterval_from>
-            <GBInterval_to>3920</GBInterval_to>
-            <GBInterval_accession>KP196603.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>note</GBQualifier_name>
-            <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>codon_start</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>product</GBQualifier_name>
-            <GBQualifier_value>VP1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>AKC92693.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>translation</GBQualifier_name>
-            <GBQualifier_value>MVAITVQGAQLIKRVVERFYPGIAFNINEGACYIYKFSDHIRRIRMKHGTKYRRQAEEIMRNISLRKERLYGIPVLDEVEWKYVFDGQTFQSYAFEVYVNSILPWSELDPEEEFLRNYRVSREMTEVEKFIEFRAKNEMQIYGDIPIKVWCCFINELSAELKHIPLGMQVMADFVNRFDSPFHQGNRDLSNLEDFQVAYTTPLLFEMCCMESILEFNIKMRMREEDISALEFGDMKIDPVGLLREFFILCLPHPKKINNVLRAPYSWFVKMWGVGADPIVVLQSTAGDDRNSKDVFYDKFRTEPNRYKALFRSSFYNESRRMNEEKILEAVKYSQKLGSHDRRLPLFEKMLKTVYTTPFYPHKSSNMILASFLLSIQTITGYGRAWVKNVSTEFDKQLKPNPSNLVQDVSDLTREFFKQAYVEAKERREEIVKPEDLYTSMLRLARNTSSGFSTEIYVKKRFGPRLRDKDLIKINSRIKALVIFTKGHTVFTDEELHKKYNSVELYQTKGSRDVPIKATRTIYSINLSVLVPQLIVTLPLNEYFSRVGGITSPDYKKIGGKVIVGDLEATGSRVMDAADCFRNSADRDIFTIAIDYSEYDTHLTRHNFRTGMLQGIREAMAPYRDLRYEGYTLEQIVDFGYGEGRVANTLWNGKRRLFKTTFDAYIRLDESERDKGSFKVPKGVLPVSSIDVANRIAVDKGFDTLIAATDGSDLALIDTHLSGENSTLIANSMHNMAIGTLIQREVGKEQPGILTFLSEQYVGDDTLFYTKLHTTDTKVFDKVAASIFDTVVKCGHEASPSKTMMTPYSVEKTQTHAKQGCYVPQDRMMIISSERRKDIEDVQGYVRSQVQTMITKVSRGFCHDLAQLILMLKTTFIGAWKMKRTIKEDAMYRDRKFDSNDEDGFTLIQIRNPLALYVPIGWNGYGAHPAALNIVMTEEMYVDSIMISKLDEIMAPIRRIVHDVPPCWNETQGDKRGLISATKMSFFSKMARPAVQAALSDPQIMNLVEELPLGEFSPGRISRTMMHSALLKESSARTLLSSGYELEYQKALNSWIAQVSMRLGEESGVISTSYAKLFDVYFEGELDGAPYMFPDQNLSPQFYIQKMMIGPRVSSRVRNSYVDRIDVILRKDVVMRGFITANTILNVIEKLGTNHSVGDLVTVFTLMNIETRVAEELAEYMTSEKIRFDALKLLKKGIAGDEFTMSLNVATQDFIDTYLAYPYQLTKTEVDAISLYCTQMVMLRAALGLPKKKMKIVVTDDAKKRYKIRLQRFRTHVPKIKVLKKLIDPNRMTVRNLENQFV</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-    </GBSeq_feature-table>
-    <GBSeq_sequence>gttaaaatgcaatggtcgcaatcaccgtgcaaggtgcacagctcatcaagcgagtggtcgaacgcttttatccagggatagcatttaatataaatgaaggagcatgttatatatataagttttctgatcatatacgacgtataaggatgaaacatgggacgaaatatcgacggcaggcggaagagattatgcgcaacataagtttgagaaaagagcgattgtatgggataccagtattagatgaggtggagtggaagtatgtgtttgatggtcaaacgttccaaagttacgcttttgaggtgtacgtgaactcaattttgccgtggagtgaacttgatccggaggaagagttcttacgtaattatagagtttcgagggaaatgactgaggtggaaaaatttatcgaattccgtgctaagaacgagatgcaaatatacggagatatacccattaaagtgtggtgttgtttcatcaacgaactgagcgcagaattaaagcatattcctttagggatgcaagttatggcggactttgtaaaccgttttgattcaccattccatcaggggaatagagatttatcaaatcttgaggattttcaagttgcatacactactccgcttttatttgaaatgtgttgcatggaatcaattttagaattcaatattaagatgcgtatgcgtgaagaagatatctcggcgctggaatttggtgatatgaaaattgatccggttggactattacgtgagtttttcattctgtgcttaccacacccaaagaagattaacaacgttctaagagcgccatattcttggttcgtaaagatgtggggcgtcggagctgatccgatcgttgttttacaatctacggcgggcgatgacagaaattcaaaggatgtattttatgataaatttcgaaccgagccaaatcgatacaaagctctatttcgatcatcgttttataacgaatcaagacgaatgaatgaggagaagattctagaggcagtaaagtattcgcaaaaattgggctcgcatgaccgtagattacctctttttgagaagatgttaaagacggtttatactacaccattttatccacataagagctcgaacatgatactagcatcttttctattaagcattcaaactattactggatatggcagggcgtgggtgaagaacgtgagtactgaattcgacaaacagctgaagccgaacccgagcaatctggttcaggatgtttcggatttaacgcgggaattctttaaacaagcatatgttgaagcaaaagaacgtagagaagagatcgttaaacctgaggatttatacacgtcgatgctgcgattagcgagaaatacgagttcaggtttttcaaccgaaatttatgtgaaaaagagattcggtccaaggttaagggataaagatttgatcaagatcaattcgaggatcaaggctttagttatctttactaaaggacatactgttttcactgatgaggaacttcataaaaagtataatagtgtagagctataccaaactaagggttcaagagatgtaccgattaaggctacgagaacaatatattcaatcaatctttcagtgttggtaccgcagttaattgtcaccttacccttgaatgaatatttttctagggttggcgggataactagcccggactataagaaaatcggaggaaaagtgattgttggagatttggaggccacgggttcgcgcgtgatggatgccgctgattgctttcgcaactctgcagatcgcgatatattcacaatcgcaatcgattatagtgaatatgatacacacctaacgcgacataattttcgaaccggtatgctccaaggaatcagagaagctatggctccctatagggatttgcgatatgaaggttatacgttggagcaaatcgtagattttggatatggagaggggagagtagcgaatacgttatggaatggaaagcgaagactgttcaaaaccacatttgatgcatatatacgattagacgagagcgagcgagacaaaggtagtttcaaagttcccaagggagtgcttccagtatcgagtatcgatgttgcgaatcgaatcgcagttgacaaagggttcgatacgcttatcgcggcaacggatggaagcgatttggccttgatcgacacgcacctttccggcgagaattcgactctcatcgctaactcgatgcacaatatggctattggaaccttgatacaacgagaagttgggaaggagcagccagggattcttactttcttatcggaacaatacgtgggggatgacacactattttacacaaagctacacaccacagatactaaggtctttgataaagtcgcggcttcaatttttgacacagtggtgaagtgtggacatgaagcttcacctagtaagacaatgatgacgccatactctgtggagaagacccaaacgcatgctaaacagggttgttacgtaccgcaggatcgtatgatgattatttcatcagaaaggaggaaggatatcgaggatgtgcaggggtacgtacgttcgcaagtgcaaacgatgataacgaaggtgagtagaggattttgtcatgatttagcgcagctaatattgatgcttaagactactttcatcggtgcgtggaagatgaagcgaactattaaggaagatgcgatgtatcgcgacagaaaatttgattcgaatgatgaggacgggtttacgttgatacagattcggaatcccttagcattatatgttcctataggctggaatgggtacggtgcgcatccggcagctcttaatatcgttatgacggaagagatgtatgttgattcgatcatgatctcaaaactggatgaaattatggcgccgataaggaggattgtgcatgacgttccaccgtgttggaatgagactcagggagacaaacgcggattgattagtgcaactaaaatgagtttcttttcgaaaatggctaggcccgctgttcaagccgctttaagcgatccgcaaataatgaatctagttgaagagcttccacttggagagttttcacctggacgtatttcgagaaccatgatgcatagcgctcttctgaaagaatcaagcgctaggacgttgttatccagtggttacgaactagaatatcagaaggctttaaatagttggatcgcacaagtttcgatgcgtttgggagaggagtcaggagtaatatcaacatcttatgcgaaactcttcgacgtatacttcgaaggtgagttagacggtgcaccctatatgtttccagaccagaacttatctccgcagttctatatacagaagatgatgattggcccacgagttagctcacgagtgcggaattcttatgtagatcggattgatgtgatattgagaaaagatgtcgttatgcgcggctttatcactgccaataccattctgaacgtaattgaaaaactgggaactaatcactcagtgggggatttggtcacagtctttacgctcatgaacatcgagacacgcgtggctgaagagctagctgaatatatgacttcagaaaagatacgatttgacgcgttgaagcttctaaagaaaggaatcgctggcgacgaattcactatgtcgttgaacgttgctacacaggattttattgacacttatctcgcctatccctatcagttgacgaaaacggaagtcgacgctatttcgttgtattgcacgcagatggttatgctacgcgcggcgctcgggttaccaaagaagaagatgaagattgttgtaactgatgacgcaaagaaaagatacaaaatacgtttacagaggtttagaacgcacgtacctaaaattaaagttcttaagaaattgattgatccaaacagaatgacagttagaaatcttgaaaaccaattcgtttgagagcgcgcgccgcattacacttac</GBSeq_sequence>
-  </GBSeq>
+  <GBSeq_locus>KP196603</GBSeq_locus>
+  <GBSeq_length>3944</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>22-APR-2015</GBSeq_update-date>
+  <GBSeq_create-date>22-APR-2015</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus isolate BT 57/08 segment S1, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>KP196603</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP196603.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP196603.1|</GBSeqid>
+    <GBSeqid>gi|808034835</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..3944</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wright,I.M.</GBAuthor>
+        <GBAuthor>Potgieter,C.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-NOV-2014) Research and Development, Deltamune (Pty) Ltd, 248 Jean Avenue, Pretoria, Gauteng 0110, South Africa</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers KP196603-KP196612 represent the complete genome of Bluetongue virus BT 57/08; ##Assembly-Data-START## Assembly Method Lasergene v. 8.1.2 Sequencing Technology 454 ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..3944</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>3944</GBInterval_to>
+          <GBInterval_accession>KP196603.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BT 57/08</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>blood</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Vicugna pacos</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>S1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>South Africa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2008</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>12..3920</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>12</GBInterval_from>
+          <GBInterval_to>3920</GBInterval_to>
+          <GBInterval_accession>KP196603.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AKC92693.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MVAITVQGAQLIKRVVERFYPGIAFNINEGACYIYKFSDHIRRIRMKHGTKYRRQAEEIMRNISLRKERLYGIPVLDEVEWKYVFDGQTFQSYAFEVYVNSILPWSELDPEEEFLRNYRVSREMTEVEKFIEFRAKNEMQIYGDIPIKVWCCFINELSAELKHIPLGMQVMADFVNRFDSPFHQGNRDLSNLEDFQVAYTTPLLFEMCCMESILEFNIKMRMREEDISALEFGDMKIDPVGLLREFFILCLPHPKKINNVLRAPYSWFVKMWGVGADPIVVLQSTAGDDRNSKDVFYDKFRTEPNRYKALFRSSFYNESRRMNEEKILEAVKYSQKLGSHDRRLPLFEKMLKTVYTTPFYPHKSSNMILASFLLSIQTITGYGRAWVKNVSTEFDKQLKPNPSNLVQDVSDLTREFFKQAYVEAKERREEIVKPEDLYTSMLRLARNTSSGFSTEIYVKKRFGPRLRDKDLIKINSRIKALVIFTKGHTVFTDEELHKKYNSVELYQTKGSRDVPIKATRTIYSINLSVLVPQLIVTLPLNEYFSRVGGITSPDYKKIGGKVIVGDLEATGSRVMDAADCFRNSADRDIFTIAIDYSEYDTHLTRHNFRTGMLQGIREAMAPYRDLRYEGYTLEQIVDFGYGEGRVANTLWNGKRRLFKTTFDAYIRLDESERDKGSFKVPKGVLPVSSIDVANRIAVDKGFDTLIAATDGSDLALIDTHLSGENSTLIANSMHNMAIGTLIQREVGKEQPGILTFLSEQYVGDDTLFYTKLHTTDTKVFDKVAASIFDTVVKCGHEASPSKTMMTPYSVEKTQTHAKQGCYVPQDRMMIISSERRKDIEDVQGYVRSQVQTMITKVSRGFCHDLAQLILMLKTTFIGAWKMKRTIKEDAMYRDRKFDSNDEDGFTLIQIRNPLALYVPIGWNGYGAHPAALNIVMTEEMYVDSIMISKLDEIMAPIRRIVHDVPPCWNETQGDKRGLISATKMSFFSKMARPAVQAALSDPQIMNLVEELPLGEFSPGRISRTMMHSALLKESSARTLLSSGYELEYQKALNSWIAQVSMRLGEESGVISTSYAKLFDVYFEGELDGAPYMFPDQNLSPQFYIQKMMIGPRVSSRVRNSYVDRIDVILRKDVVMRGFITANTILNVIEKLGTNHSVGDLVTVFTLMNIETRVAEELAEYMTSEKIRFDALKLLKKGIAGDEFTMSLNVATQDFIDTYLAYPYQLTKTEVDAISLYCTQMVMLRAALGLPKKKMKIVVTDDAKKRYKIRLQRFRTHVPKIKVLKKLIDPNRMTVRNLENQFV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>27..3917</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>27</GBInterval_from>
+          <GBInterval_to>3917</GBInterval_to>
+          <GBInterval_accession>KP196603.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus RNA-dependent RNA polymerase (VP1); Region: Orbi_VP1; pfam05788</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:283451</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaatgcaatggtcgcaatcaccgtgcaaggtgcacagctcatcaagcgagtggtcgaacgcttttatccagggatagcatttaatataaatgaaggagcatgttatatatataagttttctgatcatatacgacgtataaggatgaaacatgggacgaaatatcgacggcaggcggaagagattatgcgcaacataagtttgagaaaagagcgattgtatgggataccagtattagatgaggtggagtggaagtatgtgtttgatggtcaaacgttccaaagttacgcttttgaggtgtacgtgaactcaattttgccgtggagtgaacttgatccggaggaagagttcttacgtaattatagagtttcgagggaaatgactgaggtggaaaaatttatcgaattccgtgctaagaacgagatgcaaatatacggagatatacccattaaagtgtggtgttgtttcatcaacgaactgagcgcagaattaaagcatattcctttagggatgcaagttatggcggactttgtaaaccgttttgattcaccattccatcaggggaatagagatttatcaaatcttgaggattttcaagttgcatacactactccgcttttatttgaaatgtgttgcatggaatcaattttagaattcaatattaagatgcgtatgcgtgaagaagatatctcggcgctggaatttggtgatatgaaaattgatccggttggactattacgtgagtttttcattctgtgcttaccacacccaaagaagattaacaacgttctaagagcgccatattcttggttcgtaaagatgtggggcgtcggagctgatccgatcgttgttttacaatctacggcgggcgatgacagaaattcaaaggatgtattttatgataaatttcgaaccgagccaaatcgatacaaagctctatttcgatcatcgttttataacgaatcaagacgaatgaatgaggagaagattctagaggcagtaaagtattcgcaaaaattgggctcgcatgaccgtagattacctctttttgagaagatgttaaagacggtttatactacaccattttatccacataagagctcgaacatgatactagcatcttttctattaagcattcaaactattactggatatggcagggcgtgggtgaagaacgtgagtactgaattcgacaaacagctgaagccgaacccgagcaatctggttcaggatgtttcggatttaacgcgggaattctttaaacaagcatatgttgaagcaaaagaacgtagagaagagatcgttaaacctgaggatttatacacgtcgatgctgcgattagcgagaaatacgagttcaggtttttcaaccgaaatttatgtgaaaaagagattcggtccaaggttaagggataaagatttgatcaagatcaattcgaggatcaaggctttagttatctttactaaaggacatactgttttcactgatgaggaacttcataaaaagtataatagtgtagagctataccaaactaagggttcaagagatgtaccgattaaggctacgagaacaatatattcaatcaatctttcagtgttggtaccgcagttaattgtcaccttacccttgaatgaatatttttctagggttggcgggataactagcccggactataagaaaatcggaggaaaagtgattgttggagatttggaggccacgggttcgcgcgtgatggatgccgctgattgctttcgcaactctgcagatcgcgatatattcacaatcgcaatcgattatagtgaatatgatacacacctaacgcgacataattttcgaaccggtatgctccaaggaatcagagaagctatggctccctatagggatttgcgatatgaaggttatacgttggagcaaatcgtagattttggatatggagaggggagagtagcgaatacgttatggaatggaaagcgaagactgttcaaaaccacatttgatgcatatatacgattagacgagagcgagcgagacaaaggtagtttcaaagttcccaagggagtgcttccagtatcgagtatcgatgttgcgaatcgaatcgcagttgacaaagggttcgatacgcttatcgcggcaacggatggaagcgatttggccttgatcgacacgcacctttccggcgagaattcgactctcatcgctaactcgatgcacaatatggctattggaaccttgatacaacgagaagttgggaaggagcagccagggattcttactttcttatcggaacaatacgtgggggatgacacactattttacacaaagctacacaccacagatactaaggtctttgataaagtcgcggcttcaatttttgacacagtggtgaagtgtggacatgaagcttcacctagtaagacaatgatgacgccatactctgtggagaagacccaaacgcatgctaaacagggttgttacgtaccgcaggatcgtatgatgattatttcatcagaaaggaggaaggatatcgaggatgtgcaggggtacgtacgttcgcaagtgcaaacgatgataacgaaggtgagtagaggattttgtcatgatttagcgcagctaatattgatgcttaagactactttcatcggtgcgtggaagatgaagcgaactattaaggaagatgcgatgtatcgcgacagaaaatttgattcgaatgatgaggacgggtttacgttgatacagattcggaatcccttagcattatatgttcctataggctggaatgggtacggtgcgcatccggcagctcttaatatcgttatgacggaagagatgtatgttgattcgatcatgatctcaaaactggatgaaattatggcgccgataaggaggattgtgcatgacgttccaccgtgttggaatgagactcagggagacaaacgcggattgattagtgcaactaaaatgagtttcttttcgaaaatggctaggcccgctgttcaagccgctttaagcgatccgcaaataatgaatctagttgaagagcttccacttggagagttttcacctggacgtatttcgagaaccatgatgcatagcgctcttctgaaagaatcaagcgctaggacgttgttatccagtggttacgaactagaatatcagaaggctttaaatagttggatcgcacaagtttcgatgcgtttgggagaggagtcaggagtaatatcaacatcttatgcgaaactcttcgacgtatacttcgaaggtgagttagacggtgcaccctatatgtttccagaccagaacttatctccgcagttctatatacagaagatgatgattggcccacgagttagctcacgagtgcggaattcttatgtagatcggattgatgtgatattgagaaaagatgtcgttatgcgcggctttatcactgccaataccattctgaacgtaattgaaaaactgggaactaatcactcagtgggggatttggtcacagtctttacgctcatgaacatcgagacacgcgtggctgaagagctagctgaatatatgacttcagaaaagatacgatttgacgcgttgaagcttctaaagaaaggaatcgctggcgacgaattcactatgtcgttgaacgttgctacacaggattttattgacacttatctcgcctatccctatcagttgacgaaaacggaagtcgacgctatttcgttgtattgcacgcagatggttatgctacgcgcggcgctcgggttaccaaagaagaagatgaagattgttgtaactgatgacgcaaagaaaagatacaaaatacgtttacagaggtttagaacgcacgtacctaaaattaaagttcttaagaaattgattgatccaaacagaatgacagttagaaatcttgaaaaccaattcgtttgagagcgcgcgccgcattacacttac</GBSeq_sequence>
+</GBSeq>

@@ -66,8 +66,7 @@ project btv
   # various sets of unconstrained alignments used for phylogenetic analysis
   run script glue/btvImportCompleteSegNtAlignments.js
   run script glue/btvImportOutgroupCodonAlignments.js
-
-  # run script glue/btvImportGenoCodonAlignments.js
+  run script glue/btvImportGenoCodonAlignments.js
 
   # Trees associated with the BTV_OUTG_CODON... alignments as side data.
   # RAxML-NG generated tree (500 bootstraps).

@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Bluetongue virus 3</GBSeq_source>
     <GBSeq_organism>Bluetongue virus 3</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

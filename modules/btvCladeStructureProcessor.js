@@ -43,6 +43,33 @@ function generateRefSeqNcbiImporter(jsonStructureFile, ncbiImporterFile) {
 	glue.command(["file-util", "save-string", refSeqImporterString, ncbiImporterFile]);
 }
 
+function generateRefseqCopyScript() {
+
+	var copyScript = "";
+	
+	for(var i = 1; i <= 10; i++) {
+		var cladeStructure = loadJsonCladeStructure("json/S"+i+"_clade_structure_and_refs.json");
+		var sourceName = cladeStructure.referenceSourceName;
+		copyScript += "rm -rf sources/"+sourceName+"\n";
+		copyScript += "mkdir -p sources/"+sourceName+"\n";
+		
+		visitStructureRefseqs(cladeStructure, function(refseq) {
+			var oldSourceName = "ncbi-curated";
+			if(refseq.sequenceID == "AM744982") {
+				oldSourceName = "ncbi-outgroup";
+			}
+			
+			copyScript += 
+				"cp sources/"+oldSourceName+"/"+refseq.sequenceID+".xml sources/"+sourceName+"\n"
+		});
+		glue.logInfo("Generated copy script for segment "+i);
+	}
+
+	glue.command(["file-util", "save-string", copyScript, "copyRefsFromCurated.sh"]);
+
+	
+}
+
 function generateSegmentBlastRecogniser(blastRecogniserFile) {
 
 	var segNumToRefsString = {};
@@ -180,7 +207,24 @@ function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 
 }
 
+function generateAllGenotypingCodonAlignments() {
+	for(var i = 1; i <= 10; i++) {
+		glue.logInfo("Generating genotyping codon alignment for segment "+i);
+		var almtName = "BTV_GENO_CODON_"+i;
+		generateGenotypingCodonAlignment("json/S"+i+"_clade_structure_and_refs.json", 
+				"BTV_OUTG_CODON_"+i, almtName);
+		glue.inMode("module/fastaAlignmentExporter", function() {
+			glue.command(["export", almtName, "-a", "-o", "alignments/btvGenotypingCodon/"+almtName+".fna"]);
+		});
+		glue.inMode("alignment/"+almtName, function() {
+			glue.command(["export", "command-document", "-f", "alignments/btvGenotypingCodon/"+almtName+".json"]);
+		});
+	}
+}
 
+
+// replicate a subset of rows of an OUTG_CODON alignment, placing them in a GENO_CODON alignment.
+// the specific rows are given by a clade structure file.
 
 function generateGenotypingCodonAlignment(jsonStructureFile, outgCodonAlignmentName, genoCodonAlignmentName) {
 	var cladeStructure = loadJsonCladeStructure(jsonStructureFile);
@@ -200,7 +244,12 @@ function generateGenotypingCodonAlignment(jsonStructureFile, outgCodonAlignmentN
 		
 		var segmentObjs;
 		
-		glue.inMode("alignment/"+outgCodonAlignmentName+"/member/"+curatedSourceName+"/"+sequenceID, function() {
+		var oldSourceName = curatedSourceName;
+		if(sequenceID == "AM744982") {
+			oldSourceName = "ncbi-outgroup";
+		}
+		
+		glue.inMode("alignment/"+outgCodonAlignmentName+"/member/"+oldSourceName+"/"+sequenceID, function() {
 			segmentObjs = glue.tableToObjects(glue.command(["list", "segment"]));
 		});
 		

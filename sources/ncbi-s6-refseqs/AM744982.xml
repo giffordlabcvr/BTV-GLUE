@@ -21,7 +21,7 @@
     </GBSeq_keywords>
     <GBSeq_source>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)</GBSeq_source>
     <GBSeq_organism>Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>

@@ -1,168 +1,167 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-
-    <GBSeq_locus>JQ972864</GBSeq_locus>
-    <GBSeq_length>1981</GBSeq_length>
-    <GBSeq_strandedness>single</GBSeq_strandedness>
-    <GBSeq_moltype>RNA</GBSeq_moltype>
-    <GBSeq_topology>linear</GBSeq_topology>
-    <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>30-APR-2014</GBSeq_update-date>
-    <GBSeq_create-date>23-JUL-2012</GBSeq_create-date>
-    <GBSeq_definition>Bluetongue virus 11 strain BTV-11_MQ segment 4, complete sequence</GBSeq_definition>
-    <GBSeq_primary-accession>JQ972864</GBSeq_primary-accession>
-    <GBSeq_accession-version>JQ972864.1</GBSeq_accession-version>
-    <GBSeq_other-seqids>
-      <GBSeqid>gb|JQ972864.1|</GBSeqid>
-      <GBSeqid>gi|395805165</GBSeqid>
-    </GBSeq_other-seqids>
-    <GBSeq_source>Bluetongue virus 11</GBSeq_source>
-    <GBSeq_organism>Bluetongue virus 11</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
-    <GBSeq_references>
-      <GBReference>
-        <GBReference_reference>1</GBReference_reference>
-        <GBReference_position>1..1981</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Vandenbussche,F.</GBAuthor>
-          <GBAuthor>Sailleau,C.</GBAuthor>
-          <GBAuthor>Rosseel,T.</GBAuthor>
-          <GBAuthor>Desprat,A.</GBAuthor>
-          <GBAuthor>Viarouge,C.</GBAuthor>
-          <GBAuthor>Richardson,J.</GBAuthor>
-          <GBAuthor>Eschbaumer,M.</GBAuthor>
-          <GBAuthor>Hoffmann,B.</GBAuthor>
-          <GBAuthor>De Clercq,K.</GBAuthor>
-          <GBAuthor>Breard,E.</GBAuthor>
-          <GBAuthor>Zientara,S.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Full-Genome Sequencing of Four Bluetongue Virus Serotype 11 Viruses</GBReference_title>
-        <GBReference_journal>Transbound Emerg Dis (2013) In press</GBReference_journal>
-        <GBReference_xref>
-          <GBXref>
-            <GBXref_dbname>doi</GBXref_dbname>
-            <GBXref_id>10.1111/tbed.12178</GBXref_id>
-          </GBXref>
-        </GBReference_xref>
-        <GBReference_pubmed>24750582</GBReference_pubmed>
-        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
-      </GBReference>
-      <GBReference>
-        <GBReference_reference>2</GBReference_reference>
-        <GBReference_position>1..1981</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Vandenbussche,F.</GBAuthor>
-          <GBAuthor>Rosseel,T.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (24-APR-2012) Viral Diseases, CODA-CERVA, Groeselenberg 99, Brussels, Brussels 1180, Belgium</GBReference_journal>
-      </GBReference>
-    </GBSeq_references>
-    <GBSeq_comment>GenBank Accession Numbers JQ972861-JQ972870 represent sequences from the ten segments of Bluetongue virus 11.</GBSeq_comment>
-    <GBSeq_feature-table>
-      <GBFeature>
-        <GBFeature_key>source</GBFeature_key>
-        <GBFeature_location>1..1981</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1981</GBInterval_to>
-            <GBInterval_accession>JQ972864.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>organism</GBQualifier_name>
-            <GBQualifier_value>Bluetongue virus 11</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>mol_type</GBQualifier_name>
-            <GBQualifier_value>genomic RNA</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>strain</GBQualifier_name>
-            <GBQualifier_value>BTV-11_MQ</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>serotype</GBQualifier_name>
-            <GBQualifier_value>BTV-11</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>host</GBQualifier_name>
-            <GBQualifier_value>cattle</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>taxon:35329</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>segment</GBQualifier_name>
-            <GBQualifier_value>4</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>country</GBQualifier_name>
-            <GBQualifier_value>Martinique</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>collection_date</GBQualifier_name>
-            <GBQualifier_value>2010</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>gene</GBFeature_key>
-        <GBFeature_location>1..1981</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1981</GBInterval_to>
-            <GBInterval_accession>JQ972864.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>gene</GBQualifier_name>
-            <GBQualifier_value>VP4</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>CDS</GBFeature_key>
-        <GBFeature_location>9..1943</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>9</GBInterval_from>
-            <GBInterval_to>1943</GBInterval_to>
-            <GBInterval_accession>JQ972864.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>gene</GBQualifier_name>
-            <GBQualifier_value>VP4</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>codon_start</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>product</GBQualifier_name>
-            <GBQualifier_value>VP4 core protein</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>AFN71133.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>translation</GBQualifier_name>
-            <GBQualifier_value>MPEPHAVLYVTNELSHIVKNGFLPIWKLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKSIQLADIIKTVDVRIPREVAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHRIYGMPEIPPLYMEYAEIGTRFDDEPTDEKLVSMLDYIIYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPECLDPNVVVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRSQMNDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRYMHPDASVMKVVSRDVRRMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLESSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKRDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGIREGASIDSWLELLRHL</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-    </GBSeq_feature-table>
-    <GBSeq_sequence>gttaaaacatgcctgagccacacgcagtactctatgtcacaaacgagctctctcatatcgttaagaatggatttttgccgatatggaaactaactggagatgagagtctaaatgatctatggcttgaaaatggaaaatatgcgacagacgtatatgcatacggagatgtttcaaagtggacgatacgacagttacgaggtcacggattcattttcataagtacacataaaagcatacagctagctgatatcattaagacggtcgatgtccgcattcctcgggaagtcgcaaaaagtcaagatatgaaagcgtttgaaaatgaaattggcagacgcagaatccgtatgcgcaaagggtttggtgatgcgctaagaaactatgctttcaagatggctatcgagtttcacggatcggaggcagaaacgttaaacgatgcaaatcctcgattacacagaatttatggaatgccagaaataccgccgctatatatggagtatgcggagatagggactagattcgacgatgagccaactgatgagaagctagtatcaatgcttgattatatcatttacagcgctgaagaggtacactacgttggatgtggtgacctacgtacattaatgcagtttaagaaacgatcaccgggacggtttagaagagtgttgtggcacgtatatgatccaatagcgccagaatgtttagatccaaacgtcgtagtccacaacgttatggtagattcaaagaaagacattctaaagcatatgaacttcttaaaacgtgtcgagagacttttcatatgggatgtgtcatcagatcgatcgcaaatgaatgatgatgagtgggaatcgaccagatttgcggaggataggttgggtgaagagatagcttatgaaatgggcggcgcattttctagtgcattgattaagcacaggataccgaattcgagagatgagtatcactgcatttcgacttatctactcccccagccgggggctgacgcagatatgtacgaattaaggaatttcatgagattaaagggttattcacacgtagatcgttacatgcatccagacgcttccgtgatgaaagttgtttcacgtgacgtgcgcagaatggtcgaattgtatcacggtcgcgatcgaggcagatttctaaaaaagagactgttcgaacaccttcatattgtacgtaagaatgggttgctgcatgagagtgatgaaccgcgagcggatctgttctacttaaccaatcggtgcaacatggggttggaatctagtatttatgaagtaatgaaaaagtcggtgatagccacagcttgggtaggtcgtgcgcccctatatgattatgatgattacgcattgcccagatcaactgttatgcttaacggatcctaccgtgatatcagaatcttagatggtaatggcgcaatcttattcttaatgtggaagtatccggatattgtaaagagagatttaacatatgatccagcgtgggcgatgaattttgctgtttcattaaaagagccgatacctgatcctcctgtgcctgacatctccttgtgtagattcattgggctacgcgttgaatcatctgtgttgagggttcgaaacccaacattgcatgaaacggctgatgagctaaagcggatgggactggatttatctggtcacttatatgttacgttgatgtccggcgcttatgtcacggatttgttttggtggtttaagatgattctcgattggtctgcgcagagcaaggagcaaaaactacgtgatctaaagaggtctgcggcggaagtaatagagtggaaggagcagatggccgagcgtccatggcatgtgagaaacgatctaattgcagcgctgagggagtacaaacgaaaaatggggataagagagggagcctcgattgattcgtggctagaattactgcgtcacttataatgcgtgactgctaggtgaggggggcatgtacaacttac</GBSeq_sequence>
-  </GBSeq>
+  <GBSeq_locus>JQ972864</GBSeq_locus>
+  <GBSeq_length>1981</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>30-APR-2014</GBSeq_update-date>
+  <GBSeq_create-date>23-JUL-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 11 strain BTV-11_MQ segment 4, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JQ972864</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ972864.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ972864.1|</GBSeqid>
+    <GBSeqid>gi|395805165</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 11</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 11</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Vandenbussche,F.</GBAuthor>
+        <GBAuthor>Sailleau,C.</GBAuthor>
+        <GBAuthor>Rosseel,T.</GBAuthor>
+        <GBAuthor>Desprat,A.</GBAuthor>
+        <GBAuthor>Viarouge,C.</GBAuthor>
+        <GBAuthor>Richardson,J.</GBAuthor>
+        <GBAuthor>Eschbaumer,M.</GBAuthor>
+        <GBAuthor>Hoffmann,B.</GBAuthor>
+        <GBAuthor>De Clercq,K.</GBAuthor>
+        <GBAuthor>Breard,E.</GBAuthor>
+        <GBAuthor>Zientara,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Full-Genome Sequencing of Four Bluetongue Virus Serotype 11 Viruses</GBReference_title>
+      <GBReference_journal>Transbound Emerg Dis (2013) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1111/tbed.12178</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24750582</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1981</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Vandenbussche,F.</GBAuthor>
+        <GBAuthor>Rosseel,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-APR-2012) Viral Diseases, CODA-CERVA, Groeselenberg 99, Brussels, Brussels 1180, Belgium</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JQ972861-JQ972870 represent sequences from the ten segments of Bluetongue virus 11</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1981</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1981</GBInterval_to>
+          <GBInterval_accession>JQ972864.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 11</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>BTV-11_MQ</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>BTV-11</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>cattle</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:35329</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Martinique</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2010</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..1981</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1981</GBInterval_to>
+          <GBInterval_accession>JQ972864.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>9..1943</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>9</GBInterval_from>
+          <GBInterval_to>1943</GBInterval_to>
+          <GBInterval_accession>JQ972864.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>VP4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP4 core protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFN71133.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MPEPHAVLYVTNELSHIVKNGFLPIWKLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKSIQLADIIKTVDVRIPREVAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHRIYGMPEIPPLYMEYAEIGTRFDDEPTDEKLVSMLDYIIYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPECLDPNVVVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRSQMNDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRYMHPDASVMKVVSRDVRRMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLESSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKRDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGIREGASIDSWLELLRHL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaacatgcctgagccacacgcagtactctatgtcacaaacgagctctctcatatcgttaagaatggatttttgccgatatggaaactaactggagatgagagtctaaatgatctatggcttgaaaatggaaaatatgcgacagacgtatatgcatacggagatgtttcaaagtggacgatacgacagttacgaggtcacggattcattttcataagtacacataaaagcatacagctagctgatatcattaagacggtcgatgtccgcattcctcgggaagtcgcaaaaagtcaagatatgaaagcgtttgaaaatgaaattggcagacgcagaatccgtatgcgcaaagggtttggtgatgcgctaagaaactatgctttcaagatggctatcgagtttcacggatcggaggcagaaacgttaaacgatgcaaatcctcgattacacagaatttatggaatgccagaaataccgccgctatatatggagtatgcggagatagggactagattcgacgatgagccaactgatgagaagctagtatcaatgcttgattatatcatttacagcgctgaagaggtacactacgttggatgtggtgacctacgtacattaatgcagtttaagaaacgatcaccgggacggtttagaagagtgttgtggcacgtatatgatccaatagcgccagaatgtttagatccaaacgtcgtagtccacaacgttatggtagattcaaagaaagacattctaaagcatatgaacttcttaaaacgtgtcgagagacttttcatatgggatgtgtcatcagatcgatcgcaaatgaatgatgatgagtgggaatcgaccagatttgcggaggataggttgggtgaagagatagcttatgaaatgggcggcgcattttctagtgcattgattaagcacaggataccgaattcgagagatgagtatcactgcatttcgacttatctactcccccagccgggggctgacgcagatatgtacgaattaaggaatttcatgagattaaagggttattcacacgtagatcgttacatgcatccagacgcttccgtgatgaaagttgtttcacgtgacgtgcgcagaatggtcgaattgtatcacggtcgcgatcgaggcagatttctaaaaaagagactgttcgaacaccttcatattgtacgtaagaatgggttgctgcatgagagtgatgaaccgcgagcggatctgttctacttaaccaatcggtgcaacatggggttggaatctagtatttatgaagtaatgaaaaagtcggtgatagccacagcttgggtaggtcgtgcgcccctatatgattatgatgattacgcattgcccagatcaactgttatgcttaacggatcctaccgtgatatcagaatcttagatggtaatggcgcaatcttattcttaatgtggaagtatccggatattgtaaagagagatttaacatatgatccagcgtgggcgatgaattttgctgtttcattaaaagagccgatacctgatcctcctgtgcctgacatctccttgtgtagattcattgggctacgcgttgaatcatctgtgttgagggttcgaaacccaacattgcatgaaacggctgatgagctaaagcggatgggactggatttatctggtcacttatatgttacgttgatgtccggcgcttatgtcacggatttgttttggtggtttaagatgattctcgattggtctgcgcagagcaaggagcaaaaactacgtgatctaaagaggtctgcggcggaagtaatagagtggaaggagcagatggccgagcgtccatggcatgtgagaaacgatctaattgcagcgctgagggagtacaaacgaaaaatggggataagagagggagcctcgattgattcgtggctagaattactgcgtcacttataatgcgtgactgctaggtgaggggggcatgtacaacttac</GBSeq_sequence>
+</GBSeq>

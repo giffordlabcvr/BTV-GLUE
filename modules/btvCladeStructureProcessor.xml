@@ -43,6 +43,16 @@
 		<okFromNullResultType/>
     </function>
     <function>
+    	<name>generateAllGenotypingCodonAlignments</name>
+		<okFromNullResultType/>
+    </function>
+    
+    <function>
+    	<name>generateRefseqCopyScript</name>
+		<okFromNullResultType/>
+    </function>
+    
+    <function>
         <name>createAlignmentTree</name>
         <parameter>
             <name>jsonStructureFile</name>

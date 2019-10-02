@@ -1,3 +1,4 @@
+
   create module --fileName modules/s1CompoundAligner.xml s1CompoundAligner
   create module --fileName modules/s2CompoundAligner.xml s2CompoundAligner
   create module --fileName modules/s3CompoundAligner.xml s3CompoundAligner
@@ -24,6 +25,7 @@
   create module --moduleType fastaExporter
   
   create module --fileName modules/btvBlastFastaProteinAlignmentImporter.xml
+  create module --fileName modules/btvBlastFastaAlignmentImporter.xml 
   
   create module --fileName modules/btvFeaturePresenceRecorder.xml btvFeaturePresenceRecorder
   

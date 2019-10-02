@@ -2,27 +2,27 @@
 <GBSeq>
 
     <GBSeq_locus>MF124296</GBSeq_locus>
-    <GBSeq_length>1623</GBSeq_length>
+    <GBSeq_length>1677</GBSeq_length>
     <GBSeq_strandedness>single</GBSeq_strandedness>
     <GBSeq_moltype>RNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>23-JUL-2019</GBSeq_update-date>
+    <GBSeq_update-date>31-MAR-2018</GBSeq_update-date>
     <GBSeq_create-date>31-MAR-2018</GBSeq_create-date>
     <GBSeq_definition>Bluetongue virus isolate BTV-3 TUN2016/Zarzis segment 5 NS1 gene, partial cds</GBSeq_definition>
     <GBSeq_primary-accession>MF124296</GBSeq_primary-accession>
-    <GBSeq_accession-version>MF124296.2</GBSeq_accession-version>
+    <GBSeq_accession-version>MF124296.1</GBSeq_accession-version>
     <GBSeq_other-seqids>
-      <GBSeqid>gb|MF124296.2|</GBSeqid>
-      <GBSeqid>gi|1707883609</GBSeqid>
+      <GBSeqid>gb|MF124296.1|</GBSeqid>
+      <GBSeqid>gi|1370449633</GBSeqid>
     </GBSeq_other-seqids>
     <GBSeq_source>Bluetongue virus</GBSeq_source>
     <GBSeq_organism>Bluetongue virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
-        <GBReference_position>1..1623</GBReference_position>
+        <GBReference_position>1..1677</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Lorusso,A.</GBAuthor>
           <GBAuthor>Sghaier,S.</GBAuthor>
@@ -55,7 +55,7 @@
       </GBReference>
       <GBReference>
         <GBReference_reference>2</GBReference_reference>
-        <GBReference_position>1..1623</GBReference_position>
+        <GBReference_position>1..1677</GBReference_position>
         <GBReference_authors>
           <GBAuthor>Lorusso,A.</GBAuthor>
           <GBAuthor>Sghaier,S.</GBAuthor>
@@ -67,16 +67,16 @@
         <GBReference_journal>Submitted (18-MAY-2017) Virology Unit, Istituto Zooprofilattico Sperimentale Abruzzo e Molise, Campo Boario, Teramo, IT 64100, Italy</GBReference_journal>
       </GBReference>
     </GBSeq_references>
-    <GBSeq_comment>On Jul 23, 2019 this sequence version replaced MF124296.1.; ; ##Assembly-Data-START## ; Assembly Method :: Spades v. v. 3.5 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Spades v. v. 3.5 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
     <GBSeq_feature-table>
       <GBFeature>
         <GBFeature_key>source</GBFeature_key>
-        <GBFeature_location>1..1623</GBFeature_location>
+        <GBFeature_location>1..1677</GBFeature_location>
         <GBFeature_intervals>
           <GBInterval>
             <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1623</GBInterval_to>
-            <GBInterval_accession>MF124296.2</GBInterval_accession>
+            <GBInterval_to>1677</GBInterval_to>
+            <GBInterval_accession>MF124296.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_quals>
@@ -132,12 +132,12 @@
       </GBFeature>
       <GBFeature>
         <GBFeature_key>CDS</GBFeature_key>
-        <GBFeature_location>&lt;1..1623</GBFeature_location>
+        <GBFeature_location>&lt;1..1677</GBFeature_location>
         <GBFeature_intervals>
           <GBInterval>
             <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1623</GBInterval_to>
-            <GBInterval_accession>MF124296.2</GBInterval_accession>
+            <GBInterval_to>1677</GBInterval_to>
+            <GBInterval_accession>MF124296.1</GBInterval_accession>
           </GBInterval>
         </GBFeature_intervals>
         <GBFeature_partial5 value="true"/>
@@ -156,14 +156,14 @@
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>AVQ09341.2</GBQualifier_value>
+            <GBQualifier_value>AVQ09341.1</GBQualifier_value>
           </GBQualifier>
           <GBQualifier>
             <GBQualifier_name>translation</GBQualifier_name>
-            <GBQualifier_value>DYANATRTFLAISPQWTCSHLKRNCLFNGMCAKQNFERAMIAATDAEEPAKAYRLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGVQLLEDYRKNGMMDEAVKQSALVNSERIRLDDSLSAMPYIYVPVKEGQIVNPTFISRYRQIAYYFYSPNLADDWIDPNLFGIRGQHNQIKREVERQVNTCPYTGYRGRVLQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEVRYVQQLFGKIPTGEFPLHHMMLMRRDFPTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHQDRWEWLIDYMDRKHTCQLCYLKHSKQIPTCGVIDVRASELTGCSPFKTVKIEEHVGNNSVFETKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDEKAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
+            <GBQualifier_value>PRPPRAPSSAASAESKRQDYANATRTFLAISPQWTCSHLKRNCLFNGMCAKQNFERAMIAATDAEEPAKAYRLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKMKRCGVQLLEDYRKNGMMDEAVKQSALVNSERIRLDDSLSAMPYIYVPVKEGQIVNPTFISRYRQIAYYFYSPNLADDWIDPNLFGIRGQHNQIKREVERQVNTCPYTGYRGRVLQVMFLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYAEEVRYVQQLFGKIPTGEFPLHHMMLMRRDFPTRDRSIVEARVRRSGDENWQSWLLPMIIVREGLDHQDRWEWLIDYMDRKHTCQLCYLKHSKQIPTCGVIDVRASELTGCSPFKTVKIEEHVGNNSVFETKLVRDEQIGRIGDHYYTTNCYTGAEALITTAIHIHRWIRGCGIWNDEGWQEGIFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDEKAYATMFEMVRCIITLCYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY</GBQualifier_value>
           </GBQualifier>
         </GBFeature_quals>
       </GBFeature>
     </GBSeq_feature-table>
-    <GBSeq_sequence>gattacgcaaatgccacgagaacttttttggctatttcaccacaatggacttgcagtcacttaaaaaggaattgtttattcaatgggatgtgtgccaaacaaaattttgagagagcaatgattgcagcaaccgatgcagaggagccagcaaaagcgtacagattggttgagttagcaaaagaggcaatgtatgatcgggagacggtttggctccaatgtttcaaaagtttctctcaaccgtacgaggaggatgttgaagggaagatgaagcggtgcggagtgcaactgcttgaggattaccgcaaaaatgggatgatggatgaggctgtgaaacaatctgcgctggtcaattcggaaagaatcagattggatgattctctttcagcgatgccttacatctatgtgccagtcaaagaaggtcaaattgtgaatccaacatttatatcgagatatcgccaaattgcatattatttctacagcccaaatttagctgatgattggatcgatccaaatctgttcggcattcgcggacagcacaaccaaattaaacgtgaggttgagagacaagtcaacacatgtccttatactgggtacagaggtagagtgcttcaagtaatgtttttaccaattcagctgatcaatttcttaaggatggatgatttcgcgaagcattttaacaggtatgcttcgatggcgatacagcaatatctgagggttggctatgctgaagaggttagatatgtacagcagctttttggaaagattccaacaggtgagtttccgttacaccatatgatgctgatgagacgcgacttcccaacgcgcgatcgcagtatcgtggaggcgcgggtgagaagatcaggtgatgagaactggcaaagctggctattacctatgattatcgtgcgtgagggattggatcatcaggaccggtgggagtggcttattgattacatggatagaaagcatacatgtcagctttgctacttaaagcactcaaagcaaatcccaacctgtggcgtgattgacgtacgcgcgtcagaactgactgggtgttcgccattcaagacagtgaaaatcgaagaacatgtgggaaacaattcggtttttgagacgaaattagtccgtgatgaacaaattgggaggattggagatcattattatacaacaaattgttacactggggcggaagcattgattacaaccgcgattcatatccatcgttggattagagggtgtggcatctggaatgatgaaggatggcaggagggtatttttatgcttgggcgtgtgctgttgagatgggagctgacgaaggcgcaacgcagtgctctgctcaggctgttctgtttcgtgtgttatggatatgcgccacgtgcggatggaacgataccggattggaacaatcttggaagttttttggatattattttgaaagggccggagcttagtgaggacgaggatgagaaggcttatgctactatgtttgaaatggttcgatgcattatcactctatgctatgcagagaaggttcacttcgctgggttcgcagcacctgcgtgtgaaagtggggaagtaatcaacttagctgcgcgcatgtctcagatgtggatggagtattag</GBSeq_sequence>
+    <GBSeq_sequence>ccgagacctccccgcgctccgtcgtcggccgcgtcagctgagtctaagagacaggattacgcaaatgccacgagaacttttttggctatttcaccacaatggacttgcagtcacttaaaaaggaattgtttattcaatgggatgtgtgccaaacaaaattttgagagagcaatgattgcagcaaccgatgcagaggagccagcaaaagcgtacagattggttgagttagcaaaagaggcaatgtatgatcgggagacggtttggctccaatgtttcaaaagtttctctcaaccgtacgaggaggatgttgaagggaagatgaagcggtgcggagtgcaactgcttgaggattaccgcaaaaatgggatgatggatgaggctgtgaaacaatctgcgctggtcaattcggaaagaatcagattggatgattctctttcagcgatgccttacatctatgtgccagtcaaagaaggtcaaattgtgaatccaacatttatatcgagatatcgccaaattgcatattatttctacagcccaaatttagctgatgattggatcgatccaaatctgttcggcattcgcggacagcacaaccaaattaaacgtgaggttgagagacaagtcaacacatgtccttatactgggtacagaggtagagtgcttcaagtaatgtttttaccaattcagctgatcaatttcttaaggatggatgatttcgcgaagcattttaacaggtatgcttcgatggcgatacagcaatatctgagggttggctatgctgaagaggttagatatgtacagcagctttttggaaagattccaacaggtgagtttccgttacaccatatgatgctgatgagacgcgacttcccaacgcgcgatcgcagtatcgtggaggcgcgggtgagaagatcaggtgatgagaactggcaaagctggctattacctatgattatcgtgcgtgagggattggatcatcaggaccggtgggagtggcttattgattacatggatagaaagcatacatgtcagctttgctacttaaagcactcaaagcaaatcccaacctgtggcgtgattgacgtacgcgcgtcagaactgactgggtgttcgccattcaagacagtgaaaatcgaagaacatgtgggaaacaattcggtttttgagacgaaattagtccgtgatgaacaaattgggaggattggagatcattattatacaacaaattgttacactggggcggaagcattgattacaaccgcgattcatatccatcgttggattagagggtgtggcatctggaatgatgaaggatggcaggagggtatttttatgcttgggcgtgtgctgttgagatgggagctgacgaaggcgcaacgcagtgctctgctcaggctgttctgtttcgtgtgttatggatatgcgccacgtgcggatggaacgataccggattggaacaatcttggaagttttttggatattattttgaaagggccggagcttagtgaggacgaggatgagaaggcttatgctactatgtttgaaatggttcgatgcattatcactctatgctatgcagagaaggttcacttcgctgggttcgcagcacctgcgtgtgaaagtggggaagtaatcaacttagctgcgcgcatgtctcagatgtggatggagtattag</GBSeq_sequence>
   </GBSeq>

@@ -1,143 +1,163 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-
-    <GBSeq_locus>JQ086237</GBSeq_locus>
-    <GBSeq_length>1140</GBSeq_length>
-    <GBSeq_strandedness>single</GBSeq_strandedness>
-    <GBSeq_moltype>RNA</GBSeq_moltype>
-    <GBSeq_topology>linear</GBSeq_topology>
-    <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>09-JUN-2012</GBSeq_update-date>
-    <GBSeq_create-date>09-JUN-2012</GBSeq_create-date>
-    <GBSeq_definition>Bluetongue virus 16 strain DPP965 segment 7, complete sequence</GBSeq_definition>
-    <GBSeq_primary-accession>JQ086237</GBSeq_primary-accession>
-    <GBSeq_accession-version>JQ086237.1</GBSeq_accession-version>
-    <GBSeq_other-seqids>
-      <GBSeqid>gb|JQ086237.1|</GBSeqid>
-      <GBSeqid>gi|389616851</GBSeqid>
-    </GBSeq_other-seqids>
-    <GBSeq_source>Bluetongue virus 16</GBSeq_source>
-    <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
-    <GBSeq_references>
-      <GBReference>
-        <GBReference_reference>1</GBReference_reference>
-        <GBReference_position>1..1140</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Boyle,D.B.</GBAuthor>
-          <GBAuthor>Bulach,D.M.</GBAuthor>
-          <GBAuthor>Amos-Ritchie,R.</GBAuthor>
-          <GBAuthor>Adams,M.M.</GBAuthor>
-          <GBAuthor>Walker,P.J.</GBAuthor>
-          <GBAuthor>Weir,R.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Genomic sequences of Australian bluetongue virus prototype serotypes reveal global relationships and possible routes of entry into australia</GBReference_title>
-        <GBReference_journal>J. Virol. 86 (12), 6724-6731 (2012)</GBReference_journal>
-        <GBReference_xref>
-          <GBXref>
-            <GBXref_dbname>doi</GBXref_dbname>
-            <GBXref_id>10.1128/JVI.00182-12</GBXref_id>
-          </GBXref>
-        </GBReference_xref>
-        <GBReference_pubmed>22514341</GBReference_pubmed>
-      </GBReference>
-      <GBReference>
-        <GBReference_reference>2</GBReference_reference>
-        <GBReference_position>1..1140</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Bulach,D.M.</GBAuthor>
-          <GBAuthor>Amos-Richie,R.</GBAuthor>
-          <GBAuthor>Weir,R.</GBAuthor>
-          <GBAuthor>Boyle,D.B.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (29-NOV-2011) Australian Animal Health Laboratory, CSIRO, 5 Portarlington Rd, East Geelong, VIC 3220, Australia</GBReference_journal>
-      </GBReference>
-    </GBSeq_references>
-    <GBSeq_comment>GenBank Accession Numbers JQ086231-JQ086240 represent sequences from the 10 segments of Bluetongue virus 16.</GBSeq_comment>
-    <GBSeq_feature-table>
-      <GBFeature>
-        <GBFeature_key>source</GBFeature_key>
-        <GBFeature_location>1..1140</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1140</GBInterval_to>
-            <GBInterval_accession>JQ086237.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>organism</GBQualifier_name>
-            <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>mol_type</GBQualifier_name>
-            <GBQualifier_value>genomic RNA</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>strain</GBQualifier_name>
-            <GBQualifier_value>DPP965</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>host</GBQualifier_name>
-            <GBQualifier_value>cattle</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>taxon:45029</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>segment</GBQualifier_name>
-            <GBQualifier_value>7</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>country</GBQualifier_name>
-            <GBQualifier_value>Australia: Beatrice Hill, Northern Territory</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>lat_lon</GBQualifier_name>
-            <GBQualifier_value>12.39 S 131.20 E</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>collection_date</GBQualifier_name>
-            <GBQualifier_value>1987</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>CDS</GBFeature_key>
-        <GBFeature_location>6..1055</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>6</GBInterval_from>
-            <GBInterval_to>1055</GBInterval_to>
-            <GBInterval_accession>JQ086237.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>codon_start</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>product</GBQualifier_name>
-            <GBQualifier_value>VP7</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>AFK91798.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>translation</GBQualifier_name>
-            <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMIQVSLNAGARGDIQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSVLTILLLSTLADVYSVLRPEFAIHGINPMPGPLTRAIARAAYA</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-    </GBSeq_feature-table>
-    <GBSeq_sequence>tagagatggacactatcgctgcaagagcactcactgttatgcgggcatgtgccacgttacaagaggcaagaatcgtattagaagcgaatgtgatggaaattttgggaatagctatcaataggtataatggattgactttgcgtggagtgacgatgaggcccacttctctagctcaaaggaatgagatgtttttcatgtgtttagatatgatgttgtcggctgctggaattaatgttggaccgatatcgcctgattatactcaacatatggcaaccatcggtgttttagcgactccagaaataccgtttacaactgaggcagcgaatgagattgcgcgtgtaacaggagaaacctcaacgtgggggccggcccgtcagccgtatggctttttcctcgagacagaggaggtgtatcaaccaggaagatggttcatgagagcagctcaagtggtcacgcctgtggtttgcggcccagatatgatccaggtttcactgaacgcgggagcaagaggtgacatacagcagatctttcaaggtcgaaacgacccgatgatgatttatctggtttggagaaggattgaaaatttctctatgccccaaggtaactcgcagcggacgctagcaggagtgacagtgagtgtagggggtgtggatatgagggcgggacggataatcgcgtgggatgggcaggcggtcctacagatacataaccctactcaacagaatgcaatggtacagattcaagttgtgttctatatttcaatggataagacactaaatcaatatccagctctgacagcagagatttttaatgtatatagttttagagaccatacatggcacggactaagaacagcgatactgaatagaacaactctaccaaatatgcttccgccgatcttcccaccaaatgatagagatagtgttttaacaattttgctgctgtcgacgctcgcggatgtttattcagtgttgaggcctgagtttgcaatacacggtataaatccaatgcctggcccgcttacacgtgcaattgcacgcgccgcttacgcatagtccactttgcacgggtgtgggttatgtggagggtgtgtcagttgcaagaaaaatgtatcttgtttaaacgtctctgggattacac</GBSeq_sequence>
-  </GBSeq>
+  <GBSeq_locus>JQ086237</GBSeq_locus>
+  <GBSeq_length>1140</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>09-JUN-2012</GBSeq_update-date>
+  <GBSeq_create-date>09-JUN-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus 16 strain DPP965 segment 7, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JQ086237</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ086237.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ086237.1|</GBSeqid>
+    <GBSeqid>gi|389616851</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1140</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Boyle,D.B.</GBAuthor>
+        <GBAuthor>Bulach,D.M.</GBAuthor>
+        <GBAuthor>Amos-Ritchie,R.</GBAuthor>
+        <GBAuthor>Adams,M.M.</GBAuthor>
+        <GBAuthor>Walker,P.J.</GBAuthor>
+        <GBAuthor>Weir,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genomic sequences of Australian bluetongue virus prototype serotypes reveal global relationships and possible routes of entry into australia</GBReference_title>
+      <GBReference_journal>J. Virol. 86 (12), 6724-6731 (2012)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1128/JVI.00182-12</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22514341</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1140</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Bulach,D.M.</GBAuthor>
+        <GBAuthor>Amos-Richie,R.</GBAuthor>
+        <GBAuthor>Weir,R.</GBAuthor>
+        <GBAuthor>Boyle,D.B.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (29-NOV-2011) Australian Animal Health Laboratory, CSIRO, 5 Portarlington Rd, East Geelong, VIC 3220, Australia</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JQ086231-JQ086240 represent sequences from the 10 segments of Bluetongue virus 16</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1140</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1140</GBInterval_to>
+          <GBInterval_accession>JQ086237.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>DPP965</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>cattle</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:45029</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Australia: Beatrice Hill, Northern Territory</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>lat_lon</GBQualifier_name>
+          <GBQualifier_value>12.39 S 131.20 E</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>1987</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>6..1055</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>6</GBInterval_from>
+          <GBInterval_to>1055</GBInterval_to>
+          <GBInterval_accession>JQ086237.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFK91798.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMIQVSLNAGARGDIQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSVLTILLLSTLADVYSVLRPEFAIHGINPMPGPLTRAIARAAYA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>6..1049</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>6</GBInterval_from>
+          <GBInterval_to>1049</GBInterval_to>
+          <GBInterval_accession>JQ086237.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus inner capsid protein VP7; Region: Orbi_VP7; pfam00897</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279268</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tagagatggacactatcgctgcaagagcactcactgttatgcgggcatgtgccacgttacaagaggcaagaatcgtattagaagcgaatgtgatggaaattttgggaatagctatcaataggtataatggattgactttgcgtggagtgacgatgaggcccacttctctagctcaaaggaatgagatgtttttcatgtgtttagatatgatgttgtcggctgctggaattaatgttggaccgatatcgcctgattatactcaacatatggcaaccatcggtgttttagcgactccagaaataccgtttacaactgaggcagcgaatgagattgcgcgtgtaacaggagaaacctcaacgtgggggccggcccgtcagccgtatggctttttcctcgagacagaggaggtgtatcaaccaggaagatggttcatgagagcagctcaagtggtcacgcctgtggtttgcggcccagatatgatccaggtttcactgaacgcgggagcaagaggtgacatacagcagatctttcaaggtcgaaacgacccgatgatgatttatctggtttggagaaggattgaaaatttctctatgccccaaggtaactcgcagcggacgctagcaggagtgacagtgagtgtagggggtgtggatatgagggcgggacggataatcgcgtgggatgggcaggcggtcctacagatacataaccctactcaacagaatgcaatggtacagattcaagttgtgttctatatttcaatggataagacactaaatcaatatccagctctgacagcagagatttttaatgtatatagttttagagaccatacatggcacggactaagaacagcgatactgaatagaacaactctaccaaatatgcttccgccgatcttcccaccaaatgatagagatagtgttttaacaattttgctgctgtcgacgctcgcggatgtttattcagtgttgaggcctgagtttgcaatacacggtataaatccaatgcctggcccgcttacacgtgcaattgcacgcgccgcttacgcatagtccactttgcacgggtgtgggttatgtggagggtgtgtcagttgcaagaaaaatgtatcttgtttaaacgtctctgggattacac</GBSeq_sequence>
+</GBSeq>

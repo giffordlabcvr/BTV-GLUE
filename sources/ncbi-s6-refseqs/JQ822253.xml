@@ -1,146 +1,166 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GBSeq>
-
-    <GBSeq_locus>JQ822253</GBSeq_locus>
-    <GBSeq_length>1635</GBSeq_length>
-    <GBSeq_strandedness>single</GBSeq_strandedness>
-    <GBSeq_moltype>RNA</GBSeq_moltype>
-    <GBSeq_topology>linear</GBSeq_topology>
-    <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>01-APR-2013</GBSeq_update-date>
-    <GBSeq_create-date>18-JUN-2012</GBSeq_create-date>
-    <GBSeq_definition>Bluetongue virus strain USA2010 segment 6, complete sequence</GBSeq_definition>
-    <GBSeq_primary-accession>JQ822253</GBSeq_primary-accession>
-    <GBSeq_accession-version>JQ822253.1</GBSeq_accession-version>
-    <GBSeq_other-seqids>
-      <GBSeqid>gb|JQ822253.1|</GBSeqid>
-      <GBSeqid>gi|390980706</GBSeqid>
-    </GBSeq_other-seqids>
-    <GBSeq_source>Bluetongue virus</GBSeq_source>
-    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Riboviria; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
-    <GBSeq_references>
-      <GBReference>
-        <GBReference_reference>1</GBReference_reference>
-        <GBReference_position>1..1635</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Maclachlan,N.J.</GBAuthor>
-          <GBAuthor>Wilson,W.C.</GBAuthor>
-          <GBAuthor>Crossley,B.M.</GBAuthor>
-          <GBAuthor>Mayo,C.E.</GBAuthor>
-          <GBAuthor>Jasperson,D.C.</GBAuthor>
-          <GBAuthor>Breitmeyer,R.E.</GBAuthor>
-          <GBAuthor>Whiteford,A.M.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Novel serotype of bluetongue virus, western North America</GBReference_title>
-        <GBReference_journal>Emerging Infect. Dis. 19 (4), 665-666 (2013)</GBReference_journal>
-        <GBReference_xref>
-          <GBXref>
-            <GBXref_dbname>doi</GBXref_dbname>
-            <GBXref_id>10.3201/eid1904.120347</GBXref_id>
-          </GBXref>
-        </GBReference_xref>
-        <GBReference_pubmed>23750753</GBReference_pubmed>
-      </GBReference>
-      <GBReference>
-        <GBReference_reference>2</GBReference_reference>
-        <GBReference_position>1..1635</GBReference_position>
-        <GBReference_authors>
-          <GBAuthor>Maclachlan,N.J.</GBAuthor>
-          <GBAuthor>Wilson,W.C.</GBAuthor>
-        </GBReference_authors>
-        <GBReference_title>Direct Submission</GBReference_title>
-        <GBReference_journal>Submitted (26-MAR-2012) VM:PMI, UC Davis, One Shields Avenue, Davis, CA 95616, USA</GBReference_journal>
-      </GBReference>
-    </GBSeq_references>
-    <GBSeq_comment>GenBank Accession Numbers JQ822248-JQ822257 represent sequences from the 10 segments of Bluetongue virus strain USA2010.</GBSeq_comment>
-    <GBSeq_feature-table>
-      <GBFeature>
-        <GBFeature_key>source</GBFeature_key>
-        <GBFeature_location>1..1635</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>1</GBInterval_from>
-            <GBInterval_to>1635</GBInterval_to>
-            <GBInterval_accession>JQ822253.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>organism</GBQualifier_name>
-            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>mol_type</GBQualifier_name>
-            <GBQualifier_value>genomic RNA</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>strain</GBQualifier_name>
-            <GBQualifier_value>USA2010</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>serotype</GBQualifier_name>
-            <GBQualifier_value>2</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>isolation_source</GBQualifier_name>
-            <GBQualifier_value>blood propagated in cell-line BPAEC</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>host</GBQualifier_name>
-            <GBQualifier_value>cattle</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>db_xref</GBQualifier_name>
-            <GBQualifier_value>taxon:40051</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>segment</GBQualifier_name>
-            <GBQualifier_value>6</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>country</GBQualifier_name>
-            <GBQualifier_value>USA</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>collection_date</GBQualifier_name>
-            <GBQualifier_value>2010</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-      <GBFeature>
-        <GBFeature_key>CDS</GBFeature_key>
-        <GBFeature_location>26..1606</GBFeature_location>
-        <GBFeature_intervals>
-          <GBInterval>
-            <GBInterval_from>26</GBInterval_from>
-            <GBInterval_to>1606</GBInterval_to>
-            <GBInterval_accession>JQ822253.1</GBInterval_accession>
-          </GBInterval>
-        </GBFeature_intervals>
-        <GBFeature_quals>
-          <GBQualifier>
-            <GBQualifier_name>codon_start</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>transl_table</GBQualifier_name>
-            <GBQualifier_value>1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>product</GBQualifier_name>
-            <GBQualifier_value>VP5 protein</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>protein_id</GBQualifier_name>
-            <GBQualifier_value>AFM31253.1</GBQualifier_value>
-          </GBQualifier>
-          <GBQualifier>
-            <GBQualifier_name>translation</GBQualifier_name>
-            <GBQualifier_value>MGKIIRSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSILTGESYGESVKQAVLLNVLGSGEEIPDPLSPGEQGIQTKLKELEEEQRNELVRLKYNDKIKEKFGEELEQVYEFMNGAAKEEAGDEKQFDILSKAVSSYNKILTEEDQQMRRLAIALQKEIGERTHAETSMVKEYRDKIDALRSAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPSVVSTILEYRTRDIPDNALAVSVLSKNRAIQENHKELMHIKDEILPRFKKAMDEEKEICGIEDKTIHPKVMMKFKIPRSQQPQIHVYTAPWDSDDVFFFHCISHHHANESFFIGFDLSIDLVHYEDLTAHWHALGAAQMAVGRTLVEAYKEFLNLAISSAYGTQMHTRRLIRSKTVHPIYLGSLHYDISFADLRGNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGCKILGDRLDVPLFLRNA</GBQualifier_value>
-          </GBQualifier>
-        </GBFeature_quals>
-      </GBFeature>
-    </GBSeq_feature-table>
-    <GBSeq_sequence>gttaaaaagtgtacccttagcgaagatgggtaaaatcatacgatctctgagcagatttgggaagaaagtgggtaatgcgctcacatcaaacacagctaaaaagatctatagcacaattggtaaagcggctgagagattcgcagaaagtgaaatcggttcagcggcgatcgatggattagtacagggcagcgtgcactcaatattgacaggtgaatcttacggcgaatcggtcaagcaggcggttctattgaatgttttgggtagtggtgaagaaattccagatccattgagtccgggagagcagggtatacagactaagttgaaagaactagaagaggaacagaggaacgaactcgtacgattgaagtataatgataagattaaggaaaagtttggagaagagctggagcaggtatatgagtttatgaatggcgcggcaaaagaagaagccggagatgaaaagcagtttgacatcttaagtaaggcagttagctcgtacaacaaaatattaactgaagaagatcaacagatgcgacggcttgcgattgctttacagaaagaaattggtgagagaacacacgcggaaacatccatggtgaaggaatatcgggataagattgacgctcttagaagtgctatagaaattgaaagagatggtatgcaggaagaagcgatacaggagatagcgggaatgaccgctgatgtattagaggcggcgtctgaagaagtgcctttaattggagcaggtatggcgacagctgtcgcgactgggagagcaatcgagggggcatataagttgaagaaagtaattaatgccttaagcgggatagatctaacacatttgcgtacgccgaaaattgagccgagtgtagtctctacaatcctggagtaccgtacgagggatattccggataatgcgctcgcggttagcgttctgtcaaagaatcgcgcgatacaagagaaccataaggagttaatgcatattaaagatgagattctcccacgttttaagaaagcaatggacgaggagaaggaaatatgcggaatcgaggataaaacaatacatcccaaagtgatgatgaaatttaagatcccgaggtcgcaacaaccacagattcatgtttatacggcaccgtgggattctgatgatgtgtttttcttccattgtatctcacatcatcatgcgaatgaatcattctttataggattcgacttaagtatcgatttagtccattacgaagatttgacggctcattggcacgcattaggggcggctcaaatggctgtgggacgtacactagtcgaagcgtacaaagagttcttaaatttagctatttcaagtgcgtatgggacgcaaatgcacacacgaaggttaattagatcgaagacggtacaccctatttatttaggctctctccactatgatatttcttttgctgatttacgagggaatgcccaacgtatcgtatatgatgatgaattacaaatgcacattctacgcggtccactacatttccaaaggcgagctatattgggtgcgttaaagtttggatgcaaaatacttggagatcgattggacgtacccctcttcttacgaaatgcatgaacgcagcgacgggcagcacttccacttac</GBSeq_sequence>
-  </GBSeq>
+  <GBSeq_locus>JQ822253</GBSeq_locus>
+  <GBSeq_length>1635</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>01-APR-2013</GBSeq_update-date>
+  <GBSeq_create-date>18-JUN-2012</GBSeq_create-date>
+  <GBSeq_definition>Bluetongue virus strain USA2010 segment 6, complete sequence</GBSeq_definition>
+  <GBSeq_primary-accession>JQ822253</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ822253.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ822253.1|</GBSeqid>
+    <GBSeqid>gi|390980706</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Bluetongue virus</GBSeq_source>
+  <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1635</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maclachlan,N.J.</GBAuthor>
+        <GBAuthor>Wilson,W.C.</GBAuthor>
+        <GBAuthor>Crossley,B.M.</GBAuthor>
+        <GBAuthor>Mayo,C.E.</GBAuthor>
+        <GBAuthor>Jasperson,D.C.</GBAuthor>
+        <GBAuthor>Breitmeyer,R.E.</GBAuthor>
+        <GBAuthor>Whiteford,A.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Novel serotype of bluetongue virus, western North America</GBReference_title>
+      <GBReference_journal>Emerging Infect. Dis. 19 (4), 665-666 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.3201/eid1904.120347</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23750753</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1635</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Maclachlan,N.J.</GBAuthor>
+        <GBAuthor>Wilson,W.C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (26-MAR-2012) VM:PMI, UC Davis, One Shields Avenue, Davis, CA 95616, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>GenBank Accession Numbers JQ822248-JQ822257 represent sequences from the 10 segments of Bluetongue virus strain USA2010</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1635</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1635</GBInterval_to>
+          <GBInterval_accession>JQ822253.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>USA2010</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>serotype</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>blood propagated in cell-line BPAEC</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>cattle</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:40051</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>segment</GBQualifier_name>
+          <GBQualifier_value>6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>USA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2010</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>26..1606</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>26</GBInterval_from>
+          <GBInterval_to>1606</GBInterval_to>
+          <GBInterval_accession>JQ822253.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>VP5 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFM31253.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MGKIIRSLSRFGKKVGNALTSNTAKKIYSTIGKAAERFAESEIGSAAIDGLVQGSVHSILTGESYGESVKQAVLLNVLGSGEEIPDPLSPGEQGIQTKLKELEEEQRNELVRLKYNDKIKEKFGEELEQVYEFMNGAAKEEAGDEKQFDILSKAVSSYNKILTEEDQQMRRLAIALQKEIGERTHAETSMVKEYRDKIDALRSAIEIERDGMQEEAIQEIAGMTADVLEAASEEVPLIGAGMATAVATGRAIEGAYKLKKVINALSGIDLTHLRTPKIEPSVVSTILEYRTRDIPDNALAVSVLSKNRAIQENHKELMHIKDEILPRFKKAMDEEKEICGIEDKTIHPKVMMKFKIPRSQQPQIHVYTAPWDSDDVFFFHCISHHHANESFFIGFDLSIDLVHYEDLTAHWHALGAAQMAVGRTLVEAYKEFLNLAISSAYGTQMHTRRLIRSKTVHPIYLGSLHYDISFADLRGNAQRIVYDDELQMHILRGPLHFQRRAILGALKFGCKILGDRLDVPLFLRNA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>44..1564</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>44</GBInterval_from>
+          <GBInterval_to>1564</GBInterval_to>
+          <GBInterval_accession>JQ822253.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Orbivirus outer capsid protein VP5; Region: Orbi_VP5; pfam00901</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>CDD:279272</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gttaaaaagtgtacccttagcgaagatgggtaaaatcatacgatctctgagcagatttgggaagaaagtgggtaatgcgctcacatcaaacacagctaaaaagatctatagcacaattggtaaagcggctgagagattcgcagaaagtgaaatcggttcagcggcgatcgatggattagtacagggcagcgtgcactcaatattgacaggtgaatcttacggcgaatcggtcaagcaggcggttctattgaatgttttgggtagtggtgaagaaattccagatccattgagtccgggagagcagggtatacagactaagttgaaagaactagaagaggaacagaggaacgaactcgtacgattgaagtataatgataagattaaggaaaagtttggagaagagctggagcaggtatatgagtttatgaatggcgcggcaaaagaagaagccggagatgaaaagcagtttgacatcttaagtaaggcagttagctcgtacaacaaaatattaactgaagaagatcaacagatgcgacggcttgcgattgctttacagaaagaaattggtgagagaacacacgcggaaacatccatggtgaaggaatatcgggataagattgacgctcttagaagtgctatagaaattgaaagagatggtatgcaggaagaagcgatacaggagatagcgggaatgaccgctgatgtattagaggcggcgtctgaagaagtgcctttaattggagcaggtatggcgacagctgtcgcgactgggagagcaatcgagggggcatataagttgaagaaagtaattaatgccttaagcgggatagatctaacacatttgcgtacgccgaaaattgagccgagtgtagtctctacaatcctggagtaccgtacgagggatattccggataatgcgctcgcggttagcgttctgtcaaagaatcgcgcgatacaagagaaccataaggagttaatgcatattaaagatgagattctcccacgttttaagaaagcaatggacgaggagaaggaaatatgcggaatcgaggataaaacaatacatcccaaagtgatgatgaaatttaagatcccgaggtcgcaacaaccacagattcatgtttatacggcaccgtgggattctgatgatgtgtttttcttccattgtatctcacatcatcatgcgaatgaatcattctttataggattcgacttaagtatcgatttagtccattacgaagatttgacggctcattggcacgcattaggggcggctcaaatggctgtgggacgtacactagtcgaagcgtacaaagagttcttaaatttagctatttcaagtgcgtatgggacgcaaatgcacacacgaaggttaattagatcgaagacggtacaccctatttatttaggctctctccactatgatatttcttttgctgatttacgagggaatgcccaacgtatcgtatatgatgatgaattacaaatgcacattctacgcggtccactacatttccaaaggcgagctatattgggtgcgttaaagtttggatgcaaaatacttggagatcgattggacgtacccctcttcttacgaaatgcatgaacgcagcgacgggcagcacttccacttac</GBSeq_sequence>
+</GBSeq>
