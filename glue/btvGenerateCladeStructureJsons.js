@@ -40,7 +40,7 @@ _.each(segments, function(segObj) {
 	var cladeStructureObj = {};
 	
 	cladeStructureObj.referenceSourceName = "ncbi-s"+segNum+"-refseqs";
-	cladeStructureObj.alignmentName = "AL_"+segNum+"_MASTER";
+	cladeStructureObj.alignmentName = "AL_S"+segNum+"_MASTER";
 	cladeStructureObj.almtDisplayName = "BTV Segment "+segNum;
 	cladeStructureObj.cladeCategory = "species";
 	cladeStructureObj.constrainingRef = { "sequenceID": segObj.masterRef };

@@ -1,4 +1,3 @@
-create reference REF_S1_MASTER_JX680457 ncbi-s1-refseqs JX680457
 reference REF_S1_MASTER_JX680457 
   add feature-location S1_whole_genome
   feature-location S1_whole_genome add segment 1 3944
@@ -10,7 +9,6 @@ reference REF_S1_MASTER_JX680457
   feature-location S1_3UTR add segment 3921 3944
   exit
 
-create reference REF_S2_MASTER_JX680458 ncbi-s2-refseqs JX680458
 reference REF_S2_MASTER_JX680458 
   add feature-location S2_whole_genome
   feature-location S2_whole_genome add segment 1 2940
@@ -22,7 +20,6 @@ reference REF_S2_MASTER_JX680458
   feature-location S2_3UTR add segment 2904 2940
   exit
 
-create reference REF_S3_MASTER_JX680459 ncbi-s3-refseqs JX680459
 reference REF_S3_MASTER_JX680459 
   add feature-location S3_whole_genome
   feature-location S3_whole_genome add segment 1 2772
@@ -34,7 +31,6 @@ reference REF_S3_MASTER_JX680459
   feature-location S3_3UTR add segment 2724 2772
   exit
 
-create reference REF_S4_MASTER_JX680460 ncbi-s4-refseqs JX680460
 reference REF_S4_MASTER_JX680460 
   add feature-location S4_whole_genome
   feature-location S4_whole_genome add segment 1 1981
@@ -46,7 +42,6 @@ reference REF_S4_MASTER_JX680460
   feature-location S4_3UTR add segment 1944 1981
   exit
 
-create reference REF_S5_MASTER_JX680461 ncbi-s5-refseqs JX680461
 reference REF_S5_MASTER_JX680461 
   add feature-location S5_whole_genome
   feature-location S5_whole_genome add segment 1 1772
@@ -58,7 +53,6 @@ reference REF_S5_MASTER_JX680461
   feature-location S5_3UTR add segment 1694 1772
   exit
 
-create reference REF_S6_MASTER_JX680462 ncbi-s6-refseqs JX680462
 reference REF_S6_MASTER_JX680462 
   add feature-location S6_whole_genome
   feature-location S6_whole_genome add segment 1 1635
@@ -70,7 +64,6 @@ reference REF_S6_MASTER_JX680462
   feature-location S6_3UTR add segment 1607 1635
   exit
 
-create reference REF_S7_MASTER_JX680463 ncbi-s7-refseqs JX680463
 reference REF_S7_MASTER_JX680463 
   add feature-location S7_whole_genome
   feature-location S7_whole_genome add segment 1 1156
@@ -82,7 +75,6 @@ reference REF_S7_MASTER_JX680463
   feature-location S7_3UTR add segment 1068 1156
   exit
 
-create reference REF_S8_MASTER_JX680464 ncbi-s8-refseqs JX680464
 reference REF_S8_MASTER_JX680464 
   add feature-location S8_whole_genome
   feature-location S8_whole_genome add segment 1 1125
@@ -94,7 +86,6 @@ reference REF_S8_MASTER_JX680464
   feature-location S8_3UTR add segment 1085 1125
   exit
 
-create reference REF_S9_MASTER_JX680465 ncbi-s9-refseqs JX680465
 reference REF_S9_MASTER_JX680465 
   add feature-location S9_whole_genome
   feature-location S9_whole_genome add segment 1 1049
@@ -110,7 +101,6 @@ reference REF_S9_MASTER_JX680465
   feature-location S9_3UTR add segment 1006 1049
   exit
 
-create reference REF_S10_MASTER_JX680466 ncbi-s10-refseqs JX680466
 reference REF_S10_MASTER_JX680466 
   add feature-location S10_whole_genome
   feature-location S10_whole_genome add segment 1 822

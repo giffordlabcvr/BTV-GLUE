@@ -9,6 +9,7 @@ feature VP1
   set field displayName VP1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS1Kuiken2006CodonLabeler
   exit
 create feature S1_3UTR -p S1_whole_genome "Segment 1 3' untranslated region"
 feature S1_3UTR set field displayName "3' UTR"
@@ -25,7 +26,7 @@ feature VP2
   set field displayName VP2
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
-#  set metatag CODON_LABELER_MODULE btvS2Kuiken2006CodonLabeler
+  set metatag CODON_LABELER_MODULE btvS2Kuiken2006CodonLabeler
   exit
 create feature S2_3UTR -p S2_whole_genome "Segment 2 3' untranslated region"
 feature S2_3UTR set field displayName "3' UTR"
@@ -42,6 +43,7 @@ feature VP3
   set field displayName VP3
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS3Kuiken2006CodonLabeler
   exit
 create feature S3_3UTR -p S3_whole_genome "Segment 3 3' untranslated region"
 feature S3_3UTR set field displayName "3' UTR"
@@ -58,6 +60,7 @@ feature VP4
   set field displayName VP4
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS4Kuiken2006CodonLabeler
   exit
 create feature S4_3UTR -p S4_whole_genome "Segment 4 3' untranslated region"
 feature S4_3UTR set field displayName "3' UTR"
@@ -65,8 +68,6 @@ feature S4_3UTR set field displayName "3' UTR"
 
 create feature S5_whole_genome "Segment 5"
 feature S5_whole_genome set field displayName "Segment 5"
-
-
 
 create feature S5_5UTR -p S5_whole_genome "Segment 5 5' untranslated region"
 feature S5_5UTR set field displayName "5' UTR"
@@ -76,6 +77,7 @@ feature NS1
   set field displayName NS1
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS5Kuiken2006CodonLabeler
   exit
 create feature S5_3UTR -p S5_whole_genome "Segment 5 3' untranslated region"
 feature S5_3UTR set field displayName "3' UTR"
@@ -93,6 +95,7 @@ feature VP5
   set field displayName VP5
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS6Kuiken2006CodonLabeler
   exit
 create feature S6_3UTR -p S6_whole_genome "Segment 6 3' untranslated region"
 feature S6_3UTR set field displayName "3' UTR"
@@ -110,6 +113,7 @@ feature VP7
   set field displayName VP7
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS7Kuiken2006CodonLabeler
   exit
 create feature S7_3UTR -p S7_whole_genome "Segment 7 3' untranslated region"
 feature S7_3UTR set field displayName "3' UTR"
@@ -127,6 +131,7 @@ feature NS2
   set field displayName NS2
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS8Kuiken2006CodonLabeler
   exit
 create feature S8_3UTR -p S8_whole_genome "Segment 8 3' untranslated region"
 feature S8_3UTR set field displayName "3' UTR"
@@ -144,18 +149,21 @@ feature VP6
   set field displayName VP6
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS9Kuiken2006CodonLabeler
   exit
 create feature VP6a -p S9_whole_genome "VP6a coding sequence"
 feature VP6a
   set field displayName VP6a
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS9Kuiken2006CodonLabeler
   exit
 create feature NS4 -p S9_whole_genome "NS4 coding sequence"
 feature NS4
   set field displayName NS4
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS9Kuiken2006CodonLabeler
   exit
 create feature S9_3UTR -p S9_whole_genome "Segment 9 3' untranslated region"
 feature S9_3UTR set field displayName "3' UTR"
@@ -173,18 +181,21 @@ feature NS3
   set field displayName NS3
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS10Kuiken2006CodonLabeler
   exit
 create feature NS3a -p S10_whole_genome "NS3a coding sequence"
 feature NS3a
   set field displayName NS3a
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS10Kuiken2006CodonLabeler
   exit
 create feature NS5 -p S10_whole_genome "NS5 coding sequence"
 feature NS5
   set field displayName NS5
   set metatag OWN_CODON_NUMBERING true
   set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE btvS10Kuiken2006CodonLabeler
   exit
 create feature S10_3UTR -p S10_whole_genome "Segment 10 3' untranslated region"
 feature S10_3UTR set field displayName "3' UTR"

@@ -1,4 +1,5 @@
 <kuiken2006CodonLabeler>
 	<rootReferenceName>REF_S2_MASTER_JX680458</rootReferenceName>
 	<linkingAlignmentName>BTV_GENO_CODON_2</linkingAlignmentName>
+	<allowUnmappedLabelling>true</allowUnmappedLabelling>
 </kuiken2006CodonLabeler>

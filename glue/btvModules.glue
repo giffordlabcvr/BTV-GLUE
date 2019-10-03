@@ -90,7 +90,18 @@
   create module -f modules/s8RefseqsNcbiImporter.xml
   create module -f modules/s9RefseqsNcbiImporter.xml
   create module -f modules/s10RefseqsNcbiImporter.xml
-  # create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
+
+  create module -f modules/btvS1Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS2Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS3Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS4Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS5Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS6Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS7Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS8Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS9Kuiken2006CodonLabeler.xml  
+  create module -f modules/btvS10Kuiken2006CodonLabeler.xml  
+
   create module -f modules/btvGenotypingNexusExporter.xml  
   
   # create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml

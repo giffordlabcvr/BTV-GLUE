@@ -1,6 +1,6 @@
 {
   "referenceSourceName": "ncbi-s3-refseqs",
-  "alignmentName": "AL_3_MASTER",
+  "alignmentName": "AL_S3_MASTER",
   "almtDisplayName": "BTV Segment 3",
   "cladeCategory": "species",
   "constrainingRef": {

@@ -1,17 +1,21 @@
-var segments = ["2"]; // add other segments as clade structure / reference sequences become established.
+var segments = ["1", "2", "3", "4", "5", 
+	"6", "7", "8", "9", "10"]; 
 
-var segToFeatureName = {};
+var segToFeatures = {};
 
-segToFeatureName["1"] = "VP1";
-segToFeatureName["2"] = "VP2";
-segToFeatureName["3"] = "VP3";
-segToFeatureName["4"] = "VP4";
-segToFeatureName["5"] = "NS1";
-segToFeatureName["6"] = "VP5";
-segToFeatureName["7"] = "VP7";
-segToFeatureName["8"] = "NS2";
-segToFeatureName["9"] = "VP6";
-segToFeatureName["10"] = "NS3";
+segToFeatures["1"] = { mainCodingFeature: "VP1", codingFeatures: ["VP1"] };
+segToFeatures["2"] = { mainCodingFeature: "VP2", codingFeatures: ["VP2"] };
+segToFeatures["3"] = { mainCodingFeature: "VP3", codingFeatures: ["VP3"] };
+segToFeatures["4"] = { mainCodingFeature: "VP4", codingFeatures: ["VP4"] };
+segToFeatures["5"] = { mainCodingFeature: "NS1", codingFeatures: ["NS1"] };
+segToFeatures["6"] = { mainCodingFeature: "VP5", codingFeatures: ["VP5"] };
+segToFeatures["7"] = { mainCodingFeature: "VP7", codingFeatures: ["VP7"] };
+segToFeatures["8"] = { mainCodingFeature: "NS2", codingFeatures: ["NS2"] };
+segToFeatures["9"] = { mainCodingFeature: "VP6", codingFeatures: ["VP6", "VP6a", "NS4"] };
+segToFeatures["10"] = { mainCodingFeature: "NS3", codingFeatures: ["NS3", "NS3a", "NS5"] };
+
+
+var problematicRefs = {};
 
 
 glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.sequence.source.name like 'ncbi-s%-refseqs' and not (referenceSequence.name like '%MASTER%')"]);
@@ -42,12 +46,15 @@ _.each(segments, function(segNum) {
 			glue.inMode("/feature-location/"+wholeGenomeFeatureName, function() {
 				glue.command(["add", "segment", 1, seqLength]);
 			});
-			var codingFeatureName = segToFeatureName[segNum];
-			glue.command(["inherit", "feature-location", "--spanGaps", 
-			              linkingAlmtName, "--relRefName", masterRefObj.name, codingFeatureName]);
+			var codingFeatures = segToFeatures[segNum].codingFeatures;
+			var mainCodingFeature = segToFeatures[segNum].mainCodingFeature;
+			_.each(codingFeatures, function(codingFeatureName) {
+				glue.command(["inherit", "feature-location", "--spanGaps", 
+		              linkingAlmtName, "--relRefName", masterRefObj.name, codingFeatureName]);
+			});
 			var refStart;
 			var refEnd;
-			glue.inMode("/feature-location/"+codingFeatureName, function() {
+			glue.inMode("/feature-location/"+mainCodingFeature, function() {
 				var segmentObjs = glue.tableToObjects(glue.command(["list", "segment"]));
 				refStart = _.min(segmentObjs, function(obj) {return obj.refStart;}).refStart;
 				refEnd = _.max(segmentObjs, function(obj) {return obj.refEnd;}).refEnd;
@@ -66,7 +73,38 @@ _.each(segments, function(segNum) {
 					glue.command(["add", "segment", refEnd+1, seqLength]);
 				});
 			}
+
+			_.each(codingFeatures, function(codingFeatureName) {
+				var aaRows;
+				glue.inMode("/feature-location/"+codingFeatureName, function() {
+					aaRows = glue.tableToObjects(glue.command(["amino-acid"]));
+				});
+				for(var i = 0; i < aaRows.length; i++) {
+					var aa = aaRows[i].aminoAcid;
+					if(i == 0 && aa != "M") {
+						glue.log("WARNING", "First residue of feature "+codingFeatureName+" (label "+aaRows[i].codonLabel+") on reference "+refName+" should be M");
+						problematicRefs[refName] = "yes";
+					}
+					if(i < aaRows.length-1 && aa == "*") {
+						glue.log("WARNING", "Intermediate residue of feature "+codingFeatureName+" (label "+aaRows[i].codonLabel+") on reference "+refName+" should not be *");
+						problematicRefs[refName] = "yes";
+					}
+					if(i < aaRows.length-1 && aa == "X") {
+						glue.log("WARNING", "Intermediate residue of feature "+codingFeatureName+" (label "+aaRows[i].codonLabel+") on reference "+refName+" should not be X");
+						problematicRefs[refName] = "yes";
+					}
+					if(i == aaRows.length-1 && aa != "*") {
+						glue.log("WARNING", "Last residue of feature "+codingFeatureName+" (label "+aaRows[i].codonLabel+") on reference "+refName+" should be *");
+						problematicRefs[refName] = "yes";
+					}
+				}
+			});
+
+		
 		});
 	});
 });
+
+glue.logInfo("Problematic reference sequences: ", _.keys(problematicRefs));
+
 

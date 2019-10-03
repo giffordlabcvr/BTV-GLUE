@@ -31,10 +31,8 @@ project btv
   import source sources/ncbi-s9-refseqs 
   import source sources/ncbi-s10-refseqs 
 
-  # create per-segment master references and add feature locations
-  run file glue/btvReferences.glue
   
-  # create other references based on per-segment JSONs 
+  # create references based on per-segment JSONs 
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S1_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S2_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S3_clade_structure_and_refs.json
@@ -45,6 +43,9 @@ project btv
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S8_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S9_clade_structure_and_refs.json
   module btvCladeStructureProcessor invoke-function createGlueReferenceSequences json/S10_clade_structure_and_refs.json
+
+  # create per-segment master reference feature locations
+  run file glue/btvMasterReferenceFeatureLocs.glue
 
   # Import NCBI curated sequence set
   import source sources/ncbi-curated 
