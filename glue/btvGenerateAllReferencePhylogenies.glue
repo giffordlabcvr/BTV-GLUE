@@ -3,42 +3,32 @@ project btv
     generate nucleotide phylogeny BTV_GENO_CODON_1 \
       --allMembers \
       -o trees/reference/S1_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_2 \
       --allMembers \
       -o trees/reference/S2_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_3 \
       --allMembers \
       -o trees/reference/S3_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_4 \
       --allMembers \
       -o trees/reference/S4_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_5 \
       --allMembers \
       -o trees/reference/S5_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_6 \
       --allMembers \
       -o trees/reference/S6_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_7 \
       --allMembers \
       -o trees/reference/S7_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_8 \
       --allMembers \
       -o trees/reference/S8_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_9 \
       --allMembers \
       -o trees/reference/S9_reference.tree NEWICK_BOOTSTRAPS
-    exit    
     generate nucleotide phylogeny BTV_GENO_CODON_10 \
       --allMembers \
       -o trees/reference/S10_reference.tree NEWICK_BOOTSTRAPS
-    exit    
-
+	exit
   exit
