@@ -16,3 +16,19 @@ var segmentToBasalGroupWhereClause = {
 		"9": ["C"], 
 		"10": ["D", "E", "H"]
 };
+
+_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	glue.inMode("module/btvPhyloImporter", function() {
+		glue.command(["import", "phylogeny", "BTV_GENO_CODON_"+segNum, "-a", 
+				"-i", "trees/reference/S"+segNum+"_reference.tree", "NEWICK_BOOTSTRAPS",
+				"-f", "phylogeny"]);
+	});
+	var outgroupWhereClause = _.map(segmentToBasalGroupWhereClause[segNum], 
+			function(ggrName) { return "(sequence.referenceSequences.name like 'REF_S"+segNum+"_GGr"+ggrName+"%')";})
+			.join(" or ");
+	glue.inMode("module/btvPhyloUtility", function() {
+		glue.command(["reroot-alignment-phylogeny", "BTV_GENO_CODON_"+segNum, "phylogeny", 
+			"-w", "", 
+			"-o", "trees/reference/S"+segNum+"_reference_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
+	});
+});
