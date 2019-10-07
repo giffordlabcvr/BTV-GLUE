@@ -115,7 +115,7 @@ _.each(segments, function(segObj) {
 					_.each(gtRefObjs, function(uncRefObj) {
 						var uncGtObj = {};
 						var uncSequenceID = uncRefObj["Accesion No"];
-						uncGtObj.alignmentName = "AL_S"+segNum+"_Unclassified_GGr"+ggrName+"_"+uncSequenceID;
+						uncGtObj.alignmentName = "AL_S"+segNum+"_GGr"+ggrName+"_Unclassified_"+uncSequenceID;
 						uncGtObj.almtDisplayName = "Unclassified Genogroup "+ggrName+" ("+uncSequenceID+")";
 						uncGtObj.cladeCategory = "genotype";
 						uncGtObj.numericSortKey = "999";
@@ -127,7 +127,7 @@ _.each(segments, function(segObj) {
 					
 				} else {
 					var gtObj = {};
-					gtObj.alignmentName = "AL_S"+segNum+"_Gt"+gtName;
+					gtObj.alignmentName = "AL_S"+segNum+"_GGr"+ggrName+"_Gt"+gtName;
 					gtObj.almtDisplayName = "Genotype "+gtName;
 					gtObj.cladeCategory = "genotype"
 

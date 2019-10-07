@@ -17,7 +17,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt12",
+          "alignmentName": "AL_S2_GGrG_Gt12",
           "almtDisplayName": "Genotype 12",
           "cladeCategory": "genotype",
           "numericSortKey": "12",
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt22",
+          "alignmentName": "AL_S2_GGrG_Gt22",
           "almtDisplayName": "Genotype 22",
           "cladeCategory": "genotype",
           "numericSortKey": "22",
@@ -74,7 +74,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Unclassified_GGrJ_KP196604",
+          "alignmentName": "AL_S2_GGrJ_Unclassified_KP196604",
           "almtDisplayName": "Unclassified Genogroup J (KP196604)",
           "cladeCategory": "genotype",
           "numericSortKey": "999",
@@ -89,7 +89,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt15B",
+          "alignmentName": "AL_S2_GGrJ_Gt15B",
           "almtDisplayName": "Genotype 15B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt15A",
+          "alignmentName": "AL_S2_GGrJ_Gt15A",
           "almtDisplayName": "Genotype 15A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -136,7 +136,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt10",
+          "alignmentName": "AL_S2_GGrA_Gt10",
           "almtDisplayName": "Genotype 10",
           "cladeCategory": "genotype",
           "numericSortKey": "10",
@@ -159,7 +159,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt11",
+          "alignmentName": "AL_S2_GGrA_Gt11",
           "almtDisplayName": "Genotype 11",
           "cladeCategory": "genotype",
           "numericSortKey": "11",
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt17",
+          "alignmentName": "AL_S2_GGrA_Gt17",
           "almtDisplayName": "Genotype 17",
           "cladeCategory": "genotype",
           "numericSortKey": "17",
@@ -208,7 +208,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt20",
+          "alignmentName": "AL_S2_GGrA_Gt20",
           "almtDisplayName": "Genotype 20",
           "cladeCategory": "genotype",
           "numericSortKey": "20",
@@ -222,7 +222,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt24",
+          "alignmentName": "AL_S2_GGrA_Gt24",
           "almtDisplayName": "Genotype 24",
           "cladeCategory": "genotype",
           "numericSortKey": "24",
@@ -248,7 +248,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt4A",
+          "alignmentName": "AL_S2_GGrA_Gt4A",
           "almtDisplayName": "Genotype 4A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -284,7 +284,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt4B",
+          "alignmentName": "AL_S2_GGrA_Gt4B",
           "almtDisplayName": "Genotype 4B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -313,7 +313,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt5",
+          "alignmentName": "AL_S2_GGrE_Gt5",
           "almtDisplayName": "Genotype 5",
           "cladeCategory": "genotype",
           "numericSortKey": "5",
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt9B",
+          "alignmentName": "AL_S2_GGrE_Gt9B",
           "almtDisplayName": "Genotype 9B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -360,7 +360,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt9A",
+          "alignmentName": "AL_S2_GGrE_Gt9A",
           "almtDisplayName": "Genotype 9A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -395,7 +395,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt7",
+          "alignmentName": "AL_S2_GGrF_Gt7",
           "almtDisplayName": "Genotype 7",
           "cladeCategory": "genotype",
           "numericSortKey": "7",
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt19",
+          "alignmentName": "AL_S2_GGrF_Gt19",
           "almtDisplayName": "Genotype 19",
           "cladeCategory": "genotype",
           "numericSortKey": "19",
@@ -443,7 +443,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt8",
+          "alignmentName": "AL_S2_GGrD_Gt8",
           "almtDisplayName": "Genotype 8",
           "cladeCategory": "genotype",
           "numericSortKey": "8",
@@ -463,7 +463,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt18",
+          "alignmentName": "AL_S2_GGrD_Gt18",
           "almtDisplayName": "Genotype 18",
           "cladeCategory": "genotype",
           "numericSortKey": "18",
@@ -486,7 +486,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt23",
+          "alignmentName": "AL_S2_GGrD_Gt23",
           "almtDisplayName": "Genotype 23",
           "cladeCategory": "genotype",
           "numericSortKey": "23",
@@ -520,7 +520,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt6",
+          "alignmentName": "AL_S2_GGrC_Gt6",
           "almtDisplayName": "Genotype 6",
           "cladeCategory": "genotype",
           "numericSortKey": "6",
@@ -540,7 +540,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt14",
+          "alignmentName": "AL_S2_GGrC_Gt14",
           "almtDisplayName": "Genotype 14",
           "cladeCategory": "genotype",
           "numericSortKey": "14",
@@ -563,7 +563,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt21",
+          "alignmentName": "AL_S2_GGrC_Gt21",
           "almtDisplayName": "Genotype 21",
           "cladeCategory": "genotype",
           "numericSortKey": "21",
@@ -603,7 +603,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt13",
+          "alignmentName": "AL_S2_GGrB_Gt13",
           "almtDisplayName": "Genotype 13",
           "cladeCategory": "genotype",
           "numericSortKey": "13",
@@ -629,7 +629,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt3A",
+          "alignmentName": "AL_S2_GGrB_Gt3A",
           "almtDisplayName": "Genotype 3A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -662,7 +662,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt3B",
+          "alignmentName": "AL_S2_GGrB_Gt3B",
           "almtDisplayName": "Genotype 3B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -683,7 +683,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt16A",
+          "alignmentName": "AL_S2_GGrB_Gt16A",
           "almtDisplayName": "Genotype 16A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -698,7 +698,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt16B",
+          "alignmentName": "AL_S2_GGrB_Gt16B",
           "almtDisplayName": "Genotype 16B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -745,7 +745,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt25",
+          "alignmentName": "AL_S2_GGrK_Gt25",
           "almtDisplayName": "Genotype 25",
           "cladeCategory": "genotype",
           "numericSortKey": "25",
@@ -759,7 +759,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt26",
+          "alignmentName": "AL_S2_GGrK_Gt26",
           "almtDisplayName": "Genotype 26",
           "cladeCategory": "genotype",
           "numericSortKey": "26",
@@ -773,7 +773,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt27",
+          "alignmentName": "AL_S2_GGrK_Gt27",
           "almtDisplayName": "Genotype 27",
           "cladeCategory": "genotype",
           "numericSortKey": "27",
@@ -802,7 +802,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Unclassified_GGrK_KX695171",
+          "alignmentName": "AL_S2_GGrK_Unclassified_KX695171",
           "almtDisplayName": "Unclassified Genogroup K (KX695171)",
           "cladeCategory": "genotype",
           "numericSortKey": "999",
@@ -817,7 +817,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Unclassified_GGrK_MF124283",
+          "alignmentName": "AL_S2_GGrK_Unclassified_MF124283",
           "almtDisplayName": "Unclassified Genogroup K (MF124283)",
           "cladeCategory": "genotype",
           "numericSortKey": "999",
@@ -843,7 +843,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt1B",
+          "alignmentName": "AL_S2_GGrH_Gt1B",
           "almtDisplayName": "Genotype 1B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -885,7 +885,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt1A",
+          "alignmentName": "AL_S2_GGrH_Gt1A",
           "almtDisplayName": "Genotype 1A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",
@@ -932,7 +932,7 @@
       "cladeCategory": "genogroup",
       "childAlignments": [
         {
-          "alignmentName": "AL_S2_Gt2B",
+          "alignmentName": "AL_S2_GGrI_Gt2B",
           "almtDisplayName": "Genotype 2B",
           "cladeCategory": "genotype",
           "alphaSortKey": "B",
@@ -953,7 +953,7 @@
           ]
         },
         {
-          "alignmentName": "AL_S2_Gt2A",
+          "alignmentName": "AL_S2_GGrI_Gt2A",
           "almtDisplayName": "Genotype 2A",
           "cladeCategory": "genotype",
           "alphaSortKey": "A",

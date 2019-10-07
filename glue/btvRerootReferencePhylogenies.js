@@ -18,17 +18,20 @@ var segmentToBasalGroupWhereClause = {
 };
 
 _.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	glue.logInfo("Importing reference tree for segment "+segNum);
 	glue.inMode("module/btvPhyloImporter", function() {
 		glue.command(["import", "phylogeny", "BTV_GENO_CODON_"+segNum, "-a", 
 				"-i", "trees/reference/S"+segNum+"_reference.tree", "NEWICK_BOOTSTRAPS",
 				"-f", "phylogeny"]);
 	});
+	glue.logInfo("Rerooting reference tree for segment "+segNum);
 	var outgroupWhereClause = _.map(segmentToBasalGroupWhereClause[segNum], 
 			function(ggrName) { return "(sequence.referenceSequences.name like 'REF_S"+segNum+"_GGr"+ggrName+"%')";})
 			.join(" or ");
+	glue.logInfo("Outgroup where clause: "+outgroupWhereClause);
 	glue.inMode("module/btvPhyloUtility", function() {
 		glue.command(["reroot-alignment-phylogeny", "BTV_GENO_CODON_"+segNum, "phylogeny", 
-			"-w", "", 
+			"-w", outgroupWhereClause, 
 			"-o", "trees/reference/S"+segNum+"_reference_rerooted.tree", "NEWICK_BOOTSTRAPS"]);
 	});
 });
