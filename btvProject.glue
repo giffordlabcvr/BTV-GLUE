@@ -79,14 +79,20 @@ project btv
   # derive feature locations for non-master references across all segments.
   run script glue/btvAddFeatureLocations.js
 
-  # create alignment tree for segment 2
-  # module btvCladeStructureProcessor invoke-function createAlignmentTree json/S2_clade_structure_and_refs.json BTV_GENO_CODON_2
-
-  # check coding feature locations for segment 2 references
-  # run script glue/btvCheckCodingFeatureLocations.js
+  # create alignment trees for all segments
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S1_clade_structure_and_refs.json BTV_GENO_CODON_1
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S2_clade_structure_and_refs.json BTV_GENO_CODON_2
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S3_clade_structure_and_refs.json BTV_GENO_CODON_3
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S4_clade_structure_and_refs.json BTV_GENO_CODON_4
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S5_clade_structure_and_refs.json BTV_GENO_CODON_5
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S6_clade_structure_and_refs.json BTV_GENO_CODON_6
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S7_clade_structure_and_refs.json BTV_GENO_CODON_7
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S8_clade_structure_and_refs.json BTV_GENO_CODON_8
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S9_clade_structure_and_refs.json BTV_GENO_CODON_9
+  module btvCladeStructureProcessor invoke-function createAlignmentTree json/S10_clade_structure_and_refs.json BTV_GENO_CODON_10
 
   # import reference phylogenies
-  # run file glue/btvImportPhylogenies.glue
+  run script glue/btvImportReferencePhylogenies.js
     
   # genotype segment 2 curated sequences using placement files, 
   # add them to the alignment tree and recompute alignments.
