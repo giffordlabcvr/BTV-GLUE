@@ -1,27 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <maxLikelihoodGenotyper>
-	<maxLikelihoodPlacerModuleName>btvS2MaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
-	<cladeCategory>
-		<name>species</name>	
-		<displayName>Species</displayName>	
-		<whereClause>clade_category = 'species'</whereClause>
-		<distanceScalingExponent>-3.0</distanceScalingExponent>
-		<distanceCutoff>1.45</distanceCutoff>
-		<finalCladeCutoff>80.0</finalCladeCutoff>
-	</cladeCategory>
-	<cladeCategory>
-		<name>genogroup</name>	
-		<displayName>Genogroup</displayName>	
-		<whereClause>clade_category = 'genogroup'</whereClause>
-		<distanceScalingExponent>-3.0</distanceScalingExponent>
-		<distanceCutoff>0.4</distanceCutoff>
-		<finalCladeCutoff>80.0</finalCladeCutoff>
-	</cladeCategory>
-	<cladeCategory>
-		<name>genotype</name>	
-		<displayName>Genotype</displayName>	
-		<whereClause>clade_category = 'genotype'</whereClause>
-		<distanceScalingExponent>-3.0</distanceScalingExponent>
-	    <distanceCutoff>0.26</distanceCutoff>
-		<finalCladeCutoff>80.0</finalCladeCutoff>
-	</cladeCategory>
+    <maxLikelihoodPlacerModuleName>btvS2MaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+    <cladeCategory>
+        <name>species</name>
+        <displayName>Species</displayName>
+        <whereClause>clade_category = 'species'</whereClause>
+        <distanceScalingExponent>-3.0</distanceScalingExponent>
+        <distanceCutoff>1.45</distanceCutoff>
+        <finalCladeCutoff>80.0</finalCladeCutoff>
+    </cladeCategory>
+    <cladeCategory>
+        <name>genogroup</name>
+        <displayName>Genogroup</displayName>
+        <whereClause>clade_category = 'genogroup'</whereClause>
+        <distanceScalingExponent>-3.0</distanceScalingExponent>
+        <distanceCutoff>0.4</distanceCutoff>
+        <finalCladeCutoff>80.0</finalCladeCutoff>
+    </cladeCategory>
+    <cladeCategory>
+        <name>genotype</name>
+        <displayName>Genotype</displayName>
+        <whereClause>clade_category = 'genotype'</whereClause>
+        <distanceScalingExponent>-3.0</distanceScalingExponent>
+        <distanceCutoff>0.26</distanceCutoff>
+        <finalCladeCutoff>80.0</finalCladeCutoff>
+    </cladeCategory>
+    <useSingleReference>true</useSingleReference>
 </maxLikelihoodGenotyper>

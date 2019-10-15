@@ -103,9 +103,12 @@
   create module -f modules/btvS10Kuiken2006CodonLabeler.xml  
 
   create module -f modules/btvGenotypingNexusExporter.xml  
+
+  create module --fileName modules/btvS1MaxLikelihoodPlacer.xml
+  create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
   
-  # create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
-  # create module --fileName modules/btvS2MaxLikelihoodPlacer.xml
+  create module --fileName modules/btvS1MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
   
   create module --fileName modules/btvGenotypeCuratedSeg2Sequences.xml --loadResources
   
