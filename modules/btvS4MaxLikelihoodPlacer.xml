@@ -1,0 +1,11 @@
+<maxLikelihoodPlacer>
+
+	<raxmlEpaRunner>
+		<substitutionModel>GTRGAMMAI</substitutionModel>
+	</raxmlEpaRunner>
+	<!-- where the RAxML epa phylogeny will come from -->
+	<phyloAlignmentName>AL_S4_MASTER</phyloAlignmentName>
+	<phyloFieldName>phylogeny</phyloFieldName>
+	<!-- where the alignment will come from -->
+	<alignmentAlignmentName>BTV_GENO_CODON_4</alignmentAlignmentName>
+</maxLikelihoodPlacer>
