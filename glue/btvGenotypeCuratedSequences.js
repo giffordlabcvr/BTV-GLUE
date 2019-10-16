@@ -1,49 +1,7 @@
 
-function pad(num, size) {
-    var s = num+"";
-    while (s.length < size) {
-    	s = "0" + s;
-    }
-    return s;
-}
-
-
-function placeCuratedSeg2() {
-	glue.log("INFO", "Deleting files in placement path "+placement.path);
-	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
-	_.each(placementPathFiles, function(placementPathFile) {
-		glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
-	});
-	glue.log("INFO", "Deleted "+placementPathFiles.length+" files");
-	var fileSuffix = 1;
-	var whereClause = "source.name = 'ncbi-curated' and isolate_segment = '2' and excluded = 'false'";
-	placeCurated(whereClause, fileSuffix);
-}
-
-function placeCurated(whereClause, fileSuffix) {
-	glue.log("INFO", "Counting sequences where "+whereClause);
-	var numSequences = glue.command(["count", "sequence", "--whereClause", whereClause]).countResult.count;
-	glue.log("INFO", "Found "+numSequences+" sequences where "+whereClause);
-	var batchSize = 50;
-	var offset = 0;
-	while(offset < numSequences) {
-		glue.log("INFO", "Placing sequences starting at offset "+offset);
-		glue.inMode("module/"+modules.placer, function() {
-			fileSuffixString = pad(fileSuffix, 6);
-			var outputFile = placement.path + "/" + placement.prefix + fileSuffixString + ".xml";
-			glue.command(["place", "sequence", 
-                           "--whereClause", whereClause,
-                           "--pageSize", batchSize, "--fetchLimit", batchSize, "--fetchOffset", offset, 
-                           "--outputFile", outputFile]);
-		});
-		offset += batchSize;
-		fileSuffix++;
-	}
-}
-
-
-function genotypeCuratedSeg2() {
-	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
+for(var segNum = 1; segNum <= 10; segNum++) {
+	var placementPath = "placement_seg"+segNum;
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placementPath]));
 	
 	var alignmentsToRecompute = [];
 	
@@ -53,10 +11,10 @@ function genotypeCuratedSeg2() {
 		}
 		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 		var batchGenotyperResults;
-		glue.inMode("module/"+modules.genotyper, function() {
+		glue.inMode("module/btvS"+segNum+"MaxLikelihoodGenotyper", function() {
 			batchGenotyperResults = glue.tableToObjects(glue.command(
 					["genotype", "placer-result", 
-					 "--fileName", placement.path+"/"+placementPathFile.fileName, 
+					 "--fileName", placementPath+"/"+placementPathFile.fileName, 
 					 "--detailLevel", "HIGH"]));
 		});
 		glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
@@ -90,7 +48,7 @@ function genotypeCuratedSeg2() {
 				});
 				if(isolateID != null) {
 					glue.inMode("custom-table-row/isolate/"+isolateID, function() {
-						glue.command(["set", "link-target", "seg2clade", "alignment/"+targetAlignmentName]);
+						glue.command(["set", "link-target", "seg"+segNum+"clade", "alignment/"+targetAlignmentName]);
 					});
 				}
 			}
@@ -111,7 +69,7 @@ function genotypeCuratedSeg2() {
 	
 	_.each(alignmentsToRecompute, function(alignmentName) {
 		glue.log("FINE", "Recomputing constrained alignment "+alignmentName);
-		glue.command(["compute", "alignment", alignmentName, "s2CompoundAligner",
+		glue.command(["compute", "alignment", alignmentName, "s"+segNum+"CompoundAligner",
 		              "--whereClause", "sequence.source.name = 'ncbi-curated'"]);
 	});
 	
