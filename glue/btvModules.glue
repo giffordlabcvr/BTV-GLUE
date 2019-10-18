@@ -117,6 +117,14 @@
   
   create module --fileName modules/btvS1MaxLikelihoodGenotyper.xml
   create module --fileName modules/btvS2MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS3MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS4MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS5MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS6MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS7MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS8MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS9MaxLikelihoodGenotyper.xml
+  create module --fileName modules/btvS10MaxLikelihoodGenotyper.xml
   
   create module --fileName modules/btvSeg2SequenceReporter.xml
   # create module --fileName modules/btvS2VisualisationUtility.xml
