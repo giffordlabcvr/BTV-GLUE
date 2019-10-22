@@ -9,6 +9,9 @@ for(var segNum = 1; segNum <= 10; segNum++) {
 		if(placementPathFile.fileName.indexOf(".xml") < 0) {
 			return;
 		}
+		if(placementPathFile.fileName.indexOf("ncbi_curated") != 0) {
+			return;
+		}
 		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 		var batchGenotyperResults;
 		glue.inMode("module/btvS"+segNum+"MaxLikelihoodGenotyper", function() {

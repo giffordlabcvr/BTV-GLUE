@@ -1,0 +1,11 @@
+<ecmaFunctionInvoker>
+    <scriptFileName>btvGenotypingCheck.js</scriptFileName>
+    <function>
+        <name>findNullAssignments</name>
+        <parameter>
+            <name>segNum</name>
+        </parameter>
+		<tableFromObjectsResultType/>
+    </function>
+</ecmaFunctionInvoker>
+
