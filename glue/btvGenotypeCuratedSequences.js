@@ -1,3 +1,6 @@
+// delete ncbi-curated alignment members from all constrained alignments.
+
+glue.command(["multi-delete", "alignment_member", "-w", "sequence.source.name = 'ncbi-curated' and alignment.refSequence != null"]);
 
 for(var segNum = 1; segNum <= 10; segNum++) {
 	var placementPath = "placement_seg"+segNum;
@@ -5,6 +8,7 @@ for(var segNum = 1; segNum <= 10; segNum++) {
 	
 	var alignmentsToRecompute = [];
 	
+	var numUpdates = 0;
 	_.each(placementPathFiles, function(placementPathFile) {
 		if(placementPathFile.fileName.indexOf(".xml") < 0) {
 			return;
@@ -22,7 +26,6 @@ for(var segNum = 1; segNum <= 10; segNum++) {
 		});
 		glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
 		var batchSize = 500;
-		var numUpdates = 0;
 		_.each(batchGenotyperResults, function(genotyperResult) {
 			var queryBits = genotyperResult.queryName.split("/");
 			var sourceName = queryBits[0];
