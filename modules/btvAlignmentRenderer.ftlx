@@ -3,6 +3,12 @@
 <alignment>
 	<name>${name}</name>
 	<renderedName>${getRenderedName()}</renderedName>
+<#assign segNum = name?replace("AL_S", "")?keep_before("_")>
+<#if parent ??>
+	<longRenderedName>BTV Segment ${segNum}, ${getRenderedName()}</longRenderedName>
+<#else>
+	<longRenderedName>${getRenderedName()}</longRenderedName>
+</#if>
 <#if refSequence ??>
 	<constrainingReference>
 		<name>${refSequence.name}</name>

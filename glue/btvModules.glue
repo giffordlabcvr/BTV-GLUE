@@ -128,8 +128,27 @@
 
   create module --fileName modules/btvGenotypingCheck.xml --loadResources
   
+  create module --fileName modules/btvSeg1SequenceReporter.xml
   create module --fileName modules/btvSeg2SequenceReporter.xml
-  # create module --fileName modules/btvS2VisualisationUtility.xml
+  create module --fileName modules/btvSeg3SequenceReporter.xml
+  create module --fileName modules/btvSeg4SequenceReporter.xml
+  create module --fileName modules/btvSeg5SequenceReporter.xml
+  create module --fileName modules/btvSeg6SequenceReporter.xml
+  create module --fileName modules/btvSeg7SequenceReporter.xml
+  create module --fileName modules/btvSeg8SequenceReporter.xml
+  create module --fileName modules/btvSeg9SequenceReporter.xml
+  create module --fileName modules/btvSeg10SequenceReporter.xml
+
+  create module --fileName modules/btvS1VisualisationUtility.xml
+  create module --fileName modules/btvS2VisualisationUtility.xml
+  create module --fileName modules/btvS3VisualisationUtility.xml
+  create module --fileName modules/btvS4VisualisationUtility.xml
+  create module --fileName modules/btvS5VisualisationUtility.xml
+  create module --fileName modules/btvS6VisualisationUtility.xml
+  create module --fileName modules/btvS7VisualisationUtility.xml
+  create module --fileName modules/btvS8VisualisationUtility.xml
+  create module --fileName modules/btvS9VisualisationUtility.xml
+  create module --fileName modules/btvS10VisualisationUtility.xml
 
   create module --fileName modules/btvReportingController.xml --loadResources 
   create module --fileName modules/btvFeatureToSvgTransformer.xml --loadResources 

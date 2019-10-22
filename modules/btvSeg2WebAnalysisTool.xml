@@ -1,8 +1,0 @@
-<webAnalysisTool>
-	<fastaSequenceReporterModuleName>btvSeg2SequenceReporter</fastaSequenceReporterModuleName>
-	<maxLikelihoodGenotyperModuleName>btvS2MaxLikelihoodGenotyper</maxLikelihoodGenotyperModuleName>
-	<featureAnalysisHint>
-		<featureName>VP2</featureName>
-		<includesSequenceContent>true</includesSequenceContent>
-	</featureAnalysisHint>
-</webAnalysisTool>
