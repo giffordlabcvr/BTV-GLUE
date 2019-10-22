@@ -94,14 +94,12 @@ project btv
   # import reference phylogenies
   run script glue/btvImportReferencePhylogenies.js
     
-  # genotype segment 2 curated sequences using placement files, 
+  # genotype segment urated sequences using placement files, 
   # add them to the alignment tree and recompute alignments.
-  # module btvGenotypeCuratedSeg2Sequences invoke-function genotypeCuratedSeg2  
-    
-  ## record feature presence
-  # run file glue/recordFeaturePresence.glue
+  run script glue/btvGenotypeCuratedSequences.js
 
-
+  # record feature presence
+  run file glue/recordFeaturePresence.glue
 
   validate
   
