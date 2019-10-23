@@ -14,20 +14,46 @@ btvApp.controller('btvFastaAnalysisCtrl',
 			$scope.lastFeatureName = null;
 	    	$scope.displaySection = 'summary';
 			
-	    	$scope.neighbourSlider = {
-	    			  value: 100,
+	    	$scope.neighbourSliders = {};
+	    	
+	    	_.each(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], function(segNum) {
+	    		var value;
+	    		var ceil;
+	    		var getLegend;
+	    		var step;
+	    		var showTicks;
+	    		if(segNum == "2" || segNum == "6") {
+		    		value = 100;
+		    		ceil = 1000;
+		    		getLegend = function(value, sliderId) { return toFixed(value/100, 1); };
+		    		step = 5;
+		    		showTicks = 50;
+	    		} else {
+		    		value = 30;
+		    		ceil = 300;
+		    		getLegend = function(value, sliderId) { return toFixed(value/100, 1); };
+		    		step = 1;
+		    		showTicks = 20;
+	    		}
+	    		
+		    	$scope.neighbourSliders[segNum] = {
+	    			  value: value,
 	    			  options: {
 	    			    precision: 1,
 	    			    floor: 0,
-	    			    ceil: 1000,
+	    			    ceil: ceil,
 	    			    hideLimitLabels: true,
 	    			    hidePointerLabels: true,
-	    			    getLegend: function(value, sliderId) { return toFixed(value/100, 1); }, 
-	    			    step: 5,
-	    			    showTicks: 50,
+	    			    getLegend: getLegend, 
+	    			    step: step,
+	    			    showTicks: showTicks,
 	    			    keyboardSupport: false,
 	    			  }
-	    			};
+		    	};
+	    		
+	    	});
+	    	
+	    	
 	    	
 			$controller('fileConsumerCtrl', { $scope: $scope, 
 				glueWebToolConfig: glueWebToolConfig, 
@@ -320,7 +346,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 
 				var cacheKey = $scope.fileItemUnderAnalysis.file.name+":"+
 					sequenceReport.btvReport.sequenceResult.id+":"+
-					placement.placementIndex+":"+$scope.neighbourSlider.value;
+					placement.placementIndex+":"+$scope.neighbourSliders[sequenceReport.btvReport.sequenceResult.segment].value;
 				console.info('cacheKey', cacheKey);
 				
 
@@ -346,7 +372,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 										    "placerModule" : sequenceReport.btvReport.sequenceResult.placerModule,
 										    "queryName" : sequenceReport.btvReport.sequenceResult.id,
 										    "placementIndex" : placement.placementIndex,
-										    "maxDistance" : toFixed($scope.neighbourSlider.value/100, 2),
+										    "maxDistance" : toFixed($scope.neighbourSliders[sequenceReport.btvReport.sequenceResult.segment].value/100, 2),
 											"pxWidth" : 1136 - scrollbarWidth, 
 											"pxHeight" : 2500,
 											"legendPxWidth" : 1136, 

@@ -139,7 +139,7 @@
 								<div class="btn-group" dropdown is-open="status.qseqButtonOpen">
 									<button ng-disabled="featureVisualisationUpdating" id="qseq-button" type="button" class="btn btn-sm btn-default"
 										dropdown-toggle>
-										{{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.id}}
+										{{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.id}} (Segment {{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment ? fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment : "unknown"}})
 										<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu" role="menu"
@@ -147,7 +147,7 @@
 										<li
 											ng-repeat="report in fileItemUnderAnalysis.response.btvWebReport.results"
 											ng-click="setSequenceReport(fileItemUnderAnalysis, report)"
-											role="menuitem"><a>{{report.btvReport.sequenceResult.id}}</a></li>
+											role="menuitem"><a>{{report.btvReport.sequenceResult.id}} (Segment {{report.btvReport.sequenceResult.segment ? report.btvReport.sequenceResult.segment : "unknown"}})</a></li>
 									</ul>
 								</div>
 								(displayed in green)
@@ -218,7 +218,7 @@
 								<div class="btn-group" dropdown is-open="status.pseqButtonOpen">
 									<button ng-disabled="phyloVisualisationUpdating" id="pseq-button" type="button" class="btn btn-sm btn-default"
 										dropdown-toggle>
-										{{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.id}}
+										{{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.id}} (Segment {{fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment ? fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment : "unknown"}})
 										<span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu" role="menu"
@@ -226,7 +226,7 @@
 										<li
 											ng-repeat="report in fileItemUnderAnalysis.response.btvWebReport.results"
 											ng-click="setSequenceReport(fileItemUnderAnalysis, report)"
-											role="menuitem"><a>{{report.btvReport.sequenceResult.id}}</a></li>
+											role="menuitem"><a>{{report.btvReport.sequenceResult.id}} (Segment {{report.btvReport.sequenceResult.segment ? report.btvReport.sequenceResult.segment : "unknown"}})</a></li>
 									</ul>
 								</div>
 								<span ng-if="fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.placements.length > 1">
@@ -254,7 +254,9 @@
 							</div>
 							<p>
 							<div ng-if="fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.placements.length > 0">
-								  Display neighbours within distance of {{toFixed(neighbourSlider.value/100, 2)}} mean substitutions/site <rzslider class="with-legend" rz-slider-model="neighbourSlider.value" rz-slider-options="neighbourSlider.options"></rzslider>
+								  Display neighbours within distance of {{toFixed(neighbourSliders[fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment].value/100, 2)}} mean substitutions/site <rzslider class="with-legend" 
+								  rz-slider-model="neighbourSliders[fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment].value" 
+								  rz-slider-options="neighbourSliders[fileItemUnderAnalysis.sequenceReport.btvReport.sequenceResult.segment].options"></rzslider>
 							</div>
 							</p>
 						</div><!-- https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
