@@ -343,6 +343,7 @@ btvApp.controller('btvFastaAnalysisCtrl',
 									"document": {
 										"inputDocument": {
 										    "placerResult" : $scope.fileItemUnderAnalysis.response.btvWebReport.placerResult["S"+segment], 
+										    "placerModule" : sequenceReport.btvReport.sequenceResult.placerModule,
 										    "queryName" : sequenceReport.btvReport.sequenceResult.id,
 										    "placementIndex" : placement.placementIndex,
 										    "maxDistance" : toFixed($scope.neighbourSlider.value/100, 2),

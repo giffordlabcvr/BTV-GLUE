@@ -96,25 +96,26 @@
 						<thead>
 							<tr>
 								<th rowspan="2" style="width: 20%;">Sequence</th>
-								<th rowspan="2" style="width: 10%;">BTV Segment</th>
+								<th rowspan="2" style="width: 7%;">Segment</th>
 								<th rowspan="2" style="width: 10%;">Closest reference sequence</th>
-								<th rowspan="2" style="width: 60%;">Clade membership</th>
+								<th rowspan="2" style="width: 63%;">Clade membership</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr
 								ng-repeat="btvResult in fileItemUnderAnalysis.response.btvWebReport.results track by $index">
 								<td>{{btvResult.btvReport.sequenceResult.id}}</td>
-								<td colspan="3" ng-if="!btvResult.btvReport.sequenceResult.isForwardBtv">
-									<span ng-if="btvResult.btvReport.sequenceResult.noRecogniserHits">Not recognised as Bluetongue virus</span>
-									<span ng-if="btvResult.btvReport.sequenceResult.multipleRecogniserHits">Bluetongue segment and/or sequence direction unclear</span>
-									<span ng-if="btvResult.btvReport.sequenceResult.isReverseBtv">Reverse-complement of Bluetongue segment {{btvResult.btvReport.sequenceResult.segment}}</span>
+								<td colspan="3" ng-if="!btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment == null">
+									<span ng-if="btvResult.btvReport.sequenceResult.noRecogniserHits">Segment not recognised</span>
+									<span ng-if="btvResult.btvReport.sequenceResult.multipleRecogniserHits">Segment and/or sequence direction unclear</span>
 								</td>
-								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv">BTV Segment {{btvResult.btvReport.sequenceResult.segment}}</td>
-								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != 2">-</td>
-								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment == 2"><a href="#/project/reference/{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceName}}" target="_blank">{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceSeqID}}</a></td>
-								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != 2">-</td>
-								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment == 2">
+								<td ng-if="btvResult.btvReport.sequenceResult.segment != null">{{btvResult.btvReport.sequenceResult.segment}}</td>
+								<td colspan="2" ng-if="!btvResult.btvReport.sequenceResult.isForwardBtv && btvResult.btvReport.sequenceResult.segment != null">
+									<span ng-if="btvResult.btvReport.sequenceResult.notBtv">Virus species is not Bluetongue</span>
+									<span ng-if="btvResult.btvReport.sequenceResult.isReverseBtv">Reverse-complement of segment {{btvResult.btvReport.sequenceResult.segment}}</span>
+								</td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv"><a href="#/project/reference/{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceName}}" target="_blank">{{btvResult.btvReport.sequenceResult.visualisationHints.targetReferenceSeqID}}</a></td>
+								<td ng-if="btvResult.btvReport.sequenceResult.isForwardBtv">
 									<span ng-repeat="qccr in btvResult.btvReport.sequenceResult.genotypingResult.queryCladeCategoryResult | filter: allowCladeCategory track by $index">
 										<span ng-if="$index > 0">&nbsp;/&nbsp;</span>
 										<a href="#/project/alignment/{{qccr.finalClade}}" target="_blank" ng-if="qccr.finalClade != null">{{qccr.finalCladeRenderedName}}</a>

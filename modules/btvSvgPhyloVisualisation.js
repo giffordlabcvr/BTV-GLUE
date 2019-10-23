@@ -59,9 +59,12 @@ function visualisePhyloAsSvg(document) {
 	var maxNeighbours = null;
 	var maxDistance = document.inputDocument.maxDistance;
 	var placerResult = document.inputDocument.placerResult;
+	var placerModule = document.inputDocument.placerModule;
+	
+	glue.logInfo("step 1");
 	
 	// generate a tree for the placement, as a command document.
-	glue.inMode("module/btvS2MaxLikelihoodPlacer", function() {
+	glue.inMode("module/"+placerModule, function() {
 		glueTree = glue.command({
 				"export": {
 					"placement-from-document": {
@@ -76,9 +79,12 @@ function visualisePhyloAsSvg(document) {
 		});
 	});
 
+	glue.logInfo("step 2");
+
+	
 	var neighbourObjs;
 
-	glue.inMode("module/btvS2MaxLikelihoodPlacer", function() {
+	glue.inMode("module/"+placerModule, function() {
 		neighbourObjs = glue.tableToObjects(glue.command({
 				"list": {
 					"neighbour-from-document": {
@@ -94,10 +100,15 @@ function visualisePhyloAsSvg(document) {
 
 	var neighbourLeafNames = [queryName];
 
+	glue.logInfo("step 3");
+
 	_.each(neighbourObjs, function(neighbourObj) {
 		neighbourLeafNames.push("alignment/"+neighbourObj.alignmentName+"/member/"+neighbourObj.sourceName+"/"+neighbourObj.sequenceID);
 	});
 
+	glue.logInfo("step 4");
+
+	
 	glue.inMode("module/btvPhyloUtility", function() {
 		// suppress the collapse of any subtree which is an ancestor of the query leaf or its neighbours
 		glueTree = glue.command({
@@ -108,6 +119,9 @@ function visualisePhyloAsSvg(document) {
 				inputPhyloTree: glueTree
 			}
 		});
+		
+		glue.logInfo("step 5");
+		
 		// set leaf node to highlighted
 		glueTree = glue.command({
 			"update-leaves" : {
@@ -117,6 +131,9 @@ function visualisePhyloAsSvg(document) {
 				inputPhyloTree: glueTree
 			}
 		});
+
+		glue.logInfo("step 6");
+
 		// set leaf node to non-member
 		glueTree = glue.command({
 			"update-leaves" : {
@@ -126,6 +143,9 @@ function visualisePhyloAsSvg(document) {
 				inputPhyloTree: glueTree
 			}
 		});
+		
+		glue.logInfo("step 7");
+
 		// set ancestor branches of leaf node to highlighted
 		glueTree = glue.command({
 			"update-ancestor-branches" : {
@@ -135,10 +155,14 @@ function visualisePhyloAsSvg(document) {
 				inputPhyloTree: glueTree
 			}
 		});
+
+		glue.logInfo("step 8");
+
 	});
 
 	collapseClades(glueTree.phyloTree.root, false);
 
+	glue.logInfo("step 9");
 	
 	// generate a visualisation document for the tree, 
 	// with the visualisation maths etc. done
@@ -159,6 +183,8 @@ function visualisePhyloAsSvg(document) {
 		});
 	});
 
+	glue.logInfo("step 10");
+
 	// from the visualisation documents, generate SVGs as GLUE web files.
 	var treeTransformResult;
 	glue.inMode("module/btvTreeVisualisationTransformer", function() {
@@ -175,6 +201,8 @@ function visualisePhyloAsSvg(document) {
 		});
 	});
 
+	glue.logInfo("step 11");
+
 	var legendTransformResult;
 	glue.inMode("module/btvTreeVisualisationLegendTransformer", function() {
 		legendTransformResult = glue.command({ "transform-to-web-file": 
@@ -189,6 +217,8 @@ function visualisePhyloAsSvg(document) {
 			}
 		});
 	});
+
+	glue.logInfo("step 12");
 
 	glue.logInfo("legendTransformResult", legendTransformResult);
 	

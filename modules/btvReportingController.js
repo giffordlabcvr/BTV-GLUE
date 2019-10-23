@@ -269,6 +269,7 @@ function generateSingleFastaReport(fastaMap, resultObj, fastaFilePath) {
 			resultObj.featuresWithCoverage = generateFeaturesWithCoverage(resultObj.segment, targetRefName, queryToTargetRefSegs);
 			resultObj.visualisationHints = visualisationHints(resultObj.segment, queryNucleotides, targetRefName, genotypingResult, queryToTargetRefSegs);
 		}
+		resultObj.placerModule = segToSegDetails[resultObj.segment].placerModule;
 	}
 	
 	var btvReport = { 
@@ -343,7 +344,7 @@ function visualisationHints(segment, queryNucleotides, targetRefName, genotyping
 		"targetReferenceSourceName":targetRefSourceName,
 		"queryNucleotides":queryNucleotides,
 		"queryToTargetRefSegments": queryToTargetRefSegs,
-		"visualisationUtilityModule": segToSegDetails[segment].visualisationUtilityModule
+		"visualisationUtilityModule": segToSegDetails[segment].visualisationUtilityModule,
 	};
 }
 
@@ -472,6 +473,11 @@ function genotypeFasta(fastaMap, resultMap, placerResultContainer) {
 					glue.log("FINE", "btvReportingController.genotypeFasta genotypingResults:", genotypingResults);
 					_.each(genotypingResults, function(genotypingResult) {
 						resultMap[genotypingResult.queryName].genotypingResult = genotypingResult;
+						var speciesQccr = _.find(genotypingResult.queryCladeCategoryResult, function(qccr) {return qccr.categoryName == 'species';});
+						if(speciesQccr.queryCladeResult == null || speciesQccr.queryCladeResult.length == 0) {
+							resultMap[genotypingResult.queryName].notBtv = true;
+							resultMap[genotypingResult.queryName].isForwardBtv = false;
+						}
 					});
 				}
 			}
@@ -490,6 +496,7 @@ function recogniseFasta(fastaMap, resultMap) {
 	_.each(_.values(resultMap), function(resultObj) {
 		resultObj.noRecogniserHits = false;
 		resultObj.multipleRecogniserHits = false;
+		resultObj.notBtv = false;
 		resultObj.isForwardBtv = false;
 		resultObj.isReverseBtv = false;
 		resultObj.segment = null;
