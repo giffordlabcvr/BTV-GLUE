@@ -7,7 +7,8 @@ btvApp.controller('btvIsolatesCtrl',
 			$scope.whereClause = null;
 			$scope.loadingSpinner = false;
 			$scope.analytics = $analytics;
-
+			$scope.segmentDisplay = 'sequences';
+			
 			addUtilsToScope($scope);
 
 			$scope.downloadIsolateMetadata = function() {

@@ -12,6 +12,12 @@
 		      </ul>
 			</div>
 		</paging-buttons>
+		<p>
+			<div class="btn-group">
+		        <label class="btn btn-default btn-xs ng-pristine ng-untouched ng-valid active" ng-model="segmentDisplay" btn-radio="'sequences'">Display sequences</label>
+		        <label class="btn btn-default btn-xs ng-pristine ng-untouched ng-valid active" ng-model="segmentDisplay" btn-radio="'clades'">Display clades</label>
+			</div>
+		</p>		
 		<span ng-show="listIsolatesResult.length == 0">None</span>
 		<div ng-show="listIsolatesResult.length > 0">
 			Isolates {{pagingContext.firstItemIndex}} to {{pagingContext.lastItemIndex}} of {{pagingContext.totalItems}}
@@ -21,7 +27,7 @@
 					<th rowspan="2">Country</th>
 					<th rowspan="2">Host species</th>
 					<th rowspan="2">Collection year</th>
-					<th colspan="10" style="text-align:center">Segment</th>
+					<th colspan="10" style="text-align:center">{{segmentDisplay == 'sequences' ? "Segment sequences" : "Segment clades"}}</th>
 				</tr>
 				<tr>
 					<th>1</th>
@@ -57,10 +63,19 @@
 						<td>{{isolateResult.isolate.country_iso == null ? "-" : isolateResult.isolate.country + " ("+isolateResult.isolate.country_iso+")"}}</td>
 						<td><em>{{handleNull(isolateResult.isolate.host)}}</em></td>
 						<td>{{handleNull(isolateResult.isolate.collectionYear)}}</td>
-						<td ng-repeat="segNumber in [1,2,3,4,5,6,7,8,9,10]">
+						<td ng-if="segmentDisplay=='sequences'" ng-repeat="segNumber in [1,2,3,4,5,6,7,8,9,10]">
 							<span ng-repeat="seq in isolateResult.isolate.sequence | filter : { segment: segNumber } : true as filteredSeqs">
 							<a href="#project/sequence/{{seq.sourceName}}/{{seq.sequenceID}}" target="_blank"
 							>{{seq.sequenceID}}</a></span>
+							<span ng-if="!filteredSeqs.length">-</span>
+						</td>
+						<td ng-if="segmentDisplay=='clades'" ng-repeat="segNumber in [1,2,3,4,5,6,7,8,9,10]">
+							<span ng-repeat="seq in isolateResult.isolate.sequence | filter : { segment: segNumber } : true as filteredSeqs track by $index">
+							{{$index > 0 ? "/ " : ""}}<a ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') < 0"
+							   href="#project/alignment/{{seq.alignmentMembership[0].alignmentName}}" target="_blank"
+							>{{seq.alignmentMembership[0].alignmentDisplayName.replace("Genogroup ", "").replace("Genotype ", "")}}</a>
+							<span ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') >= 0">Unknown</span>
+							</span>
 							<span ng-if="!filteredSeqs.length">-</span>
 						</td>
 					</tr>
