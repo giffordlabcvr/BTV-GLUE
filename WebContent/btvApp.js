@@ -128,6 +128,7 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.versionInfoTitle = "Version information";
 	$scope.howToCiteTitle = "How to cite";
 	glueWS.setProjectURL("../../../gluetools-ws/project/btv");
+	glueWS.setAsyncURL("../../../gluetools-ws");
 	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
 	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/btvSeg2Example.fasta");
 	glueWebToolConfig.setAnalysisToolExampleMsWindowsSequenceURL("exampleSequencesMsWindows/btvSeg2Example.fasta");
