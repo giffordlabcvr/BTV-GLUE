@@ -197,6 +197,9 @@ function initResultMap(fastaDocument, fastaMap, resultMap, placerResultContainer
 	_.each(sequenceObjs, function(sequenceObj) {
 		resultMap[sequenceObj.id] = { id: sequenceObj.id };
 	});
+	var numSeqs = fastaDocument.nucleotideFasta.sequences.length;
+	glue.setRunningDescription("Segment recognition for "+numSeqs+" sequence"+((numSeqs > 1) ? "s" : ""));
+	
 	// apply recogniser to fastaMap
 	recogniseFasta(fastaMap, resultMap);
 
@@ -408,6 +411,8 @@ function genotypeFasta(fastaMap, resultMap, placerResultContainer) {
 
 					var placerModule = segToSegDetails[segment].placerModule;
 
+					glue.setRunningDescription("Phylogenetics for "+genotypingMapValues.length+" segment "+segment+" sequence"+(genotypingMapValues.length > 1 ? "s" : ""));
+					
 					// run the placer and generate a placer result document
 					var placerResultDocument;
 					glue.inMode("module/"+placerModule, function() {
@@ -483,7 +488,9 @@ function genotypeFasta(fastaMap, resultMap, placerResultContainer) {
 			}
 		}
 	});
-	
+
+	glue.setRunningDescription("Collating report");
+
 }
 
 
