@@ -46,6 +46,14 @@
 		<alignmentMembership glueType="Object[]">
 			<@elem tag="alignmentName" expr="context.alignment.name" context=almtMember/>
 			<@elem tag="alignmentDisplayName" expr="context.alignment.displayName" context=almtMember/>
+			<@elem tag="alignmentCladeCategory" expr="context.alignment.clade_category" context=almtMember/>
+		<#if almtMember.alignment.parent?? && almtMember.alignment.parent.clade_category != "species">
+			<parentAlignment glueType="Object">
+				<@elem tag="alignmentName" expr="context.alignment.parent.name" context=almtMember/>
+				<@elem tag="alignmentDisplayName" expr="context.alignment.parent.displayName" context=almtMember/>
+				<@elem tag="alignmentCladeCategory" expr="context.alignment.parent.clade_category" context=almtMember/>
+			</parentAlignment>
+		</#if>
 		</alignmentMembership>
 		</#if>
 		</#list>

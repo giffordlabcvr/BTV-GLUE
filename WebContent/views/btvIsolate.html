@@ -114,7 +114,11 @@
 				<td>{{seq.completeSegment ? "Yes" : "No"}}</td>
 				<td>{{seq.create_date}}</td>
 				<td>{{seq.update_date}}</td>
-				<td ng-if="seq.alignmentMembership"><span ng-repeat="almtMember in seq.alignmentMembership"><a href="#project/alignment/{{almtMember.alignmentName}}">{{almtMember.alignmentDisplayName}}</a></span></td>
+				<td ng-if="seq.alignmentMembership">
+					<span ng-repeat="almtMember in seq.alignmentMembership">
+						<span ng-if="almtMember.parentAlignment"><a href="#project/alignment/{{almtMember.parentAlignment.alignmentName}}" target="_blank">{{almtMember.parentAlignment.alignmentDisplayName}}</a> - </span>
+					<a href="#project/alignment/{{almtMember.alignmentName}}" target="_blank">{{almtMember.alignmentDisplayName}}</a>
+					</span></td>
 				<td ng-if="!seq.alignmentMembership">-</td>
 				<td ng-if="seq.publicationId"><a href="{{seq.publicationUrl}}" target="_blank">{{seq.publicationDisplayName}} [{{seq.publicationIndex}}] <i class="glyphicon glyphicon-link"></i></a></td>
 				<td ng-if="!seq.publicationId">-</td>

@@ -18,6 +18,9 @@
 		        <label class="btn btn-default btn-xs ng-pristine ng-untouched ng-valid active" ng-model="segmentDisplay" btn-radio="'clades'">Display clades</label>
 			</div>
 		</p>		
+		<p>
+			<sup>*</sup> indicates incomplete segment.
+		</p>
 		<span ng-show="listIsolatesResult.length == 0">None</span>
 		<div ng-show="listIsolatesResult.length > 0">
 			Isolates {{pagingContext.firstItemIndex}} to {{pagingContext.lastItemIndex}} of {{pagingContext.totalItems}}
@@ -66,16 +69,18 @@
 						<td ng-if="segmentDisplay=='sequences'" ng-repeat="segNumber in [1,2,3,4,5,6,7,8,9,10]">
 							<span ng-repeat="seq in isolateResult.isolate.sequence | filter : { segment: segNumber } : true as filteredSeqs">
 							<a href="#project/sequence/{{seq.sourceName}}/{{seq.sequenceID}}" target="_blank"
-							>{{seq.sequenceID}}</a></span>
+							>{{seq.sequenceID}}</a><span ng-if="!seq.completeSegment"><sup>*</sup></span></span>
 							<span ng-if="!filteredSeqs.length">-</span>
 						</td>
 						<td ng-if="segmentDisplay=='clades'" ng-repeat="segNumber in [1,2,3,4,5,6,7,8,9,10]">
 							<span ng-repeat="seq in isolateResult.isolate.sequence | filter : { segment: segNumber } : true as filteredSeqs track by $index">
-							{{$index > 0 ? "/ " : ""}}<a ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') < 0"
-							   href="#project/alignment/{{seq.alignmentMembership[0].alignmentName}}" target="_blank"
+							{{$index > 0 ? "/ " : ""}}<span ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') < 0">
+							<span ng-if="seq.alignmentMembership[0].parentAlignment"><a href="#project/alignment/{{seq.alignmentMembership[0].parentAlignment.alignmentName}}" target="_blank">{{seq.alignmentMembership[0].parentAlignment.alignmentDisplayName.replace("Genogroup ", "")}}</a> - </span>
+							<a href="#project/alignment/{{seq.alignmentMembership[0].alignmentName}}" target="_blank"
 							>{{seq.alignmentMembership[0].alignmentDisplayName.replace("Genogroup ", "").replace("Genotype ", "")}}</a>
-							<span ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') >= 0">Unknown</span>
 							</span>
+							<span ng-if="seq.alignmentMembership[0].alignmentName.indexOf('MASTER') >= 0">Unknown</span>
+							<span ng-if="!seq.completeSegment"><sup>*</sup></span></span>
 							<span ng-if="!filteredSeqs.length">-</span>
 						</td>
 					</tr>
