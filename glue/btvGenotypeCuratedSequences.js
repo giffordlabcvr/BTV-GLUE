@@ -2,6 +2,21 @@
 
 glue.command(["multi-delete", "alignment_member", "-w", "sequence.source.name = 'ncbi-curated' and alignment.refSequence != null"]);
 
+// delete links between isolates and alignments.
+
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg1genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg2genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg2genotype"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg3genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg4genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg5genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg6genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg7genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg8genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg9genogroup"]);
+glue.command(["multi-unset", "link-target", "isolate", "-a", "seg10genogroup"]);
+
+
 for(var segNum = 1; segNum <= 10; segNum++) {
 	var placementPath = "placement_seg"+segNum;
 	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placementPath]));
@@ -40,10 +55,22 @@ for(var segNum = 1; segNum <= 10; segNum++) {
 			} else {
 				targetAlignmentName = null;
 			}
+			var cladeCategory;
+			var parentAlmtName;
 			if(targetAlignmentName != null) {
 				glue.inMode("alignment/"+targetAlignmentName, function() {
 					glue.command(["add", "member", sourceName, sequenceID]);
+					cladeCategory = glue.command(["show", "property", "clade_category"]).propertyValueResult.value;
+					parentAlmtName = glue.command(["show", "parent"]).alignmentShowParent["parent.name"];
 				});
+				var parentCladeCategory;
+				
+				if(parentAlmtName != null) {
+					glue.inMode("alignment/"+parentAlmtName, function() {
+						parentCladeCategory = glue.command(["show", "property", "clade_category"]).propertyValueResult.value;
+					});
+					
+				}
 
 				var isolateID;
 				
@@ -54,7 +81,12 @@ for(var segNum = 1; segNum <= 10; segNum++) {
 				});
 				if(isolateID != null) {
 					glue.inMode("custom-table-row/isolate/"+isolateID, function() {
-						glue.command(["set", "link-target", "seg"+segNum+"clade", "alignment/"+targetAlignmentName]);
+						if(cladeCategory != null && cladeCategory != "species") {
+							glue.command(["set", "link-target", "seg"+segNum+cladeCategory, "alignment/"+targetAlignmentName]);
+						}
+						if(parentCladeCategory != null && parentCladeCategory != "species") {
+							glue.command(["set", "link-target", "seg"+segNum+parentCladeCategory, "alignment/"+parentAlmtName]);
+						}
 					});
 				}
 			}

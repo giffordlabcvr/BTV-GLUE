@@ -48,9 +48,6 @@ schema-project btv
     create field passage_history VARCHAR
     create field passage_cells VARCHAR
     create field clinical_symptoms BOOLEAN
-    # segment 2 / 6 genotypes as reported by the genbank records, or failing that, the BLAST-based recogniser.
-    create field seg2genotype VARCHAR
-    create field seg6genotype VARCHAR
     # alternative isolate names, separated by ;
     create field alt_names CLOB
     # true iff isolate has at least one "complete segment" sequence for each of the 10 segments
@@ -73,6 +70,7 @@ schema-project btv
     create field phylogeny CLOB
     create field clade_category VARCHAR
     create field sort_key VARCHAR
+	create field minimal_name VARCHAR
     exit
 
   table member_floc_note
@@ -89,16 +87,17 @@ schema-project btv
   create link isolate sequence -m ONE_TO_MANY
 
   # direct link between isolate and relevant segment X clade.
-  create link isolate -s seg1clade alignment -d seg1isolate -m MANY_TO_ONE
-  create link isolate -s seg2clade alignment -d seg2isolate -m MANY_TO_ONE
-  create link isolate -s seg3clade alignment -d seg3isolate -m MANY_TO_ONE
-  create link isolate -s seg4clade alignment -d seg4isolate -m MANY_TO_ONE
-  create link isolate -s seg5clade alignment -d seg5isolate -m MANY_TO_ONE
-  create link isolate -s seg6clade alignment -d seg6isolate -m MANY_TO_ONE
-  create link isolate -s seg7clade alignment -d seg7isolate -m MANY_TO_ONE
-  create link isolate -s seg8clade alignment -d seg8isolate -m MANY_TO_ONE
-  create link isolate -s seg9clade alignment -d seg9isolate -m MANY_TO_ONE
-  create link isolate -s seg10clade alignment -d seg10isolate -m MANY_TO_ONE
+  create link isolate -s seg1genogroup alignment -d seg1_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg2genogroup alignment -d seg2_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg2genotype alignment -d seg2_genotype_isolate -m MANY_TO_ONE
+  create link isolate -s seg3genogroup alignment -d seg3_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg4genogroup alignment -d seg4_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg5genogroup alignment -d seg5_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg6genogroup alignment -d seg6_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg7genogroup alignment -d seg7_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg8genogroup alignment -d seg8_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg9genogroup alignment -d seg9_genogroup_isolate -m MANY_TO_ONE
+  create link isolate -s seg10genogroup alignment -d seg10_genogroup_isolate -m MANY_TO_ONE
 
   create link isolate who_country -m MANY_TO_ONE
 

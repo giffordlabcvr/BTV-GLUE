@@ -163,6 +163,8 @@ function createAlignmentTree(jsonStructureFile, genoCodonAlignmentName) {
 			glue.command(["set", "field", "clade_category", alignment.cladeCategory]);
 			if(alignment.almtDisplayName != null) {
 				glue.command(["set", "field", "displayName", alignment.almtDisplayName]);
+				glue.command(["set", "field", "minimal_name", alignment.almtDisplayName.replace("Genogroup ", "").replace("Genotype ", "")]);
+				
 			}
 			var numericSortKey = alignment.numericSortKey;
 			if(numericSortKey == null) {

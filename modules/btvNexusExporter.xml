@@ -1,19 +1,7 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
-		<annotationName>virus</annotationName>
-		<template><![CDATA[<#if (sequence.source.name = 'ncbi-outgroup' && sequence.sequenceID?starts_with('AM7449')) || (sequence.source.name = 'ncbi-outgroup-fullgenomes' && sequence.sequenceID = 'ehdvFullGenome')>EHDV<#elseif (sequence.source.name = 'ncbi-outgroup' && sequence.sequenceID?starts_with('JQ0703')) || (sequence.source.name = 'ncbi-outgroup-fullgenomes' && sequence.sequenceID = 'patavFullGenome')>PATAV<#elseif sequence.isolate_segment?? && sequence.isolate_segment = 6>BTV${renderNestedProperty('sequence.isolate.seg6genotype')}<#else>BTV${renderNestedProperty('sequence.isolate.seg2genotype')}</#if>]]></template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
 		<annotationName>glue_clade_plus_cluster</annotationName>
 		<template><![CDATA[<#list sequence.alignmentMemberships as memb><#if memb.alignment.name?startsWith('AL_')><#assign almt = memb.alignment.displayName!memb.alignment.name><#break></#if></#list>${almt!"-"}:${sequence.cluster_a!"-"}]]></template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>accession_country_isolateS2genotype_year</annotationName>
-		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg2genotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>accession_country_isolateS6genotype_year</annotationName>
-		<template>${renderNestedProperty('sequence.sequenceID')}/${renderNestedProperty('sequence.isolate.who_country.display_name')}/${renderNestedProperty('sequence.isolate.seg6genotype')}/${renderNestedProperty('sequence.isolate.collection_year')}</template>
 	</freemarkerAnnotationGenerator>
 	<freemarkerAnnotationGenerator>
 		<annotationName>country_iso</annotationName>

@@ -69,8 +69,6 @@
 
   create module -f modules/btvTabularUtility.xml  
   create module -f modules/btvNexusExporter.xml  
-  create module -f modules/btvNexusExporter_Seg2.xml  
-  create module -f modules/btvNexusExporter_Seg6.xml  
 
   create module -f modules/btvSequenceIsolateDiscrepancyFinder.xml --loadResources 
   

@@ -59,8 +59,6 @@
 <#if isolate ??>
 	<@elem tag="isolateID" expr="context.id" context=isolate/>
 	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>
-	<@elem tag="isolateSeg2Genotype" expr="context.seg2genotype" context=isolate/>
-	<@elem tag="isolateSeg6Genotype" expr="context.seg6genotype" context=isolate/>
 	<@elem tag="host" expr="context.host" context=isolate/>
 <#if isolate.who_country ??>
 	<@elem tag="collectionYear" expr="context.collection_year" context=isolate type="Integer"/>
