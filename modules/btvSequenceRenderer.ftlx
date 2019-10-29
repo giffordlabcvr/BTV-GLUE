@@ -7,6 +7,13 @@
 	<alignmentMembership glueType="Object[]">
 		<name>${alignmentMembership.alignment.name}</name>
 		<renderedName>${alignmentMembership.alignment.getRenderedName()}</renderedName>
+	    <#if alignmentMembership.alignment.parent?? && alignmentMembership.alignment.parent.clade_category != "species">
+			<parentAlignment glueType="Object">
+				<@elem tag="alignmentName" expr="context.alignment.parent.name" context=alignmentMembership/>
+				<@elem tag="alignmentDisplayName" expr="context.alignment.parent.displayName" context=alignmentMembership/>
+				<@elem tag="alignmentCladeCategory" expr="context.alignment.parent.clade_category" context=alignmentMembership/>
+			</parentAlignment>
+		</#if>
 <#if alignmentMembership.alignment.refSequence ??>
 <#assign constrainingRefName=alignmentMembership.alignment.refSequence.name>
 		<constrainingReference>

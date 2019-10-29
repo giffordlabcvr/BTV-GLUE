@@ -43,35 +43,18 @@
 					<td><b>Complete Segment?</b></td>
 					<td>{{renderResult.sequence.completeSegment ? "Yes" : "No"}}</td>
 				</tr>
-				
-				<tr ng-if="renderResult.sequence.segment == '2'">
-					<td><b>Genotype (annotated in GenBank)</b></td>
-					<td>{{handleNull(renderResult.sequence.gbGenotype)}}</td>
-				</tr>
-				<!-- <tr ng-if="renderResult.sequence.segment == '2' || renderResult.sequence.segment == '6'">
-					<td><b>Genotype (detected by BTV-GLUE)</b></td>
-					<td>{{handleNull(renderResult.sequence.recogniserGenotype)}}</td>
-				</tr>
-				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Genotype of segment 2 in the same isolate</b></td>
-					<td>{{handleNull(renderResult.sequence.isolateSeg2Genotype)}}</td>
-				</tr>
-				<tr ng-if="renderResult.sequence.segment != '2' && renderResult.sequence.segment != '6'">
-					<td><b>Genotype of segment 6 in the same isolate</b></td>
-					<td>{{handleNull(renderResult.sequence.isolateSeg6Genotype)}}</td>
-				</tr> -->
 				<tbody
 					ng-repeat="alignment in renderResult.sequence.alignmentMembership track by $index"
 					ng-show="alignment.constrainingReference">
 					<tr>
 						<td><b>Segment clade assignment</b></td>
-						<td><a href="#project/alignment/{{alignment.name}}">{{alignment.renderedName}}</a></td>
+						<td><span ng-if="alignment.parentAlignment">
+						<a href="#project/alignment/{{alignment.parentAlignment.alignmentName}}">{{alignment.parentAlignment.alignmentDisplayName}}</a> - </span><a href="#project/alignment/{{alignment.name}}">{{alignment.renderedName}}</a></td>
 					</tr>
-					<!-- commented out until alignments are populated
 					<tr ng-if="alignment.featureCoverage">
 						<td><b>Coverage of Genome Region</b><br/>based on homology with<br/><a href="#project/reference/{{alignment.constrainingReference.name}}">{{alignment.constrainingReference.renderedName}}</a></td>
 						<td><div ng-repeat="featureCoverage in alignment.featureCoverage track by $index">{{featureCoverage.featureRenderedName}}: {{toFixed(featureCoverage.coveragePct,2)}}%</div></td>
-					</tr> -->
+					</tr>
 				</tbody>
 			</table>
 
