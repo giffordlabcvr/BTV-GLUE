@@ -1,0 +1,241 @@
+<gluetools>
+	<database>
+		<username>btv_glue</username>
+		<password>btvglue12345</password>
+		<jdbcUrl>jdbc:mysql://glue-db.cvr.gla.ac.uk:3306/BTV_GLUE?characterEncoding=UTF-8</jdbcUrl>	
+	</database>
+	<properties>
+		<property>
+			<name>gluetools.core.scripting.parallel.cpus</name>
+			<value>20</value>
+		</property>
+		<!-- Web files -->
+	    <property>
+			<name>gluetools.core.webfiles.enabled</name>
+			<value>true</value>
+		</property>
+		<property>
+			<name>gluetools.core.webfiles.root.dir</name>
+			<value>/opt/gluetools/glue_web_files/btv_glue</value>
+		</property>
+		<!-- BLAST specific config -->
+		<property>
+			<name>gluetools.core.programs.blast.blastn.executable</name>
+			<value>/opt/gluetools/blast/ncbi-blast-2.2.31+/bin/blastn</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.blast.tblastn.executable</name>
+			<value>/opt/gluetools/blast/ncbi-blast-2.2.31+/bin/tblastn</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.blast.makeblastdb.executable</name>
+			<value>/opt/gluetools/blast/ncbi-blast-2.2.31+/bin/makeblastdb</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.blast.temp.dir</name>
+			<value>/opt/gluetools/tmp/blastfiles</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.blast.db.dir</name>
+			<value>/opt/gluetools/tmp/blastdbs</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.blast.search.threads</name>
+			<value>4</value>
+		</property>
+		<!-- RAxML-specific config -->
+		<property>
+			<name>gluetools.core.programs.raxml.raxmlhpc.executable</name>
+			<value>/opt/gluetools/raxml/bin/raxmlHPC-PTHREADS-AVX2</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.raxml.raxmlhpc.cpus</name>
+			<value>4</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.raxml.temp.dir</name>
+			<value>/opt/gluetools/tmp/raxmlfiles</value>
+		</property>
+		<!-- MAFFT-specific config -->
+		<property>
+			<name>gluetools.core.programs.mafft.executable</name>
+			<value>/usr/local/bin/mafft</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.mafft.cpus</name>
+			<value>4</value>
+		</property>
+		<property>
+			<name>gluetools.core.programs.mafft.temp.dir</name>
+			<value>/opt/gluetools/tmp/mafftfiles</value>
+		</property>
+		<!-- SAM/BAM file processing -->
+		<property>
+			<name>gluetools.core.sam.temp.dir</name>
+			<value>/opt/gluetools/tmp/samfiles</value>
+		</property>
+		<property>
+			<name>gluetools.core.sam.cpus</name>
+			<value>4</value>
+		</property>
+		<!-- Cayenne -->
+		<property>
+			<name>cayenne.querycache.size</name>
+			<value>30000</value>
+		</property>
+		
+	</properties>
+	<requestQueueManager>
+		<requestQueue>
+			<queueName>default</queueName>
+			<numWorkers>2</numWorkers>		
+			<maxRequests>20</maxRequests>
+		</requestQueue>
+		<requestQueue>
+			<queueName>download</queueName>
+			<numWorkers>1</numWorkers>		
+			<maxRequests>20</maxRequests>
+		</requestQueue>
+		<requestQueue>
+			<queueName>analysis</queueName>
+			<numWorkers>1</numWorkers>		
+			<maxRequests>20</maxRequests>
+		</requestQueue>
+	</requestQueueManager>
+	<requestGatekeeper>
+		<modePathRegexFilter>
+			<regex>^/project/btv</regex>
+			<!-- general -->
+			<simpleCommandFilter words="multi-render">
+				<arg name="tableName">who_region</arg>
+				<arg name="rendererModuleName">whoRegionTreeRenderer</arg>
+			</simpleCommandFilter>
+			<!-- segment clade tree page -->
+			<modePathRegexFilter>
+				<regex>.*/alignment/AL_S[0-9]+_MASTER</regex>
+				<simpleCommandFilter words="descendent-tree"/>
+			</modePathRegexFilter>
+			<!-- sequences page -->
+			<modePathRegexFilter>
+				<regex>.*/module/fastaExporter$</regex>
+				<simpleCommandFilter words="web-export">
+					<queueAssignmentFilter>
+							<queueName>download</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<simpleCommandFilter words="count sequence"/>
+			<simpleCommandFilter words="list sequence"/>
+			<simpleCommandFilter words="web-list sequence"/>
+			<!-- alignment page -->
+			<modePathRegexFilter>
+				<regex>.*/alignment/.*</regex>
+				<simpleCommandFilter words="render-object">
+					<arg name="rendererModuleName">btvAlignmentRenderer</arg>
+				</simpleCommandFilter>
+				<simpleCommandFilter words="count member"/>
+				<simpleCommandFilter words="list member"/>
+				<simpleCommandFilter words="web-list member">
+					<queueAssignmentFilter>
+						<queueName>download</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/reference/.*</regex>
+				<simpleCommandFilter words="show feature tree"/>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/fastaExporter$</regex>
+				<simpleCommandFilter words="web-export-member">
+					<queueAssignmentFilter>
+							<queueName>download</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/fastaAlignmentExporter$</regex>
+				<simpleCommandFilter words="web-export">
+					<queueAssignmentFilter>
+							<queueName>download</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/fastaProteinAlignmentExporter$</regex>
+				<simpleCommandFilter words="web-export">
+					<queueAssignmentFilter>
+							<queueName>download</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<!-- sequence page -->
+			<modePathRegexFilter>
+				<regex>.*/sequence/.*$</regex>
+				<simpleCommandFilter words="render-object">
+					<arg name="rendererModuleName">btvSequenceRenderer</arg>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<!-- analysis page -->
+			<modePathRegexFilter>
+				<regex>.*/module/btvReportingController$</regex>
+				<simpleCommandFilter words="invoke-consumes-binary-function">
+					<arg name="functionName">reportFastaWeb</arg>
+					<queueAssignmentFilter>
+						<queueName>analysis</queueName>						
+					</queueAssignmentFilter>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/btvS[0-9]+VisualisationUtility$</regex>
+				<simpleCommandFilter words="visualise-feature"/>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/btvSvgPhyloVisualisation$</regex>
+				<simpleCommandFilter words="invoke-function">
+					<arg name="functionName">visualisePhyloAsSvg</arg>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<modePathRegexFilter>
+				<regex>.*/module/btvFeatureToSvgTransformer$</regex>
+				<simpleCommandFilter words="transform-to-web-file"/>
+			</modePathRegexFilter>		
+			
+			<!-- isolates page -->
+			
+			<modePathRegexFilter>
+				<regex>.*/module/btvIsolateWebExporter$</regex>
+				<simpleCommandFilter words="invoke-function">
+					<arg name="functionName">exportIsolateTable</arg>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<simpleCommandFilter words="multi-render">
+					<arg name="tableName">isolate</arg>
+					<arg name="rendererModuleName">btvIsolateRenderer</arg>
+			</simpleCommandFilter>
+			<simpleCommandFilter words="list custom-table-row">
+					<arg name="tableName">isolate</arg>
+			</simpleCommandFilter>
+			<simpleCommandFilter words="count custom-table-row">
+					<arg name="tableName">isolate</arg>
+			</simpleCommandFilter>
+			<!-- isolate page -->
+			<modePathRegexFilter>
+				<regex>.*/custom-table-row/isolate/.*$</regex>
+				<simpleCommandFilter words="render-object">
+					<arg name="rendererModuleName">btvIsolateRenderer</arg>
+				</simpleCommandFilter>
+			</modePathRegexFilter>
+			<!-- version info -->
+			<simpleCommandFilter words="show setting">
+				<arg name="settingName">project-version</arg>
+			</simpleCommandFilter>
+			<simpleCommandFilter words="glue-engine show-version"/>
+			<!-- reference sequence -->
+			<modePathRegexFilter>
+				<regex>.*/reference/.*$</regex>
+				<simpleCommandFilter words="render-object"/>
+			</modePathRegexFilter>			
+		</modePathRegexFilter>
+	</requestGatekeeper> 
+</gluetools>
