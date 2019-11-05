@@ -5,9 +5,9 @@
 	
 	  console.log("document.location.hostname", document.location.hostname);
 	  var trackingID;
-	  if(document.location.hostname.indexOf("btv.glue.cvr.ac.uk") >= 0) {
-		  // BTV-GLUE production analytics account
-		  trackingID = 'UA-93741740-1';
+	  if(document.location.hostname.indexOf("btv-glue.cvr.gla.ac.uk") >= 0) {
+		  // BTV-GLUE -- CVR server, production analytics account
+		  trackingID = 'UA-151535350-1';
 		  ga('create', trackingID, 'auto');
 	  } else {
 		  // sandbox analytics account
