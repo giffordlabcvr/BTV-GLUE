@@ -122,6 +122,14 @@ function reportFastaWeb(base64, filePath) {
 	glue.inMode("module/fastaUtility", function() {
 		fastaDocument = glue.command(["base64-to-nucleotide-fasta", base64]);
 	});
+	var numSequencesInFile = fastaDocument.nucleotideFasta.sequences.length;
+	if(numSequencesInFile == 0) {
+		throw new Error("No sequences found in FASTA file");
+	}
+	var maxSequencesWithoutAuth = 50;
+	if(numSequencesInFile > maxSequencesWithoutAuth && !glue.hasAuthorisation("btvFastaAnalysisLargeSubmissions")) {
+		throw new Error("Not authorised to analyse FASTA files with more than "+maxSequencesWithoutAuth+" sequences");
+	}
 	return reportFastaMultiAux(fastaDocument, filePath);
 }
 
