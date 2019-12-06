@@ -1,6 +1,7 @@
 var recogniserResultObjs;
 var reverseHits = [];
 var multipleHits = [];
+var unrecognised = [];
 
 glue.inMode("module/btvSegmentRecogniser", function() {
 	recogniserResultObjs = glue.tableToObjects(glue.command(["recognise", "sequence", "-w", "excluded = false"]));
@@ -29,8 +30,10 @@ _.each(_.pairs(querySeqIdToHits), function(pair) {
 		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 			glue.command(["set", "field", "recogniser_segment", objs[0].categoryId.replace('S', '')]);
 		});
-	} else {
+	} else if(objs[0].direction == 'REVERSE') {
 		reverseHits.push(sequenceID);
+	} else {
+		unrecognised.push(sequenceID);
 	}
 	
 });
@@ -38,3 +41,4 @@ _.each(_.pairs(querySeqIdToHits), function(pair) {
 
 glue.logInfo("reverse hits", reverseHits);
 glue.logInfo("multiple hits", multipleHits);
+glue.logInfo("unrecognised", unrecognised);
