@@ -1052,7 +1052,7 @@
 <referenceSequence>REF_S10_GGrC_JX680466</referenceSequence>
 <recognitionCategory>
 <id>S1</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S1_GGrE_KX234078</referenceSequence>
 <referenceSequence>REF_S1_GGrC_MF124282</referenceSequence>
 <referenceSequence>REF_S1_GGrC_JN255156</referenceSequence>
@@ -1148,7 +1148,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S2</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S2_GGrG_Gt12_KT946760</referenceSequence>
 <referenceSequence>REF_S2_GGrG_Gt12_JX272500</referenceSequence>
 <referenceSequence>REF_S2_GGrG_Gt12_KX164080</referenceSequence>
@@ -1298,7 +1298,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S3</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S3_GGrE_KX234080</referenceSequence>
 <referenceSequence>REF_S3_GGrC_HM590643</referenceSequence>
 <referenceSequence>REF_S3_GGrC_MF124284</referenceSequence>
@@ -1394,7 +1394,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S4</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S4_GGrC_MF124285</referenceSequence>
 <referenceSequence>REF_S4_GGrC_KU744639</referenceSequence>
 <referenceSequence>REF_S4_GGrC_JN255157</referenceSequence>
@@ -1490,7 +1490,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S5</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S5_GGrE_KX695174</referenceSequence>
 <referenceSequence>REF_S5_GGrE_KR085415</referenceSequence>
 <referenceSequence>REF_S5_GGrD_KU761001</referenceSequence>
@@ -1589,7 +1589,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S6</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S6_GGrA_KT946756</referenceSequence>
 <referenceSequence>REF_S6_GGrA_JX272504</referenceSequence>
 <referenceSequence>REF_S6_GGrA_KX164084</referenceSequence>
@@ -1707,7 +1707,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S7</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S7_GGrD_JX272555</referenceSequence>
 <referenceSequence>REF_S7_GGrD_JX272435</referenceSequence>
 <referenceSequence>REF_S7_GGrD_KX164135</referenceSequence>
@@ -1810,7 +1810,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S8</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S8_GGrE_KX234085</referenceSequence>
 <referenceSequence>REF_S8_GGrC_JN255160</referenceSequence>
 <referenceSequence>REF_S8_GGrC_KU744640</referenceSequence>
@@ -1905,7 +1905,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S9</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S9_GGrC_MF124290</referenceSequence>
 <referenceSequence>REF_S9_GGrC_KU744641</referenceSequence>
 <referenceSequence>REF_S9_GGrE_KR085418</referenceSequence>
@@ -2014,7 +2014,7 @@
 </recognitionCategory>
 <recognitionCategory>
 <id>S10</id>
-<minimumBitScore>50</minimumBitScore>
+<minimumBitScore>130</minimumBitScore>
 <referenceSequence>REF_S10_GGrD_KU760996</referenceSequence>
 <referenceSequence>REF_S10_GGrD_EU839846</referenceSequence>
 <referenceSequence>REF_S10_GGrE_LN713679</referenceSequence>
