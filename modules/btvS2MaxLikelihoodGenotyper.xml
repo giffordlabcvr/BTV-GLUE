@@ -7,6 +7,7 @@
         <whereClause>clade_category = 'species'</whereClause>
         <distanceScalingExponent>-3.0</distanceScalingExponent>
         <distanceCutoff>2.00</distanceCutoff>
+        <internalDistanceCutoff>4.00</internalDistanceCutoff>
         <finalCladeCutoff>80.0</finalCladeCutoff>
     </cladeCategory>
     <cladeCategory>
@@ -15,6 +16,7 @@
         <whereClause>clade_category = 'genogroup'</whereClause>
         <distanceScalingExponent>-3.0</distanceScalingExponent>
         <distanceCutoff>0.35</distanceCutoff>
+        <internalDistanceCutoff>0.70</internalDistanceCutoff>
         <finalCladeCutoff>80.0</finalCladeCutoff>
     </cladeCategory>
     <cladeCategory>
@@ -23,6 +25,7 @@
         <whereClause>clade_category = 'genotype'</whereClause>
         <distanceScalingExponent>-3.0</distanceScalingExponent>
         <distanceCutoff>0.24</distanceCutoff>
+        <internalDistanceCutoff>0.48</internalDistanceCutoff>
         <finalCladeCutoff>80.0</finalCladeCutoff>
     </cladeCategory>
     <useSingleReference>true</useSingleReference>
