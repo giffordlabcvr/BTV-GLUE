@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ncbiImporter>
-  <!-- All BTV sequences up to the end of June 2018 -->
-  <eSearchTerm>"Bluetongue virus"[Organism] AND 1900/01/01:2018/06/30[MDAT]</eSearchTerm>
+  <!-- All BTV sequences up to 26/1/2020 -->
+  <eSearchTerm>"Bluetongue virus"[Organism] AND (1900/01/01:2020/01/26[MDAT] OR 1900/01/01:2020/01/26[PDAT])</eSearchTerm>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <!-- Maximum number of NCBI records to return. If omitted, defaults to 4000 -->

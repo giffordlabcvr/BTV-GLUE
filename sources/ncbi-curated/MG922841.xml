@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG922841</GBSeq_locus>
+    <GBSeq_length>1125</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-NOV-2018</GBSeq_update-date>
+    <GBSeq_create-date>19-NOV-2018</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus isolate KorL83915 NS2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MG922841</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG922841.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG922841.1|</GBSeqid>
+      <GBSeqid>gi|1512459202</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1125</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kim,H.-J.</GBAuthor>
+          <GBAuthor>Lee,J.-H.</GBAuthor>
+          <GBAuthor>Kim,S.-H.</GBAuthor>
+          <GBAuthor>Kang,H.-E.</GBAuthor>
+          <GBAuthor>Choi,J.-G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome sequence analysis of the bluetongue virus serotype 3 in South Korea</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1125</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kim,H.-J.</GBAuthor>
+          <GBAuthor>Lee,J.-H.</GBAuthor>
+          <GBAuthor>Kim,S.-H.</GBAuthor>
+          <GBAuthor>Kang,H.-E.</GBAuthor>
+          <GBAuthor>Choi,J.-G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-FEB-2018) Foreign Animal Disease Division, Animal and Plant Quarantine Agency, 177 Hyeoksin 8-ro, Gimcheon-si, Gyeongsangbuk-do 33960, South Korea</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: ChromasPro v. 2.1.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1125</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1125</GBInterval_to>
+            <GBInterval_accession>MG922841.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>KorL83915</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>South Korea</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..1084</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>1084</GBInterval_to>
+            <GBInterval_accession>MG922841.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>single-stranded RNA-binding protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AYV65197.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEQKQRKFTKNIFVLDVNAKTLCGVIAKQSSQPYCQIKIGRVIAFKPVKNPEPKGYVLNVPGPGAYRIQDGQDIISIMLTPSGVEATTERWEEWKFEGVSVTPMATRVQHNGVMVDAEIKYCKGMGIVQPYMRNDFDRNEMPDLPGVMRSNYDIRELRQKIKNEREMAPRPQIQSAAPREESRWMDEDEARVNEEIKEAASSVGRLERLREARTNMFKEVEAGVSWNLNHQSEEEADGGEDGDHANHQADEDEQGEDASDDEHPKTHITKEYIEKVAKQVKLKDERFMSLSSAMPQASGSFDRMIVTKKLKWQNVPLYCFDESTKRYELQCVGACERVAFVSKDMSLIILPVGV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaaatccttgagtcatggagcaaaagcaacgtaaatttactaagaacatctttgttttggatgtcaatgctaaaacattatgcggggtgatcgcgaaacagagttcacagccgtattgtcaaataaaaattggaagagtaatcgcttttaagccagttaaaaatccagaacccaagggttatgttttgaacgttccggggccaggtgcttatagaatacaggatggacaagatatcataagcataatgttaacaccgagtggggtggaggcgacgactgaaagatgggaagagtggaaatttgagggtgtgagtgtaacaccaatggcaacacgggtgcaacataatggagtgatggttgatgcagagataaagtactgtaaggggatgggaatcgtccaaccatatatgagaaatgattttgaccgaaatgagatgccggatctaccaggtgtaatgaggtccaattatgatattcgtgagcttcgacaaaagattaagaatgaacgtgagatggcaccgcgcccgcagatccagagcgcggcgccaagggaggagtcgcgttggatggatgaagatgaagcgagggtcaacgaagagataaaggaagctgcttcgagcgtgggcagattggagaggttgcgtgaggcaagaactaatatgtttaaagaagtagaggctggtgttagttggaatttgaatcatcaaagtgaggaggaggcggatggaggtgaagatggagatcatgctaatcatcaagccgatgaggatgaacagggtgaggacgctagcgatgacgaacatcctaagactcatatcacaaaagagtatatcgagaaggtcgcgaagcaggttaaactaaaggatgaacgatttatgagcttatcgagcgccatgccgcaagcaagtgggagctttgatcgtatgatagtcactaagaaattgaagtggcagaatgtaccactttactgttttgatgaatctactaaaaggtatgaattgcaatgcgtgggtgcgtgtgagcgtgttgcttttgtctctaaggacatgagcttgatcatattgccggtcggcgtttaggcgcttgtgaccgcgtggttagggggggattttacacttac</GBSeq_sequence>
+  </GBSeq>

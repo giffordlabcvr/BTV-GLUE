@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK014493</GBSeq_locus>
+    <GBSeq_length>2935</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-MAR-2019</GBSeq_update-date>
+    <GBSeq_create-date>23-MAR-2019</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus 16 strain BTV-16 13795/2010 VP2 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK014493</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK014493.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK014493.1|</GBSeqid>
+      <GBSeqid>gi|1593527074</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus 16</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus 16</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2935</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lorusso,A.</GBAuthor>
+          <GBAuthor>Marcacci,M.</GBAuthor>
+          <GBAuthor>Mangone,I.</GBAuthor>
+          <GBAuthor>Savini,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (02-OCT-2018) Virology Unit, Istituto Zooprofilattico Sperimentale Abruzzo e Molise, Campo Boario, Teramo, IT 64100, Italy</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: SPAdes v. 3.5.0 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2935</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2935</GBInterval_to>
+            <GBInterval_accession>MK014493.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus 16</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BTV-16 13795/2010</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>16</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>sheep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:45029</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Turkey</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2010</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>22..2901</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>2901</GBInterval_to>
+            <GBInterval_accession>MK014493.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QBM78839.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEELVIPIITRQFDKKLVGRYDYVIELMEPEDGEWSGHDVTEIPNRRMFDIKQQNIREAIEYKPVDNDGEVLPRILDMSIACYDMKKSMMKRDGVDFVSNTKWLEWMIGDSMDVQPLRVQLKEDHSTIQYGMFSNTLHIDSRKADTTSYHTIAVESKGERGCCHVHTAIWNHMVRNHLFNAVQEACYVFKPTYDLIVIGEKQNREDEFRIGEHNFYTITRNHHMRLGDNAYNQFMKGLVQLRVAGVTPNVIREEMAALDAIRDIWIGGNFERTHIKSLEICKLLSSIGRKMVNMEEEPKDERDLSVKFQFKLDDKFSTTDPERNVIFTHKTHRTNQDRFYVLLMIAASDTNNGRIWWSNPYPCLRGALIASECKLGDVYHKLRAWYEWSVRPEYKPRDLEREQEKYIVGRVNLFDLEGEPATKVFHWEYELINKVYQITNHTGNHCDLYPDDVEITAKFDEEKYGEMIQTIINEGWKHGDFKMFKILKEEGNPLLYDLEKDIRLDSRSQVIFPPYFNKWTHAPMFNAKVKPCEVELAQRKNEDPYVKRTVKPIRADCVDLLRYHMSHYMDVRVSMKGLSLAVKQTPSSIHQELAKDPLYPGFLQRRDENLDHKSVCPIVTNYFLLEKFYTLVLTIMEKHYWDLDDSDVTYEFPALDDSAYKTEGTLYDVSQVVVHMIDRFFERRRFLRSVDECRWILHLVRSTQSRDRLSVLKRFFPTFGEGLCVNNFRKVKDIMLLNFLPFFFLIGDNIAYEHRQWAVPLLFYADKIRVIPAEVGAYYNRFGLVSILELLTFFPSYEMRDNKVEEDVHACASAILDFYLTTTISNGGIQASIVSTKALLYETYLSSVCGGFSEAILWYLPITHPVKCLVALEVSDSLVDSNVRIDKIKRRFPLSHRHLRGVVQISVRPDRTFGVTTCGIVKHKICKKTLLKQRCDVILIQIPGYVFGNDELLTKLLNI</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaacgttagcctagagatggaggagctagttataccaatcataactcgtcaatttgataaaaaactagttgggcgttacgattacgtcattgaactgatggagccagaggatggcgagtggagtggccacgatgttacagagattccaaatagacgcatgtttgatatcaagcagcaaaatatcagagaggcaatagaatacaaacctgtagacaatgatggggaagttttaccgcgcattctagatatgtctattgcgtgttacgacatgaaaaagagcatgatgaagagggatggagtcgattttgtatccaacacaaaatggttagaatggatgataggagattcgatggacgtgcaacctctaagagtccaactgaaagaagatcacagtacaatacaatatgggatgttctcaaacacgttacacatcgattcaaggaaagcggataccacgtcatatcatacgattgctgtagaatcaaaaggggaacgtgggtgctgtcacgttcatacggcaatttggaatcacatggtacgtaatcacttgtttaacgccgtccaagaggcgtgctacgtgtttaagccgacgtatgatttaatagtgattggtgaaaagcagaatcgtgaggatgaatttaggattggcgaacataatttttataccataacacggaatcaccacatgcgtttaggcgacaacgcgtataatcaattcatgaagggtttggtacagttgcgcgtggcgggagtaacaccgaacgtgatacgagaggaaatggctgctttagacgcgataagagatatttggataggagggaacttcgagcgaacacacattaaatctcttgaaatatgtaagttattatccagcattggaagaaagatggttaacatggaggaggaaccaaaggatgaaagagacctatcagttaagtttcaatttaaactcgacgacaaattttcaacaactgatccggaaagaaacgtcatctttacacacaaaacacaccgtacgaatcaagatcgtttctatgtgttgctaatgattgcggcatcggatacaaataatggtagaatatggtggtcaaacccttatccatgtttacgtggcgcgttgatcgcgtctgaatgcaagcttggtgacgtgtaccataaattacgggcgtggtatgagtggagcgtaagacctgaatataaaccgcgagatttggagcgagaacaagaaaaatacatcgttgggcgcgttaacctctttgacttagaaggagagcctgcaacgaaggtatttcactgggagtacgaattgattaataaagtgtatcagataacgaatcatacggggaatcattgtgatttgtatcctgacgatgtagagatcacggctaaatttgatgaggagaaatacggagagatgattcaaacgataattaacgaaggatggaagcacggtgactttaagatgtttaagattctgaaggaggagggtaaccccttactatatgatctagagaaggacattaggttagatagtagatcacaagttatatttccaccatatttcaacaaatggacgcacgctccaatgtttaatgcgaaagtgaaaccatgcgaagtcgagttagcgcaacgaaagaatgaagacccttacgtaaagcgaacggtgaagcctatacgtgcggattgtgtcgatctgttaaggtatcacatgtcgcattacatggatgtgagagtgtcaatgaaggggcttagtttagcggttaaacagacgccatccagtattcatcaagaattggcgaaggatccattatatccaggttttctgcagaggagagatgaaaatttagatcataaatcggtatgtccaatcgtcacaaactatttcttattggagaagttctatactttagttttaactataatggaaaagcattattgggatttagatgatagtgatgttacgtatgagtttcccgcattggatgattcagcttacaagaccgagggaacgttgtatgatgtctcgcaagtggtagttcatatgattgatagattttttgagaggaggcgtttcttacgctcagtcgatgagtgcaggtggatattgcatttggtaaggtccacccaaagtcgggataggctgagcgttttaaagcgcttcttcccaacctttggtgagggattgtgtgtaaacaactttcgtaaagtaaaagatattatgctattaaattttctgccttttttctttttaatcggtgacaatatagcgtatgaacatagacagtgggcagtgcctttgctcttctacgcagataaaataagggttatacctgctgaggtgggtgcttattataatcgttttggattggtgagcatcttagagctgctaacattctttccctcgtatgaaatgcgtgataataaggttgaggaggatgtgcacgcatgcgcgagcgcgattctggatttctatctgacgacaactatttcaaatggaggtatacaggctagcatagtttcaactaaggcgttactttatgagacgtatctatcctcggtgtgtggcggtttttctgaagcgattctgtggtacctcccaattactcatccagttaagtgtttagtcgcgcttgaggtttcggactcgctagtagactcaaatgtacgtatcgacaaaattaaacgaagatttcctttatcccacaggcatttacgaggcgttgtccagatctctgtacggccagatcgcaccttcggcgtgacgacgtgtggtattgtaaagcataaaatatgtaaaaagactttgttgaagcagcggtgtgatgtaattttaatccagatcccgggttacgttttcggtaatgatgaattacttacgaagcttctaaatatttaatcccgtgacagggattgggcgcgtttacacttac</GBSeq_sequence>
+  </GBSeq>

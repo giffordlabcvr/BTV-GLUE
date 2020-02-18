@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MG924990</GBSeq_locus>
+    <GBSeq_length>1659</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-DEC-2018</GBSeq_update-date>
+    <GBSeq_create-date>11-DEC-2018</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus 5 isolate DPP9230 segment 5, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MG924990</GBSeq_primary-accession>
+    <GBSeq_accession-version>MG924990.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MG924990.1|</GBSeqid>
+      <GBSeqid>gi|1530829446</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus 5</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus 5</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Orbivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1659</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>White,J.R.</GBAuthor>
+          <GBAuthor>Williams,D.T.</GBAuthor>
+          <GBAuthor>Certoma,A.</GBAuthor>
+          <GBAuthor>Chen,H.</GBAuthor>
+          <GBAuthor>Wang,J.</GBAuthor>
+          <GBAuthor>Harvey,G.</GBAuthor>
+          <GBAuthor>DiRubbo,A.</GBAuthor>
+          <GBAuthor>Melville,L.F.</GBAuthor>
+          <GBAuthor>Davis,S.S.</GBAuthor>
+          <GBAuthor>Weir,R.P.</GBAuthor>
+          <GBAuthor>Lunt,R.A.</GBAuthor>
+          <GBAuthor>Eagles,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification and Genomic Characterization of the First Isolation of Bluetongue Virus Serotype 5 Detected in Australia</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1659</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>White,J.R.</GBAuthor>
+          <GBAuthor>Certoma,A.</GBAuthor>
+          <GBAuthor>Cheng,H.</GBAuthor>
+          <GBAuthor>Wang,J.</GBAuthor>
+          <GBAuthor>Harvey,G.</GBAuthor>
+          <GBAuthor>DiRubbo,A.</GBAuthor>
+          <GBAuthor>Melville,L.</GBAuthor>
+          <GBAuthor>Williams,D.T.</GBAuthor>
+          <GBAuthor>Eagles,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-FEB-2018) DSR - Molecular Diagnostics, CSIRO - Australian Animal Health Laboratory, 5 Portarlington Road, Geelong, Victoria 3219, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: ChromasPro v. 1.34; CLC Genomics Workbench v. 9.5.3 ; Sequencing Technology :: Illumina; Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1659</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1659</GBInterval_to>
+            <GBInterval_accession>MG924990.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus 5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>DPP9230</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>cattle</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:248909</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia: Beatrice Hill, Northern Territory</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lat_lon</GBQualifier_name>
+            <GBQualifier_value>12.643 S 131.30529 E</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>Jan-2015</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1659</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1659</GBInterval_to>
+            <GBInterval_accession>MG924990.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>non-structural tubule forming protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AZJ51183.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCAKQNFERAMIAATDAEEPIRAFRLIELAKEAMYDRETVWLQCFKSFSQPYEEDIEGKIKRCGAQLLEDYRKSGMMEEAVKQSALINSERVRLDDSLSAIPYIYVPIREGQIVNPTFISRYRQIAYYFYNPDAADDWIDPNLFGVRGQHHQIKREVERQINTCPYTGYRGGIFQVMYLPIQLINFLRMDDFAKHFNRYASMAIQQYLRVGYLEEIRYVQQLFGKVPTGEFPLHQMMLMKRDFPTRDRNIVEARVKRSGDENWQSWLLPMVLVREGLDQQEKWGWLLEYMDRKHTCQLCYLKHSKQMQTCSVIDVRASELIGCSPFRTVTIEEHVGNAPIFKTKLICDQQIGRIGDHYYTTSCYTGAEALVTTAIHIHRWIRGCGIWNDEGWQEGVFMLGRVLLRWELTKAQRSALLRLFCFVCYGYAPRADGTVPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITLCYAEKVHFASFTAPVCESGEVINLAARMSQMWMEY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggagcgctttttgagaaaatataacatcagtggagactatgctaacgccacgagaacttttttggctatttcacctcaatggacatgtagtcatttaaaaagaaattgtctgttcaatgggatgtgcgcgaagcaaaattttgaaagagcaatgatcgcagcgacggatgcggaagagccaataagggcattccgactgattgagttggctaaagaggcgatgtatgatcgagagactgtctggctacaatgctttaaaagcttttctcagccgtatgaggaagatatcgaaggcaaaataaagcgatgtggtgcgcagctactcgaagattaccgcaaaagtggaatgatggaggaagccgtaaagcaatctgctctgattaattcggagagagtcagattagatgattcactttctgctattccctatatctatgtccccataagagagggtcaaattgtgaacccaacgttcatttccagataccgtcagattgcgtattacttttacaaccctgatgcagctgatgactggatagatccaaacctatttggggttagaggacagcatcaccagatcaaacgagaagttgagagacaaatcaacacttgcccttacaccggatacagagggggaattttccaagtgatgtatttgccaattcagttgataaattttttaagaatggatgatttcgcaaaacattttaataggtacgcctcgatggctatacaacaatatttaagagttggatatttggaagagatcagatatgtgcaacaactatttgggaaggttccaaccggcgaatttccgctgcaccaaatgatgttaatgaaacgtgattttccaacacgtgatcgcaacatcgtagaagcacgtgtgaagaggtctggtgatgaaaattggcaaagttggctattaccaatggttctggtacgagaagggcttgaccagcaggaaaagtgggggtggcttctggaatatatggataggaaacatacatgccagctctgctatctaaaacactcaaaacagatgcagacgtgtagcgtaatagatgttcgtgcttcagagttgatcggttgctcacccttcaggaccgtgacgatcgaggaacatgtgggtaatgcgccgatttttaagactaagctaatctgtgaccagcaaatcggcagaattggggatcattactacacgacaagttgctacaccggagctgaagcattagttacgacagctattcacatacaccgatggattagaggatgtggtatctggaatgatgaaggatggcaggaaggagtgttcatgctggggcgtgtactactgagatgggagctcacgaaagcgcaacgcagtgcgctactcagactcttctgtttcgtctgttatgggtatgctcctcgtgcagacgggacagtgcctgattggaataatttaggtagttttctagacatcattttgaaaggaccggagcttagcgaagatgaggatgaaagagcttatgctacaatgtttgaaatggttagatgtattattaccttgtgctacgctgaaaaagtccacttcgctagttttaccgctccagtgtgtgaaagtggagaagtaattaacctcgccgctcgtatgtcacagatgtggatggagtattaa</GBSeq_sequence>
+  </GBSeq>

@@ -1,4 +1,4 @@
-
+glue.command(["multi-delete", "isolate", "-a"]);
 
 var isolateObjs;
 
