@@ -24,8 +24,8 @@
         <displayName>Genotype</displayName>
         <whereClause>clade_category = 'genotype'</whereClause>
         <distanceScalingExponent>-3.0</distanceScalingExponent>
-        <distanceCutoff>0.24</distanceCutoff>
-        <internalDistanceCutoff>0.48</internalDistanceCutoff>
+        <distanceCutoff>0.22</distanceCutoff>
+        <internalDistanceCutoff>0.44</internalDistanceCutoff>
         <finalCladeCutoff>80.0</finalCladeCutoff>
     </cladeCategory>
     <useSingleReference>true</useSingleReference>
