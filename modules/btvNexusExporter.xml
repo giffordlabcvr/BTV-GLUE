@@ -1,9 +1,5 @@
 <nexusExporter>
 	<freemarkerAnnotationGenerator>
-		<annotationName>glue_clade_plus_cluster</annotationName>
-		<template><![CDATA[<#list sequence.alignmentMemberships as memb><#if memb.alignment.name?startsWith('AL_')><#assign almt = memb.alignment.displayName!memb.alignment.name><#break></#if></#list>${almt!"-"}:${sequence.cluster_a!"-"}]]></template>
-	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
 		<annotationName>country_iso</annotationName>
 		<template>${renderNestedProperty('sequence.isolate.who_country.id')}</template>
 	</freemarkerAnnotationGenerator>
@@ -35,13 +31,9 @@
 		<annotationName>accession</annotationName>
 		<template>${renderNestedProperty('sequence.sequenceID')}</template>
 	</freemarkerAnnotationGenerator>
-	<freemarkerAnnotationGenerator>
-		<annotationName>seg2clade</annotationName>
-		<template>${renderNestedProperty('sequence.isolate.seg2clade.displayName')}</template>
-	</freemarkerAnnotationGenerator>
 	<figtreeProperty type="integer" name="tipLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty name="tipLabels.colorAttribute">cluster_tbe_n75_p20</figtreeProperty>
-	<figtreeProperty name="tipLabels.displayAttribute">accession_country_isolateS2genotype_year</figtreeProperty>
+	<figtreeProperty name="tipLabels.displayAttribute">accession</figtreeProperty>
 	<figtreeProperty type="integer" name="nodeLabels.fontSize">13</figtreeProperty>
 	<figtreeProperty type="boolean" name="nodeLabels.isShown">true</figtreeProperty>
 	<figtreeProperty name="nodeLabels.displayAttribute">transferBootstraps</figtreeProperty>

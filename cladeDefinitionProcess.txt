@@ -25,9 +25,7 @@ This process defines at a technical level how the clade definitions ar arrived a
 11. One avenue we explored was to use ClusterPicker to guide / support clade definitions. The script 
     generateClusterAnnotations.js works on the BTV_OUTG_CODON_* alignments and S*_og_rerooted.tree files to generate 
     alternative cluster annotations using different ClusterPicker parameters.
-12. The script buildDisplayTrees.js assumes that the rerooted trees have been loaded in to the phylogeny field of the
-    the BTV_OUTG_CODON_* alignments and outputs nexus trees for viewing in FigTree, with cluster annotations if these are 
-    available.
+12. This also saves the display trees.
 13. The team reviews the trees and decides on clades. Also reference sequences are selected for each clade.
 14. The results of these deliberations are captured in a JSON file json/S*_clade_structure_and_refs.json
     - Each segment's reference sequences are stored in a separate source: ncbi-s1-refseqs, etc.

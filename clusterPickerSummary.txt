@@ -1,6 +1,6 @@
 segment	clusterPicker	bootstrapType	nodeThreshold	pDistance	numSequences	clusters	singletons
 1	tbe_n75_p20	TBE	0.75	0.2	429	4	1
-2	tbe_n75_p24	TBE	0.75	0.24	727	31	6
+2	tbe_n75_p22	TBE	0.75	0.22	727	32	6
 2	tbe_n75_p35	TBE	0.75	0.35	727	11	0
 3	tbe_n75_p20	TBE	0.75	0.2	480	5	1
 4	tbe_n75_p20	TBE	0.75	0.2	440	5	2

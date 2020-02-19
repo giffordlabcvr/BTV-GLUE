@@ -778,6 +778,26 @@
           "cladeCategory": "genotype",
           "numericSortKey": "27",
           "constrainingRef": {
+            "sequenceID": "KM200718"
+          },
+          "referenceSequences": [
+            {
+              "sequenceID": "KM200718"
+            },
+            {
+              "sequenceID": "KU760988"
+            },
+            {
+              "sequenceID": "KU760998"
+            }
+          ]
+        },
+        {
+          "alignmentName": "AL_S2_GGrK_Gt28",
+          "almtDisplayName": "Genotype 28",
+          "cladeCategory": "genotype",
+          "numericSortKey": "28",
+          "constrainingRef": {
             "sequenceID": "KR061882"
           },
           "referenceSequences": [
@@ -789,15 +809,6 @@
             },
             {
               "sequenceID": "KX234079"
-            },
-            {
-              "sequenceID": "KM200718"
-            },
-            {
-              "sequenceID": "KU760988"
-            },
-            {
-              "sequenceID": "KU760998"
             }
           ]
         },

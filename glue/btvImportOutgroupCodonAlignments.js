@@ -6,7 +6,7 @@ _.each(segments, function(segment) {
 	// glue.inMode("module/btvBlastFastaAlignmentImporter", function() {
 	//	glue.command(["import", "BTV_OUTG_CODON_"+segment, "-f", "alignments/btvOutgroupCodon/BTV_OUTG_CODON_"+segment+".fna"]);
 	//});
-	// glue.command(["import", "alignment", "-f", "alignments/btvOutgroupCodon/BTV_OUTG_CODON_"+segment+".json"]);
+	glue.command(["import", "alignment", "-f", "alignments/btvOutgroupCodon/BTV_OUTG_CODON_"+segment+".json"]);
 	glue.log("FINEST", "Imported outgroup-codon alignment for segment "+segment);
 });
 

@@ -6,7 +6,7 @@ var segments = [
 	{ segNum: "2",
       masterRef: "JX680458",
 	  genogroupPThreshold: "35",
-	  genotypePThreshold: "24" },
+	  genotypePThreshold: "22" },
 	{ segNum: "3",
 	  masterRef: "JX680459",
 	  genogroupPThreshold: "20" },

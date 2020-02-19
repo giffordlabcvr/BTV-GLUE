@@ -4,7 +4,7 @@ glue.command(["delete", "module", "-w", "name like 'btvClusterPicker%'"]);
 
 var clusterPickers = [
 	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.20, segments: ["1", "3", "4", "5", "7", "8", "9", "10"] },
-	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.24, segments: ["2"] },
+	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.22, segments: ["2"] },
 	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.33, segments: ["6"] },
 	{ nodeThresholdType: "TBE", nodeThreshold:0.75, p_distance: 0.35, segments: ["2"] }
 ];
@@ -59,16 +59,6 @@ _.each(clusterPickers, function(clusterPicker) {
 	});
 });
 
-_.each(["btvNexusExporter", "btvNexusExporter_Seg2", "btvNexusExporter_Seg6"], function(nexusExporter) {
-	glue.inMode("module/"+nexusExporter, function() {
-		glue.command(["load", "configuration", "modules/"+nexusExporter+".xml"]);
-		_.each(clusterPickers, function(clusterPicker) {
-			var field = fieldForClusterPicker(clusterPicker);
-			glue.command(["add", "annotation-generator", "freemarker", field, "${sequence."+field+"!'-'}"]);
-		});
-	});
-});
-
 var summaryString = "segment\tclusterPicker\tbootstrapType\tnodeThreshold\tpDistance\tnumSequences\tclusters\tsingletons\n";
 
 _.each(segments, function(segment) {
@@ -119,15 +109,17 @@ _.each(segments, function(segment) {
 		}
 	});
 	
-	var nexusExporter = "btvNexusExporter";
-	if(segment == "2" || segment == "6") {
-		nexusExporter = "btvNexusExporter_Seg"+segment;
-	}
-	
-	glue.log("FINEST", "Exporting display tree for segment "+segment);
-	glue.inMode("module/"+nexusExporter, function() {
+	glue.inMode("module/btvNexusExporter", function() {
+		glue.command(["load", "configuration", "modules/btvNexusExporter.xml"]);
+		_.each(clusterPickers, function(clusterPicker) {
+			if(_.contains(clusterPicker.segments, segment) >= 0) {
+				var field = fieldForClusterPicker(clusterPicker);
+				glue.command(["add", "annotation-generator", "freemarker", field, "${sequence."+field+"!'-'}"]);
+			}
+		});
 		glue.command(["export", "tree", "BTV_OUTG_CODON_"+segment, 
-		              "-f", "trees/S"+segment+"_display.nexus"])
+	        "-f", "trees/phyloTrees/S"+segment+"_display.nexus"])
+		glue.log("FINEST", "Saved display tree for segment "+segment);
 	});
 
 	
