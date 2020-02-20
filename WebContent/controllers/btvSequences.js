@@ -28,7 +28,7 @@ projectBrowser.controller('btvSequencesCtrl',
                      "gb_update_date",
                      "isolate.id",
                      "isolate.display_name",
-                     "isolate.host"] );
+                     "isolate.host.display_name"] );
 			
 			$scope.initGlobalRegionFixedValueSet();
 			$scope.initDevelopmentStatusFixedValueSet();
@@ -46,7 +46,7 @@ projectBrowser.controller('btvSequencesCtrl',
   	            { property:"isolate.who_country.id", displayName: "Country of Origin" },
   	            { property:"isolate.collection_year", displayName: "Collection Year" },
   	            { property:"isolate.id", displayName: "Isolate Name" },
-  	            { property:"isolate.host", displayName: "Host Species" },
+  	            { property:"isolate.host.display_name", displayName: "Host Species" },
   	            { property:"isolate_segment", displayName: "Segment" },
   	            { property:"gb_length", displayName: "Sequence Length" }
               ]);
@@ -60,7 +60,7 @@ projectBrowser.controller('btvSequencesCtrl',
   	            { property:"complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
   	            { property:"isolate.who_country.display_name", nullProperty:"isolate.who_country", altProperties:["isolate.who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
-  	            { property:"isolate.host", displayName: "Host Species", filterHints: {type: "String"} },
+         		{ property:"isolate.host.display_name", nullProperty:"isolate.host", altProperties:["isolate.host.host_alternate_name.display_name"], displayName: "Host Species", filterHints: {type: "String"} },
   	            { property:"isolate.collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
   	            { property:"isolate.id", altProperties:["isolate.display_name", "isolate.alt_names"], displayName: "Isolate Name", filterHints: {type: "String"} },
   	            { property:"isolate.seg2clade.displayName", nullProperty:"isolate.seg2clade", altProperties:["isolate.seg2clade.name"], displayName: "Segment 2 Genotype", filterHints: {type: "String"} },

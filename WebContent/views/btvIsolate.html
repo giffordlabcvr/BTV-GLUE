@@ -21,7 +21,11 @@
 				</thead>
 				<tr>
 					<td><b>Host Species</b></td>
-					<td><em>{{handleNull(renderResult.isolate.host)}}</em></td>
+					<td><em>{{handleNull(renderResult.isolate.host)}}</em>
+					<span ng-if="renderResult.isolate.hostAlternateName.length > 0">
+					<br/>(<span ng-repeat="name in renderResult.isolate.hostAlternateName track by $index">{{($index > 0 ? ", " : "") + name}}</span>)
+					</span></td>
+					</td>
 				</tr>
 				<tr>
 					<td><b>Country of Origin</b></td>

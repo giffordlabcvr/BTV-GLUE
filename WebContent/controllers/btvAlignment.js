@@ -29,7 +29,7 @@ btvApp.controller('btvAlignmentCtrl',
                      "sequence.gb_update_date",
                      "sequence.isolate.id",
                      "sequence.isolate.display_name",
-                     "sequence.isolate.host"
+                     "sequence.isolate.host.display_name"
 					 ]);
 
 			$scope.initGlobalRegionFixedValueSet();
@@ -49,7 +49,7 @@ btvApp.controller('btvAlignmentCtrl',
   	            { property:"sequence.isolate.who_country.id", displayName: "Country of Origin" },
 	            { property:"sequence.isolate.collection_year", displayName: "Collection Year" },
 	            { property:"sequence.isolate.id", displayName: "Isolate Name" },
-	            { property:"sequence.isolate.host", displayName: "Host Species" }
+	            { property:"sequence.isolate.host.display_name", displayName: "Host Species" }
 	        ]);
 
   			$scope.pagingContext.setDefaultFilterElems([]);
@@ -63,7 +63,7 @@ btvApp.controller('btvAlignmentCtrl',
   	            { property:"sequence.complete_segment", displayName: "Complete Segment?", filterHints: {type: "Boolean"} },
   	            { property:"sequence.isolate.who_country.display_name", nullProperty:"sequence.isolate.who_country", altProperties:["sequence.isolate.who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
-	            { property:"sequence.isolate.host", displayName: "Host Species", filterHints: {type: "String"} },
+         		{ property:"sequence.isolate.host.display_name", nullProperty:"sequence.isolate.host", altProperties:["sequence.isolate.host.host_alternate_name.display_name"], displayName: "Host Species", filterHints: {type: "String"} },
 	            { property:"sequence.isolate.collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
 	            { property:"sequence.isolate.id", displayName: "Isolate Name", filterHints: {type: "String"} },
 	            { property:"sequence.isolate.sample_type", displayName: "Sample Type", filterHints: {type: "String"} },

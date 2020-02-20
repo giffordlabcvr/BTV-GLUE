@@ -2,6 +2,8 @@ schema-project btv
 
   create custom-table isolate --idFieldLength 200
   create custom-table publication
+  create custom-table host
+  create custom-table host_alternate_name
   
   table sequence
     create field gb_gi_number VARCHAR
@@ -37,7 +39,6 @@ schema-project btv
     exit
 
   table isolate
-    create field host VARCHAR
     create field display_name VARCHAR 300
     create field collection_year INTEGER 
     create field collection_month VARCHAR
@@ -52,6 +53,14 @@ schema-project btv
     create field alt_names CLOB
     # true iff isolate has at least one "complete segment" sequence for each of the 10 segments
     create field complete_genome BOOLEAN
+    exit
+
+  table host
+    create field display_name VARCHAR 100
+    exit
+
+  table host_alternate_name
+    create field display_name VARCHAR 100
     exit
 
   table publication
@@ -85,6 +94,10 @@ schema-project btv
   create link sequence who_country -m MANY_TO_ONE
 
   create link isolate sequence -m ONE_TO_MANY
+
+  create link isolate host -m ONE_TO_ONE
+
+  create link host host_alternate_name -m ONE_TO_MANY
 
   # direct link between isolate and relevant segment X clade.
   create link isolate -s seg1genogroup alignment -d seg1_genogroup_isolate -m MANY_TO_ONE

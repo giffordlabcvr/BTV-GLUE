@@ -8,7 +8,7 @@ ncbi-curated	AY189951	6	Italy	Sardinia	-	-	-	-
 ncbi-curated	AY263377	7	Brazil	-	-	-	-	-
 ncbi-curated	AY273207	10	Italy	Sardinia	-	-	-	Ovis aries
 ncbi-curated	AY386682	7	-	-	-	-	-	-
-ncbi-curated	AY438033	10	Italy	-	-	-	-	Culicoides sp.
+ncbi-curated	AY438033	10	Italy	-	-	-	-	Culicoides
 ncbi-curated	AY438034	10	Italy	-	-	-	-	-
 ncbi-curated	AY606206	7	India	-	-	-	-	-
 ncbi-curated	AY775152	10	South Africa	-	-	-	-	-

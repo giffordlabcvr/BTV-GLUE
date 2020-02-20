@@ -59,7 +59,12 @@
 <#if isolate ??>
 	<@elem tag="isolateID" expr="context.id" context=isolate/>
 	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>
-	<@elem tag="host" expr="context.host" context=isolate/>
+	<#if isolate.host ??>
+		<@elem tag="host" expr="isolate.host.display_name"/>
+		<#list isolate.host.host_alternate_name as aname>
+			<hostAlternateName glueType="String[]">${aname.display_name}</hostAlternateName>
+		</#list>
+	</#if>
 <#if isolate.who_country ??>
 	<@elem tag="collectionYear" expr="context.collection_year" context=isolate type="Integer"/>
 	<@elem tag="collectionMonth" expr="context.collection_month" context=isolate/>

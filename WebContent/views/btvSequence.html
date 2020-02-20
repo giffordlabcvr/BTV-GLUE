@@ -89,7 +89,10 @@
 				</tr>
 				<tr>
 					<td><b>Host Species</b></td>
-					<td><em>{{handleNull(renderResult.sequence.host)}}</em></td>
+					<td><em>{{handleNull(renderResult.sequence.host)}}</em>
+					<span ng-if="renderResult.sequence.hostAlternateName.length > 0">
+					<br/>(<span ng-repeat="name in renderResult.sequence.hostAlternateName track by $index">{{($index > 0 ? ", " : "") + name}}</span>)
+					</span></td>
 				</tr>
 				<tr>
 					<td><b>Country of Origin</b></td>

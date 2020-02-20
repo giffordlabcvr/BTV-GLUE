@@ -140,6 +140,7 @@ if(multiGroups.length > 0) {
 _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 	var isolatePK = pair[0];
 	var isolateObjs = pair[1];
+	//glue.log("FINEST", "isolatePK", isolatePK);
  	glue.command(["create", "custom-table-row", "isolate", isolatePK]);
 	
  	var seqIDs = [];
@@ -175,6 +176,8 @@ _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 				} else {
 					throw new Error("Failed to parse country string: \""+value+"\"");
 				}
+			} else if(field == "host") {
+				glue.command(["set", "link-target", "host", "custom-table-row/host/"+value.replace(" ", "_")]);
 			} else {
 				glue.command(["set", "field", field, value]);
 			}

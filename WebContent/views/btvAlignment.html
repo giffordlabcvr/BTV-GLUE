@@ -74,7 +74,7 @@
 						<td>{{member['sequence.gb_create_date']}}</td>
 						<td>{{member['sequence.gb_update_date']}}</td>
 						<td><a href="#project/isolate/{{member['sequence.isolate.id']}}" target="_blank">{{member['sequence.isolate.display_name']}}</a></td>
-						<td><em>{{handleNull(member['sequence.isolate.host'])}}</em></td>
+						<td><em>{{handleNull(member['sequence.isolate.host.display_name'])}}</em></td>
 						<td>{{member['sequence.isolate.who_country.display_name'] ? (member['sequence.isolate.who_country.display_name']+" ("+member['sequence.isolate.who_country.id']+")"):"-"}}</td>
 						<td>{{handleNull(member['sequence.isolate.collection_year'])}}</td>
 					</tr>

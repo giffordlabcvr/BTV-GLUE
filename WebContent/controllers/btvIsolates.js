@@ -289,7 +289,7 @@ btvApp.controller('btvIsolatesCtrl',
 	            { property:"id", displayName: "Name" },
   	            { property:"who_country.id", displayName: "Country of Origin" },
   	            { property:"collection_year", displayName: "Collection Year" },
-  	            { property:"host", displayName: "Host Species" },
+  	            { property:"host.display_name", displayName: "Host Species" },
 
             ]);
 
@@ -300,7 +300,7 @@ btvApp.controller('btvIsolatesCtrl',
   	            { property:"who_country.display_name", nullProperty:"who_country", altProperties:["who_country.id"], displayName: "Country of Origin", filterHints: {type: "String"} },
   	            $scope.globalRegionFilter(),
   	            $scope.developmentStatusFilter(),
-         		{ property:"host", displayName: "Host Species", filterHints: {type: "String"} },
+         		{ property:"host.display_name", nullProperty:"host", altProperties:["host.host_alternate_name.display_name"], displayName: "Host Species", filterHints: {type: "String"} },
          		{ property:"complete_genome", displayName: "Complete Genome?", filterHints: {type: "Boolean"} },
   	            { property:"seg1genogroup.displayName", nullProperty:"seg1genogroup", altProperties:["seg1genogroup.name", "seg1genogroup.minimal_name"], displayName: "Segment 1 Genogroup", filterHints: {type: "String"} },
   	            { property:"seg2genogroup.displayName", nullProperty:"seg2genogroup", altProperties:["seg2genogroup.name", "seg2genogroup.minimal_name"], displayName: "Segment 2 Genogroup", filterHints: {type: "String"} },

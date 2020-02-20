@@ -1,0 +1,20 @@
+LinneanName	AlternateNames
+Antilocapra americana	pronghorn, American antelope, prong buck, pronghorn antelope, prairie antelope
+Bos taurus	cattle, cow
+Canis familiaris	Canis lupus familiaris, dog, domestic dog
+Capra aegagrus hircus	Capra hircus, goat, domestic goat 
+Cervus elaphus corsicanus	Cervus corsicanus, Corsican red deer, Corsican deer, Sardinian deer
+Culicoides insignis	midge
+Culicoides obsoletus	midge
+Culicoides pulicaris	midge
+Culicoides sonorensis	midge
+Culicoides	midge
+Cervidae	deer
+Lama glama	llama
+Mazama nana	pygmy brocket, brocket, brocket deer
+Culicidae	mosquito
+Odocoileus hemionus	mule deer
+Odocoileus virginianus	white-tailed deer, whitetail, Virginia deer
+Ovis aries	sheep, domestic sheep
+Taurotragus oryx	common eland, southern eland, eland antelope
+Vicugna pacos	alpaca
