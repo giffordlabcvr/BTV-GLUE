@@ -1,3 +1,5 @@
+glue.command(["multi-delete", "publication", "-a"]);
+
 var pubObjs;
 
 function loadPublications(fileName) {

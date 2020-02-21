@@ -4,6 +4,8 @@ schema-project btv
   create custom-table publication
   create custom-table host
   create custom-table host_alternate_name
+  create custom-table sequence_publication
+  create custom-table isolate_publication --idFieldLength 250
   
   table sequence
     create field gb_gi_number VARCHAR
@@ -89,7 +91,11 @@ schema-project btv
   # WHO regions / countries etc (M49 standard)
   run file glue/who_countries/whoCountriesSchemaExtension.glue
 
-  create link sequence publication -m MANY_TO_ONE
+  create link sequence sequence_publication -m ONE_TO_MANY
+  create link publication sequence_publication -m ONE_TO_MANY
+
+  create link isolate isolate_publication -m ONE_TO_MANY
+  create link publication isolate_publication -m ONE_TO_MANY
     
   create link sequence who_country -m MANY_TO_ONE
 

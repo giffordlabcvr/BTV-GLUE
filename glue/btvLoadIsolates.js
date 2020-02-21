@@ -149,8 +149,8 @@ _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 		var metadataValues = {};
 		glue.command(["set", "field", "display_name", isolateObjs[0].isolate]);
 		_.each(isolateObjs, function(isolateObj) {
-			if(isolateObj.pub_id != null) {
-				isolateObjPubId = isolateObj.pub_id;
+			if(isolateObj.pub_id != null && isolateObj.pub_id.trim() != "UP") {
+				isolateObjPubId = isolateObj.pub_id.trim();
 			}
 			_.each(metadataFields, function(metadataField) {
 				if(isolateObj[metadataField] != null) {
@@ -183,12 +183,20 @@ _.each(_.pairs(isolatePKtoIsolateObjs), function(pair) {
 			}
 		});
 	});
-	// some sequence - publication associations are set in the isolate spreadsheet rather than the 
+	// some isolate - publication associations are set in the isolate spreadsheet rather than the 
 	// sequence XML.
 	if(isolateObjPubId != null) {
-		_.each(seqIDs, function(seqID) {
-			glue.inMode("sequence/ncbi-curated/"+seqID, function() {
-				glue.command(["set", "link-target", "publication", "custom-table-row/publication/"+isolateObjPubId]);
+		var singlePubIds = isolateObjPubId.split(',');
+		_.each(singlePubIds, function(singlePubId) {
+			var pubID = singlePubId.trim();
+			var isoPubId = isolatePK+":"+pubID;
+			glue.command(["create", "custom-table-row", "--allowExisting", "isolate_publication", isoPubId]);
+			
+			glue.inMode("custom-table-row/isolate/"+isolatePK, function() {
+				glue.command(["add", "link-target", "isolate_publication", "custom-table-row/isolate_publication/"+isoPubId]);
+			});
+			glue.inMode("custom-table-row/publication/"+pubID, function() {
+				glue.command(["add", "link-target", "isolate_publication", "custom-table-row/isolate_publication/"+isoPubId]);
 			});
 		});
 	}

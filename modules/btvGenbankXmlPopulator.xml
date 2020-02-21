@@ -205,10 +205,10 @@
 
 	</gbFeature>
 
-	<!-- This will link the sequence to the appropriate publication -->	
-	<gbReference>
+	<!-- This will link the sequence to the appropriate publications -->	
+	<gbReference allowMultiple="true">
 		<gbRefPubmed>
-			<propertyPopulator property="publication"/>
+			<joinTableLink joinTableName="sequence_publication" destTableName="publication"/>
 		</gbRefPubmed>
 	</gbReference>
 

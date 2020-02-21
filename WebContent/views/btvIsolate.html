@@ -124,8 +124,9 @@
 					<a href="#project/alignment/{{almtMember.alignmentName}}" target="_blank">{{almtMember.alignmentDisplayName}}</a>
 					</span></td>
 				<td ng-if="!seq.alignmentMembership">-</td>
-				<td ng-if="seq.publicationId"><a href="{{seq.publicationUrl}}" target="_blank">{{seq.publicationDisplayName}} [{{seq.publicationIndex}}] <i class="glyphicon glyphicon-link"></i></a></td>
-				<td ng-if="!seq.publicationId">-</td>
+				<td ng-if="seq.publication.length > 0">
+					<span ng-repeat="pub in seq.publication track by $index"><span ng-if="$index > 0"><br/></span><a href="{{pub.publicationUrl}}" target="_blank">{{pub.publicationDisplayName}} [{{pub.publicationIndex}}] <i class="glyphicon glyphicon-link"></i></a></td></span>
+				<td ng-if="seq.publication == null || seq.publication.length == 0">-</td>
 			</tr>
 		</tbody>
 	</table>

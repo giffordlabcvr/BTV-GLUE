@@ -57,16 +57,18 @@
 		</alignmentMembership>
 		</#if>
 		</#list>
-		<#if seq.publication??>
-			<#if !pubIDs?seq_contains(seq.publication.id)>
-			<#assign pubIDs = pubIDs + [ seq.publication.id ]>
-			<#assign pubs = pubs + [ seq.publication ]>
+		<#list seq.sequence_publication as seqPub>
+			<#if !pubIDs?seq_contains(seqPub.publication.id)>
+			<#assign pubIDs = pubIDs + [ seqPub.publication.id ]>
+			<#assign pubs = pubs + [ seqPub.publication ]>
 			</#if>
-			<publicationId>${seq.publication.id}</publicationId>
-			<publicationDisplayName>${seq.publication.authors_short}, ${seq.publication.year?c}</publicationDisplayName>
-			<publicationUrl>${seq.publication.url}</publicationUrl>
-			<publicationIndex>${pubIDs?seq_index_of(seq.publication.id)+1}</publicationIndex>
-		</#if>
+		<publication glueType="Object[]">
+			<publicationId>${seqPub.publication.id}</publicationId>
+			<publicationDisplayName>${seqPub.publication.authors_short}, ${seqPub.publication.year?c}</publicationDisplayName>
+			<publicationUrl>${seqPub.publication.url}</publicationUrl>
+			<publicationIndex>${pubIDs?seq_index_of(seqPub.publication.id)+1}</publicationIndex>
+		</publication>
+		</#list>
 	</sequence>
 </#list>
 
@@ -98,6 +100,14 @@
 	<hostAlternateName glueType="String[]">${aname.display_name}</hostAlternateName>
 </#list>
 </#if>
+
+
+<#list isolate_publication as isoPub>
+	<#if !pubIDs?seq_contains(isoPub.publication.id)>
+	<#assign pubIDs = pubIDs + [ isoPub.publication.id ]>
+	<#assign pubs = pubs + [ isoPub.publication ]>
+	</#if>
+</#list>
 
 
 	<#assign pubIdx = 1>	
