@@ -1,5 +1,6 @@
   # Populate certain fields using Genbank XML  
   module btvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
+  module btvGenbankXmlPopulator update join-table-links -w "source.name = 'ncbi-curated'"
 
   # populate gb_serotype: serotype as indicated in the GenBank record
   module btvGenbankXmlSerotypePopulator populate -w "source.name = 'ncbi-curated'"
