@@ -42,20 +42,20 @@
 	<updateDate>${renderProperty('gb_update_date')}</updateDate>
 	<@elem tag="length" expr="gb_length" type="Integer"/>
 	<@elem tag="segment" expr="isolate_segment" type="Integer"/>
-<#if publication ??>	
-	<publication>
-		<id>${publication.id}</id>
-		<displayName>${publication.authors_short}, ${publication.year?c}</displayName>
-		<title>${publication.title}</title>
-		<authors>${publication.authors_full}</authors>
-		<year>${publication.year?c}</year>
-		<journal>${publication.journal}</journal>
-		<url>${publication.url}</url>
-		<@elem tag="volume" expr="context.volume" context=publication/>
-		<@elem tag="issue" expr="context.issue" context=publication/>
-		<@elem tag="pages" expr="context.pages" context=publication/>
+<#list sequence_publication as seqPub>	
+	<publication glueType="Object[]">
+		<id>${seqPub.publication.id}</id>
+		<displayName>${seqPub.publication.authors_short}, ${seqPub.publication.year?c}</displayName>
+		<title>${seqPub.publication.title}</title>
+		<authors>${seqPub.publication.authors_full}</authors>
+		<year>${seqPub.publication.year?c}</year>
+		<journal>${seqPub.publication.journal}</journal>
+		<url>${seqPub.publication.url}</url>
+		<@elem tag="volume" expr="context.volume" context=seqPub.publication/>
+		<@elem tag="issue" expr="context.issue" context=seqPub.publication/>
+		<@elem tag="pages" expr="context.pages" context=seqPub.publication/>
 	</publication>
-</#if>
+</#list>
 <#if isolate ??>
 	<@elem tag="isolateID" expr="context.id" context=isolate/>
 	<@elem tag="isolateDisplayName" expr="context.display_name" context=isolate/>
