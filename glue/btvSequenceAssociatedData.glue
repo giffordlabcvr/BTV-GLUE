@@ -26,7 +26,9 @@
   # set false rather than null value for non-excluded fields
   multi-set field sequence -w "excluded = null" excluded false
 
+
   # load isolate data / metadata. As a side effect, isolate_segment on sequence table is populated.
+  run script glue/btvLoadHosts.js
   run script glue/btvLoadIsolates.js
 
   # derive alt-names for isolates
