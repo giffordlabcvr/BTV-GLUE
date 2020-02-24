@@ -5,8 +5,10 @@ btvApp.controller('btvIsolateCtrl',
 			addUtilsToScope($scope);
 
 			$scope.isolateID = $routeParams.isolateID;
-			$scope.glueObjectPath = "custom-table-row/isolate/"+$scope.isolateID;
-		
+			// necessary to use encodeURIComponent here because some isolate ids contain ? character
+			$scope.glueObjectPath = "custom-table-row/isolate/"+encodeURIComponent($scope.isolateID);
+			console.log("glueObjectPath, after encode URI", $scope.glueObjectPath);
+			
 			$controller('renderableObjectBaseCtrl', { 
 				$scope: $scope, 
 				glueObjectPath: $scope.glueObjectPath,

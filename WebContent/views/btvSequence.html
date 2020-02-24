@@ -84,7 +84,7 @@
 				<tr>
 					<td><b>Isolate</b></td>
 					<td><a ng-if="renderResult.sequence.isolateID" target="_blank"
-						href="#/project/isolate/{{renderResult.sequence.isolateID}}">{{renderResult.sequence.isolateDisplayName}}</a>
+						href="#/project/isolate/{{encodeURIComponent(renderResult.sequence.isolateID)}}">{{renderResult.sequence.isolateDisplayName}}</a>
 					</td>
 				</tr>
 				<tr>

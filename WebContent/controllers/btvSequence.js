@@ -8,6 +8,10 @@ projectBrowser.controller('btvSequenceCtrl',
 			$scope.sequenceID = $routeParams.sequenceID;
 			$scope.glueObjectPath = "sequence/"+$scope.sourceName+"/"+$scope.sequenceID;
 		
+			$scope.encodeURIComponent = function(string) {
+				return encodeURIComponent(string);
+			}
+			
 			$controller('renderableObjectBaseCtrl', { 
 				$scope: $scope, 
 				glueObjectPath: $scope.glueObjectPath,

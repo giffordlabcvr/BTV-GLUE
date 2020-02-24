@@ -62,7 +62,7 @@
 				</colgroup>
 				<tbody>
 					<tr ng-repeat="isolateResult in listIsolatesResult track by $index">
-						<td><a href="#project/isolate/{{isolateResult.isolate.id}}" target="_blank">{{isolateResult.isolate.displayName}}</a></td>
+						<td><a href="#project/isolate/{{encodeURIComponent(isolateResult.isolate.id)}}" target="_blank">{{isolateResult.isolate.displayName}}</a></td>
 						<td>{{isolateResult.isolate.country_iso == null ? "-" : isolateResult.isolate.country + " ("+isolateResult.isolate.country_iso+")"}}</td>
 						<td><em>{{handleNull(isolateResult.isolate.host)}}</em></td>
 						<td>{{handleNull(isolateResult.isolate.collectionYear)}}</td>

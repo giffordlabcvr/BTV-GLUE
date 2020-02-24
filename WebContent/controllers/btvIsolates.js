@@ -11,6 +11,10 @@ btvApp.controller('btvIsolatesCtrl',
 			
 			addUtilsToScope($scope);
 
+			$scope.encodeURIComponent = function(string) {
+				return encodeURIComponent(string);
+			}
+			
 			$scope.downloadIsolateMetadata = function() {
 				console.log("Downloading isolate metadata");
 				

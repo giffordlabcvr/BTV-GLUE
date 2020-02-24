@@ -34,6 +34,10 @@ projectBrowser.controller('btvSequencesCtrl',
 			$scope.initDevelopmentStatusFixedValueSet();
 
 			
+			$scope.encodeURIComponent = function(string) {
+				return encodeURIComponent(string);
+			}
+			
 			$scope.pagingContext.setDefaultSortOrder([
   			    { property: "sequenceID", displayName: "GenBank Accession", order: "+" }
   			]);

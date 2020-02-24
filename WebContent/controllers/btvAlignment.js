@@ -32,6 +32,11 @@ btvApp.controller('btvAlignmentCtrl',
                      "sequence.isolate.host.display_name"
 					 ]);
 
+			$scope.encodeURIComponent = function(string) {
+				return encodeURIComponent(string);
+			}
+
+			
 			$scope.initGlobalRegionFixedValueSet();
 			$scope.initDevelopmentStatusFixedValueSet();
 
