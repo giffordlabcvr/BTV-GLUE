@@ -13,8 +13,8 @@ project.version = scmVersion.version
 remotes {
   btvglue_cvr {
     host = 'btv-glue.cvr.gla.ac.uk'
-    user = 'sing01j'
-    identity = file('/Users/joshsinger/.ssh/btv-glue_id_rsa')
+    user = 'ok16n'
+    identity = file('/Users/evdoxiataka/.ssh/btv_glue_id_rsa')
   }
   
 }
@@ -141,7 +141,7 @@ task deployGluetoolsConfigBtvGlueCVR() {
   }
 }
 
-def glueConfigFile = System.getProperty("user.name").equals('joshsinger') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
+def glueConfigFile = 'remote-gluetools-config.xml'
 
 task wipeBtvGlueDB(type: Exec) {
 	commandLine "bash", "-c", "echo 'DROP DATABASE IF EXISTS BTV_GLUE; create database BTV_GLUE character set UTF8;' | mysql -u btvglue --password=btvglue"
@@ -153,7 +153,7 @@ task buildBtvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'btvProject.glue'
 }
 
-def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/Users/joshsinger/.ssh/github_id_rsa' : '/opt/bitnami/apps/jenkins/jenkins_home/.ssh/github_id_rsa'
+def scmCustomKey = '/Users/evdoxiataka/.ssh/github_id_rsa_old_format'
 
 scmVersion {
 	hooks {
