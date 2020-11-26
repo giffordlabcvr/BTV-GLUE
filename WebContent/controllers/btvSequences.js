@@ -38,8 +38,12 @@ projectBrowser.controller('btvSequencesCtrl',
 				return encodeURIComponent(string);
 			}
 			
-			$scope.pagingContext.setDefaultSortOrder([
+			/*$scope.pagingContext.setDefaultSortOrder([
   			    { property: "sequenceID", displayName: "GenBank Accession", order: "+" }
+  			]);*/
+			
+			$scope.pagingContext.setDefaultSortOrder([
+  			    { property: "gb_create_date", displayName: "GenBank Creation Date", order: "-" }
   			]);
 
   			
