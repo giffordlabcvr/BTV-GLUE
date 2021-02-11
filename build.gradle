@@ -13,8 +13,8 @@ project.version = scmVersion.version
 remotes {
   btvglue_cvr {
     host = 'btv-glue.cvr.gla.ac.uk'
-    user = 'ok16n'
-    identity = file('/Users/evdoxiataka/.ssh/btv_glue_id_rsa')
+    user = 'am589p'
+    identity = file('/Users/imacadmin/.ssh/btv_glue_id_rsa')
   }
   
 }
@@ -153,7 +153,7 @@ task buildBtvGlueDB(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	args '-c', glueConfigFile, '-i', 'run', 'file', 'btvProject.glue'
 }
 
-def scmCustomKey = '/Users/evdoxiataka/.ssh/github_id_rsa_old_format'
+def scmCustomKey = '/Users/imacadmin/.ssh/github_id_rsa'
 
 scmVersion {
 	hooks {
