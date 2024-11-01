@@ -1,3 +1,6 @@
+## BTV-GLUE: Phylogenomic analysis of Bluetongue Virus
+
+
 ### Background
 
 BTV-GLUE is a sequence-oriented resource for comparative genomic analysis of Bluetongue virus (BTV), developed using the GLUE software framework.
@@ -27,5 +30,36 @@ BTV's genome consists of 10 RNA segments, encoding structural and non-structural
 -   **Exploratory and Operational Applicability**: Suitable for research and public health applications, supporting exploratory studies and routine genomic surveillance of BTV.
 
 
+Usage
+-----
+
+GLUE provides an interactive command line environment designed for the development and use of GLUE projects by bioinformaticians. This environment includes productivity-oriented features such as command completion, command history, and interactive paging through tabular data.
+
+For detailed instructions on using BTV-GLUE for comparative genomic analysis, refer to the [GLUE reference documentation](http://glue-tools.cvr.gla.ac.uk/).
+
+Data Sources
+------------
+
+BTV-GLUE relies on the following data sources:
+
+-   [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
+-   [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
+
+Contributing
+------------
+
+We welcome contributions from the community! If you're interested in contributing to BTV-GLUE, please review our [Contribution Guidelines](./md/CONTRIBUTING.md).
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
+
+License
+-------
+
+The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+Contact
+-------
+
+For questions, issues, or feedback, please contact us at <gluetools@gmail.com> or open an issue on the [GitHub repository](https://github.com/giffordlabcvr/BTV-GLUE/issues).
 
 * * * * *
