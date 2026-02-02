@@ -13,7 +13,7 @@ schema-project btv
     create field gb_accession_version VARCHAR
     create field gb_length INTEGER
     create field gb_patent_related BOOLEAN
-    create field gb_organism VARCHAR
+    create field gb_organism VARCHAR 80
     create field gb_segment INTEGER
     create field gb_isolate VARCHAR 300
     create field gb_host VARCHAR 
