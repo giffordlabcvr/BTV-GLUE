@@ -11,6 +11,14 @@ BTV's genome consists of 10 RNA segments, encoding structural and non-structural
 
 **GLUE** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of custom projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated metadata. Projects are loaded into the GLUE "engine," creating a relational database that represents the semantic relationships between data items. This structure enables systematic comparative analyses and the development of robust, sequence-based resources.
 
+### Web Access
+
+You can also use some of BTV-GLUE's functionality via its web UI.
+
+**A web instance of HBV-GLUE incorporating extension layers is hosted by the University of Glasgow, and can be accessed [here](https://btv-glue.cvr.gla.ac.uk)**.
+
+⚠️ Note: Externally hosted websites may not reflect the latest builds. This repository reflects the current state of the resource.
+
 ## Features
 
 -   **Comprehensive Database**: Contains a curated collection of BTV sequences linked to isolates with detailed metadata, providing a robust foundation for comparative genomics.
