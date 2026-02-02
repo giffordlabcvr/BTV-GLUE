@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PV740664</GBSeq_locus>
+    <GBSeq_length>1156</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2025</GBSeq_update-date>
+    <GBSeq_create-date>10-JUN-2025</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus 3 isolate BTV-3/TUN35502.1.2 TUN2022 VP7 protein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>PV740664</GBSeq_primary-accession>
+    <GBSeq_accession-version>PV740664.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PV740664.1|</GBSeqid>
+      <GBSeqid>gi|2991375439</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus 3</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus 3</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1156</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sghaier,S.</GBAuthor>
+          <GBAuthor>Plebani,G.</GBAuthor>
+          <GBAuthor>Spedicato,M.</GBAuthor>
+          <GBAuthor>Marcacci,M.</GBAuthor>
+          <GBAuthor>Lorusso,A.</GBAuthor>
+          <GBAuthor>Hammami,S.</GBAuthor>
+          <GBAuthor>Ben Hassine,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-JUN-2025) Virology Unit, Izsam-Teramo, Via Campo Boario, Teramo, Te 64100, Italia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: iVar v. 1.3.1 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1156</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1156</GBInterval_to>
+            <GBInterval_accession>PV740664.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus 3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BTV-3/TUN35502.1.2 TUN2022</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Isolate</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Isolate</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:36423</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Tunisia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>03-May-2022</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>18..1067</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>18</GBInterval_from>
+            <GBInterval_to>1067</GBInterval_to>
+            <GBInterval_accession>PV740664.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP7 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XUS50269.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMVQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYVSMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSVLTILLLSTLADVYSVLRPEFAIHGVNPMPGPLTRAIARAAYA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaatctctagagatggacactatcgcagcaagagcgctcactgtaatgcgggcatgtgccacgttacaagaagcaagaattgtcttagaggcaaatgtgatggaaatattaggaatagcaatcaatagatataatggactaactctacgtggagttacgatgagaccgacttcattagctcaaagaaatgaaatgttttttatgtgtttagacatgatgctatcagcagcaggaatcaatgttggcccaatttcgcctgactatacgcaacacatggctaccataggtgtgttggcgacgcctgagataccgttcacgactgaggccgcgaatgagattgcgcgtgttaccggagagacttcaacttggggaccagcgcgccagccctacggttttttccttgaaactgaagaggtttatcagcctggaagatggtttatgcgagcagcgcaagttgttacaccagtggtttgtggaccagatatggttcaggtttcattgaatgcgggcgcgagaggcgatgtgcagcagatctttcaaggtcgcaatgatcccatgatgatttatttagtttggagacggatcgagaatttctctatgccgcagggtaactcacagcgtacgttggctggtgtcactgtaagcgtgggtggtgtggacatgagggcagggcgcataatcgcatgggatggacaggcagtgctacaaattcacaatccgacccagcaaaatgctatggtacaaatccaggtggtattctatgtttccatggataaaacgctcaaccagtaccctgcgttaacggcggaaatatttaatgtgtacagttttagagatcacacttggcatggactaaggaccgctatactaaacagaacaacccttccaaacatgttacccccaatctttccgccgaatgatcgagacagtgtactcacgatcctactactgtcaacgctcgcagatgtttattcggttttgagacctgagttcgcaatccacggcgtaaatccaatgcctggcccgcttacacgtgcgattgctcgcgccgcttacgcatagtccactttgcacgggtgtgggttatgcgggtggtgtgtcggttgcaagaaatatgtgtcttgtttaaacgtctctgggattgcacttac</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR872532</GBSeq_locus>
+    <GBSeq_length>385</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>ENV</GBSeq_division>
+    <GBSeq_update-date>01-JUN-2024</GBSeq_update-date>
+    <GBSeq_create-date>01-JUN-2024</GBSeq_create-date>
+    <GBSeq_definition>MAG: Bluetongue virus isolate BMLC1501 segment 8 genomic sequence</GBSeq_definition>
+    <GBSeq_primary-accession>OR872532</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR872532.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR872532.1|</GBSeqid>
+      <GBSeqid>gi|2624667264</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA1044033</GBSeq_project>
+    <GBSeq_keywords>
+      <GBKeyword>ENV</GBKeyword>
+      <GBKeyword>Metagenome Assembled Genome</GBKeyword>
+      <GBKeyword>MAG</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Bluetongue virus (insect metagenome)</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..385</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yang,L.</GBAuthor>
+          <GBAuthor>Yang,W.</GBAuthor>
+          <GBAuthor>Feng,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (24-NOV-2023) Department of Virus and Rickettsial Disease Prevention and Control, Yunnan Provincial Key Laboratory for Zoonosis Control and Prevention, Wenhua Road, Dali, Yunnan 671000, China</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Trinity v. 2.6.6 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..385</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>385</GBInterval_to>
+            <GBInterval_accession>OR872532.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BMLC1501</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>midge</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>environmental_sample</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>China: Yunnan</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>Yun Feng,Weihong Yang, and Lifen Yang</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>metagenome_source</GBQualifier_name>
+            <GBQualifier_value>insect metagenome</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>metagenomic</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaaatccttgagtcatggagcaaaagcaacgtaaatttacwaaraacatctttgttttggatgtcaatgctaaaacattatgcggggtgatcgcgaaacaaagttcacagccgtattgtcaaatwaaaattggaagagtaatcgcttttaagccagttaaaaatccagaacccaagggttatgtyttgaatgtcccgggaccaggtgcttacagaatacaggatggacaggatatcataagcatgatgttgacatcaagcggggtggaggcgacgactgaaagatgggaagagtggaaatttgaaggcgtgagcgtaacaccaatggcgacgcgggtgcaacataacggagtgatggtagatgcagaaataaagtattcc</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA1044033</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN38366881</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>Sequence Read Archive</GBXref_dbname>
+        <GBXref_id>SRR26915120</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

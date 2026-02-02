@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PV459732</GBSeq_locus>
+    <GBSeq_length>1981</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>15-APR-2025</GBSeq_update-date>
+    <GBSeq_create-date>15-APR-2025</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus isolate BTV1 SPA 2024/06 segment 4, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>PV459732</GBSeq_primary-accession>
+    <GBSeq_accession-version>PV459732.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PV459732.1|</GBSeqid>
+      <GBSeqid>gi|2954343319</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1981</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Aguero,M.</GBAuthor>
+          <GBAuthor>Villalba,R.</GBAuthor>
+          <GBAuthor>Bouzada,J.A.</GBAuthor>
+          <GBAuthor>Ruano,M.J.</GBAuthor>
+          <GBAuthor>Morales,J.</GBAuthor>
+          <GBAuthor>Buitrago,M.D.</GBAuthor>
+          <GBAuthor>Lopez-Herranz,A.</GBAuthor>
+          <GBAuthor>Tena-Tomas,C.</GBAuthor>
+          <GBAuthor>Dieguez-Roda,B.</GBAuthor>
+          <GBAuthor>Jimenez-Guerrero,L.</GBAuthor>
+          <GBAuthor>Cano,M.J.</GBAuthor>
+          <GBAuthor>Valero-Lorenzo,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-APR-2025) Central Veterinary Laboratory - Ministry of Agriculture, Fisheries and Food, Ctra. M-106, km 1, 4, Algete, Madrid 28110, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: BWAmem v. v0.7.17 ; Assembly Name :: BTV-1-SPA-Cod-O110-4p-BSR ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1981</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1981</GBInterval_to>
+            <GBInterval_accession>PV459732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>BTV1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BTV1 SPA 2024/06</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>goat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Spain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2024</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>9..1943</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>9</GBInterval_from>
+            <GBInterval_to>1943</GBInterval_to>
+            <GBInterval_accession>PV459732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>VP4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>core protein VP4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XQZ82341.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPEPHAVLYVTNELSHIVKSGFLPIWRLTGDESLNDLWLENGKYATDIYAYGDVSKWTIRQLRGHGFIFISTHKNIQLADIIKTVDVRIPREVAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHKVYGMPEIPPLYIEYAEIGTRFDDEPTDEKLVSMLDYIVYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPESSDPNVIVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRSQMDDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLRGYSHVDRHMHPDASVMKVVSRDVRKMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLEPSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQSKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGMREGASIDSWLELLRHL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaacatgcctgagccacacgcagtactctatgtcacaaacgagctctctcatattgtcaagagtggatttttaccaatatggagattaactggagatgaaagtttaaacgatttatggcttgaaaatgggaaatatgcgacagatatatatgcatacggagatgtatcaaaatggacgatacggcagctacgaggtcatggattcattttcataagtacacacaagaatatacagctggcggatatcattaaaacggtcgatgtccgcattcctcgggaagttgcaaaaagtcaagatatgaaagcgtttgaaaatgaaattggtagacgcagaatccgtatgcgtaagggatttggtgatgcgctgaggaattatgcctttaagatggctattgaatttcatgggtcggaagcggagacgttgaacgatgcaaatcctcgattgcataaagtttatggaatgccagagataccaccgctatacatcgaatatgcggagatcggaactagatttgacgatgagccaactgatgaaaagttagtatcgatgcttgattatatcgtatacagcgcggaggaggtgcactatgttggatgcggtgacttacgtaccttgatgcagtttaaaaaacgttcaccaggacggtttagaagagtattatggcacgtatatgacccaatagcaccagaatcttcagatccaaacgttatagttcataatgtcatggtagattcaaagaaagacattttgaaacatatgaattttttaaaacgtgttgaaagacttttcatatgggatgtgtcatcagatcgatcgcagatggatgatgatgaatgggagtcgaccagattcgcagaggataggttgggtgaggagatagcgtatgagatgggcggcgcgttttccagtgcattgattaaacataggataccgaattcaagagacgagtatcactgcatttcgacttatctcctcccccagccgggggctgatgcggatatgtacgaattaagaaattttatgagattgagaggctactcacatgtggatcgccacatgcatccagatgcctccgtaatgaaagttgtttcgcgtgatgtacgcaaaatggtcgaattgtatcatggtcgcgatcgtggcagatttctaaagaagaggctatttgaacaccttcatatcgtacgtaagaatgggttgttgcatgaaagtgatgaaccacgagcagatctgttttatttgaccaatcggtgcaacatgggattggaaccaagcatttatgaagtaatgaagaagtcggtgatcgctacagcctgggtaggtcgtgctcctctatatgattatgatgattacgcgttaccccgatccactgttatgctcaatggatcttaccgtgatatcagaattctagatggcaatggcgcaatcctatttctaatgtggaagtacccagatatcgtgaagaaagatttaacatatgatccagcgtgggcgatgaattttgctgtttcgttgaaggagccgatacccgatccccctgtgcccgatatttccctatgtagattcatcggactgcgcgttgagtcatctgtgttgagggtccgaaatccaacattacatgagacggctgatgaactaaaacggatggggttggatttgtctggtcatctatacgttacattgatgtccggcgcttatgtcacggatctgttctggtggtttaagatgattctcgactggtctgcgcaaagcaaggaacaaaaattacgtgatttaaagaggtctgcggcggaggtaatcgaatggaaggagcagatggccgagcgtccatggcacgtgaggaatgatctaattgcagcgctgagggaatataaacggaaaatggggatgagagagggagcctcgatcgattcgtggctagaattactgcgtcacttataatgcgtgactgctaggtgaggggggcatgtacaacttac</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PQ584057</GBSeq_locus>
+    <GBSeq_length>1978</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-MAR-2025</GBSeq_update-date>
+    <GBSeq_create-date>23-DEC-2024</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus isolate BTV3/CO/2015 segment 4, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>PQ584057</GBSeq_primary-accession>
+    <GBSeq_accession-version>PQ584057.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PQ584057.2|</GBSeqid>
+      <GBSeqid>gi|2946626497</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1978</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kopanke,J.</GBAuthor>
+          <GBAuthor>Sherman,T.J.</GBAuthor>
+          <GBAuthor>Burton,M.</GBAuthor>
+          <GBAuthor>Carpenter,M.</GBAuthor>
+          <GBAuthor>Dunham,T.</GBAuthor>
+          <GBAuthor>Mayo,C.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Complete genome of bluetongue virus serotype 3 isolated in 2015 from dairy cattle in Colorado</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1978</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kopanke,J.</GBAuthor>
+          <GBAuthor>Sherman,T.J.</GBAuthor>
+          <GBAuthor>Burton,M.</GBAuthor>
+          <GBAuthor>Carpenter,M.</GBAuthor>
+          <GBAuthor>Dunham,T.</GBAuthor>
+          <GBAuthor>Mayo,C.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (08-NOV-2024) Diagnostic Medicine Center, Colorado State University, 2450 Gilette Drive, Fort Collins, CO 80526, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Mar 28, 2025 this sequence version replaced PQ584057.1.; ##Assembly-Data-START## ; Assembly Method :: Bowtie2 v. 2.2.5 ; Assembly Name :: BTV3/CO/2015 ; Coverage :: Full ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1978</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1978</GBInterval_to>
+            <GBInterval_accession>PQ584057.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BTV3/CO/2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>dairy cattle</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA: CO</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2015</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>passage in bovine pulmonary artery endothelial cells</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>6..1940</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>6</GBInterval_from>
+            <GBInterval_to>1940</GBInterval_to>
+            <GBInterval_accession>PQ584057.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP4 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>XLS40397.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MPEPHAVLYVTNELSHIIKNGFLPIWRLTGDESLNDLWLENGKYATDVYAYGDVSKWTIRQLRGHGFIFISTHKNIQLADVIKTADVRIPREIAKSQDMKAFENEIGRRRIRMRKGFGDALRNYAFKMAIEFHGSEAETLNDANPRLHKIYGMPEIPPLYMEYAEIGTRFDDEPTDEKLVSMLDYIIYSAEEVHYVGCGDLRTLMQFKKRSPGRFRRVLWHVYDPIAPECLDSNVIVHNVMVDSKKDILRHMNFLKRVERLFIWDVSSDRSQMDDDEWESTRFAEDRLGEEIAYEMGGAFSSALIKHRIPNSRDEYHCISTYLLPQPGADADMYELRNFMRLKGYSHVDRHMHPDASVMKVVSRDVRKMVELYHGRDRGRFLKKRLFEHLHIVRKNGLLHESDEPRADLFYLTNRCNMGLEPSIYEVMKKSVIATAWVGRAPLYDYDDYALPRSTVMLNGSYRDIRILDGNGAILFLMWKYPDIVKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISLCRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMILDWSAQDKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGMREGASIDSWLELLRHL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaaacatgcctgagccacacgcagtactctatgtcacaaacgagctctctcatatcatcaagaatggatttttgccgatatggaggttaaccggagatgagagtctaaatgatctatggcttgaaaatggaaaatatgctacagatgtatatgcatacggagatgtttcaaaatggacaatacgacagttacgaggtcatggattcattttcataagtacgcataaaaacatacagctagctgatgtcattaagacggctgatgttcgcattcctcgagagatcgcaaaaagtcaggatatgaaagcgttcgaaaatgaaattggcagacgcaggattcgtatgcgtaagggatttggtgatgcgctgaggaattacgcctttaagatggctatcgaatttcacggatcagaggcagaaacgttaaacgatgcaaatcctcgactgcataaaatttatggaatgccagagataccgccgctatatatggagtatgcggagatagggactaggtttgatgatgagccaactgatgaaaaattagtgtcgatgcttgattatatcatttacagcgctgaagaggtgcactatgttggatgtggtgacctacgcacattaatgcagttcaaaaaacgatcaccagggcggtttagaagagtgttatggcatgtatatgatccgatagcgccagaatgtttagattcaaacgtcatagtgcacaacgtcatggtagattcaaagaaagacattttaagacatatgaatttcttaaaacgcgtcgagagacttttcatatgggatgtgtcgtcagatcgatcgcagatggatgatgacgagtgggaatcgaccagattcgcggaggatagattgggtgaagaaatagcttatgaaatgggcggtgcattctccagtgcattaatcaaacacagaataccgaattcaagggacgagtatcactgcatttcgacttatctgctcccccagccaggggccgatgcggatatgtatgaattaaggaactttatgagattgaagggttattcgcacgtagatcgtcacatgcatccagatgcctccgtaatgaaagttgtctcccgtgatgtgcgtaaaatggtcgaattgtatcacggtcgcgatcgtggtagatttctaaaaaagagactgtttgagcaccttcacatcgtacgtaagaacgggttgctgcatgagagtgatgaaccgcgagcagatctgttttacttgaccaaccggtgtaacatgggattagaacctagcatttatgaggtgatgaagaagtcggtgatagctacagcttgggtaggccgtgcgcccttatatgattatgatgattatgcgttacctagatcgaccgttatgctaaatggatcctaccgtgatatcagaatcctagatggcaatggtgcaatcttattcttaatgtggaagtatccggacatcgtaaagaaagatttgacatatgatccagcttgggcgatgaattttgctgtttcgttaaaagagccgatacctgatcctccggtgcctgacatctctctgtgtagattcattggattgcgtgttgaatcatccgtactaagggtccgaaatccaacactacatgagacggctgatgagctaaagcggatggggttggatttatctggccatttatatgtcacgttgatgtccggcgcttatgtcacagatttgttttggtggtttaagatgattcttgattggtctgcgcaggacaaggaacaaaaattacgtgatctaaaaaggtccgcggcagaagtaattgaatggaaggaacagatggccgaacgcccgtggcatgtgagaaacgatctgattgcagcactaagggaatacaaacggaaaatggggatgagagagggagcctcgattgattcgtggctggaattactgcgtcacttataatgcgtgactgctaggtgaggggggcatgtacaacttac</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW159106</GBSeq_locus>
+    <GBSeq_length>822</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>19-MAR-2022</GBSeq_update-date>
+    <GBSeq_create-date>19-MAR-2022</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus strain NET2006-06 segment 10, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MW159106</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW159106.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW159106.1|</GBSeqid>
+      <GBSeqid>gi|2207838348</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..822</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sanders,C.</GBAuthor>
+          <GBAuthor>Veronesi,E.</GBAuthor>
+          <GBAuthor>Rajko-Nenow,P.</GBAuthor>
+          <GBAuthor>Mertens,P.P.C.</GBAuthor>
+          <GBAuthor>Batten,C.</GBAuthor>
+          <GBAuthor>Gubbins,S.</GBAuthor>
+          <GBAuthor>Darpel,K.</GBAuthor>
+          <GBAuthor>Carpenter,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Natural reassortment of a segmented RNA arbovirus illustrates plasticity of phenotype in the arthropod vector and mammalian host in vivo</GBReference_title>
+        <GBReference_journal>bioRxiv (2021) In press</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>https://doi.org/10.1101/2021.08.09.455771</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..822</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rajko-Nenow,P.Z.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-OCT-2020) Non-Vesicular Reference Laboratory, The Pirbright Institute, Ash Road, Pirbright, Woking, Surrey GU24 0NF, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: BWA v. MEM ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..822</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>822</GBInterval_to>
+            <GBInterval_accession>MW159106.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>NET2006-06</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>BTV-8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>sheep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Netherlands</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>15-Aug-2006</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>20..709</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>20</GBInterval_from>
+            <GBInterval_to>709</GBInterval_to>
+            <GBInterval_accession>MW159106.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>NS3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>UNE55762.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFEMPLT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gttaaaaagtgtcgctgccatgctatccgggctgatccaaaggttcgaagaagaaaaaatgaaacataatcaagacagagttgaagagctgagtctagtacgtgtagatgacaccatctctcaaccaccaaggtatgctccgagtgcaccgatgccatcatctatgccaacggttgcccttgaaatattggacaaagcgatgtcaaacacaactggtgcaacgcaaacacaaaaggcggagaaggctgcattcgcatcgtacgcggaagcgtttcgtgatgatgtaagactgagacagatcaagcgccatgtgaacgagcagattttaccaaaattaaaaagtgatctaagtggattgaagaagaaacgagcaatcatacacactactctattagtagcggctgtggttgcgctgttgacatcagtttgtaccctttcaagcgatatgagtgtggcctttaagataaatggaactaaaacagaagtgccttcatggtttaaaagccttaacccgatgcttggcgtggtcaatttgggagcaacttttctgatgatggtttgcgcaaagagtgaaagagccttgaaccagcagatagatatgataaagaaggaagtgatgaagaaacaatcttataatgatgcggtgaggatgagttttacagagttctcgtcagtcccgctggatggtttcgaaatgccattaacctgaggacagtgtgtagagtggcgccccgaggtttacgtcgtgcagggtggttgacctcgcggcgtagactcccactgctgtataacgggggagggtgcgcgacactacacactgtc</GBSeq_sequence>
+  </GBSeq>

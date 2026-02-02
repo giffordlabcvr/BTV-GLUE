@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>LR797856</GBSeq_locus>
+    <GBSeq_length>787</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>06-JAN-2022</GBSeq_update-date>
+    <GBSeq_create-date>06-JAN-2022</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus 8 partial segment 10 gene for polyprotein, NS3 region, segment segment 10, strain BTV-8 CH2018-2, isolate V250.2, clone BH22/19-2_190164.6</GBSeq_definition>
+    <GBSeq_primary-accession>LR797856</GBSeq_primary-accession>
+    <GBSeq_accession-version>LR797856.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|LR797856.1|</GBSeqid>
+      <GBSeqid>gi|2174842774</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJEB38169</GBSeq_project>
+    <GBSeq_source>Bluetongue virus 8</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus 8</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..787</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hoffmann,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-MAY-2020) FRIEDRICH-LOEFFLER-INSTITUT (FLI), Suedufer 10, Germany</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..787</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>787</GBInterval_to>
+            <GBInterval_accession>LR797856.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus 8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BTV-8 CH2018-2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>serotype 8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>V250.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>EDTA blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ovis aries</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:197780</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>segment 10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>BH22/19-2_190164.6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>Switzerland:Aargau</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Oct-2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;7..696</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7</GBInterval_from>
+            <GBInterval_to>696</GBInterval_to>
+            <GBInterval_accession>LR797856.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>segment 10</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;7..696</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>7</GBInterval_from>
+            <GBInterval_to>696</GBInterval_to>
+            <GBInterval_accession>LR797856.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>segment 10</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>NS3 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAB4246954.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MLSGLIQRFEEEKMKHNQDRVEELSLVRVDDTISQPPRYAPSAPMPSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILPKLKSDLSGLKKKRAIIHTTLLVAAVVALLTSVCTLSSDMSVAFKINGTKTEVPSWFKSLNPMLGVVNLGATFLMMVCAKSERALNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLDGFEMPLT</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gctgccatgctatccgggctgatccaaaggttcgaagaagaaaaaatgaaacataatcaagacagagttgaagagctgagtctagtacgtgtagatgacaccatctctcaaccaccaaggtatgctccgagtgcaccaatgccatcatctatgccaacggttgcccttgaaatattggacaaagcgatgtcaaacacaactggtgcaacgcaaacacaaaaggcggagaaggctgcattcgcatcgtacgcggaagcgtttcgtgatgatgtaagactgagacagatcaagcgccatgtgaacgagcagattttaccaaaattaaaaagtgatctaagtggattgaagaagaaacgagcaatcatacacactactctattagtagcggctgtggttgcgctgttgacatcagtttgtaccctttcaagcgatatgagtgtggcctttaagataaatggaactaaaacagaagtgccttcatggtttaaaagccttaacccgatgcttggcgtggtcaatttgggagcaacttttctgatgatggtttgcgcaaagagtgaaagagccttgaaccagcagatagatatgataaagaaggaagtgatgaagaaacaatcttataatgatgcggtgaggatgagttttacagagttctcgtcagtcccgctggatggtttcgaaatgccattaacctgaggacagtaggtagagtggcgccccgaggtttacgtcgtgcagggtggttgacctcgcggcgtagactcccactgctgtataacgggggagg</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJEB38169</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

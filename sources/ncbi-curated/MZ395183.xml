@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MZ395183</GBSeq_locus>
+    <GBSeq_length>2937</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-FEB-2024</GBSeq_update-date>
+    <GBSeq_create-date>08-MAR-2022</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus 8 isolate 8438 segment 2, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>MZ395183</GBSeq_primary-accession>
+    <GBSeq_accession-version>MZ395183.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MZ395183.2|</GBSeqid>
+      <GBSeqid>gi|2675936104</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_project>PRJNA718723</GBSeq_project>
+    <GBSeq_source>Bluetongue virus 8</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus 8</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2937</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mlingo,T.A.M.</GBAuthor>
+          <GBAuthor>Beeton-Kempen,N.</GBAuthor>
+          <GBAuthor>Mokoena,N.B.</GBAuthor>
+          <GBAuthor>Lebea,P.J.</GBAuthor>
+          <GBAuthor>Theron,J.</GBAuthor>
+          <GBAuthor>Nthangeni,B.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-JUN-2021) Research And Development: Virology, Onderstepoort Biological Products SOC Ltd, 100 Old Soutpan Road, Pretoria, Gauteng 0110, South Africa</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Feb 16, 2024 this sequence version replaced MZ395183.1.; ##Assembly-Data-START## ; Assembly Method :: CLC Genomics Workbench v. 9.5.3 ; Sequencing Technology :: Illumina; IonTorrent ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2937</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2937</GBInterval_to>
+            <GBInterval_accession>MZ395183.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus 8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>RSA/OBP/BTV8/LAV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>8438</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ruminant</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:197780</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>South Africa</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>1937</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>50E 3BHK 10Pa 9BHK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>16..2901</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>16</GBInterval_from>
+            <GBInterval_to>2901</GBInterval_to>
+            <GBInterval_accession>MZ395183.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>16..2901</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>16</GBInterval_from>
+            <GBInterval_to>2901</GBInterval_to>
+            <GBInterval_accession>MZ395183.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>outer capsid protein VP2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ULT60653.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEELAIPIYTNVFPAELLDGYDYIIDISSRVEEEGDEPVKRHDVTEIPRNSMFDIKDEHIRDAIIYKPVNNDGYVLPRVLDITLKAFDDRKRVILNDGHSEFHTKSNWVQWMIDDAMDVQPLKVDIAHTRSRISHALFNCTVRLHSKKADTASYHVEPVEIESRGCNHTWLGRIHHLVNVELFHCSQEAAYALKPTYKIISNAERASTSDSFNGIMIELGRNHQIQMGDQGYQKLKEGLVQVRIEGKTPLAIQEEITALNKIREQWIARNFDQREIKVLDLCRLLSTIGRKMCNTEEEPKNEADLSVKFQMELDEIFRPGNNERTNIMGGGVHRKNEDRFYVLIMIAASDTNKGRIWWSNPYPCLRGALIAAEVQLGDVYNLLRNWFQWSIRPTYVPYDRNRDSDKYIYSRINLFDSTLKPGDKIVHWEYELLDEVREVSISKGNECDLFPEDEEFTTKFHEARYTEMKNQIIQSGWNQRDFKMHKILEDGANVLTIDFEKDAHIGTGSALSLPDYYNKWIIAPMFNAKLRITEVVIGTAHTDDPAVGRSAKAFTHDPFDLQRYCLARYYDVRPGMMGRALSKQQNMSSMTDKLSKQEDYSGIVSRRLEYRERESRCLTETAQYVFEKTCLYVLELLSKHTMPSEDSEVTFEHPTVDPNIDIETWKIIDVSQLIIFVFDYLFENRKIVRDTTEARWTLFKIRSEVGRARIDAIEMTFPRFGRMLRNVSQAKINQEIACLNFLPLLFIIGDNISYAHRQWSIPVLLYAHDIRIIPLEVGAYNNRFGLTSYLEYMTFFPSYATRLAKIDESIKECAIAMAEFYMNTDIHSGGVMSNVITTKRLLYETYLASLCGGYSDGLLWYVPITHPSKCLVAFEVADDVVPLSVRRERILSRFPLSSRHVKGIALISVDRNQKVSVQTEGIVTHRLCKKNLLKYVCDVILFKFSGHVFGNDEMLTKLLNV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taaaatagcgtcgcgatggaggagctagcaattccgatttatacaaatgtattcccagcggaacttttagatgggtatgattacatcattgacattagtagtcgtgttgaagaggaaggtgatgagcccgttaaacgacacgatgtgacagaaattcctagaaattcaatgtttgatatcaaagatgaacatatacgtgatgcgattatatacaaaccagtcaataatgatggatacgtactaccgagagtattggatatcacgttgaaagcctttgatgaccggaagagggttattttgaatgatggtcatagcgagtttcacacgaaatcgaattgggttcaatggatgatcgatgacgcaatggatgttcagcctcttaaggtagatatcgcccacacgcgctcaaggatcagccacgcactcttcaattgtacggtgcgattgcactcaaaaaaggctgacaccgcatcttatcatgtcgaaccagttgaaattgaatcgcgagggtgtaaccacacatggttgggtagaattcatcatttagtcaatgttgaattatttcattgctcgcaagaagcagcgtatgcattaaaacctacatataagataatatcaaatgcggaacgtgcatcaacgagtgattcttttaatggaattatgattgaattaggtcgtaatcatcaaattcaaatgggcgaccaaggataccagaagttgaaagaagggttggtacaagttagaattgaagggaagacgcctttggcgatacaagaggaaataaccgctttgaataaaataagagaacaatggatcgctcggaacttcgatcaaagggaaatcaaggttctagatttgtgtaggctgttgtctacaataggtaggaagatgtgcaataccgaagaagaacccaagaatgaagctgatctttcagtaaaattccaaatggagcttgacgaaatatttcgaccggggaacaacgaacgtaccaacattatggggggcggagtacatcgaaaaaatgaggacagattttacgtactaattatgatcgctgcatccgacaccaataagggtcgtatatggtggagcaatccgtatccctgcctacgtggagcattaattgccgctgaagtccaattaggtgatgtttacaatcttttaaggaattggtttcaatggagcatacgacctacttatgtaccttacgataggaatagagacagtgataagtatatctatagtagaatcaacctatttgattcaaccctgaagccaggcgacaaaatagtacactgggagtatgagttacttgatgaggtacgagaggttagcatcagcaaaggtaatgagtgcgatctgttccctgaggatgaagagtttaccaccaagttccatgaggcgcggtatacggagatgaagaatcaaattatccaaagtggatggaatcaacgagatttcaaaatgcataaaatactagaggatggcgcaaatgtattgacgatcgattttgagaaggatgcgcacatcggcacagggtcagctctaagtttgccggattactataacaaatggataattgcgccaatgtttaacgctaagttacgcattaccgaggttgtgattggaacagctcacaccgatgacccggctgtgggacgcagcgcgaaagcgtttacacatgatccttttgatttgcagcgatattgtctggcgagatactatgatgtacgacctggtatgatgggccgcgctctctctaagcaacagaatatgtcgtcaatgactgataaactctctaagcaggaggattactcagggattgtttcaaggcgtttagaatacagggagcgagagagcagatgcttgacggagacagcgcagtatgtatttgagaaaacgtgcttatacgtactagagttattgagtaaacatacgatgccttcggaggattctgaagtaacgtttgaacacccaacagtcgatcccaacatcgatattgagacgtggaaaataatcgacgtttcgcaactgatcatattcgtatttgattacttgtttgagaaccgaaagatcgtgagggatactaccgaggcgaggtggacgcttttcaaaataagatcagaagtaggacgagccaggattgacgcgatagagatgacttttcctcggtttggacgtatgctaagaaatgtgtctcaggcaaagataaatcaagagattgcgtgtttgaattttcttccactacttttcatcataggtgataacatatcttacgcacatagacagtggagtataccggtgctgctgtacgcgcacgatattcgaattatacctttggaggttggagcgtacaataatcgttttgggctgacgtcgtacttagagtatatgactttctttccatcgtacgctactagattagctaagattgacgagtcgatcaaggagtgcgcgattgcaatggctgaattttatatgaacaccgatatccatagtgggggtgtgatgagtaacgtgattacgaccaaacgactattgtatgaaacgtacttagcttcgctatgcggtggttactcggatggattgctttggtatgtgccaattacacacccctcgaaatgcttagtcgccttcgaggtagctgatgacgtagttccactctcagtaaggcgggaacgtattctatctaggtttcctttaagctcaagacacgtcaaggggattgcgctgatctcggtggataggaatcaaaaggtatcggtccaaacagagggtattgtgacacatcgtctctgtaaaaagaatctgttaaagtacgtgtgcgatgttattcttttcaagttctctggacacgtttttgggaatgatgagatgttaactaaactgctcaatgtatagctctcgtgactgagagctcgcgcgctatcaacttac</GBSeq_sequence>
+    <GBSeq_xrefs>
+      <GBXref>
+        <GBXref_dbname>BioProject</GBXref_dbname>
+        <GBXref_id>PRJNA718723</GBXref_id>
+      </GBXref>
+      <GBXref>
+        <GBXref_dbname>BioSample</GBXref_dbname>
+        <GBXref_id>SAMN19005890</GBXref_id>
+      </GBXref>
+    </GBSeq_xrefs>
+  </GBSeq>

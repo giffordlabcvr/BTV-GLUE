@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR917939</GBSeq_locus>
+    <GBSeq_length>1024</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-JAN-2024</GBSeq_update-date>
+    <GBSeq_create-date>25-DEC-2023</GBSeq_create-date>
+    <GBSeq_definition>Bluetongue virus isolate BTV6_CO_2021_Cervid VP7 protein (VP7) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>OR917939</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR917939.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR917939.1|</GBSeqid>
+      <GBSeqid>gi|2637867138</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Bluetongue virus</GBSeq_source>
+    <GBSeq_organism>Bluetongue virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus caerulinguae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1024</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sherman,T.J.</GBAuthor>
+          <GBAuthor>Carpenter,M.J.</GBAuthor>
+          <GBAuthor>Rodgers,C.R.</GBAuthor>
+          <GBAuthor>Torchetti,M.K.</GBAuthor>
+          <GBAuthor>Fox,K.A.</GBAuthor>
+          <GBAuthor>Burton,M.</GBAuthor>
+          <GBAuthor>Mayo,C.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Recovery of multireassortant bluetongue virus serotype 6 sequences from a mule deer (Odocoileus hemionus) and Dorset sheep (Ovis aries) in Colorado</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1024</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sherman,T.J.</GBAuthor>
+          <GBAuthor>Carpenter,M.J.</GBAuthor>
+          <GBAuthor>Rodgers,C.R.</GBAuthor>
+          <GBAuthor>Torchetti,M.K.</GBAuthor>
+          <GBAuthor>Fox,K.A.</GBAuthor>
+          <GBAuthor>Burton,M.</GBAuthor>
+          <GBAuthor>Mayo,C.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-DEC-2023) Microbiology, Immunology, &amp; Pathology, Colorado State University, 200 W. Lake St., Fort Collins, CO 80526, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: bwa-mem v. 2.2.1 ; Coverage :: Partial ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1024</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1024</GBInterval_to>
+            <GBInterval_accession>OR917939.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Bluetongue virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>serotype</GBQualifier_name>
+            <GBQualifier_value>6</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>BTV6_CO_2021_Cervid</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>whole blood</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Odocoileus hemionus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:40051</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>segment</GBQualifier_name>
+            <GBQualifier_value>7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>geo_loc_name</GBQualifier_name>
+            <GBQualifier_value>USA: CO</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2021</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1024</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1024</GBInterval_to>
+            <GBInterval_accession>OR917939.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP7</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..986</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>986</GBInterval_to>
+            <GBInterval_accession>OR917939.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>VP7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>VP7 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WQL57430.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IVLEANVMEILGIAINRYNGLTLRGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTEAANEIARVTGETSTWGPARQPYGFFLETEEVYQPGRWFMRAAQVVTPVVCGPDMVQVSLNAGARGDVQQIFQGRNDPMMIYLVWRRIENFSMPQGNSQRTLAGVTVSVGGVDMRAGRIIAWDGQAVLQIHNPTQQNAMVQIQVVFYVSMDKTLNQYPALTAEIFNVYSFRDHTWHGLRTAILNRTTLPNMLPPIFPPNDRDSILTILLLSTLADVYSVLRPEFAIHGVNPMPGPLTRAIARAAYA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaattgtcctagaagcaaatgtaatggagatactgggaatagcgatcaatagatataatggattaactctacgtggagttacgatgagaccaacttcattagctcaaagaaatgaaatgtttttcatgtgtttagatatgatgttgtcagcagcaggaattaacgtcggaccaatctcacccgattatacacaacatatggctaccataggtgtgctggcgacgcctgaaataccgttcacaactgaggcggcgaacgagattgctcgtgttacaggagagacctcaacatggggaccagcgcgtcagccttacggatttttccttgaaactgaagaggtttatcaacctgggagatggtttatgcgagctgctcaagttgttacaccagtggtttgtggaccagatatggttcaggtttcactgaacgcaggtgcgagaggtgatgtgcagcagatctttcaaggtcgtaatgatcccatgatgatttatttagtttggagacggatcgagaacttctccatgccgcagggtaattcgcagcgcacgttagctggcgtcactgtgagtgtgggtggtgtggatatgagagcggggcgcataatcgcatgggatggacaggcggtgctacaaattcacaatccgactcagcagaacgctatggtacaaattcaagtggtgttttacgtttccatggataagacgctcaatcagtaccctgcgctaacggcagaaatatttaatgtgtacagctttagagaccacacttggcatggactgaggaccgctatactaaacagaacaacgcttccaaatatgttacctccaatctttccgccgaatgatcgggacagtatactcacgatcctgctactgtcgactctcgcagatgtttattcagttctgagacctgagtttgcaatccacggcgtaaatccaatgcctggcccgcttacacgtgcgattgctcgcgccgcttacgcatagtccactttgcacgggtgtgggttatgcgagtggtgtgt</GBSeq_sequence>
+  </GBSeq>
